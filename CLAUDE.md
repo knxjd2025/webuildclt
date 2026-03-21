@@ -94,3 +94,19 @@ These need real assets before launch:
 - Contact form email integration is commented out (needs Resend API key or WP Gravity Forms setup)
 - Google verification code in `layout.tsx` metadata is placeholder
 - Portfolio items on homepage are hardcoded placeholders (not fetched from WordPress)
+
+## Design Loop Log
+
+### /design:audit — Phase 1
+- **Files:** globals.css, layout.tsx, Header.tsx, Footer.tsx
+- **What changed:**
+  - Added prefers-reduced-motion, touch-action: manipulation, focus-visible states, text-wrap: balance on headings
+  - Added skip link for keyboard accessibility in layout.tsx
+  - Fixed transition-all → explicit transition properties on header
+  - Added aria-hidden on decorative icons, aria-expanded + keyboard support on services dropdown
+  - Fixed heading hierarchy in footer (h3 → h2)
+  - Reordered services navigation: commercial services listed first
+  - Updated all metadata/descriptions to lead with commercial construction focus
+  - Removed placeholder Google verification code, added theme-color meta
+- **Why:** Foundation compliance with Vercel Web Interface Guidelines — accessibility, performance, and SEO baseline
+- **Commit:** design:audit — fix Web Interface Guidelines violations across foundation files
