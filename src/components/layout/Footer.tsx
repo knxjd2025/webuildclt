@@ -136,11 +136,11 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-secondary-foreground/10">
           <div className="flex flex-wrap items-center justify-center gap-8">
             <Image
-              src="/images/certifications/we-are-neutral.png"
-              alt="We Are Neutral"
-              width={120}
+              src="/images/certifications/usgbc-member-dark.png"
+              alt="USGBC Member"
+              width={60}
               height={60}
-              className="h-12 w-auto brightness-0 invert opacity-60 hover:opacity-100 transition-opacity"
+              className="h-14 w-auto opacity-60 hover:opacity-100 transition-opacity"
             />
             <Image
               src="/images/certifications/nclbgc.png"

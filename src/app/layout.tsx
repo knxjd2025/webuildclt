@@ -1,6 +1,12 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { Header, Footer } from '@/components/layout';
+import { JsonLd } from '@/components/JsonLd';
+import {
+  organizationSchema,
+  localBusinessSchema,
+  webSiteSchema,
+} from '@/lib/structured-data';
 import './globals.css';
 
 const geistSans = Geist({
@@ -14,6 +20,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://webuildclt.com'),
   title: {
     default: 'We Build | Design & Build Construction Charlotte NC',
     template: '%s | We Build',
@@ -81,6 +88,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        <JsonLd
+          data={[
+            organizationSchema(),
+            localBusinessSchema(),
+            webSiteSchema(),
+          ]}
+        />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

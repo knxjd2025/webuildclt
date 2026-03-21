@@ -55,7 +55,7 @@ const services = [
 const features = [
   '60+ years combined experience',
   'Veteran & family owned',
-  'Carbon neutral certified',
+  'USGBC member',
   'Licensed in NC & SC',
 ];
 
@@ -305,30 +305,30 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Carbon Neutral Section */}
+      {/* USGBC Member Section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
             <Image
-              src="/images/we-are-neutral-logo.png"
-              alt="We Are Neutral"
+              src="/images/certifications/usgbc-member-light.png"
+              alt="USGBC Member"
               width={150}
-              height={75}
-              className="h-16 w-auto"
+              height={150}
+              className="h-20 w-auto"
             />
             <div className="max-w-xl">
               <h3 className="text-xl font-semibold mb-2">
-                We Are Carbon Neutral
+                U.S. Green Building Council Member
               </h3>
               <p className="text-muted-foreground">
-                Partnering with a non-profit organization dedicated to helping
-                the environment, we calculated our carbon footprint and invested
-                in carbon offsetting projects to achieve carbon neutrality.
+                As a proud member of the U.S. Green Building Council, we are
+                committed to sustainable building practices and advancing green
+                construction standards in every project we undertake.
               </p>
             </div>
             <Button variant="outline" asChild>
               <a
-                href="https://www.weareneutral.com/"
+                href="https://www.usgbc.org/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

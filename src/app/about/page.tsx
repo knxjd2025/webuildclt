@@ -40,7 +40,7 @@ const values = [
 ];
 
 const certifications = [
-  { name: 'We Are Neutral', image: '/images/certifications/we-are-neutral.png' },
+  { name: 'USGBC Member', image: '/images/certifications/usgbc-member-light.png' },
   { name: 'NC Licensing Board', image: '/images/certifications/nclbgc.png' },
   { name: 'CHAMP', image: '/images/certifications/champ.png' },
   { name: 'SC General Contractors', image: '/images/certifications/scgc.png' },
