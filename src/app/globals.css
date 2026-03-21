@@ -252,3 +252,109 @@ html {
 .link-underline:hover::after {
   @apply w-full;
 }
+
+/* ── Scroll-triggered reveal animations ── */
+
+/* Fade up entrance — apply to any element that should animate in on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 700ms var(--ease-out-expo), transform 700ms var(--ease-out-expo);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger children — add to parent, each child gets increasing delay */
+.stagger-children > .reveal:nth-child(1) { transition-delay: 0ms; }
+.stagger-children > .reveal:nth-child(2) { transition-delay: 80ms; }
+.stagger-children > .reveal:nth-child(3) { transition-delay: 160ms; }
+.stagger-children > .reveal:nth-child(4) { transition-delay: 240ms; }
+.stagger-children > .reveal:nth-child(5) { transition-delay: 320ms; }
+.stagger-children > .reveal:nth-child(6) { transition-delay: 400ms; }
+.stagger-children > .reveal:nth-child(7) { transition-delay: 480ms; }
+.stagger-children > .reveal:nth-child(8) { transition-delay: 560ms; }
+
+/* Fade in from left */
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-32px);
+  transition: opacity 700ms var(--ease-out-expo), transform 700ms var(--ease-out-expo);
+}
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Fade in from right */
+.reveal-right {
+  opacity: 0;
+  transform: translateX(32px);
+  transition: opacity 700ms var(--ease-out-expo), transform 700ms var(--ease-out-expo);
+}
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Scale up entrance */
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 500ms var(--ease-out-expo), transform 500ms var(--ease-out-expo);
+}
+.reveal-scale.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ── Micro-interactions ── */
+
+/* Button hover lift */
+.hover-lift {
+  transition: transform 300ms var(--ease-out-expo), box-shadow 300ms var(--ease-out-expo);
+}
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+.hover-lift:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Card hover effect */
+.card-hover {
+  transition: transform 400ms var(--ease-out-expo), box-shadow 400ms var(--ease-out-expo);
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Icon spin on hover (for decorative icons in cards) */
+.icon-hover-rotate {
+  transition: transform 500ms var(--ease-out-back);
+}
+.group:hover .icon-hover-rotate {
+  transform: rotate(8deg) scale(1.1);
+}
+
+/* Pulse glow for CTAs */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 oklch(0.65 0.18 50 / 0.4); }
+  50% { box-shadow: 0 0 0 8px oklch(0.65 0.18 50 / 0); }
+}
+.cta-pulse {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Counter animation for stats */
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-count {
+  animation: count-up 600ms var(--ease-out-expo) both;
+}
