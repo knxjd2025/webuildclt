@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { Plus_Jakarta_Sans, DM_Sans } from 'next/font/google';
 import { Header, Footer } from '@/components/layout';
 import { JsonLd } from '@/components/JsonLd';
 import {
@@ -9,14 +9,18 @@ import {
 } from '@/lib/structured-data';
 import './globals.css';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const heading = Plus_Jakarta_Sans({
+  variable: '--font-heading',
   subsets: ['latin'],
+  weight: ['500', '600', '700', '800'],
+  display: 'swap',
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const body = DM_Sans({
+  variable: '--font-body',
   subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -87,7 +91,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${heading.variable} ${body.variable} antialiased min-h-screen flex flex-col`}
       >
         {/* Skip link for keyboard accessibility */}
         <a
