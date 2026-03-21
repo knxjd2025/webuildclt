@@ -36,6 +36,7 @@ const navigation = [
   { name: 'Portfolio', href: '/portfolio' },
   { name: 'Design Center', href: '/design-center' },
   { name: 'We Coat', href: '/we-coat' },
+  { name: 'Guides', href: '/guides' },
   { name: 'Blog', href: '/blog' },
   { name: 'Contact', href: '/contact' },
 ];
@@ -250,6 +251,14 @@ export function Header() {
                       className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
                     >
                       We Coat
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      href="/guides"
+                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                    >
+                      Guides
                     </Link>
                   </SheetClose>
                   <SheetClose asChild>

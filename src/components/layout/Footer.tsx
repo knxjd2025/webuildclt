@@ -9,6 +9,7 @@ const navigation = {
     { name: 'Portfolio', href: '/portfolio' },
     { name: 'Design Center', href: '/design-center' },
     { name: 'We Coat', href: '/we-coat' },
+    { name: 'Guides', href: '/guides' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ],
