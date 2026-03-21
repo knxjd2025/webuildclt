@@ -162,8 +162,106 @@ export default function CommercialConstructionPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* Cost Guide — NEW */}
       <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-12">
+              <span className="text-primary font-semibold uppercase tracking-wider text-sm">Cost Guide</span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Commercial Construction Costs in Charlotte (2026)</h2>
+              <p className="text-muted-foreground">Current pricing ranges for commercial construction in the Charlotte metro area.</p>
+            </div>
+            <div className="space-y-4">
+              {[
+                { type: 'Office Upfit (Standard)', range: '$50-$120/sq ft', time: '3-4 months' },
+                { type: 'Office Upfit (High-End)', range: '$120-$175/sq ft', time: '3-5 months' },
+                { type: 'Retail Build-Out', range: '$75-$175/sq ft', time: '3-5 months' },
+                { type: 'Restaurant Build-Out', range: '$150-$350/sq ft', time: '5-8 months' },
+                { type: 'Medical/Dental Office', range: '$150-$400/sq ft', time: '4-8 months' },
+                { type: 'Warehouse (Shell)', range: '$80-$150/sq ft', time: '6-10 months' },
+                { type: 'Ground-Up Office', range: '$200-$400/sq ft', time: '10-18 months' },
+              ].map((item) => (
+                <div key={item.type} className="flex items-center justify-between p-4 bg-muted rounded-lg">
+                  <div>
+                    <h3 className="font-semibold">{item.type}</h3>
+                    <p className="text-sm text-muted-foreground">Timeline: {item.time}</p>
+                  </div>
+                  <div className="font-semibold text-primary">{item.range}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process — NEW */}
+      <section className="py-20 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Commercial Construction Process</h2>
+            <p className="text-muted-foreground">A proven process that delivers commercial projects on time and on budget.</p>
+          </div>
+          <div className="max-w-3xl mx-auto space-y-6">
+            {[
+              { step: '01', title: 'Pre-Construction Planning', desc: 'Site analysis, feasibility studies, budget development, design coordination, and Mecklenburg County zoning review.' },
+              { step: '02', title: 'Design & Engineering', desc: 'Architectural plans, structural engineering, MEP design, and coordination with our design-build team for cost-effective solutions.' },
+              { step: '03', title: 'Permitting', desc: 'We manage all building, mechanical, electrical, plumbing, and fire permits with Charlotte/Mecklenburg County.' },
+              { step: '04', title: 'Construction', desc: 'Professional construction management with weekly updates, quality inspections, and transparent budget tracking.' },
+              { step: '05', title: 'Closeout & Delivery', desc: 'Final inspections, certificate of occupancy, punch list completion, warranty documentation, and project handover.' },
+            ].map((s) => (
+              <div key={s.step} className="flex gap-6">
+                <div className="w-14 h-14 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">{s.step}</div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">{s.title}</h3>
+                  <p className="text-muted-foreground">{s.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial — NEW */}
+      <section className="py-20 bg-secondary text-secondary-foreground">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <blockquote className="text-xl md:text-2xl leading-relaxed mb-8 italic">
+              &quot;We Build transformed our vision into reality. Their attention to detail and commitment to quality exceeded our expectations. Professional, communicative, and delivered on time and within budget.&quot;
+            </blockquote>
+            <div className="flex items-center justify-center gap-4">
+              <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center"><span className="text-2xl font-bold text-primary">PP</span></div>
+              <div className="text-left">
+                <div className="font-semibold">Pure Physique</div>
+                <div className="text-sm text-secondary-foreground/70">Commercial Upfit — Fort Mill, SC</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Blog — NEW */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12"><h2 className="text-3xl font-bold">Commercial Construction Resources</h2></div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: 'Complete Guide to Commercial Construction in Charlotte', slug: 'commercial-construction-guide-charlotte-nc' },
+              { title: 'Commercial Upfit Cost Breakdown', slug: 'commercial-upfit-cost-charlotte' },
+              { title: 'Construction Permits in Mecklenburg County', slug: 'commercial-construction-permits-mecklenburg-county' },
+            ].map((post) => (
+              <Card key={post.slug} className="group hover:shadow-md transition-shadow">
+                <CardContent className="p-6">
+                  <h3 className="font-semibold mb-4 group-hover:text-primary transition-colors">{post.title}</h3>
+                  <Link href={`/blog/${post.slug}`} className="inline-flex items-center text-primary text-sm font-medium hover:underline">Read Article <ArrowRight className="ml-1 h-3.5 w-3.5" /></Link>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">

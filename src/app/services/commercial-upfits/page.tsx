@@ -203,8 +203,86 @@ export default function CommercialUpfitsPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* Cost Breakdown — NEW */}
       <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-12">
+              <span className="text-primary font-semibold uppercase tracking-wider text-sm">Cost Guide</span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Commercial Upfit Costs in Charlotte (2026)</h2>
+            </div>
+            <div className="space-y-4">
+              {[
+                { type: 'Basic Office Upfit', range: '$50-$80/sq ft', desc: 'Paint, carpet, basic lighting, minor layout changes' },
+                { type: 'Mid-Range Office', range: '$80-$120/sq ft', desc: 'New walls, upgraded finishes, modern lighting, technology infrastructure' },
+                { type: 'High-End Office', range: '$120-$175/sq ft', desc: 'Premium finishes, glass walls, custom millwork, executive-level details' },
+                { type: 'Retail Space', range: '$75-$175/sq ft', desc: 'Custom fixtures, lighting design, storefront work, brand elements' },
+                { type: 'Restaurant', range: '$150-$350/sq ft', desc: 'Commercial kitchen, ventilation, grease trap, dining finishes' },
+                { type: 'Medical/Dental', range: '$150-$300/sq ft', desc: 'Specialized HVAC, plumbing, ADA compliance, infection control' },
+              ].map((item) => (
+                <div key={item.type} className="p-5 bg-muted rounded-lg">
+                  <div className="flex items-center justify-between mb-1">
+                    <h3 className="font-semibold">{item.type}</h3>
+                    <span className="font-semibold text-primary">{item.range}</span>
+                  </div>
+                  <p className="text-sm text-muted-foreground">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process — NEW */}
+      <section className="py-20 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Commercial Upfit Process</h2>
+            <p className="text-muted-foreground">A streamlined process designed to minimize business disruption and deliver results on time.</p>
+          </div>
+          <div className="max-w-3xl mx-auto space-y-6">
+            {[
+              { step: '01', title: 'Site Visit & Assessment', desc: 'We evaluate your current space, discuss your vision, review lease requirements and TI allowances, and identify any existing condition issues.' },
+              { step: '02', title: 'Design & Estimate', desc: 'Our design-build team creates space plans, helps you select finishes at our Design Center, and delivers a detailed, line-item estimate.' },
+              { step: '03', title: 'Permitting', desc: 'We manage all permit applications, coordinate with Mecklenburg County inspectors, and ensure code compliance.' },
+              { step: '04', title: 'Phased Construction', desc: 'Construction is phased to minimize disruption to your business. Most disruptive work is scheduled during off-hours when possible.' },
+              { step: '05', title: 'Delivery', desc: 'Final inspections, punch list completion, and project handover. You move into a transformed space on schedule.' },
+            ].map((s) => (
+              <div key={s.step} className="flex gap-6">
+                <div className="w-14 h-14 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">{s.step}</div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">{s.title}</h3>
+                  <p className="text-muted-foreground">{s.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Related Blog — NEW */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12"><h2 className="text-3xl font-bold">Commercial Upfit Resources</h2></div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: 'How Much Does a Commercial Upfit Cost?', slug: 'commercial-upfit-cost-charlotte' },
+              { title: 'Office Upfit vs. Full Renovation', slug: 'office-upfit-vs-full-renovation' },
+              { title: '7 Signs Your Space Needs an Upfit', slug: '7-signs-commercial-space-needs-upfit' },
+            ].map((post) => (
+              <Card key={post.slug} className="group hover:shadow-md transition-shadow">
+                <CardContent className="p-6">
+                  <h3 className="font-semibold mb-4 group-hover:text-primary transition-colors">{post.title}</h3>
+                  <Link href={`/blog/${post.slug}`} className="inline-flex items-center text-primary text-sm font-medium hover:underline">Read Article <ArrowRight className="ml-1 h-3.5 w-3.5" /></Link>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">

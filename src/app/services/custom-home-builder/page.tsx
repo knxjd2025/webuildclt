@@ -290,6 +290,87 @@ export default function CustomHomeBuilderPage() {
         </div>
       </section>
 
+      {/* Cost Guide — NEW */}
+      <section className="py-20 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-12">
+              <span className="text-primary font-semibold uppercase tracking-wider text-sm">Charlotte Cost Guide</span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">How Much Does a Custom Home Cost in Charlotte?</h2>
+              <p className="text-muted-foreground">Custom home construction in the Charlotte metro typically falls into these ranges. Actual costs depend on lot conditions, architectural complexity, and finish selections.</p>
+            </div>
+            <div className="space-y-4">
+              {[
+                { level: 'Entry-Level Custom', range: '$200-$275/sq ft', desc: 'Quality construction with standard finishes, efficient floor plans, builder-grade fixtures' },
+                { level: 'Mid-Range Custom', range: '$275-$400/sq ft', desc: 'Upgraded finishes, hardwood floors, quartz countertops, custom cabinetry, smart home basics' },
+                { level: 'Luxury Custom', range: '$400-$600+/sq ft', desc: 'Premium materials throughout, smart home technology, custom millwork, designer fixtures' },
+              ].map((item) => (
+                <div key={item.level} className="p-6 bg-background rounded-lg">
+                  <div className="flex items-center justify-between mb-2">
+                    <h3 className="font-semibold">{item.level}</h3>
+                    <span className="font-semibold text-primary">{item.range}</span>
+                  </div>
+                  <p className="text-sm text-muted-foreground">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+            <div className="mt-8 p-6 bg-primary/10 border border-primary/20 rounded-lg">
+              <h3 className="font-semibold mb-2">Example: 2,500 sq ft Custom Home</h3>
+              <ul className="text-sm text-muted-foreground space-y-1">
+                <li>Entry-level: $500,000 - $687,500</li>
+                <li>Mid-range: $687,500 - $1,000,000</li>
+                <li>Luxury: $1,000,000 - $1,500,000+</li>
+              </ul>
+              <p className="text-sm text-muted-foreground mt-3">Does not include land cost, well/septic, swimming pool, or extensive landscaping.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial — NEW */}
+      <section className="py-20 bg-secondary text-secondary-foreground">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">Client Testimonial</span>
+            <blockquote className="text-xl md:text-2xl leading-relaxed mt-6 mb-8 italic">
+              &quot;We Build transformed our vision into reality. Their attention to detail and commitment to quality exceeded our expectations. The team was professional, communicative, and delivered on time and within budget.&quot;
+            </blockquote>
+            <div className="flex items-center justify-center gap-4">
+              <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
+                <span className="text-2xl font-bold text-primary">PP</span>
+              </div>
+              <div className="text-left">
+                <div className="font-semibold">Pure Physique</div>
+                <div className="text-sm text-secondary-foreground/70">Fort Mill, SC</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Blog Posts — NEW */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="text-3xl font-bold mb-4">Custom Home Building Resources</h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: 'How Much Does a Custom Home Cost in Charlotte?', slug: 'cost-to-build-custom-home-charlotte-nc' },
+              { title: 'Build on Your Lot: Step-by-Step Guide', slug: 'build-on-your-lot-charlotte-guide' },
+              { title: 'Builder Checklist: 10 Questions to Ask', slug: 'custom-home-builder-checklist-questions' },
+            ].map((post) => (
+              <Card key={post.slug} className="group hover:shadow-md transition-shadow">
+                <CardContent className="p-6">
+                  <h3 className="font-semibold mb-4 group-hover:text-primary transition-colors">{post.title}</h3>
+                  <Link href={`/blog/${post.slug}`} className="inline-flex items-center text-primary text-sm font-medium hover:underline">Read Article <ArrowRight className="ml-1 h-3.5 w-3.5" /></Link>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">

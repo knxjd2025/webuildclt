@@ -104,31 +104,56 @@ const whyChooseUs = [
   },
 ];
 
+const costGuide = [
+  { type: 'Commercial Upfit', range: '$50-$175/sq ft', timeline: '3-5 months' },
+  { type: 'Restaurant Build-Out', range: '$150-$350/sq ft', timeline: '5-8 months' },
+  { type: 'Medical Office', range: '$150-$400/sq ft', timeline: '4-8 months' },
+  { type: 'Custom Home', range: '$200-$600+/sq ft', timeline: '10-18 months' },
+  { type: 'Home Addition', range: '$150-$400/sq ft', timeline: '3-6 months' },
+  { type: 'Roof Coating', range: '$2-$5/sq ft', timeline: '2-5 days' },
+];
+
+const processSteps = [
+  { step: '01', title: 'Free Consultation', description: 'We discuss your project, assess your needs, review your budget, and provide initial guidance — completely free. This conversation helps us understand your vision and determine the best approach.' },
+  { step: '02', title: 'Detailed Estimate & Contract', description: 'We provide a comprehensive, line-item estimate covering every aspect of your project. Our transparent pricing means no hidden costs or surprise change orders. Once approved, we execute a clear contract.' },
+  { step: '03', title: 'Design & Permitting', description: 'Our design-build team creates or refines plans, helps with material selections at our Design Center, coordinates engineering, and manages all permit applications with local building departments.' },
+  { step: '04', title: 'Construction Management', description: 'Our experienced superintendents manage daily construction operations — coordinating subcontractors, maintaining quality standards, and keeping the project on schedule. You receive weekly progress updates.' },
+  { step: '05', title: 'Quality Inspections', description: 'We conduct phase inspections throughout construction, not just at the end. Every stage is verified before proceeding to the next, ensuring quality is built in from the foundation up.' },
+  { step: '06', title: 'Delivery & Warranty', description: 'A thorough walkthrough ensures everything meets your expectations. We address any punch list items promptly and provide comprehensive warranty coverage on all our work.' },
+];
+
 const faqs = [
   {
     question: 'What does a general contractor do?',
-    answer:
-      'A general contractor manages all aspects of a construction project, from planning and permitting to coordinating subcontractors, managing timelines, and ensuring quality. We serve as the single point of contact for your entire project.',
+    answer: 'A general contractor manages all aspects of a construction project, from planning and permitting to coordinating subcontractors, managing timelines, and ensuring quality. We serve as the single point of contact for your entire project — handling scheduling, procurement, inspections, budget management, and communication so you do not have to manage multiple trades yourself.',
   },
   {
     question: 'Do I need a licensed general contractor in Charlotte NC?',
-    answer:
-      'Yes. North Carolina requires general contractors to be licensed for projects over $30,000. We Build holds active NC and SC general contractor licenses, ensuring your project meets all legal and safety requirements.',
+    answer: 'Yes. North Carolina requires general contractors to be licensed by the NC Licensing Board for General Contractors (nclbgc.org) for any project over $30,000. South Carolina has an even lower threshold of $5,000. We Build holds active licenses in both states. Hiring an unlicensed contractor exposes you to legal liability, insurance issues, and potential code violations.',
   },
   {
     question: 'How much does a general contractor charge in Charlotte?',
-    answer:
-      'General contractor fees typically range from 10-20% of total project cost, depending on scope and complexity. We provide detailed, transparent estimates with no hidden fees. Contact us for a free quote on your specific project.',
+    answer: 'General contractor fees in Charlotte typically range from 10-20% of total project cost for cost-plus contracts, or are built into the fixed price for lump-sum contracts. Project costs vary widely: commercial upfits run $50-$175/sq ft, custom homes $200-$600+/sq ft, and home additions $150-$400/sq ft. We provide detailed, transparent estimates specific to your project scope.',
   },
   {
     question: 'How long does a typical construction project take?',
-    answer:
-      'Timelines vary by project type: commercial upfits typically take 8-16 weeks, custom homes 6-12 months, and commercial builds 6-18 months. We provide detailed project schedules during the planning phase.',
+    answer: 'Timelines vary by project type: commercial upfits typically take 3-5 months, restaurant build-outs 5-8 months, custom homes 10-18 months, home additions 3-6 months, and commercial roof coating 2-5 days. We provide detailed project schedules during the planning phase and communicate proactively if timelines shift.',
   },
   {
     question: 'What areas do you serve?',
-    answer:
-      'We serve the greater Charlotte metro area including Mecklenburg County, Fort Mill SC, Lake Norman, South Charlotte, Ballantyne, and surrounding communities in North Carolina and South Carolina.',
+    answer: 'We serve the entire Charlotte metropolitan area including Charlotte, South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, and Fort Mill, SC. Our headquarters is at 14330 S Lakes Drive, Charlotte NC 28273.',
+  },
+  {
+    question: 'What is the difference between a general contractor and a subcontractor?',
+    answer: 'A general contractor manages the entire project and is your single point of contact. Subcontractors are specialists hired by the general contractor to perform specific trades — electrical, plumbing, HVAC, framing, drywall, etc. We Build manages all subcontractor relationships, scheduling, and quality control so you deal with one company, not a dozen.',
+  },
+  {
+    question: 'Do you handle building permits?',
+    answer: 'Yes. We manage the entire permitting process — from preparing compliant plan submissions to coordinating with reviewers, responding to comments, and scheduling all required inspections. This is one of the most valuable services a general contractor provides, as the permitting process can be complex and time-consuming.',
+  },
+  {
+    question: 'What should I look for when hiring a general contractor?',
+    answer: 'Key qualifications to verify: active state general contractor license (check at nclbgc.org for NC), current general liability and workers\' compensation insurance, relevant project experience, strong local references, detailed and transparent estimates, clear communication practices, and a physical office or showroom. We Build meets all of these criteria and welcomes your due diligence.',
   },
 ];
 
@@ -292,12 +317,132 @@ export default function GeneralContractorPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* Our Process — NEW */}
       <section className="py-20 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">How We Work</span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Our General Contracting Process</h2>
+            <p className="text-muted-foreground">From your first call to the final walkthrough, our proven six-step process ensures your project is delivered on time, on budget, and exactly to your specifications.</p>
+          </div>
+          <div className="max-w-3xl mx-auto space-y-6">
+            {processSteps.map((step) => (
+              <div key={step.step} className="flex gap-6">
+                <div className="w-14 h-14 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-lg flex-shrink-0">{step.step}</div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2">{step.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{step.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Cost Guide — NEW */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="text-center mb-12">
+              <span className="text-primary font-semibold uppercase tracking-wider text-sm">Charlotte Cost Guide</span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Construction Cost Ranges in Charlotte (2026)</h2>
+              <p className="text-muted-foreground">These ranges reflect typical pricing in the Charlotte metro area. Actual costs depend on project scope, complexity, finish level, and site conditions. We provide free, detailed estimates for your specific project.</p>
+            </div>
+            <div className="space-y-4">
+              {costGuide.map((item) => (
+                <div key={item.type} className="flex items-center justify-between p-4 bg-muted rounded-lg">
+                  <div>
+                    <h3 className="font-semibold">{item.type}</h3>
+                    <p className="text-sm text-muted-foreground">Typical timeline: {item.timeline}</p>
+                  </div>
+                  <div className="text-right">
+                    <div className="font-semibold text-primary">{item.range}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p className="text-sm text-muted-foreground mt-6 text-center">Prices are estimates for the Charlotte NC market. Contact us for a free project-specific estimate.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonial — NEW */}
+      <section className="py-20 bg-secondary text-secondary-foreground">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">Client Testimonial</span>
+            <blockquote className="text-xl md:text-2xl leading-relaxed mt-6 mb-8 italic">
+              &quot;We Build transformed our vision into reality. Their attention to detail and commitment to quality exceeded our expectations. The team was professional, communicative, and delivered on time and within budget. We highly recommend We Build as your general contractor.&quot;
+            </blockquote>
+            <div className="flex items-center justify-center gap-4">
+              <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
+                <span className="text-2xl font-bold text-primary">PP</span>
+              </div>
+              <div className="text-left">
+                <div className="font-semibold">Pure Physique</div>
+                <div className="text-sm text-secondary-foreground/70">Commercial Upfit — Fort Mill, SC</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Areas Served — NEW */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <span className="text-primary font-semibold uppercase tracking-wider text-sm">Service Area</span>
+              <h2 className="text-3xl md:text-4xl font-bold">General Contractor Serving the Charlotte Metro Area</h2>
+              <p className="text-muted-foreground leading-relaxed">As a licensed general contractor in both North Carolina and South Carolina, We Build serves the entire Charlotte metropolitan area. Our South Charlotte headquarters puts us within easy reach of every community in the region, and our dual-state licensing means no project is complicated by state-line issues.</p>
+              <p className="text-muted-foreground leading-relaxed">Whether your project is a commercial upfit in Ballantyne, a custom home on Lake Norman, a restaurant build-out in South End, or a roof coating in Fort Mill, We Build has the local knowledge, licensed credentials, and experienced team to deliver exceptional results.</p>
+            </div>
+            <div className="bg-muted rounded-lg p-8">
+              <h3 className="text-xl font-semibold mb-6">Communities We Serve</h3>
+              <div className="grid grid-cols-2 gap-3">
+                {['Charlotte', 'South Charlotte', 'Ballantyne', 'Fort Mill, SC', 'Lake Norman', 'Cornelius', 'Huntersville', 'Matthews', 'Waxhaw', 'Marvin', 'Mooresville', 'Indian Trail'].map((area) => (
+                  <div key={area} className="flex items-center gap-2">
+                    <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" />
+                    <span className="text-sm">{area}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Blog Posts — NEW */}
+      <section className="py-20 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="text-3xl font-bold mb-4">General Contracting Resources</h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: 'How to Hire a General Contractor: The Complete Guide', slug: 'how-to-hire-general-contractor-guide' },
+              { title: 'Questions to Ask a Contractor Before Signing', slug: 'questions-to-ask-contractor-before-signing' },
+              { title: 'Construction Project Timeline: What to Expect', slug: 'construction-project-timeline-expectations' },
+            ].map((post) => (
+              <Card key={post.slug} className="group hover:shadow-md transition-shadow">
+                <CardContent className="p-6">
+                  <h3 className="font-semibold mb-4 group-hover:text-primary transition-colors">{post.title}</h3>
+                  <Link href={`/blog/${post.slug}`} className="inline-flex items-center text-primary text-sm font-medium hover:underline">
+                    Read Article <ArrowRight className="ml-1 h-3.5 w-3.5" />
+                  </Link>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-              Frequently Asked Questions
+              General Contractor FAQ
             </h2>
             <div className="space-y-6">
               {faqs.map((faq) => (
