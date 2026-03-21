@@ -1,15 +1,15 @@
 /**
  * AI content generator for project pages
- * Uses OpenAI to create SEO-optimized, geo-tagged project descriptions
+ * Uses Claude (Anthropic) to create SEO-optimized, geo-tagged project descriptions
  */
 
-import type OpenAIType from 'openai';
+import type AnthropicType from '@anthropic-ai/sdk';
 
-function getOpenAI(): OpenAIType {
+function getAnthropic(): AnthropicType {
   // Dynamic require to prevent build-time initialization without API key
   // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const OpenAI = require('openai').default;
-  return new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  const Anthropic = require('@anthropic-ai/sdk').default;
+  return new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 }
 
 interface ProjectInput {
@@ -73,7 +73,7 @@ CRITICAL SEO RULES:
 - Make statements that AI can cite: "We Build completed a [type] project in [location]..."
 - Include internal linking suggestions as HTML anchor tags to /services/[type] and /areas/[area]
 
-OUTPUT FORMAT: Return valid JSON with exactly these fields:
+OUTPUT FORMAT: Return ONLY valid JSON (no markdown fences, no extra text) with exactly these fields:
 {
   "content": "HTML content (800-1200 words, use <h2>, <h3>, <p>, <ul>, <li> tags, NO <h1>)",
   "metaTitle": "Under 60 characters, include location + service type",
@@ -101,25 +101,33 @@ Structure the content as:
 
 Remember: Write for ${locationStr} specifically. This page should rank for "${project.service_type.replace(/-/g, ' ')} ${project.neighborhood || project.city} ${project.state}".`;
 
-  const response = await getOpenAI().chat.completions.create({
-    model: 'gpt-4o',
+  const anthropic = getAnthropic();
+
+  const response = await anthropic.messages.create({
+    model: 'claude-sonnet-4-20250514',
+    max_tokens: 4096,
+    system: systemPrompt,
     messages: [
-      { role: 'system', content: systemPrompt },
       { role: 'user', content: userPrompt },
     ],
-    response_format: { type: 'json_object' },
-    temperature: 0.7,
-    max_tokens: 4000,
   });
 
-  const raw = response.choices[0]?.message?.content;
-  if (!raw) {
+  const textBlock = response.content.find(
+    (block: { type: string }) => block.type === 'text'
+  );
+  if (!textBlock || textBlock.type !== 'text') {
     throw new Error('No content generated from AI');
   }
 
-  const parsed = JSON.parse(raw) as GeneratedContent;
+  // Extract JSON — handle possible markdown fences
+  let jsonStr = (textBlock as { type: 'text'; text: string }).text.trim();
+  const fenceMatch = jsonStr.match(/```(?:json)?\s*([\s\S]*?)```/);
+  if (fenceMatch) {
+    jsonStr = fenceMatch[1].trim();
+  }
 
-  // Validate output
+  const parsed = JSON.parse(jsonStr) as GeneratedContent;
+
   if (!parsed.content || !parsed.metaTitle || !parsed.metaDescription) {
     throw new Error('AI response missing required fields');
   }

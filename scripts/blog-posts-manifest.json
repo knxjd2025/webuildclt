@@ -1,0 +1,602 @@
+[
+  {
+    "slug": "commercial-roof-coating-complete-guide",
+    "title": "Commercial Roof Coating: The Complete Guide for Building Owners",
+    "category": "roof-coating",
+    "image": "/images/blog/commercial-roof-coating.jpg"
+  },
+  {
+    "slug": "roof-coating-vs-roof-replacement",
+    "title": "Roof Coating vs. Roof Replacement: Cost Comparison and Lifespan",
+    "category": "roof-coating",
+    "image": "/images/blog/roof-coating-vs-replacement.jpg"
+  },
+  {
+    "slug": "silicone-roof-coating-pros-cons",
+    "title": "Silicone Roof Coating: Pros, Cons, and Best Applications",
+    "category": "roof-coating",
+    "image": "/images/blog/silicone-roof-coating.jpg"
+  },
+  {
+    "slug": "how-long-does-roof-coating-last",
+    "title": "How Long Does Roof Coating Last? Lifespan by Material Type",
+    "category": "roof-coating",
+    "image": "/images/blog/roof-coating-lifespan.jpg"
+  },
+  {
+    "slug": "metal-roof-coating-guide",
+    "title": "Metal Roof Coating: Extending Your Roof\\",
+    "category": "roof-coating",
+    "image": "/images/blog/metal-roof-coating.jpg"
+  },
+  {
+    "slug": "flat-roof-coating-options-commercial",
+    "title": "Flat Roof Coating Options for Commercial Buildings",
+    "category": "roof-coating",
+    "image": "/images/blog/flat-roof-coating.jpg"
+  },
+  {
+    "slug": "roof-maxx-vs-traditional-roof-coating",
+    "title": "Roof Maxx vs. Traditional Roof Coating: Which Is Better?",
+    "category": "roof-coating",
+    "image": "/images/blog/roof-maxx-comparison.jpg"
+  },
+  {
+    "slug": "spf-roof-coating-spray-foam-explained",
+    "title": "SPF Roof Coating: Spray Polyurethane Foam Explained",
+    "category": "roof-coating",
+    "image": "/images/blog/spf-roof-coating.jpg"
+  },
+  {
+    "slug": "cool-roof-coatings-energy-savings-charlotte",
+    "title": "Cool Roof Coatings: Reducing Energy Costs in Charlotte\\",
+    "category": "roof-coating",
+    "image": "/images/blog/cool-roof-coating.jpg"
+  },
+  {
+    "slug": "elastomeric-roof-coating-application-benefits",
+    "title": "Elastomeric Roof Coating: Application and Benefits",
+    "category": "roof-coating",
+    "image": "/images/blog/elastomeric-roof-coating.jpg"
+  },
+  {
+    "slug": "commercial-roof-coating-cost-per-square-foot",
+    "title": "How Much Does Commercial Roof Coating Cost per Square Foot?",
+    "category": "roof-coating",
+    "image": "/images/blog/roof-coating-cost.jpg"
+  },
+  {
+    "slug": "signs-flat-roof-needs-coating",
+    "title": "Signs Your Flat Roof Needs Coating (Not Replacement)",
+    "category": "roof-coating",
+    "image": "/images/blog/flat-roof-signs.jpg"
+  },
+  {
+    "slug": "roof-coating-maintenance-tips",
+    "title": "Roof Coating Maintenance: How to Maximize Your Investment",
+    "category": "roof-coating",
+    "image": "/images/blog/roof-coating-maintenance.jpg"
+  },
+  {
+    "slug": "acrylic-vs-silicone-roof-coating",
+    "title": "Acrylic vs. Silicone Roof Coating: A Side-by-Side Comparison",
+    "category": "roof-coating",
+    "image": "/images/blog/acrylic-vs-silicone.jpg"
+  },
+  {
+    "slug": "environmental-benefits-roof-restoration",
+    "title": "The Environmental Benefits of Roof Restoration vs. Tear-Off",
+    "category": "roof-coating",
+    "image": "/images/blog/environmental-roof-restoration.jpg"
+  },
+  {
+    "slug": "commercial-construction-guide-charlotte-nc",
+    "title": "Complete Guide to Commercial Construction in Charlotte NC",
+    "category": "commercial-construction",
+    "image": "/images/blog/commercial-construction-guide.jpg"
+  },
+  {
+    "slug": "commercial-upfit-cost-charlotte",
+    "title": "How Much Does a Commercial Upfit Cost in Charlotte?",
+    "category": "commercial-construction",
+    "image": "/images/blog/commercial-upfit-cost.jpg"
+  },
+  {
+    "slug": "office-upfit-vs-full-renovation",
+    "title": "Office Upfit vs. Full Renovation: Which Is Right for Your Business?",
+    "category": "commercial-construction",
+    "image": "/images/blog/upfit-vs-renovation.jpg"
+  },
+  {
+    "slug": "7-signs-commercial-space-needs-upfit",
+    "title": "7 Signs Your Commercial Space Needs an Upfit",
+    "category": "commercial-construction",
+    "image": "/images/blog/signs-need-upfit.jpg"
+  },
+  {
+    "slug": "how-to-choose-commercial-contractor-charlotte",
+    "title": "How to Choose a Commercial General Contractor in Charlotte",
+    "category": "commercial-construction",
+    "image": "/images/blog/choose-contractor.jpg"
+  },
+  {
+    "slug": "restaurant-build-out-guide-charlotte",
+    "title": "Restaurant Build-Out Guide: Timeline, Costs & Permits in Charlotte",
+    "category": "commercial-construction",
+    "image": "/images/blog/restaurant-build-out.jpg"
+  },
+  {
+    "slug": "medical-office-construction-compliance-design",
+    "title": "Medical Office Construction: Compliance and Design Requirements",
+    "category": "commercial-construction",
+    "image": "/images/blog/medical-office-construction.jpg"
+  },
+  {
+    "slug": "warehouse-construction-charlotte-guide",
+    "title": "Warehouse Construction: What Charlotte Businesses Need to Know",
+    "category": "commercial-construction",
+    "image": "/images/blog/warehouse-construction.jpg"
+  },
+  {
+    "slug": "retail-upfit-trends-2026",
+    "title": "Retail Upfit Trends: Modernizing Your Storefront in 2026",
+    "category": "commercial-construction",
+    "image": "/images/blog/retail-upfit-trends.jpg"
+  },
+  {
+    "slug": "commercial-construction-permits-mecklenburg-county",
+    "title": "The Commercial Construction Permitting Process in Mecklenburg County",
+    "category": "commercial-construction",
+    "image": "/images/blog/construction-permits.jpg"
+  },
+  {
+    "slug": "tenant-upfit-landlord-tenant-responsibilities",
+    "title": "Tenant Upfit: Landlord vs. Tenant Responsibilities Explained",
+    "category": "commercial-construction",
+    "image": "/images/blog/tenant-upfit.jpg"
+  },
+  {
+    "slug": "sustainable-commercial-construction-leed-charlotte",
+    "title": "Sustainable Commercial Construction: LEED and Green Building in Charlotte",
+    "category": "commercial-construction",
+    "image": "/images/blog/sustainable-construction.jpg"
+  },
+  {
+    "slug": "how-long-commercial-construction-takes-timeline",
+    "title": "How Long Does a Commercial Build Take? Project Timeline Guide",
+    "category": "commercial-construction",
+    "image": "/images/blog/construction-timeline.jpg"
+  },
+  {
+    "slug": "commercial-construction-financing-small-business",
+    "title": "Commercial Construction Financing Options for Small Businesses",
+    "category": "commercial-construction",
+    "image": "/images/blog/construction-financing.jpg"
+  },
+  {
+    "slug": "ada-compliance-commercial-construction-checklist",
+    "title": "ADA Compliance in Commercial Construction: A Complete Checklist",
+    "category": "commercial-construction",
+    "image": "/images/blog/ada-compliance.jpg"
+  },
+  {
+    "slug": "cost-to-build-custom-home-charlotte-nc",
+    "title": "How Much Does It Cost to Build a Custom Home in Charlotte NC?",
+    "category": "residential",
+    "image": "/images/blog/custom-home-cost.jpg"
+  },
+  {
+    "slug": "build-on-your-lot-charlotte-guide",
+    "title": "Build on Your Lot in Charlotte: A Step-by-Step Guide",
+    "category": "residential",
+    "image": "/images/blog/build-on-your-lot.jpg"
+  },
+  {
+    "slug": "custom-home-builder-checklist-questions",
+    "title": "Custom Home Builder Checklist: 10 Things to Ask Before You Sign",
+    "category": "residential",
+    "image": "/images/blog/builder-checklist.jpg"
+  },
+  {
+    "slug": "new-construction-vs-existing-home-charlotte",
+    "title": "New Construction vs. Buying Existing: Charlotte Market Analysis",
+    "category": "residential",
+    "image": "/images/blog/new-vs-existing.jpg"
+  },
+  {
+    "slug": "home-addition-ideas-most-value-charlotte",
+    "title": "Home Addition Ideas That Add the Most Value in Charlotte",
+    "category": "residential",
+    "image": "/images/blog/home-addition-value.jpg"
+  },
+  {
+    "slug": "second-story-addition-cost-timeline",
+    "title": "Second Story Addition: Cost, Timeline, and What to Expect",
+    "category": "residential",
+    "image": "/images/blog/second-story-addition.jpg"
+  },
+  {
+    "slug": "mother-in-law-suite-addition-costs-design",
+    "title": "Mother-in-Law Suite Addition: Costs and Design Ideas",
+    "category": "residential",
+    "image": "/images/blog/in-law-suite.jpg"
+  },
+  {
+    "slug": "garage-conversion-living-space-guide",
+    "title": "Garage Conversion: Transform Unused Space Into Living Area",
+    "category": "residential",
+    "image": "/images/blog/garage-conversion.jpg"
+  },
+  {
+    "slug": "open-floor-plan-remodel-removing-walls",
+    "title": "Open Floor Plan Remodel: Removing Walls Safely",
+    "category": "residential",
+    "image": "/images/blog/open-floor-plan.jpg"
+  },
+  {
+    "slug": "finance-new-home-construction-north-carolina",
+    "title": "How to Finance New Home Construction in North Carolina",
+    "category": "residential",
+    "image": "/images/blog/construction-financing-nc.jpg"
+  },
+  {
+    "slug": "charlotte-new-home-construction-trends-2026",
+    "title": "Charlotte New Home Construction Trends for 2026",
+    "category": "residential",
+    "image": "/images/blog/home-trends-2026.jpg"
+  },
+  {
+    "slug": "luxury-home-building-charlotte",
+    "title": "Luxury Home Building in Charlotte: What Sets It Apart",
+    "category": "residential",
+    "image": "/images/blog/luxury-home-charlotte.jpg"
+  },
+  {
+    "slug": "energy-efficient-home-building-charlotte",
+    "title": "Energy-Efficient Home Building: A Charlotte Homeowner\\",
+    "category": "residential",
+    "image": "/images/blog/energy-efficient-home.jpg"
+  },
+  {
+    "slug": "design-build-process-explained",
+    "title": "The Design-Build Process Explained: Why One Team Is Better",
+    "category": "residential",
+    "image": "/images/blog/design-build-process.jpg"
+  },
+  {
+    "slug": "choosing-lot-custom-home-charlotte",
+    "title": "Choosing the Right Lot for Your Custom Home in Charlotte",
+    "category": "residential",
+    "image": "/images/blog/choosing-lot.jpg"
+  },
+  {
+    "slug": "how-to-hire-general-contractor-guide",
+    "title": "How to Hire a General Contractor: The Complete Guide",
+    "category": "construction-tips",
+    "image": "/images/blog/hire-contractor.jpg"
+  },
+  {
+    "slug": "questions-to-ask-contractor-before-signing",
+    "title": "Questions to Ask a Contractor Before Signing a Contract",
+    "category": "construction-tips",
+    "image": "/images/blog/questions-contractor.jpg"
+  },
+  {
+    "slug": "understanding-construction-contracts",
+    "title": "Understanding Construction Contracts: What to Look For",
+    "category": "construction-tips",
+    "image": "/images/blog/construction-contracts.jpg"
+  },
+  {
+    "slug": "construction-project-timeline-expectations",
+    "title": "Construction Project Timeline: What to Expect from Start to Finish",
+    "category": "construction-tips",
+    "image": "/images/blog/project-timeline.jpg"
+  },
+  {
+    "slug": "how-to-read-construction-estimate",
+    "title": "How to Read a Construction Estimate (And Spot Red Flags)",
+    "category": "construction-tips",
+    "image": "/images/blog/read-estimate.jpg"
+  },
+  {
+    "slug": "common-construction-mistakes-avoid",
+    "title": "10 Common Construction Mistakes and How to Avoid Them",
+    "category": "construction-tips",
+    "image": "/images/blog/construction-mistakes.jpg"
+  },
+  {
+    "slug": "construction-change-orders-explained",
+    "title": "Construction Change Orders: How They Work and What They Cost",
+    "category": "construction-tips",
+    "image": "/images/blog/change-orders.jpg"
+  },
+  {
+    "slug": "when-do-you-need-building-permit",
+    "title": "When Do You Need a Building Permit? A Homeowner\\",
+    "category": "construction-tips",
+    "image": "/images/blog/building-permits.jpg"
+  },
+  {
+    "slug": "prepare-property-for-construction",
+    "title": "How to Prepare Your Property for Construction",
+    "category": "construction-tips",
+    "image": "/images/blog/prepare-for-construction.jpg"
+  },
+  {
+    "slug": "what-is-punch-list-construction",
+    "title": "What Is a Punch List in Construction?",
+    "category": "construction-tips",
+    "image": "/images/blog/punch-list.jpg"
+  },
+  {
+    "slug": "construction-insurance-requirements",
+    "title": "Construction Insurance: What Your Contractor Should Have",
+    "category": "construction-tips",
+    "image": "/images/blog/contractor-insurance.jpg"
+  },
+  {
+    "slug": "communicate-effectively-with-contractor",
+    "title": "How to Communicate Effectively With Your Contractor",
+    "category": "construction-tips",
+    "image": "/images/blog/communicate-contractor.jpg"
+  },
+  {
+    "slug": "renovation-vs-new-construction-guide",
+    "title": "Choosing Between Renovation and New Construction",
+    "category": "construction-tips",
+    "image": "/images/blog/renovate-vs-build.jpg"
+  },
+  {
+    "slug": "value-engineering-construction-explained",
+    "title": "What Is Value Engineering in Construction?",
+    "category": "construction-tips",
+    "image": "/images/blog/value-engineering.jpg"
+  },
+  {
+    "slug": "vet-construction-company-checklist",
+    "title": "How to Vet a Construction Company: License, Insurance, Reviews",
+    "category": "construction-tips",
+    "image": "/images/blog/vet-contractor.jpg"
+  },
+  {
+    "slug": "what-is-usgbc-green-building",
+    "title": "What Is USGBC and Why It Matters for Your Construction Project",
+    "category": "green-building",
+    "image": "/images/blog/usgbc-explained.jpg"
+  },
+  {
+    "slug": "green-building-certifications-leed-well",
+    "title": "Green Building Certifications Explained: LEED, WELL, and More",
+    "category": "green-building",
+    "image": "/images/blog/green-certifications.jpg"
+  },
+  {
+    "slug": "sustainable-building-materials-commercial",
+    "title": "Sustainable Building Materials for Commercial Construction",
+    "category": "green-building",
+    "image": "/images/blog/sustainable-materials.jpg"
+  },
+  {
+    "slug": "energy-efficient-commercial-building-charlotte",
+    "title": "Energy-Efficient Commercial Building Design in Charlotte",
+    "category": "green-building",
+    "image": "/images/blog/energy-efficient-commercial.jpg"
+  },
+  {
+    "slug": "green-building-saves-money-long-term",
+    "title": "How Green Building Practices Save Money Long-Term",
+    "category": "green-building",
+    "image": "/images/blog/green-saves-money.jpg"
+  },
+  {
+    "slug": "solar-ready-construction-new-build",
+    "title": "Solar-Ready Construction: Preparing Your New Build for Solar",
+    "category": "green-building",
+    "image": "/images/blog/solar-ready.jpg"
+  },
+  {
+    "slug": "low-voc-materials-healthier-buildings",
+    "title": "Low-VOC Materials: Healthier Buildings for Workers and Residents",
+    "category": "green-building",
+    "image": "/images/blog/low-voc-materials.jpg"
+  },
+  {
+    "slug": "water-conservation-new-construction",
+    "title": "Water Conservation in New Construction: Systems and Strategies",
+    "category": "green-building",
+    "image": "/images/blog/water-conservation.jpg"
+  },
+  {
+    "slug": "roi-green-building-data-charlotte",
+    "title": "The ROI of Green Building: Data Charlotte Business Owners Need",
+    "category": "green-building",
+    "image": "/images/blog/green-roi.jpg"
+  },
+  {
+    "slug": "choose-eco-friendly-contractor-charlotte",
+    "title": "How to Choose an Eco-Friendly Contractor in Charlotte NC",
+    "category": "green-building",
+    "image": "/images/blog/eco-friendly-contractor.jpg"
+  },
+  {
+    "slug": "design-build-contractor-benefits-traditional",
+    "title": "What Is a Design-Build Contractor? Benefits Over Traditional Bidding",
+    "category": "design-center",
+    "image": "/images/blog/design-build-benefits.jpg"
+  },
+  {
+    "slug": "how-to-use-design-center-visit",
+    "title": "How to Use a Design Center: Getting the Most From Your Visit",
+    "category": "design-center",
+    "image": "/images/blog/design-center-visit.jpg"
+  },
+  {
+    "slug": "kitchen-design-trends-charlotte-2026",
+    "title": "Kitchen Design Trends Charlotte Homeowners Love in 2026",
+    "category": "design-center",
+    "image": "/images/blog/kitchen-trends.jpg"
+  },
+  {
+    "slug": "bathroom-design-trends-2026",
+    "title": "Bathroom Design Trends: What\\",
+    "category": "design-center",
+    "image": "/images/blog/bathroom-trends.jpg"
+  },
+  {
+    "slug": "quartz-vs-granite-vs-marble-countertops",
+    "title": "Choosing Countertops: Quartz vs. Granite vs. Marble",
+    "category": "design-center",
+    "image": "/images/blog/countertops-comparison.jpg"
+  },
+  {
+    "slug": "flooring-options-new-construction",
+    "title": "Flooring Options for New Construction: Hardwood, LVP, and Tile",
+    "category": "design-center",
+    "image": "/images/blog/flooring-options.jpg"
+  },
+  {
+    "slug": "matterport-virtual-tour-design-center",
+    "title": "The Matterport Virtual Tour: Preview Your Design Center Visit",
+    "category": "design-center",
+    "image": "/images/blog/matterport-tour.jpg"
+  },
+  {
+    "slug": "exterior-design-siding-brick-stone",
+    "title": "Exterior Design Choices: Siding, Brick, and Stone Options",
+    "category": "design-center",
+    "image": "/images/blog/exterior-design.jpg"
+  },
+  {
+    "slug": "design-build-saves-time-money",
+    "title": "How Design-Build Saves Time and Money on Your Project",
+    "category": "design-center",
+    "image": "/images/blog/design-build-savings.jpg"
+  },
+  {
+    "slug": "selecting-fixtures-finishes-guide",
+    "title": "Selecting Fixtures and Finishes: A First-Time Builder\\",
+    "category": "design-center",
+    "image": "/images/blog/fixtures-finishes.jpg"
+  },
+  {
+    "slug": "best-neighborhoods-build-custom-home-charlotte",
+    "title": "Best Neighborhoods to Build a Custom Home in Charlotte NC",
+    "category": "charlotte-area",
+    "image": "/images/blog/charlotte-neighborhoods.jpg"
+  },
+  {
+    "slug": "building-fort-mill-sc-permits-costs",
+    "title": "Building in Fort Mill SC: Permits, Costs, and Contractors",
+    "category": "charlotte-area",
+    "image": "/images/blog/fort-mill-building.jpg"
+  },
+  {
+    "slug": "lake-norman-custom-homes-waterfront",
+    "title": "Lake Norman Custom Homes: Building on the Waterfront",
+    "category": "charlotte-area",
+    "image": "/images/blog/lake-norman-homes.jpg"
+  },
+  {
+    "slug": "south-charlotte-construction-boom",
+    "title": "South Charlotte Construction Boom: What Homeowners Should Know",
+    "category": "charlotte-area",
+    "image": "/images/blog/south-charlotte-growth.jpg"
+  },
+  {
+    "slug": "charlotte-building-permits-application-guide",
+    "title": "Charlotte Building Permits: A Complete Application Guide",
+    "category": "charlotte-area",
+    "image": "/images/blog/charlotte-permits.jpg"
+  },
+  {
+    "slug": "mecklenburg-county-zoning-residential",
+    "title": "Mecklenburg County Zoning Laws for Residential Construction",
+    "category": "charlotte-area",
+    "image": "/images/blog/mecklenburg-zoning.jpg"
+  },
+  {
+    "slug": "construction-costs-charlotte-nc-2026",
+    "title": "Construction Costs in Charlotte NC: 2026 Price Guide",
+    "category": "charlotte-area",
+    "image": "/images/blog/charlotte-costs-2026.jpg"
+  },
+  {
+    "slug": "charlotte-fastest-growing-suburbs-construction",
+    "title": "Charlotte\\",
+    "category": "charlotte-area",
+    "image": "/images/blog/charlotte-suburbs.jpg"
+  },
+  {
+    "slug": "nc-vs-sc-contractor-licensing",
+    "title": "Building in the Carolinas: NC vs. SC Contractor Licensing",
+    "category": "charlotte-area",
+    "image": "/images/blog/nc-sc-licensing.jpg"
+  },
+  {
+    "slug": "charlotte-commercial-real-estate-upfit-opportunities",
+    "title": "Charlotte Commercial Real Estate: Upfit Opportunities by Neighborhood",
+    "category": "charlotte-area",
+    "image": "/images/blog/charlotte-commercial-re.jpg"
+  },
+  {
+    "slug": "veteran-owned-construction-companies-build-different",
+    "title": "Why Veteran-Owned Construction Companies Build Different",
+    "category": "company-news",
+    "image": "/images/blog/veteran-owned.jpg"
+  },
+  {
+    "slug": "family-owned-vs-corporate-contractors",
+    "title": "Family-Owned vs. Corporate Contractors: The Advantages",
+    "category": "company-news",
+    "image": "/images/blog/family-owned.jpg"
+  },
+  {
+    "slug": "we-build-story-startup-trusted-builder",
+    "title": "Our Story: How We Build Went From Startup to Charlotte\\",
+    "category": "company-news",
+    "image": "/images/blog/our-story.jpg"
+  },
+  {
+    "slug": "project-spotlight-pure-physique-fort-mill",
+    "title": "Project Spotlight: Pure Physique Commercial Upfit in Fort Mill",
+    "category": "company-news",
+    "image": "/images/blog/pure-physique.jpg"
+  },
+  {
+    "slug": "before-after-commercial-upfit-transformations",
+    "title": "Before and After: Our Best Commercial Upfit Transformations",
+    "category": "company-news",
+    "image": "/images/blog/before-after.jpg"
+  },
+  {
+    "slug": "day-on-construction-site",
+    "title": "What Does a Day on a Construction Site Look Like?",
+    "category": "company-news",
+    "image": "/images/blog/day-on-site.jpg"
+  },
+  {
+    "slug": "we-build-quality-control-process",
+    "title": "How We Build Ensures Quality Control on Every Project",
+    "category": "company-news",
+    "image": "/images/blog/quality-control.jpg"
+  },
+  {
+    "slug": "importance-communication-construction-projects",
+    "title": "The Importance of Communication in Construction Projects",
+    "category": "company-news",
+    "image": "/images/blog/communication.jpg"
+  },
+  {
+    "slug": "meet-we-build-team-experience",
+    "title": "Meet the We Build Team: Experience Behind Every Project",
+    "category": "company-news",
+    "image": "/images/blog/meet-team.jpg"
+  },
+  {
+    "slug": "why-charlotte-businesses-choose-we-build",
+    "title": "Why Charlotte Businesses Choose We Build for Their Upfits",
+    "category": "company-news",
+    "image": "/images/blog/why-we-build.jpg"
+  }
+]

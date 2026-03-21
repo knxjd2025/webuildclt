@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'secure.gravatar.com',
       },
+      {
+        protocol: 'https',
+        hostname: '**.supabase.co',
+      },
     ],
     formats: ['image/avif', 'image/webp'],
   },

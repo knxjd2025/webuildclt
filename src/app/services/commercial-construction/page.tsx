@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
@@ -157,6 +158,35 @@ export default function CommercialConstructionPage() {
                   <p className="text-sm text-muted-foreground">{type.desc}</p>
                 </CardContent>
               </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Project Gallery */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+              Our Work
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+              Recent Commercial Projects
+            </h2>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { src: '/images/portfolio/urgent-care.jpg', alt: 'Broken to Better Urgent Care commercial construction', title: 'Broken to Better Urgent Care' },
+              { src: '/images/portfolio/fyzical-therapy.jpg', alt: 'FYZICAL Therapy commercial build-out Charlotte', title: 'FYZICAL Therapy & Balance Centers' },
+              { src: '/images/portfolio/pure-physique.jpg', alt: 'Pure Physique commercial upfit Fort Mill SC', title: 'Pure Physique' },
+              { src: '/images/we-coat/mics-aerial-1.jpg', alt: 'Mountain Island Charter School roof coating aerial', title: 'MICS Roof Coating' },
+            ].map((img) => (
+              <div key={img.src} className="space-y-2">
+                <div className="relative aspect-[4/3] rounded-lg overflow-hidden image-hover">
+                  <Image src={img.src} alt={img.alt} fill className="object-cover" />
+                </div>
+                <p className="text-sm text-muted-foreground text-center font-medium">{img.title}</p>
+              </div>
             ))}
           </div>
         </div>

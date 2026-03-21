@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
@@ -173,6 +174,55 @@ export default function CommercialUpfitsPage() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Commercial Upfit Gallery */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+              Our Work
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+              Recent Commercial Upfit Projects
+            </h2>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { src: '/images/portfolio/urgent-care.jpg', alt: 'Broken to Better Urgent Care waiting room', title: 'Urgent Care — Waiting Room' },
+              { src: '/images/portfolio/fyzical-therapy.jpg', alt: 'FYZICAL Therapy front desk build-out', title: 'FYZICAL Therapy — Front Desk' },
+              { src: '/images/portfolio/pure-physique.jpg', alt: 'Pure Physique fitness studio exterior', title: 'Pure Physique — Storefront' },
+              { src: '/images/portfolio/urgent-care-4.jpg', alt: 'Urgent care exam room build-out', title: 'Urgent Care — Interior' },
+              { src: '/images/portfolio/fyzical-therapy-2.jpg', alt: 'FYZICAL Therapy treatment room', title: 'FYZICAL — Treatment Room' },
+              { src: '/images/portfolio/pure-physique-3.jpg', alt: 'Pure Physique interior gym build-out', title: 'Pure Physique — Interior' },
+            ].map((img) => (
+              <div key={img.src} className="space-y-2">
+                <div className="relative aspect-[4/3] rounded-lg overflow-hidden image-hover">
+                  <Image src={img.src} alt={img.alt} fill className="object-cover" />
+                </div>
+                <p className="text-sm text-muted-foreground text-center">{img.title}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-8">
+            <h3 className="text-xl font-semibold mb-4 text-center">Watch Our Upfit Projects</h3>
+            <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              {[
+                { src: '/videos/fyzical-upfit.mp4', poster: '/images/portfolio/fyzical-therapy.jpg', title: 'FYZICAL Therapy Build-Out' },
+                { src: '/videos/pure-remedies-cbd.mp4', poster: '/images/portfolio/pure-remedies.jpg', title: 'Pure Remedies CBD Build-Out' },
+              ].map((video) => (
+                <div key={video.src} className="space-y-3">
+                  <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                    <video className="w-full h-full object-cover" controls preload="metadata" poster={video.poster}>
+                      <source src={video.src} type="video/mp4" />
+                    </video>
+                  </div>
+                  <p className="text-sm text-muted-foreground text-center font-medium">{video.title}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

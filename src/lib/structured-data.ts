@@ -189,6 +189,92 @@ export function faqSchema(items: FaqItem[]): Record<string, unknown> {
   };
 }
 
+interface ProjectInput {
+  title: string;
+  slug: string;
+  short_description: string;
+  category: string;
+  service_type: string;
+  featured_image?: string | null;
+  images?: Array<{ url: string; alt: string }>;
+  address?: string | null;
+  city: string;
+  state: string;
+  zip?: string | null;
+  latitude?: number | null;
+  longitude?: number | null;
+  neighborhood?: string | null;
+  square_footage?: number | null;
+  completion_date?: string | null;
+}
+
+/**
+ * Schema.org structured data for a construction project.
+ * Combines CreativeWork + Place + GeoCoordinates for rich geo-SEO.
+ * This is what powers Google Rich Results and AI answer engine citations.
+ */
+export function constructionProjectSchema(
+  project: ProjectInput
+): Record<string, unknown> {
+  const locationParts = [project.neighborhood, project.city, project.state].filter(Boolean);
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    name: project.title,
+    description: project.short_description,
+    url: `${BUSINESS.url}/portfolio/${project.slug}`,
+    ...(project.featured_image && { image: project.featured_image }),
+    ...(project.images && project.images.length > 0 && {
+      image: project.images.map((img) => ({
+        '@type': 'ImageObject',
+        url: img.url,
+        name: img.alt,
+      })),
+    }),
+    genre: `${project.category} ${project.service_type.replace(/-/g, ' ')}`,
+    ...(project.completion_date && { datePublished: project.completion_date }),
+    contentLocation: {
+      '@type': 'Place',
+      name: locationParts.join(', '),
+      ...(project.address && {
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: project.address,
+          addressLocality: project.city,
+          addressRegion: project.state,
+          ...(project.zip && { postalCode: project.zip }),
+          addressCountry: 'US',
+        },
+      }),
+      ...(project.latitude && project.longitude && {
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: project.latitude,
+          longitude: project.longitude,
+        },
+      }),
+    },
+    creator: {
+      '@type': 'GeneralContractor',
+      name: BUSINESS.name,
+      url: BUSINESS.url,
+      telephone: BUSINESS.phone,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: BUSINESS.address.street,
+        addressLocality: BUSINESS.address.city,
+        addressRegion: BUSINESS.address.state,
+        postalCode: BUSINESS.address.zip,
+        addressCountry: BUSINESS.address.country,
+      },
+    },
+    ...(project.square_footage && {
+      size: `${project.square_footage.toLocaleString()} square feet`,
+    }),
+  };
+}
+
 interface BreadcrumbItem {
   label: string;
   href?: string;

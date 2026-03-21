@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find 'C:/Users/james/OneDrive/Desktop/Kynex Apps/Websites-Clients/WeBuildCLT/webuildclt-next/src' -type f -name *.tsx -o -name *.ts)",
+      "Bash(find 'C:/Users/james/OneDrive/Desktop/Kynex Apps/Websites-Clients/WeBuildCLT/webuildclt-next/app' -type f -name *.tsx -o -name *.ts)",
+      "Bash(npm run:*)",
+      "Bash(npx next:*)",
+      "Bash(npm install:*)",
+      "mcp__dataforseo__dataforseo_labs_google_keyword_overview",
+      "mcp__dataforseo__dataforseo_labs_google_competitors_domain",
+      "mcp__dataforseo__dataforseo_labs_google_keyword_ideas",
+      "mcp__dataforseo__dataforseo_labs_google_keyword_suggestions",
+      "Bash(claude mcp:*)",
+      "mcp__dataforseo__kw_data_google_ads_search_volume",
+      "Bash(curl:*)",
+      "WebFetch(domain:webuildclt.com)",
+      "Bash(cd:*)",
+      "Bash(grep -oP 'vimeo\\\\.com/[^\"\"\"\"''''\\\\\\\\\\)]+')",
+      "Bash(grep -oP 'https?://[^\"\"\"\"''''\\\\\\\\s]+\\\\.mp4[^\"\"\"\"''''\\\\\\\\s]*')",
+      "Bash(grep -oP 'https?://player\\\\.vimeo\\\\.com/[^\"\"\"\"''''\\\\\\\\s]+')",
+      "Bash(grep -oP 'https?://[^\"\"\"\"''''\\\\\\\\s]*vimeo[^\"\"\"\"''''\\\\\\\\s]*')",
+      "Bash(find public/images -type f -exec ls -lh {})",
+      "Bash(2)",
+      "Bash(find '/c/Users/james/Downloads/We Build' -type f \\\\\\(-name *.jpg -o -name *.jpeg -o -name *.png -o -name *.webp -o -name *.svg -o -name *.mp4 -o -name *.mov -o -name *.avi -o -name *.gif -o -name *.heic -o -name *.MP4 -o -name *.MOV -o -name *.JPG -o -name *.PNG -o -name *.JPEG -o -name *.HEIC \\\\\\))",
+      "Bash(npx tsc:*)",
+      "Bash(npx --yes sharp-cli --version)",
+      "Bash(npm uninstall:*)",
+      "Bash(du:*)",
+      "Bash(code:*)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}

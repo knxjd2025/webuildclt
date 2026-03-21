@@ -503,23 +503,31 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
-            <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
-              <iframe
-                src="https://player.vimeo.com/video/947013750?dnt=1"
-                title="We Build project showcase"
-                className="absolute inset-0 w-full h-full"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-              />
+            <div className="space-y-3">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster="/images/portfolio/fyzical-therapy.jpg"
+                >
+                  <source src="/videos/fyzical-upfit.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <p className="text-sm text-muted-foreground text-center">FYZICAL Therapy — Commercial Upfit</p>
             </div>
-            <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
-              <iframe
-                src="https://player.vimeo.com/video/1123620694?dnt=1"
-                title="We Build construction highlights"
-                className="absolute inset-0 w-full h-full"
-                allow="autoplay; fullscreen; picture-in-picture"
-                allowFullScreen
-              />
+            <div className="space-y-3">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster="/images/we-coat/mics-aerial-1.jpg"
+                >
+                  <source src="/videos/we-coat-charlotte.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <p className="text-sm text-muted-foreground text-center">We Coat — Commercial Roof Coating</p>
             </div>
           </div>
         </div>
@@ -552,26 +560,48 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[1, 2, 3].map((i) => (
+            {[
+              {
+                image: '/images/portfolio/urgent-care.jpg',
+                alt: 'Broken to Better Urgent Care commercial upfit Charlotte NC',
+                category: 'Commercial Upfit',
+                title: 'Broken to Better Urgent Care',
+                href: '/portfolio',
+              },
+              {
+                image: '/images/portfolio/fyzical-therapy.jpg',
+                alt: 'FYZICAL Therapy & Balance Centers commercial upfit',
+                category: 'Commercial Upfit',
+                title: 'FYZICAL Therapy & Balance Centers',
+                href: '/portfolio',
+              },
+              {
+                image: '/images/portfolio/pure-physique.jpg',
+                alt: 'Pure Physique fitness studio commercial upfit Fort Mill SC',
+                category: 'Commercial Upfit',
+                title: 'Pure Physique',
+                href: '/portfolio',
+              },
+            ].map((project) => (
               <Link
-                key={i}
-                href={`/portfolio/project-${i}`}
+                key={project.title}
+                href={project.href}
                 className="group image-hover rounded-lg overflow-hidden"
               >
                 <div className="relative aspect-[4/3]">
                   <Image
-                    src={`/images/portfolio/project-${i}.jpg`}
-                    alt={`Charlotte construction project ${i}`}
+                    src={project.image}
+                    alt={project.alt}
                     fill
                     className="object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                   <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all">
                     <span className="text-primary text-sm font-medium">
-                      Commercial
+                      {project.category}
                     </span>
                     <h3 className="text-white text-xl font-semibold">
-                      Project Title {i}
+                      {project.title}
                     </h3>
                   </div>
                 </div>

@@ -92,10 +92,10 @@ const processSteps = [
 ];
 
 const roofTypes = [
-  { src: '/images/we-coat/roof1.jpg', alt: 'Metal roof coating Charlotte NC', label: 'Metal Roof' },
-  { src: '/images/we-coat/roof2.jpg', alt: 'Commercial flat roof coating', label: 'Flat Roof' },
-  { src: '/images/we-coat/roof3.jpg', alt: 'Industrial roof restoration', label: 'Industrial' },
-  { src: '/images/we-coat/roof4.jpg', alt: 'Warehouse roof coating', label: 'Warehouse' },
+  { src: '/images/we-coat/mics-aerial-1.jpg', alt: 'Mountain Island Charter School roof coating aerial view', label: 'School Roof' },
+  { src: '/images/we-coat/applying-primer.jpg', alt: 'Applying primer for commercial roof coating Charlotte NC', label: 'Primer Application' },
+  { src: '/images/we-coat/power-washing.jpg', alt: 'Power washing roof surface preparation', label: 'Surface Prep' },
+  { src: '/images/we-coat/mics-aerial-2.jpg', alt: 'Completed commercial roof coating aerial view', label: 'Completed Coating' },
 ];
 
 const weCoatFaqs = [
@@ -373,13 +373,18 @@ export default function WeCoatPage() {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="relative aspect-video rounded-lg overflow-hidden">
-              <Image
-                src="/images/we-coat/before-after.jpg"
-                alt="Before and after commercial roof coating Charlotte NC"
-                fill
-                className="object-cover"
-              />
+            <div className="space-y-4">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  preload="metadata"
+                  poster="/images/we-coat/mics-aerial-1.jpg"
+                >
+                  <source src="/videos/we-coat-charlotte.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <p className="text-sm text-muted-foreground text-center">Watch: We Coat commercial roof coating in Charlotte, NC</p>
             </div>
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
@@ -518,6 +523,79 @@ export default function WeCoatPage() {
                 building&apos;s overall carbon footprint.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Roof Coating Videos */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+              See the Process
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+              Roof Coating in Action
+            </h2>
+            <p className="text-muted-foreground">
+              Watch our team apply professional roof coatings on real Charlotte-area projects.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              { src: '/videos/mics-final-inspection.mp4', poster: '/images/we-coat/mics-aerial-3.jpg', title: 'Final Inspection — 20-Year NDL Warranty' },
+              { src: '/videos/mics-coating-layers.mp4', poster: '/images/we-coat/mics-detail-1.jpg', title: 'Layers of Coating Around AC Units' },
+              { src: '/videos/mics-reroof-vs-coat.mp4', poster: '/images/we-coat/fabric-embedded.jpg', title: 'Reroof vs. Coat — Keeping Operations Open' },
+            ].map((video) => (
+              <div key={video.src} className="space-y-3">
+                <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                  <video
+                    className="w-full h-full object-cover"
+                    controls
+                    preload="metadata"
+                    poster={video.poster}
+                  >
+                    <source src={video.src} type="video/mp4" />
+                  </video>
+                </div>
+                <p className="text-sm text-muted-foreground text-center font-medium">{video.title}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Roof Coating Project Gallery */}
+      <section className="py-20 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+              Project Gallery
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+              Mountain Island Charter School — Roof Coating
+            </h2>
+            <p className="text-muted-foreground">
+              A completed commercial roof coating project for Mountain Island Charter School in Charlotte, NC.
+              This project included surface preparation, primer application, fabric reinforcement, and multi-layer
+              silicone coating with a 20-year NDL warranty.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {[
+              { src: '/images/we-coat/mics-aerial-1.jpg', alt: 'Aerial view of completed roof coating' },
+              { src: '/images/we-coat/mics-aerial-2.jpg', alt: 'Roof coating aerial perspective' },
+              { src: '/images/we-coat/mics-aerial-3.jpg', alt: 'Charter school roof coating complete' },
+              { src: '/images/we-coat/mics-aerial-4.jpg', alt: 'Finished commercial roof coating' },
+              { src: '/images/we-coat/applying-primer.jpg', alt: 'Crew applying primer to roof surface' },
+              { src: '/images/we-coat/fabric-embedded.jpg', alt: 'Fabric reinforcement being embedded' },
+              { src: '/images/we-coat/power-washing.jpg', alt: 'Power washing roof surface preparation' },
+              { src: '/images/we-coat/mics-detail-1.jpg', alt: 'Roof coating detail work' },
+            ].map((img) => (
+              <div key={img.src} className="relative aspect-square rounded-lg overflow-hidden image-hover">
+                <Image src={img.src} alt={img.alt} fill className="object-cover" />
+              </div>
+            ))}
           </div>
         </div>
       </section>

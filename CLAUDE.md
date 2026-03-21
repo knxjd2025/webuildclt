@@ -110,3 +110,51 @@ These need real assets before launch:
   - Removed placeholder Google verification code, added theme-color meta
 - **Why:** Foundation compliance with Vercel Web Interface Guidelines — accessibility, performance, and SEO baseline
 - **Commit:** design:audit — fix Web Interface Guidelines violations across foundation files
+
+### /design:polish — Phase 2
+- **Files:** globals.css, layout.tsx
+- **What changed:**
+  - Replaced Geist fonts with Plus Jakarta Sans (headings) + DM Sans (body) for construction brand character
+  - Established 8px spacing grid with CSS custom properties (--space-xs through --space-4xl)
+  - Added shadow depth system (4 levels: sm, md, lg, xl) using OKLCH
+  - Added premium transition easing curves (expo, back)
+  - Set heading typography to font-bold, line-height 1.15, responsive base sizes
+  - Set body line-height 1.7, text-wrap: pretty on paragraphs
+  - Polished image hover with 600ms expo easing
+- **Why:** Construction brand needs authoritative, distinctive typography — not generic tech fonts
+- **Commit:** design:polish — replace Geist with Plus Jakarta Sans/DM Sans, add spacing scale + shadow depth system
+
+### /design:animate — Phase 2
+- **Files:** globals.css, ScrollReveal.tsx (new)
+- **What changed:**
+  - Added CSS scroll-reveal system: reveal, reveal-left, reveal-right, reveal-scale classes
+  - Added stagger-children for sequenced entrance animations (80ms intervals, up to 8 children)
+  - Added micro-interactions: hover-lift (buttons), card-hover (cards), icon-hover-rotate
+  - Added CTA pulse-glow keyframe for primary call-to-action emphasis
+  - Created ScrollReveal component with IntersectionObserver + reduced motion respect
+  - All animations use transform/opacity only (GPU-composited)
+- **Why:** Purposeful motion guides the eye, creates hierarchy, and makes the site feel alive — construction sites are dynamic, the website should be too
+- **Commit:** design:animate — add scroll-reveal system, staggered entrances, micro-interactions
+
+### /design:bolder — Phase 2
+- **Files:** globals.css
+- **What changed:**
+  - Pushed h1 to text-5xl/6xl/7xl with 800 weight and -0.035em letter-spacing
+  - Pushed h2 to lg:text-5xl with 700 weight
+  - Deepened hero gradient with brand-tinted OKLCH dark overlay (blue-black)
+  - Added section-divider (brand accent bar), stat-value, section-label utilities
+  - Pushed foreground to deeper near-black with subtle blue-gray tint
+- **Why:** A construction company needs to look authoritative, not timid — bolder typography and contrast communicates strength
+- **Commit:** design:bolder — larger headings, heavier weights, dramatic hero gradient, bolder contrast
+
+### /design:colorize — Phase 2
+- **Files:** globals.css
+- **What changed:**
+  - Boosted primary orange to richer oklch(0.67 0.2 48) — more saturated construction brand
+  - Deepened secondary to steel blue-black for commercial authority
+  - Added warm amber accent and brand-warm/brand-steel semantic tokens
+  - Added texture-noise SVG overlay, gradient-warm, gradient-steel utilities
+  - Harmonized chart colors to brand palette
+  - All colors in OKLCH for perceptual uniformity
+- **Why:** Construction orange + steel authority = commercial confidence. Generic palette replaced with intentional dominant + accent system
+- **Commit:** design:colorize — richer construction orange, steel blue-black, warm amber system
