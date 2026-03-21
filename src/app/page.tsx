@@ -487,8 +487,46 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Portfolio Preview */}
+      {/* Video Showcase — NEW */}
       <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+              See Our Work
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+              We Build in Action
+            </h2>
+            <p className="text-muted-foreground">
+              Watch our team deliver quality construction across the Charlotte
+              metro area — from commercial upfits to custom home builds.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                src="https://player.vimeo.com/video/947013750?dnt=1"
+                title="We Build project showcase"
+                className="absolute inset-0 w-full h-full"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+            <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                src="https://player.vimeo.com/video/1123620694?dnt=1"
+                title="We Build construction highlights"
+                className="absolute inset-0 w-full h-full"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Portfolio Preview */}
+      <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
             <div>
