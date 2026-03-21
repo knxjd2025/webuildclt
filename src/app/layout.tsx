@@ -22,19 +22,20 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://webuildclt.com'),
   title: {
-    default: 'We Build | Design & Build Construction Charlotte NC',
-    template: '%s | We Build',
+    default: 'We Build | Commercial Construction & Design-Build Charlotte NC',
+    template: '%s | We Build Charlotte NC',
   },
   description:
-    'Family-owned construction company in Charlotte, NC. Commercial & residential construction, upfits, roof coating. 60+ years combined experience.',
+    'Charlotte NC commercial construction company specializing in commercial upfits, design-build, and roof coatings. Veteran & family-owned with 60+ years combined experience. USGBC member.',
   keywords: [
-    'construction',
-    'Charlotte NC',
-    'commercial construction',
-    'residential construction',
-    'roof coating',
-    'design build',
-    'contractor',
+    'commercial construction Charlotte NC',
+    'commercial upfits Charlotte',
+    'design build contractor Charlotte NC',
+    'commercial general contractor Charlotte',
+    'roof coating Charlotte NC',
+    'office upfit Charlotte',
+    'commercial renovation Charlotte',
+    'USGBC member contractor',
   ],
   authors: [{ name: 'We Build' }],
   creator: 'We Build',
@@ -43,23 +44,23 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://webuildclt.com',
     siteName: 'We Build',
-    title: 'We Build | Design & Build Construction Charlotte NC',
+    title: 'We Build | Commercial Construction & Design-Build Charlotte NC',
     description:
-      'Family-owned construction company in Charlotte, NC. Commercial & residential construction, upfits, roof coating.',
+      'Charlotte NC commercial construction company. Commercial upfits, design-build, roof coatings. Veteran & family-owned, USGBC member.',
     images: [
       {
         url: '/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'We Build Construction',
+        alt: 'We Build — Commercial Construction Charlotte NC',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'We Build | Design & Build Construction Charlotte NC',
+    title: 'We Build | Commercial Construction & Design-Build Charlotte NC',
     description:
-      'Family-owned construction company in Charlotte, NC. Commercial & residential construction.',
+      'Charlotte NC commercial construction company. Commercial upfits, design-build, roof coatings. Veteran & family-owned.',
     images: ['/images/og-image.jpg'],
   },
   robots: {
@@ -73,8 +74,8 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code',
+  other: {
+    'theme-color': '#1a1a2e',
   },
 };
 
@@ -88,6 +89,13 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        {/* Skip link for keyboard accessibility */}
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:bg-primary focus:text-primary-foreground focus:px-4 focus:py-2 focus:rounded-md focus:text-sm focus:font-medium"
+        >
+          Skip to main content
+        </a>
         <JsonLd
           data={[
             organizationSchema(),
@@ -96,7 +104,7 @@ export default function RootLayout({
           ]}
         />
         <Header />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">{children}</main>
         <Footer />
       </body>
     </html>

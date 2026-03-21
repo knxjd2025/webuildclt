@@ -139,20 +139,53 @@
   }
   body {
     @apply bg-background text-foreground antialiased;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-semibold tracking-tight;
+    text-wrap: balance;
   }
+
+  /* Focus states — visible on keyboard, hidden on click */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ring;
+  }
+}
+
+/* Smooth scroll — respects reduced motion */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Dark mode color-scheme for native elements */
+.dark {
+  color-scheme: dark;
+}
+
+/* Reduced motion — disable animations for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Tabular numbers for data displays */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
 }
 
 /* Hero section styles */
 .hero-gradient {
   background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 100%);
-}
-
-/* Smooth scroll */
-html {
-  scroll-behavior: smooth;
 }
 
 /* Portfolio grid masonry effect */

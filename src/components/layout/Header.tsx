@@ -14,13 +14,13 @@ import {
 import { cn } from '@/lib/utils';
 
 const serviceLinks = [
-  { name: 'General Contractor', href: '/services/general-contractor' },
   { name: 'Commercial Construction', href: '/services/commercial-construction' },
   { name: 'Commercial Upfits', href: '/services/commercial-upfits' },
+  { name: 'Design-Build', href: '/services/design-build' },
+  { name: 'Roof Coating', href: '/services/roof-coating' },
+  { name: 'General Contractor', href: '/services/general-contractor' },
   { name: 'Custom Home Builder', href: '/services/custom-home-builder' },
   { name: 'Residential Additions', href: '/services/residential-additions' },
-  { name: 'Roof Coating', href: '/services/roof-coating' },
-  { name: 'Design-Build', href: '/services/design-build' },
 ];
 
 const areaLinks = [
@@ -64,10 +64,19 @@ export function Header() {
     timeoutRef.current = setTimeout(() => setDropdownOpen(false), 150);
   }
 
+  function handleDropdownKeyDown(e: React.KeyboardEvent) {
+    if (e.key === 'Escape') {
+      setDropdownOpen(false);
+    } else if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      setDropdownOpen((prev) => !prev);
+    }
+  }
+
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
+        'fixed top-0 left-0 right-0 z-50 transition-[background-color,padding,box-shadow] duration-300',
         isScrolled
           ? 'bg-white/95 backdrop-blur-md shadow-md py-2'
           : 'bg-transparent py-4'
@@ -97,6 +106,7 @@ export function Header() {
                   className="relative"
                   onMouseEnter={openDropdown}
                   onMouseLeave={closeDropdown}
+                  onKeyDown={handleDropdownKeyDown}
                 >
                   <Link
                     href={item.href}
@@ -104,9 +114,11 @@ export function Header() {
                       'text-sm font-medium transition-colors hover:text-primary inline-flex items-center gap-1',
                       isScrolled ? 'text-foreground' : 'text-white'
                     )}
+                    aria-expanded={dropdownOpen}
+                    aria-haspopup="true"
                   >
                     {item.name}
-                    <ChevronDown className="h-3.5 w-3.5" />
+                    <ChevronDown className="h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
 
                   {dropdownOpen && (

@@ -14,13 +14,13 @@ const navigation = {
     { name: 'Contact', href: '/contact' },
   ],
   services: [
-    { name: 'General Contractor', href: '/services/general-contractor' },
     { name: 'Commercial Construction', href: '/services/commercial-construction' },
     { name: 'Commercial Upfits', href: '/services/commercial-upfits' },
+    { name: 'Design-Build', href: '/services/design-build' },
+    { name: 'Roof Coating', href: '/services/roof-coating' },
+    { name: 'General Contractor', href: '/services/general-contractor' },
     { name: 'Custom Home Builder', href: '/services/custom-home-builder' },
     { name: 'Residential Additions', href: '/services/residential-additions' },
-    { name: 'Roof Coating', href: '/services/roof-coating' },
-    { name: 'Design-Build', href: '/services/design-build' },
   ],
   social: [
     { name: 'Instagram', href: 'https://www.instagram.com/webuildclt/', icon: Instagram },
@@ -43,9 +43,9 @@ export function Footer() {
               className="h-12 w-auto brightness-0 invert"
             />
             <p className="text-sm text-secondary-foreground/80 leading-relaxed">
-              Family-owned construction company based in Charlotte, NC. Over 60
-              years of combined experience in commercial and residential
-              construction.
+              Charlotte&rsquo;s trusted commercial construction company. Over 60
+              years of combined experience in commercial upfits, design-build,
+              and roof coatings. Veteran &amp; family-owned. USGBC member.
             </p>
             <div className="flex gap-4">
               {navigation.social.map((item) => (
@@ -65,7 +65,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
+            <h2 className="text-lg font-semibold mb-6">Quick Links</h2>
             <ul className="space-y-3">
               {navigation.main.map((item) => (
                 <li key={item.name}>
@@ -82,7 +82,7 @@ export function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Our Services</h3>
+            <h2 className="text-lg font-semibold mb-6">Our Services</h2>
             <ul className="space-y-3">
               {navigation.services.map((item) => (
                 <li key={item.name}>
@@ -99,7 +99,7 @@ export function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
+            <h2 className="text-lg font-semibold mb-6">Contact Us</h2>
             <ul className="space-y-4">
               <li>
                 <a
@@ -108,7 +108,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
                 >
-                  <MapPin className="h-5 w-5 flex-shrink-0 mt-0.5" />
+                  <MapPin className="h-5 w-5 flex-shrink-0 mt-0.5" aria-hidden="true" />
                   <span>14330 S Lakes Drive, Charlotte NC 28273</span>
                 </a>
               </li>
@@ -117,7 +117,7 @@ export function Footer() {
                   href="tel:7045748124"
                   className="flex items-center gap-3 text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
                 >
-                  <Phone className="h-5 w-5 flex-shrink-0" />
+                  <Phone className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
                   (704) 574-8124
                 </a>
               </li>
@@ -126,7 +126,7 @@ export function Footer() {
                   href="mailto:designcenter@webuildclt.com"
                   className="flex items-center gap-3 text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
                 >
-                  <Mail className="h-5 w-5 flex-shrink-0" />
+                  <Mail className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
                   designcenter@webuildclt.com
                 </a>
               </li>
