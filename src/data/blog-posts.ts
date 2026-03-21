@@ -1310,10 +1310,818 @@ const commercialConstructionPosts: BlogPost[] = [
   },
 ];
 
+// ============================================================
+// CLUSTER 2: RESIDENTIAL / CUSTOM HOMES (Posts 31-45)
+// ============================================================
+
+const residentialPosts: BlogPost[] = [
+  {
+    id: '31',
+    title: 'How Much Does It Cost to Build a Custom Home in Charlotte NC?',
+    slug: 'cost-to-build-custom-home-charlotte-nc',
+    excerpt: 'A detailed breakdown of custom home building costs in Charlotte for 2026 — per square foot pricing, what drives costs, and how to budget effectively.',
+    content: `
+<h2>Custom Home Costs in the Charlotte Market</h2>
+<p>Building a custom home in Charlotte, NC is a significant investment, and understanding current costs helps you budget realistically and make informed decisions. The Charlotte housing market remains strong, and construction costs reflect both national trends and local demand.</p>
+
+<h2>Cost Per Square Foot in Charlotte (2026)</h2>
+<p>Custom home construction in the Charlotte metro area typically falls into these ranges:</p>
+<ul>
+<li><strong>Entry-Level Custom:</strong> $200-$275/sq ft — Quality construction with standard finishes, builder-grade fixtures, and efficient floor plans</li>
+<li><strong>Mid-Range Custom:</strong> $275-$400/sq ft — Upgraded finishes, hardwood floors, granite/quartz countertops, custom cabinetry</li>
+<li><strong>Luxury Custom:</strong> $400-$600+/sq ft — Premium materials throughout, smart home technology, custom millwork, designer fixtures</li>
+</ul>
+<p>For a 2,500 square foot custom home, expect to invest $500,000-$1,000,000+ depending on finish level and lot conditions.</p>
+
+<h2>What Is Included in the Per-Square-Foot Price?</h2>
+<p>A reputable builder's per-square-foot quote should include:</p>
+<ul>
+<li>Site preparation and foundation</li>
+<li>Framing, roofing, and exterior finishes</li>
+<li>All mechanical systems (HVAC, electrical, plumbing)</li>
+<li>Interior finishes (drywall, paint, flooring, trim)</li>
+<li>Kitchen and bathroom fixtures and cabinetry</li>
+<li>Basic landscaping and driveway</li>
+</ul>
+<p>Typically NOT included: land cost, well/septic (if applicable), swimming pool, extensive landscaping, and furniture.</p>
+
+<h2>Factors That Drive Cost Up</h2>
+<ul>
+<li><strong>Lot Conditions:</strong> Sloped lots, rock, high water tables, and difficult access increase site work costs 20-50%</li>
+<li><strong>Architectural Complexity:</strong> Multiple rooflines, curved walls, large windows, and multi-story designs cost more than simple rectangular plans</li>
+<li><strong>Finish Selections:</strong> The difference between builder-grade and luxury finishes can add $50-$150/sq ft</li>
+<li><strong>Kitchen and Bathrooms:</strong> These rooms cost 2-3x more per square foot than standard living space</li>
+<li><strong>Energy Efficiency:</strong> Spray foam insulation, geothermal, and solar-ready systems add upfront cost but save long-term</li>
+</ul>
+
+<h2>Hidden Costs to Budget For</h2>
+<ul>
+<li>Permit and impact fees: $5,000-$25,000 depending on jurisdiction</li>
+<li>Architectural plans: 8-15% of construction cost</li>
+<li>Temporary utilities during construction</li>
+<li>Construction loan interest (typically 12-18 months)</li>
+<li>Contingency fund: budget 10-15% for unexpected costs</li>
+</ul>
+
+<h2>Charlotte Area Variations</h2>
+<p>Costs vary by location within the Charlotte metro:</p>
+<ul>
+<li><strong>South Charlotte/Ballantyne:</strong> Higher land costs but established infrastructure</li>
+<li><strong>Lake Norman:</strong> Premium for lakefront lots; standard pricing for non-waterfront</li>
+<li><strong>Fort Mill, SC:</strong> Slightly lower costs due to South Carolina tax advantages</li>
+<li><strong>Waxhaw/Marvin:</strong> Competitive pricing with larger lot availability</li>
+</ul>
+
+<h2>Get an Accurate Estimate</h2>
+<p>Every custom home is different. The most reliable way to understand your specific costs is to work with an experienced builder who can evaluate your plans, lot, and finish preferences. We Build provides detailed, transparent estimates with no hidden fees. Contact us to start planning your custom home.</p>
+`,
+    date: '2026-03-18',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/custom-home-cost.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '32',
+    title: 'Build on Your Lot in Charlotte: A Step-by-Step Guide',
+    slug: 'build-on-your-lot-charlotte-guide',
+    excerpt: 'Everything you need to know about building on your own lot in Charlotte — from lot evaluation to move-in, including permits, costs, and timeline.',
+    content: `
+<h2>Building on Your Own Lot</h2>
+<p>Owning a lot and building a custom home gives you complete control over location, design, and features. Charlotte's growing suburbs offer plenty of buildable lots, and the build-on-your-lot approach is increasingly popular with homebuyers who want something truly custom.</p>
+
+<h2>Step 1: Evaluate Your Lot</h2>
+<p>Before committing to a lot (or designing for one you own), evaluate: zoning and setback requirements, soil conditions and topography, utility access (water, sewer, electric, gas), tree preservation requirements, flood zone status, and HOA restrictions if applicable.</p>
+<p>We Build offers pre-purchase lot evaluations to help you understand buildability and potential challenges before you buy.</p>
+
+<h2>Step 2: Design Your Home</h2>
+<p>Work with an architect or our design-build team to create plans that suit your lot's characteristics and your lifestyle. Our Design Center lets you explore materials and finishes hands-on during the design phase.</p>
+
+<h2>Step 3: Budget and Financing</h2>
+<p>Construction loans work differently than traditional mortgages. You will need a construction-to-permanent loan that funds the build in draws and converts to a mortgage upon completion. Most lenders require 20-25% down on the total project cost (land + construction).</p>
+
+<h2>Step 4: Permitting</h2>
+<p>Your builder manages permit applications with the relevant jurisdiction — Mecklenburg County for Charlotte, York County for Fort Mill, etc. Permit timelines range from 4-12 weeks depending on complexity and jurisdiction.</p>
+
+<h2>Step 5: Construction</h2>
+<p>A typical custom home build takes 8-14 months. Key milestones include foundation, framing, mechanical rough-in, insulation, drywall, finishes, and final inspections. Expect regular progress updates from your builder.</p>
+
+<h2>Step 6: Final Walkthrough and Move-In</h2>
+<p>A thorough walkthrough identifies any punch list items before closing. Once complete, you receive your certificate of occupancy, close on your permanent mortgage, and move into your custom home.</p>
+
+<h2>Total Timeline</h2>
+<p>From initial consultation to move-in, plan for 14-22 months: 2-4 months for design and permitting, 8-14 months for construction, plus time for lot acquisition if you have not already purchased.</p>
+
+<h2>Get Started</h2>
+<p>We Build specializes in build-on-your-lot projects throughout the Charlotte metro area. Whether you already own a lot or are still searching, our team guides you through every step. Contact us for a free consultation.</p>
+`,
+    date: '2026-03-16',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/build-on-your-lot.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '33',
+    title: 'Custom Home Builder Checklist: 10 Things to Ask Before You Sign',
+    slug: 'custom-home-builder-checklist-questions',
+    excerpt: 'The 10 essential questions to ask any custom home builder before signing a contract — protect your investment and ensure a smooth build.',
+    content: `
+<h2>Choosing the Right Builder</h2>
+<p>Your custom home builder will be your partner for 12-18 months. Asking the right questions upfront ensures you choose a builder who delivers quality, communicates well, and stands behind their work.</p>
+
+<h2>10 Questions to Ask</h2>
+<h3>1. Are you licensed and insured in this state?</h3>
+<p>Verify their NC (and SC if applicable) general contractor license at nclbgc.org. Confirm general liability and workers' compensation insurance are current.</p>
+
+<h3>2. Can I see homes you have completed?</h3>
+<p>A quality builder is proud to show their work. Ask to visit completed homes and speak with past clients. Look for consistency in craftsmanship and attention to detail.</p>
+
+<h3>3. What is included in your base price?</h3>
+<p>Get a detailed line-item specification of what is included. Vague allowances for "flooring" or "fixtures" lead to budget overruns when you make actual selections.</p>
+
+<h3>4. How do you handle change orders?</h3>
+<p>Changes during construction are inevitable. Understand the process: written change orders, pricing transparency, and how changes affect the timeline.</p>
+
+<h3>5. Who will manage my project day-to-day?</h3>
+<p>Know your project manager by name. Understand their communication style — weekly updates, site meetings, online project portal, or all of the above.</p>
+
+<h3>6. What is your warranty?</h3>
+<p>Most builders offer a 1-year workmanship warranty, 2-year systems warranty, and 10-year structural warranty. Get the specifics in writing.</p>
+
+<h3>7. What is the realistic timeline?</h3>
+<p>Beware of timelines that seem too fast. A quality 2,500 sq ft custom home takes 8-14 months. Rushing leads to quality issues.</p>
+
+<h3>8. How do you handle subcontractors?</h3>
+<p>Quality builders use established, vetted subcontractors. Ask if they have long-term relationships with their subs or bid to the lowest price each time.</p>
+
+<h3>9. What happens if you go over budget?</h3>
+<p>Understand how cost overruns are handled. Fixed-price contracts protect you; cost-plus contracts require careful monitoring.</p>
+
+<h3>10. Can I visit the site during construction?</h3>
+<p>You should be welcome on your own building site. Understand any safety requirements and scheduling preferences for visits.</p>
+
+<h2>Trust Your Instincts</h2>
+<p>Beyond these questions, pay attention to how the builder communicates. Are they responsive? Transparent? Patient with your questions? The build process is a relationship — choose a partner you trust. Contact We Build to experience our transparent, client-first approach.</p>
+`,
+    date: '2026-03-14',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/builder-checklist.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '34',
+    title: 'New Construction vs. Buying Existing: Charlotte Market Analysis',
+    slug: 'new-construction-vs-existing-home-charlotte',
+    excerpt: 'Should you build new or buy existing in Charlotte? Compare costs, timelines, customization, and long-term value in the current market.',
+    content: `
+<h2>The Charlotte Housing Decision</h2>
+<p>With Charlotte's real estate market remaining competitive, homebuyers face a critical choice: purchase an existing home or build new. Both paths have distinct advantages, and the right answer depends on your priorities, timeline, and budget.</p>
+
+<h2>Cost Comparison</h2>
+<p><strong>Existing Home:</strong> The median home price in Charlotte hovers around $380,000-$420,000 (2026). You get an established home in a known neighborhood, but may need to invest in updates and repairs.</p>
+<p><strong>New Construction:</strong> A custom home starts around $500,000+ for entry-level custom (land + construction). Production builder homes in new developments may start lower but offer less customization.</p>
+
+<h2>Advantages of Building New</h2>
+<ul>
+<li><strong>Complete Customization:</strong> Every detail reflects your preferences</li>
+<li><strong>Modern Building Codes:</strong> Better insulation, energy efficiency, and safety standards</li>
+<li><strong>New Systems:</strong> No aging HVAC, roof, or plumbing to worry about for 15-20+ years</li>
+<li><strong>Warranty Coverage:</strong> Builder warranties cover workmanship, systems, and structure</li>
+<li><strong>Energy Efficiency:</strong> New homes use 20-30% less energy than homes built before 2010</li>
+<li><strong>No Bidding Wars:</strong> You are not competing with other buyers for the same property</li>
+</ul>
+
+<h2>Advantages of Buying Existing</h2>
+<ul>
+<li><strong>Faster Move-In:</strong> Close in 30-45 days vs. 12-18 months for new construction</li>
+<li><strong>Established Neighborhoods:</strong> Mature landscaping, known neighbors, proven schools</li>
+<li><strong>Character and Charm:</strong> Older homes may have architectural details hard to replicate affordably</li>
+<li><strong>Negotiation Room:</strong> Sellers may accept below asking price, especially in slower markets</li>
+</ul>
+
+<h2>Long-Term Value</h2>
+<p>New construction typically appreciates faster in the first 5-10 years due to modern features and lower maintenance costs. However, location remains the primary driver of home value in any market. A well-located existing home in a desirable Charlotte neighborhood may outperform a new build in a less established area.</p>
+
+<h2>Making Your Decision</h2>
+<p>If you prioritize customization, energy efficiency, and low maintenance — and can wait 12-18 months — new construction is compelling. If you need to move quickly, prefer established neighborhoods, or have a tighter budget, an existing home makes sense. We Build helps Charlotte families navigate this decision with free consultations. Contact us to explore your options.</p>
+`,
+    date: '2026-03-12',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/new-vs-existing.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '35',
+    title: 'Home Addition Ideas That Add the Most Value in Charlotte',
+    slug: 'home-addition-ideas-most-value-charlotte',
+    excerpt: 'Which home additions deliver the best return on investment in the Charlotte market? Data-driven analysis of ROI by addition type.',
+    content: `
+<h2>Smart Additions for Charlotte Homeowners</h2>
+<p>Not all home additions deliver equal value. Some additions pay for themselves through increased property value, while others are more about lifestyle improvement. Here are the additions that deliver the best ROI in the Charlotte market.</p>
+
+<h2>Highest ROI Additions</h2>
+<h3>Primary Suite Addition: 60-75% ROI</h3>
+<p>Adding a primary bedroom suite with walk-in closet and full bathroom is consistently one of the highest-value additions. In Charlotte's competitive market, homes with generous primary suites sell faster and for more money.</p>
+
+<h3>Kitchen Extension: 55-70% ROI</h3>
+<p>Expanding a cramped kitchen into adjacent space (bumping out a wall or absorbing a dining room) creates the open floor plan that Charlotte buyers want. Add an island, improve flow, and you have a strong value-add.</p>
+
+<h3>Bathroom Addition: 50-65% ROI</h3>
+<p>Adding a full bathroom to a home that only has one or two bathrooms dramatically improves functionality and resale value. Even a well-designed half-bath in a strategic location adds value.</p>
+
+<h3>In-Law Suite / ADU: 50-70% ROI</h3>
+<p>Accessory dwelling units are increasingly popular and may offer rental income potential. Charlotte's zoning is evolving to accommodate ADUs in more neighborhoods, making this an increasingly attractive option.</p>
+
+<h3>Sunroom / Four-Season Room: 45-60% ROI</h3>
+<p>Charlotte's mild climate makes sunrooms usable 10+ months per year. A well-built four-season room with HVAC extends your living space and connects indoor and outdoor living.</p>
+
+<h2>Lower ROI (But High Lifestyle Value)</h2>
+<ul>
+<li><strong>Swimming Pool:</strong> 30-50% ROI — great for lifestyle, modest for resale</li>
+<li><strong>Home Theater:</strong> 20-40% ROI — very personal, buyers may prefer different use</li>
+<li><strong>Wine Cellar:</strong> 20-35% ROI — niche appeal limits buyer pool</li>
+</ul>
+
+<h2>Maximizing Your Addition's Value</h2>
+<ul>
+<li>Match the addition's quality to the rest of the home and neighborhood</li>
+<li>Ensure the addition looks original, not tacked on</li>
+<li>Do not over-improve beyond neighborhood price ceiling</li>
+<li>Use quality materials that age well</li>
+<li>Ensure proper permitting (unpermitted work hurts resale)</li>
+</ul>
+
+<h2>Plan Your Addition</h2>
+<p>We Build helps Charlotte homeowners plan additions that balance lifestyle needs with investment value. Contact us for a free consultation on your home addition project.</p>
+`,
+    date: '2026-03-10',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/home-addition-value.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '36',
+    title: 'Second Story Addition: Cost, Timeline, and What to Expect',
+    slug: 'second-story-addition-cost-timeline',
+    excerpt: 'Everything Charlotte homeowners need to know about adding a second story — structural requirements, costs, timeline, and living arrangements during construction.',
+    content: `
+<h2>Doubling Your Space Without Moving</h2>
+<p>A second story addition is one of the most transformative home improvements you can make. It doubles your living space while keeping you in the neighborhood you love. But it is also one of the most complex residential projects, requiring careful planning and experienced execution.</p>
+
+<h2>Cost Expectations</h2>
+<p>Second story additions in Charlotte range from $250-$400+ per square foot, making them more expensive per square foot than ground-level additions due to structural requirements. For a 1,000 sq ft second story, budget $250,000-$400,000+.</p>
+<p>Key cost factors include: structural reinforcement of existing first floor, new staircase, extended HVAC/plumbing/electrical systems, new roofing for the entire home, and interior finishes.</p>
+
+<h2>Structural Considerations</h2>
+<p>The existing foundation and first-floor framing must support the additional weight. A structural engineer evaluates your home to determine what reinforcement is needed. Some homes require foundation upgrades, beam additions, or wall reinforcement — adding to cost and timeline.</p>
+
+<h2>Timeline</h2>
+<p>A typical second story addition takes 4-6 months of construction, plus 1-2 months for design and permitting. Total timeline from start to move-in: 6-8 months.</p>
+
+<h2>Living Arrangements</h2>
+<p>Unlike most additions where you can remain in the home, second story additions typically require temporary relocation for 2-4 weeks during the roof removal and framing phase when the home is exposed to weather. Once the new structure is enclosed, you can often move back in while interior work continues.</p>
+
+<h2>Is a Second Story Right for Your Home?</h2>
+<p>Second stories work best when: your lot does not allow outward expansion, your foundation is strong enough (or can be reinforced economically), local zoning allows the additional height, and the neighborhood supports the increased home size. Contact We Build for a structural feasibility assessment.</p>
+`,
+    date: '2026-03-08',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/second-story-addition.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '37',
+    title: 'Mother-in-Law Suite Addition: Costs and Design Ideas',
+    slug: 'mother-in-law-suite-addition-costs-design',
+    excerpt: 'Planning a mother-in-law suite or in-law apartment? Costs, design options, zoning considerations, and rental income potential in Charlotte.',
+    content: `
+<h2>The Growing Demand for In-Law Suites</h2>
+<p>Multi-generational living is on the rise, and in-law suites (also called accessory dwelling units or ADUs) are one of the most requested home additions in Charlotte. Whether for aging parents, adult children, or rental income, a well-designed in-law suite adds significant value and flexibility.</p>
+
+<h2>Design Options</h2>
+<h3>Attached Suite</h3>
+<p>Built as an addition to your existing home with a separate entrance. Shares the main structure but has its own bedroom, bathroom, kitchenette, and living area. Cost: $150,000-$250,000.</p>
+<h3>Above-Garage Suite</h3>
+<p>Converts space above an attached or detached garage into a complete living unit. Excellent option when ground-level expansion is not possible. Cost: $100,000-$200,000.</p>
+<h3>Garage Conversion</h3>
+<p>Transforms an existing garage into living space. Most cost-effective since the structure exists. Cost: $50,000-$120,000.</p>
+<h3>Detached ADU</h3>
+<p>A separate structure on your property — essentially a small independent home. Offers maximum privacy but requires more permitting. Cost: $150,000-$300,000+.</p>
+
+<h2>Zoning Considerations in Charlotte</h2>
+<p>Charlotte and Mecklenburg County have been updating ADU regulations to accommodate growing demand. Current rules vary by zoning district — some areas allow ADUs by right, others require a conditional use permit. Your builder should verify zoning compliance before design begins.</p>
+
+<h2>Rental Income Potential</h2>
+<p>A well-appointed in-law suite in Charlotte can generate $800-$1,500/month in rental income, depending on size, location, and finishes. This income can significantly offset the construction cost over time.</p>
+
+<h2>Essential Features</h2>
+<ul>
+<li>Private entrance (separate from main home)</li>
+<li>Full bathroom with accessible features</li>
+<li>Kitchenette with sink, refrigerator, and microwave (full kitchen for detached units)</li>
+<li>Adequate heating and cooling (separate HVAC zone recommended)</li>
+<li>Laundry connections</li>
+<li>Sound insulation between suite and main home</li>
+</ul>
+
+<h2>Get Started</h2>
+<p>We Build designs and constructs in-law suites throughout the Charlotte metro area. Contact us for a free consultation to explore the best option for your property.</p>
+`,
+    date: '2026-03-06',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/in-law-suite.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '38',
+    title: 'Garage Conversion: Transform Unused Space Into Living Area',
+    slug: 'garage-conversion-living-space-guide',
+    excerpt: 'How to convert your garage into a bedroom, home office, gym, or rental unit — costs, permits, and design considerations for Charlotte homeowners.',
+    content: `
+<h2>Unlock Your Garage's Potential</h2>
+<p>If your garage has become a storage dump rather than a functional space, a conversion can transform it into valuable living area at a fraction of the cost of a traditional addition. Garage conversions are one of the most cost-effective ways to add usable square footage to your Charlotte home.</p>
+
+<h2>Popular Conversion Ideas</h2>
+<ul>
+<li><strong>Home Office/Studio:</strong> Perfect for remote workers needing dedicated workspace</li>
+<li><strong>Guest Suite:</strong> Bedroom and bathroom for visitors or family</li>
+<li><strong>Home Gym:</strong> Climate-controlled exercise space with rubber flooring</li>
+<li><strong>Rental Unit:</strong> ADU for supplemental income ($800-$1,200/month in Charlotte)</li>
+<li><strong>Playroom/Family Room:</strong> Extra living space for growing families</li>
+</ul>
+
+<h2>Cost Breakdown</h2>
+<p>Garage conversions in Charlotte typically cost $50,000-$120,000 depending on scope:</p>
+<ul>
+<li><strong>Basic conversion</strong> (insulation, drywall, flooring, HVAC extension): $50,000-$70,000</li>
+<li><strong>With bathroom:</strong> Add $15,000-$25,000</li>
+<li><strong>With kitchenette:</strong> Add $10,000-$20,000</li>
+<li><strong>Full ADU conversion:</strong> $80,000-$120,000</li>
+</ul>
+
+<h2>Key Construction Considerations</h2>
+<h3>Flooring</h3>
+<p>Garage floors are typically 4-6 inches lower than the main house. Options include building up the subfloor to match interior levels or using a ramped transition.</p>
+<h3>Insulation</h3>
+<p>Garages have no insulation by default. Walls, ceiling, and the garage door opening all need proper insulation for year-round comfort. The garage door is typically replaced with a framed, insulated wall with windows.</p>
+<h3>HVAC</h3>
+<p>Your existing HVAC system may or may not have capacity for the additional space. A mini-split system is often the most cost-effective solution for garage conversions.</p>
+
+<h2>Permit Requirements</h2>
+<p>Garage conversions in Mecklenburg County require building permits. If you are converting to habitable space, the project must meet residential building codes for egress windows, ceiling height (minimum 7 feet), and fire separation from the rest of the home.</p>
+
+<h2>Impact on Home Value</h2>
+<p>A quality garage conversion typically adds 60-80% of its cost to home value. However, losing garage parking can be a negative for some buyers. Consider whether your property has adequate alternative parking before converting.</p>
+
+<h2>Get Started</h2>
+<p>We Build has completed garage conversions across the Charlotte area. Contact us for a free assessment of your garage's conversion potential.</p>
+`,
+    date: '2026-03-04',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/garage-conversion.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '39',
+    title: 'Open Floor Plan Remodel: Removing Walls Safely',
+    slug: 'open-floor-plan-remodel-removing-walls',
+    excerpt: 'Want to open up your floor plan? Learn which walls can be removed, structural considerations, costs, and how to achieve the open concept you want.',
+    content: `
+<h2>The Open Floor Plan Appeal</h2>
+<p>Open floor plans remain the most requested feature in Charlotte home remodeling. Removing walls between kitchen, dining, and living areas creates a spacious, connected environment perfect for modern living and entertaining. But not every wall can simply be removed.</p>
+
+<h2>Load-Bearing vs. Non-Load-Bearing Walls</h2>
+<p><strong>Non-load-bearing walls</strong> only separate rooms and can typically be removed without structural modifications. They are usually parallel to the roof ridge.</p>
+<p><strong>Load-bearing walls</strong> support the weight of the structure above — roof, upper floors, or both. Removing a load-bearing wall requires installing a beam (steel or engineered lumber) to carry the load. This is the critical distinction that determines project complexity and cost.</p>
+<p>A structural engineer must evaluate any wall before removal. Never assume a wall is non-load-bearing based on location alone.</p>
+
+<h2>The Process</h2>
+<ol>
+<li><strong>Structural evaluation:</strong> Engineer identifies load-bearing walls and designs beam solutions</li>
+<li><strong>Permit application:</strong> Required for any structural modification in Mecklenburg County</li>
+<li><strong>Temporary support:</strong> Temporary walls or posts support the structure during the work</li>
+<li><strong>Wall removal:</strong> Demolition of the wall including any utilities (electrical, plumbing, HVAC)</li>
+<li><strong>Beam installation:</strong> Steel or LVL beam installed with proper bearing points</li>
+<li><strong>Utility relocation:</strong> Electrical outlets, switches, and any plumbing rerouted</li>
+<li><strong>Finish work:</strong> Flooring transitions, ceiling repair, paint, and trim</li>
+</ol>
+
+<h2>Cost Expectations</h2>
+<ul>
+<li><strong>Non-load-bearing wall removal:</strong> $3,000-$8,000 including finish work</li>
+<li><strong>Load-bearing wall with beam:</strong> $10,000-$25,000+ depending on span and load</li>
+<li><strong>Multiple walls / major opening:</strong> $20,000-$50,000+</li>
+</ul>
+
+<h2>Common Challenges</h2>
+<ul>
+<li>Matching existing flooring where the wall was (hardwood patching can be tricky)</li>
+<li>Ceiling transitions between rooms with different ceiling heights</li>
+<li>Relocating ductwork, plumbing vents, or electrical panels hidden in walls</li>
+<li>Supporting columns that may be needed even with a beam</li>
+</ul>
+
+<h2>Get Expert Help</h2>
+<p>Opening up your floor plan is rewarding but requires professional evaluation and execution. We Build handles structural remodeling projects throughout Charlotte with licensed engineers and experienced crews. Contact us for a free consultation.</p>
+`,
+    date: '2026-03-02',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/open-floor-plan.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '40',
+    title: 'How to Finance New Home Construction in North Carolina',
+    slug: 'finance-new-home-construction-north-carolina',
+    excerpt: 'Understanding construction loans in NC — how they work, qualification requirements, interest rates, and tips for a smooth financing process.',
+    content: `
+<h2>Construction Financing 101</h2>
+<p>Financing a new home build works differently than buying an existing home with a traditional mortgage. Understanding construction loans helps you prepare financially and avoid surprises during the building process.</p>
+
+<h2>Construction-to-Permanent Loans</h2>
+<p>The most common option for North Carolina homebuyers. This single-close loan covers both construction and the permanent mortgage. During construction, you make interest-only payments on the amount drawn. Upon completion, the loan automatically converts to a traditional mortgage with fixed or adjustable rate terms.</p>
+<p><strong>Advantages:</strong> One closing (lower fees), locked-in permanent rate, simpler process.</p>
+
+<h2>Stand-Alone Construction Loans</h2>
+<p>A separate short-term loan for construction that must be refinanced into a permanent mortgage upon completion. This means two closings and two sets of closing costs but offers more flexibility in choosing your permanent mortgage.</p>
+
+<h2>Qualification Requirements</h2>
+<ul>
+<li><strong>Down Payment:</strong> Typically 20-25% of total project cost (land + construction)</li>
+<li><strong>Credit Score:</strong> Most lenders require 680+ for construction loans; 720+ gets better rates</li>
+<li><strong>Debt-to-Income:</strong> Usually capped at 43-45%</li>
+<li><strong>Reserves:</strong> 6-12 months of mortgage payments in liquid assets</li>
+<li><strong>Builder Approval:</strong> Lenders vet your builder's license, insurance, and financial stability</li>
+</ul>
+
+<h2>How Draws Work</h2>
+<p>Construction loans are disbursed in draws — payments made to the builder at predetermined milestones (foundation, framing, mechanical, drywall, finishes, completion). The lender inspects the work at each draw stage before releasing funds. This protects both you and the lender.</p>
+
+<h2>NC-Specific Programs</h2>
+<ul>
+<li><strong>NC Housing Finance Agency:</strong> Offers down payment assistance for qualifying buyers</li>
+<li><strong>USDA Construction Loans:</strong> Available in rural areas outside Charlotte's urban core (some Fort Mill and Lake Norman areas qualify)</li>
+<li><strong>VA Construction Loans:</strong> Available to eligible veterans with $0 down (limited lender availability)</li>
+</ul>
+
+<h2>Tips for Success</h2>
+<ul>
+<li>Get pre-approved before designing your home to establish a realistic budget</li>
+<li>Choose a builder your lender approves — not all builders qualify</li>
+<li>Lock your permanent rate early if rates are favorable</li>
+<li>Budget for construction interest (12-18 months of interest-only payments)</li>
+<li>Maintain your credit during construction — do not open new accounts or make large purchases</li>
+</ul>
+
+<h2>Get Started</h2>
+<p>We Build works with all major construction lenders in the Charlotte market and can recommend financing partners based on your situation. Contact us to discuss your custom home project and financing needs.</p>
+`,
+    date: '2026-02-28',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/construction-financing-nc.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '41',
+    title: 'Charlotte New Home Construction Trends for 2026',
+    slug: 'charlotte-new-home-construction-trends-2026',
+    excerpt: 'The hottest trends in Charlotte new home construction — floor plans, materials, technology, and design features buyers want in 2026.',
+    content: `
+<h2>What Charlotte Homebuyers Want in 2026</h2>
+<p>New home construction in Charlotte continues to evolve with changing lifestyles, technology, and priorities. Here are the trends shaping custom homes being built across the Charlotte metro area this year.</p>
+
+<h2>Floor Plan Trends</h2>
+<h3>Flex Spaces</h3>
+<p>Dedicated home offices have evolved into multi-purpose flex rooms that serve as office, school room, hobby space, or guest room. Builders are including at least one flex room on the main level as standard.</p>
+<h3>Expanded Outdoor Living</h3>
+<p>Covered patios, outdoor kitchens, and screened porches that function as true outdoor rooms. Charlotte's climate supports outdoor living 9+ months per year, making this space extremely valuable.</p>
+<h3>Multi-Generational Design</h3>
+<p>Main-level guest suites, separate entrances, and in-law suite options reflect the growing trend of multi-generational households. These features also add rental income potential.</p>
+
+<h2>Material Trends</h2>
+<ul>
+<li><strong>Luxury Vinyl Plank (LVP):</strong> Has surpassed hardwood as the most popular flooring choice — waterproof, durable, and increasingly realistic</li>
+<li><strong>Quartz Countertops:</strong> Dominant over granite due to consistency, durability, and low maintenance</li>
+<li><strong>Board and Batten Exteriors:</strong> The farmhouse-modern look continues strong in Charlotte</li>
+<li><strong>Metal Roofing:</strong> Standing seam metal roofs gaining popularity for longevity and energy efficiency</li>
+</ul>
+
+<h2>Technology Integration</h2>
+<ul>
+<li>Pre-wired smart home infrastructure (lighting, security, climate, audio)</li>
+<li>EV charging rough-in in garage (becoming standard even if not immediately installed)</li>
+<li>Whole-home WiFi with structured wiring and access points</li>
+<li>Smart HVAC with zoning and remote control</li>
+</ul>
+
+<h2>Energy and Sustainability</h2>
+<ul>
+<li>Spray foam insulation replacing fiberglass as the standard for quality builds</li>
+<li>Heat pump HVAC systems gaining market share over traditional gas furnaces</li>
+<li>Solar-ready roof design and electrical panel capacity</li>
+<li>High-performance windows (Low-E, triple-pane in premium builds)</li>
+</ul>
+
+<h2>Build Your 2026 Dream Home</h2>
+<p>We Build stays current with the latest construction trends and materials. Visit our Design Center to explore current options, or contact us to discuss your new home project.</p>
+`,
+    date: '2026-02-26',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/home-trends-2026.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '42',
+    title: 'Luxury Home Building in Charlotte: What Sets It Apart',
+    slug: 'luxury-home-building-charlotte',
+    excerpt: 'What makes a luxury custom home different from standard construction? Materials, craftsmanship, technology, and the details that define premium building.',
+    content: `
+<h2>Defining Luxury in Home Construction</h2>
+<p>Luxury home building is not just about spending more — it is about superior materials, exceptional craftsmanship, thoughtful design, and attention to details that standard construction overlooks. In Charlotte's growing luxury market, discerning homebuyers expect a level of quality that goes beyond surface-level finishes.</p>
+
+<h2>What Separates Luxury from Standard</h2>
+<h3>Material Quality</h3>
+<p>Luxury homes use premium materials throughout — not just in visible areas. This means solid wood doors (not hollow-core), real stone or premium porcelain tile (not vinyl), solid surface countertops, custom cabinetry (not stock), and high-performance windows. The materials you cannot see matter too: premium insulation, quality lumber, and superior mechanical systems.</p>
+<h3>Craftsmanship</h3>
+<p>Luxury construction demands skilled tradespeople who take pride in their work. Custom millwork, precise tile layouts, seamless drywall finishing, and furniture-quality cabinet installation require experienced craftsmen. This is where veteran builders with established subcontractor relationships deliver the best results.</p>
+<h3>Architectural Detail</h3>
+<p>Coffered ceilings, custom built-ins, arched doorways, statement staircases, designer lighting plans, and thoughtful proportions — these details create the sense of quality that defines luxury. They require careful coordination between architect, designer, and builder from the earliest planning stages.</p>
+<h3>Smart Home Integration</h3>
+<p>True luxury homes integrate technology seamlessly: lighting scenes, climate zones, audio throughout, security systems, motorized shades, and a control system that ties everything together. The wiring and infrastructure must be planned during framing, not added as an afterthought.</p>
+
+<h2>Luxury Home Costs in Charlotte</h2>
+<p>Luxury custom homes in Charlotte start at $400/sq ft and can exceed $600/sq ft for the most premium builds. A 4,000 sq ft luxury home typically ranges from $1.6M to $2.4M+ for construction alone (not including land).</p>
+
+<h2>Charlotte's Luxury Neighborhoods</h2>
+<ul>
+<li><strong>Eastover / Myers Park:</strong> Charlotte's most established luxury neighborhoods</li>
+<li><strong>South Charlotte / Ballantyne:</strong> Growing luxury market with new communities</li>
+<li><strong>Lake Norman Waterfront:</strong> Premium lakefront custom homes</li>
+<li><strong>Weddington / Marvin:</strong> Estate-sized lots in Union County</li>
+</ul>
+
+<h2>Build Luxury with We Build</h2>
+<p>We Build combines veteran craftsmanship with design-build convenience. Visit our Design Center to explore luxury materials and finishes, or contact us to discuss your luxury home project.</p>
+`,
+    date: '2026-02-24',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/luxury-home-charlotte.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '43',
+    title: 'Energy-Efficient Home Building: A Charlotte Homeowner\'s Guide',
+    slug: 'energy-efficient-home-building-charlotte',
+    excerpt: 'How to build an energy-efficient home in Charlotte — insulation, HVAC, windows, solar readiness, and the ROI of green building features.',
+    content: `
+<h2>Building for Efficiency in Charlotte's Climate</h2>
+<p>Charlotte's climate — hot, humid summers and mild winters — creates specific energy challenges. Building an energy-efficient home from the start is significantly more cost-effective than retrofitting later, and the monthly savings add up to substantial returns over the life of your home.</p>
+
+<h2>Key Energy-Efficient Features</h2>
+<h3>Insulation</h3>
+<p><strong>Spray foam insulation</strong> is the gold standard for new Charlotte homes. It provides both insulation and air sealing, preventing the humidity infiltration that drives cooling costs. Closed-cell spray foam in exterior walls (R-21) and open-cell in the attic (R-38+) creates an efficient building envelope. Cost premium over fiberglass: $3,000-$8,000 for a typical home. Annual savings: $500-$1,200.</p>
+
+<h3>HVAC System</h3>
+<p><strong>Heat pump systems</strong> are ideal for Charlotte's moderate climate. Modern variable-speed heat pumps provide efficient heating and cooling with precise temperature control and dehumidification. Pair with proper duct design and sealing for maximum efficiency. A high-efficiency system costs $2,000-$5,000 more upfront but saves $300-$800 annually.</p>
+
+<h3>Windows</h3>
+<p><strong>Low-E, double-pane windows</strong> are the standard; triple-pane provides premium performance. Proper window sizing and orientation (limiting west-facing glass) significantly impacts cooling loads. Energy Star rated windows are essential in Charlotte's climate.</p>
+
+<h3>Water Heating</h3>
+<p><strong>Heat pump water heaters</strong> use 60% less energy than standard electric water heaters. They work exceptionally well in Charlotte's warm climate, where ambient heat helps the heat pump operate efficiently year-round.</p>
+
+<h2>Solar Readiness</h2>
+<p>Even if you do not install solar panels immediately, building solar-ready saves thousands later. This includes: south-facing roof area free of vents and pipes, electrical panel with capacity for solar inverter, conduit from attic to panel location, and structural roof capacity for panel weight.</p>
+
+<h2>The ROI of Efficiency</h2>
+<p>An energy-efficient Charlotte home typically costs 3-5% more to build but uses 30-50% less energy. For a home with $250/month average utility costs, that is $900-$1,500 in annual savings — paying back the investment in 5-8 years while adding resale value.</p>
+
+<h2>Build Efficient with We Build</h2>
+<p>As a USGBC member, We Build integrates energy-efficient practices into every home we construct. Contact us to discuss energy-efficient options for your custom home.</p>
+`,
+    date: '2026-02-22',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/energy-efficient-home.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '44',
+    title: 'The Design-Build Process Explained: Why One Team Is Better',
+    slug: 'design-build-process-explained',
+    excerpt: 'How the design-build delivery method works, why it outperforms traditional design-bid-build, and what to expect when you choose this approach.',
+    content: `
+<h2>What Is Design-Build?</h2>
+<p>Design-build is a project delivery method where a single company handles both the design and construction of your project. Instead of hiring an architect, waiting for plans, then bidding those plans to contractors, you work with one integrated team from concept to completion.</p>
+
+<h2>Design-Build vs. Traditional (Design-Bid-Build)</h2>
+<h3>Traditional Approach</h3>
+<ol>
+<li>Hire an architect (design phase: 2-4 months)</li>
+<li>Complete plans go out for contractor bids (bidding phase: 4-8 weeks)</li>
+<li>Select contractor and negotiate contract</li>
+<li>Construction begins — architect and contractor are separate entities</li>
+</ol>
+<p><strong>Problems:</strong> Architect designs without real-time cost input, leading to expensive redesigns. Contractor and architect may blame each other for issues. Two contracts, two relationships to manage.</p>
+
+<h3>Design-Build Approach</h3>
+<ol>
+<li>Hire design-build firm — designer and builder collaborate from day one</li>
+<li>Design develops with real-time cost feedback</li>
+<li>Construction begins as soon as design phases are complete (overlap possible)</li>
+<li>One team, one contract, one point of accountability</li>
+</ol>
+<p><strong>Advantages:</strong> 20-30% faster delivery, fewer cost surprises, single point of accountability, design decisions informed by actual construction costs.</p>
+
+<h2>The Design-Build Timeline</h2>
+<h3>Phase 1: Concept (2-4 weeks)</h3>
+<p>Initial meetings to understand your vision, needs, budget, and timeline. Preliminary concepts and rough budget developed.</p>
+<h3>Phase 2: Design Development (4-8 weeks)</h3>
+<p>Detailed plans developed with material selections at our Design Center. Budget refined with each decision. 3D renderings help you visualize the final result.</p>
+<h3>Phase 3: Construction Documents (2-4 weeks)</h3>
+<p>Final plans prepared for permitting. Engineering completed. All specifications documented.</p>
+<h3>Phase 4: Construction (varies by project)</h3>
+<p>Build phase with weekly updates, regular site meetings, and transparent budget tracking.</p>
+
+<h2>Who Benefits Most from Design-Build?</h2>
+<ul>
+<li>Custom home builders who want a streamlined process</li>
+<li>Business owners who need a fast, efficient commercial build-out</li>
+<li>Anyone who values budget certainty and clear accountability</li>
+<li>Projects where time is a factor</li>
+</ul>
+
+<h2>Experience Design-Build at We Build</h2>
+<p>Our dedicated Design Center brings the design-build experience to life. Browse materials, explore options, and work with our integrated team. Contact us to schedule a visit.</p>
+`,
+    date: '2026-02-20',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/design-build-process.jpg',
+    author: 'We Build Team',
+  },
+  {
+    id: '45',
+    title: 'Choosing the Right Lot for Your Custom Home in Charlotte',
+    slug: 'choosing-lot-custom-home-charlotte',
+    excerpt: 'How to evaluate building lots in the Charlotte area — zoning, topography, utilities, soil conditions, and hidden costs that affect your build.',
+    content: `
+<h2>Your Lot Is Your Foundation</h2>
+<p>The lot you choose affects every aspect of your custom home — from design possibilities and construction costs to daily living experience and long-term value. Taking time to evaluate lots carefully prevents expensive surprises and ensures your home site supports your vision.</p>
+
+<h2>Key Evaluation Criteria</h2>
+<h3>Zoning and Setbacks</h3>
+<p>Verify the lot is zoned for residential use and check setback requirements (how far your home must sit from property lines). Charlotte and surrounding jurisdictions have varying setback rules that directly impact how large a home you can build on a given lot.</p>
+
+<h3>Topography</h3>
+<p>Flat lots are the easiest and most affordable to build on. Sloped lots offer scenic views and walkout basement potential but increase site work and foundation costs by 20-50% or more. Severe slopes may require retaining walls, adding $10,000-$50,000+.</p>
+
+<h3>Soil Conditions</h3>
+<p>Charlotte sits on a mix of clay, rock, and sandy soils. Heavy clay soils require deeper foundations and better drainage. Rock may require expensive blasting or specialized excavation. A geotechnical soil test ($1,000-$2,000) reveals what is below the surface before you buy.</p>
+
+<h3>Utilities</h3>
+<p>Verify access to: public water and sewer (or well and septic feasibility), electricity, natural gas, and internet/cable. Running utility lines to a remote lot can cost $10,000-$50,000+ depending on distance.</p>
+
+<h3>Flood Zone</h3>
+<p>Check FEMA flood maps. Building in a flood zone is possible but requires elevated construction, flood insurance, and additional permitting — all adding cost and complexity.</p>
+
+<h3>Trees and Environmental</h3>
+<p>Mecklenburg County has tree preservation ordinances that may limit clearing. Identify any protected trees, streams, wetlands, or buffer zones before purchasing. These can significantly impact where you can place your home on the lot.</p>
+
+<h2>Hidden Costs to Investigate</h2>
+<ul>
+<li>HOA fees and architectural review requirements</li>
+<li>Impact fees and tap fees for utilities ($5,000-$20,000+)</li>
+<li>Stormwater management requirements</li>
+<li>Road access (paving a private driveway can cost $15,000-$40,000+)</li>
+<li>Survey costs ($500-$2,000)</li>
+</ul>
+
+<h2>Get a Professional Opinion</h2>
+<p>Before purchasing a lot, have your builder evaluate it. An experienced builder can identify potential issues, estimate site work costs, and confirm the lot supports your desired home plan. We Build offers pre-purchase lot evaluations for Charlotte-area buyers. Contact us to schedule yours.</p>
+`,
+    date: '2026-02-18',
+    category: 'Residential',
+    categorySlug: 'residential',
+    image: '/images/blog/choosing-lot.jpg',
+    author: 'We Build Team',
+  },
+];
+
+// ============================================================
+// CLUSTER 6: CONSTRUCTION TIPS & HOW-TO (Posts 46-60)
+// ============================================================
+
+const constructionTipsPosts: BlogPost[] = [
+  {
+    id: '46', title: 'How to Hire a General Contractor: The Complete Guide', slug: 'how-to-hire-general-contractor-guide',
+    excerpt: 'A step-by-step guide to finding, vetting, and hiring the right general contractor for your construction project.',
+    content: `<h2>Finding the Right Contractor</h2><p>Hiring a general contractor is one of the most important decisions in any construction project. The right contractor delivers quality work on time and on budget. The wrong one can turn your project into a nightmare. This guide walks you through the process from start to finish.</p><h2>Step 1: Define Your Project Scope</h2><p>Before contacting contractors, clearly define what you need. Write down the work required, your budget range, and your desired timeline. The more specific you are, the more accurate quotes you will receive.</p><h2>Step 2: Get Referrals and Research</h2><p>Ask friends, family, and colleagues for referrals. Check online reviews on Google, Yelp, and the BBB. Look at contractors' portfolios and social media for examples of their work. Aim for 3-5 candidates to contact.</p><h2>Step 3: Verify Credentials</h2><p>For every contractor you consider, verify: active state general contractor license (check at nclbgc.org for NC), current general liability insurance ($1M+ recommended), workers' compensation insurance, and any relevant trade certifications.</p><h2>Step 4: Request Detailed Bids</h2><p>Ask each contractor for a written, itemized bid. Vague lump-sum bids make it impossible to compare apples to apples. A professional bid includes: scope of work, materials specifications, labor breakdown, timeline, payment schedule, and warranty terms.</p><h2>Step 5: Check References</h2><p>Call at least 3 recent references for your top candidates. Ask about quality, communication, timeline adherence, budget accuracy, and whether they would hire the contractor again.</p><h2>Step 6: Review the Contract</h2><p>A good construction contract includes: detailed scope of work, total price and payment schedule, start and completion dates, change order process, warranty coverage, insurance requirements, and dispute resolution process. Never start work without a signed contract.</p><h2>Red Flags to Avoid</h2><ul><li>Requires large upfront payment (more than 10-15%)</li><li>No written contract or vague scope</li><li>Significantly lower bid than all competitors</li><li>No physical office or online presence</li><li>Pressures you to decide immediately</li><li>Cannot provide recent local references</li></ul><h2>Working with We Build</h2><p>We Build provides detailed proposals, transparent pricing, and professional project management. Contact us for a free consultation on your project.</p>`,
+    date: '2026-03-17', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/hire-contractor.jpg', author: 'We Build Team',
+  },
+  {
+    id: '47', title: 'Questions to Ask a Contractor Before Signing a Contract', slug: 'questions-to-ask-contractor-before-signing',
+    excerpt: 'The 15 most important questions to ask any contractor before you sign — protect your investment and set expectations upfront.',
+    content: `<h2>Ask Before You Sign</h2><p>A construction contract is a significant commitment. Asking the right questions before signing ensures you understand what you are getting, what is expected, and how problems will be handled.</p><h2>About Their Business</h2><ol><li><strong>Are you licensed and insured?</strong> Ask for proof and verify independently.</li><li><strong>How long have you been in business?</strong> Experience matters, especially with local building codes and subcontractor relationships.</li><li><strong>Do you carry workers' compensation?</strong> Without it, you could be liable if a worker is injured on your property.</li></ol><h2>About Your Project</h2><ol start="4"><li><strong>Have you done projects like mine?</strong> Ask for specific examples and photos of similar work.</li><li><strong>Who will be my day-to-day contact?</strong> You should know your project manager by name.</li><li><strong>Will you pull all required permits?</strong> The contractor should handle all permitting.</li><li><strong>What is the realistic timeline?</strong> Push past optimistic estimates to understand real-world scheduling.</li></ol><h2>About Money</h2><ol start="8"><li><strong>What is your payment schedule?</strong> Payments should be tied to project milestones, not arbitrary dates.</li><li><strong>How do you handle change orders?</strong> Written change orders with pricing before work proceeds is the standard.</li><li><strong>What happens if you go over budget?</strong> Understand who absorbs cost overruns for fixed-price vs. cost-plus contracts.</li><li><strong>Are there any exclusions in your bid?</strong> Ask specifically what is NOT included to avoid surprises.</li></ol><h2>About Quality and Communication</h2><ol start="12"><li><strong>What warranty do you provide?</strong> Get specifics in writing — duration and what is covered.</li><li><strong>How will you communicate progress?</strong> Weekly reports, photos, site meetings, or project portal.</li><li><strong>Can I visit the site during construction?</strong> You should always be welcome at your own project.</li><li><strong>What happens if there is a dispute?</strong> Understand the resolution process before problems arise.</li></ol><h2>Take Your Time</h2><p>A reputable contractor welcomes your questions and gives clear, direct answers. If a contractor is evasive, dismissive, or pressures you to sign quickly, that is a red flag. We Build encourages thorough due diligence. Contact us with any questions about your project.</p>`,
+    date: '2026-03-15', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/questions-contractor.jpg', author: 'We Build Team',
+  },
+  {
+    id: '48', title: 'Understanding Construction Contracts: What to Look For', slug: 'understanding-construction-contracts',
+    excerpt: 'A homeowner-friendly guide to construction contract essentials — payment terms, scope, change orders, warranties, and what to negotiate.',
+    content: `<h2>Your Contract Is Your Protection</h2><p>A well-written construction contract protects both you and your contractor. Understanding what should be in the contract — and what red flags to watch for — is essential before signing.</p><h2>Essential Contract Elements</h2><h3>Scope of Work</h3><p>The most important section. It should describe in detail exactly what work will be performed, what materials will be used, and what the finished product will look like. Vague language like "standard finishes" should be replaced with specific products and specifications.</p><h3>Price and Payment Schedule</h3><p>The total contract price and a milestone-based payment schedule. Typical structures: 10% at signing, then payments at foundation, framing, mechanical, drywall, and completion. Never pay more than the value of completed work.</p><h3>Timeline</h3><p>Start date, substantial completion date, and final completion date. Include provisions for weather delays and force majeure events. Some contracts include liquidated damages for contractor-caused delays.</p><h3>Change Order Process</h3><p>How scope changes are documented, priced, and approved. All changes should be in writing with agreed pricing BEFORE work proceeds. Verbal change orders are a recipe for disputes.</p><h3>Warranty</h3><p>Typical warranties: 1 year workmanship, 2 years mechanical systems, 10 years structural. Get specifics on what is covered, how to make claims, and any exclusions.</p><h3>Insurance Requirements</h3><p>The contract should require the contractor to maintain general liability and workers' compensation insurance throughout the project.</p><h3>Dispute Resolution</h3><p>How disagreements will be resolved — mediation, arbitration, or litigation. Mediation is generally the most cost-effective for both parties.</p><h2>Red Flags</h2><ul><li>No written contract ("we will just get started and figure it out")</li><li>Demands full payment upfront</li><li>No change order process defined</li><li>No warranty or vague warranty language</li><li>No insurance requirements</li></ul><h2>Get Professional Advice</h2><p>For large projects, having an attorney review the contract is a worthwhile investment. We Build uses clear, comprehensive contracts that protect both parties. Contact us to see our contract process firsthand.</p>`,
+    date: '2026-03-13', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/construction-contracts.jpg', author: 'We Build Team',
+  },
+  {
+    id: '49', title: 'Construction Project Timeline: What to Expect from Start to Finish', slug: 'construction-project-timeline-expectations',
+    excerpt: 'A realistic timeline guide for residential and commercial construction — major phases, typical durations, and what happens at each stage.',
+    content: `<h2>Understanding the Construction Timeline</h2><p>Knowing what to expect at each stage of construction helps you plan your life and business around the project. Here is a phase-by-phase breakdown of what happens and how long it typically takes.</p><h2>Pre-Construction Phase (1-4 months)</h2><h3>Design: 2-8 weeks</h3><p>Architectural plans, engineering, material selections, and design refinements. Design-build approaches compress this phase by starting construction on early phases while later phases are still being designed.</p><h3>Permitting: 2-12 weeks</h3><p>Plan review by local building department. Simple renovations may take 2-3 weeks; complex new construction can take 2-3 months. Your contractor should manage this entire process.</p><h2>Construction Phase</h2><h3>Site Work: 1-3 weeks</h3><p>Clearing, grading, excavation, and utility connections. Weather dependent.</p><h3>Foundation: 2-4 weeks</h3><p>Footings, foundation walls, slab pour, and curing time. Inspections required before proceeding.</p><h3>Framing: 2-6 weeks</h3><p>Structural framing, roof structure, windows, and exterior doors. The most visually dramatic phase — your project takes shape quickly.</p><h3>Mechanical Rough-In: 2-4 weeks</h3><p>HVAC ductwork, electrical wiring, and plumbing pipes installed before walls are closed. Multiple inspections required.</p><h3>Insulation and Drywall: 2-4 weeks</h3><p>Insulation installation, drywall hanging, taping, and finishing. The space starts feeling like a real building.</p><h3>Interior Finishes: 4-8 weeks</h3><p>Trim, cabinetry, countertops, flooring, paint, fixtures, and appliances. This is where your material selections come to life.</p><h3>Final Phase: 1-2 weeks</h3><p>Final inspections, punch list items, cleaning, and project handover.</p><h2>Total Typical Timelines</h2><ul><li><strong>Office Upfit:</strong> 3-5 months</li><li><strong>Restaurant Build-Out:</strong> 5-8 months</li><li><strong>Custom Home:</strong> 10-18 months</li><li><strong>Commercial New Build:</strong> 10-18 months</li></ul><h2>Managing Expectations</h2><p>Communication is key. We Build provides weekly progress updates and maintains detailed project schedules. If timelines shift, we communicate proactively so you can plan accordingly. Contact us to discuss your project timeline.</p>`,
+    date: '2026-03-11', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/project-timeline.jpg', author: 'We Build Team',
+  },
+  {
+    id: '50', title: 'How to Read a Construction Estimate (And Spot Red Flags)', slug: 'how-to-read-construction-estimate',
+    excerpt: 'Decode construction estimates like a pro — understand line items, spot hidden costs, compare bids fairly, and identify warning signs.',
+    content: `<h2>Decoding Your Construction Estimate</h2><p>A construction estimate can be overwhelming — pages of line items, specifications, and numbers. Understanding how to read and evaluate an estimate helps you make informed decisions and avoid costly surprises.</p><h2>Anatomy of a Good Estimate</h2><h3>General Conditions (8-15% of total)</h3><p>Project management, supervision, temporary facilities, permits, insurance, and site cleanup. This is the contractor's overhead for managing your project.</p><h3>Site Work</h3><p>Demolition, excavation, grading, and utility connections. Look for clear descriptions of what is included.</p><h3>Structural</h3><p>Foundation, framing, roofing. Should specify materials (lumber grade, concrete strength, roofing material).</p><h3>Mechanical, Electrical, Plumbing (MEP)</h3><p>HVAC system, electrical panels and circuits, plumbing fixtures and piping. Should specify equipment brands and capacities.</p><h3>Finishes</h3><p>Flooring, paint, tile, countertops, cabinetry, fixtures. Look for specific products or allowance amounts. Vague "allowances" often lead to overruns when you make actual selections.</p><h3>Contingency (5-10%)</h3><p>A line item for unforeseen conditions. Every honest estimate includes contingency. If it is missing, the contractor has either hidden it elsewhere or will surprise you with extras.</p><h2>Red Flags in Estimates</h2><ul><li><strong>Lump sum with no breakdown:</strong> How can you verify it is accurate?</li><li><strong>No contingency:</strong> Either hidden or will come as change orders later</li><li><strong>"Allowances" for everything:</strong> Means real costs are deferred, not eliminated</li><li><strong>Missing scope items:</strong> Compare against your requirements carefully</li><li><strong>Significantly lower than other bids:</strong> Likely missing scope or using inferior materials</li></ul><h2>Comparing Multiple Estimates</h2><p>To compare fairly, ensure all estimates cover the same scope. Create a spreadsheet with major categories and line up each contractor's pricing. The lowest total is not always the best value — look at what is included, material quality, and the contractor's track record.</p><h2>Get a Transparent Estimate</h2><p>We Build provides detailed, itemized estimates that you can understand and verify. No hidden costs, no vague allowances. Contact us for a free estimate on your project.</p>`,
+    date: '2026-03-09', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/read-estimate.jpg', author: 'We Build Team',
+  },
+  {
+    id: '51', title: '10 Common Construction Mistakes and How to Avoid Them', slug: 'common-construction-mistakes-avoid',
+    excerpt: 'The most frequent construction mistakes homeowners and business owners make — and practical advice on how to prevent each one.',
+    content: `<h2>Learn from Others' Mistakes</h2><p>Construction projects are complex, and mistakes can be costly. Here are the 10 most common mistakes we see — and how to avoid them.</p><h3>1. Starting Without a Clear Budget</h3><p>Fix: Establish a realistic budget with 10-15% contingency before design begins. Get a preliminary estimate early to calibrate expectations.</p><h3>2. Hiring the Cheapest Contractor</h3><p>Fix: Compare value, not just price. The lowest bid often means corners will be cut, inferior materials, or change orders that inflate the final cost beyond the higher bids.</p><h3>3. Skipping the Permit</h3><p>Fix: Always pull permits. Unpermitted work can result in fines, forced demolition, insurance issues, and problems when selling your property.</p><h3>4. Making Changes During Construction</h3><p>Fix: Make decisions during the design phase when changes are free. Changes during construction are expensive and cause delays. Use a design center (like ours) to finalize selections before breaking ground.</p><h3>5. Not Getting It in Writing</h3><p>Fix: Everything should be documented — the contract, change orders, material selections, and communications about scope changes. Verbal agreements are unenforceable.</p><h3>6. Ignoring Site Conditions</h3><p>Fix: Invest in soil testing, surveys, and site evaluation before construction. Surprises underground (rock, water, poor soil) cause the most expensive overruns.</p><h3>7. Choosing Materials Too Late</h3><p>Fix: Select all materials and fixtures during the design phase. Late selections delay the project while waiting for delivery (some items have 8-16 week lead times).</p><h3>8. Under-Communicating with Your Contractor</h3><p>Fix: Establish a communication schedule upfront. Weekly updates, regular site meetings, and responsive communication prevent misunderstandings.</p><h3>9. Not Planning for Where You Will Live/Work</h3><p>Fix: For major projects, plan your living or business arrangements before construction starts. Know when you need to vacate and for how long.</p><h3>10. Forgetting the Finish Details</h3><p>Fix: Budget and plan for landscaping, window treatments, lighting fixtures, and other "finishing" items that make a project feel complete. These are often overlooked in initial budgets.</p><h2>Build Smart with We Build</h2><p>Our process is designed to prevent these mistakes through thorough planning, clear communication, and professional project management. Contact us to experience the difference.</p>`,
+    date: '2026-03-07', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/construction-mistakes.jpg', author: 'We Build Team',
+  },
+  {
+    id: '52', title: 'Construction Change Orders: How They Work and What They Cost', slug: 'construction-change-orders-explained',
+    excerpt: 'What are change orders, why do they happen, how are they priced, and how can you minimize them on your construction project?',
+    content: `<h2>Change Orders: The Good, The Bad, and The Expensive</h2><p>Change orders are modifications to the original construction contract. They can add scope, remove scope, or modify existing work. While some changes are unavoidable, understanding how they work helps you minimize unnecessary ones.</p><h2>Why Change Orders Happen</h2><ul><li><strong>Owner-Initiated Changes:</strong> You decide you want something different during construction (upgraded countertops, additional outlet, wall moved)</li><li><strong>Unforeseen Conditions:</strong> Unexpected issues discovered during construction (hidden water damage, rock in excavation, outdated wiring)</li><li><strong>Design Errors or Omissions:</strong> Items missed during the design phase that need to be addressed during construction</li><li><strong>Code Requirements:</strong> Building inspector requires modifications not anticipated in the original plans</li></ul><h2>How Change Orders Are Priced</h2><p>A proper change order includes: description of the changed work, cost of materials, cost of labor, markup for overhead and profit (typically 15-20%), and impact on project timeline. The change order should be presented in writing and approved by you before work proceeds.</p><h2>Typical Cost Impact</h2><p>Change orders typically cost 15-30% more than if the same work had been included in the original scope. This premium reflects: mobilization costs to perform work out of sequence, potential re-work of already completed items, schedule disruption, and procurement of materials not originally ordered.</p><h2>How to Minimize Change Orders</h2><ul><li>Invest time in thorough design and planning before construction</li><li>Make all material and finish selections during the design phase</li><li>Conduct thorough site investigation (soil test, existing conditions survey)</li><li>Include adequate contingency in your budget (10-15%)</li><li>Review plans carefully before giving final approval</li><li>Use a design-build approach where the builder participates in design</li></ul><h2>Our Approach</h2><p>We Build minimizes change orders through thorough pre-construction planning, our Design Center for material selections, and transparent communication throughout the project. When changes are necessary, we present clear pricing for your approval before proceeding. Contact us to learn more about our process.</p>`,
+    date: '2026-03-05', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/change-orders.jpg', author: 'We Build Team',
+  },
+  {
+    id: '53', title: 'When Do You Need a Building Permit? A Homeowner\'s Guide', slug: 'when-do-you-need-building-permit',
+    excerpt: 'Which home improvement projects require building permits in Charlotte and Mecklenburg County — and what happens if you skip them.',
+    content: `<h2>Permits: When You Need Them</h2><p>Building permits exist to ensure construction meets safety codes that protect you, your family, and future owners. In Mecklenburg County, permits are required for more projects than most homeowners realize.</p><h2>Projects That Require Permits</h2><ul><li>Any structural modification (removing or adding walls, roof changes)</li><li>Room additions and new construction</li><li>Electrical work beyond simple fixture replacement</li><li>Plumbing work beyond simple fixture replacement</li><li>HVAC installation or replacement</li><li>Window or door openings in exterior walls</li><li>Deck construction over 30 inches above grade</li><li>Fence construction over 6 feet tall</li><li>Roofing replacement</li><li>Water heater replacement</li></ul><h2>Projects That Usually Do NOT Require Permits</h2><ul><li>Painting (interior and exterior)</li><li>Flooring replacement (same type)</li><li>Cabinet replacement (same layout)</li><li>Minor landscaping</li><li>Replacing fixtures (same type and location)</li><li>Fences under 6 feet in most zones</li></ul><h2>What Happens Without a Permit</h2><ul><li><strong>Stop Work Order:</strong> If an inspector discovers unpermitted work, all construction stops until permits are obtained</li><li><strong>Fines:</strong> Mecklenburg County can impose fines for unpermitted work</li><li><strong>Forced Removal:</strong> In extreme cases, you may be required to tear out and redo unpermitted work</li><li><strong>Insurance Issues:</strong> Damage related to unpermitted work may not be covered</li><li><strong>Resale Problems:</strong> Unpermitted work must be disclosed and can kill deals or reduce sale price</li></ul><h2>The Bottom Line</h2><p>When in doubt, check with your local building department. Better yet, work with a licensed contractor who handles permitting as part of their service. We Build manages all permitting for our clients. Contact us with any questions about your project.</p>`,
+    date: '2026-03-03', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/building-permits.jpg', author: 'We Build Team',
+  },
+  {
+    id: '54', title: 'How to Prepare Your Property for Construction', slug: 'prepare-property-for-construction',
+    excerpt: 'What homeowners and business owners should do before construction begins — access, utilities, personal property, neighbors, and expectations.',
+    content: `<h2>Before Construction Starts</h2><p>Proper preparation before your contractor arrives saves time, prevents damage, and ensures a smoother construction process. Here is what to do before the first day of work.</p><h2>For Homeowners</h2><h3>Clear the Work Area</h3><p>Remove furniture, decorations, and personal items from rooms being renovated. Even adjacent rooms should have items moved or covered to protect from dust. Store valuables securely away from the construction zone.</p><h3>Protect Non-Work Areas</h3><p>Your contractor should install dust barriers, but moving fragile items from adjacent areas is your responsibility. Cover electronics, artwork, and anything sensitive to dust.</p><h3>Plan Your Daily Routine</h3><p>Construction creates noise, dust, and limited access. Plan how your family will navigate around the work zone. Know which areas will be inaccessible and for how long.</p><h3>Secure Pets and Children</h3><p>Construction sites have hazards. Keep pets confined to non-work areas and supervise children around the construction zone. Communicate any access restrictions to your contractor.</p><h2>For Business Owners</h2><h3>Communicate with Staff and Clients</h3><p>Notify employees about the construction timeline, noise expectations, and any changes to parking or access. Inform clients if your operations will be affected.</p><h3>Protect Business Equipment</h3><p>Move computers, servers, inventory, and sensitive equipment away from the construction zone. Cover anything that cannot be moved.</p><h3>Plan for Business Continuity</h3><p>If operations must continue during construction, work with your contractor to schedule the most disruptive work during off-hours or weekends.</p><h2>For All Projects</h2><ul><li>Confirm access points — where will workers park, enter, and stage materials?</li><li>Verify utility availability — are power and water available for construction use?</li><li>Notify neighbors about upcoming construction, especially for exterior work</li><li>Trim landscaping near the work area to provide access</li><li>Document existing conditions with photos before work begins</li></ul><h2>Your Contractor's Responsibilities</h2><p>A professional contractor handles: dust barriers and protection, dumpster and debris removal, daily cleanup, and securing the site at end of each day. We Build maintains clean, organized job sites throughout every project. Contact us to discuss your upcoming project.</p>`,
+    date: '2026-03-01', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/prepare-for-construction.jpg', author: 'We Build Team',
+  },
+  {
+    id: '55', title: 'What Is a Punch List in Construction?', slug: 'what-is-punch-list-construction',
+    excerpt: 'Understanding the construction punch list — what it is, when it happens, what to look for, and how to ensure everything gets completed.',
+    content: `<h2>The Final Quality Check</h2><p>A punch list is a document created near the end of a construction project that identifies remaining work items, corrections, and touch-ups needed before the project is considered complete. It is your opportunity to ensure everything meets your expectations and the contract specifications.</p><h2>When Does the Punch List Happen?</h2><p>The punch list walkthrough typically occurs after the contractor has completed all major work and called for a final inspection. You, the contractor, and sometimes the architect walk through the entire project together, noting any items that need attention.</p><h2>Common Punch List Items</h2><ul><li>Paint touch-ups (scuffs, missed spots, uneven coverage)</li><li>Door adjustments (alignment, hardware, stops)</li><li>Trim and caulking imperfections</li><li>Cabinet alignment and hardware</li><li>Plumbing fixture adjustments</li><li>Electrical cover plates and switch alignment</li><li>Flooring transitions and thresholds</li><li>Window and door operation</li><li>Cleanup and debris removal</li><li>Exterior grading and landscaping completion</li></ul><h2>Tips for an Effective Walkthrough</h2><ul><li>Do the walkthrough during daylight hours for best visibility</li><li>Bring a flashlight to inspect dark areas, cabinets, and closets</li><li>Test every switch, outlet, faucet, and appliance</li><li>Open and close every door and window</li><li>Check all countertops, tile, and flooring at eye level</li><li>Photograph every item you note</li><li>Be specific — "paint scratch on west wall of bedroom 2, 4 feet from door frame"</li></ul><h2>After the Punch List</h2><p>The contractor addresses all items within an agreed timeframe (typically 2-4 weeks). A follow-up walkthrough confirms completion. Final payment is typically released after punch list completion.</p><h2>Our Commitment</h2><p>At We Build, we aim for a short punch list by maintaining quality standards throughout construction, not just at the end. Contact us to learn more about our quality process.</p>`,
+    date: '2026-02-27', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/punch-list.jpg', author: 'We Build Team',
+  },
+  {
+    id: '56', title: 'Construction Insurance: What Your Contractor Should Have', slug: 'construction-insurance-requirements',
+    excerpt: 'The essential insurance policies every contractor should carry — and what happens to you if they do not.',
+    content: `<h2>Why Contractor Insurance Matters to You</h2><p>If your contractor does not carry proper insurance, YOU may be financially responsible for injuries on your property, property damage, or substandard work. Understanding what coverage to require protects you from significant liability.</p><h2>Required Insurance Types</h2><h3>General Liability Insurance</h3><p>Covers property damage and bodily injury caused by the contractor's work. Minimum recommended: $1,000,000 per occurrence, $2,000,000 aggregate. This protects you if a worker accidentally damages your property or if a third party is injured.</p><h3>Workers' Compensation Insurance</h3><p>Covers medical expenses and lost wages for workers injured on the job. Required by NC law for employers with 3+ employees. Without it, YOU could be sued by an injured worker on your property.</p><h3>Commercial Auto Insurance</h3><p>Covers accidents involving the contractor's vehicles. Important if they are driving to and from your property with materials and equipment.</p><h3>Builder's Risk Insurance (for new construction)</h3><p>Covers the structure under construction against damage from fire, weather, theft, and vandalism. Typically required for new construction and major renovations.</p><h2>How to Verify</h2><ul><li>Request a Certificate of Insurance (COI) before signing the contract</li><li>Verify the policy is current (check dates carefully)</li><li>Confirm coverage amounts meet minimums</li><li>Ask to be named as "additional insured" on the general liability policy</li><li>Call the insurance company directly to verify if you have any doubts</li></ul><h2>What Happens Without Insurance</h2><p>If an uninsured contractor causes damage or a worker is injured on your property, you may face: personal liability lawsuits, out-of-pocket repair costs, homeowner's insurance claims (which increase your premiums), and in worst cases, significant legal judgments against you.</p><h2>We Build's Coverage</h2><p>We Build maintains comprehensive general liability, workers' compensation, and commercial auto insurance. We provide certificates of insurance proactively as part of our contract process. Contact us for a free consultation.</p>`,
+    date: '2026-02-25', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/contractor-insurance.jpg', author: 'We Build Team',
+  },
+  {
+    id: '57', title: 'How to Communicate Effectively With Your Contractor', slug: 'communicate-effectively-with-contractor',
+    excerpt: 'Practical tips for maintaining clear communication with your contractor throughout the project — expectations, tools, and conflict resolution.',
+    content: `<h2>Communication Makes or Breaks Projects</h2><p>The number one complaint in construction projects is not quality or cost — it is communication. Clear, consistent communication between you and your contractor prevents misunderstandings, reduces stress, and leads to better outcomes.</p><h2>Set Expectations Upfront</h2><ul><li><strong>Frequency:</strong> How often will you receive updates? Weekly is standard for most projects.</li><li><strong>Format:</strong> Email, phone, text, project management app, or in-person meetings? Agree on the primary channel.</li><li><strong>Response Time:</strong> What is a reasonable response time for non-emergency questions? 24 business hours is typical.</li><li><strong>Decision Timeline:</strong> How quickly do you need to make decisions when the contractor asks? Delayed decisions delay the project.</li></ul><h2>Best Practices</h2><h3>Put Important Things in Writing</h3><p>Verbal discussions are fine for casual updates, but any changes to scope, budget, or timeline should be documented in writing. Follow up verbal conversations with a confirming email.</p><h3>Use One Communication Channel</h3><p>Avoid scattering communications across text, email, phone, and verbal conversations. Choose a primary channel and stick to it so nothing gets lost.</p><h3>Visit the Site Regularly</h3><p>Seeing the work in progress gives you context for questions and decisions. Schedule regular visits with your project manager rather than dropping by unannounced.</p><h3>Address Concerns Early</h3><p>If something looks wrong or you have questions, raise them immediately. Small issues addressed early are easy to fix. Issues ignored until the end become expensive problems.</p><h2>When Problems Arise</h2><p>Approach problems as collaborative challenges to solve, not adversarial confrontations. Start with: "I noticed X and want to understand Y." Most issues stem from miscommunication rather than malice. If a pattern of problems persists, escalate to the company owner.</p><h2>Our Communication Approach</h2><p>We Build provides regular progress updates, responsive communication, and a dedicated project manager for every project. We believe good communication is as important as good construction. Contact us to experience our approach.</p>`,
+    date: '2026-02-23', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/communicate-contractor.jpg', author: 'We Build Team',
+  },
+  {
+    id: '58', title: 'Choosing Between Renovation and New Construction', slug: 'renovation-vs-new-construction-guide',
+    excerpt: 'When does it make sense to renovate your existing building versus building new? A practical framework for making this critical decision.',
+    content: `<h2>Renovate or Build New?</h2><p>This is one of the biggest decisions property owners face. Both paths have compelling advantages, and the right choice depends on your specific situation — budget, timeline, building condition, and long-term goals.</p><h2>When Renovation Makes Sense</h2><ul><li>The building's structure and major systems are sound</li><li>The location is ideal and cannot be replicated with new construction</li><li>Budget is limited (renovation typically costs 30-50% less than new)</li><li>Timeline is tight (renovation is usually faster)</li><li>Historical or architectural character worth preserving</li><li>Zoning or lot constraints limit new construction options</li></ul><h2>When New Construction Makes Sense</h2><ul><li>Renovation costs exceed 50-60% of new construction cost</li><li>The existing building cannot meet current codes without major upgrades</li><li>Foundation or structural issues are widespread</li><li>The layout fundamentally does not work and cannot be reconfigured cost-effectively</li><li>Energy efficiency improvements are a priority (new construction is inherently more efficient)</li><li>You need significantly more space than the existing footprint allows</li></ul><h2>The 50% Rule</h2><p>A common guideline: if renovation costs exceed 50% of the cost to build new, new construction often provides better long-term value. You get modern systems, current code compliance, energy efficiency, and a warranty — all things renovation cannot fully deliver.</p><h2>Cost Comparison Framework</h2><ol><li>Get a detailed renovation estimate for your desired outcome</li><li>Get a new construction estimate for an equivalent building</li><li>Factor in the value of any existing elements you would keep (location, land, foundation)</li><li>Consider operating costs over the next 20 years (energy, maintenance, repairs)</li><li>Evaluate the total cost of ownership, not just construction cost</li></ol><h2>Get Expert Advice</h2><p>We Build evaluates both options objectively, recommending the approach that delivers the best value for your situation. We have no bias toward either — we do both. Contact us for a free consultation on your project.</p>`,
+    date: '2026-02-21', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/renovate-vs-build.jpg', author: 'We Build Team',
+  },
+  {
+    id: '59', title: 'What Is Value Engineering in Construction?', slug: 'value-engineering-construction-explained',
+    excerpt: 'How value engineering reduces construction costs without sacrificing quality — practical examples and when to apply this approach.',
+    content: `<h2>Getting More Value for Your Budget</h2><p>Value engineering (VE) is a systematic approach to reducing construction costs while maintaining or improving quality and performance. It is not about cutting corners — it is about finding smarter, more cost-effective ways to achieve your project goals.</p><h2>How Value Engineering Works</h2><p>VE examines every component of a project and asks: "Is there a less expensive way to achieve the same function, performance, and quality?" The key word is function — VE focuses on what each element does, not what it is.</p><h2>Practical Examples</h2><h3>Structural</h3><p>Using engineered lumber (LVL beams) instead of steel for certain spans saves money while meeting the same structural requirements. Pre-engineered trusses instead of stick-framed roofs reduce labor costs.</p><h3>Mechanical Systems</h3><p>Right-sizing HVAC equipment instead of oversizing saves on equipment cost and operating expenses. Mini-split systems instead of ducted HVAC in certain applications eliminate ductwork costs.</p><h3>Finishes</h3><p>High-quality luxury vinyl plank (LVP) instead of hardwood in some areas provides similar aesthetics with better durability at 40-60% less cost. Porcelain tile that mimics marble instead of real marble achieves similar aesthetics at a fraction of the cost.</p><h3>Layout</h3><p>Simplifying rooflines, reducing the number of corners, and consolidating plumbing walls (keeping bathrooms and kitchen on shared walls) all reduce costs without affecting livability.</p><h2>When to Apply VE</h2><p>The best time for value engineering is during the design phase when changes are free. A design-build contractor brings VE thinking from day one, providing real-time cost feedback as design develops. VE during construction is possible but more limited and potentially disruptive.</p><h2>VE Is Not Cutting Corners</h2><p>Important distinction: VE maintains quality and performance. Cutting corners reduces quality to save money. A good contractor knows the difference and protects your interests while finding legitimate savings.</p><h2>Our Approach</h2><p>We Build integrates value engineering into every project. As a design-build firm, our construction managers participate in design from the start, identifying cost-saving opportunities before plans are finalized. Contact us to discuss how VE can stretch your construction budget.</p>`,
+    date: '2026-02-19', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/value-engineering.jpg', author: 'We Build Team',
+  },
+  {
+    id: '60', title: 'How to Vet a Construction Company: License, Insurance, Reviews', slug: 'vet-construction-company-checklist',
+    excerpt: 'A practical checklist for vetting any construction company before hiring — verification steps, what to look for online, and due diligence tips.',
+    content: `<h2>Do Your Due Diligence</h2><p>Before trusting a construction company with your project and your money, take time to verify their credentials. A thorough vetting process takes 1-2 hours and can save you thousands of dollars and months of frustration.</p><h2>Step 1: Verify License</h2><p><strong>North Carolina:</strong> Search at nclbgc.org for active general contractor license. Note the license number, classification (residential, commercial, or both), and any disciplinary actions.</p><p><strong>South Carolina:</strong> Search at llr.sc.gov for SC contractor registration.</p><p>An unlicensed contractor performing work over $30,000 is breaking the law, and you have limited legal recourse if something goes wrong.</p><h2>Step 2: Verify Insurance</h2><p>Request a Certificate of Insurance (COI) showing: general liability ($1M+ per occurrence), workers' compensation (required by NC law for 3+ employees), and commercial auto insurance. Call the insurance company to confirm the policy is active.</p><h2>Step 3: Check Online Reviews</h2><ul><li><strong>Google Business Profile:</strong> Overall rating and recent review trends</li><li><strong>BBB (bbb.org):</strong> Rating, complaints, and resolution history</li><li><strong>Houzz/Yelp:</strong> Detailed project reviews with photos</li><li><strong>Social Media:</strong> Instagram and Facebook show recent work and company culture</li></ul><p>Look for patterns in reviews, not just overall ratings. A few negative reviews among many positive ones is normal. A pattern of the same complaint (communication issues, budget overruns, delays) is a red flag.</p><h2>Step 4: Ask for References</h2><p>Request 3-5 references from projects completed in the last 12 months. Call them and ask: Was the project completed on time? On budget? How was communication? Would you hire them again?</p><h2>Step 5: Visit Completed Projects</h2><p>If possible, visit a completed project or active job site. This gives you a real sense of the contractor's quality, organization, and professionalism.</p><h2>Step 6: Meet in Person</h2><p>A face-to-face meeting (or visit to their office/showroom) reveals a lot about a company's professionalism and stability. Companies with physical offices and showrooms have invested in their business for the long term.</p><h2>Vet We Build</h2><p>We welcome your due diligence. Visit our Design Center, check our reviews, verify our licenses, and call our references. We are confident you will like what you find. Contact us to get started.</p>`,
+    date: '2026-02-17', category: 'Construction Tips', categorySlug: 'construction-tips', image: '/images/blog/vet-contractor.jpg', author: 'We Build Team',
+  },
+];
+
 // Combine all posts — additional clusters will be appended here
 export const blogPosts: BlogPost[] = [
   ...roofCoatingPosts,
   ...commercialConstructionPosts,
+  ...residentialPosts,
+  ...constructionTipsPosts,
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
