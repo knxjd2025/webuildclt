@@ -72,7 +72,7 @@
 
   /* Warm off-white muted backgrounds */
   --muted: oklch(0.965 0.005 60);
-  --muted-foreground: oklch(0.45 0.02 240);
+  --muted-foreground: oklch(0.5 0.015 240);
 
   /* Accent — warm amber highlight for supporting elements */
   --accent: oklch(0.92 0.04 70);
@@ -180,14 +180,14 @@
     line-height: 1.15;
   }
   h1 {
-    @apply text-5xl md:text-6xl lg:text-7xl;
+    @apply text-4xl md:text-5xl lg:text-6xl;
     font-weight: 800;
-    letter-spacing: -0.035em;
+    letter-spacing: -0.03em;
   }
   h2 {
-    @apply text-3xl md:text-4xl lg:text-5xl;
+    @apply text-3xl md:text-4xl;
     font-weight: 700;
-    letter-spacing: -0.025em;
+    letter-spacing: -0.02em;
   }
   h3 {
     @apply text-xl md:text-2xl;
@@ -251,21 +251,10 @@ html {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 60px;
-  height: 4px;
+  width: 48px;
+  height: 3px;
   background: var(--primary);
   border-radius: 2px;
-}
-
-/* Subtle texture overlay for depth */
-.texture-noise::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  opacity: 0.03;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-  pointer-events: none;
-  z-index: 0;
 }
 
 /* Warm gradient mesh for commercial sections */
@@ -417,16 +406,8 @@ html {
   transition: transform 400ms var(--ease-out-expo), box-shadow 400ms var(--ease-out-expo);
 }
 .card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-xl);
-}
-
-/* Icon spin on hover (for decorative icons in cards) */
-.icon-hover-rotate {
-  transition: transform 500ms var(--ease-out-back);
-}
-.group:hover .icon-hover-rotate {
-  transform: rotate(8deg) scale(1.1);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
 }
 
 /* Pulse glow for CTAs */
