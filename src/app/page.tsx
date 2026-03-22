@@ -231,21 +231,20 @@ export default function HomePage() {
         <div className="container mx-auto px-4 relative z-10 pt-24">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Construction Company in{' '}
+              Commercial Construction{' '}
               <span className="text-primary">Charlotte, NC</span>
             </h1>
             <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
-              We Build is a veteran and family-owned construction company
-              serving Charlotte, North Carolina and surrounding areas. From
-              commercial construction and custom homes to roof coating and
-              design-build services, we deliver quality craftsmanship backed by
-              60+ years of combined experience.
+              We Build is Charlotte&apos;s trusted commercial construction
+              company. From commercial upfits and design-build to roof coatings,
+              we deliver quality craftsmanship backed by 60+ years of combined
+              experience. Veteran &amp; family-owned.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" asChild>
                 <Link href="/contact">
                   Get a Free Quote
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                  <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                 </Link>
               </Button>
               <Button
@@ -264,7 +263,7 @@ export default function HomePage() {
                   key={feature}
                   className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full"
                 >
-                  <CheckCircle className="h-5 w-5 text-primary" />
+                  <CheckCircle className="h-5 w-5 text-primary" aria-hidden="true" />
                   <span className="text-sm text-white font-medium">
                     {feature}
                   </span>
@@ -317,11 +316,11 @@ export default function HomePage() {
             </div>
 
             <div className="space-y-6">
-              <span className="text-primary font-semibold uppercase tracking-wider text-sm">
-                Charlotte&apos;s Trusted Construction Company
+              <span className="section-label">
+                Charlotte&apos;s Trusted Commercial Contractor
               </span>
               <h2 className="text-3xl md:text-4xl font-bold">
-                Building Excellence in Charlotte, North Carolina Since 2019
+                Commercial Construction Excellence in Charlotte Since 2019
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 We Build is a veteran and family-owned construction company
@@ -402,8 +401,8 @@ export default function HomePage() {
                     href={service.href}
                     className="inline-flex items-center text-primary font-medium hover:underline"
                   >
-                    Learn More
-                    <ArrowRight className="ml-1 h-4 w-4" />
+                    View {service.title}
+                    <ArrowRight className="ml-1 h-4 w-4" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
