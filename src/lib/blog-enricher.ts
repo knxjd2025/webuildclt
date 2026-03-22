@@ -213,6 +213,109 @@ function enrichKeyTakeaway(html: string): string {
 }
 
 /**
+ * Convert checklist-style <ul> blocks (items starting with check-like words)
+ * into visually styled checklists.
+ */
+function enrichChecklists(html: string): string {
+  if (html.includes('class="checklist')) return html;
+
+  const ulPattern = /<ul>([\s\S]*?)<\/ul>/gi;
+  let match;
+  const replacements: Array<{ original: string; replacement: string }> = [];
+
+  while ((match = ulPattern.exec(html)) !== null) {
+    const block = match[0];
+    const items = match[1];
+    const liMatches = [...items.matchAll(/<li>([\s\S]*?)<\/li>/gi)];
+
+    if (liMatches.length < 3) continue;
+
+    // Check if items look like a checklist (imperative verbs, action items)
+    const checklistWords = /^(check|inspect|replace|clean|test|verify|ensure|schedule|review|repair|look for|remove|install|measure|monitor)/i;
+    const checkCount = liMatches.filter((li) => {
+      const text = li[1].replace(/<[^>]*>/g, '').trim();
+      return checklistWords.test(text);
+    }).length;
+
+    if (checkCount < liMatches.length * 0.5) continue;
+
+    // Wrap the preceding h3 (if any) to keep context
+    replacements.push({
+      original: block,
+      replacement: block.replace('<ul>', '<ul class="checklist">'),
+    });
+  }
+
+  for (const { original, replacement } of replacements) {
+    html = html.replace(original, replacement);
+  }
+
+  return html;
+}
+
+/**
+ * Detect stat-worthy numbers in introductory paragraphs and create stats-grid.
+ * Looks for patterns like "$X,XXX", "XX%", "XX+ years" in the first few paragraphs.
+ */
+function enrichStatsFromContent(html: string): string {
+  if (html.includes('class="stats-grid')) return html;
+
+  // Find stat patterns across the content
+  const statPatterns = [
+    /(\$[\d,]+(?:\s*(?:to|[-–—])\s*\$[\d,]+)?)\s+(?:per|for|in|on|annually|per year|average)/gi,
+    /([\d,]+\+?\s*(?:years?|months?|days?|hours?))\s+(?:of|experience|combined)/gi,
+    /([\d.]+%)\s+(?:of|more|less|increase|decrease|savings?|reduction)/gi,
+  ];
+
+  const stats: Array<{ value: string; label: string }> = [];
+
+  for (const pattern of statPatterns) {
+    let sMatch;
+    while ((sMatch = pattern.exec(html)) !== null) {
+      if (stats.length >= 4) break;
+      const value = sMatch[1].trim();
+      // Get surrounding text for label (next 30 chars after match)
+      const afterMatch = html.substring(sMatch.index + sMatch[0].length, sMatch.index + sMatch[0].length + 40);
+      const labelWords = afterMatch.replace(/<[^>]*>/g, '').trim().split(/\s+/).slice(0, 4).join(' ');
+      const label = sMatch[0].replace(value, '').replace(/<[^>]*>/g, '').trim() + ' ' + labelWords;
+      stats.push({ value, label: label.trim().substring(0, 30) });
+    }
+    if (stats.length >= 4) break;
+  }
+
+  if (stats.length < 2) return html;
+
+  const statsHtml = stats.map(
+    (s) => `<div class="stat-card"><div class="stat-value">${s.value}</div><div class="stat-label">${s.label}</div></div>`
+  ).join('');
+  const grid = `<div class="stats-grid">${statsHtml}</div>`;
+
+  // Insert after the first h2 section's opening paragraphs
+  const firstH2End = html.indexOf('</h2>');
+  if (firstH2End === -1) return html;
+
+  // Find the 3rd paragraph after the first h2
+  let insertPos = firstH2End;
+  let pCount = 0;
+  const pEndPattern = /<\/p>/g;
+  pEndPattern.lastIndex = firstH2End;
+  let pMatch;
+  while ((pMatch = pEndPattern.exec(html)) !== null) {
+    pCount++;
+    if (pCount === 3) {
+      insertPos = pMatch.index + pMatch[0].length;
+      break;
+    }
+  }
+
+  if (insertPos > firstH2End) {
+    html = html.slice(0, insertPos) + grid + html.slice(insertPos);
+  }
+
+  return html;
+}
+
+/**
  * Main enrichment function. Runs all transforms in sequence.
  * Idempotent — safe to run on already-enriched content.
  */
@@ -223,6 +326,8 @@ export function enrichBlogContent(html: string): string {
   enriched = enrichCallouts(enriched);
   enriched = enrichCostTables(enriched);
   enriched = enrichProcessSteps(enriched);
+  enriched = enrichChecklists(enriched);
+  enriched = enrichStatsFromContent(enriched);
   enriched = enrichInlineCTAs(enriched);
   enriched = enrichKeyTakeaway(enriched);
 
