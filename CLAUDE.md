@@ -246,3 +246,20 @@ These need real assets before launch:
   - Unified sidebar ring to match brand primary
 - **Why:** Consistency — every "foreground" value traces to one color
 - **Commit:** design:normalize — unify foreground color values, consistent ring/accent tokens
+
+### /design:optimize — Phase 6
+- **Files:** globals.css
+- **What changed:**
+  - Added content-visibility: auto for below-fold lazy rendering
+  - Added will-change: width to scroll progress
+  - Verified all animations use transform/opacity (GPU composited)
+- **Commit:** design:optimize — add content-visibility lazy, will-change hints
+
+### /design:adapt — Phase 6
+- **Files:** globals.css
+- **What changed:**
+  - Fluid typography with clamp() for h1/h2/h3
+  - Portfolio grid with min() for mobile-safe columns
+  - 44x44px touch targets on coarse pointer devices
+  - Ultra-wide container constraint at 2560px
+- **Commit:** design:adapt — fluid typography with clamp(), touch targets, responsive grid
