@@ -191,3 +191,32 @@ These need real assets before launch:
   - Used section-label utility class for consistent labeling
 - **Why:** Every word and label must earn its place — vague copy loses both users and search engines
 - **Commit:** design:clarify — sharpen copy for commercial focus, fix vague labels, add aria-hidden
+
+### /design:darken — Phase 4
+- **Files:** globals.css
+- **What changed:**
+  - Deep steel-tinted dark theme with layered surface elevation
+  - Orange primary brightened for dramatic glow against dark backgrounds
+  - Dark mode shadows use heavier opacity for depth
+  - Added card-glow utility for subtle orange border glow
+- **Why:** Dark mode should feel premium, not just inverted — deep blacks with glowing accents
+- **Commit:** design:darken — deep steel-tinted dark theme with layered surfaces and orange glow
+
+### /design:audit-dark — Phase 4
+- **Files:** globals.css, Header.tsx
+- **What changed:**
+  - Increased dark mode border/input visibility (8%→12%, 12%→18%)
+  - Added dark gradient-warm and gradient-steel overrides
+  - Fixed header scrolled background for dark mode
+- **Why:** Dark mode audit caught subtle visibility issues on borders and gradients
+- **Commit:** design:audit-dark — fix dark mode border visibility, gradient overrides, header bg
+
+### /design:theme-toggle — Phase 4
+- **Files:** ThemeToggle.tsx (new), Header.tsx, layout.tsx
+- **What changed:**
+  - Created ThemeToggle component with light/dark/system 3-state cycle
+  - FART prevention script in layout head
+  - Toggle integrated into desktop header and mobile menu
+  - localStorage persistence + system preference listener
+- **Why:** Both themes are polished — users should be able to choose
+- **Commit:** design:theme-toggle — add light/dark/system toggle with FART prevention
