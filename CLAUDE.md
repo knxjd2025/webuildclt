@@ -263,3 +263,17 @@ These need real assets before launch:
   - 44x44px touch targets on coarse pointer devices
   - Ultra-wide container constraint at 2560px
 - **Commit:** design:adapt — fluid typography with clamp(), touch targets, responsive grid
+
+### /design:onboard — Phase 7
+- **Files:** page.tsx
+- **What changed:**
+  - Added btn-shimmer and cta-pulse to hero CTA for maximum visibility
+  - Added mobile-only "Call Now" button for phone users
+- **Commit:** design:onboard — add shimmer/pulse to hero CTA, mobile call button
+
+### /design:extract — Phase 7
+- **Files:** globals.css
+- **What changed:**
+  - Added comprehensive design token reference comment block at top of stylesheet
+  - Documents all colors, typography, spacing, shadows, radii, easing, and utility classes
+- **Commit:** design:extract — add design token reference block at top of stylesheet
