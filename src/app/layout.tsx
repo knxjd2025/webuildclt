@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans, DM_Sans } from 'next/font/google';
 import { Header, Footer } from '@/components/layout';
+import { ScrollProgress } from '@/components/ScrollProgress';
 import { JsonLd } from '@/components/JsonLd';
 import {
   organizationSchema,
@@ -115,6 +116,7 @@ export default function RootLayout({
             webSiteSchema(),
           ]}
         />
+        <ScrollProgress />
         <Header />
         <main id="main-content" className="flex-1">{children}</main>
         <Footer />

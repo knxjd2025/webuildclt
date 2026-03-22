@@ -455,3 +455,44 @@ html {
 .animate-count {
   animation: count-up 600ms var(--ease-out-expo) both;
 }
+
+/* ── Delight: Magnetic CTA button effect ── */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+.btn-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+.btn-shimmer::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 25%,
+    oklch(1 0 0 / 0.15) 50%,
+    transparent 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+  pointer-events: none;
+}
+
+/* Delight: Progress bar on scroll (top of page) */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: var(--primary);
+  z-index: 100;
+  transition: width 100ms linear;
+}
+
+/* Delight: Subtle parallax depth for hero images */
+.parallax-slow {
+  will-change: transform;
+  transition: transform 0ms;
+}
