@@ -184,17 +184,17 @@
     line-height: 1.15;
   }
   h1 {
-    @apply text-4xl md:text-5xl lg:text-6xl;
+    font-size: clamp(2rem, 5vw + 1rem, 3.75rem);
     font-weight: 800;
     letter-spacing: -0.03em;
   }
   h2 {
-    @apply text-3xl md:text-4xl;
+    font-size: clamp(1.5rem, 3vw + 0.75rem, 2.5rem);
     font-weight: 700;
     letter-spacing: -0.02em;
   }
   h3 {
-    @apply text-xl md:text-2xl;
+    font-size: clamp(1.125rem, 2vw + 0.5rem, 1.5rem);
     font-weight: 700;
   }
   p { text-wrap: pretty; }
@@ -322,11 +322,11 @@ html {
   color: var(--primary);
 }
 
-/* Portfolio grid masonry effect */
+/* Portfolio grid — responsive with mobile-safe minimums */
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
+  gap: var(--space-lg);
 }
 
 /* Image hover effects */
@@ -340,9 +340,24 @@ html {
   @apply scale-105;
 }
 
-/* Section spacing utility */
+/* Section spacing — responsive */
 .section-padding {
-  padding-block: var(--space-4xl);
+  padding-block: clamp(var(--space-2xl), 8vw, var(--space-4xl));
+}
+
+/* Touch targets — minimum 44x44px on mobile */
+@media (pointer: coarse) {
+  a, button, [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Prevent layout shift on ultra-wide screens */
+@media (min-width: 2560px) {
+  .container {
+    max-width: 1536px;
+  }
 }
 
 /* Smooth link underline effect */
