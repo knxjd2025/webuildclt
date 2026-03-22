@@ -489,11 +489,11 @@ html {
   background: var(--primary);
   z-index: 100;
   transition: width 100ms linear;
+  will-change: width;
 }
 
-/* Delight: Subtle parallax depth for hero images */
+/* Delight: Subtle parallax depth for hero images — will-change applied only on hover/scroll via JS */
 .parallax-slow {
-  will-change: transform;
   transition: transform 0ms;
 }
 
@@ -567,4 +567,17 @@ html {
   justify-content: center;
   color: var(--muted-foreground);
   font-size: 0.875rem;
+}
+
+/* ── Performance: GPU compositing hints ── */
+
+/* Content visibility for below-fold sections — skip rendering until visible */
+.content-lazy {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
+}
+
+/* Prevent unwanted horizontal scrollbar from any overflowing content */
+.overflow-clip-x {
+  overflow-x: clip;
 }
