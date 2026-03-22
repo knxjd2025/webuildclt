@@ -3,6 +3,7 @@ import { Plus_Jakarta_Sans, DM_Sans } from 'next/font/google';
 import { Header, Footer } from '@/components/layout';
 import { ScrollProgress } from '@/components/ScrollProgress';
 import { BannerCTA } from '@/components/BannerCTA';
+import { RevealObserver } from '@/components/RevealObserver';
 import { JsonLd } from '@/components/JsonLd';
 import {
   organizationSchema,
@@ -120,6 +121,7 @@ export default function RootLayout({
             webSiteSchema(),
           ]}
         />
+        <RevealObserver />
         <ScrollProgress />
         <BannerCTA />
         <Header />
