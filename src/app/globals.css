@@ -1,6 +1,62 @@
 /*
  * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- * WE BUILD CLT — Design Token Reference
+ * WE BUILD CLT — Design System & Philosophy
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ *
+ * DESIGN PHILOSOPHY
+ *   This stylesheet was built through 20 progressive design passes.
+ *   Every decision serves the brand: a commercial construction company
+ *   that needs to project authority, trust, and craftsmanship.
+ *
+ *   The 5 principles that govern this design system:
+ *
+ *   1. AUTHORITY THROUGH RESTRAINT
+ *      Bold typography (800 weight headings) + generous negative space.
+ *      Heavy elements need breathing room. Commercial clients trust
+ *      confident simplicity over busy decoration.
+ *
+ *   2. COLOR AS SIGNAL, NOT DECORATION
+ *      Construction Orange (--primary) is used surgically: CTAs, links,
+ *      accents. Steel Blue-Black (--secondary) provides gravitas. The
+ *      warm off-white backgrounds create comfort without weakness.
+ *      OKLCH ensures perceptual uniformity across the palette.
+ *
+ *   3. MOTION EARNS ITS PLACE
+ *      Every animation serves a purpose: scroll reveals guide the eye,
+ *      hover lifts confirm interactivity, the shimmer draws attention
+ *      to the primary CTA. Nothing moves for decoration alone.
+ *      All animations use transform/opacity (GPU composited) and
+ *      respect prefers-reduced-motion.
+ *
+ *   4. FLUID OVER FIXED
+ *      Typography uses clamp() for seamless scaling. The spacing
+ *      system follows an 8px grid. Layouts use CSS Grid with min()
+ *      for mobile safety. No magic breakpoints — the design adapts.
+ *
+ *   5. TOKENS OVER VALUES
+ *      Every visual value traces back to a named CSS custom property.
+ *      Colors, spacing, shadows, radii, easing — all tokenized.
+ *      This makes the system maintainable and the intent readable.
+ *
+ *   WHAT "IMPECCABLE" MEANS HERE:
+ *   - Every heading uses --font-heading with the exact weight for
+ *     its hierarchy level (800 > 700 > 700)
+ *   - Every interactive element has visible focus, hover, and active states
+ *   - Dark mode is not an afterthought — it has its own surface
+ *     elevation system with steel-tinted blacks and glowing accents
+ *   - Accessibility is baked in: skip link, aria-hidden on decorative
+ *     icons, prefers-reduced-motion, 44px touch targets, semantic HTML
+ *
+ *   3 THINGS TO STUDY:
+ *   1. The OKLCH color system — notice how every color has a hue angle
+ *      near 48 (orange) or 240 (steel blue). This creates harmony.
+ *   2. The reveal animation system — one CSS class + one JS observer
+ *      gives you scroll animations everywhere. Study ScrollReveal.tsx.
+ *   3. The dark mode token override pattern — the same component works
+ *      in both themes because it references tokens, not colors.
+ *
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ * DESIGN TOKEN REFERENCE
  * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  *
  * COLORS (OKLCH — perceptually uniform)
