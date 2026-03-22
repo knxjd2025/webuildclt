@@ -14,7 +14,7 @@ const ROOT = path.resolve(__dirname, '..');
 const OUTPUT_DIR = path.join(ROOT, 'public', 'images', 'blog');
 
 // Pexels API key (free tier - 200 requests/hour)
-const PEXELS_API_KEY = 'YOUR_KEY_HERE';
+const PEXELS_API_KEY = '0vEaFtQGtyf8oijeuWR3qQrv1mFwpDcmK67HtdLOnBWGaXM3Q51fHT2R';
 
 // Search query mapping based on blog category and title keywords
 function getSearchQuery(title, category) {
