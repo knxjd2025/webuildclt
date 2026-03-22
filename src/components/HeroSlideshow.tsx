@@ -76,7 +76,7 @@ export function HeroSlideshow() {
       <div className="absolute inset-0 hero-gradient" />
 
       {/* Slide indicators */}
-      <div className="absolute bottom-24 left-1/2 -translate-x-1/2 z-20 flex items-center gap-3">
+      <div className="absolute bottom-8 md:bottom-24 left-1/2 -translate-x-1/2 z-20 flex items-center gap-3">
         {slides.map((slide, i) => (
           <button
             key={slide.src}

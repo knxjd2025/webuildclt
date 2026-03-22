@@ -474,7 +474,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <div className="absolute bottom-2 md:bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden md:block">
           <div className="w-8 h-12 border-2 border-white/50 rounded-full flex items-start justify-center p-2">
             <div className="w-1.5 h-3 bg-white/50 rounded-full animate-pulse" />
           </div>
@@ -515,7 +515,7 @@ export default function HomePage() {
                   className="object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-lg shadow-xl">
+              <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-primary text-primary-foreground p-4 md:p-6 rounded-lg shadow-xl">
                 <div className="text-4xl font-bold">60+</div>
                 <div className="text-sm">Years Combined Experience</div>
               </div>
@@ -935,8 +935,8 @@ export default function HomePage() {
                     sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity" />
+                  <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-0 md:translate-y-4 md:group-hover:translate-y-0 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-all">
                     <span className="text-primary text-sm font-medium">
                       {project.category}
                     </span>
@@ -1110,13 +1110,13 @@ export default function HomePage() {
       {/* ============================================================ */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 text-center md:text-left">
             <Image
               src="/images/certifications/usgbc-member-light.png"
               alt="USGBC Member"
               width={150}
               height={150}
-              className="h-20 w-auto"
+              className="h-16 md:h-20 w-auto"
             />
             <div className="max-w-xl">
               <h3 className="text-xl font-semibold mb-2">
@@ -1133,7 +1133,7 @@ export default function HomePage() {
                 benefit your next project.
               </p>
             </div>
-            <Button variant="outline" asChild>
+            <Button variant="outline" asChild className="w-full sm:w-auto">
               <Link href="/blog/what-is-usgbc-green-building">Learn More</Link>
             </Button>
           </div>

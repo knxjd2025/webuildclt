@@ -62,8 +62,8 @@ export function BannerCTA() {
       className="fixed top-0 left-0 right-0 z-[60]"
       style={{ backgroundColor: banner.bg_color, color: banner.text_color }}
     >
-      <div className="max-w-7xl mx-auto px-4 py-3.5 flex items-center justify-center gap-4 text-sm">
-        <p className="font-medium text-[15px]">{banner.text}</p>
+      <div className="max-w-7xl mx-auto px-4 py-3.5 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-sm">
+        <p className="font-medium text-[15px] text-center sm:text-left">{banner.text}</p>
         {banner.link_url && banner.link_label && (
           <Link
             href={banner.link_url}

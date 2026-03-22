@@ -217,12 +217,12 @@ export default async function BlogPage() {
             Follow us on social media for the latest news, project updates, and
             construction tips from We Build.
           </p>
-          <div className="flex justify-center gap-4">
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
               href="https://www.instagram.com/webuildclt/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity"
+              className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity"
             >
               Follow on Instagram
             </a>
@@ -230,7 +230,7 @@ export default async function BlogPage() {
               href="https://www.facebook.com/WeBuildCLT"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border border-input bg-background px-6 py-3 rounded-lg font-medium hover:bg-muted transition-colors"
+              className="inline-flex items-center justify-center gap-2 border border-input bg-background px-6 py-3 rounded-lg font-medium hover:bg-muted transition-colors"
             >
               Follow on Facebook
             </a>
