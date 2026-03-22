@@ -705,3 +705,397 @@ html {
 .overflow-clip-x {
   overflow-x: clip;
 }
+
+/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ * LONG-FORM CONTENT DESIGN SYSTEM
+ * For service pages (4,500+ words), guides (8,000+ words),
+ * and other content-heavy pages (2,000+ words)
+ * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+/* ── Article prose styles ── */
+.article-prose {
+  max-width: 72ch;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--foreground);
+}
+.article-prose h2 {
+  margin-top: var(--space-3xl);
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-sm);
+  border-bottom: 2px solid var(--primary);
+  scroll-margin-top: 6rem;
+}
+.article-prose h3 {
+  margin-top: var(--space-2xl);
+  margin-bottom: var(--space-md);
+  scroll-margin-top: 6rem;
+}
+.article-prose p {
+  margin-bottom: var(--space-lg);
+  color: var(--muted-foreground);
+}
+.article-prose p:first-of-type {
+  font-size: 1.1875rem;
+  line-height: 1.75;
+  color: var(--foreground);
+}
+.article-prose strong {
+  color: var(--foreground);
+  font-weight: 600;
+}
+.article-prose a {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px solid oklch(0.67 0.2 48 / 0.3);
+  transition: border-color 200ms;
+}
+.article-prose a:hover {
+  border-color: var(--primary);
+}
+.article-prose ul,
+.article-prose ol {
+  margin-bottom: var(--space-lg);
+  padding-left: var(--space-xl);
+}
+.article-prose li {
+  margin-bottom: var(--space-sm);
+  color: var(--muted-foreground);
+  line-height: 1.7;
+}
+.article-prose li strong {
+  color: var(--foreground);
+}
+.article-prose img {
+  border-radius: var(--radius);
+  margin-block: var(--space-xl);
+}
+
+/* ── Callout / Info Box ── */
+.callout {
+  position: relative;
+  padding: var(--space-lg) var(--space-xl);
+  margin-block: var(--space-xl);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--primary);
+  background: var(--accent);
+}
+.callout-title {
+  font-family: var(--font-heading), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--primary);
+  margin-bottom: var(--space-sm);
+}
+.callout p {
+  margin-bottom: 0;
+  color: var(--accent-foreground);
+  font-size: 0.9375rem;
+}
+.callout-tip {
+  border-left-color: oklch(0.55 0.15 145);
+  background: oklch(0.55 0.15 145 / 0.08);
+}
+.callout-tip .callout-title {
+  color: oklch(0.55 0.15 145);
+}
+.callout-warning {
+  border-left-color: oklch(0.7 0.18 60);
+  background: oklch(0.7 0.18 60 / 0.08);
+}
+.callout-warning .callout-title {
+  color: oklch(0.7 0.18 60);
+}
+.callout-cost {
+  border-left-color: oklch(0.55 0.12 200);
+  background: oklch(0.55 0.12 200 / 0.06);
+}
+.callout-cost .callout-title {
+  color: oklch(0.55 0.12 200);
+}
+.dark .callout {
+  background: oklch(0.67 0.2 48 / 0.06);
+}
+.dark .callout-tip {
+  background: oklch(0.55 0.15 145 / 0.06);
+}
+.dark .callout-warning {
+  background: oklch(0.7 0.18 60 / 0.06);
+}
+.dark .callout-cost {
+  background: oklch(0.55 0.12 200 / 0.06);
+}
+
+/* ── Key Takeaway Box ── */
+.key-takeaway {
+  padding: var(--space-xl);
+  margin-block: var(--space-2xl);
+  border-radius: var(--radius);
+  background: var(--secondary);
+  color: var(--secondary-foreground);
+}
+.key-takeaway h3 {
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: var(--space-md);
+}
+.key-takeaway ul {
+  padding-left: var(--space-lg);
+}
+.key-takeaway li {
+  color: var(--secondary-foreground);
+  margin-bottom: var(--space-sm);
+}
+
+/* ── Process Steps (numbered) ── */
+.process-steps {
+  counter-reset: step;
+  margin-block: var(--space-2xl);
+}
+.process-step {
+  position: relative;
+  padding-left: 4.5rem;
+  padding-bottom: var(--space-xl);
+  margin-bottom: var(--space-xl);
+  border-left: 2px solid var(--border);
+}
+.process-step:last-child {
+  border-left-color: transparent;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.process-step::before {
+  counter-increment: step;
+  content: counter(step);
+  position: absolute;
+  left: -1.25rem;
+  top: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-heading), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.process-step h3 {
+  margin-top: 0;
+  margin-bottom: var(--space-sm);
+}
+.process-step p {
+  margin-bottom: var(--space-sm);
+}
+
+/* ── Cost Table ── */
+.cost-table {
+  width: 100%;
+  margin-block: var(--space-xl);
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+.cost-table th {
+  background: var(--secondary);
+  color: var(--secondary-foreground);
+  padding: var(--space-md) var(--space-lg);
+  text-align: left;
+  font-weight: 700;
+  font-family: var(--font-heading), system-ui, sans-serif;
+}
+.cost-table td {
+  padding: var(--space-md) var(--space-lg);
+  border-bottom: 1px solid var(--border);
+  color: var(--muted-foreground);
+}
+.cost-table tr:hover td {
+  background: var(--muted);
+}
+.cost-table .cost-value {
+  font-weight: 700;
+  color: var(--foreground);
+  font-variant-numeric: tabular-nums;
+}
+.dark .cost-table th {
+  background: oklch(0.18 0.015 240);
+}
+
+/* ── Inline CTA Block ── */
+.inline-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-xl);
+  margin-block: var(--space-2xl);
+  border-radius: var(--radius);
+  background: var(--primary);
+  color: var(--primary-foreground);
+}
+.inline-cta p {
+  flex: 1;
+  min-width: 200px;
+  margin: 0;
+  color: var(--primary-foreground);
+  font-weight: 500;
+}
+.inline-cta a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius);
+  background: var(--primary-foreground);
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-decoration: none;
+  border: none;
+  white-space: nowrap;
+  transition: opacity 200ms;
+}
+.inline-cta a:hover {
+  opacity: 0.9;
+}
+
+/* ── Stats Grid (for service pages) ── */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--space-md);
+  margin-block: var(--space-2xl);
+}
+.stats-grid .stat {
+  text-align: center;
+  padding: var(--space-lg);
+  border-radius: var(--radius);
+  background: var(--muted);
+}
+.stats-grid .stat-number {
+  font-family: var(--font-heading), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--primary);
+  line-height: 1;
+}
+.stats-grid .stat-label {
+  font-size: 0.8125rem;
+  color: var(--muted-foreground);
+  margin-top: var(--space-xs);
+}
+
+/* ── Mini-Story Block ── */
+.mini-story {
+  position: relative;
+  padding: var(--space-xl);
+  margin-block: var(--space-2xl);
+  border-radius: var(--radius);
+  background: var(--muted);
+  border-left: 3px solid var(--brand-steel);
+  font-style: italic;
+}
+.mini-story::before {
+  content: '"';
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-lg);
+  font-size: 3rem;
+  color: var(--primary);
+  opacity: 0.3;
+  line-height: 1;
+  font-style: normal;
+}
+.mini-story p {
+  margin-bottom: var(--space-sm);
+  padding-left: var(--space-xl);
+}
+.mini-story .story-attribution {
+  font-style: normal;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--foreground);
+  padding-left: var(--space-xl);
+}
+
+/* ── Table of Contents (sticky sidebar) ── */
+.toc-sidebar {
+  position: sticky;
+  top: 6rem;
+}
+.toc-sidebar a {
+  display: block;
+  padding: var(--space-xs) 0;
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  padding-left: var(--space-md);
+  transition: color 200ms, border-color 200ms;
+}
+.toc-sidebar a:hover,
+.toc-sidebar a.active {
+  color: var(--primary);
+  border-left-color: var(--primary);
+}
+
+/* ── Section Anchor Links ── */
+.article-prose h2[id]::before,
+.article-prose h3[id]::before {
+  content: '';
+  display: block;
+  height: 6rem;
+  margin-top: -6rem;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* ── Service Page Hero (taller with more content) ── */
+.service-hero {
+  position: relative;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  padding-top: 6rem;
+  padding-bottom: var(--space-3xl);
+}
+.service-hero .hero-content {
+  position: relative;
+  z-index: 10;
+  max-width: 48rem;
+}
+
+/* ── Two-column content layout for variety ── */
+.content-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-2xl);
+  margin-block: var(--space-2xl);
+}
+@media (min-width: 768px) {
+  .content-split {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ── FAQ section enhanced styling ── */
+.faq-item {
+  padding: var(--space-xl);
+  margin-bottom: var(--space-md);
+  border-radius: var(--radius);
+  background: var(--muted);
+  border: 1px solid var(--border);
+}
+.faq-item h3 {
+  margin-top: 0;
+  margin-bottom: var(--space-sm);
+  color: var(--foreground);
+}
+.faq-item p {
+  margin-bottom: 0;
+  color: var(--muted-foreground);
+  line-height: 1.7;
+}
