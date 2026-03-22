@@ -220,3 +220,29 @@ These need real assets before launch:
   - localStorage persistence + system preference listener
 - **Why:** Both themes are polished — users should be able to choose
 - **Commit:** design:theme-toggle — add light/dark/system toggle with FART prevention
+
+### /design:delight — Phase 5
+- **Files:** globals.css, ScrollProgress.tsx (new), layout.tsx
+- **What changed:**
+  - Added scroll progress bar (brand-colored, top of page)
+  - Added btn-shimmer CTA animation
+  - Added parallax-slow utility
+  - ScrollProgress component integrated into site layout
+- **Why:** The scroll progress bar is the thing users notice — subtle but satisfying
+- **Commit:** design:delight — add scroll progress bar, CTA shimmer effect, parallax utility
+
+### /design:harden — Phase 5
+- **Files:** globals.css
+- **What changed:**
+  - Added text-truncate, line-clamp, overflow-safe, flex-truncate
+  - Added skeleton loading animation, empty-state, prose-width, img-fallback
+- **Why:** Real content breaks generic layouts — these utilities prevent it
+- **Commit:** design:harden — add overflow handling, skeleton loaders, empty states
+
+### /design:normalize — Phase 5
+- **Files:** globals.css
+- **What changed:**
+  - Unified all foreground tokens to consistent steel-tinted black
+  - Unified sidebar ring to match brand primary
+- **Why:** Consistency — every "foreground" value traces to one color
+- **Commit:** design:normalize — unify foreground color values, consistent ring/accent tokens
