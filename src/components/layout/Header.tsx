@@ -78,7 +78,7 @@ export function Header() {
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-[background-color,padding,box-shadow] duration-300',
         isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-md py-2'
+          ? 'bg-white/95 dark:bg-[oklch(0.12_0.015_240/0.95)] backdrop-blur-md shadow-md py-2'
           : 'bg-transparent py-4'
       )}
     >
