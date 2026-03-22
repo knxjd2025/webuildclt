@@ -121,7 +121,7 @@ export function Header() {
                     href={item.href}
                     className={cn(
                       'text-sm font-medium transition-colors hover:text-primary inline-flex items-center gap-1',
-                      isScrolled ? 'text-foreground' : 'text-white'
+                      isScrolled ? 'text-foreground' : 'text-foreground dark:text-white'
                     )}
                     aria-expanded={dropdownOpen}
                     aria-haspopup="true"
@@ -171,7 +171,7 @@ export function Header() {
                   href={item.href}
                   className={cn(
                     'text-sm font-medium transition-colors hover:text-primary',
-                    isScrolled ? 'text-foreground' : 'text-white'
+                    isScrolled ? 'text-foreground' : 'text-foreground dark:text-white'
                   )}
                 >
                   {item.name}
@@ -186,7 +186,7 @@ export function Header() {
               href="tel:7045748124"
               className={cn(
                 'flex items-center gap-2 text-sm font-medium transition-colors',
-                isScrolled ? 'text-foreground' : 'text-white'
+                isScrolled ? 'text-foreground' : 'text-foreground dark:text-white'
               )}
             >
               <Phone className="h-4 w-4" aria-hidden="true" />
@@ -205,7 +205,7 @@ export function Header() {
                 variant="ghost"
                 size="icon"
                 className={cn(
-                  isScrolled ? 'text-foreground' : 'text-white'
+                  isScrolled ? 'text-foreground' : 'text-foreground dark:text-white'
                 )}
               >
                 <Menu className="h-6 w-6" />
