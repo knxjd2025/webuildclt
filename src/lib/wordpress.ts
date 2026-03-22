@@ -13,9 +13,9 @@ interface GraphQLResponse<T> {
 export async function fetchGraphQL<T>(
   query: string,
   variables?: Record<string, unknown>,
-  options?: { revalidate?: number; tags?: string[] }
+  options?: { revalidate?: number | false; tags?: string[] }
 ): Promise<T> {
-  const { revalidate = 3600, tags = [] } = options || {};
+  const { revalidate = false, tags = [] } = options || {};
 
   const res = await fetch(WORDPRESS_API_URL, {
     method: 'POST',
@@ -47,7 +47,7 @@ export async function fetchGraphQL<T>(
 export async function fetchWithISR<T>(
   query: string,
   variables?: Record<string, unknown>,
-  revalidateSeconds = 60
+  revalidateSeconds: number | false = false
 ): Promise<T> {
   return fetchGraphQL<T>(query, variables, { revalidate: revalidateSeconds });
 }

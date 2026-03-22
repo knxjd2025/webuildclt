@@ -73,7 +73,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export const revalidate = 3600; // ISR: revalidate every hour
+export const revalidate = false; // Static at build time — redeploy or use /api/revalidate to update
 
 export default async function ProjectPage({ params }: PageProps) {
   const { slug } = await params;

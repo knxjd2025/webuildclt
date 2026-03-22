@@ -12,7 +12,7 @@ import { Calendar, User, Clock, ArrowLeft, ArrowRight } from 'lucide-react';
 import { createAdminClient } from '@/lib/supabase';
 import { enrichBlogContent } from '@/lib/blog-enricher';
 
-export const revalidate = 60;
+export const revalidate = false; // Static at build time — redeploy or use /api/revalidate to update
 
 function estimateReadTime(wordCount: number): number {
   return Math.max(3, Math.ceil(wordCount / 200));

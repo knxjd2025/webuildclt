@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { Calendar, ArrowRight, User } from 'lucide-react';
 import { createAdminClient } from '@/lib/supabase';
 
-export const revalidate = 60; // ISR — revalidate every 60 seconds
+export const revalidate = false; // Static at build time — redeploy or use /api/revalidate to update
 
 export const metadata: Metadata = {
   title: 'Blog',

@@ -34,7 +34,7 @@ import {
   Briefcase,
 } from 'lucide-react';
 
-export const revalidate = 3600;
+export const revalidate = false; // Static at build time — redeploy or use /api/revalidate to update
 
 export const metadata: Metadata = {
   title:
