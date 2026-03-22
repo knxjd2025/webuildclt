@@ -60,7 +60,7 @@
  * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  *
  * COLORS (OKLCH — perceptually uniform)
- *   --primary:          oklch(0.67 0.2 48)    Construction Orange — CTAs, links, accents
+ *   --primary:          oklch(0.58 0.2 48)    Construction Orange (deepened for AA contrast) — CTAs, links, accents
  *   --secondary:        oklch(0.2 0.03 240)   Steel Blue-Black — footer, authority sections
  *   --muted:            oklch(0.965 0.005 60) Warm off-white — section backgrounds
  *   --accent:           oklch(0.92 0.04 70)   Warm amber — highlights, badges
@@ -165,8 +165,8 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.12 0.01 240);
 
-  /* We Build brand: Construction Orange — dominant */
-  --primary: oklch(0.67 0.2 48);
+  /* We Build brand: Construction Orange — deepened for WCAG AA contrast with white text (~5:1) */
+  --primary: oklch(0.58 0.2 48);
   --primary-foreground: oklch(1 0 0);
 
   /* Steel Blue-Black — authority, commercial gravitas */
@@ -175,28 +175,28 @@
 
   /* Warm off-white muted backgrounds */
   --muted: oklch(0.965 0.005 60);
-  --muted-foreground: oklch(0.5 0.015 240);
+  --muted-foreground: oklch(0.44 0.015 240);
 
   /* Accent — warm amber highlight for supporting elements */
   --accent: oklch(0.92 0.04 70);
   --accent-foreground: oklch(0.2 0.02 240);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.67 0.2 48);
+  --border: oklch(0.885 0.005 240);
+  --input: oklch(0.885 0.005 240);
+  --ring: oklch(0.58 0.2 48);
   --sidebar: oklch(0.985 0.003 60);
   --sidebar-foreground: oklch(0.12 0.01 240);
-  --sidebar-primary: oklch(0.67 0.2 48);
+  --sidebar-primary: oklch(0.58 0.2 48);
   --sidebar-primary-foreground: oklch(0.985 0 0);
   --sidebar-accent: oklch(0.97 0 0);
   --sidebar-accent-foreground: oklch(0.12 0.01 240);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.67 0.2 48);
+  --sidebar-border: oklch(0.885 0.005 240);
+  --sidebar-ring: oklch(0.58 0.2 48);
 
   /* Brand colors — semantic */
-  --brand: oklch(0.67 0.2 48);
+  --brand: oklch(0.58 0.2 48);
   --brand-dark: oklch(0.2 0.03 240);
-  --brand-light: oklch(0.88 0.1 50);
+  --brand-light: oklch(0.82 0.1 50);
   --brand-steel: oklch(0.35 0.04 230);
   --brand-warm: oklch(0.95 0.02 60);
 
@@ -570,8 +570,8 @@ html {
 }
 
 @keyframes pulse-glow {
-  0%, 100% { box-shadow: 0 0 0 0 oklch(0.67 0.2 48 / 0.4); }
-  50% { box-shadow: 0 0 0 8px oklch(0.67 0.2 48 / 0); }
+  0%, 100% { box-shadow: 0 0 0 0 oklch(0.58 0.2 48 / 0.4); }
+  50% { box-shadow: 0 0 0 8px oklch(0.58 0.2 48 / 0); }
 }
 .cta-pulse {
   animation: pulse-glow 3s ease-in-out infinite;
@@ -753,7 +753,7 @@ html {
 .article-prose a {
   color: var(--primary);
   text-decoration: none;
-  border-bottom: 1px solid oklch(0.67 0.2 48 / 0.3);
+  border-bottom: 1px solid oklch(0.58 0.2 48 / 0.3);
   transition: border-color 200ms;
 }
 .article-prose a:hover {
@@ -827,7 +827,7 @@ html {
   color: oklch(0.55 0.12 200);
 }
 .dark .callout {
-  background: oklch(0.67 0.2 48 / 0.06);
+  background: oklch(0.58 0.2 48 / 0.06);
 }
 .dark .callout-tip {
   background: oklch(0.55 0.15 145 / 0.06);
@@ -1111,6 +1111,119 @@ html {
   font-size: 0.8125rem;
   color: var(--muted-foreground);
   margin-top: var(--space-xs);
+}
+
+/* ── Comparison Chart (horizontal bar visualization) ── */
+.comparison-chart {
+  margin-block: var(--space-2xl);
+  padding: var(--space-xl);
+  border-radius: var(--radius);
+  background: var(--muted);
+}
+.comparison-chart h3 {
+  margin-top: 0;
+  margin-bottom: var(--space-lg);
+}
+.comparison-chart .chart-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+.comparison-chart .chart-bar:last-child {
+  margin-bottom: 0;
+}
+.comparison-chart .chart-label {
+  min-width: 120px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--foreground);
+  text-align: right;
+}
+.comparison-chart .chart-track {
+  flex: 1;
+  height: 28px;
+  background: var(--background);
+  border-radius: 14px;
+  overflow: hidden;
+  position: relative;
+}
+.comparison-chart .chart-fill {
+  height: 100%;
+  border-radius: 14px;
+  background: var(--primary);
+  transition: width 1s var(--ease-out-expo);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: var(--space-sm);
+}
+.comparison-chart .chart-fill.fill-secondary {
+  background: var(--brand-steel);
+}
+.comparison-chart .chart-fill.fill-accent {
+  background: oklch(0.55 0.15 145);
+}
+.comparison-chart .chart-value {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary-foreground);
+  white-space: nowrap;
+}
+@media (max-width: 640px) {
+  .comparison-chart .chart-label {
+    min-width: 80px;
+    font-size: 0.75rem;
+  }
+}
+
+/* ── Highlight Number (inline stat emphasis) ── */
+.highlight-number {
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--space-xs);
+  font-family: var(--font-heading), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  color: var(--primary);
+  line-height: 1;
+}
+
+/* ── Checklist (visual todo-style list) ── */
+.checklist {
+  margin-block: var(--space-xl);
+  padding: var(--space-lg);
+  border-radius: var(--radius);
+  background: var(--muted);
+  list-style: none;
+  padding-left: var(--space-lg);
+}
+.checklist li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: var(--space-md);
+  color: var(--muted-foreground);
+}
+.checklist li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: oklch(0.55 0.15 145 / 0.15);
+  color: oklch(0.55 0.15 145);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+/* ── FAQ Accordion ── */
+.faq-accordion-item {
+  transition: box-shadow 200ms ease;
 }
 
 /* ── Section Anchor Links ── */
