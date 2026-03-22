@@ -241,7 +241,7 @@ export default function HomePage() {
               experience. Veteran &amp; family-owned.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" asChild>
+              <Button size="lg" asChild className="btn-shimmer cta-pulse">
                 <Link href="/contact">
                   Get a Free Quote
                   <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
@@ -254,6 +254,17 @@ export default function HomePage() {
                 asChild
               >
                 <Link href="/portfolio">View Our Work</Link>
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="bg-white/10 text-white border-white hover:bg-white hover:text-foreground md:hidden"
+                asChild
+              >
+                <a href="tel:7045748124">
+                  <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
+                  Call Now
+                </a>
               </Button>
             </div>
 
