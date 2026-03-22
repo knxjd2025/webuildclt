@@ -122,8 +122,14 @@ export function Header() {
                     <ChevronDown className="h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
 
-                  {dropdownOpen && (
-                    <div className="absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-xl border py-2 z-50">
+                  <div
+                    className={cn(
+                      'absolute top-full left-0 mt-2 w-64 bg-white dark:bg-card rounded-lg shadow-xl border py-2 z-50 transition-[opacity,transform] duration-200',
+                      dropdownOpen
+                        ? 'opacity-100 translate-y-0 pointer-events-auto'
+                        : 'opacity-0 -translate-y-2 pointer-events-none'
+                    )}
+                  >
                       <div className="px-3 py-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
                         Services
                       </div>
@@ -149,8 +155,7 @@ export function Header() {
                           {link.name}
                         </Link>
                       ))}
-                    </div>
-                  )}
+                  </div>
                 </div>
               ) : (
                 <Link

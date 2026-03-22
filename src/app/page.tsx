@@ -230,7 +230,7 @@ export default function HomePage() {
 
         <div className="container mx-auto px-4 relative z-10 pt-24">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+            <h1 className="font-bold text-white mb-6 leading-tight">
               Commercial Construction{' '}
               <span className="text-primary">Charlotte, NC</span>
             </h1>
@@ -374,7 +374,7 @@ export default function HomePage() {
       </section>
 
       {/* Services Section — Expanded Descriptions */}
-      <section className="py-20 bg-muted">
+      <section className="py-20 gradient-warm">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-primary font-semibold uppercase tracking-wider text-sm">
