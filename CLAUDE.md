@@ -277,3 +277,53 @@ These need real assets before launch:
   - Added comprehensive design token reference comment block at top of stylesheet
   - Documents all colors, typography, spacing, shadows, radii, easing, and utility classes
 - **Commit:** design:extract — add design token reference block at top of stylesheet
+
+### /design:critique — Phase 8
+- **Files:** page.tsx, Header.tsx
+- **What changed:**
+  - Fixed h1 hardcoded Tailwind classes conflicting with clamp()
+  - Animated dropdown with CSS opacity/transform transition
+  - Broke visual monotony with gradient-warm on services section
+- **Commit:** design:critique — fix h1 class conflict, animate dropdown, break visual monotony
+
+### /design:teach-impeccable — Phase 8
+- **Files:** globals.css
+- **What changed:**
+  - Added design philosophy, 5 core principles, study guide
+  - Documents what "impeccable" means for this commercial construction UI
+- **Commit:** design:teach-impeccable — add design philosophy, 5 principles, study guide
+
+---
+## DESIGN LOOP COMPLETE
+---
+File: globals.css + site-wide foundation
+Date: 2026-03-21
+Phases completed: 8 / 8
+Skills applied: 20 / 20
+Total commits: 22
+Git tag: design-loop-complete
+
+| # | Skill | Key Change | Commit |
+|---|-------|------------|--------|
+| 1  | /design:audit | Fix 15+ Web Interface Guidelines violations | design:audit |
+| 2  | /design:polish | Plus Jakarta Sans + DM Sans, 8px grid, shadow system | design:polish |
+| 3  | /design:animate | Scroll reveals, stagger, micro-interactions | design:animate |
+| 4  | /design:bolder | 800 weight headings, dramatic hero gradient | design:bolder |
+| 5  | /design:colorize | Construction orange, steel blue-black, OKLCH system | design:colorize |
+| 6  | /design:quieter | Balanced boldness, removed decorative clutter | design:quieter |
+| 7  | /design:simplify | Removed unused chart colors, reduced radius scale | design:simplify |
+| 8  | /design:clarify | Commercial-first copy, specific labels, aria-hidden | design:clarify |
+| 9  | /design:darken | Steel-tinted dark theme with layered elevation | design:darken |
+| 10 | /design:audit-dark | Fixed border visibility, gradient overrides | design:audit-dark |
+| 11 | /design:theme-toggle | Light/dark/system toggle with FART prevention | design:theme-toggle |
+| 12 | /design:delight | Scroll progress bar, CTA shimmer, parallax | design:delight |
+| 13 | /design:harden | Overflow handling, skeleton loading, empty states | design:harden |
+| 14 | /design:normalize | Unified all foreground tokens | design:normalize |
+| 15 | /design:optimize | content-visibility lazy, will-change hints | design:optimize |
+| 16 | /design:adapt | Fluid clamp() typography, 44px touch targets | design:adapt |
+| 17 | /design:onboard | Shimmer/pulse hero CTA, mobile call button | design:onboard |
+| 18 | /design:extract | Design token reference documentation | design:extract |
+| 19 | /design:critique | Fixed h1 conflict, animated dropdown, visual variety | design:critique |
+| 20 | /design:teach-impeccable | Design philosophy + 5 principles + study guide | design:teach-impeccable |
+
+Final audit status: PASS — build clean, 0 errors
