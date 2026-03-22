@@ -158,3 +158,36 @@ These need real assets before launch:
   - All colors in OKLCH for perceptual uniformity
 - **Why:** Construction orange + steel authority = commercial confidence. Generic palette replaced with intentional dominant + accent system
 - **Commit:** design:colorize — richer construction orange, steel blue-black, warm amber system
+
+### /design:quieter — Phase 3
+- **Files:** globals.css
+- **What changed:**
+  - Pulled h1/h2 back to more proportional sizes (6xl max, 4xl max)
+  - Softened muted-foreground for breathing room
+  - Removed texture-noise overlay (visual clutter)
+  - Refined section-divider (48x3px)
+  - Softened card-hover lift (4px → 2px)
+  - Removed icon-hover-rotate (too playful for commercial brand)
+- **Why:** Phase 2 pushed hard — now pulling back to confident restraint. The eye knows exactly where to go.
+- **Commit:** design:quieter — reduce visual noise, tone down bold excesses, improve breathing room
+
+### /design:simplify — Phase 3
+- **Files:** globals.css
+- **What changed:**
+  - Removed 5 unused chart color variables (not referenced in any component)
+  - Reduced radius scale from 7 levels to 4 (sm/md/lg/xl)
+  - Added organizing comments to theme sections
+- **Why:** Fewer tokens = less cognitive overhead. If it's not used, it shouldn't exist
+- **Commit:** design:simplify — remove unused chart colors, reduce radius scale, clean theme mapping
+
+### /design:clarify — Phase 3
+- **Files:** page.tsx, globals.css
+- **What changed:**
+  - Hero h1: "Construction Company" → "Commercial Construction Charlotte, NC"
+  - Hero description shortened to lead with commercial, less word count
+  - "Learn More" → specific "View {service}" per Web Interface Guidelines
+  - Added aria-hidden to decorative icons
+  - About section copy updated to "Commercial Construction Excellence"
+  - Used section-label utility class for consistent labeling
+- **Why:** Every word and label must earn its place — vague copy loses both users and search engines
+- **Commit:** design:clarify — sharpen copy for commercial focus, fix vague labels, add aria-hidden
