@@ -40,7 +40,7 @@ export function ThemeToggle() {
   useEffect(() => {
     setMounted(true);
     const stored = localStorage.getItem('theme') as Theme | null;
-    const initial = stored || 'system';
+    const initial = stored || 'light';
     setTheme(initial);
     applyTheme(initial);
 

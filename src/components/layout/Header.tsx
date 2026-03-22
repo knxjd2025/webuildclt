@@ -49,10 +49,17 @@ export function Header() {
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          setIsScrolled(window.scrollY > 50);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -77,11 +84,12 @@ export function Header() {
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-[background-color,padding,box-shadow] duration-300',
+        'fixed left-0 right-0 z-50 transition-[background-color,padding,box-shadow,top] duration-300',
         isScrolled
           ? 'bg-white/95 dark:bg-[oklch(0.12_0.015_240/0.95)] backdrop-blur-md shadow-md py-2'
           : 'bg-transparent py-4'
       )}
+      style={{ top: 'var(--banner-height, 0px)' }}
     >
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
@@ -90,9 +98,9 @@ export function Header() {
             <Image
               src="/images/logo.png"
               alt="We Build"
-              width={180}
-              height={60}
-              className="h-12 w-auto"
+              width={234}
+              height={78}
+              className="h-[62px] w-auto"
               priority
             />
           </Link>
@@ -209,9 +217,9 @@ export function Header() {
                 <Image
                   src="/images/logo.png"
                   alt="We Build"
-                  width={150}
-                  height={50}
-                  className="h-10 w-auto"
+                  width={195}
+                  height={65}
+                  className="h-[52px] w-auto"
                 />
                 <nav className="flex flex-col gap-1">
                   <SheetClose asChild>

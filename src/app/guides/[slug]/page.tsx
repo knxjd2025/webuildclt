@@ -7,7 +7,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { articleSchema, faqSchema } from '@/lib/structured-data';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Clock, ArrowLeft, ArrowRight, Phone } from 'lucide-react';
+import { Clock, ArrowLeft, Phone } from 'lucide-react';
 import { getGuideBySlug, getAllGuideSlugs } from '@/data/guides';
 
 type Params = Promise<{ slug: string }>;
@@ -81,9 +81,9 @@ export default async function GuidePage({
             <p className="text-lg text-muted-foreground mb-4">
               {guide.excerpt}
             </p>
-            <div className="flex items-center gap-4 text-sm text-muted-foreground">
+            <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
               <span className="flex items-center gap-1">
-                <Clock className="h-4 w-4" />
+                <Clock className="h-4 w-4" aria-hidden="true" />
                 {guide.readTime}
               </span>
               <span>{guide.tableOfContents.length} sections</span>
@@ -99,17 +99,7 @@ export default async function GuidePage({
             {/* Guide Content */}
             <article className="max-w-none">
               <div
-                className="prose prose-lg max-w-none
-                  prose-headings:font-bold prose-headings:tracking-tight
-                  prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4 prose-h2:scroll-mt-24
-                  prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
-                  prose-p:text-muted-foreground prose-p:leading-relaxed
-                  prose-strong:text-foreground
-                  prose-li:text-muted-foreground
-                  prose-a:text-primary prose-a:no-underline hover:prose-a:underline
-                  prose-table:text-sm
-                  prose-th:bg-muted prose-th:p-3 prose-th:text-left prose-th:font-semibold
-                  prose-td:p-3 prose-td:border-b"
+                className="article-prose"
                 dangerouslySetInnerHTML={{ __html: guide.content }}
               />
 
@@ -118,29 +108,22 @@ export default async function GuidePage({
                 <h2 className="text-2xl font-bold mb-8">
                   Frequently Asked Questions
                 </h2>
-                <div className="space-y-6">
+                <div>
                   {guide.faqs.map((faq) => (
-                    <div
-                      key={faq.question}
-                      className="bg-muted rounded-lg p-6"
-                    >
-                      <h3 className="text-lg font-semibold mb-2">
-                        {faq.question}
-                      </h3>
-                      <p className="text-muted-foreground leading-relaxed">
-                        {faq.answer}
-                      </p>
+                    <div key={faq.question} className="faq-item">
+                      <h3>{faq.question}</h3>
+                      <p>{faq.answer}</p>
                     </div>
                   ))}
                 </div>
               </div>
 
               {/* Share & Nav */}
-              <div className="mt-12 pt-8 border-t flex items-center justify-between">
+              <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                 <ShareButtons url={guideUrl} title={guide.title} />
                 <Button variant="outline" asChild>
                   <Link href="/guides">
-                    <ArrowLeft className="mr-2 h-4 w-4" />
+                    <ArrowLeft className="mr-2 h-4 w-4" aria-hidden="true" />
                     All Guides
                   </Link>
                 </Button>
@@ -148,19 +131,16 @@ export default async function GuidePage({
             </article>
 
             {/* Sidebar */}
-            <aside className="space-y-8">
+            <aside>
               {/* Table of Contents */}
-              <div className="sticky top-24 space-y-8">
+              <div className="toc-sidebar space-y-8">
                 <div className="bg-muted rounded-lg p-6">
                   <h3 className="font-semibold mb-4">In This Guide</h3>
-                  <nav>
-                    <ol className="space-y-2 text-sm">
+                  <nav aria-label="Table of contents">
+                    <ol className="space-y-1">
                       {guide.tableOfContents.map((item) => (
                         <li key={item.id}>
-                          <a
-                            href={`#${item.id}`}
-                            className="text-muted-foreground hover:text-primary transition-colors"
-                          >
+                          <a href={`#${item.id}`}>
                             {item.title}
                           </a>
                         </li>
@@ -187,7 +167,7 @@ export default async function GuidePage({
                     href="tel:7045748124"
                     className="flex items-center justify-center gap-2 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
-                    <Phone className="h-3.5 w-3.5" />
+                    <Phone className="h-3.5 w-3.5" aria-hidden="true" />
                     (704) 574-8124
                   </a>
                 </div>
@@ -218,7 +198,7 @@ export default async function GuidePage({
               asChild
             >
               <a href="tel:7045748124">
-                <Phone className="mr-2 h-5 w-5" />
+                <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
                 (704) 574-8124
               </a>
             </Button>

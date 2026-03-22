@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans, DM_Sans } from 'next/font/google';
 import { Header, Footer } from '@/components/layout';
 import { ScrollProgress } from '@/components/ScrollProgress';
+import { BannerCTA } from '@/components/BannerCTA';
 import { JsonLd } from '@/components/JsonLd';
 import {
   organizationSchema,
@@ -92,10 +93,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        {/* Preconnect to external origins for faster resource loading */}
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         {/* Prevent FART — apply theme before first paint */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem('theme');var d=t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme:dark)').matches);if(d)document.documentElement.classList.add('dark')}catch(e){}})()`,
+            __html: `(function(){try{var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.classList.add('dark')}catch(e){}})()`,
           }}
         />
       </head>
@@ -117,6 +121,7 @@ export default function RootLayout({
           ]}
         />
         <ScrollProgress />
+        <BannerCTA />
         <Header />
         <main id="main-content" className="flex-1">{children}</main>
         <Footer />

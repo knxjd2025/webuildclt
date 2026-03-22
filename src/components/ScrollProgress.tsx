@@ -1,20 +1,35 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 /**
  * ScrollProgress — a thin brand-colored progress bar at the top of the page
- * that fills as the user scrolls down. Adds a sense of progress and polish.
+ * that fills as the user scrolls down. Uses direct DOM manipulation to avoid
+ * React re-renders on every scroll event.
  */
 export function ScrollProgress() {
-  const [width, setWidth] = useState(0);
+  const barRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    function handleScroll() {
+    const bar = barRef.current;
+    if (!bar) return;
+
+    let ticking = false;
+
+    function update() {
       const scrollTop = window.scrollY;
       const docHeight = document.documentElement.scrollHeight - window.innerHeight;
       const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-      setWidth(progress);
+      bar!.style.width = `${progress}%`;
+      bar!.setAttribute('aria-valuenow', String(Math.round(progress)));
+      ticking = false;
+    }
+
+    function handleScroll() {
+      if (!ticking) {
+        requestAnimationFrame(update);
+        ticking = true;
+      }
     }
 
     window.addEventListener('scroll', handleScroll, { passive: true });
@@ -23,10 +38,11 @@ export function ScrollProgress() {
 
   return (
     <div
+      ref={barRef}
       className="scroll-progress"
-      style={{ width: `${width}%` }}
+      style={{ width: '0%' }}
       role="progressbar"
-      aria-valuenow={Math.round(width)}
+      aria-valuenow={0}
       aria-valuemin={0}
       aria-valuemax={100}
       aria-label="Page scroll progress"

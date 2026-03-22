@@ -9,12 +9,13 @@ import { articleSchema } from '@/lib/structured-data';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Calendar, User, Clock, ArrowLeft, ArrowRight } from 'lucide-react';
-import { getPostBySlug, getRelatedPosts as fetchRelated, getAllSlugs } from '@/data/blog-posts';
+import { createAdminClient } from '@/lib/supabase';
+import { enrichBlogContent } from '@/lib/blog-enricher';
 
-function estimateReadTime(content: string): number {
-  const text = content.replace(/<[^>]*>/g, '');
-  const words = text.split(/\s+/).length;
-  return Math.max(3, Math.ceil(words / 200));
+export const revalidate = 60;
+
+function estimateReadTime(wordCount: number): number {
+  return Math.max(3, Math.ceil(wordCount / 200));
 }
 
 function extractHeadings(content: string): Array<{ id: string; text: string }> {
@@ -51,7 +52,22 @@ function formatDate(dateString: string): string {
   });
 }
 
+function categoryLabel(slug: string): string {
+  return slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
 type Params = Promise<{ slug: string }>;
+
+async function getPost(slug: string) {
+  const admin = createAdminClient();
+  const { data } = await admin
+    .from('blogs')
+    .select('*')
+    .eq('slug', slug)
+    .eq('status', 'published')
+    .single();
+  return data;
+}
 
 export async function generateMetadata({
   params,
@@ -59,25 +75,21 @@ export async function generateMetadata({
   params: Params;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const post = await getPost(slug);
   if (!post) return { title: 'Post Not Found' };
 
   return {
-    title: post.title,
-    description: post.excerpt,
+    title: post.meta_title || post.title,
+    description: post.meta_description || post.excerpt,
     openGraph: {
-      title: post.title,
-      description: post.excerpt,
+      title: post.meta_title || post.title,
+      description: post.meta_description || post.excerpt,
       type: 'article',
-      publishedTime: post.date,
+      publishedTime: post.published_at,
       authors: [post.author],
-      ...(post.image && { images: [{ url: post.image }] }),
+      ...(post.featured_image && { images: [{ url: post.featured_image }] }),
     },
   };
-}
-
-export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
 }
 
 export default async function BlogPostPage({
@@ -86,14 +98,25 @@ export default async function BlogPostPage({
   params: Params;
 }) {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const post = await getPost(slug);
   if (!post) notFound();
 
-  const readTime = estimateReadTime(post.content);
-  const headings = extractHeadings(post.content);
-  const contentWithIds = addHeadingIds(post.content);
-  const relatedPosts = fetchRelated(slug);
+  const readTime = estimateReadTime(post.word_count ?? 0);
+  const headings = extractHeadings(post.content ?? '');
+  const contentWithIds = enrichBlogContent(addHeadingIds(post.content ?? ''));
   const postUrl = `https://webuildclt.com/blog/${slug}`;
+  const postDate = post.published_at ?? post.created_at;
+
+  // Fetch related posts (same category, exclude current)
+  const admin = createAdminClient();
+  const { data: relatedPosts } = await admin
+    .from('blogs')
+    .select('id, title, slug, category, category_slug, featured_image')
+    .eq('status', 'published')
+    .eq('category_slug', post.category_slug)
+    .neq('id', post.id)
+    .order('published_at', { ascending: false })
+    .limit(2);
 
   return (
     <>
@@ -101,29 +124,33 @@ export default async function BlogPostPage({
         data={articleSchema({
           title: post.title,
           slug: post.slug,
-          excerpt: post.excerpt,
-          date: post.date,
+          excerpt: post.excerpt ?? '',
+          date: postDate,
           authorName: post.author,
-          imageUrl: post.image,
+          imageUrl: post.featured_image,
         })}
       />
 
       {/* Hero */}
       <section className="relative h-[40vh] min-h-[300px] flex items-end">
         <div className="absolute inset-0 z-0">
-          <Image
-            src={post.image}
-            alt={post.title}
-            fill
-            className="object-cover"
-            priority
-          />
+          {post.featured_image ? (
+            <Image
+              src={post.featured_image}
+              alt={post.title}
+              fill
+              className="object-cover"
+              priority
+            />
+          ) : (
+            <div className="w-full h-full bg-gray-800" />
+          )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
         </div>
         <div className="container mx-auto px-4 relative z-10 pb-12">
           <Badge variant="secondary" className="mb-4">
-            <Link href={`/blog/category/${post.categorySlug}`}>
-              {post.category}
+            <Link href={`/blog/category/${post.category_slug}`}>
+              {categoryLabel(post.category_slug)}
             </Link>
           </Badge>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4 max-w-4xl">
@@ -136,7 +163,7 @@ export default async function BlogPostPage({
             </div>
             <div className="flex items-center gap-2">
               <Calendar className="h-4 w-4" />
-              {formatDate(post.date)}
+              {formatDate(postDate)}
             </div>
             <div className="flex items-center gap-2">
               <Clock className="h-4 w-4" />
@@ -159,13 +186,7 @@ export default async function BlogPostPage({
             {/* Article Content */}
             <article className="max-w-none">
               <div
-                className="prose prose-lg max-w-none
-                  prose-headings:font-bold prose-headings:tracking-tight
-                  prose-h2:text-2xl prose-h2:mt-10 prose-h2:mb-4
-                  prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-3
-                  prose-p:text-muted-foreground prose-p:leading-relaxed
-                  prose-strong:text-foreground
-                  prose-a:text-primary prose-a:no-underline hover:prose-a:underline"
+                className="article-prose"
                 dangerouslySetInnerHTML={{ __html: contentWithIds }}
               />
 
@@ -183,7 +204,6 @@ export default async function BlogPostPage({
 
             {/* Sidebar */}
             <aside className="space-y-8">
-              {/* Table of Contents */}
               {headings.length > 0 && (
                 <div className="sticky top-24 bg-muted rounded-lg p-6">
                   <h3 className="font-semibold mb-4">Table of Contents</h3>
@@ -209,28 +229,35 @@ export default async function BlogPostPage({
       </section>
 
       {/* Related Posts */}
-      {relatedPosts.length > 0 && (
+      {relatedPosts && relatedPosts.length > 0 && (
         <section className="py-16 bg-muted">
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-8">Related Posts</h2>
             <div className="grid md:grid-cols-2 gap-8">
-              {relatedPosts.map((rp) => (
+              {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+              {relatedPosts.map((rp: any) => (
                 <Link
                   key={rp.id}
                   href={`/blog/${rp.slug}`}
                   className="group block rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-md transition-all"
                 >
-                  <div className="relative aspect-[16/9] image-hover">
-                    <Image
-                      src={rp.image}
-                      alt={rp.title}
-                      fill
-                      className="object-cover"
-                    />
+                  <div className="relative aspect-[16/9] image-hover bg-muted">
+                    {rp.featured_image ? (
+                      <Image
+                        src={rp.featured_image}
+                        alt={rp.title}
+                        fill
+                        className="object-cover"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center">
+                        <span className="text-4xl">📰</span>
+                      </div>
+                    )}
                   </div>
                   <div className="p-6">
                     <Badge variant="secondary" className="mb-3">
-                      {rp.category}
+                      {categoryLabel(rp.category_slug)}
                     </Badge>
                     <h3 className="text-lg font-semibold group-hover:text-primary transition-colors mb-2">
                       {rp.title}

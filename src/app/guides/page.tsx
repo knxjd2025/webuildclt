@@ -5,6 +5,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight, Clock, Wrench, Building2, Layers, UtensilsCrossed, Shield } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
 import { getAllGuides } from '@/data/guides';
 
 export const metadata: Metadata = {
@@ -73,7 +74,7 @@ export default function GuidesPage() {
                             {guide.category}
                           </Badge>
                           <span className="text-xs text-muted-foreground flex items-center gap-1">
-                            <Clock className="h-3 w-3" />
+                            <Clock className="h-3 w-3" aria-hidden="true" />
                             {guide.readTime}
                           </span>
                         </div>
@@ -96,7 +97,7 @@ export default function GuidesPage() {
                         className="inline-flex items-center text-primary font-medium hover:underline"
                       >
                         Read Guide
-                        <ArrowRight className="ml-1 h-4 w-4" />
+                        <ArrowRight className="ml-1 h-4 w-4" aria-hidden="true" />
                       </Link>
                     </div>
                   </CardContent>
@@ -117,13 +118,12 @@ export default function GuidesPage() {
             Our guides provide the knowledge. Our team provides the execution.
             Contact We Build for a free consultation on any construction project.
           </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-white/90 transition-colors"
-          >
-            Get a Free Consultation
-            <ArrowRight className="h-4 w-4" />
-          </Link>
+          <Button size="lg" variant="secondary" asChild>
+            <Link href="/contact">
+              Get a Free Consultation
+              <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
+            </Link>
+          </Button>
         </div>
       </section>
     </>

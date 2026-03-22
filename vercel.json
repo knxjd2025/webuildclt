@@ -2,10 +2,21 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
   "regions": ["iad1"],
-  "crons": [],
+  "crons": [
+    {
+      "path": "/api/cron/weekly-blog",
+      "schedule": "0 9 * * 1"
+    }
+  ],
   "functions": {
     "app/api/**/*": {
       "maxDuration": 10
+    },
+    "app/api/admin/blogs/[id]/generate/route": {
+      "maxDuration": 120
+    },
+    "app/api/cron/weekly-blog/route": {
+      "maxDuration": 120
     }
   },
   "git": {

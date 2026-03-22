@@ -156,6 +156,7 @@
 }
 
 :root {
+  --banner-height: 0px;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.12 0.01 240);
@@ -563,6 +564,11 @@ html {
 }
 
 /* Pulse glow for CTAs */
+@keyframes slideProgress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
 @keyframes pulse-glow {
   0%, 100% { box-shadow: 0 0 0 0 oklch(0.67 0.2 48 / 0.4); }
   50% { box-shadow: 0 0 0 8px oklch(0.67 0.2 48 / 0); }
@@ -753,10 +759,15 @@ html {
 .article-prose a:hover {
   border-color: var(--primary);
 }
-.article-prose ul,
+.article-prose ul {
+  margin-bottom: var(--space-lg);
+  padding-left: var(--space-xl);
+  list-style-type: disc;
+}
 .article-prose ol {
   margin-bottom: var(--space-lg);
   padding-left: var(--space-xl);
+  list-style-type: decimal;
 }
 .article-prose li {
   margin-bottom: var(--space-sm);
@@ -1040,6 +1051,66 @@ html {
 .toc-sidebar a.active {
   color: var(--primary);
   border-left-color: var(--primary);
+}
+
+/* ── Two-Column Layout (pros/cons, comparisons) ── */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  margin-block: var(--space-2xl);
+}
+@media (max-width: 640px) {
+  .two-col { grid-template-columns: 1fr; }
+}
+.two-col > div {
+  padding: var(--space-lg);
+  border-radius: var(--radius);
+  background: var(--muted);
+}
+.two-col > div h3 {
+  margin-top: 0;
+  margin-bottom: var(--space-md);
+  font-size: 1.125rem;
+}
+
+/* ── Blockquote (article) ── */
+.article-prose blockquote {
+  margin-block: var(--space-2xl);
+  padding: var(--space-xl) var(--space-2xl);
+  border-left: 4px solid var(--primary);
+  background: var(--muted);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-style: italic;
+  font-size: 1.125rem;
+  color: var(--foreground);
+}
+.article-prose blockquote p {
+  color: var(--foreground);
+  margin-bottom: var(--space-sm);
+}
+.article-prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Stat Card (for stats-grid) ── */
+.stat-card {
+  padding: var(--space-lg);
+  border-radius: var(--radius);
+  background: var(--muted);
+  text-align: center;
+}
+.stat-card .stat-value {
+  font-family: var(--font-heading), system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary);
+  line-height: 1.2;
+}
+.stat-card .stat-label {
+  font-size: 0.8125rem;
+  color: var(--muted-foreground);
+  margin-top: var(--space-xs);
 }
 
 /* ── Section Anchor Links ── */

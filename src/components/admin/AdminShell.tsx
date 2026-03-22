@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { createBrowserClient } from '@/lib/supabase-browser';
 import { Button } from '@/components/ui/button';
-import { LayoutDashboard, FolderOpen, LogOut } from 'lucide-react';
+import { LayoutDashboard, FolderOpen, FileText, Bot, Megaphone, LogOut } from 'lucide-react';
 
 export function AdminShell({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -25,6 +25,13 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
         </div>
         <nav className="flex-1 p-4 space-y-1">
           <Link
+            href="/admin"
+            className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
+          >
+            <LayoutDashboard className="h-5 w-5" />
+            Dashboard
+          </Link>
+          <Link
             href="/admin/projects"
             className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
           >
@@ -32,11 +39,25 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
             Projects
           </Link>
           <Link
-            href="/admin"
+            href="/admin/blogs"
             className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
           >
-            <LayoutDashboard className="h-5 w-5" />
-            Dashboard
+            <FileText className="h-5 w-5" />
+            Blogs
+          </Link>
+          <Link
+            href="/admin/automation"
+            className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
+          >
+            <Bot className="h-5 w-5" />
+            Automation
+          </Link>
+          <Link
+            href="/admin/banner-cta"
+            className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
+          >
+            <Megaphone className="h-5 w-5" />
+            Banner CTA
           </Link>
         </nav>
         <div className="p-4 border-t border-gray-700">

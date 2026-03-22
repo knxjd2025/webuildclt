@@ -2,13 +2,17 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Repository
+
+**GitHub**: https://github.com/knxjd2025/webuildclt.git
+
 ## Project Overview
 
-WeBuildCLT is a headless WordPress + Next.js 16 website for **We Build**, a veteran and family-owned construction company in Charlotte, NC. The site uses WordPress as a CMS (via WPGraphQL) and Next.js App Router for the frontend, deployed on Vercel.
+WeBuildCLT is a headless WordPress + Next.js 16 website for **We Build**, a veteran and family-owned construction company in Charlotte, NC. The site uses WordPress as a CMS (via WPGraphQL) and Next.js App Router for the frontend, with a Supabase backend for admin/blog features, deployed on Vercel.
 
 **Business**: Commercial & residential construction, upfits, roof coatings, design-build. Based at 14330 S Lakes Drive, Charlotte NC 28273. Phone: (704) 574-8124.
 
-**Membership**: U.S. Green Building Council (USGBC) member. USGBC logos are at `/USGBC Member.png` (white on teal background) and `/USGBC Member 1.png` (teal on white background). **Not** a member of "We Are Neutral" — all references to carbon neutrality and We Are Neutral should be replaced with USGBC membership.
+**Membership**: U.S. Green Building Council (USGBC) member. USGBC logos are at `/USGBC Member.png` (white on teal) and `/USGBC Member 1.png` (teal on white). **Not** a member of "We Are Neutral" — replace any references to carbon neutrality/We Are Neutral with USGBC membership.
 
 ## Development Commands
 
@@ -19,311 +23,157 @@ npm run start      # Start production server
 npm run lint       # ESLint (next/core-web-vitals + typescript)
 ```
 
+No test runner is configured.
+
 ## Environment Variables
 
 ```env
+# WordPress (headless CMS)
 WORDPRESS_API_URL=https://your-wordpress-site.com/graphql
 WORDPRESS_PREVIEW_SECRET=your-preview-secret
 REVALIDATION_SECRET=your-revalidation-secret
-```
 
-No `.env.example` exists yet — create one if adding new env vars.
+# Supabase (admin/blog backend)
+NEXT_PUBLIC_SUPABASE_URL=https://xxx.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+# AI content generation
+ANTHROPIC_API_KEY=your-key       # Claude — blog refinement, project descriptions
+GROQ_API_KEY=your-key            # Groq (Kimi K2) — blog research + drafting
+
+# Vercel Cron
+CRON_SECRET=your-cron-secret     # Auth for /api/cron/weekly-blog
+```
 
 ## Architecture
 
 ### Tech Stack
 - **Next.js 16** (App Router, React 19, RSC by default)
 - **Tailwind CSS v4** + **shadcn/ui** (new-york style, Radix primitives)
-- **Headless WordPress** via WPGraphQL plugin
+- **Headless WordPress** via WPGraphQL plugin (portfolio, testimonials, news)
+- **Supabase** PostgreSQL (projects, blogs, admin features — bypasses WordPress for content management)
+- **AI Pipeline**: Groq (Kimi K2) for research/drafting, Claude for refinement
 - **Vercel** deployment (region: `iad1`)
-- **Zod** + **react-hook-form** for form validation
 
-### Data Flow
-WordPress CMS → WPGraphQL → `src/lib/wordpress.ts` (fetchGraphQL client) → Next.js Server Components → ISR with on-demand revalidation via `/api/revalidate`
+### Dual Data Sources
+
+The site has two content backends:
+
+1. **WordPress/WPGraphQL** — Original CMS for pages, posts, portfolio, testimonials, services, certifications. Fetched via `src/lib/wordpress.ts` → Server Components → ISR with tag-based revalidation.
+
+2. **Supabase** — Newer backend for admin-managed projects and AI-generated blogs. Used by `/admin/*` pages and `/api/admin/*` routes. Two client patterns:
+   - `createServerClient()` in `src/lib/supabase.ts` — cookie-based, for Server Components
+   - `createAdminClient()` in `src/lib/supabase.ts` — service role key, bypasses RLS, API routes only
+   - `createBrowserClient()` in `src/lib/supabase-browser.ts` — client-side
 
 ### Key Files
-- `src/lib/wordpress.ts` — GraphQL client with ISR and tag-based revalidation support
-- `src/lib/queries.ts` — All WPGraphQL queries (pages, posts, portfolio, services, testimonials, certifications)
-- `src/types/wordpress.ts` — TypeScript interfaces for all WordPress data types
-- `src/components/PageHero.tsx` — Reusable hero banner component used across pages
-- `src/components/layout/Header.tsx` — Fixed header with scroll-based transparency toggle (client component)
-- `src/components/layout/Footer.tsx` — Footer with nav, services, contact info, and certification logos
-
-### WordPress Custom Post Types
-The GraphQL queries expect: `portfolio`, `testimonial`, `service`, `certification` (plus standard pages and posts). Required WP plugins: WPGraphQL, WPGraphQL for ACF, Yoast SEO + WPGraphQL Yoast addon.
+- `src/lib/wordpress.ts` — GraphQL client with ISR and tag-based revalidation
+- `src/lib/queries.ts` — All WPGraphQL queries
+- `src/lib/supabase.ts` — Supabase server + admin clients
+- `src/lib/ai-content.ts` — Claude-based project description generator
+- `src/lib/ai/blog-pipeline.ts` — Blog generation: Groq research → Groq draft → Claude refine
+- `src/lib/ai/groq-client.ts` — Groq/Kimi K2 client for fast blog drafting
+- `src/lib/ai/claude-refiner.ts` — Claude refinement pass for blog content
+- `src/lib/ai/lsi-keyword-finder.ts` — LSI keyword discovery for blog topic selection
+- `src/lib/structured-data.ts` — JSON-LD generators for SEO (LocalBusiness, Service, etc.)
+- `src/data/guides.ts` — Static guide content (construction guides)
+- `src/data/blog-posts.ts` — Static blog post data
 
 ### Page Structure
-| Route | Status | Notes |
-|-------|--------|-------|
-| `/` | Built | Hero, about, services, portfolio preview, testimonials, CTA |
-| `/about` | Built | Company story, values, certifications grid |
-| `/portfolio` | Built | Filterable project gallery (commercial/residential) |
-| `/design-center` | Built | Showroom info, Matterport virtual tour |
-| `/we-coat` | Built | Roof coating service details |
-| `/contact` | Built | Contact form (email integration commented out) |
-| `/news` | Built | Blog/news listing |
-| `/blog` | Not built | Blog infrastructure planned (see build plan) |
+
+**Public pages:**
+| Route Pattern | Notes |
+|---------------|-------|
+| `/` | Homepage — hero slideshow, services, portfolio, testimonials, CTA |
+| `/about` | Company story, values, certifications |
+| `/portfolio` | Filterable project gallery + `/portfolio/[slug]` detail pages |
+| `/services/{slug}` | 6 service pages: commercial-construction, commercial-upfits, design-build, general-contractor, residential-additions, custom-home-builder, roof-coating |
+| `/areas/{slug}` | 3 location pages: south-charlotte, lake-norman, fort-mill-sc |
+| `/guides` + `/guides/[slug]` | Construction guides (static data from `src/data/guides.ts`) |
+| `/blog` + `/blog/[slug]` | Blog with category filtering at `/blog/category/[slug]` |
+| `/design-center` | Showroom info, Matterport virtual tour |
+| `/we-coat` | Roof coating service |
+| `/contact` | Contact form (ContactForm component with Zod validation) |
+| `/news` | WordPress blog/news listing |
+
+**Admin pages** (`/admin/*`):
+| Route | Notes |
+|-------|-------|
+| `/admin/login` | Admin authentication |
+| `/admin` | Dashboard |
+| `/admin/projects` | Project CRUD with AI content generation |
+| `/admin/blogs` | Blog CRUD with AI generation pipeline |
+| `/admin/automation` | Automation settings |
 
 ### API Routes
-- `POST /api/contact` — Contact form handler (Resend email and WP Gravity Forms integrations are scaffolded but commented out)
-- `POST|GET /api/revalidate` — On-demand ISR revalidation endpoint, authenticated via `REVALIDATION_SECRET`
 
-### Brand Colors & Theming
-Defined as CSS custom properties in `src/app/globals.css` using OKLCH:
-- **Primary**: Orange/gold (`oklch(0.65 0.18 50)`) — used for CTAs, accents, links
-- **Secondary**: Dark blue-gray (`oklch(0.25 0.02 240)`) — used for footer, testimonials
-- Brand variables: `--brand`, `--brand-dark`, `--brand-light`
-- Dark mode theme is defined but not toggled in the UI
+| Route | Method | Purpose |
+|-------|--------|---------|
+| `/api/contact` | POST | Contact form handler |
+| `/api/revalidate` | POST/GET | On-demand ISR revalidation (auth via `REVALIDATION_SECRET`) |
+| `/api/admin/projects` | GET/POST | Project CRUD |
+| `/api/admin/projects/[id]` | PATCH/DELETE | Project update/delete |
+| `/api/admin/projects/[id]/generate` | POST | AI-generate project content (Claude) |
+| `/api/admin/blogs` | GET/POST | Blog CRUD |
+| `/api/admin/blogs/[id]` | PATCH/DELETE | Blog update/delete |
+| `/api/admin/blogs/[id]/generate` | POST | AI-generate blog (Groq→Claude pipeline, 120s timeout) |
+| `/api/admin/blogs/[id]/publish` | POST | Publish blog |
+| `/api/admin/upload` | POST | Media upload to Supabase Storage |
+| `/api/cron/weekly-blog` | GET | Vercel Cron — auto-generates one blog per week (Mondays 9am UTC) |
+
+### AI Blog Pipeline
+
+The blog generation system uses a multi-model pipeline (`src/lib/ai/`):
+1. **LSI Keyword Finder** — selects next topic to avoid duplicates
+2. **Groq/Kimi K2 Research** — fast, cheap research pass
+3. **Groq/Kimi K2 Draft** — generates initial blog draft
+4. **Claude Refinement** — polishes content, ensures brand voice and SEO quality
+
+Automated via Vercel Cron (`vercel.json` → `/api/cron/weekly-blog`, Mondays 9am UTC). Blog generation and cron routes have 120s function timeout.
+
+### Database (Supabase)
+
+Migrations in `migrations/` (plain SQL). Tables include `projects` and `blogs` (see `migrations/002_blogs.sql`).
+
+### Brand & Design System
+
+Colors defined in `src/app/globals.css` using OKLCH:
+- **Primary**: Construction orange (`oklch(0.67 0.2 48)`)
+- **Secondary**: Steel blue-black
+- **Brand tokens**: `--brand`, `--brand-dark`, `--brand-light`, `--brand-warm`, `--brand-steel`
+
+Typography: Plus Jakarta Sans (headings) + DM Sans (body). 8px spacing grid. Full dark mode with light/dark/system toggle (`ThemeToggle.tsx`).
+
+Design token reference is documented in the comment block at the top of `globals.css`. Available utility classes: `reveal`, `reveal-left`, `reveal-right`, `reveal-scale`, `stagger-children`, `hover-lift`, `card-hover`, `card-glow`, `btn-shimmer`, `cta-pulse`, `section-divider`, `section-label`, `stat-value`, `gradient-warm`, `gradient-steel`, `skeleton`, `empty-state`, `text-truncate`, `line-clamp`.
+
+### WordPress Custom Post Types
+
+The GraphQL queries expect: `portfolio`, `testimonial`, `service`, `certification` (plus standard pages and posts). Required WP plugins: WPGraphQL, WPGraphQL for ACF, Yoast SEO + WPGraphQL Yoast addon.
 
 ### Path Alias
 `@/*` maps to `./src/*` (configured in `tsconfig.json`)
 
-## Build Plan
+## Important Conventions
 
-A multi-phase content and SEO expansion is planned in `website-build-plan-claude.md` (located at `C:\Users\james\OneDrive\Desktop\Kynex Apps\Apps and Sites\kynexpro-website\website-build-plan-claude.md`):
-1. SEO research & architecture plan (DataForSEO keyword research, competitor analysis)
-2. SEO infrastructure + blog system (`/blog/[slug]`, sitemap, structured data, JSON-LD)
-3. 10 service/location pages with keyword targeting
-4. 100 SEO-optimized blog posts batched by topic cluster
+1. **Commercial construction focus** — all copy, metadata, and service ordering should lead with commercial services, not residential.
+2. **Two Supabase clients** — use `createServerClient()` for Server Components, `createAdminClient()` (service role) only in API routes. Never expose the service role key to the browser.
+3. **Image sources** — configured in `next.config.ts` for `webuildclt.com`, `wp.com`, `gravatar.com`, and `supabase.co`.
+4. **Function timeouts** — most API routes have 10s default; AI generation routes (`/api/admin/blogs/[id]/generate`, `/api/cron/weekly-blog`) have 120s (configured in `vercel.json`).
+5. **Security headers** — `X-DNS-Prefetch-Control`, `X-Content-Type-Options`, `Referrer-Policy` set in `next.config.ts`.
+6. **Static assets** — `/images/*` cached with 1-year immutable headers.
+7. **Admin shell** — admin pages use `AdminShell` component for consistent sidebar layout.
 
 ## Known Placeholder Content
 
-These need real assets before launch:
-- All `/images/*` paths reference placeholder images (hero, about, portfolio, logo, certifications)
-- No `/public/images/` directory with actual images exists yet
-- Contact form email integration is commented out (needs Resend API key or WP Gravity Forms setup)
-- Google verification code in `layout.tsx` metadata is placeholder
+- Many `/images/*` paths reference placeholder images not yet in `/public/images/`
+- Contact form email integration is commented out (needs Resend API key or WP Gravity Forms)
 - Portfolio items on homepage are hardcoded placeholders (not fetched from WordPress)
 
-## Design Loop Log
+## Build Plan
 
-### /design:audit — Phase 1
-- **Files:** globals.css, layout.tsx, Header.tsx, Footer.tsx
-- **What changed:**
-  - Added prefers-reduced-motion, touch-action: manipulation, focus-visible states, text-wrap: balance on headings
-  - Added skip link for keyboard accessibility in layout.tsx
-  - Fixed transition-all → explicit transition properties on header
-  - Added aria-hidden on decorative icons, aria-expanded + keyboard support on services dropdown
-  - Fixed heading hierarchy in footer (h3 → h2)
-  - Reordered services navigation: commercial services listed first
-  - Updated all metadata/descriptions to lead with commercial construction focus
-  - Removed placeholder Google verification code, added theme-color meta
-- **Why:** Foundation compliance with Vercel Web Interface Guidelines — accessibility, performance, and SEO baseline
-- **Commit:** design:audit — fix Web Interface Guidelines violations across foundation files
-
-### /design:polish — Phase 2
-- **Files:** globals.css, layout.tsx
-- **What changed:**
-  - Replaced Geist fonts with Plus Jakarta Sans (headings) + DM Sans (body) for construction brand character
-  - Established 8px spacing grid with CSS custom properties (--space-xs through --space-4xl)
-  - Added shadow depth system (4 levels: sm, md, lg, xl) using OKLCH
-  - Added premium transition easing curves (expo, back)
-  - Set heading typography to font-bold, line-height 1.15, responsive base sizes
-  - Set body line-height 1.7, text-wrap: pretty on paragraphs
-  - Polished image hover with 600ms expo easing
-- **Why:** Construction brand needs authoritative, distinctive typography — not generic tech fonts
-- **Commit:** design:polish — replace Geist with Plus Jakarta Sans/DM Sans, add spacing scale + shadow depth system
-
-### /design:animate — Phase 2
-- **Files:** globals.css, ScrollReveal.tsx (new)
-- **What changed:**
-  - Added CSS scroll-reveal system: reveal, reveal-left, reveal-right, reveal-scale classes
-  - Added stagger-children for sequenced entrance animations (80ms intervals, up to 8 children)
-  - Added micro-interactions: hover-lift (buttons), card-hover (cards), icon-hover-rotate
-  - Added CTA pulse-glow keyframe for primary call-to-action emphasis
-  - Created ScrollReveal component with IntersectionObserver + reduced motion respect
-  - All animations use transform/opacity only (GPU-composited)
-- **Why:** Purposeful motion guides the eye, creates hierarchy, and makes the site feel alive — construction sites are dynamic, the website should be too
-- **Commit:** design:animate — add scroll-reveal system, staggered entrances, micro-interactions
-
-### /design:bolder — Phase 2
-- **Files:** globals.css
-- **What changed:**
-  - Pushed h1 to text-5xl/6xl/7xl with 800 weight and -0.035em letter-spacing
-  - Pushed h2 to lg:text-5xl with 700 weight
-  - Deepened hero gradient with brand-tinted OKLCH dark overlay (blue-black)
-  - Added section-divider (brand accent bar), stat-value, section-label utilities
-  - Pushed foreground to deeper near-black with subtle blue-gray tint
-- **Why:** A construction company needs to look authoritative, not timid — bolder typography and contrast communicates strength
-- **Commit:** design:bolder — larger headings, heavier weights, dramatic hero gradient, bolder contrast
-
-### /design:colorize — Phase 2
-- **Files:** globals.css
-- **What changed:**
-  - Boosted primary orange to richer oklch(0.67 0.2 48) — more saturated construction brand
-  - Deepened secondary to steel blue-black for commercial authority
-  - Added warm amber accent and brand-warm/brand-steel semantic tokens
-  - Added texture-noise SVG overlay, gradient-warm, gradient-steel utilities
-  - Harmonized chart colors to brand palette
-  - All colors in OKLCH for perceptual uniformity
-- **Why:** Construction orange + steel authority = commercial confidence. Generic palette replaced with intentional dominant + accent system
-- **Commit:** design:colorize — richer construction orange, steel blue-black, warm amber system
-
-### /design:quieter — Phase 3
-- **Files:** globals.css
-- **What changed:**
-  - Pulled h1/h2 back to more proportional sizes (6xl max, 4xl max)
-  - Softened muted-foreground for breathing room
-  - Removed texture-noise overlay (visual clutter)
-  - Refined section-divider (48x3px)
-  - Softened card-hover lift (4px → 2px)
-  - Removed icon-hover-rotate (too playful for commercial brand)
-- **Why:** Phase 2 pushed hard — now pulling back to confident restraint. The eye knows exactly where to go.
-- **Commit:** design:quieter — reduce visual noise, tone down bold excesses, improve breathing room
-
-### /design:simplify — Phase 3
-- **Files:** globals.css
-- **What changed:**
-  - Removed 5 unused chart color variables (not referenced in any component)
-  - Reduced radius scale from 7 levels to 4 (sm/md/lg/xl)
-  - Added organizing comments to theme sections
-- **Why:** Fewer tokens = less cognitive overhead. If it's not used, it shouldn't exist
-- **Commit:** design:simplify — remove unused chart colors, reduce radius scale, clean theme mapping
-
-### /design:clarify — Phase 3
-- **Files:** page.tsx, globals.css
-- **What changed:**
-  - Hero h1: "Construction Company" → "Commercial Construction Charlotte, NC"
-  - Hero description shortened to lead with commercial, less word count
-  - "Learn More" → specific "View {service}" per Web Interface Guidelines
-  - Added aria-hidden to decorative icons
-  - About section copy updated to "Commercial Construction Excellence"
-  - Used section-label utility class for consistent labeling
-- **Why:** Every word and label must earn its place — vague copy loses both users and search engines
-- **Commit:** design:clarify — sharpen copy for commercial focus, fix vague labels, add aria-hidden
-
-### /design:darken — Phase 4
-- **Files:** globals.css
-- **What changed:**
-  - Deep steel-tinted dark theme with layered surface elevation
-  - Orange primary brightened for dramatic glow against dark backgrounds
-  - Dark mode shadows use heavier opacity for depth
-  - Added card-glow utility for subtle orange border glow
-- **Why:** Dark mode should feel premium, not just inverted — deep blacks with glowing accents
-- **Commit:** design:darken — deep steel-tinted dark theme with layered surfaces and orange glow
-
-### /design:audit-dark — Phase 4
-- **Files:** globals.css, Header.tsx
-- **What changed:**
-  - Increased dark mode border/input visibility (8%→12%, 12%→18%)
-  - Added dark gradient-warm and gradient-steel overrides
-  - Fixed header scrolled background for dark mode
-- **Why:** Dark mode audit caught subtle visibility issues on borders and gradients
-- **Commit:** design:audit-dark — fix dark mode border visibility, gradient overrides, header bg
-
-### /design:theme-toggle — Phase 4
-- **Files:** ThemeToggle.tsx (new), Header.tsx, layout.tsx
-- **What changed:**
-  - Created ThemeToggle component with light/dark/system 3-state cycle
-  - FART prevention script in layout head
-  - Toggle integrated into desktop header and mobile menu
-  - localStorage persistence + system preference listener
-- **Why:** Both themes are polished — users should be able to choose
-- **Commit:** design:theme-toggle — add light/dark/system toggle with FART prevention
-
-### /design:delight — Phase 5
-- **Files:** globals.css, ScrollProgress.tsx (new), layout.tsx
-- **What changed:**
-  - Added scroll progress bar (brand-colored, top of page)
-  - Added btn-shimmer CTA animation
-  - Added parallax-slow utility
-  - ScrollProgress component integrated into site layout
-- **Why:** The scroll progress bar is the thing users notice — subtle but satisfying
-- **Commit:** design:delight — add scroll progress bar, CTA shimmer effect, parallax utility
-
-### /design:harden — Phase 5
-- **Files:** globals.css
-- **What changed:**
-  - Added text-truncate, line-clamp, overflow-safe, flex-truncate
-  - Added skeleton loading animation, empty-state, prose-width, img-fallback
-- **Why:** Real content breaks generic layouts — these utilities prevent it
-- **Commit:** design:harden — add overflow handling, skeleton loaders, empty states
-
-### /design:normalize — Phase 5
-- **Files:** globals.css
-- **What changed:**
-  - Unified all foreground tokens to consistent steel-tinted black
-  - Unified sidebar ring to match brand primary
-- **Why:** Consistency — every "foreground" value traces to one color
-- **Commit:** design:normalize — unify foreground color values, consistent ring/accent tokens
-
-### /design:optimize — Phase 6
-- **Files:** globals.css
-- **What changed:**
-  - Added content-visibility: auto for below-fold lazy rendering
-  - Added will-change: width to scroll progress
-  - Verified all animations use transform/opacity (GPU composited)
-- **Commit:** design:optimize — add content-visibility lazy, will-change hints
-
-### /design:adapt — Phase 6
-- **Files:** globals.css
-- **What changed:**
-  - Fluid typography with clamp() for h1/h2/h3
-  - Portfolio grid with min() for mobile-safe columns
-  - 44x44px touch targets on coarse pointer devices
-  - Ultra-wide container constraint at 2560px
-- **Commit:** design:adapt — fluid typography with clamp(), touch targets, responsive grid
-
-### /design:onboard — Phase 7
-- **Files:** page.tsx
-- **What changed:**
-  - Added btn-shimmer and cta-pulse to hero CTA for maximum visibility
-  - Added mobile-only "Call Now" button for phone users
-- **Commit:** design:onboard — add shimmer/pulse to hero CTA, mobile call button
-
-### /design:extract — Phase 7
-- **Files:** globals.css
-- **What changed:**
-  - Added comprehensive design token reference comment block at top of stylesheet
-  - Documents all colors, typography, spacing, shadows, radii, easing, and utility classes
-- **Commit:** design:extract — add design token reference block at top of stylesheet
-
-### /design:critique — Phase 8
-- **Files:** page.tsx, Header.tsx
-- **What changed:**
-  - Fixed h1 hardcoded Tailwind classes conflicting with clamp()
-  - Animated dropdown with CSS opacity/transform transition
-  - Broke visual monotony with gradient-warm on services section
-- **Commit:** design:critique — fix h1 class conflict, animate dropdown, break visual monotony
-
-### /design:teach-impeccable — Phase 8
-- **Files:** globals.css
-- **What changed:**
-  - Added design philosophy, 5 core principles, study guide
-  - Documents what "impeccable" means for this commercial construction UI
-- **Commit:** design:teach-impeccable — add design philosophy, 5 principles, study guide
-
----
-## DESIGN LOOP COMPLETE
----
-File: globals.css + site-wide foundation
-Date: 2026-03-21
-Phases completed: 8 / 8
-Skills applied: 20 / 20
-Total commits: 22
-Git tag: design-loop-complete
-
-| # | Skill | Key Change | Commit |
-|---|-------|------------|--------|
-| 1  | /design:audit | Fix 15+ Web Interface Guidelines violations | design:audit |
-| 2  | /design:polish | Plus Jakarta Sans + DM Sans, 8px grid, shadow system | design:polish |
-| 3  | /design:animate | Scroll reveals, stagger, micro-interactions | design:animate |
-| 4  | /design:bolder | 800 weight headings, dramatic hero gradient | design:bolder |
-| 5  | /design:colorize | Construction orange, steel blue-black, OKLCH system | design:colorize |
-| 6  | /design:quieter | Balanced boldness, removed decorative clutter | design:quieter |
-| 7  | /design:simplify | Removed unused chart colors, reduced radius scale | design:simplify |
-| 8  | /design:clarify | Commercial-first copy, specific labels, aria-hidden | design:clarify |
-| 9  | /design:darken | Steel-tinted dark theme with layered elevation | design:darken |
-| 10 | /design:audit-dark | Fixed border visibility, gradient overrides | design:audit-dark |
-| 11 | /design:theme-toggle | Light/dark/system toggle with FART prevention | design:theme-toggle |
-| 12 | /design:delight | Scroll progress bar, CTA shimmer, parallax | design:delight |
-| 13 | /design:harden | Overflow handling, skeleton loading, empty states | design:harden |
-| 14 | /design:normalize | Unified all foreground tokens | design:normalize |
-| 15 | /design:optimize | content-visibility lazy, will-change hints | design:optimize |
-| 16 | /design:adapt | Fluid clamp() typography, 44px touch targets | design:adapt |
-| 17 | /design:onboard | Shimmer/pulse hero CTA, mobile call button | design:onboard |
-| 18 | /design:extract | Design token reference documentation | design:extract |
-| 19 | /design:critique | Fixed h1 conflict, animated dropdown, visual variety | design:critique |
-| 20 | /design:teach-impeccable | Design philosophy + 5 principles + study guide | design:teach-impeccable |
-
-Final audit status: PASS — build clean, 0 errors
+A multi-phase SEO/content expansion is planned:
+1. SEO research & architecture (DataForSEO keyword research, competitor analysis)
+2. SEO infrastructure + blog system (sitemap, structured data, JSON-LD)
+3. Service/location pages with keyword targeting
+4. SEO-optimized blog posts batched by topic cluster

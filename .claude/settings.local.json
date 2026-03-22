@@ -27,7 +27,19 @@
       "Bash(npm uninstall:*)",
       "Bash(du:*)",
       "Bash(code:*)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(node -e \":*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/james/OneDrive/Desktop/Kynex Apps/Websites-Clients/WeBuildCLT/webuildclt-next/**)",
+      "Bash(find 'C:\\\\Users\\\\james\\\\OneDrive\\\\Desktop\\\\Kynex Apps\\\\Websites-Clients\\\\WeBuildCLT\\\\webuildclt-next' -name *schema* -o -name *migration* -o -name *db*)",
+      "Bash(grep -E \"\\\\.\\(ts|sql\\)$\")",
+      "Bash(mkdir -p \"C:/Users/james/OneDrive/Desktop/Kynex Apps/Websites-Clients/WeBuildCLT/webuildclt-next/src/app/api/admin/blogs/[id]/generate\")",
+      "Bash(mkdir -p \"C:/Users/james/OneDrive/Desktop/Kynex Apps/Websites-Clients/WeBuildCLT/webuildclt-next/src/app/api/admin/blogs/[id]/publish\")",
+      "Bash(taskkill //F //IM node.exe)",
+      "mcp__supabase__list_tables",
+      "mcp__supabase__list_projects",
+      "Bash(tasklist)",
+      "Bash(npx --yes kill-port 3000)"
     ]
   }
 }
