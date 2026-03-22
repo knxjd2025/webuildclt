@@ -12,6 +12,7 @@ import {
   SheetClose,
 } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 const serviceLinks = [
   { name: 'Commercial Construction', href: '/services/commercial-construction' },
@@ -167,7 +168,7 @@ export function Header() {
           </div>
 
           {/* CTA Button - Desktop */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-3">
             <a
               href="tel:7045748124"
               className={cn(
@@ -175,9 +176,10 @@ export function Header() {
                 isScrolled ? 'text-foreground' : 'text-white'
               )}
             >
-              <Phone className="h-4 w-4" />
+              <Phone className="h-4 w-4" aria-hidden="true" />
               (704) 574-8124
             </a>
+            <ThemeToggle />
             <Button asChild>
               <Link href="/contact">Get a Quote</Link>
             </Button>
@@ -313,9 +315,13 @@ export function Header() {
                     href="tel:7045748124"
                     className="flex items-center gap-2 text-foreground"
                   >
-                    <Phone className="h-5 w-5" />
+                    <Phone className="h-5 w-5" aria-hidden="true" />
                     (704) 574-8124
                   </a>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-muted-foreground">Theme</span>
+                    <ThemeToggle />
+                  </div>
                   <Button asChild className="w-full">
                     <Link href="/contact">Get a Quote</Link>
                   </Button>
