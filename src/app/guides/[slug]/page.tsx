@@ -7,8 +7,12 @@ import { JsonLd } from '@/components/JsonLd';
 import { articleSchema, faqSchema } from '@/lib/structured-data';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Clock, ArrowLeft, Phone } from 'lucide-react';
+import { Clock, ArrowLeft, Phone, BookOpen } from 'lucide-react';
 import { getGuideBySlug, getAllGuideSlugs } from '@/data/guides';
+import { GuideContent } from '@/components/GuideContent';
+import { FaqAccordion } from '@/components/FaqAccordion';
+import { ReadingProgress } from '@/components/ReadingProgress';
+import { ScrollReveal } from '@/components/ScrollReveal';
 
 type Params = Promise<{ slug: string }>;
 
@@ -62,8 +66,10 @@ export default async function GuidePage({
         ]}
       />
 
-      {/* Header */}
-      <section className="pt-32 pb-12 bg-muted">
+      <ReadingProgress targetId="guide-article" />
+
+      {/* Hero Header */}
+      <section className="pt-32 pb-16 bg-gradient-to-b from-muted to-background">
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
@@ -72,51 +78,52 @@ export default async function GuidePage({
             ]}
           />
           <div className="max-w-3xl mt-6">
-            <Badge variant="secondary" className="mb-4">
-              {guide.category}
-            </Badge>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
+                <BookOpen className="h-5 w-5 text-primary" aria-hidden="true" />
+              </div>
+              <Badge variant="secondary">{guide.category}</Badge>
+            </div>
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
               {guide.title}
             </h1>
-            <p className="text-lg text-muted-foreground mb-4">
+            <p className="text-lg text-muted-foreground mb-6">
               {guide.excerpt}
             </p>
             <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
-              <span className="flex items-center gap-1">
+              <span className="flex items-center gap-1.5 bg-muted px-3 py-1.5 rounded-full">
                 <Clock className="h-4 w-4" aria-hidden="true" />
                 {guide.readTime}
               </span>
-              <span>{guide.tableOfContents.length} sections</span>
-              <span>By We Build Team</span>
+              <span className="bg-muted px-3 py-1.5 rounded-full">
+                {guide.tableOfContents.length} sections
+              </span>
+              <span className="bg-muted px-3 py-1.5 rounded-full">
+                By We Build Team
+              </span>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="py-12 bg-background">
+      <section className="py-12 bg-background" id="guide-article">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-[1fr_280px] gap-12">
-            {/* Guide Content */}
+            {/* Guide Content with enrichment + animations */}
             <article className="max-w-none">
-              <div
-                className="article-prose"
-                dangerouslySetInnerHTML={{ __html: guide.content }}
-              />
+              <GuideContent html={guide.content} />
 
               {/* FAQ Section */}
-              <div className="mt-16">
-                <h2 className="text-2xl font-bold mb-8">
-                  Frequently Asked Questions
-                </h2>
-                <div>
-                  {guide.faqs.map((faq) => (
-                    <div key={faq.question} className="faq-item">
-                      <h3>{faq.question}</h3>
-                      <p>{faq.answer}</p>
-                    </div>
-                  ))}
+              <ScrollReveal className="reveal mt-16">
+                <div className="flex items-center gap-3 mb-8">
+                  <div className="h-px flex-1 bg-border" />
+                  <h2 className="text-2xl font-bold whitespace-nowrap">
+                    Frequently Asked Questions
+                  </h2>
+                  <div className="h-px flex-1 bg-border" />
                 </div>
-              </div>
+                <FaqAccordion faqs={guide.faqs} />
+              </ScrollReveal>
 
               {/* Share & Nav */}
               <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
@@ -132,10 +139,13 @@ export default async function GuidePage({
 
             {/* Sidebar */}
             <aside>
-              {/* Table of Contents */}
               <div className="toc-sidebar space-y-8">
+                {/* Table of Contents */}
                 <div className="bg-muted rounded-lg p-6">
-                  <h3 className="font-semibold mb-4">In This Guide</h3>
+                  <h3 className="font-semibold mb-4 flex items-center gap-2">
+                    <BookOpen className="h-4 w-4 text-primary" aria-hidden="true" />
+                    In This Guide
+                  </h3>
                   <nav aria-label="Table of contents">
                     <ol className="space-y-1">
                       {guide.tableOfContents.map((item) => (
