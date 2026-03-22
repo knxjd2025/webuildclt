@@ -112,36 +112,57 @@
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.75 0.18 50);
-  --primary-foreground: oklch(0.145 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.75 0.18 50);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.75 0.18 50);
-  --sidebar-primary-foreground: oklch(0.145 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  /* Deep steel-tinted blacks — not pure black, layered depth */
+  --background: oklch(0.1 0.015 240);
+  --foreground: oklch(0.95 0.005 60);
 
-  --brand: oklch(0.75 0.18 50);
-  --brand-dark: oklch(0.35 0.02 240);
-  --brand-light: oklch(0.95 0.05 50);
+  /* Card surfaces — elevated from background */
+  --card: oklch(0.15 0.015 240);
+  --card-foreground: oklch(0.95 0.005 60);
+  --popover: oklch(0.15 0.015 240);
+  --popover-foreground: oklch(0.95 0.005 60);
+
+  /* Orange glows brighter in the dark — more impact */
+  --primary: oklch(0.72 0.2 48);
+  --primary-foreground: oklch(0.1 0.015 240);
+
+  /* Elevated dark surface for secondary sections */
+  --secondary: oklch(0.18 0.015 240);
+  --secondary-foreground: oklch(0.92 0.005 60);
+
+  /* Subtle layered muted surfaces */
+  --muted: oklch(0.18 0.01 240);
+  --muted-foreground: oklch(0.65 0.01 240);
+
+  /* Warm accent in dark — subtle glow */
+  --accent: oklch(0.22 0.02 50);
+  --accent-foreground: oklch(0.92 0.01 60);
+
+  --destructive: oklch(0.65 0.22 25);
+  --border: oklch(1 0 0 / 8%);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.72 0.2 48);
+
+  --sidebar: oklch(0.12 0.015 240);
+  --sidebar-foreground: oklch(0.92 0.005 60);
+  --sidebar-primary: oklch(0.72 0.2 48);
+  --sidebar-primary-foreground: oklch(0.1 0.015 240);
+  --sidebar-accent: oklch(0.2 0.015 240);
+  --sidebar-accent-foreground: oklch(0.92 0.005 60);
+  --sidebar-border: oklch(1 0 0 / 8%);
+  --sidebar-ring: oklch(0.5 0 0);
+
+  --brand: oklch(0.72 0.2 48);
+  --brand-dark: oklch(0.12 0.015 240);
+  --brand-light: oklch(0.88 0.08 50);
+  --brand-steel: oklch(0.25 0.03 230);
+  --brand-warm: oklch(0.2 0.02 50);
+
+  /* Dark mode shadows — subtle glow instead of dark shadow */
+  --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.3);
+  --shadow-md: 0 4px 6px -1px oklch(0 0 0 / 0.4), 0 2px 4px -2px oklch(0 0 0 / 0.3);
+  --shadow-lg: 0 10px 15px -3px oklch(0 0 0 / 0.4), 0 4px 6px -4px oklch(0 0 0 / 0.2);
+  --shadow-xl: 0 20px 25px -5px oklch(0 0 0 / 0.5), 0 8px 10px -6px oklch(0 0 0 / 0.3);
 }
 
 @layer base {
@@ -248,6 +269,14 @@ html {
     oklch(0.97 0.015 50) 50%,
     oklch(0.96 0.01 70) 100%
   );
+}
+
+/* Dark mode elevated surface — subtle orange glow */
+.dark .card-glow {
+  box-shadow: 0 0 0 1px oklch(0.72 0.2 48 / 0.08), 0 4px 12px oklch(0 0 0 / 0.3);
+}
+.dark .card-glow:hover {
+  box-shadow: 0 0 0 1px oklch(0.72 0.2 48 / 0.15), 0 8px 24px oklch(0 0 0 / 0.4);
 }
 
 /* Steel gradient for authority sections */
