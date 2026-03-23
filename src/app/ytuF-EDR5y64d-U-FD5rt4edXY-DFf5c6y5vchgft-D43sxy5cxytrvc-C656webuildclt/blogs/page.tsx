@@ -10,7 +10,7 @@ import { Plus, Pencil, Trash2 } from 'lucide-react';
 import type { Blog } from '@/components/admin/BlogEditor';
 
 const STATUS_COLORS: Record<string, string> = {
-  draft: 'bg-gray-100 text-gray-700',
+  draft: 'bg-muted text-foreground',
   generating: 'bg-yellow-100 text-yellow-800',
   review: 'bg-blue-100 text-blue-800',
   published: 'bg-green-100 text-green-800',
@@ -18,7 +18,7 @@ const STATUS_COLORS: Record<string, string> = {
 
 function StatusBadge({ status }: { status: string }) {
   return (
-    <Badge className={STATUS_COLORS[status] ?? 'bg-gray-100 text-gray-700'}>
+    <Badge className={STATUS_COLORS[status] ?? 'bg-muted text-foreground'}>
       {status}
     </Badge>
   );
@@ -63,8 +63,8 @@ export default function BlogsPage() {
     <AdminShell>
       <div className="flex items-center justify-between mb-8">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">Blog Management</h1>
-          <p className="text-gray-500 mt-1">
+          <h1 className="text-2xl font-bold text-foreground">Blog Management</h1>
+          <p className="text-muted-foreground mt-1">
             Create, edit, and manage blog posts
           </p>
         </div>
@@ -92,11 +92,11 @@ export default function BlogsPage() {
       </div>
 
       {loading ? (
-        <div className="text-center py-12 text-gray-500">Loading...</div>
+        <div className="text-center py-12 text-muted-foreground">Loading...</div>
       ) : filtered.length === 0 ? (
         <Card>
           <CardContent className="text-center py-12">
-            <p className="text-gray-500 mb-4">
+            <p className="text-muted-foreground mb-4">
               {statusFilter === 'all'
                 ? 'No blog posts yet'
                 : `No ${statusFilter} blog posts`}
@@ -109,34 +109,34 @@ export default function BlogsPage() {
       ) : (
         <div className="bg-white rounded-lg shadow overflow-hidden">
           <table className="w-full">
-            <thead className="bg-gray-50 border-b">
+            <thead className="bg-muted border-b">
               <tr>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Title
                 </th>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Category
                 </th>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Status
                 </th>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Word Count
                 </th>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Date
                 </th>
-                <th className="text-right px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-right px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Actions
                 </th>
               </tr>
             </thead>
             <tbody className="divide-y">
               {filtered.map((blog) => (
-                <tr key={blog.id} className="hover:bg-gray-50">
+                <tr key={blog.id} className="hover:bg-muted">
                   <td className="px-6 py-4">
                     <div className="flex items-center gap-2">
-                      <span className="font-medium text-gray-900">
+                      <span className="font-medium text-foreground">
                         {blog.title || 'Untitled'}
                       </span>
                       {blog.is_auto_generated && (
@@ -157,10 +157,10 @@ export default function BlogsPage() {
                   <td className="px-6 py-4">
                     <StatusBadge status={blog.status} />
                   </td>
-                  <td className="px-6 py-4 text-sm text-gray-500">
+                  <td className="px-6 py-4 text-sm text-muted-foreground">
                     {(blog.word_count ?? 0).toLocaleString()}
                   </td>
-                  <td className="px-6 py-4 text-sm text-gray-500">
+                  <td className="px-6 py-4 text-sm text-muted-foreground">
                     {blog.created_at
                       ? new Date(blog.created_at).toLocaleDateString()
                       : '—'}

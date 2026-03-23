@@ -60,7 +60,7 @@ export function PortfolioGrid({ projects }: { projects: Project[] }) {
                   className="object-cover"
                 />
               ) : (
-                <div className="w-full h-full bg-gray-200 flex items-center justify-center text-gray-400">
+                <div className="w-full h-full bg-muted flex items-center justify-center text-muted-foreground/70">
                   No image
                 </div>
               )}

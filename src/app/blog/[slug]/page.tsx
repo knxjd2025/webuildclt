@@ -143,7 +143,7 @@ export default async function BlogPostPage({
               priority
             />
           ) : (
-            <div className="w-full h-full bg-gray-800" />
+            <div className="w-full h-full bg-secondary" />
           )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20" />
         </div>

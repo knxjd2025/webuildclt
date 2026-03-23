@@ -6,6 +6,12 @@ import { Button } from '@/components/ui/button';
 
 type Theme = 'light' | 'dark' | 'system';
 
+/** Theme-color values derived from the design system (secondary bg tones) */
+const THEME_META_COLORS = {
+  light: '#1a1a2e', // oklch(0.12 0.015 240) — secondary
+  dark: '#0f1420',  // oklch(0.10 0.015 240) — dark secondary
+} as const;
+
 function getSystemTheme(): 'light' | 'dark' {
   if (typeof window === 'undefined') return 'light';
   return window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -28,7 +34,7 @@ function applyTheme(theme: Theme) {
   if (meta) {
     meta.setAttribute(
       'content',
-      resolved === 'dark' ? '#0f1420' : '#1a1a2e'
+      THEME_META_COLORS[resolved]
     );
   }
 }

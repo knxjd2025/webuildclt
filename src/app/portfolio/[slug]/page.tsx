@@ -13,6 +13,7 @@ import {
   breadcrumbSchema,
 } from '@/lib/structured-data';
 import type { Project } from '@/types/project';
+import { hardcodedProjects } from '@/data/portfolio-projects';
 
 // Use anon key for public reads (RLS allows reading published projects)
 function getPublicClient() {
@@ -23,15 +24,23 @@ function getPublicClient() {
 }
 
 async function getProject(slug: string): Promise<Project | null> {
-  const supabase = getPublicClient();
-  const { data } = await supabase
-    .from('projects')
-    .select('*')
-    .eq('slug', slug)
-    .eq('status', 'published')
-    .single();
+  // Try Supabase first (admin-created projects)
+  try {
+    const supabase = getPublicClient();
+    const { data } = await supabase
+      .from('projects')
+      .select('*')
+      .eq('slug', slug)
+      .eq('status', 'published')
+      .single();
 
-  return data;
+    if (data) return data;
+  } catch {
+    // Supabase unavailable or project not found — fall through to hardcoded
+  }
+
+  // Fall back to hardcoded portfolio projects
+  return hardcodedProjects.find((p) => p.slug === slug) ?? null;
 }
 
 type PageProps = { params: Promise<{ slug: string }> };

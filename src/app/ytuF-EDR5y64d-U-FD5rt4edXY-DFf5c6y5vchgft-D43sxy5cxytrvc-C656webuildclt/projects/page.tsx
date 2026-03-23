@@ -39,8 +39,8 @@ export default function ProjectsPage() {
     <AdminShell>
       <div className="flex items-center justify-between mb-8">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">Projects</h1>
-          <p className="text-gray-500 mt-1">
+          <h1 className="text-2xl font-bold text-foreground">Projects</h1>
+          <p className="text-muted-foreground mt-1">
             Manage your portfolio projects
           </p>
         </div>
@@ -53,11 +53,11 @@ export default function ProjectsPage() {
       </div>
 
       {loading ? (
-        <div className="text-center py-12 text-gray-500">Loading...</div>
+        <div className="text-center py-12 text-muted-foreground">Loading...</div>
       ) : projects.length === 0 ? (
         <Card>
           <CardContent className="text-center py-12">
-            <p className="text-gray-500 mb-4">No projects yet</p>
+            <p className="text-muted-foreground mb-4">No projects yet</p>
             <Button asChild>
               <Link href="/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/projects/new">Create your first project</Link>
             </Button>
@@ -66,31 +66,31 @@ export default function ProjectsPage() {
       ) : (
         <div className="bg-white rounded-lg shadow overflow-hidden">
           <table className="w-full">
-            <thead className="bg-gray-50 border-b">
+            <thead className="bg-muted border-b">
               <tr>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Project
                 </th>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Category
                 </th>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Location
                 </th>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Status
                 </th>
-                <th className="text-left px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-left px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   AI Content
                 </th>
-                <th className="text-right px-6 py-3 text-xs font-medium text-gray-500 uppercase">
+                <th className="text-right px-6 py-3 text-xs font-medium text-muted-foreground uppercase">
                   Actions
                 </th>
               </tr>
             </thead>
             <tbody className="divide-y">
               {projects.map((project) => (
-                <tr key={project.id} className="hover:bg-gray-50">
+                <tr key={project.id} className="hover:bg-muted">
                   <td className="px-6 py-4">
                     <div className="flex items-center gap-3">
                       {project.featured_image ? (
@@ -102,11 +102,11 @@ export default function ProjectsPage() {
                           className="rounded object-cover"
                         />
                       ) : (
-                        <div className="w-12 h-9 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-400">
+                        <div className="w-12 h-9 bg-muted rounded flex items-center justify-center text-xs text-muted-foreground/70">
                           No img
                         </div>
                       )}
-                      <span className="font-medium text-gray-900">
+                      <span className="font-medium text-foreground">
                         {project.title}
                       </span>
                     </div>
@@ -116,7 +116,7 @@ export default function ProjectsPage() {
                       {project.category}
                     </Badge>
                   </td>
-                  <td className="px-6 py-4 text-sm text-gray-500">
+                  <td className="px-6 py-4 text-sm text-muted-foreground">
                     {project.neighborhood || project.city}, {project.state}
                   </td>
                   <td className="px-6 py-4">
@@ -130,7 +130,7 @@ export default function ProjectsPage() {
                     {project.ai_content ? (
                       <span className="text-green-600 text-sm">Generated</span>
                     ) : (
-                      <span className="text-gray-400 text-sm">Not yet</span>
+                      <span className="text-muted-foreground/70 text-sm">Not yet</span>
                     )}
                   </td>
                   <td className="px-6 py-4">

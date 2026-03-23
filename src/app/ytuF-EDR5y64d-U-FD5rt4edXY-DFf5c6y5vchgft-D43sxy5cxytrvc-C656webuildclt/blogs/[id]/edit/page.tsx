@@ -130,7 +130,7 @@ export default function EditBlogPage() {
   if (loading) {
     return (
       <AdminShell>
-        <div className="text-center py-12 text-gray-500">Loading...</div>
+        <div className="text-center py-12 text-muted-foreground">Loading...</div>
       </AdminShell>
     );
   }
@@ -146,8 +146,8 @@ export default function EditBlogPage() {
   return (
     <AdminShell>
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-gray-900">Edit Blog Post</h1>
-        <p className="text-gray-500 mt-1">
+        <h1 className="text-2xl font-bold text-foreground">Edit Blog Post</h1>
+        <p className="text-muted-foreground mt-1">
           {isGenerating
             ? 'AI is generating your blog — this takes about 60 seconds...'
             : 'Update your blog post content and settings'}

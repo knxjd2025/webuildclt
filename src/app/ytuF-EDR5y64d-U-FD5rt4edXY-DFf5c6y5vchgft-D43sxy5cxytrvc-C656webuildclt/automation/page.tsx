@@ -99,7 +99,7 @@ export default function AutomationPage() {
   if (loading) {
     return (
       <AdminShell>
-        <div className="text-center py-12 text-gray-500">Loading...</div>
+        <div className="text-center py-12 text-muted-foreground">Loading...</div>
       </AdminShell>
     );
   }
@@ -107,8 +107,8 @@ export default function AutomationPage() {
   return (
     <AdminShell>
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-gray-900">Blog Automation</h1>
-        <p className="text-gray-500 mt-1">
+        <h1 className="text-2xl font-bold text-foreground">Blog Automation</h1>
+        <p className="text-muted-foreground mt-1">
           Manage automated blog post generation
         </p>
       </div>
@@ -124,25 +124,25 @@ export default function AutomationPage() {
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div>
-              <p className="text-sm text-gray-500 mb-1">Last Run</p>
+              <p className="text-sm text-muted-foreground mb-1">Last Run</p>
               <div className="flex items-center gap-2">
-                <Clock className="h-4 w-4 text-gray-400" />
+                <Clock className="h-4 w-4 text-muted-foreground/70" />
                 <span className="text-sm font-medium">
                   {formatDate(automationStatus.last_run)}
                 </span>
               </div>
             </div>
             <div>
-              <p className="text-sm text-gray-500 mb-1">Next Run</p>
+              <p className="text-sm text-muted-foreground mb-1">Next Run</p>
               <div className="flex items-center gap-2">
-                <Clock className="h-4 w-4 text-gray-400" />
+                <Clock className="h-4 w-4 text-muted-foreground/70" />
                 <span className="text-sm font-medium">
                   {automationStatus.next_run
                     ? formatDate(automationStatus.next_run)
                     : getNextMonday9AM()}
                 </span>
               </div>
-              <p className="text-xs text-gray-400 mt-1">Every Monday at 9:00 AM</p>
+              <p className="text-xs text-muted-foreground/70 mt-1">Every Monday at 9:00 AM</p>
             </div>
             <div className="flex items-end">
               <Button onClick={handleGenerateNow} disabled={generating}>
@@ -165,48 +165,48 @@ export default function AutomationPage() {
         </CardHeader>
         <CardContent>
           {logs.length === 0 ? (
-            <p className="text-center text-gray-500 py-8">
+            <p className="text-center text-muted-foreground py-8">
               No automation activity yet
             </p>
           ) : (
             <div className="overflow-hidden rounded-lg border">
               <table className="w-full">
-                <thead className="bg-gray-50 border-b">
+                <thead className="bg-muted border-b">
                   <tr>
-                    <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase">
+                    <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground uppercase">
                       Type
                     </th>
-                    <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase">
+                    <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground uppercase">
                       Keyword
                     </th>
-                    <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase">
+                    <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground uppercase">
                       Status
                     </th>
-                    <th className="text-left px-4 py-3 text-xs font-medium text-gray-500 uppercase">
+                    <th className="text-left px-4 py-3 text-xs font-medium text-muted-foreground uppercase">
                       Date
                     </th>
                   </tr>
                 </thead>
                 <tbody className="divide-y">
                   {logs.map((entry) => (
-                    <tr key={entry.id} className="hover:bg-gray-50">
-                      <td className="px-4 py-3 text-sm text-gray-900">
+                    <tr key={entry.id} className="hover:bg-muted">
+                      <td className="px-4 py-3 text-sm text-foreground">
                         {entry.type}
                       </td>
-                      <td className="px-4 py-3 text-sm text-gray-600">
+                      <td className="px-4 py-3 text-sm text-muted-foreground">
                         {entry.keyword || '—'}
                       </td>
                       <td className="px-4 py-3">
                         <Badge
                           className={
                             LOG_STATUS_COLORS[entry.status] ??
-                            'bg-gray-100 text-gray-700'
+                            'bg-muted text-foreground'
                           }
                         >
                           {entry.status}
                         </Badge>
                       </td>
-                      <td className="px-4 py-3 text-sm text-gray-500">
+                      <td className="px-4 py-3 text-sm text-muted-foreground">
                         {new Date(entry.created_at).toLocaleString()}
                       </td>
                     </tr>

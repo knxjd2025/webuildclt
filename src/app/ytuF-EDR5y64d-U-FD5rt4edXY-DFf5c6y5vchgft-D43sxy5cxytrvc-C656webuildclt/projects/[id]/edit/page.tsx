@@ -28,7 +28,7 @@ export default function EditProjectPage() {
   return (
     <AdminShell>
       {loading ? (
-        <div className="text-center py-12 text-gray-500">Loading...</div>
+        <div className="text-center py-12 text-muted-foreground">Loading...</div>
       ) : error ? (
         <div className="text-center py-12 text-red-600">{error}</div>
       ) : project ? (

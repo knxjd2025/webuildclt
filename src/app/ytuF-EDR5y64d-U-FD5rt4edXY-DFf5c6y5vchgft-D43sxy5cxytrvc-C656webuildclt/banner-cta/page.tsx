@@ -76,7 +76,7 @@ export default function BannerCTAPage() {
   if (loading) {
     return (
       <AdminShell>
-        <div className="text-center py-12 text-gray-500">Loading...</div>
+        <div className="text-center py-12 text-muted-foreground">Loading...</div>
       </AdminShell>
     );
   }
@@ -84,8 +84,8 @@ export default function BannerCTAPage() {
   return (
     <AdminShell>
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-gray-900">Banner CTA</h1>
-        <p className="text-gray-500 mt-1">
+        <h1 className="text-2xl font-bold text-foreground">Banner CTA</h1>
+        <p className="text-muted-foreground mt-1">
           Show a promotional banner at the top of every page.
         </p>
       </div>
@@ -157,7 +157,7 @@ export default function BannerCTAPage() {
                 aria-checked={settings.enabled}
                 onClick={() => update('enabled', !settings.enabled)}
                 className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
-                  settings.enabled ? 'bg-green-600' : 'bg-gray-300'
+                  settings.enabled ? 'bg-green-600' : 'bg-muted-foreground/30'
                 }`}
               >
                 <span
@@ -253,7 +253,7 @@ export default function BannerCTAPage() {
                 aria-checked={settings.dismissible}
                 onClick={() => update('dismissible', !settings.dismissible)}
                 className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
-                  settings.dismissible ? 'bg-green-600' : 'bg-gray-300'
+                  settings.dismissible ? 'bg-green-600' : 'bg-muted-foreground/30'
                 }`}
               >
                 <span
