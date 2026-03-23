@@ -140,17 +140,20 @@ export function Footer() {
             <Image
               src="/images/certifications/usgbc-member-dark.png"
               alt="USGBC Member"
-              width={60}
-              height={60}
-              className="h-14 w-auto opacity-60 hover:opacity-100 transition-opacity"
+              width={80}
+              height={80}
+              className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity"
             />
-            <Image
-              src="/images/certifications/nclbgc.png"
-              alt="NC Licensing Board"
-              width={60}
-              height={60}
-              className="h-12 w-auto brightness-0 invert opacity-60 hover:opacity-100 transition-opacity"
-            />
+            <div className="flex flex-col items-center gap-1.5">
+              <Image
+                src="/images/certifications/nclbgc.png"
+                alt="NC Licensing Board for General Contractors"
+                width={64}
+                height={64}
+                className="h-14 w-14 object-contain invert opacity-90 hover:opacity-100 transition-opacity"
+              />
+              <span className="text-[10px] text-secondary-foreground/50 uppercase tracking-wider">NC Licensed</span>
+            </div>
             {/* Add more certifications as needed */}
           </div>
         </div>
