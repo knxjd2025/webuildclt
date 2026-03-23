@@ -39,7 +39,7 @@ import {
 export const metadata: Metadata = {
   title: 'We Coat | Commercial Roof Coating Charlotte NC | Save Up to 50%',
   description:
-    'We Coat is We Build\u2019s dedicated commercial roof coating division in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs replacement. IIBEC certified. USGBC member. Free assessments. (704) 574-8124.',
+    'We Coat is We Build\u2019s dedicated commercial roof coating division in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs replacement. IIBEC certified. USGBC member. Free assessments. (562) 708-6616.',
   keywords: [
     'roof coating charlotte nc',
     'commercial roof coating charlotte',
@@ -481,11 +481,11 @@ export default function WeCoatPage() {
                     <Link href="/contact">Schedule Assessment</Link>
                   </Button>
                   <a
-                    href="tel:7045748124"
+                    href="tel:5627086616"
                     className="flex items-center justify-center gap-2 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
                     <Phone className="h-3.5 w-3.5" aria-hidden="true" />
-                    (704) 574-8124
+                    (562) 708-6616
                   </a>
                 </div>
 
@@ -1080,9 +1080,9 @@ export default function WeCoatPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

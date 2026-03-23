@@ -21,7 +21,6 @@ const serviceLinks = [
   { name: 'Roof Coating', href: '/services/roof-coating' },
   { name: 'General Contractor', href: '/services/general-contractor' },
   { name: 'Custom Home Builder', href: '/services/custom-home-builder' },
-  { name: 'Residential Additions', href: '/services/residential-additions' },
 ];
 
 const areaLinks = [
@@ -183,14 +182,14 @@ export function Header() {
           {/* CTA Button - Desktop */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:7045748124"
+              href="tel:5627086616"
               className={cn(
                 'flex items-center gap-2 text-sm font-medium transition-colors',
                 isScrolled ? 'text-foreground' : 'text-white'
               )}
             >
               <Phone className="h-4 w-4" aria-hidden="true" />
-              (704) 574-8124
+              (562) 708-6616
             </a>
             <ThemeToggle />
             <Button asChild>
@@ -325,11 +324,11 @@ export function Header() {
 
                 <div className="flex flex-col gap-4 pt-6 border-t">
                   <a
-                    href="tel:7045748124"
+                    href="tel:5627086616"
                     className="flex items-center gap-2 text-foreground"
                   >
                     <Phone className="h-5 w-5" aria-hidden="true" />
-                    (704) 574-8124
+                    (562) 708-6616
                   </a>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-muted-foreground">Theme</span>

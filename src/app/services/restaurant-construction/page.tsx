@@ -42,7 +42,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Restaurant Construction Charlotte NC | Restaurant Buildout & Commercial Kitchen Contractor',
   description:
-    'Expert restaurant construction contractor in Charlotte, NC. Full-service restaurant buildouts, commercial kitchen construction, bar & brewery builds, food hall construction, and hospitality renovations. Health department compliant. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Expert restaurant construction contractor in Charlotte, NC. Full-service restaurant buildouts, commercial kitchen construction, bar & brewery builds, food hall construction, and hospitality renovations. Health department compliant. Veteran-owned, licensed in NC & SC. Free estimates. (562) 708-6616.',
   keywords: [
     'restaurant construction Charlotte NC',
     'restaurant buildout Charlotte NC',
@@ -796,9 +796,9 @@ export default function RestaurantConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

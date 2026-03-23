@@ -36,9 +36,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Contact We Build | Free Construction Estimates Charlotte NC | (704) 574-8124',
+    'Contact We Build | Free Construction Estimates Charlotte NC | (562) 708-6616',
   description:
-    'Contact We Build for free construction estimates in Charlotte NC. Commercial construction, residential additions, roof coating, design-build. Veteran-owned, licensed NC & SC. Call (704) 574-8124 or visit our South Charlotte office.',
+    'Contact We Build for free construction estimates in Charlotte NC. Commercial construction, residential additions, roof coating, design-build. Veteran-owned, licensed NC & SC. Call (562) 708-6616 or visit our South Charlotte office.',
   keywords: [
     'contact we build charlotte nc',
     'free construction estimate charlotte',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact We Build | Free Construction Estimates Charlotte NC',
     description:
-      'Get a free construction estimate from We Build in Charlotte NC. Veteran and family-owned. Licensed in NC & SC. 60+ years combined experience. Call (704) 574-8124.',
+      'Get a free construction estimate from We Build in Charlotte NC. Veteran and family-owned. Licensed in NC & SC. 60+ years combined experience. Call (562) 708-6616.',
     url: 'https://webuildclt.com/contact',
     type: 'website',
   },
@@ -72,7 +72,7 @@ const faqs = [
     question:
       'How quickly does We Build respond to estimate requests?',
     answer:
-      'We respond to all estimate requests within one business day. When you submit a contact form, call us at (704) 574-8124, or email designcenter@webuildclt.com, a member of our team will reach out within 24 hours during normal business hours (Monday through Friday, 8:00 AM to 5:00 PM). For urgent construction needs or emergency repairs, we do our best to respond the same day. Initial phone consultations typically last 15 to 20 minutes, and we can usually schedule an on-site visit within the same week depending on availability.',
+      'We respond to all estimate requests within one business day. When you submit a contact form, call us at (562) 708-6616, or email designcenter@webuildclt.com, a member of our team will reach out within 24 hours during normal business hours (Monday through Friday, 8:00 AM to 5:00 PM). For urgent construction needs or emergency repairs, we do our best to respond the same day. Initial phone consultations typically last 15 to 20 minutes, and we can usually schedule an on-site visit within the same week depending on availability.',
   },
   {
     question:
@@ -114,7 +114,7 @@ const faqs = [
     question:
       'Can We Build handle emergency or urgent construction projects?',
     answer:
-      'We Build does accommodate urgent and time-sensitive construction projects when possible. If you have storm damage, a structural issue, a commercial tenant improvement with a tight lease deadline, or any other time-critical situation, call us directly at (704) 574-8124 and let us know the urgency. We will do our best to schedule an emergency site visit within 24 to 48 hours and can often mobilize crews quickly for critical repairs. For commercial clients with active business operations, we also offer after-hours and weekend work to minimize disruption to your business.',
+      'We Build does accommodate urgent and time-sensitive construction projects when possible. If you have storm damage, a structural issue, a commercial tenant improvement with a tight lease deadline, or any other time-critical situation, call us directly at (562) 708-6616 and let us know the urgency. We will do our best to schedule an emergency site visit within 24 to 48 hours and can often mobilize crews quickly for critical repairs. For commercial clients with active business operations, we also offer after-hours and weekend work to minimize disruption to your business.',
   },
   {
     question:
@@ -134,8 +134,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Call Us',
-    content: '(704) 574-8124',
-    href: 'tel:7045748124',
+    content: '(562) 708-6616',
+    href: 'tel:5627086616',
   },
   {
     icon: Mail,
@@ -361,7 +361,7 @@ export default function ContactPage() {
 
       <PageHero
         title="Contact We Build | Free Construction Estimates Charlotte NC"
-        subtitle="Veteran and family-owned construction company serving Charlotte, South Charlotte, Fort Mill, and Lake Norman. Call (704) 574-8124 or fill out our contact form for a free, no-obligation estimate on your commercial or residential construction project."
+        subtitle="Veteran and family-owned construction company serving Charlotte, South Charlotte, Fort Mill, and Lake Norman. Call (562) 708-6616 or fill out our contact form for a free, no-obligation estimate on your commercial or residential construction project."
         backgroundImage="/images/contact-hero.jpg"
       />
 
@@ -579,9 +579,9 @@ export default function ContactPage() {
 
             <div className="text-center mt-10">
               <Button size="lg" asChild>
-                <a href="tel:7045748124">
+                <a href="tel:5627086616">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                  Call (704) 574-8124 for a Free Estimate
+                  Call (562) 708-6616 for a Free Estimate
                 </a>
               </Button>
             </div>
@@ -843,10 +843,10 @@ export default function ContactPage() {
                     For urgent construction issues such as storm damage, structural concerns, or
                     active water intrusion, call us directly at{' '}
                     <a
-                      href="tel:7045748124"
+                      href="tel:5627086616"
                       className="text-primary hover:underline font-medium"
                     >
-                      (704) 574-8124
+                      (562) 708-6616
                     </a>{' '}
                     and leave a detailed message if you reach voicemail. We monitor messages
                     outside of business hours and prioritize emergency situations. For existing
@@ -1081,9 +1081,9 @@ export default function ContactPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="default" className="btn-shimmer" asChild>
-                <a href="tel:7045748124">
+                <a href="tel:5627086616">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                  Call (704) 574-8124
+                  Call (562) 708-6616
                 </a>
               </Button>
               <Button

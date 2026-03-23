@@ -38,7 +38,7 @@ import {
 export const metadata: Metadata = {
   title: 'Design-Build Contractor Charlotte NC | Single-Source Design & Construction',
   description:
-    'Design-build contractor in Charlotte, NC. One team handles design and construction — faster timelines, lower costs, single point of accountability. Visit our Design Center. Licensed in NC & SC. (704) 574-8124.',
+    'Design-build contractor in Charlotte, NC. One team handles design and construction — faster timelines, lower costs, single point of accountability. Visit our Design Center. Licensed in NC & SC. (562) 708-6616.',
   keywords: [
     'design build charlotte nc',
     'design build contractor charlotte',
@@ -227,7 +227,7 @@ const faqs = [
   },
   {
     question: 'Do you have a design center or showroom in Charlotte?',
-    answer: 'Yes. Our WeBuild Design Center is located at our South Charlotte office at 14330 S Lakes Drive, Charlotte NC 28273. The Design Center features a curated selection of materials, finishes, fixtures, and samples that you can browse, touch, and compare in person. Our design team guides you through the selection process while our construction managers provide input on cost, durability, and installation. Visits are by appointment — contact us at (704) 574-8124 to schedule.',
+    answer: 'Yes. Our WeBuild Design Center is located at our South Charlotte office at 14330 S Lakes Drive, Charlotte NC 28273. The Design Center features a curated selection of materials, finishes, fixtures, and samples that you can browse, touch, and compare in person. Our design team guides you through the selection process while our construction managers provide input on cost, durability, and installation. Visits are by appointment — contact us at (562) 708-6616 to schedule.',
   },
   {
     question: 'What types of projects are best suited for design-build?',
@@ -243,7 +243,7 @@ const faqs = [
   },
   {
     question: 'How do I get started with a design-build project?',
-    answer: 'Getting started is simple. Contact us at (704) 574-8124 or visit our contact page to request a free consultation. During the initial meeting, we will discuss your project goals, budget range, timeline requirements, and site conditions. We will then provide a preliminary scope and fee proposal. Once you approve, we begin the discovery and concept design phase. There is no obligation, and the consultation is free for projects in the Charlotte metro area.',
+    answer: 'Getting started is simple. Contact us at (562) 708-6616 or visit our contact page to request a free consultation. During the initial meeting, we will discuss your project goals, budget range, timeline requirements, and site conditions. We will then provide a preliminary scope and fee proposal. Once you approve, we begin the discovery and concept design phase. There is no obligation, and the consultation is free for projects in the Charlotte metro area.',
   },
 ];
 
@@ -656,9 +656,9 @@ export default function DesignBuildPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

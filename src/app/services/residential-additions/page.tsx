@@ -36,7 +36,7 @@ import {
 export const metadata: Metadata = {
   title: 'Home Additions Charlotte NC | Residential Addition Contractor',
   description:
-    'Licensed home addition contractor in Charlotte, NC. Room additions, second story additions, garage conversions, in-law suites, kitchen extensions, sunrooms, bump-outs. Veteran-owned. 60+ years experience. Free estimates. (704) 574-8124.',
+    'Licensed home addition contractor in Charlotte, NC. Room additions, second story additions, garage conversions, in-law suites, kitchen extensions, sunrooms, bump-outs. Veteran-owned. 60+ years experience. Free estimates. (562) 708-6616.',
   keywords: [
     'home additions charlotte nc',
     'home addition contractor charlotte nc',
@@ -325,8 +325,8 @@ export default function ResidentialAdditionsPage() {
                     </div>
                     <div className="flex items-center gap-3">
                       <Phone className="h-5 w-5 text-primary" />
-                      <a href="tel:7045748124" className="font-medium hover:text-primary">
-                        (704) 574-8124
+                      <a href="tel:5627086616" className="font-medium hover:text-primary">
+                        (562) 708-6616
                       </a>
                     </div>
                     <div className="flex items-center gap-3">
@@ -1030,9 +1030,9 @@ export default function ResidentialAdditionsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

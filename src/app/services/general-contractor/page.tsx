@@ -32,7 +32,7 @@ import {
 export const metadata: Metadata = {
   title: 'General Contractor Charlotte NC | Licensed & Veteran-Owned | We Build',
   description:
-    'Licensed general contractor in Charlotte, NC. Commercial construction, custom homes, upfits, design-build & roof coating. Veteran-owned, 60+ years combined experience. Licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Licensed general contractor in Charlotte, NC. Commercial construction, custom homes, upfits, design-build & roof coating. Veteran-owned, 60+ years combined experience. Licensed in NC & SC. Free estimates. (562) 708-6616.',
   keywords: [
     'general contractor charlotte nc',
     'general contractor in charlotte nc',
@@ -124,7 +124,7 @@ const processSteps = [
     step: '01',
     title: 'Initial Contact & Free Consultation',
     description:
-      'Your project starts with a free, no-obligation conversation. We discuss your goals, timeline, budget expectations, and project requirements. Whether you reach us by phone at (704) 574-8124 or through our online contact form, we respond within one business day. During this initial consultation, we assess feasibility, identify potential challenges, and provide preliminary guidance on the best approach for your specific project.',
+      'Your project starts with a free, no-obligation conversation. We discuss your goals, timeline, budget expectations, and project requirements. Whether you reach us by phone at (562) 708-6616 or through our online contact form, we respond within one business day. During this initial consultation, we assess feasibility, identify potential challenges, and provide preliminary guidance on the best approach for your specific project.',
   },
   {
     step: '02',
@@ -338,9 +338,9 @@ export default function GeneralContractorPage() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:7045748124">
+                  <a href="tel:5627086616">
                     <Phone className="mr-2 h-5 w-5" />
-                    (704) 574-8124
+                    (562) 708-6616
                   </a>
                 </Button>
               </div>
@@ -1129,7 +1129,7 @@ export default function GeneralContractorPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">(704) 574-8124</a>
+              <a href="tel:5627086616">(562) 708-6616</a>
             </Button>
           </div>
         </div>

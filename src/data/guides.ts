@@ -424,7 +424,7 @@ const guides: Guide[] = [
 
 <p>For homeowners planning to sell within the next few years, prioritize visible improvements and documented system maintenance. In the current Charlotte market, every dollar spent on proper maintenance returns $1.50 to $3.00 in protected or increased home value.</p>
 
-<p>If you need help with home maintenance, repairs, or renovation projects in the Charlotte area, <a href="/contact">contact We Build</a> at <a href="tel:7045748124">(704) 574-8124</a>. As a veteran and family-owned construction company and USGBC member, we bring professional expertise and honest guidance to every project, whether it is a simple repair or a major renovation.</p>
+<p>If you need help with home maintenance, repairs, or renovation projects in the Charlotte area, <a href="/contact">contact We Build</a> at <a href="tel:5627086616">(562) 708-6616</a>. As a veteran and family-owned construction company and USGBC member, we bring professional expertise and honest guidance to every project, whether it is a simple repair or a major renovation.</p>
 `,
   },
   {
@@ -748,7 +748,7 @@ const guides: Guide[] = [
 
 <p>Property managers who maintain detailed records of maintenance expenses, system performance, and vendor contracts are better positioned to forecast capital expenditure needs, negotiate service contracts, and demonstrate value to building owners and investors.</p>
 
-<p>For commercial building maintenance, inspections, roof coatings, and construction services in the Charlotte area, <a href="/contact">contact We Build</a> at <a href="tel:7045748124">(704) 574-8124</a>. As a veteran and family-owned construction company and USGBC member, we understand the unique demands of Charlotte's commercial properties and provide dependable, professional service for property managers and building owners throughout the region.</p>
+<p>For commercial building maintenance, inspections, roof coatings, and construction services in the Charlotte area, <a href="/contact">contact We Build</a> at <a href="tel:5627086616">(562) 708-6616</a>. As a veteran and family-owned construction company and USGBC member, we understand the unique demands of Charlotte's commercial properties and provide dependable, professional service for property managers and building owners throughout the region.</p>
 `,
   },
 
@@ -1135,7 +1135,7 @@ const guides: Guide[] = [
 <li><strong>Laminate</strong> is generally viewed negatively by Charlotte buyers and can signal a lower-quality renovation. It is acceptable in rental properties and starter homes but may need to be replaced to maximize sale price in the $400,000+ market.</li>
 </ul>
 
-<p>Whether you are renovating a bungalow in Plaza Midwood, updating a two-story in Ballantyne, or building new in Lake Norman, choosing the right flooring is one of the highest-impact decisions you will make. Contact We Build at <a href="tel:7045748124">(704) 574-8124</a> to discuss your flooring project and get a detailed estimate tailored to your Charlotte home.</p>
+<p>Whether you are renovating a bungalow in Plaza Midwood, updating a two-story in Ballantyne, or building new in Lake Norman, choosing the right flooring is one of the highest-impact decisions you will make. Contact We Build at <a href="tel:5627086616">(562) 708-6616</a> to discuss your flooring project and get a detailed estimate tailored to your Charlotte home.</p>
 `,
   },
 
@@ -1462,7 +1462,7 @@ const guides: Guide[] = [
 <li>Keep children and pets away from the construction zone; dust, debris, and sharp objects pose real hazards.</li>
 </ul>
 
-<p>A kitchen remodel is a significant investment in your Charlotte home's functionality, beauty, and value. With thorough planning, realistic budgeting, and a skilled construction team, the result is a kitchen that works perfectly for your family and adds lasting value to your property. Contact We Build at <a href="tel:7045748124">(704) 574-8124</a> to schedule a kitchen remodel consultation and get started on your project.</p>
+<p>A kitchen remodel is a significant investment in your Charlotte home's functionality, beauty, and value. With thorough planning, realistic budgeting, and a skilled construction team, the result is a kitchen that works perfectly for your family and adds lasting value to your property. Contact We Build at <a href="tel:5627086616">(562) 708-6616</a> to schedule a kitchen remodel consultation and get started on your project.</p>
 `,
   },
 
@@ -1756,7 +1756,7 @@ const guides: Guide[] = [
 <li><strong>Poor sound design:</strong> Noise is the number one diner complaint at Charlotte restaurants. Address acoustics during design, not after opening. Retrofitting acoustic treatments is expensive and disruptive.</li>
 </ul>
 
-<p>Opening a restaurant in Charlotte is a significant undertaking, but the market rewards well-planned, well-built concepts with strong potential for success. At We Build, we specialize in commercial restaurant build-outs throughout the Charlotte metro area, from fast-casual to fine dining. Our experience with Mecklenburg County permitting, commercial kitchen infrastructure, and restaurant-specific construction ensures your project stays on schedule and on budget. Contact We Build at <a href="tel:7045748124">(704) 574-8124</a> to discuss your restaurant project and schedule a consultation.</p>
+<p>Opening a restaurant in Charlotte is a significant undertaking, but the market rewards well-planned, well-built concepts with strong potential for success. At We Build, we specialize in commercial restaurant build-outs throughout the Charlotte metro area, from fast-casual to fine dining. Our experience with Mecklenburg County permitting, commercial kitchen infrastructure, and restaurant-specific construction ensures your project stays on schedule and on budget. Contact We Build at <a href="tel:5627086616">(562) 708-6616</a> to discuss your restaurant project and schedule a consultation.</p>
 `,
   },
 
@@ -2110,7 +2110,7 @@ const guides: Guide[] = [
   <li><strong>Step 6:</strong> Pay your deductible directly to the contractor. Any contractor who offers to waive your deductible is proposing insurance fraud.</li>
 </ul>
 
-<p>Charlotte-area insurance premiums for homeowners have increased 15% to 25% over the past three years, partly due to the frequency of hail and wind claims. Maintaining your roof proactively can help keep your claims history clean and your premiums manageable. For a free roof evaluation or coating consultation, contact We Build at <a href="tel:7045748124">(704) 574-8124</a> or visit our <a href="/we-coat">We Coat division page</a> to learn more about extending your roof's life.</p>
+<p>Charlotte-area insurance premiums for homeowners have increased 15% to 25% over the past three years, partly due to the frequency of hail and wind claims. Maintaining your roof proactively can help keep your claims history clean and your premiums manageable. For a free roof evaluation or coating consultation, contact We Build at <a href="tel:5627086616">(562) 708-6616</a> or visit our <a href="/we-coat">We Coat division page</a> to learn more about extending your roof's life.</p>
 `,
   },
 
@@ -2443,7 +2443,7 @@ const guides: Guide[] = [
   <li><strong>Mannington Adura Max:</strong> WPC core with outstanding design variety and attached pad</li>
 </ul>
 
-<p>Whichever direction you choose, professional installation is critical to long-term performance. Improper acclimation, subfloor preparation, or transition detailing can undermine even the best flooring material. Contact We Build at <a href="tel:7045748124">(704) 574-8124</a> to discuss your flooring project and receive a detailed estimate tailored to your Charlotte home.</p>
+<p>Whichever direction you choose, professional installation is critical to long-term performance. Improper acclimation, subfloor preparation, or transition detailing can undermine even the best flooring material. Contact We Build at <a href="tel:5627086616">(562) 708-6616</a> to discuss your flooring project and receive a detailed estimate tailored to your Charlotte home.</p>
 `,
   },
   {
@@ -2701,7 +2701,7 @@ const guides: Guide[] = [
 
 <p>Epoxy and polyurethane coatings allow these markings to be built into the floor system during application, creating durable markings that will not wear away like paint. For existing facilities needing updated markings, specialized floor marking tapes rated for forklift traffic provide a quick, non-disruptive solution.</p>
 
-<p>Whatever your commercial flooring needs in Charlotte, from a small office suite to a 500,000-square-foot distribution center, professional specification, material selection, and installation are essential to achieving the performance and longevity your investment demands. Contact We Build at <a href="tel:7045748124">(704) 574-8124</a> to discuss your commercial flooring project with our experienced team.</p>
+<p>Whatever your commercial flooring needs in Charlotte, from a small office suite to a 500,000-square-foot distribution center, professional specification, material selection, and installation are essential to achieving the performance and longevity your investment demands. Contact We Build at <a href="tel:5627086616">(562) 708-6616</a> to discuss your commercial flooring project with our experienced team.</p>
 `,
   },
 
@@ -3114,7 +3114,7 @@ const guides: Guide[] = [
   <li><strong>Mixed materials:</strong> Combining a stone perimeter with a butcher block island, or vice versa, creates visual interest and functional zoning</li>
 </ul>
 
-<p>For help selecting and installing the perfect countertops for your Charlotte kitchen or bathroom, contact We Build at <a href="tel:7045748124">(704) 574-8124</a>. Our team can guide you through material selection, connect you with trusted Charlotte fabricators, and ensure your installation is flawless.</p>
+<p>For help selecting and installing the perfect countertops for your Charlotte kitchen or bathroom, contact We Build at <a href="tel:5627086616">(562) 708-6616</a>. Our team can guide you through material selection, connect you with trusted Charlotte fabricators, and ensure your installation is flawless.</p>
 `,
   },
   {
@@ -3461,7 +3461,7 @@ const guides: Guide[] = [
 
 <p>"Limited lifetime" in the cabinet industry typically means the warranty covers defects in materials and workmanship for as long as the original purchaser owns the home. It does not cover normal wear, misuse, moisture damage from plumbing leaks, or damage from improper cleaning products.</p>
 
-<p>Whether you are planning a simple stock cabinet refresh or a full custom kitchen build, the team at We Build can help you navigate your options and deliver professional installation that maximizes the value of your investment. Contact us at <a href="tel:7045748124">(704) 574-8124</a> to discuss your Charlotte kitchen project.</p>
+<p>Whether you are planning a simple stock cabinet refresh or a full custom kitchen build, the team at We Build can help you navigate your options and deliver professional installation that maximizes the value of your investment. Contact us at <a href="tel:5627086616">(562) 708-6616</a> to discuss your Charlotte kitchen project.</p>
 `,
   },
 
@@ -3720,7 +3720,7 @@ const guides: Guide[] = [
 
 <p>All commercial office build-outs in Charlotte must comply with the Americans with Disabilities Act (ADA) and North Carolina Accessibility Code. Key requirements include 36-inch minimum clear width for corridors and aisles, 32-inch minimum clear width for doorways, accessible restrooms with proper clearances and grab bar placement, accessible reception counters (a portion at 34 inches or lower), and accessible routes to all common areas. For offices with 15 or more employees, additional requirements may apply regarding accessible workstation provisions. Your architect and contractor should be well-versed in these requirements, and Mecklenburg County inspectors will verify compliance during the permitting and inspection process.</p>
 
-<p>Whether you are planning a simple office refresh or a ground-up build-out, working with a Charlotte general contractor experienced in commercial interiors will streamline the process. We Build has completed office build-outs across Charlotte's major submarkets and can guide you from initial space planning through move-in. Contact us at <a href="tel:7045748124">(704) 574-8124</a> to discuss your project.</p>
+<p>Whether you are planning a simple office refresh or a ground-up build-out, working with a Charlotte general contractor experienced in commercial interiors will streamline the process. We Build has completed office build-outs across Charlotte's major submarkets and can guide you from initial space planning through move-in. Contact us at <a href="tel:5627086616">(562) 708-6616</a> to discuss your project.</p>
 `,
   },
   {
@@ -3961,7 +3961,7 @@ const guides: Guide[] = [
 
 <p>The critical path for most medical office build-outs runs through HVAC and electrical coordination with medical equipment vendors. Equipment specifications must be finalized during design to ensure adequate power, cooling, ventilation, and structural support are incorporated into the construction documents. Late equipment changes are among the most common causes of cost overruns and schedule delays in medical construction projects.</p>
 
-<p>We Build has completed medical office build-outs throughout the Charlotte metro area, including primary care clinics, dental practices, and specialist facilities. Our experience navigating Mecklenburg County permitting, healthcare regulations, and specialized systems installation helps practices open on time and on budget. Contact us at <a href="tel:7045748124">(704) 574-8124</a> to discuss your medical office project.</p>
+<p>We Build has completed medical office build-outs throughout the Charlotte metro area, including primary care clinics, dental practices, and specialist facilities. Our experience navigating Mecklenburg County permitting, healthcare regulations, and specialized systems installation helps practices open on time and on budget. Contact us at <a href="tel:5627086616">(562) 708-6616</a> to discuss your medical office project.</p>
 `,
   },
 
@@ -4233,7 +4233,7 @@ const guides: Guide[] = [
 
 <p>Charlotte homeowners planning to age in place should incorporate universal design features during the remodel, as retrofitting later is significantly more expensive. Key features include curbless shower entry, grab bars at the shower and toilet (install blocking in the walls during framing, even if you do not install bars immediately), a comfort-height toilet, a handheld showerhead on a slide bar, lever-handle faucets, non-slip flooring, and adequate lighting. These features are increasingly stylish and do not compromise the bathroom's aesthetic appeal.</p>
 
-<p>We Build helps Charlotte homeowners navigate every phase of a bathroom remodel, from design and material selection through construction and final walkthrough. Contact us at <a href="tel:7045748124">(704) 574-8124</a> to schedule a consultation for your bathroom project.</p>
+<p>We Build helps Charlotte homeowners navigate every phase of a bathroom remodel, from design and material selection through construction and final walkthrough. Contact us at <a href="tel:5627086616">(562) 708-6616</a> to schedule a consultation for your bathroom project.</p>
 `,
   },
   {
@@ -4448,7 +4448,7 @@ const guides: Guide[] = [
 
 <p>Charlotte receives an average of 4.5 to 5.0 peak sun hours per day, making solar panels a viable investment. A typical 8 kW residential system produces 10,000 to 12,000 kWh per year, offsetting 60% to 80% of an average Charlotte home's electricity consumption. Duke Energy's net metering policy credits excess solar generation at the retail rate, making the economics favorable for correctly sized systems. However, Duke Energy has proposed changes to net metering that could reduce future credits; monitor this regulatory landscape before investing. After the 30% federal tax credit, the net cost of a typical residential solar installation in Charlotte is \$12,000 to \$17,000, with a payback period of 8 to 12 years.</p>
 
-<p>We Build helps Charlotte homeowners identify and implement the most cost-effective energy efficiency improvements for their specific home and budget. As a USGBC member, we are committed to sustainable building practices that reduce energy consumption and improve comfort. Contact us at <a href="tel:7045748124">(704) 574-8124</a> to discuss your energy efficiency goals.</p>
+<p>We Build helps Charlotte homeowners identify and implement the most cost-effective energy efficiency improvements for their specific home and budget. As a USGBC member, we are committed to sustainable building practices that reduce energy consumption and improve comfort. Contact us at <a href="tel:5627086616">(562) 708-6616</a> to discuss your energy efficiency goals.</p>
 `,
   },
   {
@@ -4709,7 +4709,7 @@ const guides: Guide[] = [
 
 <p><strong>Architect plus general contractor</strong> (design-bid-build) separates the design and construction functions. You hire an architect to design the addition, then solicit competitive bids from general contractors. This approach gives you an independent design advocate and the ability to compare contractor pricing, but it adds time (6 to 12 weeks for architectural design before construction can begin) and can create conflicts between the architect's design intent and the contractor's construction approach. This method is better suited for complex or architecturally significant additions where the design itself is a priority.</p>
 
-<p>We Build offers design-build services for home additions throughout the Charlotte metro area. Our integrated approach means your project moves from concept to completion with a single team managing every detail. Contact us at <a href="tel:7045748124">(704) 574-8124</a> to discuss your home addition project.</p>
+<p>We Build offers design-build services for home additions throughout the Charlotte metro area. Our integrated approach means your project moves from concept to completion with a single team managing every detail. Contact us at <a href="tel:5627086616">(562) 708-6616</a> to discuss your home addition project.</p>
 `,
   },
 
@@ -4993,7 +4993,7 @@ const guides: Guide[] = [
 <li><strong>Neglecting the Certificate of Occupancy timeline.</strong> You cannot legally open to the public without a CO from Mecklenburg County. Plan for final inspections at least 2 weeks before your opening date.</li>
 </ul>
 
-<p>A well-planned retail build-out is the foundation of a successful Charlotte business. At We Build, we have helped dozens of Charlotte business owners navigate the complexities of retail construction, from lease negotiation support to grand opening. Contact us at <a href="tel:7045748124">(704) 574-8124</a> to discuss your retail build-out project.</p>
+<p>A well-planned retail build-out is the foundation of a successful Charlotte business. At We Build, we have helped dozens of Charlotte business owners navigate the complexities of retail construction, from lease negotiation support to grand opening. Contact us at <a href="tel:5627086616">(562) 708-6616</a> to discuss your retail build-out project.</p>
 `,
   },
 
@@ -5195,7 +5195,7 @@ const guides: Guide[] = [
 
 <p>Condensation between panes of double or triple-pane windows indicates a failed seal, and the insulated glass unit will need replacement. This is covered by most window manufacturers' warranties for 10 to 20 years.</p>
 
-<p>For Charlotte homeowners dealing with persistent moisture problems, a comprehensive approach addressing all moisture sources is essential. Contact We Build at <a href="tel:7045748124">(704) 574-8124</a> for a moisture assessment and remediation plan tailored to your home.</p>
+<p>For Charlotte homeowners dealing with persistent moisture problems, a comprehensive approach addressing all moisture sources is essential. Contact We Build at <a href="tel:5627086616">(562) 708-6616</a> for a moisture assessment and remediation plan tailored to your home.</p>
 `,
   },
 
@@ -5440,7 +5440,7 @@ const guides: Guide[] = [
 
 <p>Charlotte business owners have several resources available for ADA compliance assistance. The Southeast ADA Center (based in Atlanta) provides free technical assistance for businesses in North Carolina. The Charlotte-Mecklenburg Disability Advisory Council can provide guidance on local accessibility issues. The U.S. Small Business Administration (SBA) Charlotte district office can assist with financing ADA improvements. Local architects and contractors experienced in ADA compliance (like We Build) can provide assessments and cost-effective solutions.</p>
 
-<p>At We Build, we regularly help Charlotte business owners navigate ADA compliance during renovations and new construction. Contact us at <a href="tel:7045748124">(704) 574-8124</a> for an ADA assessment of your commercial space.</p>
+<p>At We Build, we regularly help Charlotte business owners navigate ADA compliance during renovations and new construction. Contact us at <a href="tel:5627086616">(562) 708-6616</a> for an ADA assessment of your commercial space.</p>
 `,
   },
 
@@ -5671,7 +5671,7 @@ const guides: Guide[] = [
 
 <h3>Evaluating Charlotte Commercial Roofing Contractors</h3>
 
-<p>When selecting a commercial roofing contractor in Charlotte, verify: North Carolina General Contractor or Roofing Contractor license, adequate insurance (minimum \$1 million general liability, workers' compensation), manufacturer certifications for the roofing system being installed, local references from similar commercial projects, written warranty covering both materials and workmanship, and OSHA safety record. At We Build, our commercial roofing division handles inspections, maintenance, coating, and replacement for Charlotte commercial buildings. Contact us at <a href="tel:7045748124">(704) 574-8124</a> to schedule a roof inspection or request a maintenance proposal.</p>
+<p>When selecting a commercial roofing contractor in Charlotte, verify: North Carolina General Contractor or Roofing Contractor license, adequate insurance (minimum \$1 million general liability, workers' compensation), manufacturer certifications for the roofing system being installed, local references from similar commercial projects, written warranty covering both materials and workmanship, and OSHA safety record. At We Build, our commercial roofing division handles inspections, maintenance, coating, and replacement for Charlotte commercial buildings. Contact us at <a href="tel:5627086616">(562) 708-6616</a> to schedule a roof inspection or request a maintenance proposal.</p>
 `,
   },
 
@@ -5914,7 +5914,7 @@ const guides: Guide[] = [
 
 <p>Several financing options support green building in Charlotte. The Property Assessed Clean Energy (PACE) program allows commercial property owners to finance energy efficiency and renewable energy improvements through a property tax assessment. Green bonds and sustainability-linked loans are available from major Charlotte banks for qualified projects. The SBA 504 Green Loan program provides favorable financing for small businesses purchasing or improving energy-efficient buildings. Duke Energy's commercial efficiency programs provide rebates that can be applied to reduce project costs.</p>
 
-<p>As a USGBC member, We Build brings both the commitment and the expertise to deliver green building projects in the Charlotte market. Whether you are pursuing LEED certification, ENERGY STAR performance, or simply want a more efficient and sustainable building, our team can guide you through the design, construction, and certification process. Contact us at <a href="tel:7045748124">(704) 574-8124</a> to discuss your green building project.</p>
+<p>As a USGBC member, We Build brings both the commitment and the expertise to deliver green building projects in the Charlotte market. Whether you are pursuing LEED certification, ENERGY STAR performance, or simply want a more efficient and sustainable building, our team can guide you through the design, construction, and certification process. Contact us at <a href="tel:5627086616">(562) 708-6616</a> to discuss your green building project.</p>
 `,
   },
 
@@ -6293,7 +6293,7 @@ const guides: Guide[] = [
 
 <p>When in doubt, bring actual flooring samples to the paint store and evaluate colors together under the store's lighting and then at home. The investment in sample pots, typically \$8-\$15 each, is minimal compared to repainting a room that does not coordinate properly.</p>
 
-<p>For expert guidance on interior painting and finishing as part of your Charlotte home construction or renovation project, contact We Build at <a href="tel:7045748124">(704) 574-8124</a>. As a veteran and family-owned construction company and USGBC member, we help homeowners make design decisions that enhance both daily living and long-term home value.</p>
+<p>For expert guidance on interior painting and finishing as part of your Charlotte home construction or renovation project, contact We Build at <a href="tel:5627086616">(562) 708-6616</a>. As a veteran and family-owned construction company and USGBC member, we help homeowners make design decisions that enhance both daily living and long-term home value.</p>
 `,
   },
   {
@@ -6589,7 +6589,7 @@ const guides: Guide[] = [
 
 <p>Setback requirements vary by zoning district but typically require decks to be at least 5 feet from side property lines and 20-30 feet from rear property lines. HOA requirements may be more restrictive. Always verify with your specific HOA before beginning design.</p>
 
-<p>For expert design and construction of decks, screened porches, and outdoor living spaces in Charlotte, contact We Build at <a href="tel:7045748124">(704) 574-8124</a>. Our team handles everything from design and permitting to construction and final inspection, ensuring your outdoor living space meets code and exceeds expectations.</p>
+<p>For expert design and construction of decks, screened porches, and outdoor living spaces in Charlotte, contact We Build at <a href="tel:5627086616">(562) 708-6616</a>. Our team handles everything from design and permitting to construction and final inspection, ensuring your outdoor living space meets code and exceeds expectations.</p>
 `,
   },
   {
@@ -6948,7 +6948,7 @@ const guides: Guide[] = [
   <li><strong>Restoration Hardware (SouthPark):</strong> High-end decorative fixtures</li>
 </ul>
 
-<p>For lighting design, electrical installation, and smart lighting integration as part of your Charlotte construction or renovation project, contact We Build at <a href="tel:7045748124">(704) 574-8124</a>. Our team coordinates with trusted electrical subcontractors to deliver lighting systems that are beautiful, functional, and professionally installed.</p>
+<p>For lighting design, electrical installation, and smart lighting integration as part of your Charlotte construction or renovation project, contact We Build at <a href="tel:5627086616">(562) 708-6616</a>. Our team coordinates with trusted electrical subcontractors to deliver lighting systems that are beautiful, functional, and professionally installed.</p>
 `,
   },
   {
@@ -7236,7 +7236,7 @@ const guides: Guide[] = [
 
 <p>Many builders offer third-party warranty programs (like 2-10 Home Buyers Warranty or StrucSure) that provide additional protection and dispute resolution. Ask your builder about their specific warranty program before signing the contract.</p>
 
-<p>Building your first home in Charlotte is a significant undertaking, but with the right guidance and team, it can be one of the most rewarding experiences of your life. Contact We Build at <a href="tel:7045748124">(704) 574-8124</a> to discuss your new home project. As a veteran and family-owned design-build firm and USGBC member, we guide first-time builders through every step of the process with transparency and expertise.</p>
+<p>Building your first home in Charlotte is a significant undertaking, but with the right guidance and team, it can be one of the most rewarding experiences of your life. Contact We Build at <a href="tel:5627086616">(562) 708-6616</a> to discuss your new home project. As a veteran and family-owned design-build firm and USGBC member, we guide first-time builders through every step of the process with transparency and expertise.</p>
 `,
   },
   {
@@ -7576,7 +7576,7 @@ const guides: Guide[] = [
 
 <p>Owner-builder permits do not exempt you from any code requirements or inspections. All the same inspections and standards apply. Many first-time owner-builders underestimate the complexity of coordinating subcontractors, managing inspections, and ensuring code compliance.</p>
 
-<p>For expert guidance on permits and code compliance for your Charlotte construction project, contact We Build at <a href="tel:7045748124">(704) 574-8124</a>. Our team manages the permitting process for every project we build, from initial application through final inspection, ensuring full compliance with all Mecklenburg County and state requirements.</p>
+<p>For expert guidance on permits and code compliance for your Charlotte construction project, contact We Build at <a href="tel:5627086616">(562) 708-6616</a>. Our team manages the permitting process for every project we build, from initial application through final inspection, ensuring full compliance with all Mecklenburg County and state requirements.</p>
 `,
   },
   {
@@ -7875,7 +7875,7 @@ const guides: Guide[] = [
 
 <p>Before terminating, document all issues in writing, provide written notice of the problems, and give the contractor a reasonable opportunity to cure (typically 10-14 days, as specified in your contract). Consult a construction attorney before terminating to ensure you follow the contract's termination provisions and protect your legal rights.</p>
 
-<p>Choosing the right contractor is the foundation of a successful construction project. For your next Charlotte construction project, contact We Build at <a href="tel:7045748124">(704) 574-8124</a>. As a veteran and family-owned construction company, licensed North Carolina general contractor, and USGBC member, we bring transparency, quality, and integrity to every project. We are happy to provide references, proof of insurance, and a detailed written proposal for your project.</p>
+<p>Choosing the right contractor is the foundation of a successful construction project. For your next Charlotte construction project, contact We Build at <a href="tel:5627086616">(562) 708-6616</a>. As a veteran and family-owned construction company, licensed North Carolina general contractor, and USGBC member, we bring transparency, quality, and integrity to every project. We are happy to provide references, proof of insurance, and a detailed written proposal for your project.</p>
 `,
   },
 
@@ -8708,7 +8708,7 @@ const guides: Guide[] = [
 
 <h2 id="partnering-with-we-build-for-industrial-construction">Partnering with We Build for Industrial Construction</h2>
 <p>We Build provides <a href="/services/commercial-construction">commercial construction</a> and <a href="/services/general-contractor">general contracting</a> services for industrial projects throughout the Charlotte metro area. Our experience spans warehouse buildouts, manufacturing facility construction, and industrial tenant improvements. We understand the unique demands of industrial construction — from heavy foundation systems and specialized fire protection to Duke Energy coordination and Mecklenburg County permitting.</p>
-<p>As a USGBC member, We Build also brings sustainable building practices to industrial construction, including energy-efficient lighting systems, reflective roofing, and stormwater management that exceeds minimum requirements. For developers and business owners planning industrial construction in Charlotte, contact us at (704) 574-8124 or visit our <a href="/contact">contact page</a> to discuss your project.</p>
+<p>As a USGBC member, We Build also brings sustainable building practices to industrial construction, including energy-efficient lighting systems, reflective roofing, and stormwater management that exceeds minimum requirements. For developers and business owners planning industrial construction in Charlotte, contact us at (562) 708-6616 or visit our <a href="/contact">contact page</a> to discuss your project.</p>
 `,
   },
 ];

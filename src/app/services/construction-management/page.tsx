@@ -43,7 +43,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Construction Management Charlotte NC | CM Services & Project Oversight',
   description:
-    'Professional construction management services in Charlotte, NC. CM at-risk, CM agency, owner\'s representative, program management, project oversight & schedule management. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (704) 574-8124.',
+    'Professional construction management services in Charlotte, NC. CM at-risk, CM agency, owner\'s representative, program management, project oversight & schedule management. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (562) 708-6616.',
   keywords: [
     'construction management Charlotte NC',
     'construction management company Charlotte',
@@ -787,9 +787,9 @@ export default function ConstructionManagementPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

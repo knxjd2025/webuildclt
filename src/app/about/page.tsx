@@ -342,7 +342,7 @@ const aboutFaqs = [
   {
     question: 'Does We Build offer free estimates?',
     answer:
-      'Yes. We Build provides free project consultations and estimates for all construction projects. During the initial consultation, we visit your site (or review your plans), discuss your goals and budget, and provide a detailed written estimate with clear line items. Our estimates are thorough and transparent so you can make informed decisions. There is no pressure, no obligation, and no hidden fees. Contact us at (704) 574-8124 or visit our contact page to schedule your free consultation.',
+      'Yes. We Build provides free project consultations and estimates for all construction projects. During the initial consultation, we visit your site (or review your plans), discuss your goals and budget, and provide a detailed written estimate with clear line items. Our estimates are thorough and transparent so you can make informed decisions. There is no pressure, no obligation, and no hidden fees. Contact us at (562) 708-6616 or visit our contact page to schedule your free consultation.',
   },
   {
     question: 'Is We Build bonded?',
@@ -1387,9 +1387,9 @@ export default function AboutPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

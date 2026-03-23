@@ -2254,7 +2254,7 @@ const phase2aPosts: BlogPost[] = [
 <p>Consider visiting their <a href="/design-center">Design Center located at 14330 S Lakes Drive, Charlotte NC 28273</a>, if they have one, to get a feel for their company culture. Strong communication and a shared vision are vital for a successful project, especially for large-scale <b>commercial construction</b> projects around Charlotte.</p>
 
 <h2>Ready to Start Your Charlotte Commercial Construction Project?</h2>
-<p>Choosing the right <b>commercial construction company Charlotte NC</b> is a critical decision. By following these steps, you can ensure that you select a qualified, experienced, and reliable contractor who can bring your vision to life. From initial design to final build, <a href="/contact">contact We Build</a> for a collaborative approach and a commitment to excellence. Let us help you build your commercial dream in Charlotte, NC! Call us today at (704) 574-8124 to discuss your project.</p>`,
+<p>Choosing the right <b>commercial construction company Charlotte NC</b> is a critical decision. By following these steps, you can ensure that you select a qualified, experienced, and reliable contractor who can bring your vision to life. From initial design to final build, <a href="/contact">contact We Build</a> for a collaborative approach and a commitment to excellence. Let us help you build your commercial dream in Charlotte, NC! Call us today at (562) 708-6616 to discuss your project.</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -2308,7 +2308,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>The We Build Advantage: Your Partner in Commercial Construction</h2>
 <p>Understanding <b>commercial construction costs in Charlotte</b> is just the first step. Choosing the right construction partner is equally important. At We Build, we bring over 60 years of combined experience, a commitment to quality, and a deep understanding of the Charlotte market to every project. As a veteran and family-owned company, we prioritize integrity, transparency, and client satisfaction. We are a licensed general contractor in both North and South Carolina, and we are proud members of the USGBC. Whether you need commercial construction, <a href="/services/commercial-upfits">commercial upfits</a>, or design-build services, we have the expertise and resources to deliver exceptional results.</p>
 
-<p>Ready to discuss your commercial construction project in Charlotte? Contact We Build today for a consultation. We'll provide a detailed cost estimate and help you navigate the complexities of <b>commercial construction costs in Charlotte</b> to ensure your project is a success. Give us a call at (704) 574-8124 or visit our Design Center at 14330 S Lakes Drive, Charlotte NC 28273. We look forward to hearing from you!</p>`,
+<p>Ready to discuss your commercial construction project in Charlotte? Contact We Build today for a consultation. We'll provide a detailed cost estimate and help you navigate the complexities of <b>commercial construction costs in Charlotte</b> to ensure your project is a success. Give us a call at (562) 708-6616 or visit our Design Center at 14330 S Lakes Drive, Charlotte NC 28273. We look forward to hearing from you!</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -2363,7 +2363,7 @@ const phase2aPosts: BlogPost[] = [
 <h3>Staff Training and Grand Opening</h3>
 <p>Hire and train your staff thoroughly. Ensure they understand your menu, service standards, and operating procedures. Plan a grand opening event to generate buzz and attract customers. Market your restaurant effectively through social media, local publications, and community outreach. The team at We Build understands the importance of this final stage and can even assist with coordinating punch list items to make sure your restaurant is perfect on opening day!</p>
 
-<p>Embarking on a <b>restaurant build-out in Charlotte NC</b> requires careful planning, meticulous execution, and a strong partnership with experienced professionals. By following this comprehensive guide, you can increase your chances of success and create a thriving restaurant that delights the Charlotte community. Contact We Build today at <a href="/contact">(704) 574-8124</a> or visit our <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273 to discuss your <b>restaurant construction Charlotte</b> project. Let our 60+ years of combined experience work for you! We're licensed general contractors in both NC & SC, and proud members of the USGBC.</p>`,
+<p>Embarking on a <b>restaurant build-out in Charlotte NC</b> requires careful planning, meticulous execution, and a strong partnership with experienced professionals. By following this comprehensive guide, you can increase your chances of success and create a thriving restaurant that delights the Charlotte community. Contact We Build today at <a href="/contact">(562) 708-6616</a> or visit our <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273 to discuss your <b>restaurant construction Charlotte</b> project. Let our 60+ years of combined experience work for you! We're licensed general contractors in both NC & SC, and proud members of the USGBC.</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -2446,7 +2446,7 @@ const phase2aPosts: BlogPost[] = [
 <p>At We Build, we understand the importance of adhering to the <b>commercial construction timeline</b>. We leverage our 60+ years of combined experience and local expertise to deliver projects on time and within budget. Visit our <a href="/portfolio">portfolio</a> to see examples of our successful projects throughout the Charlotte area.</p>
 
 <h2>Partner with We Build for Your Next Commercial Construction Project in Charlotte</h2>
-<p>Understanding the <b>commercial construction timeline</b> is essential for successful project completion. We Build, a veteran and family-owned construction company in Charlotte, NC, is committed to providing exceptional service and expertise for all your commercial construction needs. We are a licensed general contractor in NC & SC, and a proud member of the USGBC. From pre-construction planning to final closeout, we'll work closely with you to ensure your project is completed efficiently and to your satisfaction. <a href="/contact">Contact us</a> today at (704) 574-8124 to discuss your project and learn how we can help you achieve your goals. We are conveniently located and also have a <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273. Let's build something great together!`,
+<p>Understanding the <b>commercial construction timeline</b> is essential for successful project completion. We Build, a veteran and family-owned construction company in Charlotte, NC, is committed to providing exceptional service and expertise for all your commercial construction needs. We are a licensed general contractor in NC & SC, and a proud member of the USGBC. From pre-construction planning to final closeout, we'll work closely with you to ensure your project is completed efficiently and to your satisfaction. <a href="/contact">Contact us</a> today at (562) 708-6616 to discuss your project and learn how we can help you achieve your goals. We are conveniently located and also have a <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273. Let's build something great together!`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -2499,7 +2499,7 @@ const phase2aPosts: BlogPost[] = [
 
 <h2>Design-Build Approach for Healthcare Facilities</h2>
 
-<p>A design-build approach can streamline the construction process and save you time and money. With design-build, a single team handles both the design and construction phases of your <b>medical office build-out North Carolina</b> project. This integrated approach promotes better communication, collaboration, and efficiency, leading to a smoother and more successful outcome.  We Build offers comprehensive <a href="/services/design-build">design-build</a> services to simplify your project from concept to completion. Our <a href="/design-center">design center</a> is located at 14330 S Lakes Drive, Charlotte NC 28273. Phone: (704) 574-8124. We also invite you to view some of our projects in our <a href="/portfolio">portfolio</a>.</p>
+<p>A design-build approach can streamline the construction process and save you time and money. With design-build, a single team handles both the design and construction phases of your <b>medical office build-out North Carolina</b> project. This integrated approach promotes better communication, collaboration, and efficiency, leading to a smoother and more successful outcome.  We Build offers comprehensive <a href="/services/design-build">design-build</a> services to simplify your project from concept to completion. Our <a href="/design-center">design center</a> is located at 14330 S Lakes Drive, Charlotte NC 28273. Phone: (562) 708-6616. We also invite you to view some of our projects in our <a href="/portfolio">portfolio</a>.</p>
 
 <p>Choosing the right contractor is paramount when planning a <b>medical office build-out North Carolina</b>. We Build brings over 60 years of combined experience, a commitment to quality, and a deep understanding of the unique requirements of medical facilities. We are dedicated to providing exceptional service and delivering projects that meet your needs and exceed your expectations. Contact us today to discuss your <b>medical office construction Charlotte</b> project and let us help you build the future of your practice. <a href="/contact">Contact us</a>.</p>`,
     date: '2026-03-21',
@@ -2586,7 +2586,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>By meticulously following this <b>pre-construction planning Charlotte</b> checklist, you'll be well-positioned to embark on a successful commercial construction project in the Queen City.  Remember to adjust this checklist based on your project’s specific needs, but treat it as a starting point.</p>
 
-<p>Ready to bring your commercial construction vision to life in Charlotte? Contact We Build today at (704) 574-8124 for a consultation. Let our experience and expertise guide you through every step of the process, ensuring a seamless and successful project from start to finish. Visit our website to learn more about our <a href="/services/commercial-construction">commercial construction</a> services.</p>`,
+<p>Ready to bring your commercial construction vision to life in Charlotte? Contact We Build today at (562) 708-6616 for a consultation. Let our experience and expertise guide you through every step of the process, ensuring a seamless and successful project from start to finish. Visit our website to learn more about our <a href="/services/commercial-construction">commercial construction</a> services.</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -2658,7 +2658,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>Building a warehouse in Charlotte is a significant investment, but with careful planning and the right contractor, you can create a facility that meets your needs and supports your business growth. At We Build, we are committed to providing high-quality <strong>warehouse construction Charlotte NC</strong> services that are on time and on budget. Let us put our 60+ years of combined experience to work for you.</p>
 
-<p>Ready to discuss your <strong>warehouse construction Charlotte NC</strong> project? <a href="/contact">Contact We Build today</a> for a consultation. We're located at 14330 S Lakes Drive, Charlotte NC 28273, and you can reach us at (704) 574-8124. Let us help you build the future of your business!</p>`,
+<p>Ready to discuss your <strong>warehouse construction Charlotte NC</strong> project? <a href="/contact">Contact We Build today</a> for a consultation. We're located at 14330 S Lakes Drive, Charlotte NC 28273, and you can reach us at (562) 708-6616. Let us help you build the future of your business!</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -2726,7 +2726,7 @@ const phase2aPosts: BlogPost[] = [
 
 <h2>Ready to Build Your Retail Dream in Charlotte?</h2>
 
-<p>Opening a retail store in Charlotte is an exciting and rewarding experience. By understanding the costs and timelines associated with a <strong>retail store build-out Charlotte</strong>, you can plan effectively and set yourself up for success. We Build is a veteran and family-owned construction company with over 60 years of combined experience. We are committed to providing high-quality construction services and exceptional customer service. Contact us today at (704) 574-8124 or visit our <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273 to discuss your project and get a free consultation. Let We Build help you bring your retail vision to life!</p>`,
+<p>Opening a retail store in Charlotte is an exciting and rewarding experience. By understanding the costs and timelines associated with a <strong>retail store build-out Charlotte</strong>, you can plan effectively and set yourself up for success. We Build is a veteran and family-owned construction company with over 60 years of combined experience. We are committed to providing high-quality construction services and exceptional customer service. Contact us today at (562) 708-6616 or visit our <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273 to discuss your project and get a free consultation. Let We Build help you bring your retail vision to life!</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -2778,7 +2778,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>Working with We Build for Your Charlotte Commercial Construction Project</h2>
 <p>Securing <b>commercial construction financing</b> in Charlotte is a significant step, but it's only one piece of the puzzle. Partnering with a reputable and experienced general contractor like We Build is essential for a successful project. We can assist you throughout the entire process, from initial design to final completion. We specialize in <a href="/services/commercial-construction">commercial construction</a>, <a href="/services/commercial-upfits">commercial upfits</a>, and design-build services. We understand the unique challenges and opportunities of building in Charlotte, from navigating zoning regulations in Plaza Midwood to sourcing materials locally. Our Design Center, located at 14330 S Lakes Drive, Charlotte NC 28273, is a great place to start visualizing your project. We can even provide roof coating services through <a href="/we-coat">We Coat</a> to protect your investment.</p>
 
-<p>Ready to bring your commercial construction project to life in Charlotte? Contact We Build today at (704) 574-8124 for a consultation. We'll help you navigate the construction process and ensure your project is a success. We can also offer design-build services with our <a href="/design-center">design center</a>, helping you take your vision from concept to reality.</p>`,
+<p>Ready to bring your commercial construction project to life in Charlotte? Contact We Build today at (562) 708-6616 for a consultation. We'll help you navigate the construction process and ensure your project is a success. We can also offer design-build services with our <a href="/design-center">design center</a>, helping you take your vision from concept to reality.</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -2835,7 +2835,7 @@ const phase2aPosts: BlogPost[] = [
 <p>Remember, proper planning and attention to detail can make all the difference in navigating the complexities of obtaining <b>commercial building permits Mecklenburg County</b>.</p>
 
 <h2>We Build: Your Partner in Commercial Construction in Charlotte</h2>
-<p>Navigating the world of <b>commercial building permits in Mecklenburg County</b> doesn't have to be a headache. With We Build's 60+ years of combined experience, USGBC membership, and commitment to quality, we're your trusted partner for all your commercial construction needs in Charlotte and the surrounding areas. From initial design to final inspection, we'll guide you through every step of the process, ensuring your project is completed on time, within budget, and to the highest standards. Visit our <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273, or <a href="/contact">contact us</a> today at (704) 574-8124 to discuss your project. Let We Build help you bring your vision to life! Also be sure to check out our <a href="/portfolio">portfolio</a> for examples of our work.</p>`,
+<p>Navigating the world of <b>commercial building permits in Mecklenburg County</b> doesn't have to be a headache. With We Build's 60+ years of combined experience, USGBC membership, and commitment to quality, we're your trusted partner for all your commercial construction needs in Charlotte and the surrounding areas. From initial design to final inspection, we'll guide you through every step of the process, ensuring your project is completed on time, within budget, and to the highest standards. Visit our <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273, or <a href="/contact">contact us</a> today at (562) 708-6616 to discuss your project. Let We Build help you bring your vision to life! Also be sure to check out our <a href="/portfolio">portfolio</a> for examples of our work.</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -2909,7 +2909,7 @@ const phase2aPosts: BlogPost[] = [
  <li><b>Consider Aesthetics:</b> Create a visually appealing space that reflects your brand and attracts customers.</li>
  <li><b>Energy Efficiency:</b> Implement energy-efficient upgrades to reduce operating costs.</li>
 </ul>
-<p>Understanding the nuances of a <b>TI allowance commercial lease</b> agreement can be the difference between a successful build-out and costly overruns. Contact We Build to discuss your commercial construction project in Charlotte, NC. Our team of experienced professionals is ready to help you navigate the process and create a space that meets your specific needs. Call us today at (704) 574-8124 or <a href="/contact">contact us online</a> to schedule a consultation.</p>`,
+<p>Understanding the nuances of a <b>TI allowance commercial lease</b> agreement can be the difference between a successful build-out and costly overruns. Contact We Build to discuss your commercial construction project in Charlotte, NC. Our team of experienced professionals is ready to help you navigate the process and create a space that meets your specific needs. Call us today at (562) 708-6616 or <a href="/contact">contact us online</a> to schedule a consultation.</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -3013,7 +3013,7 @@ const phase2aPosts: BlogPost[] = [
 <h3>The Importance of a Tenant Improvement Contractor</h3>
 <p>Hiring the right <b>tenant improvement contractor</b> means more than just getting the job done. It's about partnering with a team that understands the nuances of commercial spaces, the importance of timelines, and the need to minimize disruption to your business operations. Whether you're in Uptown or South Park, a skilled contractor will work closely with you to create a space that meets your specific needs and enhances your brand.</p>
 
-<p>Choosing the right <b>commercial upfit contractor Charlotte</b> can make all the difference in the success of your project. By carefully considering the factors outlined above, you can find a partner who will help you create a space that is functional, aesthetically pleasing, and conducive to your business goals. <a href="/contact">Contact We Build</a> today to discuss your upcoming commercial upfit project. We're a veteran and family-owned company dedicated to building quality spaces throughout the Charlotte area and beyond. Call us at (704) 574-8124 to schedule a consultation. We also offer <a href="/services/commercial-construction">commercial construction</a> services.</p>`,
+<p>Choosing the right <b>commercial upfit contractor Charlotte</b> can make all the difference in the success of your project. By carefully considering the factors outlined above, you can find a partner who will help you create a space that is functional, aesthetically pleasing, and conducive to your business goals. <a href="/contact">Contact We Build</a> today to discuss your upcoming commercial upfit project. We're a veteran and family-owned company dedicated to building quality spaces throughout the Charlotte area and beyond. Call us at (562) 708-6616 to schedule a consultation. We also offer <a href="/services/commercial-construction">commercial construction</a> services.</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -3087,7 +3087,7 @@ const phase2aPosts: BlogPost[] = [
 
 <h2>Ready to Get Started?</h2>
 
-<p>If you're planning a <b>gym build-out commercial upfit</b> in Charlotte, NC, contact We Build today! We're located at 14330 S Lakes Drive, Charlotte NC 28273, and can be reached at (704) 574-8124. Let us help you create a fitness space that is both functional and inviting. We'll help you create the perfect space to meet the demands of your growing fitness clientele. <a href="/contact">Contact us</a> today for a free consultation.</p>`,
+<p>If you're planning a <b>gym build-out commercial upfit</b> in Charlotte, NC, contact We Build today! We're located at 14330 S Lakes Drive, Charlotte NC 28273, and can be reached at (562) 708-6616. Let us help you create a fitness space that is both functional and inviting. We'll help you create the perfect space to meet the demands of your growing fitness clientele. <a href="/contact">Contact us</a> today for a free consultation.</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -3104,7 +3104,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>Ensuring your commercial building is accessible to everyone is not just a matter of ethics; it's the law. In Charlotte, NC, adherence to the Americans with Disabilities Act (ADA) is crucial for any <b>ADA compliance commercial renovation</b>. This guide, brought to you by We Build, a trusted Charlotte contractor, will walk you through the essential aspects of ADA compliance and how to navigate the renovation process smoothly.</p>
 
-<p>We Build is a licensed general contractor in both North and South Carolina, a proud member of the USGBC, and brings over 60 years of combined experience to every project. Whether you're updating a storefront in NoDa or renovating office space in SouthPark, understanding and implementing ADA standards is paramount. Ignoring <b>ADA requirements commercial building</b> can lead to costly fines and negatively impact your business's reputation. We can also help you with design services at our <a href="/design-center">Design Center</a>, located at 14330 S Lakes Drive, Charlotte NC 28273. Call us at (704) 574-8124.</p>
+<p>We Build is a licensed general contractor in both North and South Carolina, a proud member of the USGBC, and brings over 60 years of combined experience to every project. Whether you're updating a storefront in NoDa or renovating office space in SouthPark, understanding and implementing ADA standards is paramount. Ignoring <b>ADA requirements commercial building</b> can lead to costly fines and negatively impact your business's reputation. We can also help you with design services at our <a href="/design-center">Design Center</a>, located at 14330 S Lakes Drive, Charlotte NC 28273. Call us at (562) 708-6616.</p>
 
 <h2>Understanding the ADA and its Impact on Charlotte Businesses</h2>
 
@@ -3156,7 +3156,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>Beyond avoiding potential lawsuits and fines, prioritizing accessibility reflects a commitment to social responsibility and inclusivity. In a diverse city like Charlotte, catering to individuals with disabilities showcases your business's values and fosters a positive image.</p>
 
-<p>Ready to ensure your Charlotte business meets ADA standards? Contact We Build today for a consultation. Our experienced team is ready to help you navigate the complexities of <b>ADA compliance commercial renovation</b>. Call us today at (704) 574-8124 or <a href="/contact">contact us</a> online to discuss your project and receive a free quote. We look forward to helping you create a welcoming and accessible environment for everyone.</p>`,
+<p>Ready to ensure your Charlotte business meets ADA standards? Contact We Build today for a consultation. Our experienced team is ready to help you navigate the complexities of <b>ADA compliance commercial renovation</b>. Call us today at (562) 708-6616 or <a href="/contact">contact us</a> online to discuss your project and receive a free quote. We look forward to helping you create a welcoming and accessible environment for everyone.</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -3228,7 +3228,7 @@ const phase2aPosts: BlogPost[] = [
 <p>Before making a decision, consult with experienced professionals like We Build to assess your specific needs and explore your options. Our <b>commercial renovation Charlotte</b> experts can provide valuable insights and help you make an informed choice.</p>
 
 <h2>We Build: Your Partner in Commercial Construction in Charlotte</h2>
-<p>Choosing between <b>commercial remodeling vs new construction</b> is a crucial decision that impacts your business's future. At We Build, we bring over 60 years of combined experience in the Charlotte, NC and SC area to every project. As a licensed general contractor and USGBC member, we are committed to delivering high-quality construction services that meet your unique needs and budget. Whether you're looking to revitalize your existing space with a <b>commercial upfit</b> or build a brand-new facility, we have the expertise and resources to make your vision a reality. We encourage you to visit our <a href="/design-center">Design Center</a> located at 14330 S Lakes Drive, Charlotte NC 28273, or <a href="/contact">contact us</a> today at (704) 574-8124 to discuss your project. Let We Build be your trusted partner in building your business's future!</p>`,
+<p>Choosing between <b>commercial remodeling vs new construction</b> is a crucial decision that impacts your business's future. At We Build, we bring over 60 years of combined experience in the Charlotte, NC and SC area to every project. As a licensed general contractor and USGBC member, we are committed to delivering high-quality construction services that meet your unique needs and budget. Whether you're looking to revitalize your existing space with a <b>commercial upfit</b> or build a brand-new facility, we have the expertise and resources to make your vision a reality. We encourage you to visit our <a href="/design-center">Design Center</a> located at 14330 S Lakes Drive, Charlotte NC 28273, or <a href="/contact">contact us</a> today at (562) 708-6616 to discuss your project. Let We Build be your trusted partner in building your business's future!</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -3298,7 +3298,7 @@ const phase2aPosts: BlogPost[] = [
 <p>Careful planning and execution can help you minimize disruptions and ensure a smooth and successful <b>office layout renovation</b>.</p>
 
 <h2>Ready to Transform Your Charlotte Office Space?</h2>
-<p>An <b>open concept office upfit</b> can be a game-changer for your Charlotte business, fostering collaboration, boosting employee morale, and creating a more attractive and productive work environment. If you're ready to explore the possibilities of an <b>open concept office design Charlotte</b>, contact We Build today. With our 60+ years of combined experience, local expertise, and commitment to quality, we can help you create a workspace that reflects your brand and supports your business goals. Call us at (704) 574-8124 or visit our <a href="/contact">contact page</a> to schedule a consultation. Let We Build help you build your vision in Charlotte!</p>`,
+<p>An <b>open concept office upfit</b> can be a game-changer for your Charlotte business, fostering collaboration, boosting employee morale, and creating a more attractive and productive work environment. If you're ready to explore the possibilities of an <b>open concept office design Charlotte</b>, contact We Build today. With our 60+ years of combined experience, local expertise, and commitment to quality, we can help you create a workspace that reflects your brand and supports your business goals. Call us at (562) 708-6616 or visit our <a href="/contact">contact page</a> to schedule a consultation. Let We Build help you build your vision in Charlotte!</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -3430,7 +3430,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>At We Build, we understand the complexities of <b>phased construction commercial renovation</b>. With our 60+ years of combined experience and deep roots in the Charlotte community, we're well-equipped to handle even the most challenging projects. As a licensed general contractor in both NC and SC, and a proud member of the USGBC, we bring expertise, integrity, and a commitment to sustainability to every project. Whether you're planning a simple refresh or a major overhaul, we can help you <b>renovate while open</b> minimizing downtime and maximizing your return on investment. If you're interested in our other services, like <a href="/services/commercial-construction">commercial construction</a>, <a href="/services/design-build">design-build</a>, or <a href="/we-coat">roof coating</a>, please see our services pages.</p>
 
-<p>Ready to discuss your <b>phased construction commercial renovation</b> project? Contact We Build today for a consultation. Let us help you transform your business space without disrupting your operations. Give us a call at (704) 574-8124 or <a href="/contact">contact us online</a> to schedule a consultation and discover how we can bring your vision to life while keeping your business thriving. We look forward to hearing from you!</p>`,
+<p>Ready to discuss your <b>phased construction commercial renovation</b> project? Contact We Build today for a consultation. Let us help you transform your business space without disrupting your operations. Give us a call at (562) 708-6616 or <a href="/contact">contact us online</a> to schedule a consultation and discover how we can bring your vision to life while keeping your business thriving. We look forward to hearing from you!</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -3478,7 +3478,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>We understand the unique needs of salon and spa owners and are committed to providing exceptional service and craftsmanship. Whether you're planning a new salon build-out or a renovation of an existing space, we can help you create a beautiful and functional environment that meets your needs and exceeds your expectations. We can service your project, whether you're in the heart of Charlotte or in surrounding areas like Concord and Gastonia.</p>
 
-<p>Ready to transform your salon vision into reality? Contact We Build today for a consultation. We'll discuss your project goals, answer your questions, and provide a detailed proposal tailored to your specific needs. Call us at (704) 574-8124 or visit our <a href="/services/commercial-upfits">commercial upfit service page</a> to learn more. Let We Build bring your dream salon to life in Charlotte!</p>`,
+<p>Ready to transform your salon vision into reality? Contact We Build today for a consultation. We'll discuss your project goals, answer your questions, and provide a detailed proposal tailored to your specific needs. Call us at (562) 708-6616 or visit our <a href="/services/commercial-upfits">commercial upfit service page</a> to learn more. Let We Build bring your dream salon to life in Charlotte!</p>`,
     date: '2026-03-21',
     category: "Commercial Construction",
     categorySlug: 'commercial-construction',
@@ -3548,7 +3548,7 @@ const phase2aPosts: BlogPost[] = [
 <p>Throughout the process, it's important to maintain open communication with your builder and address any concerns promptly.</p>
 
 <h2>Ready to Build Your Dream Home in Charlotte?</h2>
-<p>Choosing the right <strong>custom home builder Charlotte NC</strong> is an essential step in <strong>build a house Charlotte NC</strong>. By following these steps, you can increase your chances of finding a builder who will bring your vision to life and create a home you'll love for years to come. We Build is a veteran and family-owned, licensed general contractor serving Charlotte, NC and the surrounding areas. We're committed to providing exceptional quality and customer service. Contact us today at (704) 574-8124 to discuss your project and learn how we can help you <strong>build a house Charlotte</strong>. Visit our <a href="/contact">contact page</a> or call us to schedule a consultation and let's start building your dream together!</p>`,
+<p>Choosing the right <strong>custom home builder Charlotte NC</strong> is an essential step in <strong>build a house Charlotte NC</strong>. By following these steps, you can increase your chances of finding a builder who will bring your vision to life and create a home you'll love for years to come. We Build is a veteran and family-owned, licensed general contractor serving Charlotte, NC and the surrounding areas. We're committed to providing exceptional quality and customer service. Contact us today at (562) 708-6616 to discuss your project and learn how we can help you <strong>build a house Charlotte</strong>. Visit our <a href="/contact">contact page</a> or call us to schedule a consultation and let's start building your dream together!</p>`,
     date: '2026-03-21',
     category: "Residential",
     categorySlug: 'residential',
@@ -3678,7 +3678,7 @@ const phase2aPosts: BlogPost[] = [
  <li><b>Communicate Clearly:</b> Maintain open communication with your contractor throughout the project to address any concerns and ensure the project stays on track. Visit our <a href="/design-center">Design Center</a> located at 14330 S Lakes Drive, Charlotte NC 28273.</li>
 </ul>
 
-<p>Understanding the <b>home addition cost Charlotte NC</b> is the first step towards realizing your dream home. Contact We Build today at (704) 574-8124 to discuss your project and get a free consultation. Our experienced team is ready to help you transform your Charlotte home with a seamless and stress-free addition. We're committed to providing quality craftsmanship and exceptional customer service. Let We Build bring your vision to life! <a href="/contact">Contact us today</a>.</p>`,
+<p>Understanding the <b>home addition cost Charlotte NC</b> is the first step towards realizing your dream home. Contact We Build today at (562) 708-6616 to discuss your project and get a free consultation. Our experienced team is ready to help you transform your Charlotte home with a seamless and stress-free addition. We're committed to providing quality craftsmanship and exceptional customer service. Let We Build bring your vision to life! <a href="/contact">Contact us today</a>.</p>`,
     date: '2026-03-21',
     category: "Residential",
     categorySlug: 'residential',
@@ -3746,7 +3746,7 @@ const phase2aPosts: BlogPost[] = [
 </ul>
 
 <h2>Ready to Get Started on Your In-Law Suite Addition?</h2>
-<p>Adding an <strong>in-law suite addition Charlotte</strong> is a significant investment that can enhance your lifestyle and property value. By carefully planning, budgeting, and choosing the right contractor, you can create a comfortable and functional living space for your loved ones or generate rental income. Contact We Build today at (704) 574-8124 for a consultation and let us help you bring your vision to life! We can also assist with your <a href="/services/residential-additions">residential additions</a> and other <a href="/services/custom-home-builder">custom home builder</a> needs. Check out our <a href="/contact">contact</a> page to get started.</p>`,
+<p>Adding an <strong>in-law suite addition Charlotte</strong> is a significant investment that can enhance your lifestyle and property value. By carefully planning, budgeting, and choosing the right contractor, you can create a comfortable and functional living space for your loved ones or generate rental income. Contact We Build today at (562) 708-6616 for a consultation and let us help you bring your vision to life! We can also assist with your <a href="/services/residential-additions">residential additions</a> and other <a href="/services/custom-home-builder">custom home builder</a> needs. Check out our <a href="/contact">contact</a> page to get started.</p>`,
     date: '2026-03-21',
     category: "Residential",
     categorySlug: 'residential',
@@ -3801,7 +3801,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>Building on your own lot in Charlotte NC is a rewarding experience that allows you to create a home that perfectly reflects your style and needs. By following these steps and working with experienced professionals, you can turn your dream into reality. From land and build Charlotte options to custom home designs, the possibilities are endless.</p>
 
-<p>Ready to start building on your own lot in Charlotte? Contact We Build today at (704) 574-8124 for a consultation. We'll guide you through every step of the process, from initial design to final completion, ensuring a seamless and stress-free experience. Let us help you build the home of your dreams!</p>`,
+<p>Ready to start building on your own lot in Charlotte? Contact We Build today at (562) 708-6616 for a consultation. We'll guide you through every step of the process, from initial design to final completion, ensuring a seamless and stress-free experience. Let us help you build the home of your dreams!</p>`,
     date: '2026-03-21',
     category: "Residential",
     categorySlug: 'residential',
@@ -3958,7 +3958,7 @@ const phase2aPosts: BlogPost[] = [
  <li><b>Clear Communication:</b> A contractor who communicates clearly and responds promptly to your questions.</li>
  <li><b>Detailed Estimates:</b> A comprehensive and transparent estimate that outlines all costs.</li>
 </ul>
-<p>We Build is a veteran and family-owned construction company with 60+ years of combined experience serving the Charlotte area. We are committed to providing high-quality workmanship and exceptional customer service. If you're ready to discuss your <b>bathroom renovation cost Charlotte NC</b> and turn your dream bathroom into a reality, <a href="/contact">contact us</a> today at (704) 574-8124 for a consultation! We'll work with you to create a bathroom that meets your needs and exceeds your expectations.</p>`,
+<p>We Build is a veteran and family-owned construction company with 60+ years of combined experience serving the Charlotte area. We are committed to providing high-quality workmanship and exceptional customer service. If you're ready to discuss your <b>bathroom renovation cost Charlotte NC</b> and turn your dream bathroom into a reality, <a href="/contact">contact us</a> today at (562) 708-6616 for a consultation! We'll work with you to create a bathroom that meets your needs and exceeds your expectations.</p>`,
     date: '2026-03-21',
     category: "Residential",
     categorySlug: 'residential',
@@ -4007,7 +4007,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>Remember to visit our <a href="/design-center">Design Center</a> located at 14330 S Lakes Drive, Charlotte NC 28273 to get inspired and discuss your project in person.</p>
 
-<p>Ready to transform your Charlotte home? Contact We Build today for a free consultation. We're a veteran and family-owned construction company with over 60 years of combined experience, dedicated to providing exceptional craftsmanship and customer service. Let us help you create the home of your dreams. Call us at (704) 574-8124 or <a href="/contact">reach out via our website</a>.</p>`,
+<p>Ready to transform your Charlotte home? Contact We Build today for a free consultation. We're a veteran and family-owned construction company with over 60 years of combined experience, dedicated to providing exceptional craftsmanship and customer service. Let us help you create the home of your dreams. Call us at (562) 708-6616 or <a href="/contact">reach out via our website</a>.</p>`,
     date: '2026-03-21',
     category: "Residential",
     categorySlug: 'residential',
@@ -4055,7 +4055,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>Choosing the Right Contractor for Your Sunroom Addition</h2>
 <p>Selecting the right contractor is crucial to the success of your sunroom project. Look for a licensed and insured contractor with experience in building sunrooms and residential additions in the Charlotte area. Check their references, read online reviews, and ask to see examples of their previous work. A contractor who is familiar with local building codes and regulations will ensure a smooth and hassle-free construction process. We Build is a veteran and family-owned construction company with over 60 years of combined experience, serving Charlotte and surrounding areas. As a licensed general contractor in NC & SC, and a USGBC member, we are committed to delivering quality workmanship and exceptional customer service. We invite you to visit our <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273 to discuss your project in person.</p>
 
-<p>Ready to transform your Charlotte home with a beautiful and functional sunroom addition? We Build is here to help! Contact us today at (704) 574-8124 for a free consultation and estimate. Let us bring your vision to life and create a stunning sunroom that you and your family will enjoy for years to come. Check out our <a href="/services/residential-additions">Residential Additions</a> page for more information.</p>`,
+<p>Ready to transform your Charlotte home with a beautiful and functional sunroom addition? We Build is here to help! Contact us today at (562) 708-6616 for a free consultation and estimate. Let us bring your vision to life and create a stunning sunroom that you and your family will enjoy for years to come. Check out our <a href="/services/residential-additions">Residential Additions</a> page for more information.</p>`,
     date: '2026-03-21',
     category: "Residential",
     categorySlug: 'residential',
@@ -4109,7 +4109,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>Remember to thoroughly vet any contractor or subcontractor you hire. Check their licenses, insurance, and references. A little research can save you a lot of headaches down the road. Whether you're planning a major commercial upfit or a small residential addition, understanding the roles of a <strong>general contractor vs subcontractor</strong> is the first step towards a successful project.</p>
 
-<p>Ready to discuss your next project in the Charlotte area? Contact We Build today at (704) 574-8124 or <a href="/contact">reach out online</a>. We're a veteran and family-owned company with over 60 years of combined experience, dedicated to providing quality construction services throughout Charlotte and the surrounding areas. We look forward to hearing from you!</p>`,
+<p>Ready to discuss your next project in the Charlotte area? Contact We Build today at (562) 708-6616 or <a href="/contact">reach out online</a>. We're a veteran and family-owned company with over 60 years of combined experience, dedicated to providing quality construction services throughout Charlotte and the surrounding areas. We look forward to hearing from you!</p>`,
     date: '2026-03-21',
     category: "Residential",
     categorySlug: 'residential',
@@ -4160,7 +4160,7 @@ const phase2aPosts: BlogPost[] = [
 <h3>We Build: Your Trusted Partner in Charlotte</h3>
 <p>We Build is a <b>veteran-owned contractor Charlotte</b> with a proven track record of delivering high-quality construction services. We are committed to exceeding your expectations and building lasting relationships. We're not just building structures; we're building trust, one project at a time.</p>
 
-<p>Ready to discuss your project? <a href="/contact">Contact We Build today</a> for a free consultation. Let us show you why we're the preferred <b>general contractor in Charlotte NC</b> for discerning clients. Call us at (704) 574-8124 or visit our Design Center at 14330 S Lakes Drive, Charlotte NC 28273 to get started. We look forward to hearing from you!</p>`,
+<p>Ready to discuss your project? <a href="/contact">Contact We Build today</a> for a free consultation. Let us show you why we're the preferred <b>general contractor in Charlotte NC</b> for discerning clients. Call us at (562) 708-6616 or visit our Design Center at 14330 S Lakes Drive, Charlotte NC 28273 to get started. We look forward to hearing from you!</p>`,
     date: '2026-03-21',
     category: "Construction Tips",
     categorySlug: 'construction-tips',
@@ -4220,7 +4220,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>We Build: Your Trusted Partner in Charlotte Construction</h2>
 <p>Choosing the right contractor is a big decision, but taking the time to <b>verify contractor license North Carolina</b> can save you significant headaches down the road. By following the steps outlined above, you can confidently select a qualified and reputable contractor for your project.</p>
 
-<p>At We Build, we understand the importance of trust and transparency. We are a veteran and family-owned construction company serving Charlotte, NC, and the surrounding areas. As a licensed general contractor in NC & SC and a USGBC member, we are committed to providing exceptional quality and service. We invite you to <a href="/contact">contact us</a> today to discuss your project. Visit our <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273, or call us at (704) 574-8124 to learn more about how We Build can bring your vision to life.</p>`,
+<p>At We Build, we understand the importance of trust and transparency. We are a veteran and family-owned construction company serving Charlotte, NC, and the surrounding areas. As a licensed general contractor in NC & SC and a USGBC member, we are committed to providing exceptional quality and service. We invite you to <a href="/contact">contact us</a> today to discuss your project. Visit our <a href="/design-center">Design Center</a> at 14330 S Lakes Drive, Charlotte NC 28273, or call us at (562) 708-6616 to learn more about how We Build can bring your vision to life.</p>`,
     date: '2026-03-21',
     category: "Construction Tips",
     categorySlug: 'construction-tips',
@@ -4263,7 +4263,7 @@ const phase2aPosts: BlogPost[] = [
 <p>Selecting the right <b>project management contractor</b> is a critical decision. Look for a company with a proven track record, strong communication skills, and a commitment to quality. Check references, review past projects, and ensure they have the experience and expertise to handle your specific type of construction project. A local contractor like We Build understands the unique challenges and opportunities presented by the Charlotte market. Contacting contractors for initial quotes can help you determine which contractor can keep construction on budget while fulfilling your requirements. </p>
 
 <h2>Ready to Start Your Next Construction Project?</h2>
-<p>Effective <b>construction project management</b> is crucial for a successful outcome. Whether you’re planning a commercial renovation, a custom home build, or a simple roof coating for your Charlotte business with our <a href="/we-coat">We Coat</a> division, We Build has the expertise and experience to deliver exceptional results. <a href="/contact">Contact us</a> today to discuss your project and learn how we can help bring your vision to life. Our Design Center is located at 14330 S Lakes Drive, Charlotte NC 28273. Give us a call at (704) 574-8124.</p>`,
+<p>Effective <b>construction project management</b> is crucial for a successful outcome. Whether you’re planning a commercial renovation, a custom home build, or a simple roof coating for your Charlotte business with our <a href="/we-coat">We Coat</a> division, We Build has the expertise and experience to deliver exceptional results. <a href="/contact">Contact us</a> today to discuss your project and learn how we can help bring your vision to life. Our Design Center is located at 14330 S Lakes Drive, Charlotte NC 28273. Give us a call at (562) 708-6616.</p>`,
     date: '2026-03-21',
     category: "Construction Tips",
     categorySlug: 'construction-tips',
@@ -4324,7 +4324,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>Finding the Right Fit in Charlotte</h2>
 <p>Finding a good contractor Charlotte requires research and diligence. By being aware of the red flags and looking for the green flags, you can increase your chances of a successful project. Remember to verify licenses, check references, and read reviews. A little effort upfront can save you a lot of headaches down the road.</p>
 
-<p>Ready to start your project? At We Build, a veteran and family-owned construction company in Charlotte, NC, we pride ourselves on our commitment to quality, integrity, and customer satisfaction. As a licensed general contractor in NC & SC and a USGBC member, with 60+ years of combined experience, we offer a full range of services, including commercial construction, commercial upfits, custom home building, residential additions, and roof coating through our We Coat division. <a href="/contact">Contact us today</a> at (704) 574-8124 to discuss your project and see how we can help bring your vision to life.</p>`,
+<p>Ready to start your project? At We Build, a veteran and family-owned construction company in Charlotte, NC, we pride ourselves on our commitment to quality, integrity, and customer satisfaction. As a licensed general contractor in NC & SC and a USGBC member, with 60+ years of combined experience, we offer a full range of services, including commercial construction, commercial upfits, custom home building, residential additions, and roof coating through our We Coat division. <a href="/contact">Contact us today</a> at (562) 708-6616 to discuss your project and see how we can help bring your vision to life.</p>`,
     date: '2026-03-21',
     category: "Construction Tips",
     categorySlug: 'construction-tips',
@@ -4371,7 +4371,7 @@ const phase2aPosts: BlogPost[] = [
 </ul>
 
 <h2>Protecting Your Investment in Charlotte with We Build</h2>
-<p>Choosing the right <strong>construction insurance contractor</strong> in Charlotte, NC is a critical step in ensuring the success and security of your project. At We Build, we understand the importance of comprehensive insurance coverage and are committed to providing our clients with peace of mind. We maintain all necessary insurance policies and are happy to provide you with proof of coverage upon request. Whether you are planning a commercial renovation, like a <a href="/services/commercial-upfits">commercial upfit</a>, a residential addition, or a new construction project, working with an experienced and properly insured contractor is essential. Visit our <a href="/design-center">Design Center</a> located at 14330 S Lakes Drive, Charlotte NC 28273 or give us a call at (704) 574-8124 to discuss your project needs. We Build is here to help you build with confidence. We also offer <a href="/services/design-build">design-build</a> services, streamlining the entire process from conception to completion.</p>
+<p>Choosing the right <strong>construction insurance contractor</strong> in Charlotte, NC is a critical step in ensuring the success and security of your project. At We Build, we understand the importance of comprehensive insurance coverage and are committed to providing our clients with peace of mind. We maintain all necessary insurance policies and are happy to provide you with proof of coverage upon request. Whether you are planning a commercial renovation, like a <a href="/services/commercial-upfits">commercial upfit</a>, a residential addition, or a new construction project, working with an experienced and properly insured contractor is essential. Visit our <a href="/design-center">Design Center</a> located at 14330 S Lakes Drive, Charlotte NC 28273 or give us a call at (562) 708-6616 to discuss your project needs. We Build is here to help you build with confidence. We also offer <a href="/services/design-build">design-build</a> services, streamlining the entire process from conception to completion.</p>
 
 <p>Ready to build with confidence? <a href="/contact">Contact We Build today</a> for a consultation on your next construction project in Charlotte. We prioritize protecting your investment and ensuring a smooth, successful build, backed by comprehensive insurance and decades of experience.</p>`,
     date: '2026-03-21',
@@ -4432,7 +4432,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>We Build offers both design-build and traditional construction services. If you're unsure which approach is right for your project, our team can provide expert guidance and help you make an informed decision. We are a licensed general contractor in both NC and SC, a USGBC member, and bring 60+ years of combined experience to every project. Explore our <a href="/services/design-build">design-build services</a> to learn more.</p>
 
-<p>Ready to discuss your next construction project in Charlotte? Contact We Build today at (704) 574-8124 or <a href="/contact">reach out online</a> to schedule a consultation. Let our experienced team help you bring your vision to life with quality craftsmanship and exceptional service.</p>`,
+<p>Ready to discuss your next construction project in Charlotte? Contact We Build today at (562) 708-6616 or <a href="/contact">reach out online</a> to schedule a consultation. Let our experienced team help you bring your vision to life with quality craftsmanship and exceptional service.</p>`,
     date: '2026-03-21',
     category: "Construction Tips",
     categorySlug: 'construction-tips',
@@ -4485,7 +4485,7 @@ const phase2aPosts: BlogPost[] = [
 
 <h2>Start Your Project with We Build's Design Center</h2>
 <p>Whether you're building a custom home in Myers Park, renovating a commercial space in South End, or adding an addition to your home in Ballantyne, the We Build design center is here to guide you. With a dedication to client satisfaction and quality craftsmanship, We Build is your trusted partner for all your construction needs in Charlotte, NC, and beyond. With over 60 years of combined experience as a veteran and family-owned business, we bring expertise to every project. From the initial design phase to the final touches, our team is committed to delivering exceptional results.</p>
-<p>Ready to experience the difference that a comprehensive design center can make? <a href="/contact">Contact We Build</a> today at (704) 574-8124 to schedule a consultation and explore the possibilities for your next project. We are a licensed general contractor in both North and South Carolina, and we are proud members of the USGBC, offering <a href="/services/design-build">design-build</a> services for sustainable and efficient construction.</p>`,
+<p>Ready to experience the difference that a comprehensive design center can make? <a href="/contact">Contact We Build</a> today at (562) 708-6616 to schedule a consultation and explore the possibilities for your next project. We are a licensed general contractor in both North and South Carolina, and we are proud members of the USGBC, offering <a href="/services/design-build">design-build</a> services for sustainable and efficient construction.</p>`,
     date: '2026-03-21',
     category: "Design Center",
     categorySlug: 'design-center',
@@ -4545,7 +4545,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>We Build: Your Partner in Material Selection Construction</h2>
 <p><b>Material selection construction</b> is a critical step in any project. We Build is here to guide you through the process, offering expert advice and a wide selection of high-quality materials at our <a href="/design-center">Design Center</a>. Whether you're building a custom home in Ballantyne or renovating a commercial space in Uptown Charlotte, we have the experience and expertise to bring your vision to life.</p>
 
-<p>Ready to start your project? Contact We Build today at (704) 574-8124 or <a href="/contact">contact us online</a> for a consultation. Let our 60+ years of combined experience and veteran-owned dedication ensure your project's success. We also offer <a href="/services/design-build">design-build</a> services to make your construction process as easy as possible.</p>`,
+<p>Ready to start your project? Contact We Build today at (562) 708-6616 or <a href="/contact">contact us online</a> for a consultation. Let our 60+ years of combined experience and veteran-owned dedication ensure your project's success. We also offer <a href="/services/design-build">design-build</a> services to make your construction process as easy as possible.</p>`,
     date: '2026-03-21',
     category: "Design Center",
     categorySlug: 'design-center',
@@ -4604,7 +4604,7 @@ const phase2aPosts: BlogPost[] = [
 
 <h2>Ready to Protect Your School's Roof?</h2>
 
-<p>Investing in <strong>roof coating for schools in Charlotte NC</strong> is a smart way to protect your investment, reduce energy costs, and ensure the safety of your students and staff. With our experience and commitment to quality, We Build is the trusted choice for school roof restoration in the Charlotte area. Contact us today at (704) 574-8124 to schedule a free consultation and learn how we can help you extend the life of your school's roof. Visit our <a href="/contact">contact page</a> today!</p>`,
+<p>Investing in <strong>roof coating for schools in Charlotte NC</strong> is a smart way to protect your investment, reduce energy costs, and ensure the safety of your students and staff. With our experience and commitment to quality, We Build is the trusted choice for school roof restoration in the Charlotte area. Contact us today at (562) 708-6616 to schedule a free consultation and learn how we can help you extend the life of your school's roof. Visit our <a href="/contact">contact page</a> today!</p>`,
     date: '2026-03-21',
     category: "Roof Coating",
     categorySlug: 'roof-coating',
@@ -4666,7 +4666,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>Protect Your Investment with Metal Roof Sealant in Charlotte</h2>
 <p>In addition to coatings, using a high-quality <strong>metal roof sealant Charlotte</strong> is important to ensure weather tightness. Sealants prevent water from entering at seams and around fasteners. Properly applied sealant is key for long-lasting protection against Charlotte's weather conditions. You can count on the expert applicators at We Build to apply the proper sealant with your <strong>metal roof coating Charlotte NC</strong>, giving you peace of mind.</p>
 
-<p>Ready to protect and extend the life of your metal roof? Contact We Build today for a free consultation. We'll assess your needs and provide you with a customized solution that fits your budget. Give us a call at (704) 574-8124, or visit our <a href="/contact">contact page</a> to schedule an appointment. Let We Build be your partner in maintaining the integrity of your Charlotte-area property. Learn more about our roof coating services on our <a href="/services/roof-coating">roof coating service page</a>.</p>`,
+<p>Ready to protect and extend the life of your metal roof? Contact We Build today for a free consultation. We'll assess your needs and provide you with a customized solution that fits your budget. Give us a call at (562) 708-6616, or visit our <a href="/contact">contact page</a> to schedule an appointment. Let We Build be your partner in maintaining the integrity of your Charlotte-area property. Learn more about our roof coating services on our <a href="/services/roof-coating">roof coating service page</a>.</p>`,
     date: '2026-03-21',
     category: "Roof Coating",
     categorySlug: 'roof-coating',
@@ -4722,7 +4722,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>Getting a Professional Commercial Roof Assessment in Charlotte</h2>
 <p>While this <b>commercial roof inspection checklist</b> can help you identify potential problems, it's always best to consult with a professional roofing contractor for a thorough assessment. We Build offers comprehensive commercial roof inspections in Charlotte, NC, and surrounding areas. Our experienced team can identify hidden issues and provide expert advice on the best course of action. With 60+ years of combined experience, we understand the unique challenges of commercial roofing in the Carolinas.</p>
 
-<p>Contact us today for a free consultation and to schedule your <b>commercial roof assessment</b>. Let We Build help you protect your investment and ensure the longevity of your commercial roof. Visit our <a href="/contact">Contact page</a> or give us a call at (704) 574-8124 to schedule your consultation today!</p>`,
+<p>Contact us today for a free consultation and to schedule your <b>commercial roof assessment</b>. Let We Build help you protect your investment and ensure the longevity of your commercial roof. Visit our <a href="/contact">Contact page</a> or give us a call at (562) 708-6616 to schedule your consultation today!</p>`,
     date: '2026-03-21',
     category: "Roof Coating",
     categorySlug: 'roof-coating',
@@ -4784,7 +4784,7 @@ const phase2aPosts: BlogPost[] = [
  <li>Provides a clear and comprehensive warranty that covers both materials and workmanship.</li>
  <li>Has a strong reputation and positive customer reviews. Check references!</li>
 </ul>
-<p>As a USGBC member and a veteran and family-owned construction company, <a href="/contact">We Build</a> is committed to providing quality roof coating services to the Charlotte community. We understand the importance of a solid <b>roof coating warranty</b> and work diligently to ensure our customers are fully protected. If you are ready to start your commercial upfit project with We Build, please visit our <a href="/design-center">Design Center</a> located at 14330 S Lakes Drive, Charlotte NC 28273. Feel free to give us a call at (704) 574-8124 or <a href="/contact">contact us</a> through our website for any questions you may have. Let us help you safeguard your investment with a reliable roof coating and a warranty you can trust.</p>`,
+<p>As a USGBC member and a veteran and family-owned construction company, <a href="/contact">We Build</a> is committed to providing quality roof coating services to the Charlotte community. We understand the importance of a solid <b>roof coating warranty</b> and work diligently to ensure our customers are fully protected. If you are ready to start your commercial upfit project with We Build, please visit our <a href="/design-center">Design Center</a> located at 14330 S Lakes Drive, Charlotte NC 28273. Feel free to give us a call at (562) 708-6616 or <a href="/contact">contact us</a> through our website for any questions you may have. Let us help you safeguard your investment with a reliable roof coating and a warranty you can trust.</p>`,
     date: '2026-03-21',
     category: "Roof Coating",
     categorySlug: 'roof-coating',
@@ -4848,7 +4848,7 @@ const phase2aPosts: BlogPost[] = [
  <li><b>Polyurethane Coatings:</b> Polyurethane coatings offer excellent durability and chemical resistance. They are suitable for a wide range of climates but may require specialized application techniques.</li>
 </ul>
 
-<p>Our team at We Build can help you select the most appropriate roof coating for your specific needs and property, taking into account factors such as roof type, building usage, and budget. Did you know our Design Center is located in Charlotte at 14330 S Lakes Drive, Charlotte NC 28273? Give us a call at (704) 574-8124 to schedule a consultation.</p>
+<p>Our team at We Build can help you select the most appropriate roof coating for your specific needs and property, taking into account factors such as roof type, building usage, and budget. Did you know our Design Center is located in Charlotte at 14330 S Lakes Drive, Charlotte NC 28273? Give us a call at (562) 708-6616 to schedule a consultation.</p>
 
 <h2>Ensuring a Successful Roof Coating Project with We Build</h2>
 
@@ -4955,7 +4955,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>Ready to Get Started on Your Fort Mill Project?</h2>
 <p>Choosing the right <b>general contractor Fort Mill SC</b> is a critical decision that can significantly impact the success of your construction project. At We Build, we're committed to providing our clients with exceptional service, quality craftsmanship, and transparent communication. We understand the unique challenges and opportunities of building in Fort Mill and York County, and we're confident that we can deliver outstanding results for your project.</p>
 
-<p>Contact We Build today for a consultation. You can reach us at (704) 574-8124 or <a href="/contact">contact us</a> through our website to discuss your project and learn how we can help you bring your vision to life. Our Design Center is located at 14330 S Lakes Drive, Charlotte NC 28273. We look forward to hearing from you!</p>`,
+<p>Contact We Build today for a consultation. You can reach us at (562) 708-6616 or <a href="/contact">contact us</a> through our website to discuss your project and learn how we can help you bring your vision to life. Our Design Center is located at 14330 S Lakes Drive, Charlotte NC 28273. We look forward to hearing from you!</p>`,
     date: '2026-03-21',
     category: "Charlotte Area",
     categorySlug: 'charlotte-area',
@@ -5003,7 +5003,7 @@ const phase2aPosts: BlogPost[] = [
 
 <p>We Build is more than just a construction company; we are a part of the Lake Norman community. We are committed to giving back to the community through charitable donations and volunteer work. We believe in building strong relationships with our clients, subcontractors, and suppliers. Our goal is to be the <b>Lake Norman construction company</b> that you can trust for all your construction needs, now and in the future.</p>
 
-<p>Whether you're in The Peninsula, near Birkdale Village, or closer to downtown Mooresville, we are ready to help you. Contact us today at (704) 574-8124 to discuss your project and learn more about how We Build can bring your vision to life. Let's build something amazing together in Lake Norman!</p>
+<p>Whether you're in The Peninsula, near Birkdale Village, or closer to downtown Mooresville, we are ready to help you. Contact us today at (562) 708-6616 to discuss your project and learn more about how We Build can bring your vision to life. Let's build something amazing together in Lake Norman!</p>
 
 <p>Ready to get started on your Lake Norman construction or remodeling project? <a href="/contact">Contact We Build today</a> for a consultation. We're the <b>Lake Norman construction company</b> you can trust to deliver exceptional results.</p>`,
     date: '2026-03-21',
@@ -5047,7 +5047,7 @@ const phase2aPosts: BlogPost[] = [
  <li><strong>Roof Coating:</strong> Protect your commercial roof with our durable and energy-efficient roof coating solutions through our We Coat division. Contact us for roof coating information on the <a href="/we-coat">We Coat</a> page.</li>
  <li><strong>Design-Build:</strong> Streamline your project with our integrated design-build approach, ensuring seamless coordination and efficient project delivery.</li>
 </ul>
-<p>We invite you to visit our Design Center, conveniently located at 14330 S Lakes Drive, Charlotte NC 28273. Seeing our work and meeting our team in person can help you visualize the possibilities for your project. We are committed to providing top-notch customer service. If you'd prefer to call us, reach out to (704) 574-8124.</p>
+<p>We invite you to visit our Design Center, conveniently located at 14330 S Lakes Drive, Charlotte NC 28273. Seeing our work and meeting our team in person can help you visualize the possibilities for your project. We are committed to providing top-notch customer service. If you'd prefer to call us, reach out to (562) 708-6616.</p>
 
 <h2>Start Your Huntersville Construction Project Today!</h2>
 <p>Choosing the right <strong>contractor Huntersville NC</strong> is a critical decision that can significantly impact the success of your project. With We Build, you can rest assured that you're partnering with a reputable, experienced, and reliable team committed to delivering exceptional results. <a href="/contact">Contact us</a> today to discuss your project and receive a free consultation. Let We Build bring your vision to life in Huntersville, NC!</p>`,
@@ -5095,7 +5095,7 @@ const phase2aPosts: BlogPost[] = [
 <h2>Protecting Your Investment: Roof Coating Services</h2>
 <p>Don't forget the importance of protecting your roof. Our We Coat division offers professional roof coating services to extend the life of your roof and improve its energy efficiency. Whether you have a commercial building or a residential property in Matthews or Mint Hill, our roof coating solutions can save you money on energy costs and prevent costly repairs. Learn more by going to <a href="/we-coat">We Coat</a>.</p>
 
-<p>Ready to start your construction project in Matthews or Mint Hill? Contact We Build today for a consultation. We're committed to providing exceptional construction services with a focus on quality, integrity, and customer satisfaction. Give us a call at (704) 574-8124 or visit our <a href="/contact">contact page</a> to schedule a meeting. Let We Build be your trusted <strong>contractor Matthews NC</strong>!</p>`,
+<p>Ready to start your construction project in Matthews or Mint Hill? Contact We Build today for a consultation. We're committed to providing exceptional construction services with a focus on quality, integrity, and customer satisfaction. Give us a call at (562) 708-6616 or visit our <a href="/contact">contact page</a> to schedule a meeting. Let We Build be your trusted <strong>contractor Matthews NC</strong>!</p>`,
     date: '2026-03-21',
     category: "Charlotte Area",
     categorySlug: 'charlotte-area',
@@ -5196,7 +5196,7 @@ const phase2aPosts: BlogPost[] = [
  <li><b>Indoor Air Quality:</b> We use low-VOC paints, adhesives, and sealants to improve indoor air quality.</li>
 </ul>
 <p>From sustainable roof coatings from our <a href="/we-coat">We Coat division</a>, to general contracting, We Build has you covered.</p>
-<p>Ready to start your sustainable construction project in Charlotte, NC? Contact We Build today at (704) 574-8124 or <a href="/contact">contact us</a> through our website to learn more about our services and how we can help you create a healthier, more sustainable future.</p>`,
+<p>Ready to start your sustainable construction project in Charlotte, NC? Contact We Build today at (562) 708-6616 or <a href="/contact">contact us</a> through our website to learn more about our services and how we can help you create a healthier, more sustainable future.</p>`,
     date: '2026-03-21',
     category: "Green Building",
     categorySlug: 'green-building',
@@ -5894,7 +5894,7 @@ const commercialServicesPosts2: BlogPost[] = [
 <li>Brand standards compliance verified before materials are ordered</li>
 <li>ADA compliance review integrated into every project, not treated as an afterthought</li>
 </ul>
-<p>Whether you are opening a boutique in SouthPark, a flagship in South End, or a franchise location in Ballantyne, We Build delivers retail construction that gets you open on time and on budget. Contact us at (704) 574-8124 or visit our <a href="/contact">contact page</a> to discuss your project.</p>
+<p>Whether you are opening a boutique in SouthPark, a flagship in South End, or a franchise location in Ballantyne, We Build delivers retail construction that gets you open on time and on budget. Contact us at (562) 708-6616 or visit our <a href="/contact">contact page</a> to discuss your project.</p>
 `,
     date: '2026-03-22',
     category: 'Commercial Construction',

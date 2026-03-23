@@ -20,7 +20,6 @@ const navigation = {
     { name: 'Roof Coating', href: '/services/roof-coating' },
     { name: 'General Contractor', href: '/services/general-contractor' },
     { name: 'Custom Home Builder', href: '/services/custom-home-builder' },
-    { name: 'Residential Additions', href: '/services/residential-additions' },
   ],
   social: [
     { name: 'Instagram', href: 'https://www.instagram.com/webuildclt/', icon: Instagram },
@@ -114,11 +113,11 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:7045748124"
+                  href="tel:5627086616"
                   className="flex items-center gap-3 text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
                 >
                   <Phone className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
-                  (704) 574-8124
+                  (562) 708-6616
                 </a>
               </li>
               <li>

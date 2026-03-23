@@ -42,7 +42,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Green Building & Sustainable Construction Charlotte NC | USGBC Contractor',
   description:
-    'USGBC member green building contractor in Charlotte, NC. LEED construction, energy-efficient building, sustainable materials, water conservation, indoor air quality, and solar-ready construction. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'USGBC member green building contractor in Charlotte, NC. LEED construction, energy-efficient building, sustainable materials, water conservation, indoor air quality, and solar-ready construction. Veteran-owned, licensed in NC & SC. Free estimates. (562) 708-6616.',
   keywords: [
     'green building contractor Charlotte NC',
     'LEED construction Charlotte NC',
@@ -803,9 +803,9 @@ export default function GreenBuildingPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

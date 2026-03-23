@@ -6,7 +6,7 @@
 const BUSINESS = {
   name: 'We Build',
   url: 'https://webuildclt.com',
-  phone: '(704) 574-8124',
+  phone: '(562) 708-6616',
   email: 'designcenter@webuildclt.com',
   address: {
     street: '14330 S Lakes Drive',

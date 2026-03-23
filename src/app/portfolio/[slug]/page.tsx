@@ -233,9 +233,9 @@ export default async function ProjectPage({ params }: PageProps) {
                     <Link href="/contact">Get a Free Quote</Link>
                   </Button>
                   <Button variant="outline" className="w-full" asChild>
-                    <a href="tel:7045748124">
+                    <a href="tel:5627086616">
                       <Phone className="h-4 w-4 mr-2" />
-                      (704) 574-8124
+                      (562) 708-6616
                     </a>
                   </Button>
                 </div>

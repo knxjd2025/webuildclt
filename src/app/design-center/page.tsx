@@ -34,7 +34,7 @@ import {
 export const metadata: Metadata = {
   title: 'Design Center Charlotte NC | Construction Showroom & Material Selection',
   description:
-    'Visit the We Build Design Center in Charlotte, NC. Browse flooring, countertops, cabinetry, tile, fixtures & lighting. Hands-on material selection for commercial & residential construction. By appointment. (704) 574-8124.',
+    'Visit the We Build Design Center in Charlotte, NC. Browse flooring, countertops, cabinetry, tile, fixtures & lighting. Hands-on material selection for commercial & residential construction. By appointment. (562) 708-6616.',
   keywords: [
     'design center charlotte nc',
     'construction showroom charlotte',
@@ -114,7 +114,7 @@ const selectionSteps = [
     step: 1,
     title: 'Schedule Your Appointment',
     description:
-      'Contact us by phone at (704) 574-8124 or through our website to book your Design Center appointment. We schedule appointments Monday through Friday during business hours and can accommodate evening or weekend visits for clients with scheduling constraints. Each appointment is private, meaning you will have the full attention of our design team without competing for space with other clients.',
+      'Contact us by phone at (562) 708-6616 or through our website to book your Design Center appointment. We schedule appointments Monday through Friday during business hours and can accommodate evening or weekend visits for clients with scheduling constraints. Each appointment is private, meaning you will have the full attention of our design team without competing for space with other clients.',
   },
   {
     step: 2,
@@ -253,7 +253,7 @@ const faqs = [
   {
     question: 'Do I need an appointment to visit the Design Center?',
     answer:
-      'Yes, all Design Center visits are by appointment only. This ensures you receive private access to the showroom and the undivided attention of our design consultant during your visit. We schedule appointments Monday through Friday during business hours and can accommodate evening or weekend visits for clients with scheduling needs. Call (704) 574-8124 or use our online contact form to book your appointment.',
+      'Yes, all Design Center visits are by appointment only. This ensures you receive private access to the showroom and the undivided attention of our design consultant during your visit. We schedule appointments Monday through Friday during business hours and can accommodate evening or weekend visits for clients with scheduling needs. Call (562) 708-6616 or use our online contact form to book your appointment.',
   },
   {
     question: 'How long does a typical Design Center appointment take?',
@@ -392,9 +392,9 @@ export default function DesignCenterPage() {
                     className="w-full border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                     asChild
                   >
-                    <a href="tel:7045748124">
+                    <a href="tel:5627086616">
                       <Phone className="mr-2 h-4 w-4" aria-hidden="true" />
-                      (704) 574-8124
+                      (562) 708-6616
                     </a>
                   </Button>
                 </div>
@@ -819,9 +819,9 @@ export default function DesignCenterPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

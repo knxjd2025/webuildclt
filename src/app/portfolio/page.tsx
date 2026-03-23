@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   title:
     'Construction Portfolio Charlotte NC | Commercial & Residential Projects',
   description:
-    'Explore our construction portfolio featuring commercial upfits, custom homes, residential additions, and roof coating projects across Charlotte NC, Fort Mill SC, and Lake Norman. Veteran-owned. (704) 574-8124.',
+    'Explore our construction portfolio featuring commercial upfits, custom homes, residential additions, and roof coating projects across Charlotte NC, Fort Mill SC, and Lake Norman. Veteran-owned. (562) 708-6616.',
   keywords: [
     'construction portfolio charlotte nc',
     'commercial construction projects charlotte',
@@ -76,7 +76,7 @@ const faqs = [
   {
     question: 'Can I visit your completed projects or design center in person?',
     answer:
-      'Yes. We encourage prospective clients to visit our Design Center located at 14330 S Lakes Drive, Charlotte NC 28273. Our showroom features material samples, finish options, and examples of our craftsmanship. We can also arrange visits to select completed projects with homeowner or business owner permission. Additionally, our website features a Matterport virtual tour of our Design Center so you can explore our capabilities from home. Call us at (704) 574-8124 to schedule a visit.',
+      'Yes. We encourage prospective clients to visit our Design Center located at 14330 S Lakes Drive, Charlotte NC 28273. Our showroom features material samples, finish options, and examples of our craftsmanship. We can also arrange visits to select completed projects with homeowner or business owner permission. Additionally, our website features a Matterport virtual tour of our Design Center so you can explore our capabilities from home. Call us at (562) 708-6616 to schedule a visit.',
   },
   {
     question:
@@ -120,7 +120,7 @@ const faqs = [
   {
     question: 'How do I get started with a construction project with We Build?',
     answer:
-      'Getting started is simple. Call us at (704) 574-8124 or visit our Contact page to request a free consultation. During the initial meeting, we will discuss your project goals, timeline, and budget. We can meet at your project site, at our Design Center in South Charlotte, or virtually. From there, we develop a preliminary scope of work, provide a detailed estimate, and walk you through our design-build process. Once you approve the proposal, we handle permitting, scheduling, and all construction through to final walkthrough. Most clients go from initial consultation to construction start within 4-8 weeks.',
+      'Getting started is simple. Call us at (562) 708-6616 or visit our Contact page to request a free consultation. During the initial meeting, we will discuss your project goals, timeline, and budget. We can meet at your project site, at our Design Center in South Charlotte, or virtually. From there, we develop a preliminary scope of work, provide a detailed estimate, and walk you through our design-build process. Once you approve the proposal, we handle permitting, scheduling, and all construction through to final walkthrough. Most clients go from initial consultation to construction start within 4-8 weeks.',
   },
 ];
 
@@ -1085,9 +1085,9 @@ export default async function PortfolioPage() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="tel:7045748124">
+              <Link href="tel:5627086616">
                 <Phone className="h-4 w-4 mr-2" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </Link>
             </Button>
           </div>

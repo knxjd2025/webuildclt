@@ -34,7 +34,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Tenant Improvement Contractor Charlotte NC | TI Build-Outs & Leasehold Improvements',
   description:
-    'Expert tenant improvement contractor in Charlotte, NC. Class A & B office TI, retail tenant build-outs, restaurant TI, medical TI, industrial leasehold improvements. TI allowance maximization, landlord coordination. Veteran-owned, licensed NC & SC. Free estimates. (704) 574-8124.',
+    'Expert tenant improvement contractor in Charlotte, NC. Class A & B office TI, retail tenant build-outs, restaurant TI, medical TI, industrial leasehold improvements. TI allowance maximization, landlord coordination. Veteran-owned, licensed NC & SC. Free estimates. (562) 708-6616.',
   keywords: [
     'tenant improvement contractor charlotte nc',
     'tenant improvement charlotte nc',
@@ -859,9 +859,9 @@ export default function TenantImprovementsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

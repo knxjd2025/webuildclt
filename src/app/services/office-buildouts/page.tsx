@@ -37,7 +37,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Office Buildouts & Renovation Charlotte NC | Corporate, Co-Working & Medical Office Construction',
   description:
-    'Expert office buildout and renovation contractor in Charlotte, NC. Corporate headquarters, co-working spaces, medical office suites, law firms, tech startups & executive suites. Veteran-owned, licensed in NC & SC. Hybrid-ready designs. Free estimates. (704) 574-8124.',
+    'Expert office buildout and renovation contractor in Charlotte, NC. Corporate headquarters, co-working spaces, medical office suites, law firms, tech startups & executive suites. Veteran-owned, licensed in NC & SC. Hybrid-ready designs. Free estimates. (562) 708-6616.',
   keywords: [
     'office buildout Charlotte NC',
     'office renovation Charlotte NC',
@@ -753,9 +753,9 @@ export default function OfficeBuildoutsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

@@ -30,7 +30,7 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company South Charlotte NC | General Contractor Ballantyne, Pineville, Waxhaw',
   description:
-    'Locally headquartered construction company in South Charlotte NC. Commercial construction, custom homes, upfits & roof coatings in Ballantyne, Pineville, Waxhaw, Marvin, Weddington. Veteran-owned. Free estimates. (704) 574-8124.',
+    'Locally headquartered construction company in South Charlotte NC. Commercial construction, custom homes, upfits & roof coatings in Ballantyne, Pineville, Waxhaw, Marvin, Weddington. Veteran-owned. Free estimates. (562) 708-6616.',
   keywords: [
     'construction company south charlotte nc',
     'general contractor south charlotte',
@@ -366,8 +366,8 @@ export default function SouthCharlottePage() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:7045748124">
-                    <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+                  <a href="tel:5627086616">
+                    <Phone className="mr-2 h-5 w-5" />(562) 708-6616
                   </a>
                 </Button>
               </div>
@@ -772,8 +772,8 @@ export default function SouthCharlottePage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
-                <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+              <a href="tel:5627086616">
+                <Phone className="mr-2 h-5 w-5" />(562) 708-6616
               </a>
             </Button>
           </div>

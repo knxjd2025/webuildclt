@@ -3,8 +3,8 @@ import {
   Home,
   Paintbrush,
   Hammer,
-  PlusCircle,
   Layers,
+  Radar,
   Phone,
   Shield,
   Award,
@@ -105,13 +105,6 @@ export const services: ServiceItem[] = [
     description:
       'Build the home of your dreams with Charlotte\'s trusted custom home builder. From lot selection and site evaluation through architectural design, permitting, construction, and final walkthrough, we guide you every step. Our custom homes feature high-performance building envelopes, energy-efficient systems, and finish selections curated at our Design Center. We build on your lot or help you find the perfect site in Charlotte, South Charlotte, Lake Norman, Fort Mill, or anywhere in our service area.',
     href: '/services/custom-home-builder',
-  },
-  {
-    icon: PlusCircle,
-    title: 'Residential Additions',
-    description:
-      'Expand your living space with expertly crafted room additions, second stories, garage conversions, sunrooms, and in-law suites that seamlessly match your existing home. Our residential addition process starts with a thorough assessment of your home\'s structure and foundation, followed by design development at our Design Center, permitting, and construction. We protect your landscaping, maintain clean job sites, and coordinate every trade so the addition integrates perfectly with your existing home.',
-    href: '/services/residential-additions',
   },
   {
     icon: Layers,
@@ -230,6 +223,12 @@ export const whyChooseUs: WhyChooseItem[] = [
     description:
       'Headquartered in South Charlotte at 14330 S Lakes Drive, We Build knows the Charlotte construction market inside and out. We understand local building codes in Mecklenburg, Union, Iredell, and York counties. We have established relationships with local inspectors, suppliers, and subcontractors. We know which neighborhoods have HOA requirements, which municipalities have expedited permitting, and which soil conditions require special foundation work. Local knowledge translates to faster, smoother projects.',
   },
+  {
+    icon: Radar,
+    title: 'FAA-Certified Thermal Drone Inspections',
+    description:
+      'Our FAA-certified commercial drone pilot uses aerial thermal imaging technology to inspect commercial roofs without costly scaffolding or disrupting your business. Thermal drone inspections detect moisture intrusion, insulation failures, and hidden damage that visual inspections miss — saving you money by catching problems early and providing precise data for targeted repairs rather than full replacements.',
+  },
 ];
 
 export const industriesServed: IndustryItem[] = [
@@ -296,6 +295,12 @@ export const areasServedDetailed: AreaItem[] = [
     description:
       'The Lake Norman area — including Cornelius, Davidson, Huntersville, and Mooresville — is one of Charlotte\'s premier markets for custom home construction and commercial development. We build lakefront custom homes, commercial spaces along the I-77 corridor, restaurant build-outs in downtown Davidson, and office upfits in Mooresville\'s growing business parks. Our team understands the unique requirements of lakefront construction including setback regulations, erosion control, and dock permitting.',
   },
+  {
+    name: 'Detroit, MI',
+    href: '/contact',
+    description:
+      'We Build is expanding into the Detroit metropolitan area, bringing our commercial construction expertise to Michigan. From commercial upfits and tenant improvements to ground-up commercial builds, we are ready to serve businesses across Metro Detroit, Dearborn, and the surrounding communities. Contact us to discuss your Detroit-area commercial construction project.',
+  },
 ];
 
 export const homeFaqs: FAQItem[] = [
@@ -327,7 +332,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'Do you offer free estimates for construction projects?',
     answer:
-      'Yes. We provide free consultations and detailed, transparent estimates for all project types — commercial construction, upfits, custom homes, additions, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (704) 574-8124 or through our website to schedule your free consultation. We typically respond within one business day.',
+      'Yes. We provide free consultations and detailed, transparent estimates for all project types — commercial construction, upfits, custom homes, additions, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (562) 708-6616 or through our website to schedule your free consultation. We typically respond within one business day.',
   },
   {
     question: 'What makes We Build different from other Charlotte contractors?',

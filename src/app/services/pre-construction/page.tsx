@@ -42,7 +42,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Pre-Construction Services Charlotte NC | Planning, Estimating & Value Engineering',
   description:
-    'Expert pre-construction services in Charlotte, NC. Feasibility studies, cost estimating, value engineering, constructability reviews, scheduling, and site analysis. Veteran-owned, licensed in NC & SC. Save money before you break ground. (704) 574-8124.',
+    'Expert pre-construction services in Charlotte, NC. Feasibility studies, cost estimating, value engineering, constructability reviews, scheduling, and site analysis. Veteran-owned, licensed in NC & SC. Save money before you break ground. (562) 708-6616.',
   keywords: [
     'pre-construction services Charlotte NC',
     'pre-construction planning Charlotte',
@@ -791,9 +791,9 @@ export default function PreConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

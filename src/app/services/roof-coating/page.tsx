@@ -34,7 +34,7 @@ import {
 export const metadata: Metadata = {
   title: 'Roof Coating Charlotte NC | Commercial Roof Restoration',
   description:
-    'Commercial roof coating contractor in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs roof replacement. USGBC member. Veteran-owned. Free roof assessments. (704) 574-8124.',
+    'Commercial roof coating contractor in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs roof replacement. USGBC member. Veteran-owned. Free roof assessments. (562) 708-6616.',
   keywords: [
     'roof coating charlotte nc',
     'commercial roof coating charlotte',
@@ -941,8 +941,8 @@ export default function RoofCoatingPage() {
             <p className="text-muted-foreground text-center mb-8">
               Answers to the most common questions Charlotte building owners ask about commercial
               roof coating. If you have a question not covered here, call us at{' '}
-              <a href="tel:7045748124" className="text-primary hover:underline font-medium">
-                (704) 574-8124
+              <a href="tel:5627086616" className="text-primary hover:underline font-medium">
+                (562) 708-6616
               </a>{' '}
               or{' '}
               <Link href="/contact" className="text-primary hover:underline font-medium">
@@ -984,9 +984,9 @@ export default function RoofCoatingPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:7045748124">
+              <a href="tel:5627086616">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (562) 708-6616
               </a>
             </Button>
           </div>

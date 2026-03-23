@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   title:
     'We Build | Commercial Construction Company Charlotte NC | General Contractor',
   description:
-    'We Build is Charlotte NC\'s veteran-owned commercial construction company. General contractor licensed in NC & SC. Commercial upfits, design-build, custom homes, roof coating. 60+ years combined experience. USGBC member. Free estimates: (704) 574-8124.',
+    'We Build is Charlotte NC\'s veteran-owned commercial construction company. General contractor licensed in NC & SC. Commercial upfits, design-build, custom homes, roof coating. 60+ years combined experience. USGBC member. Free estimates: (562) 708-6616.',
   keywords: [
     'commercial construction charlotte nc',
     'general contractor charlotte nc',
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'We Build | Commercial Construction Company Charlotte NC',
     description:
-      'Veteran-owned commercial construction. Licensed in NC & SC. 60+ years experience. Free estimates: (704) 574-8124.',
+      'Veteran-owned commercial construction. Licensed in NC & SC. 60+ years experience. Free estimates: (562) 708-6616.',
   },
 };
 
@@ -125,8 +125,8 @@ export default function HomePage() {
             <p className="text-base text-white/90 mb-8 leading-relaxed">
               USGBC member. Serving Charlotte, South Charlotte, Fort Mill SC,
               Lake Norman, and the greater Carolina region. Call{' '}
-              <a href="tel:7045748124" className="text-primary font-semibold hover:underline">
-                (704) 574-8124
+              <a href="tel:5627086616" className="text-primary font-semibold hover:underline">
+                (562) 708-6616
               </a>{' '}
               for a free estimate.
             </p>
@@ -151,7 +151,7 @@ export default function HomePage() {
                 className="bg-white/10 text-white border-white hover:bg-white hover:text-foreground md:hidden"
                 asChild
               >
-                <a href="tel:7045748124">
+                <a href="tel:5627086616">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
                   Call Now
                 </a>
