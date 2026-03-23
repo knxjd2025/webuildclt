@@ -3,6 +3,7 @@
 import { useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
+import { ADMIN_PATH } from '@/lib/admin-path';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -214,7 +215,7 @@ export function ProjectForm({ project, mode }: ProjectFormProps) {
   return (
     <div className="max-w-4xl">
       <div className="flex items-center gap-4 mb-8">
-        <Button variant="ghost" onClick={() => router.push('/admin/projects')}>
+        <Button variant="ghost" onClick={() => router.push(`${ADMIN_PATH}/projects`)}>
           <ArrowLeft className="h-4 w-4 mr-2" />
           Back
         </Button>

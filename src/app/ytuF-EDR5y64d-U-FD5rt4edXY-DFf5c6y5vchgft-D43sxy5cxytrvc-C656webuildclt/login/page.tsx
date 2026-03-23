@@ -32,7 +32,7 @@ export default function AdminLoginPage() {
       return;
     }
 
-    router.push('/admin/projects');
+    router.push('/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/projects');
     router.refresh();
   }
 

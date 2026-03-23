@@ -30,7 +30,7 @@ export default function NewBlogPage() {
       }
 
       const created = await res.json();
-      router.push(`/admin/blogs/${created.id}/edit`);
+      router.push(`/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/blogs/${created.id}/edit`);
     },
     [router]
   );
@@ -76,7 +76,7 @@ export default function NewBlogPage() {
         });
 
         // Navigate immediately — edit page will poll for completion
-        router.push(`/admin/blogs/${created.id}/edit`);
+        router.push(`/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/blogs/${created.id}/edit`);
       } finally {
         setIsGenerating(false);
       }

@@ -69,7 +69,7 @@ export default function BlogsPage() {
           </p>
         </div>
         <Button asChild>
-          <Link href="/admin/blogs/new">
+          <Link href="/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/blogs/new">
             <Plus className="h-4 w-4 mr-2" />
             New Blog
           </Link>
@@ -102,7 +102,7 @@ export default function BlogsPage() {
                 : `No ${statusFilter} blog posts`}
             </p>
             <Button asChild>
-              <Link href="/admin/blogs/new">Create your first blog post</Link>
+              <Link href="/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/blogs/new">Create your first blog post</Link>
             </Button>
           </CardContent>
         </Card>
@@ -168,7 +168,7 @@ export default function BlogsPage() {
                   <td className="px-6 py-4">
                     <div className="flex items-center justify-end gap-2">
                       <Button variant="ghost" size="sm" asChild>
-                        <Link href={`/admin/blogs/${blog.id}/edit`}>
+                        <Link href={`/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/blogs/${blog.id}/edit`}>
                           <Pencil className="h-4 w-4" />
                         </Link>
                       </Button>

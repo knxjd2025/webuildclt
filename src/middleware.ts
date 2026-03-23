@@ -2,11 +2,13 @@ import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 import { createServerClient } from '@supabase/ssr';
 
+const ADMIN_PATH = '/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt';
+
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  // Only protect /admin routes (except /admin/login)
-  if (!pathname.startsWith('/admin') || pathname === '/admin/login') {
+  // Only protect admin routes (except login)
+  if (!pathname.startsWith(ADMIN_PATH) || pathname === `${ADMIN_PATH}/login`) {
     return NextResponse.next();
   }
 
@@ -40,7 +42,7 @@ export async function middleware(request: NextRequest) {
   const { data: { user } } = await supabase.auth.getUser();
 
   if (!user) {
-    const loginUrl = new URL('/admin/login', request.url);
+    const loginUrl = new URL(`${ADMIN_PATH}/login`, request.url);
     return NextResponse.redirect(loginUrl);
   }
 
@@ -48,5 +50,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/admin/:path*'],
+  matcher: ['/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/:path*'],
 };

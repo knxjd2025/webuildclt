@@ -39,7 +39,15 @@
       "mcp__supabase__list_tables",
       "mcp__supabase__list_projects",
       "Bash(tasklist)",
-      "Bash(npx --yes kill-port 3000)"
+      "Bash(npx --yes kill-port 3000)",
+      "WebSearch",
+      "Bash(npx tsx:*)",
+      "Bash(ls *.jpg)",
+      "Bash(find ~/.claude/homunculus/projects -name *.yaml -o -name *.yml)",
+      "Bash(grep -A2 \"slug: ''office-build-out-guide\\\\|slug: ''medical-office-setup\\\\|slug: ''retail-space-build\\\\|slug: ''ada-compliance-guide\\\\|slug: ''green-building-guide\\\\|slug: ''restaurant-opening\" src/data/guides.ts)",
+      "Bash(grep -n \"id: ''15[3-9]\\\\|id: ''16[0-2]\\\\|commercialServicesPosts\\\\|export const blogPosts\" src/data/blog-posts.ts)",
+      "Read(//tmp/**)",
+      "Bash(ADMIN_DIR=\"/c/Users/james/OneDrive/Desktop/Kynex Apps/Websites-Clients/WeBuildCLT/webuildclt-next/src/app/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt\")"
     ]
   }
 }

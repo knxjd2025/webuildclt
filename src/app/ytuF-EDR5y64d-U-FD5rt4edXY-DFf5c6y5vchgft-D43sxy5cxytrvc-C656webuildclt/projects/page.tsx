@@ -45,7 +45,7 @@ export default function ProjectsPage() {
           </p>
         </div>
         <Button asChild>
-          <Link href="/admin/projects/new">
+          <Link href="/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/projects/new">
             <Plus className="h-4 w-4 mr-2" />
             New Project
           </Link>
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
           <CardContent className="text-center py-12">
             <p className="text-gray-500 mb-4">No projects yet</p>
             <Button asChild>
-              <Link href="/admin/projects/new">Create your first project</Link>
+              <Link href="/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/projects/new">Create your first project</Link>
             </Button>
           </CardContent>
         </Card>
@@ -143,7 +143,7 @@ export default function ProjectsPage() {
                         </Button>
                       )}
                       <Button variant="ghost" size="sm" asChild>
-                        <Link href={`/admin/projects/${project.id}/edit`}>
+                        <Link href={`/ytuF-EDR5y64d-U-FD5rt4edXY-DFf5c6y5vchgft-D43sxy5cxytrvc-C656webuildclt/projects/${project.id}/edit`}>
                           <Pencil className="h-4 w-4" />
                         </Link>
                       </Button>

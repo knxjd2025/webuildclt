@@ -3,6 +3,7 @@
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { createBrowserClient } from '@/lib/supabase-browser';
+import { ADMIN_PATH } from '@/lib/admin-path';
 import { Button } from '@/components/ui/button';
 import { LayoutDashboard, FolderOpen, FileText, Bot, Megaphone, LogOut } from 'lucide-react';
 
@@ -12,7 +13,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
   async function handleLogout() {
     const supabase = createBrowserClient();
     await supabase.auth.signOut();
-    router.push('/admin/login');
+    router.push(`${ADMIN_PATH}/login`);
     router.refresh();
   }
 
@@ -25,35 +26,35 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
         </div>
         <nav className="flex-1 p-4 space-y-1">
           <Link
-            href="/admin"
+            href={ADMIN_PATH}
             className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
           >
             <LayoutDashboard className="h-5 w-5" />
             Dashboard
           </Link>
           <Link
-            href="/admin/projects"
+            href={`${ADMIN_PATH}/projects`}
             className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
           >
             <FolderOpen className="h-5 w-5" />
             Projects
           </Link>
           <Link
-            href="/admin/blogs"
+            href={`${ADMIN_PATH}/blogs`}
             className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
           >
             <FileText className="h-5 w-5" />
             Blogs
           </Link>
           <Link
-            href="/admin/automation"
+            href={`${ADMIN_PATH}/automation`}
             className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
           >
             <Bot className="h-5 w-5" />
             Automation
           </Link>
           <Link
-            href="/admin/banner-cta"
+            href={`${ADMIN_PATH}/banner-cta`}
             className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
           >
             <Megaphone className="h-5 w-5" />
