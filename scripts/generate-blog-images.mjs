@@ -119,10 +119,10 @@ async function generateWithDalle(prompt, slug) {
  * Generate image with Gemini Imagen
  */
 async function generateWithGemini(prompt, slug) {
-  // Try Imagen 3 via REST API first
+  // Try Imagen 4 via REST API first
   try {
     const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=${GEMINI_API_KEY}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${GEMINI_API_KEY}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -136,17 +136,17 @@ async function generateWithGemini(prompt, slug) {
       const data = await res.json();
       const b64 = data.predictions?.[0]?.bytesBase64Encoded;
       if (b64) {
-        console.log('  (used Imagen 3)');
+        console.log('  (used Imagen 4)');
         return Buffer.from(b64, 'base64');
       }
     }
   } catch (_) { /* fall through */ }
 
-  // Fallback: Gemini 2.0 Flash with image generation
-  console.log('  ~ Imagen 3 unavailable, trying Gemini 2.0 Flash...');
+  // Fallback: Gemini 2.5 Flash Image with image generation
+  console.log('  ~ Imagen 4 unavailable, trying Gemini 2.5 Flash Image...');
   const { GoogleGenerativeAI } = await import('@google/generative-ai');
   const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-  const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash-image' });
 
   const result = await model.generateContent({
     contents: [{ role: 'user', parts: [{ text: `Generate a hyper-realistic photograph: ${prompt}` }] }],
@@ -157,7 +157,7 @@ async function generateWithGemini(prompt, slug) {
   for (const candidate of response.candidates || []) {
     for (const part of candidate.content?.parts || []) {
       if (part.inlineData) {
-        console.log('  (used Gemini 2.0 Flash)');
+        console.log('  (used Gemini 2.5 Flash Image)');
         return Buffer.from(part.inlineData.data, 'base64');
       }
     }
@@ -213,7 +213,7 @@ async function main() {
 
   for (let i = 0; i < posts.length; i++) {
     const post = posts[i];
-    const imageName = path.basename(post.image);
+    const imageName = post.image ? path.basename(post.image) : `${post.slug}.jpg`;
     const outputPath = path.join(OUTPUT_DIR, imageName);
 
     // Skip if already exists
