@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { localBusinessSchema, faqSchema } from '@/lib/structured-data';
+import { localBusinessSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -30,25 +30,34 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company South Charlotte NC | General Contractor Ballantyne, Pineville, Waxhaw',
   description:
-    'Locally headquartered construction company in South Charlotte NC. Commercial construction, custom homes, upfits & roof coatings in Ballantyne, Pineville, Waxhaw, Marvin, Weddington. Veteran-owned. Free estimates. (562) 708-6616.',
+    'Looking for a construction company near me in South Charlotte NC? Locally headquartered general contractor serving Ballantyne, Pineville, Waxhaw, Marvin & Weddington. Commercial construction, upfits & roof coatings. Veteran-owned. Free estimates. (704) 574-8124.',
   keywords: [
     'construction company south charlotte nc',
     'general contractor south charlotte',
     'general contractor ballantyne nc',
     'construction company ballantyne nc',
     'commercial construction south charlotte',
-    'custom home builder south charlotte nc',
+    'commercial contractor south charlotte nc',
+    'contractor near me south charlotte',
+    'construction companies near me',
+    'south charlotte commercial construction',
+    'south charlotte remodeling contractor',
+    'licensed contractor NC',
+    'commercial contractor south charlotte nc',
     'contractor pineville nc',
     'construction company waxhaw nc',
     'general contractor weddington nc',
     'commercial construction ballantyne corporate park',
-    'home builder marvin nc',
+    'commercial construction marvin nc',
     'contractor south charlotte nc',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/areas/south-charlotte',
+  },
   openGraph: {
     title: 'Construction Company South Charlotte NC | General Contractor Ballantyne, Pineville, Waxhaw',
     description:
-      'Locally headquartered construction company in South Charlotte NC. Commercial & residential construction in Ballantyne, Pineville, Waxhaw, Marvin, Weddington. Veteran-owned.',
+      'Locally headquartered construction company in South Charlotte NC. Commercial construction in Ballantyne, Pineville, Waxhaw, Marvin, Weddington. Veteran-owned.',
     type: 'website',
   },
 };
@@ -69,25 +78,11 @@ const services = [
       'South Charlotte businesses frequently need interior renovations to accommodate growth, rebrand, or modernize their spaces. We Build provides commercial upfit services throughout Ballantyne Corporate Park, the Rea Road professional corridor, Pineville business parks, and retail centers across the area. Our upfit projects range from open-concept office redesigns and medical suite build-outs to restaurant renovations and retail space transformations. We work within occupied buildings when necessary, minimizing disruption to your operations while delivering a finished space that supports your business goals.',
   },
   {
-    icon: Home,
-    title: 'Custom Home Building',
-    href: '/services/custom-home-builder',
-    description:
-      'South Charlotte is home to some of the most sought-after residential communities in the region, and We Build creates custom homes that match the quality and character of neighborhoods like Ballantyne, Providence Plantation, Weddington, Waxhaw, and Marvin. Our custom home process covers everything from initial design consultation and site evaluation to final walkthrough and warranty. We build on your lot or help you find the right parcel, and our design-build approach ensures your vision is realized without the miscommunication that comes from managing separate architects and builders.',
-  },
-  {
     icon: Ruler,
     title: 'Design-Build Services',
     href: '/services/design-build',
     description:
       'Our design-build approach is especially valuable in South Charlotte where lot sizes, setback requirements, and HOA architectural standards vary significantly between communities. We Build manages the entire project under one contract, from conceptual design and engineering through permitting and construction. This single-source accountability eliminates finger-pointing between architects and builders, reduces change orders, and typically saves South Charlotte property owners ten to fifteen percent compared to the traditional design-bid-build method.',
-  },
-  {
-    icon: Home,
-    title: 'Residential Additions & Renovations',
-    href: '/services/residential-additions',
-    description:
-      'Many South Charlotte homes in established neighborhoods like Providence Plantation, Ballantyne Country Club, and Ardrey Kell are reaching the age where homeowners want to expand or update their living spaces. We Build handles room additions, kitchen and bathroom renovations, basement finishing, second-story additions, and whole-home remodels. Our team understands the specific HOA requirements and architectural review processes common in South Charlotte subdivisions, ensuring your renovation meets community standards and adds lasting value to your property.',
   },
   {
     icon: Shield,
@@ -133,33 +128,6 @@ const commercialAreas = [
   },
 ];
 
-const residentialAreas = [
-  {
-    name: 'Ballantyne',
-    description:
-      'Ballantyne remains one of the most desirable residential communities in Charlotte, featuring established neighborhoods with homes ranging from townhomes to estate properties. We Build constructs custom homes on available lots and provides renovation and addition services for homeowners throughout the Ballantyne area. The community\'s proximity to top-rated schools, the Ballantyne Country Club, and the corporate park makes it consistently attractive to families and professionals.',
-  },
-  {
-    name: 'Providence & Providence Plantation',
-    description:
-      'The Providence area, including Providence Plantation and Providence Country Club, features mature landscaping, larger lot sizes, and homes that reflect a range of architectural styles. Many homeowners in these communities are investing in renovations, additions, and custom rebuilds to modernize their properties while maintaining the neighborhood character. We Build specializes in the sensitive renovation work that these established communities require.',
-  },
-  {
-    name: 'Weddington',
-    description:
-      'Located in Union County just south of the Mecklenburg County line, Weddington is known for its rural character, excellent schools, and large-lot custom homes. Building in Weddington involves Union County permitting, well and septic considerations for some parcels, and the architectural standards of communities like Weddington Chase and Bromley. We Build has experience navigating Union County building requirements and constructing custom homes that complement Weddington\'s upscale residential character.',
-  },
-  {
-    name: 'Waxhaw',
-    description:
-      'Waxhaw has transformed from a small Union County town into one of the Charlotte region\'s fastest-growing residential areas. New neighborhoods, custom home communities, and master-planned developments are creating strong demand for quality home builders. We Build constructs custom homes in Waxhaw and provides renovation services for homeowners in established neighborhoods. The town\'s charming downtown, excellent schools, and proximity to South Charlotte make it a top choice for families.',
-  },
-  {
-    name: 'Marvin',
-    description:
-      'The Village of Marvin is one of the most exclusive residential communities in the Charlotte area, known for its two-acre minimum lot sizes, equestrian properties, and custom-built estate homes. Building in Marvin requires a contractor who understands the village\'s unique zoning requirements and architectural standards. We Build provides custom home construction and renovation services for Marvin homeowners who expect the highest level of craftsmanship and attention to detail.',
-  },
-];
 
 const neighborhoods = [
   'Ballantyne',
@@ -240,7 +208,7 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     description:
-      'We hold general contractor licenses in both North Carolina and South Carolina, allowing us to serve the entire South Charlotte region including areas that cross the state line. Our licensing, insurance, and bonding meet or exceed all requirements for commercial and residential construction.',
+      'We hold general contractor licenses in both North Carolina and South Carolina, allowing us to serve the entire South Charlotte region including areas that cross the state line. Our licensing, insurance, and bonding meet or exceed all requirements for commercial construction.',
   },
   {
     icon: Landmark,
@@ -274,24 +242,24 @@ const faqs = [
       'We serve all of South Charlotte including Ballantyne, Pineville, Providence, Providence Plantation, Ardrey Kell, Myers Park South, Piper Glen, Stonecrest, Blakeney, and Waverly in Mecklenburg County. We also serve Waxhaw, Weddington, Marvin, Indian Trail, and Stallings in Union County. Our service area covers the entire South Charlotte region from Highway 51 south to the Union County line and beyond.',
   },
   {
-    question: 'Does We Build handle both commercial and residential construction in South Charlotte?',
+    question: 'What types of construction does We Build handle in South Charlotte?',
     answer:
-      'Yes. We Build is a full-service general contractor licensed for both commercial and residential construction in North Carolina and South Carolina. Our South Charlotte commercial projects include office buildings, retail spaces, restaurants, medical facilities, and commercial upfits. Our residential projects include custom home building, home additions, renovations, and remodels. Many South Charlotte property owners hire us for both their business and personal construction needs.',
+      'Yes. We Build is a full-service general contractor licensed for commercial construction in North Carolina and South Carolina. Our South Charlotte commercial projects include office buildings, retail spaces, restaurants, medical facilities, commercial upfits, design-build, and roof coating. We serve businesses of all sizes throughout the South Charlotte area.',
   },
   {
     question: 'How much does construction cost in South Charlotte in 2026?',
     answer:
-      'Construction costs in South Charlotte vary by project type. Commercial office upfits typically range from $50 to $175 per square foot. Retail build-outs run $75 to $200 per square foot. Restaurant construction costs $150 to $350 per square foot. Custom homes in South Charlotte range from $200 to $500+ per square foot depending on finishes and complexity. Renovations and additions typically cost $150 to $350 per square foot. We provide detailed, line-item estimates for every project so you know exactly what to expect.',
+      'Construction costs in South Charlotte vary by project type. Commercial office upfits typically range from $50 to $175 per square foot. Retail build-outs run $75 to $200 per square foot. Restaurant construction costs $150 to $350 per square foot. Commercial renovations typically cost $150 to $350 per square foot. We provide detailed, line-item estimates for every project so you know exactly what to expect.',
   },
   {
     question: 'What permits are required for construction in South Charlotte?',
     answer:
-      'Most construction projects in South Charlotte require building permits from Mecklenburg County (City of Charlotte jurisdiction) or Union County (for Waxhaw, Weddington, and Marvin). Commercial projects require commercial building permits, which include plan review by the building department, fire marshal review, and sometimes stormwater and zoning review. Residential projects require residential building permits. We Build handles all permitting as part of our general contracting services, including plan preparation, submission, and coordination with inspectors throughout the project.',
+      'Most construction projects in South Charlotte require building permits from Mecklenburg County (City of Charlotte jurisdiction) or Union County (for Waxhaw, Weddington, and Marvin). Commercial projects require commercial building permits, which include plan review by the building department, fire marshal review, and sometimes stormwater and zoning review. We Build handles all permitting as part of our general contracting services, including plan preparation, submission, and coordination with inspectors throughout the project.',
   },
   {
     question: 'How long does a typical construction project take in South Charlotte?',
     answer:
-      'Project timelines in South Charlotte depend on scope and complexity. Commercial upfits typically take 2 to 5 months. Restaurant build-outs require 4 to 8 months. Custom homes take 8 to 14 months depending on size and complexity. Home additions and renovations range from 2 to 6 months. Permitting in Mecklenburg County typically adds 4 to 8 weeks before construction can begin. Union County permitting timelines are similar. We provide a detailed project schedule at the start of every engagement.',
+      'Project timelines in South Charlotte depend on scope and complexity. Commercial upfits typically take 2 to 5 months. Restaurant build-outs require 4 to 8 months. Ground-up commercial construction takes 8 to 14 months depending on size and complexity. Commercial renovations range from 2 to 6 months. Permitting in Mecklenburg County typically adds 4 to 8 weeks before construction can begin. Union County permitting timelines are similar. We provide a detailed project schedule at the start of every engagement.',
   },
   {
     question: 'Can We Build construct commercial spaces in Ballantyne Corporate Park?',
@@ -299,9 +267,9 @@ const faqs = [
       'Absolutely. We Build has extensive experience with commercial construction and tenant upfit projects in Ballantyne Corporate Park and throughout the greater Ballantyne area. We understand the architectural standards, finish expectations, and coordinated construction requirements of the corporate park. Whether you need an office build-out, restaurant construction, or retail space renovation in Ballantyne, our team delivers the quality that this premier business district demands.',
   },
   {
-    question: 'Does We Build construct custom homes in Waxhaw, Weddington, and Marvin?',
+    question: 'Does We Build serve Waxhaw, Weddington, and Marvin?',
     answer:
-      'Yes. We Build constructs custom homes throughout Union County including Waxhaw, Weddington, and Marvin. These communities have specific zoning and building requirements that differ from Mecklenburg County, including minimum lot sizes, architectural standards, and in some cases well and septic requirements. Our team is experienced with Union County permitting and inspections, and we understand the high expectations of homeowners in these premium residential communities.',
+      'Yes. We Build serves businesses throughout Union County including Waxhaw, Weddington, and Marvin. These communities have specific zoning and building requirements that differ from Mecklenburg County. Our team is experienced with Union County permitting and inspections, and we deliver commercial construction projects that meet the highest standards.',
   },
   {
     question: 'Is We Build licensed for construction in both Mecklenburg and Union Counties?',
@@ -311,19 +279,42 @@ const faqs = [
   {
     question: 'What makes South Charlotte a good area for construction investment?',
     answer:
-      'South Charlotte is one of the strongest construction markets in the Charlotte metro area. Ballantyne Corporate Park continues to attract major employers. The Rea Road and Providence Road corridors are seeing new medical and professional office development. Pineville is experiencing significant commercial redevelopment. Residential communities in Waxhaw, Weddington, and Marvin continue to grow with strong home values. The I-485 outer belt provides excellent connectivity, and top-rated schools drive consistent residential demand. Both commercial and residential construction investments in South Charlotte benefit from these fundamental growth drivers.',
+      'South Charlotte is one of the strongest construction markets in the Charlotte metro area. Ballantyne Corporate Park continues to attract major employers. The Rea Road and Providence Road corridors are seeing new medical and professional office development. Pineville is experiencing significant commercial redevelopment. Communities in Waxhaw, Weddington, and Marvin continue to grow, driving demand for commercial services. The I-485 outer belt provides excellent connectivity. Commercial construction investments in South Charlotte benefit from these fundamental growth drivers.',
+  },
+  {
+    question: 'How does a commercial upfit in Ballantyne compare to one in Pineville?',
+    answer:
+      'Ballantyne and Pineville have different cost profiles and finish expectations. Ballantyne Corporate Park projects typically require Class A finishes, running $100 to $175 per square foot for upfits, while Pineville commercial spaces along Highway 51 and Park Road often range from $50 to $120 per square foot with more functional finishes. Ballantyne also has stricter architectural review standards. We Build works in both areas and tailors our approach to the specific market expectations and landlord requirements of each location.',
+  },
+  {
+    question: 'What green building certifications does We Build offer for South Charlotte projects?',
+    answer:
+      'As a U.S. Green Building Council (USGBC) member, We Build offers sustainable construction options for South Charlotte commercial projects. We can pursue LEED certification, implement energy-efficient building envelope systems, and specify high-performance HVAC and lighting. Green building is increasingly important for Mecklenburg County commercial properties, where tenants and corporate employers in Ballantyne and the Providence Road corridor actively seek energy-efficient spaces that reduce operating costs and meet corporate sustainability goals.',
+  },
+  {
+    question: 'Does We Build handle restaurant construction along South Charlotte corridors like Rea Road and Highway 51?',
+    answer:
+      'Yes. We Build provides full-service restaurant construction along South Charlotte commercial corridors including Rea Road, Highway 51, Providence Road, and Johnston Road. Restaurant builds in South Charlotte typically cost $150 to $350 per square foot and require specialized hood ventilation, grease traps, fire suppression systems, and health department approvals through Mecklenburg County. We coordinate all inspections and ensure compliance with Charlotte-Mecklenburg zoning requirements for food service establishments.',
   },
 ];
 
 const areaPages = [
   { label: 'Lake Norman', href: '/areas/lake-norman' },
   { label: 'Fort Mill SC', href: '/areas/fort-mill-sc' },
+  { label: 'Matthews', href: '/areas/matthews' },
+  { label: 'Huntersville', href: '/areas/huntersville' },
+  { label: 'Mooresville', href: '/areas/mooresville' },
+  { label: 'Rock Hill SC', href: '/areas/rock-hill-sc' },
 ];
 
 export default function SouthCharlottePage() {
   return (
     <>
-      <JsonLd data={[localBusinessSchema(), faqSchema(faqs)]} />
+      <JsonLd data={[localBusinessSchema(), faqSchema(faqs), breadcrumbSchema([
+        { label: 'Home', href: '/' },
+        { label: 'Service Areas' },
+        { label: 'South Charlotte' },
+      ])]} />
 
       <PageHero
         title="Construction Company South Charlotte NC"
@@ -345,10 +336,10 @@ export default function SouthCharlottePage() {
                 South Charlotte is not just where We Build works — it is where we live, where our families go to school, and where our office is located at 14330 S Lakes Drive, Charlotte NC 28273. As a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> headquartered in the heart of South Charlotte, we bring an unmatched level of local knowledge, community investment, and professional accountability to every construction project in this area. When you hire We Build, you are hiring neighbors who care about the quality of construction in our own community as much as you do.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                South Charlotte has emerged as one of the most dynamic construction markets in the entire Charlotte metropolitan area. The Ballantyne corridor alone accounts for billions of dollars in commercial real estate, with ongoing development of office buildings, mixed-use projects, restaurants, and retail spaces. Along Rea Road and Providence Road, medical offices and professional service buildings are being constructed at a pace that reflects the area&apos;s population growth. Pineville is experiencing a renaissance of commercial redevelopment as aging retail properties are transformed into modern mixed-use developments. And in the residential communities of Waxhaw, Weddington, and Marvin, custom home construction continues to thrive as families seek the top-rated schools and spacious lots that define South Charlotte living.
+                South Charlotte has emerged as one of the most dynamic construction markets in the entire Charlotte metropolitan area. The Ballantyne corridor alone accounts for billions of dollars in commercial real estate, with ongoing development of office buildings, mixed-use projects, restaurants, and retail spaces. Along Rea Road and Providence Road, medical offices and professional service buildings are being constructed at a pace that reflects the area&apos;s population growth. Pineville is experiencing a renaissance of commercial redevelopment as aging retail properties are transformed into modern mixed-use developments. And in the growing communities of Waxhaw, Weddington, and Marvin, commercial development continues to follow population growth.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We Build serves this entire region with comprehensive construction services including <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits and renovations</Link>, <Link href="/services/custom-home-builder" className="text-primary hover:underline">custom home building</Link>, <Link href="/services/residential-additions" className="text-primary hover:underline">residential additions</Link>, <Link href="/services/design-build" className="text-primary hover:underline">design-build services</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link>. With over 60 years of combined experience and licenses in both North Carolina and South Carolina, our team handles projects ranging from corporate office build-outs in Ballantyne Corporate Park to estate homes in Marvin to restaurant construction in Pineville. Whatever you are building in South Charlotte, We Build has the expertise, the local knowledge, and the commitment to quality to deliver exceptional results.
+                We Build serves this entire region with comprehensive construction services including <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits and renovations</Link>, <Link href="/services/design-build" className="text-primary hover:underline">design-build services</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link>. With over 60 years of combined experience and licenses in both North Carolina and South Carolina, our team handles projects ranging from corporate office build-outs in Ballantyne Corporate Park to restaurant construction in Pineville to medical facilities along Rea Road. Whatever you are building in South Charlotte, We Build has the expertise, the local knowledge, and the commitment to quality to deliver exceptional results.
               </p>
 
               <div className="flex items-start gap-3 bg-primary/10 border border-primary/20 rounded-lg p-4">
@@ -366,8 +357,8 @@ export default function SouthCharlottePage() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:5627086616">
-                    <Phone className="mr-2 h-5 w-5" />(562) 708-6616
+                  <a href="tel:+17045748124">
+                    <Phone className="mr-2 h-5 w-5" />(704) 574-8124
                   </a>
                 </Button>
               </div>
@@ -410,7 +401,7 @@ export default function SouthCharlottePage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                    <span>Commercial &amp; residential</span>
+                    <span>Commercial construction</span>
                   </li>
                 </ul>
               </div>
@@ -485,36 +476,6 @@ export default function SouthCharlottePage() {
         </div>
       </section>
 
-      {/* South Charlotte Residential Construction */}
-      <section className="py-20 bg-muted">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">Custom Homes &amp; Renovations</p>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">South Charlotte Residential Construction</h2>
-            <p className="text-muted-foreground leading-relaxed mb-8">
-              South Charlotte is home to some of the most desirable residential communities in the Charlotte region, from the established neighborhoods of Ballantyne and Providence to the growing custom home markets of Waxhaw, Weddington, and Marvin. We Build provides <Link href="/services/custom-home-builder" className="text-primary hover:underline">custom home building</Link> and <Link href="/services/residential-additions" className="text-primary hover:underline">residential renovation services</Link> throughout the South Charlotte area. Our team understands the architectural standards, HOA requirements, and community expectations that define each neighborhood, ensuring your home project meets the highest standards of quality and design.
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              {residentialAreas.map((area) => (
-                <Card key={area.name}>
-                  <CardContent className="p-6">
-                    <h3 className="text-lg font-semibold mb-3">{area.name}</h3>
-                    <p className="text-muted-foreground text-sm leading-relaxed">{area.description}</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-
-            <div className="mt-8">
-              <p className="text-muted-foreground leading-relaxed">
-                Ready to build your dream home in South Charlotte? Visit our <Link href="/design-center" className="text-primary hover:underline">design center</Link> to explore our virtual showroom, or <Link href="/contact" className="text-primary hover:underline">schedule a consultation</Link> to discuss your custom home project with our team.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* South Charlotte Construction Market */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
@@ -524,13 +485,13 @@ export default function SouthCharlottePage() {
 
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed">
-                South Charlotte continues to be one of the most active construction markets in the Charlotte metropolitan area, driven by sustained population growth, strong employment centers, top-rated schools, and excellent transportation connectivity via I-485 and I-77. The area&apos;s construction market spans both commercial and residential sectors, with significant activity in each.
+                South Charlotte continues to be one of the most active construction markets in the Charlotte metropolitan area, driven by sustained population growth, strong employment centers, top-rated schools, and excellent transportation connectivity via I-485 and I-77. The area&apos;s commercial construction market sees significant activity across multiple sectors.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 On the commercial side, Ballantyne Corporate Park remains the anchor of South Charlotte business activity, with ongoing development of office space, hotels, restaurants, and mixed-use projects. The corporate park&apos;s success has spurred commercial development along surrounding corridors including Johnston Road, Rea Road, and Community House Road. Pineville&apos;s commercial market is experiencing a generational shift as older retail properties are being redeveloped into modern mixed-use projects that combine retail, dining, and residential uses. Medical and professional office construction along Rea Road and Providence Road continues to grow as healthcare providers follow population expansion.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Residential construction in South Charlotte is equally robust. Custom home construction in Waxhaw, Weddington, and Marvin shows no signs of slowing as families continue to seek the combination of excellent schools, larger lots, and relative proximity to Charlotte employment centers. Within Mecklenburg County, renovation and addition projects in established Ballantyne and Providence neighborhoods represent a significant portion of residential construction activity as homeowners choose to improve their existing properties rather than relocate. New townhome and patio home developments are also emerging in South Charlotte to meet demand from buyers seeking lower-maintenance living options.
+                The growing population in Waxhaw, Weddington, and Marvin drives strong demand for commercial construction as new retail centers, medical offices, and professional service buildings follow population expansion. Within Mecklenburg County, renovation and tenant improvement projects in established Ballantyne and Providence corridors represent a significant portion of commercial construction activity as businesses update and expand their spaces.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 For construction companies and property owners, the South Charlotte market offers strong fundamentals but also demands quality. The area&apos;s affluent demographics, involved HOAs, and high property values mean that substandard construction work is not tolerated. We Build thrives in this environment because our commitment to craftsmanship and customer service aligns perfectly with what South Charlotte expects from a general contractor.
@@ -627,17 +588,17 @@ export default function SouthCharlottePage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { name: 'Ballantyne', desc: 'Corporate park, country club homes, mixed-use developments' },
-              { name: 'Pineville', desc: 'Retail redevelopment, commercial construction, residential neighborhoods' },
-              { name: 'Waxhaw', desc: 'Custom homes, new communities, charming downtown' },
+              { name: 'Pineville', desc: 'Retail redevelopment, commercial construction, tenant improvements' },
+              { name: 'Waxhaw', desc: 'Commercial growth, new developments, charming downtown' },
               { name: 'Marvin', desc: 'Estate homes, two-acre lots, equestrian properties' },
-              { name: 'Weddington', desc: 'Large-lot custom homes, top-rated schools, rural character' },
-              { name: 'Providence', desc: 'Established neighborhoods, renovations, home additions' },
+              { name: 'Weddington', desc: 'Growing commercial area, top-rated schools, rural character' },
+              { name: 'Providence', desc: 'Established area, commercial renovations, tenant improvements' },
               { name: 'Myers Park South', desc: 'Historic character, renovations, infill construction' },
-              { name: 'Ardrey Kell', desc: 'Growing residential area, new commercial development' },
+              { name: 'Ardrey Kell', desc: 'Growing area, new commercial development' },
               { name: 'Piper Glen', desc: 'Golf community homes, renovations, custom builds' },
               { name: 'Stonecrest', desc: 'Established community, home improvements, additions' },
-              { name: 'Indian Trail', desc: 'Affordable custom homes, new neighborhoods, commercial growth' },
-              { name: 'Stallings', desc: 'Family communities, residential construction, commercial development' },
+              { name: 'Indian Trail', desc: 'New developments, commercial growth, retail construction' },
+              { name: 'Stallings', desc: 'Growing community, commercial development, retail spaces' },
             ].map((area) => (
               <Card key={area.name}>
                 <CardContent className="p-4">
@@ -760,7 +721,7 @@ export default function SouthCharlottePage() {
             Locally headquartered. Veteran and family-owned. Licensed in NC &amp; SC. Over 60 years combined experience.
           </p>
           <p className="text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Whether you are planning a commercial build-out in Ballantyne, a custom home in Waxhaw, or a renovation in Providence, We Build is the South Charlotte general contractor you can trust. Contact us today for a free estimate on your project.
+            Whether you are planning a commercial build-out in Ballantyne, a tenant improvement in Pineville, or a renovation in Providence, We Build is the South Charlotte general contractor you can trust. Contact us today for a free estimate on your project.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
@@ -772,8 +733,8 @@ export default function SouthCharlottePage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
-                <Phone className="mr-2 h-5 w-5" />(562) 708-6616
+              <a href="tel:+17045748124">
+                <Phone className="mr-2 h-5 w-5" />(704) 574-8124
               </a>
             </Button>
           </div>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { localBusinessSchema, faqSchema } from '@/lib/structured-data';
+import { localBusinessSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -28,23 +28,32 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company Lake Norman NC | General Contractor Cornelius, Davidson, Mooresville',
   description:
-    'Construction company serving Lake Norman NC — Cornelius, Davidson, Mooresville & Huntersville. Commercial construction, custom homes, waterfront building, upfits & roof coating. Licensed NC general contractor with 60+ years combined experience. Free consultation.',
+    'Trusted construction company near me in Lake Norman NC. Licensed general contractor serving Cornelius, Davidson, Mooresville & Huntersville. Commercial construction, upfits & roof coating. 60+ years combined experience. Free consultation.',
   keywords: [
     'construction company lake norman nc',
-    'general contractor cornelius nc',
-    'commercial construction davidson nc',
-    'custom home builder mooresville nc',
-    'waterfront construction lake norman',
     'general contractor lake norman',
+    'general contractor cornelius nc',
+    'commercial contractor lake norman',
+    'contractor near me lake norman',
+    'construction companies near me',
+    'lake norman commercial construction',
+    'lake norman remodeling contractor',
+    'licensed contractor NC',
+    'commercial construction davidson nc',
+    'commercial contractor mooresville nc',
+    'waterfront construction lake norman',
     'construction company mooresville nc',
     'building contractor huntersville nc',
     'lake norman commercial contractor',
-    'lakefront home builder nc',
+    'lakefront commercial construction nc',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/areas/lake-norman',
+  },
   openGraph: {
     title: 'Construction Company Lake Norman NC | General Contractor Cornelius, Davidson, Mooresville',
     description:
-      'Licensed NC general contractor serving Lake Norman communities. Commercial construction, custom homes, waterfront building, and commercial upfits. 60+ years combined experience.',
+      'Licensed NC general contractor serving Lake Norman communities. Commercial construction, commercial upfits, and design-build. 60+ years combined experience.',
     type: 'website',
   },
 };
@@ -65,25 +74,11 @@ const services = [
       'The Lake Norman business landscape changes rapidly, and commercial spaces need to keep pace. Our commercial upfit services transform existing retail, office, and industrial spaces to match your brand and operational needs. We work with business owners and property managers across Cornelius, Davidson, Mooresville, and Huntersville to reconfigure floor plans, upgrade finishes, improve ADA compliance, and modernize building systems. From a boutique retail upfit in Birkdale Village to a full office renovation in the Northlake area, we manage every detail including permits, inspections, and tenant coordination to minimize disruption to your business operations.',
   },
   {
-    icon: Home,
-    title: 'Custom Home Building',
-    href: '/services/custom-home-builder',
-    description:
-      'Building a custom home in the Lake Norman area means working with one of the most desirable residential markets in North Carolina. Whether you envision a lakefront estate with panoramic water views, a craftsman home in a Davidson neighborhood, or a modern farmhouse on acreage in Mooresville, We Build turns your vision into reality. We manage every phase of custom home construction from site evaluation and foundation work through framing, mechanical systems, interior finishes, and landscaping. Our team coordinates with architects, engineers, and local inspectors to deliver a home that reflects your lifestyle and meets all applicable building codes.',
-  },
-  {
     icon: HardHat,
     title: 'Design-Build',
     href: '/services/design-build',
     description:
       'Our design-build approach streamlines your Lake Norman construction project by combining architectural design and construction under a single contract. This method reduces miscommunication between designers and builders, keeps timelines shorter, and gives you a single point of accountability. For Lake Norman homeowners and business owners who want a collaborative process from concept through completion, design-build is often the most efficient path. Visit our design center to explore materials, finishes, and layouts before construction begins.',
-  },
-  {
-    icon: Home,
-    title: 'Residential Additions',
-    href: '/services/residential-additions',
-    description:
-      'Many Lake Norman homeowners choose to expand their existing homes rather than move. Whether you need an extra bedroom, an expanded kitchen, a sunroom overlooking the lake, or a dedicated home office, our residential addition services integrate seamlessly with your existing structure. We handle structural engineering, permitting, construction, and finish work. For waterfront properties, we ensure additions comply with setback requirements and shoreline regulations. Our goal is an addition that looks and feels like it was always part of the original home.',
   },
   {
     icon: Shield,
@@ -97,7 +92,7 @@ const services = [
     title: 'General Contracting',
     href: '/services/general-contractor',
     description:
-      'As a licensed North Carolina general contractor, We Build manages the full scope of construction projects in the Lake Norman area. From initial planning and permitting through construction and final walkthrough, we coordinate subcontractors, manage schedules, enforce quality standards, and keep your project on budget. Our general contracting services cover commercial, residential, and mixed-use projects across Cornelius, Davidson, Mooresville, Huntersville, and surrounding Lake Norman communities. We bring 60 years of combined experience and a commitment to transparent communication on every project.',
+      'As a licensed North Carolina general contractor, We Build manages the full scope of construction projects in the Lake Norman area. From initial planning and permitting through construction and final walkthrough, we coordinate subcontractors, manage schedules, enforce quality standards, and keep your project on budget. Our general contracting services cover commercial and mixed-use projects across Cornelius, Davidson, Mooresville, Huntersville, and surrounding Lake Norman communities. We bring 60 years of combined experience and a commitment to transparent communication on every project.',
   },
 ];
 
@@ -128,27 +123,27 @@ const communities = [
   {
     name: 'Cornelius',
     description:
-      'Located on the southern shore of Lake Norman, Cornelius is a thriving town in Mecklenburg County with a population that has grown significantly over the past two decades. The community features established neighborhoods like Jetton Park, The Peninsula, and Antiquity, along with a vibrant commercial district. Cornelius operates under Mecklenburg County building jurisdiction, and We Build maintains strong working relationships with local inspectors and planning staff. We serve Cornelius homeowners and businesses with custom home construction, commercial builds, renovations, and roof coating services.',
+      'Located on the southern shore of Lake Norman, Cornelius is a thriving town in Mecklenburg County with a population that has grown significantly over the past two decades. The community features a vibrant commercial district along with established neighborhoods. Cornelius operates under Mecklenburg County building jurisdiction, and We Build maintains strong working relationships with local inspectors and planning staff. We serve Cornelius businesses with commercial construction, upfits, renovations, and roof coating services.',
   },
   {
     name: 'Davidson',
     description:
-      'Davidson is a charming college town on the eastern shore of Lake Norman known for Davidson College, its walkable downtown, and its commitment to preserving community character. Building in Davidson often involves specific architectural standards and design review processes. We Build has experience working within Davidson\'s unique planning framework to deliver residential and commercial projects that meet the town\'s expectations. From lakefront custom homes to downtown commercial renovations, we bring the attention to detail that Davidson demands.',
+      'Davidson is a charming college town on the eastern shore of Lake Norman known for Davidson College, its walkable downtown, and its commitment to preserving community character. Building in Davidson often involves specific architectural standards and design review processes. We Build has experience working within Davidson\'s unique planning framework to deliver commercial projects that meet the town\'s expectations. From downtown commercial renovations to office construction, we bring the attention to detail that Davidson demands.',
   },
   {
     name: 'Mooresville',
     description:
-      'Mooresville is the largest community on Lake Norman, located in Iredell County with a rapidly expanding residential and commercial base. The town offers a mix of waterfront living, suburban neighborhoods, and active business parks. Mooresville operates under Iredell County building codes, which differ from Mecklenburg County in several important ways. We Build understands these differences and navigates Iredell County permitting efficiently. We serve Mooresville with commercial construction, custom homes, residential additions, and our full range of construction services.',
+      'Mooresville is the largest community on Lake Norman, located in Iredell County with a rapidly expanding commercial base. The town offers active business parks and a growing retail landscape. Mooresville operates under Iredell County building codes, which differ from Mecklenburg County in several important ways. We Build understands these differences and navigates Iredell County permitting efficiently. We serve Mooresville with commercial construction, upfits, design-build, and our full range of construction services.',
   },
   {
     name: 'Huntersville',
     description:
-      'Huntersville anchors the southeastern corner of the Lake Norman area and is one of the fastest-growing towns in North Carolina. With major retail centers, business parks, and residential communities, Huntersville offers strong demand for both commercial and residential construction. We Build serves Huntersville businesses and homeowners from our nearby Charlotte headquarters. Whether you need a commercial upfit near Northlake Mall or a custom home in Skybrook, Rosedale, or Birkdale, our team delivers quality construction with local knowledge.',
+      'Huntersville anchors the southeastern corner of the Lake Norman area and is one of the fastest-growing towns in North Carolina. With major retail centers, business parks, and growing communities, Huntersville offers strong demand for commercial construction. We Build serves Huntersville businesses from our nearby Charlotte headquarters. Whether you need a commercial upfit near Northlake Mall or an office build-out in a Huntersville business park, our team delivers quality construction with local knowledge.',
   },
   {
     name: 'Denver & Sherrills Ford',
     description:
-      'Denver and Sherrills Ford are located on the western shore of Lake Norman in Lincoln and Catawba counties, respectively. These communities offer a more rural atmosphere with large lots, lakefront properties, and a growing residential base. Construction in Denver and Sherrills Ford often involves well and septic systems, larger setback requirements, and coordination with Lincoln or Catawba County building departments. We Build serves homeowners in these western Lake Norman communities with custom home construction, additions, and general contracting services.',
+      'Denver and Sherrills Ford are located on the western shore of Lake Norman in Lincoln and Catawba counties, respectively. These communities offer a growing commercial base as population expansion drives demand for new retail and professional services. Construction in Denver and Sherrills Ford often involves coordination with Lincoln or Catawba County building departments. We Build serves businesses in these western Lake Norman communities with commercial construction and general contracting services.',
   },
 ];
 
@@ -175,7 +170,7 @@ const whyChooseReasons = [
     icon: TrendingUp,
     title: '60+ Years Combined Experience',
     description:
-      'Our team brings over six decades of combined construction experience spanning commercial, residential, and specialty projects. We have built in conditions and jurisdictions across the greater Charlotte region.',
+      'Our team brings over six decades of combined construction experience spanning commercial and specialty projects. We have built in conditions and jurisdictions across the greater Charlotte region.',
   },
   {
     icon: CheckCircle,
@@ -193,9 +188,9 @@ const whyChooseReasons = [
 
 const faqs = [
   {
-    question: 'Do you build lakefront homes on Lake Norman?',
+    question: 'Do you build on lakefront properties at Lake Norman?',
     answer:
-      'Yes. We Build has experience constructing custom homes in lakefront communities around Lake Norman including The Peninsula, Jetton Park, Northington, and waterfront lots in Mooresville and Denver. We understand the unique requirements of lakefront construction including dock permits from Duke Energy, erosion control measures, FEMA flood zone compliance, shoreline setback regulations, and HOA architectural review processes. Our team coordinates with environmental consultants, marine contractors, and local building officials to ensure your waterfront home meets all applicable requirements.',
+      'Yes. We Build has experience with construction in lakefront areas around Lake Norman including The Peninsula, Jetton Park, Northington, and waterfront locations in Mooresville and Denver. We understand the unique requirements of lakefront construction including dock permits from Duke Energy, erosion control measures, FEMA flood zone compliance, and shoreline setback regulations. Our team coordinates with environmental consultants, marine contractors, and local building officials to ensure your project meets all applicable requirements.',
   },
   {
     question: 'What areas around Lake Norman do you serve?',
@@ -230,28 +225,47 @@ const faqs = [
   {
     question: 'Do you offer design-build services in Lake Norman?',
     answer:
-      'Yes. Our design-build services combine architectural planning and construction management under a single contract, which simplifies your project timeline and reduces the potential for miscommunication between separate design and construction teams. This approach works particularly well for custom homes, commercial projects, and renovations in the Lake Norman area. We invite clients to visit our design center to explore materials, finishes, and design options before construction begins. Learn more about our design-build approach on our design-build services page.',
+      'Yes. Our design-build services combine architectural planning and construction management under a single contract, which simplifies your project timeline and reduces the potential for miscommunication between separate design and construction teams. This approach works particularly well for commercial projects and renovations in the Lake Norman area. We invite clients to visit our design center to explore materials, finishes, and design options before construction begins. Learn more about our design-build approach on our design-build services page.',
   },
   {
-    question: 'How long does it take to build a custom home in Lake Norman?',
+    question: 'How long does a typical construction project take in Lake Norman?',
     answer:
-      'Custom home construction timelines in the Lake Norman area typically range from 8 to 14 months depending on the size, complexity, and specific location of the project. Waterfront homes often take longer due to additional permitting requirements, foundation engineering for lakefront lots, and coordination with Duke Energy and environmental agencies. Factors that affect timeline include plan review and permitting duration (which varies by county), weather conditions, material availability, and the complexity of site work. We provide a detailed project schedule during the planning phase so you know what to expect.',
+      'Construction timelines in the Lake Norman area vary by project type. Commercial upfits typically take 2 to 5 months. Ground-up commercial construction ranges from 8 to 14 months depending on the size and complexity. Waterfront projects often take longer due to additional permitting requirements, foundation engineering, and coordination with Duke Energy and environmental agencies. Factors that affect timeline include plan review and permitting duration (which varies by county), weather conditions, material availability, and the complexity of site work. We provide a detailed project schedule during the planning phase so you know what to expect.',
   },
   {
     question: 'What waterfront regulations affect Lake Norman construction?',
     answer:
       'Lake Norman is a Duke Energy reservoir, and waterfront construction is subject to several layers of regulation. Duke Energy controls the shoreline buffer zone and requires permits for docks, seawalls, and any structures within the buffer area. Properties must comply with FEMA floodplain regulations if located in designated flood zones. Mecklenburg and Iredell counties enforce shoreline setback requirements, erosion and sediment control standards, and stormwater management rules. Many lakefront communities also have HOA architectural review requirements that govern building design, materials, and exterior colors. We Build coordinates with all relevant agencies and HOAs to ensure full compliance.',
   },
+  {
+    question: 'How much does it cost to build a commercial space in Cornelius or Davidson versus Mooresville?',
+    answer:
+      'Commercial construction costs are comparable across Lake Norman communities, but there are notable differences. Cornelius and Davidson fall under Mecklenburg County jurisdiction with slightly higher permitting fees and stricter stormwater requirements, which can add 3 to 5 percent to total project costs. Mooresville in Iredell County tends to have a faster plan review process and lower fee schedules. Office upfits in all three towns run $50 to $175 per square foot, while ground-up commercial projects range $150 to $350 per square foot. We Build provides location-specific estimates that account for these jurisdictional differences.',
+  },
+  {
+    question: 'How does building in Davidson differ from other Lake Norman towns?',
+    answer:
+      'Davidson has a unique regulatory environment compared to other Lake Norman communities. The Town of Davidson enforces its own planning ordinance with design standards emphasizing walkability, architectural character, and mixed-use development. Commercial projects in downtown Davidson must comply with form-based code requirements that govern building setbacks, facade materials, and streetscape elements. These standards differ significantly from Cornelius or Mooresville. We Build is familiar with Davidson planning requirements and works with the town staff to ensure projects align with their community vision.',
+  },
+  {
+    question: 'Does We Build offer green building options for Lake Norman commercial projects?',
+    answer:
+      'Yes. As a U.S. Green Building Council (USGBC) member, We Build incorporates sustainable construction practices into Lake Norman commercial projects. This includes energy-efficient building envelopes, high-performance HVAC systems, LED lighting packages, and low-VOC materials. Lake Norman businesses increasingly prioritize sustainability to attract environmentally conscious tenants and reduce long-term operating costs. We can also pursue LEED certification for new construction and major renovation projects throughout the Cornelius, Davidson, and Mooresville area.',
+  },
 ];
 
 export default function LakeNormanPage() {
   return (
     <>
-      <JsonLd data={[localBusinessSchema(), faqSchema(faqs)]} />
+      <JsonLd data={[localBusinessSchema(), faqSchema(faqs), breadcrumbSchema([
+        { label: 'Home', href: '/' },
+        { label: 'Service Areas' },
+        { label: 'Lake Norman' },
+      ])]} />
 
       <PageHero
         title="Construction Company Lake Norman NC | General Contractor Cornelius, Davidson, Mooresville"
-        subtitle="Veteran and family-owned general contractor serving Lake Norman communities with commercial construction, custom homes, and waterfront building expertise"
+        subtitle="Veteran and family-owned general contractor serving Lake Norman communities with commercial construction, upfits, and design-build expertise"
         backgroundImage="/images/hero-bg.jpg"
       />
 
@@ -270,13 +284,13 @@ export default function LakeNormanPage() {
                 Lake Norman Construction Company — Serving Cornelius, Davidson, Mooresville & Huntersville
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Lake Norman is the largest man-made lake in North Carolina, stretching across four counties and anchoring one of the most dynamic growth regions in the Charlotte metropolitan area. The communities surrounding Lake Norman — Cornelius, Davidson, Mooresville, Huntersville, Denver, and Sherrills Ford — have experienced remarkable residential and commercial growth over the past two decades, creating sustained demand for quality construction services. We Build is a veteran and family-owned construction company with over 60 years of combined experience, and we are proud to serve homeowners and businesses throughout the Lake Norman region.
+                Lake Norman is the largest man-made lake in North Carolina, stretching across four counties and anchoring one of the most dynamic growth regions in the Charlotte metropolitan area. The communities surrounding Lake Norman — Cornelius, Davidson, Mooresville, Huntersville, Denver, and Sherrills Ford — have experienced remarkable commercial growth over the past two decades, creating sustained demand for quality construction services. We Build is a veteran and family-owned construction company with over 60 years of combined experience, and we are proud to serve businesses throughout the Lake Norman region.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                The Lake Norman area presents unique construction opportunities and challenges that set it apart from other Charlotte-area markets. Waterfront properties require specialized knowledge of shoreline regulations, Duke Energy buffer zones, FEMA flood zone compliance, and erosion control measures. Commercial development along the I-77 corridor from Huntersville through Mooresville demands contractors who understand the different permitting processes across Mecklenburg and Iredell counties. Residential construction in established communities like Davidson requires sensitivity to architectural standards and historic preservation guidelines. We Build brings the local expertise and construction capability to handle all of these scenarios.
+                The Lake Norman area presents unique construction opportunities and challenges that set it apart from other Charlotte-area markets. Waterfront properties require specialized knowledge of shoreline regulations, Duke Energy buffer zones, FEMA flood zone compliance, and erosion control measures. Commercial development along the I-77 corridor from Huntersville through Mooresville demands contractors who understand the different permitting processes across Mecklenburg and Iredell counties. Construction in established communities like Davidson requires sensitivity to architectural standards and historic preservation guidelines. We Build brings the local expertise and construction capability to handle all of these scenarios.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Whether you are a business owner planning a commercial build near Exit 28, a family designing a custom lakefront home in The Peninsula, or a property manager looking to upfit an office space in Mooresville, We Build delivers the same commitment to quality, transparency, and on-time delivery that has earned our reputation across the greater Charlotte region. Our team manages every phase of construction from initial consultation and permitting through construction and final walkthrough, giving you a single point of contact and complete accountability for your Lake Norman project.
+                Whether you are a business owner planning a commercial build near Exit 28 or a property manager looking to upfit an office space in Mooresville, We Build delivers the same commitment to quality, transparency, and on-time delivery that has earned our reputation across the greater Charlotte region. Our team manages every phase of construction from initial consultation and permitting through construction and final walkthrough, giving you a single point of contact and complete accountability for your Lake Norman project.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 As a <Link href="/about" className="text-primary hover:underline">USGBC member</Link> and licensed North Carolina general contractor, We Build incorporates sustainable building practices and energy-efficient design into our Lake Norman projects. We believe that responsible construction benefits both our clients and the Lake Norman community, and we work to minimize environmental impact while delivering exceptional results. From selecting sustainable materials to implementing efficient building systems, our approach reflects our commitment to building for the long term.
@@ -288,9 +302,9 @@ export default function LakeNormanPage() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:5627086616">
+                  <a href="tel:+17045748124">
                     <Phone className="mr-2 h-5 w-5" />
-                    (562) 708-6616
+                    (704) 574-8124
                   </a>
                 </Button>
               </div>
@@ -431,30 +445,6 @@ export default function LakeNormanPage() {
         </div>
       </section>
 
-      {/* Custom Homes & Waterfront Section */}
-      <section className="py-20 bg-secondary text-secondary-foreground">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <span className="text-primary font-semibold uppercase tracking-wider text-sm">Waterfront Expertise</span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">Lake Norman Custom Homes & Waterfront Construction</h2>
-            <div className="space-y-6">
-              <p className="text-secondary-foreground/90 leading-relaxed">
-                Lake Norman is one of the most sought-after locations for custom home construction in North Carolina. The lake spans over 32,000 acres with more than 520 miles of shoreline, offering an extraordinary range of waterfront and near-water residential opportunities. Building a custom home on or near Lake Norman requires a contractor who understands the specific challenges and regulations that come with lakefront construction — and We Build brings exactly that expertise to every waterfront project.
-              </p>
-              <p className="text-secondary-foreground/90 leading-relaxed">
-                Lakefront building challenges begin with the lot itself. Many waterfront lots have steep grades, complex soil conditions, and proximity to the lake that requires careful foundation engineering. Erosion control is a primary concern, and construction projects near the shoreline must implement comprehensive sediment control measures to protect water quality. Duke Energy, which manages Lake Norman as a hydroelectric reservoir, maintains a buffer zone along the shoreline where construction activity is regulated. Dock permits, seawall construction, and any modifications within the buffer zone require Duke Energy approval in addition to standard building permits.
-              </p>
-              <p className="text-secondary-foreground/90 leading-relaxed">
-                FEMA flood zone designations affect many properties around Lake Norman, and construction in these zones requires elevated foundations, flood-resistant materials, and specific design considerations to meet federal floodplain management standards. Our team works with structural engineers and floodplain administrators to design homes that meet these requirements while maximizing livability and lake views. We also coordinate with HOA architectural review committees in communities like The Peninsula, Jetton Park, Northington, The Farms at Mooresville, and other Lake Norman neighborhoods that maintain specific design standards.
-              </p>
-              <p className="text-secondary-foreground/90 leading-relaxed">
-                Beyond waterfront lots, the Lake Norman area offers outstanding custom home opportunities in communities throughout Cornelius, Davidson, Mooresville, and Huntersville. Whether you prefer a traditional Southern home in a Davidson neighborhood, a contemporary design in a Cornelius community, or a sprawling estate on acreage in Mooresville, We Build delivers <Link href="/services/custom-home-builder" className="text-primary hover:underline">custom home construction</Link> tailored to your vision and lifestyle. Visit our <Link href="/design-center" className="text-primary hover:underline">design center</Link> to begin exploring materials, finishes, and design options for your Lake Norman home.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Construction Market Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
@@ -466,7 +456,7 @@ export default function LakeNormanPage() {
                 The Lake Norman construction market reflects the broader growth trajectory of the Charlotte metropolitan area, which has consistently ranked among the fastest-growing regions in the United States. Cornelius, Davidson, Mooresville, and Huntersville have all experienced significant population growth, new business formation, and infrastructure investment that drives sustained construction demand. Understanding these market dynamics helps property owners and business operators make informed decisions about their construction projects.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Cornelius has seen steady commercial and residential development anchored by its proximity to both Lake Norman and the Charlotte business core. The town&apos;s position along I-77 makes it attractive for businesses seeking Lake Norman visibility with Charlotte accessibility. Davidson has maintained slower, more managed growth consistent with its small-town identity, focusing on walkable mixed-use development and preserving its distinctive character. Davidson&apos;s construction market favors quality over volume, with an emphasis on custom homes and carefully designed commercial spaces.
+                Cornelius has seen steady commercial development anchored by its proximity to both Lake Norman and the Charlotte business core. The town&apos;s position along I-77 makes it attractive for businesses seeking Lake Norman visibility with Charlotte accessibility. Davidson has maintained slower, more managed growth consistent with its small-town identity, focusing on walkable mixed-use development and preserving its distinctive character. Davidson&apos;s construction market favors quality over volume, with an emphasis on carefully designed commercial spaces.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Mooresville represents the largest and most diverse construction market in the Lake Norman region. The town&apos;s Iredell County location offers competitive land costs compared to Mecklenburg County communities, attracting both residential developers and commercial operators. Mooresville has seen significant growth in healthcare facilities, retail centers, business parks, and residential subdivisions. The town&apos;s expanding infrastructure including road improvements and utility extensions continues to open new areas for development.
@@ -663,6 +653,37 @@ export default function LakeNormanPage() {
         </div>
       </section>
 
+      {/* Other Areas We Serve */}
+      <section className="py-12 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl font-bold mb-4">Other Areas We Serve</h2>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              In addition to the Lake Norman region, We Build provides construction services throughout the greater Charlotte area and Metro Detroit. Our multi-state licensing allows us to serve clients across NC, SC, and MI.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              {[
+                { label: 'Huntersville', href: '/areas/huntersville' },
+                { label: 'Mooresville', href: '/areas/mooresville' },
+                { label: 'South Charlotte', href: '/areas/south-charlotte' },
+                { label: 'Matthews', href: '/areas/matthews' },
+                { label: 'Fort Mill SC', href: '/areas/fort-mill-sc' },
+                { label: 'Rock Hill SC', href: '/areas/rock-hill-sc' },
+              ].map((area) => (
+                <Link
+                  key={area.href}
+                  href={area.href}
+                  className="inline-flex items-center gap-2 bg-muted border rounded-lg px-4 py-2 text-sm hover:border-primary hover:text-primary transition-colors"
+                >
+                  <MapPin className="h-4 w-4" aria-hidden="true" />
+                  {area.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
@@ -680,9 +701,9 @@ export default function LakeNormanPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

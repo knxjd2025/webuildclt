@@ -53,24 +53,32 @@ export function HeroSlideshow() {
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      {/* Slides */}
-      {slides.map((slide, i) => (
-        <div
-          key={slide.src}
-          className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
-          style={{ opacity: i === current ? 1 : 0 }}
-          aria-hidden={i !== current}
-        >
-          <Image
-            src={slide.src}
-            alt={slide.alt}
-            fill
-            className="object-cover"
-            priority={i === 0}
-            sizes="100vw"
-          />
-        </div>
-      ))}
+      {/* Slides — only render current + adjacent for performance */}
+      {slides.map((slide, i) => {
+        const isActive = i === current;
+        const isAdjacent =
+          i === (current + 1) % slides.length ||
+          i === (current - 1 + slides.length) % slides.length;
+        if (!isActive && !isAdjacent) return null;
+        return (
+          <div
+            key={slide.src}
+            className="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+            style={{ opacity: isActive ? 1 : 0 }}
+            aria-hidden={!isActive}
+          >
+            <Image
+              src={slide.src}
+              alt={slide.alt}
+              fill
+              className="object-cover"
+              priority={i === 0}
+              loading={i === 0 ? undefined : 'lazy'}
+              sizes="100vw"
+            />
+          </div>
+        );
+      })}
 
       {/* Gradient overlay */}
       <div className="absolute inset-0 hero-gradient" />

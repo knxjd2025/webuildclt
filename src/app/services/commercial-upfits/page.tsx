@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -40,13 +40,18 @@ import {
 export const metadata: Metadata = {
   title: 'Commercial Upfits Charlotte NC | Office, Retail & Restaurant Build-Outs',
   description:
-    'Expert commercial upfit contractor in Charlotte, NC. Office upfits, restaurant build-outs, retail renovations, medical facility upgrades & tenant improvements. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free estimates. (562) 708-6616.',
+    'Expert commercial upfit and build-out contractor in Charlotte, NC. Commercial interior contractor for office upfits, restaurant build-outs, retail renovations, medical facility upgrades & tenant improvements. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free estimates. (704) 574-8124.',
   keywords: [
     'commercial upfit charlotte nc',
+    'commercial upfit near me',
+    'commercial upfit contractor charlotte nc',
     'office upfit charlotte nc',
+    'office upfit near me',
     'tenant upfit charlotte',
     'tenant improvement charlotte nc',
     'commercial renovation charlotte nc',
+    'commercial renovation contractor charlotte nc',
+    'commercial renovation contractor near me',
     'restaurant build out charlotte nc',
     'retail upfit charlotte nc',
     'medical office upfit charlotte',
@@ -54,7 +59,17 @@ export const metadata: Metadata = {
     'commercial build out charlotte',
     'office renovation charlotte nc',
     'ti allowance charlotte',
+    'commercial upfit Charlotte North Carolina',
+    'commercial upfit fort mill sc',
+    'commercial upfit lake norman nc',
+    'commercial upfit detroit mi',
+    'commercial build out contractor Charlotte',
+    'commercial interior contractor Charlotte',
+    'commercial buildout Charlotte NC',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/commercial-upfits',
+  },
   openGraph: {
     title: 'Commercial Upfits Charlotte NC | We Build',
     description:
@@ -306,6 +321,21 @@ const faqs = [
     answer:
       'We Build serves the entire Charlotte metropolitan area for commercial upfits. Our primary service area includes Charlotte, South Charlotte, University City, NoDa, South End, Uptown, and surrounding Mecklenburg County communities. We also serve Fort Mill, Rock Hill, Indian Land, and Tega Cay in South Carolina, as well as the Lake Norman communities of Cornelius, Davidson, Huntersville, and Mooresville. Our NC and SC general contractor licenses allow us to work across both states, which is especially convenient for businesses with locations on both sides of the state line.',
   },
+  {
+    question: 'How does a commercial upfit cost compare to leasing a move-in-ready space in Charlotte?',
+    answer:
+      'Leasing a move-in-ready space in Charlotte typically costs $2 to $8 more per square foot annually in rent compared to a white-box or second-generation space that requires an upfit. However, a customized upfit gives you a layout designed specifically for your business operations rather than adapting to a previous tenant\'s floor plan. When you factor in tenant improvement allowances from your landlord, which typically range from $20 to $60 per square foot in the Charlotte market, the net cost of a custom upfit can be comparable to or less than the premium rent on a move-in-ready space. We Build helps tenants maximize their TI allowance and negotiate upfit scope with landlords before lease execution.',
+  },
+  {
+    question: 'What is a white-box versus second-generation commercial upfit in Charlotte?',
+    answer:
+      'A white-box upfit starts from an unfinished shell with concrete floors, bare stud or drywall walls, basic HVAC, and roughed-in plumbing. You are building the entire interior from scratch. A second-generation upfit modifies a space that was previously built out for another tenant, reusing existing walls, ceilings, restrooms, and mechanical systems where possible. Second-generation upfits typically cost 20 to 40 percent less than white-box build-outs because they leverage the prior tenant\'s infrastructure. However, second-generation spaces may have layout constraints that require creative design solutions. We Build evaluates both scenarios during preconstruction and recommends the approach that delivers the best value for your business.',
+  },
+  {
+    question: 'How long does Mecklenburg County take to issue commercial upfit permits in Charlotte?',
+    answer:
+      'Mecklenburg County commercial building permit review typically takes 3 to 6 weeks from submission to approval for standard upfit projects. Complex upfits involving change of occupancy, fire sprinkler modifications, or structural changes may require 6 to 8 weeks due to additional review by the fire marshal, mechanical review team, and sometimes the Charlotte Planning Department. Incomplete or non-compliant plan submissions are returned for corrections, which can add 2 to 4 additional weeks. We Build prepares code-compliant construction documents and submits complete permit packages to minimize review time. Our familiarity with Mecklenburg County plan reviewers and their common comments helps us anticipate and address issues before submission.',
+  },
 ];
 
 export default function CommercialUpfitsPage() {
@@ -319,6 +349,11 @@ export default function CommercialUpfitsPage() {
             'https://webuildclt.com/services/commercial-upfits'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Commercial Upfits' },
+          ]),
         ]}
       />
 
@@ -344,12 +379,13 @@ export default function CommercialUpfitsPage() {
                 Commercial Upfit Contractor in Charlotte, NC
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                A commercial upfit transforms an existing building shell or previously occupied space
-                into a fully functional environment tailored to your specific business needs. Unlike
-                ground-up <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>,
+                A commercial upfit — also called a commercial build-out or interior build-out — transforms
+                an existing building shell or previously occupied space into a fully functional environment
+                tailored to your specific business needs. Unlike ground-up{' '}
+                <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>,
                 an upfit works within the existing structure, preserving the building envelope while
-                completely reimagining the interior. This makes commercial upfits one of the most
-                cost-effective ways for Charlotte businesses to get exactly the space they need
+                completely reimagining the interior. This makes commercial upfits and build-outs one of the
+                most cost-effective ways for Charlotte businesses to get exactly the space they need
                 without the timeline, expense, or complexity of new construction.
               </p>
               <p className="text-muted-foreground leading-relaxed">
@@ -867,20 +903,24 @@ export default function CommercialUpfitsPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: 'How Much Does a Commercial Upfit Cost?', slug: 'commercial-upfit-cost-charlotte' },
-              { title: 'Office Upfit vs. Full Renovation', slug: 'office-upfit-vs-full-renovation' },
-              { title: '7 Signs Your Space Needs an Upfit', slug: '7-signs-commercial-space-needs-upfit' },
-            ].map((post) => (
-              <Card key={post.slug} className="group hover:shadow-md transition-shadow">
+              { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service' },
+              { title: 'Office Buildouts Charlotte NC', href: '/services/office-buildouts', type: 'Service' },
+              { title: 'Commercial Renovation Charlotte NC', href: '/services/commercial-renovation', type: 'Service' },
+              { title: 'How Much Does a Commercial Upfit Cost?', href: '/blog/commercial-upfit-cost-charlotte', type: 'Blog' },
+              { title: 'Office Upfit vs. Full Renovation', href: '/blog/office-upfit-vs-full-renovation', type: 'Blog' },
+              { title: '7 Signs Your Space Needs an Upfit', href: '/blog/7-signs-commercial-space-needs-upfit', type: 'Blog' },
+            ].map((resource) => (
+              <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold mb-4 group-hover:text-primary transition-colors">
-                    {post.title}
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-4 group-hover:text-primary transition-colors">
+                    {resource.title}
                   </h3>
                   <Link
-                    href={`/blog/${post.slug}`}
+                    href={resource.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    Read Article <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                    {resource.type === 'Service' ? 'View Service' : 'Read Article'} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
@@ -917,9 +957,9 @@ export default function CommercialUpfitsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

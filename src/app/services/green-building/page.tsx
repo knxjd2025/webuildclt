@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -42,13 +42,17 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Green Building & Sustainable Construction Charlotte NC | USGBC Contractor',
   description:
-    'USGBC member green building contractor in Charlotte, NC. LEED construction, energy-efficient building, sustainable materials, water conservation, indoor air quality, and solar-ready construction. Veteran-owned, licensed in NC & SC. Free estimates. (562) 708-6616.',
+    'USGBC member green building contractor in Charlotte, NC. LEED construction, energy-efficient building, sustainable materials, water conservation, indoor air quality, and solar-ready construction. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
   keywords: [
     'green building contractor Charlotte NC',
+    'green building contractor near me',
     'LEED construction Charlotte NC',
     'sustainable construction Charlotte',
+    'sustainable construction near me',
     'energy efficient building Charlotte NC',
     'USGBC contractor Charlotte',
+    'USGBC member contractor Charlotte NC',
+    'LEED certified contractor Charlotte',
     'green commercial construction',
     'LEED certification Charlotte',
     'sustainable building materials Charlotte NC',
@@ -56,7 +60,14 @@ export const metadata: Metadata = {
     'green building design Charlotte NC',
     'eco friendly construction Charlotte',
     'net zero building Charlotte NC',
+    'green building Charlotte North Carolina',
+    'green building contractor Detroit MI',
+    'sustainable construction Charlotte NC',
+    'energy efficient commercial construction Charlotte',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/green-building',
+  },
   openGraph: {
     title: 'Green Building & Sustainable Construction Charlotte NC | We Build',
     description:
@@ -340,6 +351,21 @@ const faqs = [
     answer:
       'We Build serves the entire Charlotte metropolitan area for green building and sustainable construction projects. Our primary service area includes Charlotte, South Charlotte, University City, NoDa, South End, Uptown, and surrounding Mecklenburg County communities. We also serve Fort Mill, Rock Hill, Indian Land, and Tega Cay in South Carolina, as well as the Lake Norman communities of Cornelius, Davidson, Huntersville, and Mooresville. Our NC and SC general contractor licenses allow us to work across both states, which is particularly valuable for companies with facilities on both sides of the state line that want consistent green building standards. As a USGBC member based in Charlotte, we are deeply connected to the regional green building community and understand the specific climate, regulatory, and market conditions that affect sustainable construction in the Carolina Piedmont.',
   },
+  {
+    question: 'How much does a net-zero energy commercial building cost in Charlotte compared to a conventional building?',
+    answer:
+      'A net-zero energy commercial building in Charlotte typically costs 15 to 25 percent more than conventional construction, adding $30 to $60 per square foot to a standard commercial project. The premium covers high-performance building envelope insulation, triple-pane glazing, rooftop solar arrays sized to offset annual energy consumption, energy recovery ventilation, and advanced building automation systems. However, net-zero buildings eliminate utility costs entirely, saving $2 to $4 per square foot annually. Combined with the 30 percent federal solar Investment Tax Credit and Section 179D deductions, most net-zero commercial buildings in the Charlotte market achieve full payback on the additional investment within 8 to 12 years.',
+  },
+  {
+    question: 'What is the difference between LEED and WELL certification for Charlotte commercial buildings?',
+    answer:
+      'LEED focuses primarily on building sustainability including energy efficiency, water conservation, materials, and site impact. WELL focuses specifically on how the building affects occupant health and wellness, evaluating air quality, water quality, nourishment, light, fitness, thermal comfort, sound, materials, and mental wellbeing. LEED certifies the building as environmentally responsible, while WELL certifies that the building actively supports the health of the people inside it. Many Charlotte corporate tenants are now pursuing both certifications simultaneously because they address complementary goals. We Build can design and construct buildings that satisfy the requirements of both rating systems, and our USGBC membership keeps us current on both standards.',
+  },
+  {
+    question: 'Does Charlotte have any green building tax incentives for commercial property owners?',
+    answer:
+      'Charlotte commercial property owners can access several tax incentives for green building. The federal Section 179D Energy Efficient Commercial Building Deduction allows deductions of up to $5.00 per square foot for buildings that achieve 25 to 50 percent energy savings above ASHRAE 90.1 baseline. The 30 percent federal Investment Tax Credit applies to commercial solar installations through 2032, with bonus adders for domestic content and energy communities. North Carolina offers a property tax exclusion for solar energy systems, meaning the added value of rooftop solar does not increase your property tax assessment. Duke Energy commercial rebates can offset $20,000 to $100,000 or more in equipment costs. We help Charlotte building owners identify and maximize every applicable incentive during the design phase.',
+  },
 ];
 
 export default function GreenBuildingPage() {
@@ -353,6 +379,11 @@ export default function GreenBuildingPage() {
             'https://webuildclt.com/services/green-building'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Green Building' },
+          ]),
         ]}
       />
 
@@ -485,8 +516,234 @@ export default function GreenBuildingPage() {
         </div>
       </section>
 
+      {/* USGBC Membership Callout */}
+      <section className="py-16 bg-[#005F73] text-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="flex flex-col lg:flex-row items-center gap-10">
+              <div className="flex gap-6 flex-shrink-0">
+                <Image
+                  src="/USGBC Member.png"
+                  alt="USGBC Member — We Build Charlotte"
+                  width={120}
+                  height={120}
+                  className="rounded-xl shadow-lg"
+                />
+              </div>
+              <div className="flex-1 text-center lg:text-left">
+                <span className="inline-block bg-white/20 text-white text-xs font-semibold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
+                  Official USGBC Member
+                </span>
+                <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  We Build Is a U.S. Green Building Council Member
+                </h2>
+                <p className="text-white/85 leading-relaxed mb-6">
+                  The U.S. Green Building Council (USGBC) is the nonprofit organization that
+                  created and administers the LEED rating system — the most widely recognized
+                  green building certification standard in the world. USGBC membership is not
+                  automatically granted to any contractor; it reflects a genuine commitment to
+                  sustainable building principles and ongoing investment in green building
+                  education and best practices.
+                </p>
+                <div className="grid sm:grid-cols-3 gap-4">
+                  {[
+                    {
+                      icon: Award,
+                      heading: 'LEED System Access',
+                      body: 'Direct access to LEED rating system updates, GBCI certification resources, and the USGBC member portal for project registration and documentation.',
+                    },
+                    {
+                      icon: Lightbulb,
+                      heading: 'Ongoing Education',
+                      body: 'Continuous training through USGBC education programs, green building conferences, and the local Charlotte USGBC chapter community.',
+                    },
+                    {
+                      icon: HeartHandshake,
+                      heading: 'Sustainability Commitment',
+                      body: "Our USGBC membership is a public, third-party verified signal that We Build's commitment to sustainable construction is real — not a marketing claim.",
+                    },
+                  ].map((item) => (
+                    <div key={item.heading} className="bg-white/10 rounded-xl p-4 text-left">
+                      <item.icon className="h-6 w-6 text-white/80 mb-2" aria-hidden="true" />
+                      <h3 className="font-semibold text-sm mb-1">{item.heading}</h3>
+                      <p className="text-white/75 text-xs leading-relaxed">{item.body}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* LEED Credit Categories */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-10">
+              <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+                How LEED Works
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+                LEED Credit Point Categories Explained
+              </h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                LEED certification points are earned across seven credit categories. As your
+                USGBC member contractor, We Build helps you identify which categories offer the
+                greatest return for your specific building type, budget, and location in
+                Charlotte.
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[
+                {
+                  category: 'Location & Transportation',
+                  abbr: 'LT',
+                  points: 'Up to 16 pts',
+                  desc: 'Credits for proximity to transit, bicycle infrastructure, and reduced parking that encourage alternatives to single-occupancy vehicles. Charlotte projects in Uptown or South End score well here.',
+                },
+                {
+                  category: 'Sustainable Sites',
+                  abbr: 'SS',
+                  points: 'Up to 10 pts',
+                  desc: 'Site protection, rainwater management, heat island reduction, and light pollution controls. Mecklenburg County stormwater requirements align with several Sustainable Sites credits.',
+                },
+                {
+                  category: 'Water Efficiency',
+                  abbr: 'WE',
+                  points: 'Up to 11 pts',
+                  desc: 'Indoor plumbing fixture efficiency, outdoor irrigation reduction, and water metering. Low-flow fixtures and native landscaping are the primary strategies for Charlotte commercial projects.',
+                },
+                {
+                  category: 'Energy & Atmosphere',
+                  abbr: 'EA',
+                  points: 'Up to 33 pts',
+                  desc: "The largest credit category. Points are earned for energy performance above ASHRAE 90.1 baseline, commissioning, advanced energy metering, renewable energy, and demand response. Duke Energy's rebate programs complement many EA strategies.",
+                },
+                {
+                  category: 'Materials & Resources',
+                  abbr: 'MR',
+                  points: 'Up to 13 pts',
+                  desc: 'Construction waste diversion, life cycle assessment, building product disclosure, and sourcing materials with recycled content or regional origin within 500 miles of Charlotte.',
+                },
+                {
+                  category: 'Indoor Environmental Quality',
+                  abbr: 'EQ',
+                  points: 'Up to 16 pts',
+                  desc: 'Minimum ventilation, low-emitting materials, daylighting, quality views, and acoustic performance. IAQ credits directly improve occupant health, productivity, and tenant satisfaction.',
+                },
+                {
+                  category: 'Innovation',
+                  abbr: 'IN',
+                  points: 'Up to 6 pts',
+                  desc: 'Bonus points for exceptional performance, pilot credits for innovative strategies, and LEED Accredited Professional project involvement.',
+                },
+              ].map((cat) => (
+                <div key={cat.abbr} className="border border-border rounded-xl p-5">
+                  <div className="flex items-start justify-between gap-3 mb-2">
+                    <div>
+                      <span className="inline-block text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded mr-2">
+                        {cat.abbr}
+                      </span>
+                      <span className="font-semibold">{cat.category}</span>
+                    </div>
+                    <span className="text-xs text-muted-foreground whitespace-nowrap flex-shrink-0">
+                      {cat.points}
+                    </span>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{cat.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Charlotte Green Building Market */}
+      <section className="py-16 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-10">
+              <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+                Charlotte Market
+              </span>
+              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+                Charlotte&apos;s Green Building Market & Local Incentives
+              </h2>
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Charlotte is one of the Southeast&apos;s fastest-growing cities, and its
+                sustainability infrastructure makes it an increasingly strong market for green
+                building investment.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              {[
+                {
+                  icon: MapPin,
+                  title: "Charlotte 2040 Comprehensive Plan",
+                  desc: "Charlotte's 2040 Plan establishes sustainability as a core pillar of the city's growth strategy. The plan includes goals for compact, mixed-use development near transit, expanded tree canopy, stormwater resilience, and reduced per-capita carbon footprint. Buildings constructed to green standards today are already aligned with where Charlotte's regulatory environment is heading.",
+                },
+                {
+                  icon: Zap,
+                  title: 'Duke Energy Commercial Rebates',
+                  desc: "Duke Energy Carolinas' Smart Saver program provides prescriptive rebates for high-efficiency HVAC systems, LED lighting, variable frequency drives, building automation systems, and cool roofing — all strategies that also contribute to LEED Energy & Atmosphere credits. Commercial projects in Charlotte can qualify for $20,000 to $100,000+ in Duke Energy rebates depending on project scope.",
+                },
+                {
+                  icon: Droplets,
+                  title: 'Mecklenburg County Stormwater Credits',
+                  desc: "Mecklenburg County's post-construction stormwater program requires development projects to manage runoff on-site. Green infrastructure strategies such as bioretention areas, permeable paving, and vegetated roofs that meet LEED Sustainable Sites credits frequently satisfy or reduce Mecklenburg stormwater requirements simultaneously — a double financial benefit.",
+                },
+                {
+                  icon: BarChart3,
+                  title: 'Corporate Sustainability Demand',
+                  desc: "Charlotte's largest employers — Bank of America, Duke Energy, Honeywell, Lowe's, Truist, and Wells Fargo — have all published ESG commitments that include real estate sustainability goals. This corporate demand creates a large, growing tenant market that specifically prefers or requires LEED-certified buildings, supporting higher rents and stronger occupancy for green building owners.",
+                },
+              ].map((item) => (
+                <Card key={item.title}>
+                  <CardContent className="p-6">
+                    <div className="flex items-start gap-4">
+                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <item.icon className="h-5 w-5 text-primary" aria-hidden="true" />
+                      </div>
+                      <div>
+                        <h3 className="font-semibold mb-2">{item.title}</h3>
+                        <p className="text-sm text-muted-foreground leading-relaxed">{item.desc}</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6">
+              <h3 className="font-semibold mb-3 flex items-center gap-2">
+                <Calculator className="h-5 w-5 text-primary" aria-hidden="true" />
+                Green Building Cost Premium at a Glance
+              </h3>
+              <div className="grid sm:grid-cols-4 gap-4 text-center">
+                {[
+                  { level: 'LEED Certified', premium: '1–3%', payback: '2–3 yrs' },
+                  { level: 'LEED Silver', premium: '3–5%', payback: '3–5 yrs' },
+                  { level: 'LEED Gold', premium: '5–8%', payback: '4–7 yrs' },
+                  { level: 'LEED Platinum', premium: '8–15%', payback: '6–10 yrs' },
+                ].map((row) => (
+                  <div key={row.level} className="bg-background rounded-lg p-4">
+                    <p className="text-xs text-muted-foreground mb-1">{row.level}</p>
+                    <p className="text-2xl font-bold text-primary">{row.premium}</p>
+                    <p className="text-xs text-muted-foreground mt-1">cost premium</p>
+                    <p className="text-xs font-medium text-foreground mt-2">Payback: {row.payback}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="text-xs text-muted-foreground mt-4">
+                Cost premiums are estimates for Charlotte commercial new construction. Actual costs depend on project type, size, and credit strategy. Duke Energy rebates and Section 179D deductions can reduce the effective premium by 15–25%.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Green Building Services */}
-      <section className="py-20 bg-muted">
+      <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <span className="text-primary font-semibold uppercase tracking-wider text-sm">
@@ -742,13 +999,19 @@ export default function GreenBuildingPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: 'Commercial Construction', href: '/services/commercial-construction', desc: 'Ground-up commercial construction with integrated green building strategies for new facilities.' },
-              { title: 'Design-Build Services', href: '/services/design-build', desc: 'Single-source design and construction that integrates sustainability from the earliest design phase.' },
-              { title: 'Commercial Upfits', href: '/services/commercial-upfits', desc: 'Sustainable interior renovations and tenant build-outs with LEED Commercial Interiors support.' },
+              { title: 'Commercial Construction', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction with integrated green building strategies for new facilities.' },
+              { title: 'Roof Coating Charlotte NC', href: '/services/roof-coating', type: 'Service', desc: 'Reflective roof coatings that reduce cooling costs by up to 30% and contribute to LEED credits and energy efficiency.' },
+              { title: 'Adaptive Reuse Construction', href: '/services/adaptive-reuse', type: 'Service', desc: 'Sustainable building conversion that preserves embodied energy and reduces construction waste through adaptive reuse.' },
+              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Single-source design and construction that integrates sustainability from the earliest design phase.' },
+              { title: 'Commercial Upfits', href: '/services/commercial-upfits', type: 'Service', desc: 'Sustainable interior renovations and tenant build-outs with LEED Commercial Interiors support.' },
+              { title: 'Green Building Guide: Sustainable Construction in Charlotte', href: '/guides/green-building-guide-sustainable-charlotte', type: 'Guide', desc: 'Learn about sustainable building practices, LEED certification, and energy-efficient construction strategies for Charlotte projects.' },
+              { title: 'Energy Efficiency Guide for Charlotte Homes', href: '/guides/energy-efficiency-guide-charlotte-homes', type: 'Guide', desc: 'Practical tips for improving energy efficiency in new construction and renovations throughout Charlotte.' },
+              { title: 'Why USGBC Membership Matters for Your Charlotte Construction Project', href: '/blog/usgbc-membership-charlotte-construction-project', type: 'Blog', desc: "How We Build's USGBC membership benefits clients pursuing LEED certification and sustainable construction in the Charlotte market." },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-2 group-hover:text-primary transition-colors">
                     {resource.title}
                   </h3>
                   <p className="text-sm text-muted-foreground mb-4">{resource.desc}</p>
@@ -756,7 +1019,7 @@ export default function GreenBuildingPage() {
                     href={resource.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    Learn More <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                    {resource.type === 'Guide' ? 'Read Guide' : resource.type === 'Blog' ? 'Read Post' : 'Learn More'} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
@@ -803,9 +1066,9 @@ export default function GreenBuildingPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

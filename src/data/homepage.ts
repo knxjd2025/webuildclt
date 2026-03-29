@@ -96,15 +96,8 @@ export const services: ServiceItem[] = [
     icon: Wrench,
     title: 'General Contractor',
     description:
-      'As a licensed general contractor in both North Carolina and South Carolina, We Build manages the full scope of commercial and residential construction projects. We coordinate subcontractors, procure materials, handle permitting and inspections, manage budgets, and maintain schedules. Our general contracting services cover ground-up construction, major renovations, tenant improvements, and multi-phase developments. With over sixty years of combined construction experience, we bring the project management discipline and trade expertise needed to deliver complex projects without surprises.',
+      'As a licensed general contractor in both North Carolina and South Carolina, We Build manages the full scope of commercial construction projects. We coordinate subcontractors, procure materials, handle permitting and inspections, manage budgets, and maintain schedules. Our general contracting services cover ground-up construction, major renovations, tenant improvements, and multi-phase developments. With over sixty years of combined construction experience, we bring the project management discipline and trade expertise needed to deliver complex projects without surprises.',
     href: '/services/general-contractor',
-  },
-  {
-    icon: Home,
-    title: 'Custom Home Building',
-    description:
-      'Build the home of your dreams with Charlotte\'s trusted custom home builder. From lot selection and site evaluation through architectural design, permitting, construction, and final walkthrough, we guide you every step. Our custom homes feature high-performance building envelopes, energy-efficient systems, and finish selections curated at our Design Center. We build on your lot or help you find the perfect site in Charlotte, South Charlotte, Lake Norman, Fort Mill, or anywhere in our service area.',
-    href: '/services/custom-home-builder',
   },
   {
     icon: Layers,
@@ -119,14 +112,14 @@ export const heroFeatures = [
   '60+ years combined experience',
   'Veteran & family owned',
   'USGBC member',
-  'Licensed in NC & SC',
+  'Licensed in NC, SC & MI',
 ];
 
 export const stats: StatItem[] = [
   { value: '60+', label: 'Years Combined Experience' },
-  { value: '2', label: 'State Licenses (NC & SC)' },
+  { value: '3', label: 'State Licenses (NC, SC & MI)' },
   { value: '2019', label: 'Founded in Charlotte' },
-  { value: '7', label: 'Service Specialties' },
+  { value: '25', label: 'Service Specialties' },
 ];
 
 export const processSteps: ProcessStep[] = [
@@ -177,9 +170,9 @@ export const processSteps: ProcessStep[] = [
 export const whyChooseUs: WhyChooseItem[] = [
   {
     icon: Shield,
-    title: 'Licensed & Insured in NC and SC',
+    title: 'Licensed & Insured in NC, SC & MI',
     description:
-      'We hold active general contractor licenses in both North Carolina and South Carolina, backed by comprehensive general liability, workers\' compensation, and commercial auto insurance. Your project is fully protected from permit application through final inspection. Dual-state licensing means we can serve clients across the Charlotte metro area without jurisdictional delays, whether your project is in Mecklenburg County, York County, or anywhere in between.',
+      'We hold active general contractor licenses in North Carolina, South Carolina, and Michigan, backed by comprehensive general liability, workers\' compensation, and commercial auto insurance. Your project is fully protected from permit application through final inspection. Multi-state licensing means we can serve clients across the Charlotte metro area, the South Carolina border communities, and the Detroit metropolitan area without jurisdictional delays.',
   },
   {
     icon: Users,
@@ -191,7 +184,7 @@ export const whyChooseUs: WhyChooseItem[] = [
     icon: Award,
     title: '60+ Years Combined Experience',
     description:
-      'Our leadership and field teams bring over sixty years of combined construction experience spanning commercial builds, residential custom homes, industrial projects, and specialty roof coatings. This depth of knowledge means we have seen and solved virtually every construction challenge that arises in the Charlotte market — from problematic soil conditions and complex permitting to tight schedules and challenging site logistics. Experience eliminates guesswork.',
+      'Our leadership and field teams bring over sixty years of combined construction experience spanning commercial builds, industrial projects, and specialty roof coatings. This depth of knowledge means we have seen and solved virtually every construction challenge that arises in the Charlotte market — from problematic soil conditions and complex permitting to tight schedules and challenging site logistics. Experience eliminates guesswork.',
   },
   {
     icon: Leaf,
@@ -287,7 +280,7 @@ export const areasServedDetailed: AreaItem[] = [
     name: 'Fort Mill, SC',
     href: '/areas/fort-mill-sc',
     description:
-      'Licensed in South Carolina, We Build is a trusted construction partner for businesses and homeowners in Fort Mill, Tega Cay, Rock Hill, and York County. Fort Mill\'s proximity to Charlotte makes it one of the hottest markets for commercial construction and custom home building in the Carolinas. We handle everything from restaurant build-outs along Carowinds Boulevard to custom lakefront homes in Tega Cay — all managed by our Charlotte-based team with full SC licensing and insurance.',
+      'Licensed in South Carolina, We Build is a trusted construction partner for businesses in Fort Mill, Tega Cay, Rock Hill, and York County. Fort Mill\'s proximity to Charlotte makes it one of the hottest markets for commercial construction in the Carolinas. We handle everything from restaurant build-outs along Carowinds Boulevard to commercial upfits in Tega Cay — all managed by our Charlotte-based team with full SC licensing and insurance.',
   },
   {
     name: 'Lake Norman & Cornelius',
@@ -296,10 +289,40 @@ export const areasServedDetailed: AreaItem[] = [
       'The Lake Norman area — including Cornelius, Davidson, Huntersville, and Mooresville — is one of Charlotte\'s premier markets for custom home construction and commercial development. We build lakefront custom homes, commercial spaces along the I-77 corridor, restaurant build-outs in downtown Davidson, and office upfits in Mooresville\'s growing business parks. Our team understands the unique requirements of lakefront construction including setback regulations, erosion control, and dock permitting.',
   },
   {
-    name: 'Detroit, MI',
-    href: '/contact',
+    name: 'Huntersville & North Charlotte',
+    href: '/areas/huntersville',
     description:
-      'We Build is expanding into the Detroit metropolitan area, bringing our commercial construction expertise to Michigan. From commercial upfits and tenant improvements to ground-up commercial builds, we are ready to serve businesses across Metro Detroit, Dearborn, and the surrounding communities. Contact us to discuss your Detroit-area commercial construction project.',
+      'We Build serves Huntersville, Birkdale Village, Northlake, and the I-77 corridor north of Charlotte. This fast-growing area features new commercial developments and retail centers that need experienced general contractors who understand Mecklenburg County requirements and the unique character of the Lake Norman south shore communities.',
+  },
+  {
+    name: 'Matthews & Mint Hill',
+    href: '/areas/matthews',
+    description:
+      'Construction services for Matthews, Mint Hill, Indian Trail, and Stallings in eastern Mecklenburg and Union counties. From downtown Matthews commercial renovations to new construction along Independence Boulevard, We Build handles commercial projects across this growing suburban market.',
+  },
+  {
+    name: 'Mooresville & Race City',
+    href: '/areas/mooresville',
+    description:
+      'Serving Mooresville, the Lake Norman west shore, and Iredell County with commercial construction. Home to NASCAR and a booming technology corridor along I-77, Mooresville offers strong demand for office construction, retail build-outs, and commercial development.',
+  },
+  {
+    name: 'Rock Hill, SC',
+    href: '/areas/rock-hill-sc',
+    description:
+      'Licensed in South Carolina, We Build serves Rock Hill, Tega Cay, and York County with commercial construction and tenant improvements. Rock Hill\'s Knowledge Park tech hub and Dave Lyle Boulevard corridor are driving significant commercial development and construction demand.',
+  },
+  {
+    name: 'Detroit Metro, MI',
+    href: '/areas/detroit',
+    description:
+      'We Build is bringing our commercial construction expertise to the Detroit metropolitan area. From commercial upfits and tenant improvements in Dearborn to industrial construction in Warren and restaurant build-outs in Royal Oak, we serve businesses across Metro Detroit with the same quality and accountability that defines our Charlotte operations.',
+  },
+  {
+    name: 'Dearborn, MI',
+    href: '/areas/dearborn',
+    description:
+      'Construction services in Dearborn, Dearborn Heights, and western Wayne County. From the Ford Road commercial corridor to Michigan Avenue, We Build delivers commercial upfits, office renovations, and tenant improvements for businesses in this key Metro Detroit market.',
   },
 ];
 
@@ -307,17 +330,17 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'What types of construction projects does We Build handle?',
     answer:
-      'We Build provides full-service general contracting for commercial construction (offices, retail, restaurants, medical facilities, warehouses), residential construction (custom homes, additions, renovations), commercial roof coating and restoration through our We Coat division, and integrated design-build services. We handle projects of all sizes across the Charlotte metro area and into South Carolina. Our team manages every phase from pre-construction planning through final walkthrough and warranty support.',
+      'We Build provides full-service general contracting for commercial construction (offices, retail, restaurants, breweries, medical facilities, warehouses), residential construction (custom homes, additions, renovations), commercial roof coating and restoration through our We Coat division, FAA-certified thermal drone roof inspections, site development, value engineering, adaptive reuse, and integrated design-build services. We handle projects of all sizes across the Charlotte metro area, South Carolina, and the Detroit metropolitan area. Our team manages every phase from pre-construction planning through final walkthrough and warranty support.',
   },
   {
     question: 'What areas in the Charlotte region do you serve?',
     answer:
-      'We serve the entire Charlotte metropolitan area including South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, and Fort Mill, SC. Our headquarters is at 14330 S Lakes Drive, Charlotte NC 28273. We hold active general contractor licenses in both North Carolina and South Carolina, allowing us to serve clients on both sides of the state line without delays.',
+      'We serve the entire Charlotte metropolitan area including South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, Fort Mill SC, and Rock Hill SC. We are also expanding into the Detroit metropolitan area including Dearborn, Troy, Southfield, Royal Oak, and Warren. Our headquarters is at 14330 S Lakes Drive, Charlotte NC 28273. We hold active general contractor licenses in North Carolina, South Carolina, and Michigan.',
   },
   {
     question: 'Are you a licensed and insured general contractor?',
     answer:
-      'Yes. We Build holds active general contractor licenses in both North Carolina (NC Licensing Board for General Contractors) and South Carolina (SC Contractors\' Licensing Board). We carry comprehensive insurance including general liability, workers\' compensation, and commercial auto coverage. We are happy to provide copies of our licenses and certificates of insurance to any prospective client or property manager upon request.',
+      'Yes. We Build holds active general contractor licenses in North Carolina, South Carolina, and Michigan. We carry comprehensive insurance including general liability, workers\' compensation, and commercial auto coverage. Our FAA Part 107 certification also authorizes our commercial drone pilot to conduct aerial inspections legally in any state. We are happy to provide copies of our licenses and certificates of insurance to any prospective client or property manager upon request.',
   },
   {
     question: 'How much does commercial construction cost in Charlotte?',
@@ -332,12 +355,12 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'Do you offer free estimates for construction projects?',
     answer:
-      'Yes. We provide free consultations and detailed, transparent estimates for all project types — commercial construction, upfits, custom homes, additions, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (562) 708-6616 or through our website to schedule your free consultation. We typically respond within one business day.',
+      'Yes. We provide free consultations and detailed, transparent estimates for all project types — commercial construction, upfits, custom homes, additions, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (704) 574-8124 or through our website to schedule your free consultation. We typically respond within one business day.',
   },
   {
     question: 'What makes We Build different from other Charlotte contractors?',
     answer:
-      'Several things set We Build apart from other general contractors in Charlotte. We are veteran and family-owned, which means the owners are personally involved in every project. We maintain a dedicated Design Center where clients explore materials hands-on. We offer integrated design-build services that deliver projects faster and with fewer surprises. We are a USGBC member committed to sustainable building practices. We provide transparent, line-item pricing with no hidden costs. And we hold dual licenses in North Carolina and South Carolina, giving us seamless coverage across the Charlotte metro area.',
+      'Several things set We Build apart from other general contractors in Charlotte. We are veteran and family-owned, which means the owners are personally involved in every project. We maintain a dedicated Design Center where clients explore materials hands-on. We offer integrated design-build services that deliver projects faster and with fewer surprises. We are a USGBC member committed to sustainable building practices. Our FAA-certified drone pilot provides thermal roof inspections that detect problems invisible to the naked eye. We provide transparent, line-item pricing with no hidden costs. And we hold licenses in North Carolina, South Carolina, and Michigan, giving us coverage from Charlotte to the Detroit metro area.',
   },
   {
     question: 'How long does a typical construction project take?',
@@ -353,6 +376,21 @@ export const homeFaqs: FAQItem[] = [
     question: 'What is the USGBC and why does membership matter?',
     answer:
       'The USGBC — U.S. Green Building Council — is the organization behind LEED certification and the leading authority on sustainable building practices in the United States. We Build\'s USGBC membership demonstrates our commitment to environmentally responsible construction. This means we incorporate energy-efficient systems, sustainable materials, waste reduction strategies, and green building techniques into our projects. For building owners, this translates to lower operating costs, healthier indoor environments, higher property values, and reduced environmental impact over the life of the building.',
+  },
+  {
+    question: 'What financing options are available for construction projects in Charlotte?',
+    answer:
+      'Several financing options are available for construction projects in the Charlotte area. Commercial projects can utilize SBA loans, conventional construction loans, or commercial lines of credit through local and national lenders. We Build works with clients at every budget level and can provide referrals to trusted lending partners who specialize in construction financing in Mecklenburg County and the greater Charlotte region. Our transparent, milestone-based payment structure also helps manage cash flow throughout the project, and we coordinate directly with lender disbursement schedules when needed.',
+  },
+  {
+    question: 'How does We Build use drone inspections for construction and roofing projects?',
+    answer:
+      'We Build operates FAA-certified commercial drones equipped with thermal imaging cameras to inspect roofs and construction sites without scaffolding, ladders, or business disruption. Thermal drone inspections detect hidden moisture intrusion, insulation failures, and structural issues that visual inspections miss entirely. The data is compiled into detailed reports with annotated imagery so building owners can make informed decisions about repairs or coating. This technology saves time, reduces inspection costs, and delivers more accurate assessments than traditional methods — a capability most Charlotte contractors do not offer.',
+  },
+  {
+    question: 'Does We Build offer construction services in the Detroit area?',
+    answer:
+      'Yes. We Build has expanded into the Detroit metropolitan area with an active general contractor license in Michigan. We serve businesses in Dearborn, Southfield, Troy, Royal Oak, Warren, and surrounding Wayne and Oakland County communities. Our Detroit operations offer the same commercial construction, upfit, and renovation services that define our Charlotte work — backed by the same veteran-owned accountability and transparent pricing. Clients in Metro Detroit benefit from our sixty-plus years of combined experience and a dedicated project manager for every job.',
   },
 ];
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -37,11 +37,14 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Office Buildouts & Renovation Charlotte NC | Corporate, Co-Working & Medical Office Construction',
   description:
-    'Expert office buildout and renovation contractor in Charlotte, NC. Corporate headquarters, co-working spaces, medical office suites, law firms, tech startups & executive suites. Veteran-owned, licensed in NC & SC. Hybrid-ready designs. Free estimates. (562) 708-6616.',
+    'Expert office buildout and renovation contractor in Charlotte, NC. Commercial general contractors for corporate headquarters, co-working spaces, medical office suites, law firms, tech startups & executive suites. Veteran-owned, licensed in NC & SC. Hybrid-ready designs. Free estimates. (704) 574-8124.',
   keywords: [
     'office buildout Charlotte NC',
+    'office buildout near me',
+    'office buildout contractor Charlotte NC',
     'office renovation Charlotte NC',
     'office construction Charlotte NC',
+    'office construction near me',
     'office remodel Charlotte',
     'corporate office renovation Charlotte',
     'co-working space buildout Charlotte',
@@ -51,7 +54,15 @@ export const metadata: Metadata = {
     'tech office buildout Charlotte',
     'executive suite renovation Charlotte NC',
     'office tenant improvement Charlotte',
+    'office buildout Charlotte North Carolina',
+    'office buildout fort mill sc',
+    'office buildout lake norman nc',
+    'office buildout detroit mi',
+    'commercial office construction near me',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/office-buildouts',
+  },
   openGraph: {
     title: 'Office Buildouts & Renovation Charlotte NC | We Build',
     description:
@@ -313,6 +324,21 @@ const faqs = [
     answer:
       'All office buildout construction performed by We Build is backed by a one-year workmanship warranty covering materials and labor. If any defect in our work appears during the first year after project completion, we return and correct it at no additional cost. Major building systems installed during the buildout carry manufacturer warranties that typically extend well beyond our workmanship warranty: HVAC equipment carries 5 to 10 year manufacturer warranties, commercial lighting fixtures carry 5 to 7 year warranties, and plumbing fixtures carry lifetime or limited lifetime warranties. At project closeout, we provide complete warranty documentation, equipment maintenance manuals, and as-built drawings so you have everything needed to maintain your office space for years to come.',
   },
+  {
+    question: 'How does an office buildout cost in Charlotte compare to Raleigh or Atlanta?',
+    answer:
+      'Charlotte office buildout costs are generally competitive with other major Southeast markets. Standard buildouts in Charlotte run $75 to $130 per square foot, compared to $85 to $145 in Raleigh-Durham and $90 to $160 in Atlanta for similar scope and finish levels. Charlotte benefits from a deep pool of experienced commercial subcontractors, competitive material pricing, and lower base rents that reduce total occupancy cost. Tenant improvement allowances in Charlotte are also competitive, typically ranging from $20 to $65 per square foot depending on building class and lease terms. These factors combine to make Charlotte one of the most cost-effective office markets in the Southeast for companies expanding their footprint.',
+  },
+  {
+    question: 'What is the difference between a Generation 1 and Generation 2 office buildout in Charlotte?',
+    answer:
+      'A Generation 1 or first-generation buildout converts raw shell space with concrete floors, exposed ceilings, and no interior improvements into a finished office. A Generation 2 or second-generation buildout renovates a space that was previously built out for another tenant. Generation 1 buildouts cost more because everything must be installed new, but you get exactly the layout you want with no compromises. Generation 2 buildouts can be less expensive if the existing layout partially works for your needs, but they often involve demolition of existing walls, removal of outdated systems, and remediation of concealed conditions like asbestos tile or outdated wiring. We evaluate both options and advise which approach delivers the best value for your situation.',
+  },
+  {
+    question: 'Do Mecklenburg County office buildouts require ADA compliance upgrades?',
+    answer:
+      'Yes, all office buildouts in Mecklenburg County must comply with the 2010 ADA Standards for Accessible Design and the North Carolina Accessibility Code. New buildouts must be fully accessible including entrances, corridors, restrooms, break rooms, and common areas. Renovations that exceed a certain cost threshold trigger a path-of-travel obligation requiring you to spend up to 20 percent of the renovation cost on accessibility improvements to the primary path between the accessible entrance and the renovated area. Common ADA requirements for office buildouts include 36-inch minimum clear door widths, 60-inch turning radius in restrooms, lowered counters and controls, and compliant signage. We design every office buildout with full ADA compliance integrated from the start to avoid costly rework during final inspection.',
+  },
 ];
 
 const officeTrends = [
@@ -353,6 +379,11 @@ export default function OfficeBuildoutsPage() {
             'https://webuildclt.com/services/office-buildouts'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Office Buildouts' },
+          ]),
         ]}
       />
 
@@ -703,20 +734,24 @@ export default function OfficeBuildoutsPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', label: 'View Service' },
-              { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', label: 'View Service' },
-              { title: 'Design-Build Services', href: '/services/design-build', label: 'View Service' },
+              { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', type: 'Service' },
+              { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service' },
+              { title: 'Commercial Renovation Charlotte NC', href: '/services/commercial-renovation', type: 'Service' },
+              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service' },
+              { title: 'Office Build-Out Guide: Planning Your Charlotte Workspace', href: '/guides/office-build-out-guide-charlotte', type: 'Guide' },
+              { title: 'Commercial Flooring Guide: Best Options by Business Type', href: '/guides/commercial-flooring-guide-business-type', type: 'Guide' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold mb-4 group-hover:text-primary transition-colors">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-4 group-hover:text-primary transition-colors">
                     {resource.title}
                   </h3>
                   <Link
                     href={resource.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    {resource.label} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                    {resource.type === 'Guide' ? 'Read Guide' : 'View Service'} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
@@ -753,9 +788,9 @@ export default function OfficeBuildoutsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

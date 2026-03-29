@@ -18,7 +18,7 @@ export function CTASection() {
           </span>
           , a{' '}
           <span className="text-primary-foreground font-medium">
-            custom home
+            design-build project
           </span>
           ,{' '}
           <span className="text-primary-foreground font-medium">
@@ -26,10 +26,10 @@ export function CTASection() {
           </span>
           , or a{' '}
           <span className="text-primary-foreground font-medium">
-            design-build project
+            custom home
           </span>
           , We Build delivers quality results on time and on budget. Licensed
-          in NC and SC. USGBC member. Sixty plus years combined experience.
+          in NC, SC, and MI. USGBC member. Sixty plus years combined experience.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button size="lg" variant="secondary" asChild>
@@ -41,9 +41,9 @@ export function CTASection() {
             className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
             asChild
           >
-            <a href="tel:5627086616">
+            <a href="tel:+17045748124">
               <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-              (562) 708-6616
+              (704) 574-8124
             </a>
           </Button>
         </div>

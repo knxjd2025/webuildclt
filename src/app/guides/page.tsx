@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
+import { JsonLd } from '@/components/JsonLd';
+import { breadcrumbSchema } from '@/lib/structured-data';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight, Clock, Wrench, Building2, Layers, UtensilsCrossed, Shield } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
@@ -9,16 +11,22 @@ import { Button } from '@/components/ui/button';
 import { getAllGuides } from '@/data/guides';
 
 export const metadata: Metadata = {
-  title: 'Guides | Construction & Home Improvement Guides',
+  title: 'Guides | Construction & Home Improvement Guides Charlotte NC',
   description:
-    'Free, in-depth guides for Charlotte homeowners and business owners — home maintenance, flooring, kitchen remodels, commercial build-outs, roof care, and more.',
+    'Free, in-depth Charlotte construction guides for homeowners and business owners — home maintenance, flooring, kitchen remodels, commercial build-outs, roof care, and more. Expert tips from We Build.',
   keywords: [
+    'Charlotte construction guides',
+    'home improvement guides Charlotte NC',
+    'commercial construction tips',
     'home maintenance guide charlotte',
     'flooring guide charlotte nc',
     'kitchen remodel guide',
     'commercial construction guide charlotte',
     'roof maintenance guide',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/guides',
+  },
 };
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -31,6 +39,7 @@ export default function GuidesPage() {
 
   return (
     <>
+      <JsonLd data={breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Guides' }])} />
       <PageHero
         title="Guides"
         subtitle="Free, expert construction and home improvement guides for Charlotte"

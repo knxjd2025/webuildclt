@@ -7,13 +7,15 @@ import { JsonLd } from '@/components/JsonLd';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { MapPin, Calendar, Ruler, ArrowLeft, Phone } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
+import { MapPin, Calendar, Ruler, ArrowLeft, ArrowRight, Phone } from 'lucide-react';
 import {
   constructionProjectSchema,
   breadcrumbSchema,
 } from '@/lib/structured-data';
 import type { Project } from '@/types/project';
 import { hardcodedProjects } from '@/data/portfolio-projects';
+import { allServices, type ServiceLink } from '@/data/services';
 
 // Use anon key for public reads (RLS allows reading published projects)
 function getPublicClient() {
@@ -41,6 +43,73 @@ async function getProject(slug: string): Promise<Project | null> {
 
   // Fall back to hardcoded portfolio projects
   return hardcodedProjects.find((p) => p.slug === slug) ?? null;
+}
+
+/** Keyword-to-service mapping for cross-linking portfolio items to service pages. */
+const categoryServiceMap: Record<string, string[]> = {
+  // Project categories
+  commercial: ['commercial-construction', 'commercial-upfits', 'general-contractor'],
+  residential: ['general-contractor', 'design-build', 'commercial-construction'],
+  'roof-coating': ['roof-coating', 'commercial-construction', 'green-building'],
+  // Service types
+  upfit: ['commercial-upfits', 'tenant-improvements', 'office-buildouts'],
+  'new-construction': ['commercial-construction', 'design-build', 'general-contractor'],
+  renovation: ['commercial-renovation', 'design-build', 'general-contractor'],
+  addition: ['design-build', 'general-contractor', 'commercial-construction'],
+  'design-build': ['design-build', 'commercial-construction', 'pre-construction'],
+  'custom-home': ['design-build', 'general-contractor', 'commercial-construction'],
+  'tenant-improvement': ['tenant-improvements', 'commercial-upfits', 'office-buildouts'],
+};
+
+/** Return up to 3 unique services relevant to a project's category and service_type. */
+function getRelatedServices(project: Project): ServiceLink[] {
+  const serviceHrefIndex = new Map(allServices.map((s) => [s.href.replace('/services/', ''), s]));
+  const seen = new Set<string>();
+  const result: ServiceLink[] = [];
+
+  // Gather candidate slugs from service_type first (more specific), then category
+  const candidateSlugs = [
+    ...(categoryServiceMap[project.service_type] ?? []),
+    ...(categoryServiceMap[project.category] ?? []),
+  ];
+
+  for (const slug of candidateSlugs) {
+    if (seen.has(slug)) continue;
+    seen.add(slug);
+    const svc = serviceHrefIndex.get(slug);
+    if (svc) result.push(svc);
+    if (result.length >= 3) break;
+  }
+
+  return result;
+}
+
+/** Fetch other published projects in the same category, excluding the current one. */
+async function getRelatedProjects(
+  currentSlug: string,
+  category: string,
+  limit = 3
+): Promise<Project[]> {
+  // Try Supabase first
+  try {
+    const supabase = getPublicClient();
+    const { data } = await supabase
+      .from('projects')
+      .select('*')
+      .eq('category', category)
+      .eq('status', 'published')
+      .neq('slug', currentSlug)
+      .limit(limit);
+
+    if (data && data.length > 0) return data;
+  } catch (err) {
+    console.error('[getRelatedProjects] Supabase error:', err);
+  }
+
+  // Fall back to hardcoded projects
+  return hardcodedProjects
+    .filter((p) => p.category === category && p.slug !== currentSlug)
+    .slice(0, limit);
 }
 
 type PageProps = { params: Promise<{ slug: string }> };
@@ -89,6 +158,9 @@ export default async function ProjectPage({ params }: PageProps) {
   const project = await getProject(slug);
 
   if (!project) notFound();
+
+  const relatedServices = getRelatedServices(project);
+  const relatedProjects = await getRelatedProjects(slug, project.category);
 
   const locationStr = [project.neighborhood, project.city, project.state]
     .filter(Boolean)
@@ -233,9 +305,9 @@ export default async function ProjectPage({ params }: PageProps) {
                     <Link href="/contact">Get a Free Quote</Link>
                   </Button>
                   <Button variant="outline" className="w-full" asChild>
-                    <a href="tel:5627086616">
+                    <a href="tel:+17045748124">
                       <Phone className="h-4 w-4 mr-2" />
-                      (562) 708-6616
+                      (704) 574-8124
                     </a>
                   </Button>
                 </div>
@@ -274,6 +346,92 @@ export default async function ProjectPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Related Services */}
+      {relatedServices.length > 0 && (
+        <section className="py-16 bg-background">
+          <div className="container mx-auto px-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-2">
+              Related Services
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              Explore the services behind this project.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedServices.map((service) => (
+                <Card key={service.href} className="group hover:shadow-md transition-shadow">
+                  <CardContent className="space-y-3">
+                    <Badge variant="secondary" className="capitalize">
+                      {service.category}
+                    </Badge>
+                    <h3 className="font-semibold text-lg">{service.name}</h3>
+                    <p className="text-sm text-muted-foreground">
+                      {service.description}
+                    </p>
+                    <Button variant="link" className="p-0 h-auto" asChild>
+                      <Link href={service.href}>
+                        Learn more
+                        <ArrowRight className="h-4 w-4 ml-1" />
+                      </Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Related Projects */}
+      {relatedProjects.length > 0 && (
+        <section className="py-16 bg-muted/50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-2">
+              Related Projects
+            </h2>
+            <p className="text-muted-foreground mb-8">
+              More {project.category} projects by We Build.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {relatedProjects.map((related) => (
+                <Link
+                  key={related.slug}
+                  href={`/portfolio/${related.slug}`}
+                  className="group"
+                >
+                  <Card className="overflow-hidden hover:shadow-md transition-shadow h-full">
+                    {related.featured_image && (
+                      <div className="relative aspect-[4/3]">
+                        <Image
+                          src={related.featured_image}
+                          alt={related.title}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                    )}
+                    <CardContent className="space-y-2">
+                      <Badge variant="secondary" className="capitalize">
+                        {related.category}
+                      </Badge>
+                      <h3 className="font-semibold text-lg group-hover:text-primary transition-colors">
+                        {related.title}
+                      </h3>
+                      <p className="text-sm text-muted-foreground line-clamp-2">
+                        {related.short_description}
+                      </p>
+                      <span className="inline-flex items-center text-sm text-primary font-medium">
+                        View project
+                        <ArrowRight className="h-4 w-4 ml-1" />
+                      </span>
+                    </CardContent>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* CTA Section */}
       <section className="py-16 bg-muted">
         <div className="container mx-auto px-4 text-center">
@@ -284,7 +442,7 @@ export default async function ProjectPage({ params }: PageProps) {
             We Build is a veteran and family-owned general contractor
             headquartered in Charlotte, NC. We serve{' '}
             {project.neighborhood || project.city} and surrounding communities
-            with commercial and residential construction services.
+            with commercial construction services.
           </p>
           <Button size="lg" asChild>
             <Link href="/contact">Get a Free Estimate</Link>

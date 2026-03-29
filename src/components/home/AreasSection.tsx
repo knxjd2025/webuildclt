@@ -47,7 +47,7 @@ export function AreasSection() {
         </div>
 
         <div className="mt-8 bg-muted rounded-lg p-6 flex flex-col md:flex-row items-start md:items-center gap-4">
-          <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+          <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
           <div>
             <p className="font-semibold">Our Headquarters</p>
             <p className="text-sm text-muted-foreground">

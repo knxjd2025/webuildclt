@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -42,12 +42,15 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Pre-Construction Services Charlotte NC | Planning, Estimating & Value Engineering',
   description:
-    'Expert pre-construction services in Charlotte, NC. Feasibility studies, cost estimating, value engineering, constructability reviews, scheduling, and site analysis. Veteran-owned, licensed in NC & SC. Save money before you break ground. (562) 708-6616.',
+    'Expert pre-construction services in Charlotte, NC. Feasibility studies, cost estimating, value engineering, constructability reviews, scheduling, and site analysis. Veteran-owned, licensed in NC & SC. Save money before you break ground. (704) 574-8124.',
   keywords: [
     'pre-construction services Charlotte NC',
+    'pre-construction services near me',
     'pre-construction planning Charlotte',
+    'pre-construction contractor',
     'value engineering Charlotte NC',
     'construction estimating Charlotte NC',
+    'construction estimating near me',
     'site feasibility Charlotte',
     'constructability review Charlotte NC',
     'construction cost estimating Charlotte',
@@ -56,7 +59,11 @@ export const metadata: Metadata = {
     'construction scheduling Charlotte NC',
     'site analysis Charlotte NC',
     'construction feasibility study Charlotte',
+    'pre-construction services Detroit MI',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/pre-construction',
+  },
   openGraph: {
     title: 'Pre-Construction Services Charlotte NC | We Build',
     description:
@@ -317,6 +324,21 @@ const faqs = [
     answer:
       'Pre-construction is a phase of a project, while design-build is a delivery method. Pre-construction services, including estimating, value engineering, scheduling, and constructability review, can be provided under any project delivery method including design-build, design-bid-build, and construction management. In a design-build project, pre-construction planning is deeply integrated with the design process because the same firm handles both. In a design-bid-build project, pre-construction services from a contractor provide the cost and scheduling expertise that the owner does not have access to until after bidding. We Build offers both design-build services and standalone pre-construction consulting. If you are pursuing a design-build project, our pre-construction services are included as part of our integrated approach. If you already have a design team and want construction planning expertise, we can provide pre-construction services as a standalone engagement.',
   },
+  {
+    question: 'How does pre-construction cost estimating compare to hiring a separate cost consultant in Charlotte?',
+    answer:
+      'A dedicated pre-construction contractor typically provides more accurate and actionable estimates than an independent cost consultant. Independent estimators rely on published cost databases that may not reflect current Charlotte subcontractor pricing, material availability, or local labor conditions. A contractor performing pre-construction solicits real preliminary pricing from the subcontractors who will actually bid the work, giving you estimates grounded in current market reality. We Build maintains active relationships with hundreds of Charlotte-area subcontractors and suppliers, which means our estimates reflect what the project will actually cost to build today, not what a national cost index suggests it should cost.',
+  },
+  {
+    question: 'What pre-construction deliverables will a Mecklenburg County lender expect for a construction loan?',
+    answer:
+      'Mecklenburg County lenders typically require a detailed cost estimate organized by CSI division, a Critical Path Method construction schedule with milestone dates, proof of contractor licensing and insurance, a project feasibility summary, and evidence that zoning and environmental reviews support the planned use. Some lenders also want a geotechnical report summary and a preliminary site plan showing utility connections and stormwater compliance. We Build assembles these deliverables as part of our standard pre-construction package, and our documentation has supported successful construction loan approvals with Charlotte-area banks, credit unions, and SBA lenders across a wide range of project sizes.',
+  },
+  {
+    question: 'How does pre-construction planning reduce change orders during construction?',
+    answer:
+      'Change orders are the single largest source of cost overruns on commercial projects, and most originate from issues that could have been identified before construction started. Pre-construction planning reduces change orders by conducting constructability reviews that catch coordination conflicts between trades, performing detailed scope gap analysis to ensure nothing falls between subcontractor scopes, verifying material lead times so procurement delays do not force field substitutions, and confirming that existing site conditions match design assumptions through thorough surveys and investigations. On Charlotte projects where we perform full pre-construction services, our clients typically experience 60 to 80 percent fewer change orders compared to projects that skip the pre-construction phase.',
+  },
 ];
 
 const valueEngineeringExamples = [
@@ -373,6 +395,11 @@ export default function PreConstructionPage() {
             'https://webuildclt.com/services/pre-construction'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Pre-Construction' },
+          ]),
         ]}
       />
 
@@ -729,6 +756,43 @@ export default function PreConstructionPage() {
         </div>
       </section>
 
+      {/* Related Services */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold">Related Services</h2>
+            <p className="text-muted-foreground mt-2">
+              Pre-construction planning sets the stage for successful project delivery.
+              Explore our complementary services.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: 'Value Engineering', href: '/services/value-engineering', type: 'Service', desc: 'Construction cost optimization and material substitution analysis that delivers 10-25% savings without sacrificing quality.' },
+              { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control, budget management, and quality oversight from pre-construction through closeout.' },
+              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Single-source design and construction that integrates pre-construction planning from the earliest project stages.' },
+              { title: 'Site Development', href: '/services/site-development', type: 'Service', desc: 'Land clearing, grading, and site preparation informed by thorough pre-construction site analysis.' },
+            ].map((resource) => (
+              <Card key={resource.href} className="group hover:shadow-md transition-shadow">
+                <CardContent className="p-6">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-2 group-hover:text-primary transition-colors">
+                    {resource.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4">{resource.desc}</p>
+                  <Link
+                    href={resource.href}
+                    className="inline-flex items-center text-primary text-sm font-medium hover:underline"
+                  >
+                    Learn More <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Resources */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
@@ -791,9 +855,9 @@ export default function PreConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

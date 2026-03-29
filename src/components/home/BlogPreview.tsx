@@ -16,7 +16,7 @@ export function BlogPreview() {
             Construction Tips & Industry Insights
           </h2>
           <p className="text-muted-foreground">
-            Expert advice on commercial construction, custom homes, roof
+            Expert advice on commercial construction, design-build, roof
             coating, and building in Charlotte, NC. Read our latest articles
             on the{' '}
             <Link href="/blog" className="text-primary hover:underline">

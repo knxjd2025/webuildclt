@@ -1,25 +1,19 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Facebook, Instagram, Phone, Mail, MapPin } from 'lucide-react';
+import { servicesByCategory, areaLinks } from '@/data/services';
 
 const navigation = {
   main: [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
+    { name: 'Certifications & Licenses', href: '/about/certifications' },
     { name: 'Portfolio', href: '/portfolio' },
     { name: 'Design Center', href: '/design-center' },
     { name: 'We Coat', href: '/we-coat' },
     { name: 'Guides', href: '/guides' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
-  ],
-  services: [
-    { name: 'Commercial Construction', href: '/services/commercial-construction' },
-    { name: 'Commercial Upfits', href: '/services/commercial-upfits' },
-    { name: 'Design-Build', href: '/services/design-build' },
-    { name: 'Roof Coating', href: '/services/roof-coating' },
-    { name: 'General Contractor', href: '/services/general-contractor' },
-    { name: 'Custom Home Builder', href: '/services/custom-home-builder' },
   ],
   social: [
     { name: 'Instagram', href: 'https://www.instagram.com/webuildclt/', icon: Instagram },
@@ -31,9 +25,9 @@ export function Footer() {
   return (
     <footer className="bg-secondary text-secondary-foreground">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-          {/* Company Info */}
-          <div className="space-y-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
+          {/* Company Info — spans 2 cols on lg */}
+          <div className="lg:col-span-2 space-y-6">
             <Image
               src="/images/logo-white.png"
               alt="We Build"
@@ -54,7 +48,7 @@ export function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-secondary-foreground/60 hover:text-primary transition-colors"
-                  aria-label={item.name}
+                  aria-label={`Follow We Build on ${item.name}`}
                 >
                   <item.icon className="h-6 w-6" />
                 </a>
@@ -62,12 +56,12 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
+          {/* Commercial Services */}
           <div>
-            <h2 className="text-lg font-semibold mb-6">Quick Links</h2>
-            <ul className="space-y-3">
-              {navigation.main.map((item) => (
-                <li key={item.name}>
+            <h2 className="text-lg font-semibold mb-6">Commercial</h2>
+            <ul className="space-y-2.5">
+              {servicesByCategory.commercial.map((item) => (
+                <li key={item.href}>
                   <Link
                     href={item.href}
                     className="text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
@@ -79,12 +73,42 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Specialty Services */}
           <div>
-            <h2 className="text-lg font-semibold mb-6">Our Services</h2>
-            <ul className="space-y-3">
-              {navigation.services.map((item) => (
+            <h2 className="text-lg font-semibold mb-6">Specialty</h2>
+            <ul className="space-y-2.5">
+              {servicesByCategory.specialty.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Quick Links + Service Areas */}
+          <div>
+            <h2 className="text-lg font-semibold mb-6">Quick Links</h2>
+            <ul className="space-y-2.5">
+              {navigation.main.map((item) => (
                 <li key={item.name}>
+                  <Link
+                    href={item.href}
+                    className="text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <h3 className="text-base font-semibold mt-6 mb-4">Service Areas</h3>
+            <ul className="space-y-2.5">
+              {areaLinks.map((item) => (
+                <li key={item.href}>
                   <Link
                     href={item.href}
                     className="text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
@@ -113,11 +137,11 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:5627086616"
+                  href="tel:+17045748124"
                   className="flex items-center gap-3 text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
                 >
                   <Phone className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
-                  (562) 708-6616
+                  (704) 574-8124
                 </a>
               </li>
               <li>
@@ -153,7 +177,6 @@ export function Footer() {
               />
               <span className="text-[10px] text-secondary-foreground/50 uppercase tracking-wider">NC Licensed</span>
             </div>
-            {/* Add more certifications as needed */}
           </div>
         </div>
 

@@ -3,31 +3,90 @@
  * Used with the JsonLd component to embed schema.org markup
  */
 
-const BUSINESS = {
-  name: 'We Build',
-  url: 'https://webuildclt.com',
-  phone: '(562) 708-6616',
-  email: 'designcenter@webuildclt.com',
-  address: {
-    street: '14330 S Lakes Drive',
-    city: 'Charlotte',
-    state: 'NC',
-    zip: '28273',
-    country: 'US',
+import { BUSINESS } from '@/data/business';
+
+/**
+ * Escape strings for safe embedding in JSON-LD <script> blocks.
+ * Prevents breaking out of the script context via </script> injection.
+ */
+function escapeJsonLd(value: string): string {
+  return value
+    .replace(/</g, '\\u003c')
+    .replace(/>/g, '\\u003e')
+    .replace(/&/g, '\\u0026');
+}
+
+/** All cities We Build serves — used across multiple schema generators */
+const AREAS_SERVED = [
+  {
+    '@type': 'City' as const,
+    name: 'Charlotte',
+    sameAs: 'https://en.wikipedia.org/wiki/Charlotte,_North_Carolina',
   },
-  geo: {
-    latitude: 35.1,
-    longitude: -80.9,
-  },
-  social: [
-    'https://www.instagram.com/webuildclt/',
-    'https://www.facebook.com/WeBuildCLT',
-  ],
-  logo: 'https://webuildclt.com/images/logo.png',
-  foundingDate: '2019',
-  description:
-    'Family-owned construction company in Charlotte, NC. Commercial & residential construction, upfits, roof coating. 60+ years combined experience.',
-} as const;
+  { '@type': 'City' as const, name: 'Fort Mill' },
+  { '@type': 'City' as const, name: 'Lake Norman' },
+  { '@type': 'City' as const, name: 'Huntersville' },
+  { '@type': 'City' as const, name: 'Matthews' },
+  { '@type': 'City' as const, name: 'Mooresville' },
+  { '@type': 'City' as const, name: 'Rock Hill' },
+  { '@type': 'City' as const, name: 'Detroit', sameAs: 'https://en.wikipedia.org/wiki/Detroit' },
+  { '@type': 'City' as const, name: 'Dearborn' },
+  { '@type': 'State' as const, name: 'North Carolina' },
+  { '@type': 'State' as const, name: 'South Carolina' },
+  { '@type': 'State' as const, name: 'Michigan' },
+];
+
+/** Full GeneralContractor entity reused as provider across schemas */
+function fullProviderEntity(): Record<string, unknown> {
+  return {
+    '@type': 'GeneralContractor',
+    name: BUSINESS.name,
+    url: BUSINESS.url,
+    telephone: BUSINESS.phone,
+    email: BUSINESS.email,
+    logo: BUSINESS.logo,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: BUSINESS.address.street,
+      addressLocality: BUSINESS.address.city,
+      addressRegion: BUSINESS.address.state,
+      postalCode: BUSINESS.address.zip,
+      addressCountry: BUSINESS.address.country,
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: BUSINESS.geo.latitude,
+      longitude: BUSINESS.geo.longitude,
+    },
+  };
+}
+
+/** All service categories for hasOfferCatalog */
+const SERVICE_CATALOG_ITEMS = [
+  'Commercial Construction',
+  'Commercial Upfits',
+  'Commercial Renovation',
+  'Design-Build',
+  'General Contracting',
+  'Roof Coating',
+  'Tenant Improvements',
+  'Construction Management',
+  'Drone Inspections',
+  'Green Building',
+  'Adaptive Reuse',
+  'Site Development',
+  'Brewery Construction',
+  'Warehouse Construction',
+  'Value Engineering',
+  "Owner's Representative",
+  'Industrial Construction',
+  'Medical Construction',
+  'Restaurant Construction',
+  'Office Buildouts',
+  'Retail Construction',
+  'ADA Compliance',
+  'Pre-Construction',
+];
 
 export function organizationSchema(): Record<string, unknown> {
   return {
@@ -79,25 +138,15 @@ export function localBusinessSchema(): Record<string, unknown> {
       closes: '17:00',
     },
     sameAs: BUSINESS.social,
-    areaServed: [
-      {
-        '@type': 'City',
-        name: 'Charlotte',
-        sameAs: 'https://en.wikipedia.org/wiki/Charlotte,_North_Carolina',
-      },
-      {
-        '@type': 'City',
-        name: 'Fort Mill',
-      },
-      {
-        '@type': 'State',
-        name: 'North Carolina',
-      },
-      {
-        '@type': 'State',
-        name: 'South Carolina',
-      },
-    ],
+    areaServed: AREAS_SERVED,
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Construction Services',
+      itemListElement: SERVICE_CATALOG_ITEMS.map((serviceName) => ({
+        '@type': 'OfferCatalog',
+        name: serviceName,
+      })),
+    },
     priceRange: '$$',
   };
 }
@@ -119,18 +168,124 @@ export function serviceSchema(
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    name,
-    description,
+    name: escapeJsonLd(name),
+    description: escapeJsonLd(description),
     url,
-    provider: {
-      '@type': 'GeneralContractor',
-      name: BUSINESS.name,
-      url: BUSINESS.url,
+    provider: fullProviderEntity(),
+    areaServed: AREAS_SERVED,
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name,
+    },
+    availableChannel: [
+      {
+        '@type': 'ServiceChannel',
+        serviceType: 'In-person consultation',
+        serviceLocation: {
+          '@type': 'Place',
+          name: 'We Build Design Center',
+          address: {
+            '@type': 'PostalAddress',
+            streetAddress: BUSINESS.address.street,
+            addressLocality: BUSINESS.address.city,
+            addressRegion: BUSINESS.address.state,
+            postalCode: BUSINESS.address.zip,
+            addressCountry: BUSINESS.address.country,
+          },
+        },
+      },
+      {
+        '@type': 'ServiceChannel',
+        serviceType: 'Phone consultation',
+        servicePhone: {
+          '@type': 'ContactPoint',
+          telephone: BUSINESS.phone,
+          contactType: 'sales',
+        },
+      },
+    ],
+    termsOfService: `${BUSINESS.url}/contact`,
+  };
+}
+
+interface HowToStep {
+  name: string;
+  text: string;
+}
+
+/**
+ * HowTo schema for process/step-by-step sections on service pages.
+ * Enables Google "How To" rich results.
+ */
+export function howToSchema(
+  name: string,
+  description: string,
+  steps: HowToStep[]
+): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: escapeJsonLd(name),
+    description: escapeJsonLd(description),
+    step: steps.map((step, index) => ({
+      '@type': 'HowToStep',
+      position: index + 1,
+      name: escapeJsonLd(step.name),
+      text: escapeJsonLd(step.text),
+    })),
+  };
+}
+
+/**
+ * ServiceArea schema for area pages.
+ * Combines LocalBusiness with ServiceArea for geo-targeted SEO.
+ */
+export function serviceAreaSchema(
+  areaName: string,
+  description: string,
+  services: Array<{ name: string; url: string }>
+): Record<string, unknown> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    '@id': `${BUSINESS.url}#${areaName.toLowerCase().replace(/\s+/g, '-')}`,
+    name: `${BUSINESS.name} — ${escapeJsonLd(areaName)}`,
+    description: escapeJsonLd(description),
+    url: BUSINESS.url,
+    telephone: BUSINESS.phone,
+    email: BUSINESS.email,
+    logo: BUSINESS.logo,
+    image: BUSINESS.logo,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: BUSINESS.address.street,
+      addressLocality: BUSINESS.address.city,
+      addressRegion: BUSINESS.address.state,
+      postalCode: BUSINESS.address.zip,
+      addressCountry: BUSINESS.address.country,
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: BUSINESS.geo.latitude,
+      longitude: BUSINESS.geo.longitude,
     },
     areaServed: {
-      '@type': 'City',
-      name: 'Charlotte',
+      '@type': 'Place',
+      name: areaName,
     },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: `Construction Services in ${areaName}`,
+      itemListElement: services.map((svc) => ({
+        '@type': 'Offer',
+        itemOffered: {
+          '@type': 'Service',
+          name: svc.name,
+          url: svc.url,
+        },
+      })),
+    },
+    priceRange: '$$',
   };
 }
 
@@ -144,14 +299,16 @@ interface ArticleInput {
 }
 
 export function articleSchema(post: ArticleInput): Record<string, unknown> {
+  const articleUrl = `${BUSINESS.url}/blog/${post.slug}`;
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: post.title,
-    url: `${BUSINESS.url}/blog/${post.slug}`,
+    headline: escapeJsonLd(post.title),
+    url: articleUrl,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
     datePublished: post.date,
     dateModified: post.date,
-    description: post.excerpt,
+    ...(post.excerpt && { description: escapeJsonLd(post.excerpt) }),
     ...(post.imageUrl && { image: post.imageUrl }),
     author: {
       '@type': 'Organization',
@@ -180,10 +337,10 @@ export function faqSchema(items: FaqItem[]): Record<string, unknown> {
     '@type': 'FAQPage',
     mainEntity: items.map((item) => ({
       '@type': 'Question',
-      name: item.question,
+      name: escapeJsonLd(item.question),
       acceptedAnswer: {
         '@type': 'Answer',
-        text: item.answer,
+        text: escapeJsonLd(item.answer),
       },
     })),
   };
@@ -221,8 +378,8 @@ export function constructionProjectSchema(
   return {
     '@context': 'https://schema.org',
     '@type': 'CreativeWork',
-    name: project.title,
-    description: project.short_description,
+    name: escapeJsonLd(project.title),
+    description: escapeJsonLd(project.short_description),
     url: `${BUSINESS.url}/portfolio/${project.slug}`,
     ...(project.featured_image && { image: project.featured_image }),
     ...(project.images && project.images.length > 0 && {

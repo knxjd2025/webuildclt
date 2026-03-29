@@ -23,16 +23,16 @@ export function ServicesGrid() {
             <Link href="/services/commercial-upfits" className="text-primary hover:underline">
               office upfits
             </Link>{' '}
-            to{' '}
-            <Link href="/services/custom-home-builder" className="text-primary hover:underline">
-              custom homes
-            </Link>{' '}
-            and eco-friendly{' '}
+            to eco-friendly{' '}
             <Link href="/we-coat" className="text-primary hover:underline">
               roof coating
+            </Link>{' '}
+            and{' '}
+            <Link href="/services/design-build" className="text-primary hover:underline">
+              design-build
             </Link>
             , We Build offers comprehensive construction services for
-            businesses and homeowners across the Charlotte metro area. Every
+            businesses across the Charlotte metro area. Every
             project is backed by our veteran-owned commitment to quality,
             transparency, and on-time delivery. Explore our{' '}
             <Link href="/guides/commercial-construction-charlotte-guide" className="text-primary hover:underline">

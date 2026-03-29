@@ -25,6 +25,7 @@ export function VideoShowcase() {
                 aria-label="FYZICAL Therapy commercial upfit timelapse by We Build"
               >
                 <source src="/videos/fyzical-upfit.mp4" type="video/mp4" />
+                <p>Your browser does not support the video element. View our FYZICAL Therapy commercial upfit project.</p>
               </video>
             </div>
             <p className="text-sm text-muted-foreground text-center">
@@ -41,6 +42,7 @@ export function VideoShowcase() {
                 aria-label="We Coat commercial roof coating process in Charlotte NC"
               >
                 <source src="/videos/we-coat-charlotte.mp4" type="video/mp4" />
+                <p>Your browser does not support the video element. View our We Coat commercial roof coating project.</p>
               </video>
             </div>
             <p className="text-sm text-muted-foreground text-center">

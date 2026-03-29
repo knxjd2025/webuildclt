@@ -13,21 +13,7 @@ import {
 } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 import { ThemeToggle } from '@/components/ThemeToggle';
-
-const serviceLinks = [
-  { name: 'Commercial Construction', href: '/services/commercial-construction' },
-  { name: 'Commercial Upfits', href: '/services/commercial-upfits' },
-  { name: 'Design-Build', href: '/services/design-build' },
-  { name: 'Roof Coating', href: '/services/roof-coating' },
-  { name: 'General Contractor', href: '/services/general-contractor' },
-  { name: 'Custom Home Builder', href: '/services/custom-home-builder' },
-];
-
-const areaLinks = [
-  { name: 'Fort Mill, SC', href: '/areas/fort-mill-sc' },
-  { name: 'Lake Norman', href: '/areas/lake-norman' },
-  { name: 'South Charlotte', href: '/areas/south-charlotte' },
-];
+import { servicesByCategory, areaLinks } from '@/data/services';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -62,6 +48,13 @@ export function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Clean up pending dropdown timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
+  }, []);
+
   function openDropdown() {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
     setDropdownOpen(true);
@@ -74,9 +67,35 @@ export function Header() {
   function handleDropdownKeyDown(e: React.KeyboardEvent) {
     if (e.key === 'Escape') {
       setDropdownOpen(false);
-    } else if (e.key === 'Enter' || e.key === ' ') {
+      return;
+    }
+    if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
       setDropdownOpen((prev) => !prev);
+      return;
+    }
+    if (!dropdownOpen) return;
+
+    const menu = dropdownRef.current;
+    if (!menu) return;
+    const links = Array.from(menu.querySelectorAll<HTMLAnchorElement>('a[href]'));
+    const current = document.activeElement as HTMLElement;
+    const idx = links.indexOf(current as HTMLAnchorElement);
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      const next = idx < links.length - 1 ? idx + 1 : 0;
+      links[next]?.focus();
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      const prev = idx > 0 ? idx - 1 : links.length - 1;
+      links[prev]?.focus();
+    } else if (e.key === 'Home') {
+      e.preventDefault();
+      links[0]?.focus();
+    } else if (e.key === 'End') {
+      e.preventDefault();
+      links[links.length - 1]?.focus();
     }
   }
 
@@ -123,45 +142,76 @@ export function Header() {
                       isScrolled ? 'text-foreground' : 'text-white'
                     )}
                     aria-expanded={dropdownOpen}
-                    aria-haspopup="true"
+                    aria-haspopup="menu"
                   >
                     {item.name}
                     <ChevronDown className="h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
 
                   <div
+                    role="menu"
+                    aria-label="Services menu"
+                    aria-hidden={!dropdownOpen}
                     className={cn(
-                      'absolute top-full left-0 mt-2 w-64 bg-white dark:bg-card rounded-lg shadow-xl border py-2 z-50 transition-[opacity,transform] duration-200',
+                      'absolute top-full -left-4 mt-2 bg-white dark:bg-card rounded-lg shadow-xl border py-4 px-4 z-50 transition-[opacity,transform] duration-200',
                       dropdownOpen
-                        ? 'opacity-100 translate-y-0 pointer-events-auto'
-                        : 'opacity-0 -translate-y-2 pointer-events-none'
+                        ? 'opacity-100 translate-y-0 pointer-events-auto visible'
+                        : 'opacity-0 -translate-y-2 pointer-events-none invisible'
                     )}
+                    style={{ width: 'max(620px, 40vw)', maxWidth: '720px' }}
                   >
-                      <div className="px-3 py-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                        Services
+                    <div className="grid grid-cols-3 gap-4">
+                      {/* Commercial — first column */}
+                      <div>
+                        <div className="px-2 py-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                          Commercial
+                        </div>
+                        {servicesByCategory.commercial.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            role="menuitem"
+                            className="block px-2 py-1.5 text-sm text-foreground hover:bg-muted hover:text-primary rounded transition-colors"
+                          >
+                            {link.name}
+                          </Link>
+                        ))}
                       </div>
-                      {serviceLinks.map((link) => (
-                        <Link
-                          key={link.href}
-                          href={link.href}
-                          className="block px-3 py-2 text-sm text-foreground hover:bg-muted hover:text-primary transition-colors"
-                        >
-                          {link.name}
-                        </Link>
-                      ))}
-                      <div className="border-t my-1" />
-                      <div className="px-3 py-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
-                        Areas We Serve
+
+                      {/* Specialty — second column */}
+                      <div>
+                        <div className="px-2 py-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                          Specialty
+                        </div>
+                        {servicesByCategory.specialty.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            role="menuitem"
+                            className="block px-2 py-1.5 text-sm text-foreground hover:bg-muted hover:text-primary rounded transition-colors"
+                          >
+                            {link.name}
+                          </Link>
+                        ))}
                       </div>
-                      {areaLinks.map((link) => (
-                        <Link
-                          key={link.href}
-                          href={link.href}
-                          className="block px-3 py-2 text-sm text-foreground hover:bg-muted hover:text-primary transition-colors"
-                        >
-                          {link.name}
-                        </Link>
-                      ))}
+
+                      {/* Areas — third column */}
+                      <div>
+                        <div className="px-2 py-1.5 text-xs font-semibold text-muted-foreground uppercase tracking-wider">
+                          Areas We Serve
+                        </div>
+                        {areaLinks.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            role="menuitem"
+                            className="block px-2 py-1.5 text-sm text-foreground hover:bg-muted hover:text-primary rounded transition-colors"
+                          >
+                            {link.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               ) : (
@@ -182,14 +232,14 @@ export function Header() {
           {/* CTA Button - Desktop */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:5627086616"
+              href="tel:+17045748124"
               className={cn(
                 'flex items-center gap-2 text-sm font-medium transition-colors',
                 isScrolled ? 'text-foreground' : 'text-white'
               )}
             >
               <Phone className="h-4 w-4" aria-hidden="true" />
-              (562) 708-6616
+              (704) 574-8124
             </a>
             <ThemeToggle />
             <Button asChild>
@@ -238,12 +288,29 @@ export function Header() {
                     </Link>
                   </SheetClose>
 
-                  {/* Services Section */}
+                  {/* Services — Commercial */}
                   <div className="py-2">
                     <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
-                      Services
+                      Commercial Services
                     </div>
-                    {serviceLinks.map((link) => (
+                    {servicesByCategory.commercial.map((link) => (
+                      <SheetClose asChild key={link.href}>
+                        <Link
+                          href={link.href}
+                          className="block text-base text-foreground hover:text-primary transition-colors py-1.5 pl-3"
+                        >
+                          {link.name}
+                        </Link>
+                      </SheetClose>
+                    ))}
+                  </div>
+
+                  {/* Services — Specialty */}
+                  <div className="py-2">
+                    <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">
+                      Specialty Services
+                    </div>
+                    {servicesByCategory.specialty.map((link) => (
                       <SheetClose asChild key={link.href}>
                         <Link
                           href={link.href}
@@ -324,11 +391,11 @@ export function Header() {
 
                 <div className="flex flex-col gap-4 pt-6 border-t">
                   <a
-                    href="tel:5627086616"
+                    href="tel:+17045748124"
                     className="flex items-center gap-2 text-foreground"
                   >
                     <Phone className="h-5 w-5" aria-hidden="true" />
-                    (562) 708-6616
+                    (704) 574-8124
                   </a>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-muted-foreground">Theme</span>

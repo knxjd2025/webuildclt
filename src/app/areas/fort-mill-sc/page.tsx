@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { localBusinessSchema, faqSchema } from '@/lib/structured-data';
+import { localBusinessSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -16,7 +16,6 @@ import {
   Phone,
   MapPin,
   Ruler,
-  Hammer,
   HardHat,
   Clock,
   Star,
@@ -28,23 +27,29 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company Fort Mill SC | Licensed General Contractor',
   description:
-    'Licensed general contractor serving Fort Mill, SC. Commercial construction, commercial upfits, custom homes, residential additions, roof coating & design-build. SC licensed. 60+ years combined experience. Free estimates.',
+    'Need a contractor near me in Fort Mill SC? Licensed general contractor for commercial construction, commercial upfits, roof coating & design-build. SC licensed. Veteran-owned. 60+ years combined experience. Free estimates.',
   keywords: [
     'construction company fort mill sc',
     'general contractor fort mill sc',
+    'commercial contractor fort mill sc',
+    'contractor near me fort mill',
+    'construction companies near me',
+    'fort mill commercial construction',
+    'fort mill remodeling contractor',
+    'licensed contractor SC',
     'commercial construction fort mill sc',
-    'home builder fort mill sc',
+    'commercial builder fort mill sc',
     'commercial upfit fort mill sc',
-    'custom home builder fort mill',
+    'commercial contractor fort mill',
     'roof coating fort mill sc',
     'design build fort mill sc',
     'york county contractor',
-    'fort mill residential construction',
+    'fort mill commercial contractor',
   ],
   openGraph: {
     title: 'Construction Company Fort Mill SC | Licensed General Contractor | We Build',
     description:
-      'Licensed SC general contractor serving Fort Mill. Commercial construction, upfits, custom homes, roof coating & design-build. Veteran & family-owned. Free estimates.',
+      'Licensed SC general contractor serving Fort Mill. Commercial construction, upfits, roof coating & design-build. Veteran & family-owned. Free estimates.',
     type: 'website',
     locale: 'en_US',
   },
@@ -65,18 +70,6 @@ const services = [
     title: 'Commercial Upfits',
     desc: 'Transform existing commercial spaces in Fort Mill with expert tenant upfits, office renovations, and retail buildouts.',
     href: '/services/commercial-upfits',
-  },
-  {
-    icon: Home,
-    title: 'Custom Home Building',
-    desc: 'Build your dream home in Fort Mill communities like Baxter, Tega Cay, Waterside, and throughout York County.',
-    href: '/services/custom-home-builder',
-  },
-  {
-    icon: Hammer,
-    title: 'Residential Additions',
-    desc: 'Expand your Fort Mill home with professionally designed and built additions that blend seamlessly with your existing structure.',
-    href: '/services/residential-additions',
   },
   {
     icon: Shield,
@@ -116,7 +109,7 @@ const faqs = [
   {
     question: 'How long does a typical construction project take in Fort Mill?',
     answer:
-      'Project timelines in Fort Mill vary by scope. A commercial upfit typically takes 6-12 weeks, depending on the size and complexity of the space. Ground-up commercial construction ranges from 6-18 months depending on square footage and building systems. Custom home builds generally take 8-14 months from groundbreaking to final walkthrough. We provide detailed project schedules during the planning phase and keep clients informed with regular progress updates throughout the build.',
+      'Project timelines in Fort Mill vary by scope. A commercial upfit typically takes 6-12 weeks, depending on the size and complexity of the space. Ground-up commercial construction ranges from 6-18 months depending on square footage and building systems. We provide detailed project schedules during the planning phase and keep clients informed with regular progress updates throughout the build.',
   },
   {
     question: 'Do I need a building permit for construction in Fort Mill?',
@@ -126,7 +119,7 @@ const faqs = [
   {
     question: 'What is the difference between commercial and residential construction in Fort Mill?',
     answer:
-      'Commercial construction in Fort Mill follows the International Building Code (IBC) and typically involves more stringent requirements for fire safety, ADA accessibility, structural engineering, and occupancy ratings. Commercial projects also require specialized insurance, commercial-grade materials, and often involve coordination with multiple municipal departments. Residential construction follows the International Residential Code (IRC) and focuses on single-family homes, additions, and renovations. We Build is experienced in both commercial and residential construction codes and standards for York County projects.',
+      'Commercial construction in Fort Mill follows the International Building Code (IBC) and typically involves more stringent requirements for fire safety, ADA accessibility, structural engineering, and occupancy ratings. Commercial projects also require specialized insurance, commercial-grade materials, and often involve coordination with multiple municipal departments. We Build is experienced in commercial construction codes and standards for York County projects.',
   },
   {
     question: 'Can you help with the design phase of my Fort Mill project?',
@@ -134,14 +127,29 @@ const faqs = [
       'Absolutely. Our design-build service provides a single point of responsibility for both the design and construction of your Fort Mill project. This streamlined approach eliminates the communication gaps that often occur between separate architects and contractors, saves time on the overall project timeline, and can reduce costs by 10-15% compared to the traditional design-bid-build method. Visit our Design Center to explore materials, finishes, and design options with our team.',
   },
   {
-    question: 'Do you build custom homes in Fort Mill and Tega Cay?',
+    question: 'What commercial services does We Build offer in Fort Mill and Tega Cay?',
     answer:
-      'Yes. We build custom homes throughout the Fort Mill area including Tega Cay, Baxter, Waterside at Lake Wylie, and other York County communities. We handle everything from lot evaluation and site preparation through final construction and landscaping. Our custom home process includes architectural planning, material selection at our Design Center, and hands-on project management to ensure your home meets your exact specifications and is built to the highest standards.',
+      'We Build provides full-service commercial construction throughout the Fort Mill area including Tega Cay and York County. Our services include ground-up commercial construction, commercial upfits and tenant improvements, design-build, commercial roof coating, and general contracting. We handle everything from project planning and permitting through construction and final walkthrough.',
   },
   {
     question: 'What areas near Fort Mill do you serve?',
     answer:
       'In addition to Fort Mill, we serve the entire Charlotte metropolitan region including Tega Cay, Indian Land, Rock Hill, Pineville, South Charlotte, Lake Norman, and surrounding communities. Our dual NC-SC licensing means we can handle projects on either side of the state line without delay. We also serve the Lake Wylie area, Ballantyne, and the I-77 corridor between Charlotte and Rock Hill.',
+  },
+  {
+    question: 'How do Fort Mill construction costs compare to building across the state line in Charlotte?',
+    answer:
+      'Fort Mill and Charlotte commercial construction costs per square foot are generally similar, but total project costs can differ due to jurisdictional factors. York County permitting fees tend to be lower than Mecklenburg County, and South Carolina has no state income tax, which can affect long-term business operating costs. However, Fort Mill has its own impact fees for new construction. Office upfits in Fort Mill run $50 to $150 per square foot, comparable to South Charlotte. We Build provides side-by-side cost analyses for clients evaluating locations on both sides of the state line.',
+  },
+  {
+    question: 'What sustainable building options does We Build offer in Fort Mill?',
+    answer:
+      'As a U.S. Green Building Council (USGBC) member, We Build brings sustainable construction expertise to Fort Mill projects. We offer energy-efficient building systems, high-performance insulation, LED lighting, low-VOC materials, and water-efficient fixtures. Fort Mill businesses along the Kingsley Town Center and Baxter Village corridors increasingly seek green building features to attract corporate tenants and reduce operating expenses. We can pursue LEED certification or implement targeted sustainability measures within your project budget.',
+  },
+  {
+    question: 'Can We Build handle construction in the Kingsley and Baxter developments in Fort Mill?',
+    answer:
+      'Yes. We Build serves all Fort Mill commercial districts including Kingsley Town Center, Baxter Village, Riverwalk Business Park, and the SC-160 corridor near Carowinds. These master-planned developments have specific architectural guidelines and design review processes that differ from standard York County requirements. Our team coordinates with property managers and architectural review boards to ensure projects meet community design standards while staying on budget and schedule.',
   },
 ];
 
@@ -179,22 +187,27 @@ const whyChooseUs = [
 ];
 
 const nearbyAreas = [
-  { name: 'Tega Cay', desc: 'Custom homes and lakefront construction near Lake Wylie' },
+  { name: 'Tega Cay', desc: 'Commercial construction and development near Lake Wylie' },
   { name: 'Indian Land', desc: 'Rapidly growing area with commercial and residential opportunities' },
-  { name: 'Rock Hill', desc: 'Commercial construction and revitalization projects in downtown Rock Hill' },
+  { name: 'Rock Hill', desc: 'Commercial construction and revitalization projects in downtown Rock Hill', href: '/areas/rock-hill-sc' },
   { name: 'Pineville', desc: 'Retail upfits and commercial builds near Carolina Place' },
   { name: 'South Charlotte', desc: 'Ballantyne, Blakeney, and South Charlotte commercial projects', href: '/areas/south-charlotte' },
-  { name: 'Lake Norman', desc: 'Lakefront custom homes and commercial construction north of Charlotte', href: '/areas/lake-norman' },
+  { name: 'Matthews', desc: 'Commercial and residential construction in Matthews, Mint Hill, and Indian Trail', href: '/areas/matthews' },
+  { name: 'Lake Norman', desc: 'Commercial construction north of Charlotte', href: '/areas/lake-norman' },
 ];
 
 export default function FortMillPage() {
   return (
     <>
-      <JsonLd data={[localBusinessSchema(), faqSchema(faqs)]} />
+      <JsonLd data={[localBusinessSchema(), faqSchema(faqs), breadcrumbSchema([
+        { label: 'Home', href: '/' },
+        { label: 'Service Areas' },
+        { label: 'Fort Mill SC' },
+      ])]} />
 
       <PageHero
         title="Construction Company Fort Mill SC"
-        subtitle="Licensed SC general contractor serving Fort Mill, Tega Cay, and York County — commercial construction, custom homes, upfits & more"
+        subtitle="Licensed SC general contractor serving Fort Mill, Tega Cay, and York County — commercial construction, upfits, design-build & more"
         backgroundImage="/images/hero-bg.jpg"
       />
 
@@ -242,8 +255,7 @@ export default function FortMillPage() {
               <p className="text-muted-foreground leading-relaxed">
                 Whether you are a business owner looking to build out a new retail space along
                 Carowinds Boulevard, an entrepreneur opening a fitness studio or medical practice in
-                one of Fort Mill&apos;s growing commercial districts, or a family ready to build a
-                custom home in Baxter Village or near Lake Wylie, We Build delivers the
+                one of Fort Mill&apos;s growing commercial districts, We Build delivers the
                 craftsmanship, professionalism, and attention to detail that Fort Mill&apos;s
                 discerning community expects. Our headquarters at 14330 S Lakes Drive in Charlotte
                 is approximately 20 minutes north of Fort Mill via I-77, which means our project
@@ -266,9 +278,9 @@ export default function FortMillPage() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:5627086616">
+                  <a href="tel:+17045748124">
                     <Phone className="mr-2 h-5 w-5" />
-                    (562) 708-6616
+                    (704) 574-8124
                   </a>
                 </Button>
               </div>
@@ -315,12 +327,12 @@ export default function FortMillPage() {
               >
                 commercial construction
               </Link>{' '}
-              projects to intimate{' '}
+              projects to{' '}
               <Link
-                href="/services/residential-additions"
+                href="/services/commercial-upfits"
                 className="text-primary hover:underline"
               >
-                residential additions
+                commercial upfits
               </Link>
               , every project receives the same level of dedication, quality materials, and
               experienced project management.
@@ -375,57 +387,6 @@ export default function FortMillPage() {
                   Physique project in Fort Mill is a prime example of our upfit capabilities,
                   demonstrating our ability to handle complex commercial transformations with
                   precision and quality.
-                </p>
-              </div>
-
-              <div className="space-y-4">
-                <h3 className="text-2xl font-bold flex items-center gap-3">
-                  <Home className="h-6 w-6 text-primary" aria-hidden="true" />
-                  Custom Home Building
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Fort Mill offers some of the finest residential communities in the Charlotte
-                  metro, and We Build helps families bring their dream homes to life. As an
-                  experienced{' '}
-                  <Link
-                    href="/services/custom-home-builder"
-                    className="text-primary hover:underline"
-                  >
-                    custom home builder
-                  </Link>
-                  , we guide clients through every phase of the custom home process — from initial
-                  lot evaluation and architectural planning through material selection at our{' '}
-                  <Link href="/design-center" className="text-primary hover:underline">
-                    Design Center
-                  </Link>{' '}
-                  to final construction, landscaping, and move-in. We build in Baxter Village, Tega
-                  Cay lakefront communities, Waterside at Lake Wylie, Massey, and other York County
-                  neighborhoods. Our custom homes feature quality framing, energy-efficient systems,
-                  premium fixtures, and the personalized finishes that make a house truly yours.
-                </p>
-              </div>
-
-              <div className="space-y-4">
-                <h3 className="text-2xl font-bold flex items-center gap-3">
-                  <Hammer className="h-6 w-6 text-primary" aria-hidden="true" />
-                  Residential Additions
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Many Fort Mill homeowners love their neighborhoods but need more space. Our{' '}
-                  <Link
-                    href="/services/residential-additions"
-                    className="text-primary hover:underline"
-                  >
-                    residential additions
-                  </Link>{' '}
-                  service allows you to expand your home without the disruption and cost of moving.
-                  We design and build room additions, second-story expansions, sunrooms, garage
-                  conversions, and in-law suites that blend seamlessly with your existing
-                  architecture. Every addition project in Fort Mill requires careful attention to
-                  York County setback requirements, structural load calculations, and matching
-                  exterior materials to maintain your home&apos;s aesthetic consistency. We handle
-                  all permitting and inspections to ensure your addition meets code and adds lasting
-                  value to your property.
                 </p>
               </div>
 
@@ -572,89 +533,6 @@ export default function FortMillPage() {
                     general contractor
                   </Link>{' '}
                   with commercial building expertise.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Fort Mill Residential Construction */}
-      <section className="py-20 bg-muted">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
-              Residential Market
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">
-              Fort Mill Residential Construction
-            </h2>
-            <p className="text-muted-foreground leading-relaxed mb-8">
-              Fort Mill&apos;s residential market ranks among the most active in the Carolinas,
-              consistently attracting families relocating from across the country for the area&apos;s
-              top-rated schools, safe neighborhoods, and convenient access to Charlotte. While
-              large-scale tract home development handles much of the demand, there remains strong
-              interest in{' '}
-              <Link
-                href="/services/custom-home-builder"
-                className="text-primary hover:underline"
-              >
-                custom-built homes
-              </Link>{' '}
-              that reflect individual family needs, architectural preferences, and premium
-              craftsmanship. We Build specializes in this custom home market, delivering
-              one-of-a-kind residences throughout Fort Mill&apos;s finest communities.
-            </p>
-
-            <div className="space-y-6">
-              <div className="bg-background rounded-lg p-6 space-y-3">
-                <h3 className="text-xl font-bold">Tega Cay & Lake Wylie Waterfront</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Tega Cay, a peninsula city on Lake Wylie just minutes from Fort Mill, offers some
-                  of the most desirable lakefront homesites in York County. Custom home construction
-                  on Lake Wylie requires specialized knowledge of waterfront building codes,
-                  shoreline setback requirements, dock permitting, and erosion control measures. The
-                  Waterside at Lake Wylie community and surrounding lakefront lots provide excellent
-                  opportunities for families seeking custom lakefront living with easy access to Fort
-                  Mill schools and amenities.
-                </p>
-              </div>
-
-              <div className="bg-background rounded-lg p-6 space-y-3">
-                <h3 className="text-xl font-bold">Baxter Village & Baxter</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Baxter is one of Fort Mill&apos;s signature master-planned communities, offering a
-                  new-urbanist design with tree-lined streets, village-style commercial centers, and
-                  diverse housing options. Custom lots and infill opportunities in the Baxter area
-                  allow buyers to build homes that complement the community&apos;s architectural
-                  character while incorporating personalized design features, energy-efficient
-                  systems, and premium interior finishes selected at our{' '}
-                  <Link href="/design-center" className="text-primary hover:underline">
-                    Design Center
-                  </Link>
-                  .
-                </p>
-              </div>
-
-              <div className="bg-background rounded-lg p-6 space-y-3">
-                <h3 className="text-xl font-bold">Fort Mill Neighborhoods & Lot Availability</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Beyond the major master-planned communities, Fort Mill offers custom home
-                  opportunities in established neighborhoods, rural acreage parcels along Highway
-                  160 and Pleasant Road, and newer subdivisions with available lots. York County
-                  continues to approve new residential developments, and scattered individual lots
-                  become available throughout the area. We Build helps clients evaluate potential
-                  building sites for soil conditions, utility access, topography, and zoning
-                  compatibility before purchase, ensuring your lot can support the home you envision.
-                  Our{' '}
-                  <Link
-                    href="/services/residential-additions"
-                    className="text-primary hover:underline"
-                  >
-                    residential additions
-                  </Link>{' '}
-                  service is also popular among Fort Mill homeowners who want to expand their current
-                  homes rather than relocate.
                 </p>
               </div>
             </div>
@@ -1086,7 +964,7 @@ export default function FortMillPage() {
             Ready to Build in Fort Mill?
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-4 max-w-2xl mx-auto">
-            Whether you need a commercial buildout on Carowinds Boulevard, a custom home in
+            Whether you need a commercial buildout on Carowinds Boulevard, a tenant upfit in
             Baxter, or a roof coating for your Fort Mill warehouse, We Build is your licensed SC
             general contractor with the experience to deliver.
           </p>
@@ -1107,9 +985,9 @@ export default function FortMillPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

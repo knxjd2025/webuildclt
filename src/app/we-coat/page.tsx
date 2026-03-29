@@ -39,7 +39,7 @@ import {
 export const metadata: Metadata = {
   title: 'We Coat | Commercial Roof Coating Charlotte NC | Save Up to 50%',
   description:
-    'We Coat is We Build\u2019s dedicated commercial roof coating division in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs replacement. IIBEC certified. USGBC member. Free assessments. (562) 708-6616.',
+    'We Coat is We Build\u2019s dedicated commercial roof coating division in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs replacement. IIBEC certified. USGBC member. Free assessments. (704) 574-8124.',
   keywords: [
     'roof coating charlotte nc',
     'commercial roof coating charlotte',
@@ -330,6 +330,21 @@ const weCoatFaqs = [
     answer:
       'The key factors are structural integrity and insulation condition. If your roof structure is sound and the insulation is dry, coating is almost always the better option. During our free assessment, we inspect for structural damage, check insulation moisture content with infrared scanning or core sampling, evaluate drainage, and assess the existing surface condition. We then provide an honest recommendation. If your roof needs replacement, we will tell you that rather than selling you a coating that will not perform.',
   },
+  {
+    question: 'What is the We Coat division and how is it related to We Build?',
+    answer:
+      'We Coat is the dedicated commercial roof coating division of We Build, our veteran and family-owned construction company in Charlotte, NC. While We Build handles full-service commercial construction, upfits, and design-build projects, We Coat focuses exclusively on commercial roof coating and restoration. This specialization means our coating crews apply coatings every day — not as a side service — which results in better application quality and faster project completion. We Coat clients receive the same transparent pricing, dedicated project management, and warranty support that all We Build clients enjoy.',
+  },
+  {
+    question: 'How does We Coat use drone technology for roof assessments?',
+    answer:
+      'Before recommending a coating system, our FAA-certified commercial drone pilot conducts a thermal aerial inspection of your roof. Thermal imaging cameras mounted on the drone detect moisture trapped beneath the roof membrane — something a visual walk-through cannot reveal. The drone captures high-resolution photographs and thermal maps that pinpoint problem areas with precision. This data allows us to determine whether your roof qualifies for coating or needs localized repairs before coating. The entire drone assessment takes about one hour for most commercial buildings in the Charlotte area, with no ladders or scaffolding required.',
+  },
+  {
+    question: 'What maintenance does a coated commercial roof require after application?',
+    answer:
+      'Coated commercial roofs require minimal maintenance compared to traditional roofing systems. We recommend a professional inspection once per year to check for debris accumulation, ponding water, and any mechanical damage from HVAC service work or foot traffic. Minor touch-ups can be applied quickly and inexpensively if any areas show wear. Keeping drains and scuppers clear is the single most important maintenance task. When the coating reaches end of life — typically ten to twenty years depending on the system — the roof can be cleaned and recoated without a costly tear-off, starting a new protection cycle.',
+  },
 ];
 
 const galleryImages = [
@@ -412,7 +427,7 @@ export default function WeCoatPage() {
               <h2 id="about-we-coat">About the We Coat Division</h2>
 
               <p>
-                We Coat was established as a dedicated division of We Build because we recognized that commercial roof restoration requires specialized expertise that is different from general construction. While our parent company brings over 60 years of combined construction experience across <Link href="/services/commercial-construction">commercial construction</Link>, <Link href="/services/commercial-upfits">tenant upfits</Link>, and residential projects, roof coating demands its own set of skills, certifications, and product knowledge.
+                We Coat was established as a dedicated division of We Build because we recognized that commercial roof restoration requires specialized expertise that is different from general construction. While our parent company brings over 60 years of combined construction experience across <Link href="/services/commercial-construction">commercial construction</Link>, <Link href="/services/commercial-upfits">tenant upfits</Link>, and <Link href="/services/design-build">design-build</Link>, roof coating demands its own set of skills, certifications, and product knowledge.
               </p>
 
               <p>
@@ -481,11 +496,11 @@ export default function WeCoatPage() {
                     <Link href="/contact">Schedule Assessment</Link>
                   </Button>
                   <a
-                    href="tel:5627086616"
+                    href="tel:+17045748124"
                     className="flex items-center justify-center gap-2 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
                     <Phone className="h-3.5 w-3.5" aria-hidden="true" />
-                    (562) 708-6616
+                    (704) 574-8124
                   </a>
                 </div>
 
@@ -1080,9 +1095,9 @@ export default function WeCoatPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

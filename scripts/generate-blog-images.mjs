@@ -19,13 +19,16 @@ dotenv.config({ path: path.join(ROOT, '.env') });
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const OUTPUT_DIR = path.join(ROOT, 'public', 'images', 'blog');
-const MANIFEST_PATH = path.join(__dirname, 'blog-posts-manifest.json');
 
 // Parse CLI args
 const args = process.argv.slice(2);
 const startIdx = args.includes('--start') ? parseInt(args[args.indexOf('--start') + 1]) : 0;
 const limit = args.includes('--limit') ? parseInt(args[args.indexOf('--limit') + 1]) : Infinity;
 const preferredProvider = args.includes('--provider') ? args[args.indexOf('--provider') + 1] : 'dalle';
+const manifestArg = args.includes('--manifest') ? args[args.indexOf('--manifest') + 1] : null;
+const MANIFEST_PATH = manifestArg
+  ? path.resolve(manifestArg)
+  : path.join(__dirname, 'blog-posts-manifest.json');
 
 // Ensure output directory exists
 fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -70,35 +73,77 @@ function buildPrompt(title, category) {
  * Generate image with DALL-E 3
  */
 async function generateWithDalle(prompt, slug) {
-  const response = await fetch('https://api.openai.com/v1/images/generations', {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${OPENAI_API_KEY}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: 'dall-e-3',
-      prompt,
-      n: 1,
-      size: '1792x1024',
-      quality: 'standard',
-      response_format: 'b64_json',
-    }),
-  });
+  // Try gpt-image-1 first (newest model), fall back to dall-e-3
+  for (const model of ['gpt-image-1', 'dall-e-3']) {
+    try {
+      const body = model === 'gpt-image-1'
+        ? { model, prompt, n: 1, size: '1536x1024', quality: 'medium' }
+        : { model, prompt, n: 1, size: '1792x1024', quality: 'standard', response_format: 'b64_json' };
 
-  if (!response.ok) {
-    const err = await response.json().catch(() => ({}));
-    throw new Error(`DALL-E error ${response.status}: ${JSON.stringify(err)}`);
+      const response = await fetch('https://api.openai.com/v1/images/generations', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${OPENAI_API_KEY}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(body),
+      });
+
+      if (!response.ok) {
+        const err = await response.json().catch(() => ({}));
+        if (model === 'gpt-image-1') {
+          console.log(`  ~ gpt-image-1 unavailable, trying dall-e-3...`);
+          continue;
+        }
+        throw new Error(`${model} error ${response.status}: ${JSON.stringify(err)}`);
+      }
+
+      const data = await response.json();
+      if (data.data[0].b64_json) {
+        console.log(`  (used ${model})`);
+        return Buffer.from(data.data[0].b64_json, 'base64');
+      }
+      if (data.data[0].url) {
+        const imgRes = await fetch(data.data[0].url);
+        console.log(`  (used ${model})`);
+        return Buffer.from(await imgRes.arrayBuffer());
+      }
+    } catch (err) {
+      if (model === 'dall-e-3') throw err;
+    }
   }
-
-  const data = await response.json();
-  return Buffer.from(data.data[0].b64_json, 'base64');
+  throw new Error('All GPT image models failed');
 }
 
 /**
  * Generate image with Gemini Imagen
  */
 async function generateWithGemini(prompt, slug) {
+  // Try Imagen 3 via REST API first
+  try {
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=${GEMINI_API_KEY}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          instances: [{ prompt }],
+          parameters: { sampleCount: 1, aspectRatio: '16:9', safetyFilterLevel: 'block_few' },
+        }),
+      }
+    );
+    if (res.ok) {
+      const data = await res.json();
+      const b64 = data.predictions?.[0]?.bytesBase64Encoded;
+      if (b64) {
+        console.log('  (used Imagen 3)');
+        return Buffer.from(b64, 'base64');
+      }
+    }
+  } catch (_) { /* fall through */ }
+
+  // Fallback: Gemini 2.0 Flash with image generation
+  console.log('  ~ Imagen 3 unavailable, trying Gemini 2.0 Flash...');
   const { GoogleGenerativeAI } = await import('@google/generative-ai');
   const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
   const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-exp' });
@@ -112,6 +157,7 @@ async function generateWithGemini(prompt, slug) {
   for (const candidate of response.candidates || []) {
     for (const part of candidate.content?.parts || []) {
       if (part.inlineData) {
+        console.log('  (used Gemini 2.0 Flash)');
         return Buffer.from(part.inlineData.data, 'base64');
       }
     }
@@ -177,7 +223,7 @@ async function main() {
       continue;
     }
 
-    const prompt = buildPrompt(post.title, post.category);
+    const prompt = post.prompt || buildPrompt(post.title, post.category);
     console.log(`[${startIdx + i + 1}/${manifest.length}] Generating: ${imageName}`);
     console.log(`  Title: ${post.title}`);
     console.log(`  Category: ${post.category}`);

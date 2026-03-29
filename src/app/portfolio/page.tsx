@@ -15,7 +15,6 @@ import {
   Store,
   Home,
   PaintBucket,
-  Hammer,
   CheckCircle,
   ArrowRight,
   Phone,
@@ -39,26 +38,26 @@ export const revalidate = false; // Static at build time — redeploy or use /ap
 
 export const metadata: Metadata = {
   title:
-    'Construction Portfolio Charlotte NC | Commercial & Residential Projects',
+    'Construction Portfolio Charlotte NC | Commercial Construction Projects',
   description:
-    'Explore our construction portfolio featuring commercial upfits, custom homes, residential additions, and roof coating projects across Charlotte NC, Fort Mill SC, and Lake Norman. Veteran-owned. (562) 708-6616.',
+    'Explore our construction portfolio featuring commercial upfits, design-build, roof coatings, and commercial construction projects across Charlotte NC, Fort Mill SC, and Lake Norman. Veteran-owned. (704) 574-8124.',
   keywords: [
     'construction portfolio charlotte nc',
     'commercial construction projects charlotte',
     'commercial upfit portfolio charlotte nc',
-    'residential construction portfolio charlotte',
+    'commercial construction portfolio charlotte nc',
     'construction company projects charlotte nc',
     'building portfolio charlotte nc',
     'general contractor portfolio charlotte',
     'roof coating projects charlotte nc',
-    'custom home builder portfolio charlotte',
+    'design build portfolio charlotte nc',
     'construction project gallery charlotte',
   ],
   openGraph: {
     title:
-      'Construction Portfolio Charlotte NC | Commercial & Residential Projects',
+      'Construction Portfolio Charlotte NC | Commercial Construction Projects',
     description:
-      'Explore our construction portfolio featuring commercial upfits, custom homes, residential additions, and roof coating projects across Charlotte NC and surrounding areas.',
+      'Explore our construction portfolio featuring commercial upfits, design-build, roof coatings, and commercial construction projects across Charlotte NC and surrounding areas.',
     url: 'https://webuildclt.com/portfolio',
     type: 'website',
   },
@@ -76,7 +75,7 @@ const faqs = [
   {
     question: 'Can I visit your completed projects or design center in person?',
     answer:
-      'Yes. We encourage prospective clients to visit our Design Center located at 14330 S Lakes Drive, Charlotte NC 28273. Our showroom features material samples, finish options, and examples of our craftsmanship. We can also arrange visits to select completed projects with homeowner or business owner permission. Additionally, our website features a Matterport virtual tour of our Design Center so you can explore our capabilities from home. Call us at (562) 708-6616 to schedule a visit.',
+      'Yes. We encourage prospective clients to visit our Design Center located at 14330 S Lakes Drive, Charlotte NC 28273. Our showroom features material samples, finish options, and examples of our craftsmanship. We can also arrange visits to select completed projects with homeowner or business owner permission. Additionally, our website features a Matterport virtual tour of our Design Center so you can explore our capabilities from home. Call us at (704) 574-8124 to schedule a visit.',
   },
   {
     question:
@@ -120,7 +119,22 @@ const faqs = [
   {
     question: 'How do I get started with a construction project with We Build?',
     answer:
-      'Getting started is simple. Call us at (562) 708-6616 or visit our Contact page to request a free consultation. During the initial meeting, we will discuss your project goals, timeline, and budget. We can meet at your project site, at our Design Center in South Charlotte, or virtually. From there, we develop a preliminary scope of work, provide a detailed estimate, and walk you through our design-build process. Once you approve the proposal, we handle permitting, scheduling, and all construction through to final walkthrough. Most clients go from initial consultation to construction start within 4-8 weeks.',
+      'Getting started is simple. Call us at (704) 574-8124 or visit our Contact page to request a free consultation. During the initial meeting, we will discuss your project goals, timeline, and budget. We can meet at your project site, at our Design Center in South Charlotte, or virtually. From there, we develop a preliminary scope of work, provide a detailed estimate, and walk you through our design-build process. Once you approve the proposal, we handle permitting, scheduling, and all construction through to final walkthrough. Most clients go from initial consultation to construction start within 4-8 weeks.',
+  },
+  {
+    question: 'What industries are represented in your construction portfolio?',
+    answer:
+      'Our portfolio spans a wide range of industries across the Charlotte metro area. We have completed projects for healthcare providers including urgent care and physical therapy clinics, fitness and wellness studios, professional office tenants, retail storefronts, restaurants and food service operations, and educational facilities. On the specialty side, our We Coat division showcases commercial roof coating projects for industrial buildings, schools, and retail centers. Each project in our portfolio demonstrates our ability to adapt construction solutions to the unique requirements of different business types.',
+  },
+  {
+    question: 'Do you have examples of commercial upfit projects in your portfolio?',
+    answer:
+      'Yes, commercial upfits are one of our core specialties and are well represented in our portfolio. We have transformed raw shell spaces into fully functioning healthcare clinics, fitness studios, and professional offices throughout Charlotte, Fort Mill, and the surrounding area. Our upfit portfolio shows every phase — from demolition of existing finishes through framing, MEP rough-ins, drywall, flooring, and final punch list. Browse our portfolio page or visit our Design Center to see finish samples from completed upfit projects.',
+  },
+  {
+    question: 'How can I see more details about a specific project in your portfolio?',
+    answer:
+      'Click on any project card in our portfolio to view a detailed case page with project scope, photos, and key details about the build. For additional information beyond what is shown online, contact us at (704) 574-8124 or through our contact form. We can provide further details about construction methods, timelines, and challenges we solved. With the property owner\'s permission, we can also arrange a site visit to see the completed work in person at select Charlotte-area locations.',
   },
 ];
 
@@ -381,64 +395,6 @@ export default async function PortfolioPage() {
                 <Button variant="outline" size="sm" asChild>
                   <Link href="/services/commercial-upfits">
                     View Upfit Services <ArrowRight className="h-4 w-4 ml-1" aria-hidden="true" />
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Custom Homes */}
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 rounded-lg bg-primary/10">
-                    <Home className="h-6 w-6 text-primary" aria-hidden="true" />
-                  </div>
-                  <h3 className="text-xl font-semibold">Custom Homes</h3>
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  Building a custom home is one of the most significant investments a family
-                  will make, and our portfolio reflects the care we bring to every residential
-                  new build. Our custom home projects in the Charlotte area feature
-                  personalized floor plans, premium materials, energy-efficient systems, and
-                  finishes selected at our Design Center showroom. From lot selection and
-                  architectural design to framing, mechanical systems, and final
-                  landscaping, our team manages every phase of construction. We build homes
-                  that reflect the lifestyle and taste of each family, with the structural
-                  integrity and craftsmanship that stand the test of time.
-                </p>
-                <Button variant="outline" size="sm" asChild>
-                  <Link href="/services/custom-home-builder">
-                    View Custom Home Services <ArrowRight className="h-4 w-4 ml-1" aria-hidden="true" />
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Residential Additions & Renovations */}
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 rounded-lg bg-primary/10">
-                    <Hammer className="h-6 w-6 text-primary" aria-hidden="true" />
-                  </div>
-                  <h3 className="text-xl font-semibold">
-                    Residential Additions & Renovations
-                  </h3>
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  Our residential renovation portfolio demonstrates our ability to transform
-                  existing homes into spaces that feel brand new. Kitchen renovations with
-                  modern cabinetry, quartz countertops, and updated appliances. Bathroom
-                  remodels with walk-in showers, custom tile, and luxury fixtures. Room
-                  additions that expand living space while maintaining architectural
-                  consistency with the existing home. Basement finishing, deck construction,
-                  and whole-home renovations that update everything from flooring and paint to
-                  electrical and plumbing. We work in occupied homes with respect for your
-                  family and your property, keeping job sites clean and organized daily.
-                </p>
-                <Button variant="outline" size="sm" asChild>
-                  <Link href="/services/residential-additions">
-                    View Residential Services <ArrowRight className="h-4 w-4 ml-1" aria-hidden="true" />
                   </Link>
                 </Button>
               </CardContent>
@@ -862,8 +818,8 @@ export default async function PortfolioPage() {
               },
               {
                 area: 'Lake Norman Area',
-                desc: 'Huntersville, Cornelius, Davidson, and Mooresville. The Lake Norman region features a mix of commercial construction and premium residential projects.',
-                href: '/services/custom-home-builder',
+                desc: 'Huntersville, Cornelius, Davidson, and Mooresville. The Lake Norman region features a strong commercial construction market.',
+                href: '/services/commercial-construction',
               },
             ].map((location) => (
               <Card key={location.area} className="hover:shadow-lg transition-shadow">
@@ -1043,12 +999,12 @@ export default async function PortfolioPage() {
               <Link href="/we-coat" className="text-primary hover:underline">
                 restore a commercial roof
               </Link>
-              , or a homeowner ready for a{' '}
+              , or a business ready for a{' '}
               <Link
-                href="/services/residential-additions"
+                href="/services/commercial-upfits"
                 className="text-primary hover:underline"
               >
-                kitchen renovation or room addition
+                commercial renovation or upfit
               </Link>
               , the first step is reaching out to our team. We offer free consultations where
               we discuss your project goals, walk through your space (or review plans), and
@@ -1085,9 +1041,9 @@ export default async function PortfolioPage() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="tel:5627086616">
+              <Link href="tel:+17045748124">
                 <Phone className="h-4 w-4 mr-2" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </Link>
             </Button>
           </div>
@@ -1136,17 +1092,17 @@ export default async function PortfolioPage() {
             </Link>
             , a{' '}
             <Link
-              href="/services/custom-home-builder"
+              href="/services/design-build"
               className="text-primary hover:underline"
             >
-              custom home
+              design-build project
             </Link>
             , or a{' '}
             <Link
-              href="/services/residential-additions"
+              href="/services/roof-coating"
               className="text-primary hover:underline"
             >
-              residential renovation
+              roof coating
             </Link>
             , our team is here to bring your vision to life. Serving Charlotte NC, Fort
             Mill SC, Lake Norman, and surrounding areas.

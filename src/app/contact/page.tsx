@@ -4,7 +4,7 @@ import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
 import { ContactForm } from '@/components/ContactForm';
-import { localBusinessSchema, faqSchema } from '@/lib/structured-data';
+import { localBusinessSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -20,10 +20,8 @@ import {
   FileCheck,
   HardHat,
   Building2,
-  Home,
   Paintbrush,
   Ruler,
-  Hammer,
   Star,
   Calendar,
   MessageSquare,
@@ -36,9 +34,9 @@ import {
 
 export const metadata: Metadata = {
   title:
-    'Contact We Build | Free Construction Estimates Charlotte NC | (562) 708-6616',
+    'Contact We Build | Free Construction Estimates Charlotte NC | (704) 574-8124',
   description:
-    'Contact We Build for free construction estimates in Charlotte NC. Commercial construction, residential additions, roof coating, design-build. Veteran-owned, licensed NC & SC. Call (562) 708-6616 or visit our South Charlotte office.',
+    'Contact We Build for free construction estimates in Charlotte NC. Commercial construction, residential additions, roof coating, design-build. Veteran-owned, licensed NC & SC. Call (704) 574-8124 or visit our South Charlotte office.',
   keywords: [
     'contact we build charlotte nc',
     'free construction estimate charlotte',
@@ -52,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact We Build | Free Construction Estimates Charlotte NC',
     description:
-      'Get a free construction estimate from We Build in Charlotte NC. Veteran and family-owned. Licensed in NC & SC. 60+ years combined experience. Call (562) 708-6616.',
+      'Get a free construction estimate from We Build in Charlotte NC. Veteran and family-owned. Licensed in NC & SC. 60+ years combined experience. Call (704) 574-8124.',
     url: 'https://webuildclt.com/contact',
     type: 'website',
   },
@@ -72,7 +70,7 @@ const faqs = [
     question:
       'How quickly does We Build respond to estimate requests?',
     answer:
-      'We respond to all estimate requests within one business day. When you submit a contact form, call us at (562) 708-6616, or email designcenter@webuildclt.com, a member of our team will reach out within 24 hours during normal business hours (Monday through Friday, 8:00 AM to 5:00 PM). For urgent construction needs or emergency repairs, we do our best to respond the same day. Initial phone consultations typically last 15 to 20 minutes, and we can usually schedule an on-site visit within the same week depending on availability.',
+      'We respond to all estimate requests within one business day. When you submit a contact form, call us at (704) 574-8124, or email designcenter@webuildclt.com, a member of our team will reach out within 24 hours during normal business hours (Monday through Friday, 8:00 AM to 5:00 PM). For urgent construction needs or emergency repairs, we do our best to respond the same day. Initial phone consultations typically last 15 to 20 minutes, and we can usually schedule an on-site visit within the same week depending on availability.',
   },
   {
     question:
@@ -114,13 +112,28 @@ const faqs = [
     question:
       'Can We Build handle emergency or urgent construction projects?',
     answer:
-      'We Build does accommodate urgent and time-sensitive construction projects when possible. If you have storm damage, a structural issue, a commercial tenant improvement with a tight lease deadline, or any other time-critical situation, call us directly at (562) 708-6616 and let us know the urgency. We will do our best to schedule an emergency site visit within 24 to 48 hours and can often mobilize crews quickly for critical repairs. For commercial clients with active business operations, we also offer after-hours and weekend work to minimize disruption to your business.',
+      'We Build does accommodate urgent and time-sensitive construction projects when possible. If you have storm damage, a structural issue, a commercial tenant improvement with a tight lease deadline, or any other time-critical situation, call us directly at (704) 574-8124 and let us know the urgency. We will do our best to schedule an emergency site visit within 24 to 48 hours and can often mobilize crews quickly for critical repairs. For commercial clients with active business operations, we also offer after-hours and weekend work to minimize disruption to your business.',
   },
   {
     question:
       'What makes We Build different from other Charlotte construction companies?',
     answer:
       'Several factors set We Build apart from other construction companies in Charlotte. First, we are a veteran and family-owned company, which means integrity, discipline, and attention to detail are core to how we operate. Second, we bring over 60 years of combined construction experience across commercial and residential projects. Third, we are licensed in both North Carolina and South Carolina, giving us the flexibility to serve the entire Charlotte metro area including Fort Mill and surrounding SC communities. Fourth, we are a U.S. Green Building Council member committed to sustainable building practices. Fifth, we offer a true design-build experience through our design center in South Charlotte, where clients can see materials, finishes, and fixtures before making selections. And finally, we provide transparent, milestone-based pricing with no hidden fees or surprise change orders.',
+  },
+  {
+    question: 'What information should I have ready when requesting a construction estimate?',
+    answer:
+      'To get the most useful estimate, have a general idea of your project scope, your target budget range, and your desired start date. If available, bring any architectural drawings, site plans, or photos of the space. For commercial upfits, knowing your lease terms and landlord requirements is helpful. For roof coating inquiries, knowing your approximate roof square footage and the year the roof was last replaced or coated speeds up the assessment. If you do not have all of this, that is perfectly fine — our team will help you define the scope during a free consultation at our South Charlotte office or on site.',
+  },
+  {
+    question: 'Can I schedule a consultation at the We Build Design Center instead of my project site?',
+    answer:
+      'Absolutely. Many clients prefer to start with a Design Center consultation at our South Charlotte location, 14330 S Lakes Drive, Charlotte NC 28273. Meeting at the Design Center lets you see material samples, review finish options, and discuss your project in a professional setting with our design-build team. After the initial consultation, we schedule a site visit to assess conditions, take measurements, and develop a detailed proposal. Call (704) 574-8124 or submit our online contact form to book either type of appointment.',
+  },
+  {
+    question: 'Does We Build provide written proposals, and what do they include?',
+    answer:
+      'Yes, every We Build project receives a detailed written proposal before any work begins. Our proposals include a full scope of work, line-item cost breakdowns for materials and labor, a project timeline with milestone dates, payment schedule, warranty terms, and any allowances or exclusions. We walk through the proposal with you in person or over a video call so you understand every line item. This transparent approach eliminates surprise costs and ensures you can compare our proposal against other Charlotte contractors with confidence.',
   },
 ];
 
@@ -134,8 +147,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: 'Call Us',
-    content: '(562) 708-6616',
-    href: 'tel:5627086616',
+    content: '(704) 574-8124',
+    href: 'tel:+17045748124',
   },
   {
     icon: Mail,
@@ -216,20 +229,6 @@ const services = [
     description:
       'Tenant improvements, office renovations, retail build-outs, and commercial space transformations for businesses in Charlotte and surrounding areas.',
     href: '/services/commercial-upfits',
-  },
-  {
-    icon: Home,
-    title: 'Custom Home Building',
-    description:
-      'Custom-designed homes built to your specifications, from luxury estates to family homes, throughout Charlotte and the surrounding communities.',
-    href: '/services/custom-home-builder',
-  },
-  {
-    icon: Hammer,
-    title: 'Residential Additions',
-    description:
-      'Home additions, second stories, sunrooms, garage conversions, and expansions that increase your living space and property value.',
-    href: '/services/residential-additions',
   },
   {
     icon: Paintbrush,
@@ -358,10 +357,11 @@ export default function ContactPage() {
     <>
       <JsonLd data={localBusinessSchema()} />
       <JsonLd data={faqSchema(faqs)} />
+      <JsonLd data={breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Contact Us' }])} />
 
       <PageHero
         title="Contact We Build | Free Construction Estimates Charlotte NC"
-        subtitle="Veteran and family-owned construction company serving Charlotte, South Charlotte, Fort Mill, and Lake Norman. Call (562) 708-6616 or fill out our contact form for a free, no-obligation estimate on your commercial or residential construction project."
+        subtitle="Veteran and family-owned construction company serving Charlotte, South Charlotte, Fort Mill, and Lake Norman. Call (704) 574-8124 or fill out our contact form for a free, no-obligation estimate on your commercial or residential construction project."
         backgroundImage="/images/contact-hero.jpg"
       />
 
@@ -579,9 +579,9 @@ export default function ContactPage() {
 
             <div className="text-center mt-10">
               <Button size="lg" asChild>
-                <a href="tel:5627086616">
+                <a href="tel:+17045748124">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                  Call (562) 708-6616 for a Free Estimate
+                  Call (704) 574-8124 for a Free Estimate
                 </a>
               </Button>
             </div>
@@ -843,10 +843,10 @@ export default function ContactPage() {
                     For urgent construction issues such as storm damage, structural concerns, or
                     active water intrusion, call us directly at{' '}
                     <a
-                      href="tel:5627086616"
+                      href="tel:+17045748124"
                       className="text-primary hover:underline font-medium"
                     >
-                      (562) 708-6616
+                      (704) 574-8124
                     </a>{' '}
                     and leave a detailed message if you reach voicemail. We monitor messages
                     outside of business hours and prioritize emergency situations. For existing
@@ -1081,9 +1081,9 @@ export default function ContactPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="default" className="btn-shimmer" asChild>
-                <a href="tel:5627086616">
+                <a href="tel:+17045748124">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                  Call (562) 708-6616
+                  Call (704) 574-8124
                 </a>
               </Button>
               <Button

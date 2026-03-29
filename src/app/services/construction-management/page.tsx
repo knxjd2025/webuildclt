@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -43,21 +43,28 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Construction Management Charlotte NC | CM Services & Project Oversight',
   description:
-    'Professional construction management services in Charlotte, NC. CM at-risk, CM agency, owner\'s representative, program management, project oversight & schedule management. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (562) 708-6616.',
+    'Professional construction management services in Charlotte, NC. CM at-risk, CM agency, program management, project oversight & schedule management. 22,200+ monthly searches for construction management. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (704) 574-8124.',
   keywords: [
     'construction management Charlotte NC',
+    'construction management near me',
     'construction management company Charlotte',
+    'construction management contractor',
     'construction project management Charlotte NC',
     'CM services Charlotte',
-    'owner\'s representative Charlotte NC',
     'CM at risk Charlotte NC',
     'CM agency Charlotte',
     'construction manager Charlotte NC',
+    'construction manager near me',
     'program management Charlotte NC',
     'project oversight Charlotte',
     'schedule management Charlotte NC',
     'construction management firm Charlotte',
+    'construction management Charlotte North Carolina',
+    'construction management Detroit MI',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/construction-management',
+  },
   openGraph: {
     title: 'Construction Management Charlotte NC | We Build',
     description:
@@ -309,6 +316,21 @@ const faqs = [
     answer:
       'We Build provides construction management services throughout the greater Charlotte metropolitan area. Our primary service area includes Uptown Charlotte, South End, NoDa, Plaza Midwood, University City, Ballantyne, South Charlotte, and all Mecklenburg County communities. We also serve the Lake Norman corridor including Cornelius, Davidson, Huntersville, and Mooresville in Iredell County. In South Carolina, our service area includes Fort Mill, Rock Hill, Indian Land, Tega Cay, and the broader York County area. Our general contractor licenses in both North Carolina and South Carolina allow us to work seamlessly across the state line, which is particularly convenient for businesses and developers with projects in both states. We have also provided construction management services for projects in the Concord, Kannapolis, Gastonia, and Indian Trail areas within the wider Charlotte region.',
   },
+  {
+    question: 'How much does construction management cost compared to hiring a general contractor in Charlotte?',
+    answer:
+      'Construction management fees in Charlotte add 3 to 7 percent on top of trade contract costs for CM at-risk engagements, while a general contractor\'s overhead and profit markup typically runs 10 to 20 percent. Although the CM fee is a separate line item, the total project cost is usually 5 to 15 percent lower than traditional general contracting because the CM\'s preconstruction involvement catches design errors, identifies value engineering opportunities, and competitively bids every trade package. On a $3 million Charlotte commercial project, CM oversight typically saves $150,000 to $450,000 compared to the traditional design-bid-build approach, more than covering the management fee.',
+  },
+  {
+    question: 'What technology does We Build use for construction management reporting in Charlotte?',
+    answer:
+      'We use industry-standard construction management software to provide real-time project visibility to our Charlotte clients. Our technology platform includes cloud-based project management for document control, RFIs, submittals, and daily logs; scheduling software with critical path tracking and automated delay notifications; budget management with real-time cost tracking against the GMP or budget baseline; and digital inspection reporting with photo documentation. Clients receive weekly progress reports with updated schedules, budget status, and action items. This transparency ensures you always know where your project stands without waiting for monthly meetings.',
+  },
+  {
+    question: 'Do Mecklenburg County projects require a construction manager by code or regulation?',
+    answer:
+      'Mecklenburg County does not require a construction manager by building code or regulation. The decision to hire a CM is made by the project owner based on the complexity, budget, and risk profile of the project. However, certain institutional and government projects in the Charlotte area mandate construction management services through their procurement policies. Healthcare facilities, educational institutions, and publicly funded projects often require CM at-risk or CM agency delivery by policy. Even for private commercial projects where CM is not mandated, owners who lack in-house construction expertise benefit significantly from professional construction management oversight, especially in Charlotte\'s competitive subcontractor market.',
+  },
 ];
 
 export default function ConstructionManagementPage() {
@@ -322,6 +344,11 @@ export default function ConstructionManagementPage() {
             'https://webuildclt.com/services/construction-management'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Construction Management' },
+          ]),
         ]}
       />
 
@@ -733,9 +760,14 @@ export default function ConstructionManagementPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: 'Commercial Construction Services', href: '/services/commercial-construction', type: 'service' },
-              { title: 'Design-Build Delivery', href: '/services/design-build', type: 'service' },
-              { title: 'Commercial Upfit Services', href: '/services/commercial-upfits', type: 'service' },
+              { title: 'Commercial Construction Services', href: '/services/commercial-construction', type: 'Service' },
+              { title: 'Design-Build Delivery', href: '/services/design-build', type: 'Service' },
+              { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service' },
+              { title: 'Value Engineering', href: '/services/value-engineering', type: 'Service' },
+              { title: "Owner's Representative", href: '/services/owners-representative', type: 'Service' },
+              { title: 'Commercial Upfit Services', href: '/services/commercial-upfits', type: 'Service' },
+              { title: 'Commercial Building Maintenance Checklist for Charlotte', href: '/guides/commercial-building-maintenance-checklist', type: 'Guide' },
+              { title: "Choosing the Right Contractor: A Charlotte Buyer's Guide", href: '/guides/choosing-right-contractor-charlotte-guide', type: 'Guide' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
@@ -749,7 +781,7 @@ export default function ConstructionManagementPage() {
                     href={resource.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    Learn More <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                    {resource.type === 'Guide' ? 'Read Guide' : 'Learn More'} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
@@ -787,9 +819,9 @@ export default function ConstructionManagementPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

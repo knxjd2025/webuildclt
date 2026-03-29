@@ -18,7 +18,7 @@ export function FeaturedProjects() {
             </h2>
             <p className="text-muted-foreground mt-4 max-w-2xl">
               Browse our portfolio of completed commercial construction,
-              residential builds, and roof coating projects across the
+              design-build, and roof coating projects across the
               Charlotte metro area. Each project showcases the quality
               craftsmanship and attention to detail that We Build delivers.
               Visit our full{' '}

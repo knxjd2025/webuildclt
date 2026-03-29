@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -34,10 +34,13 @@ import {
 export const metadata: Metadata = {
   title: 'Roof Coating Charlotte NC | Commercial Roof Restoration',
   description:
-    'Commercial roof coating contractor in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs roof replacement. USGBC member. Veteran-owned. Free roof assessments. (562) 708-6616.',
+    'Commercial roofing contractor near me in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric roof coatings. Save up to 50% vs roof replacement. Commercial roofing contractors near me serving Charlotte and Detroit Metro. USGBC member. Veteran-owned. Free roof assessments. (704) 574-8124.',
   keywords: [
     'roof coating charlotte nc',
     'commercial roof coating charlotte',
+    'commercial roofing contractor',
+    'commercial roofing contractor near me',
+    'commercial roofing contractors near me',
     'roof coating contractor near me',
     'commercial roof restoration charlotte nc',
     'silicone roof coating charlotte',
@@ -51,7 +54,13 @@ export const metadata: Metadata = {
     'cool roof coating north carolina',
     'commercial roof repair charlotte',
     'roof coating cost charlotte nc',
+    'commercial roofing Charlotte NC',
+    'commercial roof coating near me',
+    'commercial roofing contractor Detroit MI',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/roof-coating',
+  },
 };
 
 const coatingTypes = [
@@ -328,6 +337,21 @@ const faqs = [
     answer:
       'Every roof coating project includes a manufacturer-backed material warranty and our workmanship warranty. Material warranties range from 10 to 20 years depending on the coating system. Our workmanship warranty covers the quality of surface preparation, repairs, and application. We also provide a detailed maintenance plan with annual inspection recommendations to help you maximize the coating lifespan and maintain warranty compliance.',
   },
+  {
+    question: 'How much can roof coating reduce energy costs for my Charlotte building?',
+    answer:
+      'Reflective cool roof coatings can reduce rooftop surface temperatures by 50 to 80 degrees Fahrenheit on a typical Charlotte summer day, which translates to measurable HVAC savings. Studies by the Department of Energy show that cool roof coatings reduce cooling energy consumption by 10 to 30 percent depending on building insulation, HVAC efficiency, and roof size relative to building volume. For a 20,000-square-foot commercial building in Charlotte running older HVAC equipment, that can represent $3,000 to $8,000 in annual energy savings. As a USGBC member, We Build recommends cool roof coatings as one of the most cost-effective sustainability upgrades for commercial buildings in the Charlotte climate.',
+  },
+  {
+    question: 'How does roof coating compare to a TPO or EPDM roof replacement in Charlotte?',
+    answer:
+      'A full TPO or EPDM roof replacement in Charlotte costs $7 to $12 per square foot and requires 2 to 4 weeks of disruptive tear-off, disposal, and installation. Roof coating costs $2 to $5 per square foot and takes 3 to 7 days with zero interior disruption. Replacement generates significant landfill waste from the old membrane, while coating creates no tear-off waste at all. The trade-off is that coating requires a structurally sound existing roof and substrate in reasonable condition. If your existing membrane is severely deteriorated or insulation is saturated, replacement is the better long-term investment. Our free roof assessment determines which option is right for your specific building.',
+  },
+  {
+    question: 'Can you coat a metal roof on a warehouse or industrial building in the Charlotte area?',
+    answer:
+      'Yes, metal roofs are one of the most common substrates we coat in Charlotte industrial areas like the Airport-West corridor, the I-85 North corridor, and the I-77 corridor toward Mooresville. Metal roofs develop rust, fastener-back-out leaks, and seam failures over time, but the underlying metal panels and structure typically remain sound for decades. We apply rust-inhibiting primer to any corroded areas, seal all seams and fasteners, and then apply an elastomeric or silicone coating system that waterproofs the entire roof surface. Metal roof coatings also reduce thermal expansion noise and significantly lower interior temperatures in non-climate-controlled buildings. The total cost is typically 40 to 60 percent less than a metal roof replacement.',
+  },
 ];
 
 export default function RoofCoatingPage() {
@@ -341,6 +365,11 @@ export default function RoofCoatingPage() {
             'https://webuildclt.com/services/roof-coating'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Roof Coating' },
+          ]),
         ]}
       />
 
@@ -931,8 +960,43 @@ export default function RoofCoatingPage() {
         </div>
       </section>
 
-      {/* FAQ */}
+      {/* Related Service Cards */}
       <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold">More Construction Services</h2>
+            <p className="text-muted-foreground mt-2">
+              Roof coating pairs well with our broader construction and inspection services.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: 'Green Building & Sustainability', href: '/services/green-building', type: 'Service', desc: 'USGBC member contractor offering LEED-certified construction and energy-efficient building strategies that complement reflective roof coatings.' },
+              { title: 'Drone Roof Inspections', href: '/services/drone-inspections', type: 'Service', desc: 'FAA-certified thermal imaging drone inspections that identify moisture, leaks, and insulation failures before coating application.' },
+              { title: 'Commercial Renovation', href: '/services/commercial-renovation', type: 'Service', desc: 'Complete commercial building renovation services that can include roof coating as part of a comprehensive facility upgrade.' },
+            ].map((resource) => (
+              <Card key={resource.href} className="group hover:shadow-md transition-shadow">
+                <CardContent className="p-6">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-2 group-hover:text-primary transition-colors">
+                    {resource.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4">{resource.desc}</p>
+                  <Link
+                    href={resource.href}
+                    className="inline-flex items-center text-primary text-sm font-medium hover:underline"
+                  >
+                    Learn More <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
@@ -941,8 +1005,8 @@ export default function RoofCoatingPage() {
             <p className="text-muted-foreground text-center mb-8">
               Answers to the most common questions Charlotte building owners ask about commercial
               roof coating. If you have a question not covered here, call us at{' '}
-              <a href="tel:5627086616" className="text-primary hover:underline font-medium">
-                (562) 708-6616
+              <a href="tel:+17045748124" className="text-primary hover:underline font-medium">
+                (704) 574-8124
               </a>{' '}
               or{' '}
               <Link href="/contact" className="text-primary hover:underline font-medium">
@@ -984,9 +1048,9 @@ export default function RoofCoatingPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

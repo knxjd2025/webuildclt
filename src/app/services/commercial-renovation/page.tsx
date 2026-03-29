@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -45,11 +45,13 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Commercial Renovation Charlotte NC | Building Remodeling & Renovation Contractor',
   description:
-    'Expert commercial renovation contractor in Charlotte, NC. Office renovation, retail remodeling, restaurant renovation, warehouse upgrades, healthcare facility renovation & building exterior restoration. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free estimates. (562) 708-6616.',
+    'Leading commercial renovation contractor in Charlotte, NC with 60+ years experience. Office renovation, retail remodeling, restaurant renovation, warehouse upgrades, healthcare facility renovation & building exterior restoration. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free estimates. (704) 574-8124.',
   keywords: [
     'commercial renovation Charlotte NC',
-    'commercial remodeling contractor Charlotte',
     'commercial renovation contractor Charlotte NC',
+    'commercial renovation contractor near me',
+    'commercial renovation near me',
+    'commercial remodeling contractor Charlotte',
     'building renovation Charlotte NC',
     'commercial space renovation',
     'office renovation Charlotte NC',
@@ -59,7 +61,17 @@ export const metadata: Metadata = {
     'commercial building remodel Charlotte',
     'healthcare facility renovation Charlotte',
     'building exterior renovation Charlotte NC',
+    'commercial renovation Charlotte North Carolina',
+    'commercial renovation fort mill sc',
+    'commercial renovation lake norman nc',
+    'commercial renovation detroit mi',
+    'commercial building renovation near me',
+    'commercial remodeling Charlotte NC',
+    'commercial remodeling contractor Charlotte NC',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/commercial-renovation',
+  },
   openGraph: {
     title: 'Commercial Renovation Charlotte NC | We Build',
     description:
@@ -326,6 +338,21 @@ const faqs = [
     answer:
       'The decision between renovating an existing commercial building and building new depends on several factors. Renovation is typically the better choice when the existing building is structurally sound, the location is established and desirable, you want to preserve an existing tenant base, or you need to minimize the time between investment and revenue generation. Renovation costs are generally 30 to 50 percent less than new construction for comparable finished space. New construction makes more sense when the existing structure has severe foundation or structural problems, when the building cannot accommodate the mechanical and electrical systems required for its new use, or when you need complete control over the building design from the ground up. We Build offers both commercial renovation and new commercial construction services, so we provide unbiased guidance on which approach delivers the best return on investment for your specific situation.',
   },
+  {
+    question: 'How much does it cost to renovate a 10,000 square foot commercial building in Charlotte?',
+    answer:
+      'For a 10,000 square foot commercial building in Charlotte, renovation costs typically range from $350,000 to $1.5 million depending on scope and existing conditions. A cosmetic refresh with paint, flooring, and lighting runs $350,000 to $750,000. A standard renovation with layout changes and systems upgrades costs $750,000 to $1.2 million. A comprehensive renovation including mechanical, electrical, plumbing replacement and structural modifications ranges from $1.2 to $1.5 million or more. These estimates do not include hazardous material abatement, which adds $10 to $50 per square foot if asbestos or lead is present. We Build provides detailed, line-item estimates after a thorough building assessment so every cost is documented before construction begins.',
+  },
+  {
+    question: 'What is the difference between a commercial renovation and an adaptive reuse project?',
+    answer:
+      'A commercial renovation updates and modernizes a building while keeping its existing use type largely the same, such as renovating an office building that remains an office. Adaptive reuse fundamentally changes the building use, such as converting a warehouse into a restaurant or a church into an event venue. The distinction matters because adaptive reuse projects typically trigger more extensive code compliance requirements including change-of-occupancy reviews, additional fire suppression, updated egress configurations, and full ADA compliance for the new use. Adaptive reuse may also qualify for historic tax credits worth up to 45 percent of rehabilitation costs. We Build handles both commercial renovations and adaptive reuse projects throughout the Charlotte metro area.',
+  },
+  {
+    question: 'Do Charlotte commercial renovations require energy code upgrades in Mecklenburg County?',
+    answer:
+      'Yes, commercial renovations in Mecklenburg County must comply with the current North Carolina Energy Conservation Code for all new and altered building systems. When you replace HVAC equipment, lighting, or the building envelope during a renovation, the new systems must meet current energy efficiency standards. If the renovation scope exceeds 50 percent of the building value, the entire building may be required to comply with current energy code provisions. Common energy code upgrades include higher-efficiency HVAC systems, LED lighting with occupancy controls, improved insulation, and updated window assemblies. As a USGBC member, We Build helps Charlotte property owners meet and exceed energy code requirements, often identifying upgrades that pay for themselves through reduced utility costs within 3 to 5 years.',
+  },
 ];
 
 export default function CommercialRenovationPage() {
@@ -339,6 +366,11 @@ export default function CommercialRenovationPage() {
             'https://webuildclt.com/services/commercial-renovation'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Commercial Renovation' },
+          ]),
         ]}
       />
 
@@ -361,7 +393,7 @@ export default function CommercialRenovationPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-start mt-8">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Commercial Renovation Contractor in Charlotte, NC
+                Commercial Renovation &amp; Remodeling Contractor in Charlotte, NC
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 Commercial renovation transforms an aging, outdated, or underperforming building into a
@@ -755,20 +787,25 @@ export default function CommercialRenovationPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: 'How Much Does a Commercial Renovation Cost?', slug: 'commercial-renovation-cost-charlotte' },
-              { title: 'Renovation vs. New Construction: A Cost Comparison', slug: 'renovation-vs-new-construction-cost' },
-              { title: '5 Signs Your Commercial Building Needs Renovation', slug: '5-signs-commercial-building-needs-renovation' },
-            ].map((post) => (
-              <Card key={post.slug} className="group hover:shadow-md transition-shadow">
+              { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', type: 'Service' },
+              { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service' },
+              { title: 'Adaptive Reuse Charlotte NC', href: '/services/adaptive-reuse', type: 'Service' },
+              { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service' },
+              { title: 'How Much Does a Commercial Renovation Cost?', href: '/blog/commercial-renovation-cost-charlotte', type: 'Blog' },
+              { title: 'Renovation vs. New Construction: A Cost Comparison', href: '/blog/renovation-vs-new-construction-cost', type: 'Blog' },
+              { title: '5 Signs Your Commercial Building Needs Renovation', href: '/blog/5-signs-commercial-building-needs-renovation', type: 'Blog' },
+            ].map((resource) => (
+              <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold mb-4 group-hover:text-primary transition-colors">
-                    {post.title}
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-4 group-hover:text-primary transition-colors">
+                    {resource.title}
                   </h3>
                   <Link
-                    href={`/blog/${post.slug}`}
+                    href={resource.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    Read Article <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                    {resource.type === 'Service' ? 'View Service' : 'Read Article'} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
@@ -808,9 +845,9 @@ export default function CommercialRenovationPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

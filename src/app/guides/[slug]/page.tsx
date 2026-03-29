@@ -4,15 +4,49 @@ import { notFound } from 'next/navigation';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { ShareButtons } from '@/components/ShareButtons';
 import { JsonLd } from '@/components/JsonLd';
-import { articleSchema, faqSchema } from '@/lib/structured-data';
+import { articleSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Clock, ArrowLeft, Phone, BookOpen } from 'lucide-react';
+import { Clock, ArrowLeft, ArrowRight, Phone, BookOpen } from 'lucide-react';
 import { getGuideBySlug, getAllGuideSlugs } from '@/data/guides';
+import { allServices, type ServiceLink } from '@/data/services';
 import { GuideContent } from '@/components/GuideContent';
 import { FaqAccordion } from '@/components/FaqAccordion';
 import { ReadingProgress } from '@/components/ReadingProgress';
 import { ScrollReveal } from '@/components/ScrollReveal';
+
+const guideCategoryServiceMap: Record<string, string[]> = {
+  'Home Maintenance': [
+    '/services/general-contractor',
+    '/services/commercial-upfits',
+    '/services/design-build',
+  ],
+  Flooring: [
+    '/services/commercial-upfits',
+    '/services/office-buildouts',
+    '/services/tenant-improvements',
+  ],
+  Kitchen: [
+    '/services/commercial-upfits',
+    '/services/design-build',
+    '/services/general-contractor',
+  ],
+  Commercial: [
+    '/services/commercial-construction',
+    '/services/construction-management',
+    '/services/tenant-improvements',
+  ],
+  'Roof Care': [
+    '/services/roof-coating',
+    '/services/drone-inspections',
+    '/services/green-building',
+  ],
+};
+
+function getRelatedServices(category: string): ServiceLink[] {
+  const hrefs = guideCategoryServiceMap[category] ?? guideCategoryServiceMap['Commercial'];
+  return allServices.filter((s) => hrefs.includes(s.href));
+}
 
 type Params = Promise<{ slug: string }>;
 
@@ -28,6 +62,9 @@ export async function generateMetadata({
   return {
     title: guide.title,
     description: guide.excerpt,
+    alternates: {
+      canonical: `https://webuildclt.com/guides/${slug}`,
+    },
     openGraph: {
       title: guide.title,
       description: guide.excerpt,
@@ -63,6 +100,11 @@ export default async function GuidePage({
             date: guide.date,
           }),
           faqSchema(guide.faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Guides', href: '/guides' },
+            { label: guide.title },
+          ]),
         ]}
       />
 
@@ -174,15 +216,42 @@ export default async function GuidePage({
                     <Link href="/contact">Get a Free Quote</Link>
                   </Button>
                   <a
-                    href="tel:5627086616"
+                    href="tel:+17045748124"
                     className="flex items-center justify-center gap-2 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
                     <Phone className="h-3.5 w-3.5" aria-hidden="true" />
-                    (562) 708-6616
+                    (704) 574-8124
                   </a>
                 </div>
               </div>
             </aside>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Services Cross-Links */}
+      <section className="py-16 bg-muted">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl font-bold mb-8">Related Services</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {getRelatedServices(guide.category).map((service) => (
+              <Link
+                key={service.href}
+                href={service.href}
+                className="group block rounded-lg bg-card p-6 shadow-sm hover:shadow-md transition-shadow"
+              >
+                <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors">
+                  {service.name}
+                </h3>
+                <p className="text-sm text-muted-foreground mb-3">
+                  {service.description}
+                </p>
+                <span className="text-primary text-sm font-medium inline-flex items-center gap-1">
+                  Learn More
+                  <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -207,9 +276,9 @@ export default async function GuidePage({
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

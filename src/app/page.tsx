@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { HeroSlideshow } from '@/components/HeroSlideshow';
 import { JsonLd } from '@/components/JsonLd';
-import { localBusinessSchema, faqSchema } from '@/lib/structured-data';
+import { localBusinessSchema, faqSchema, webSiteSchema, organizationSchema } from '@/lib/structured-data';
 import { ArrowRight, CheckCircle, Phone } from 'lucide-react';
 import { heroFeatures, homeFaqs } from '@/data/homepage';
 import {
@@ -33,21 +33,22 @@ export const metadata: Metadata = {
   title:
     'We Build | Commercial Construction Company Charlotte NC | General Contractor',
   description:
-    'We Build is Charlotte NC\'s veteran-owned commercial construction company. General contractor licensed in NC & SC. Commercial upfits, design-build, custom homes, roof coating. 60+ years combined experience. USGBC member. Free estimates: (562) 708-6616.',
+    'We Build is Charlotte NC\'s veteran-owned commercial construction company. General contractor licensed in NC & SC. Commercial upfits, design-build, roof coating. 60+ years combined experience. USGBC member. Free estimates: (704) 574-8124.',
   keywords: [
+    'construction companies near me',
     'commercial construction charlotte nc',
     'general contractor charlotte nc',
     'construction company charlotte nc',
     'commercial upfit charlotte nc',
     'design build charlotte nc',
-    'custom home builder charlotte nc',
+    'commercial contractor charlotte nc',
     'roof coating charlotte nc',
     'veteran owned contractor charlotte',
     'licensed general contractor nc sc',
     'commercial construction company near me',
     'office upfit charlotte',
     'restaurant build out charlotte nc',
-    'residential additions charlotte nc',
+    'commercial renovation charlotte nc',
     'USGBC member contractor charlotte',
     'construction company fort mill sc',
     'contractor lake norman nc',
@@ -59,7 +60,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'We Build | Commercial Construction Company Charlotte NC',
     description:
-      'Veteran-owned commercial construction company in Charlotte, NC. Licensed in NC & SC. Commercial upfits, design-build, custom homes, roof coating. 60+ years combined experience. Free estimates.',
+      'Veteran-owned commercial construction company in Charlotte, NC. Licensed in NC & SC. Commercial upfits, design-build, roof coating. 60+ years combined experience. Free estimates.',
     url: 'https://webuildclt.com',
     siteName: 'We Build',
     locale: 'en_US',
@@ -77,7 +78,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'We Build | Commercial Construction Company Charlotte NC',
     description:
-      'Veteran-owned commercial construction. Licensed in NC & SC. 60+ years experience. Free estimates: (562) 708-6616.',
+      'Veteran-owned commercial construction. Licensed in NC & SC. 60+ years experience. Free estimates: (704) 574-8124.',
   },
 };
 
@@ -88,7 +89,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      <JsonLd data={[localBusinessSchema(), faqSchema(homeFaqs)]} />
+      <JsonLd data={[localBusinessSchema(), faqSchema(homeFaqs), webSiteSchema(), organizationSchema()]} />
 
       {/* Hero */}
       <section className="relative min-h-screen flex items-center">
@@ -125,8 +126,8 @@ export default function HomePage() {
             <p className="text-base text-white/90 mb-8 leading-relaxed">
               USGBC member. Serving Charlotte, South Charlotte, Fort Mill SC,
               Lake Norman, and the greater Carolina region. Call{' '}
-              <a href="tel:5627086616" className="text-primary font-semibold hover:underline">
-                (562) 708-6616
+              <a href="tel:+17045748124" className="text-primary font-semibold hover:underline">
+                (704) 574-8124
               </a>{' '}
               for a free estimate.
             </p>
@@ -151,7 +152,7 @@ export default function HomePage() {
                 className="bg-white/10 text-white border-white hover:bg-white hover:text-foreground md:hidden"
                 asChild
               >
-                <a href="tel:5627086616">
+                <a href="tel:+17045748124">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
                   Call Now
                 </a>
@@ -174,9 +175,9 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="absolute bottom-2 md:bottom-8 left-1/2 -translate-x-1/2 hidden md:block opacity-60">
+        <div className="absolute bottom-2 md:bottom-8 left-1/2 -translate-x-1/2 hidden md:block opacity-60" aria-hidden="true">
           <div className="w-8 h-12 border-2 border-white/50 rounded-full flex items-start justify-center p-2">
-            <div className="w-1.5 h-3 bg-white/50 rounded-full animate-pulse" />
+            <div className="w-1.5 h-3 bg-white/50 rounded-full animate-[scroll-hint_2s_ease-in-out_infinite]" />
           </div>
         </div>
       </section>

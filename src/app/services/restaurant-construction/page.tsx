@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -42,11 +42,15 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Restaurant Construction Charlotte NC | Restaurant Buildout & Commercial Kitchen Contractor',
   description:
-    'Expert restaurant construction contractor in Charlotte, NC. Full-service restaurant buildouts, commercial kitchen construction, bar & brewery builds, food hall construction, and hospitality renovations. Health department compliant. Veteran-owned, licensed in NC & SC. Free estimates. (562) 708-6616.',
+    'Expert restaurant construction contractor in Charlotte, NC. Commercial construction companies for full-service restaurant buildouts, commercial kitchen construction, bar & brewery builds, food hall construction & hospitality renovations. Health department compliant. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
   keywords: [
     'restaurant construction Charlotte NC',
+    'restaurant construction near me',
+    'restaurant construction contractor Charlotte NC',
     'restaurant buildout Charlotte NC',
+    'restaurant buildout near me',
     'commercial kitchen construction Charlotte',
+    'commercial kitchen construction near me',
     'restaurant contractor Charlotte',
     'bar construction Charlotte NC',
     'brewery construction Charlotte',
@@ -56,7 +60,15 @@ export const metadata: Metadata = {
     'hospitality construction Charlotte NC',
     'food hall construction Charlotte',
     'ghost kitchen construction Charlotte NC',
+    'restaurant construction Charlotte North Carolina',
+    'restaurant construction fort mill sc',
+    'restaurant construction lake norman nc',
+    'restaurant construction detroit mi',
+    'restaurant buildout contractor near me',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/restaurant-construction',
+  },
   openGraph: {
     title: 'Restaurant & Hospitality Construction Charlotte NC | We Build',
     description:
@@ -323,6 +335,21 @@ const faqs = [
     answer:
       'Restaurant fire safety in Charlotte involves multiple overlapping systems that the fire marshal inspects before you can open. First, the commercial kitchen hood fire suppression system, typically an Ansul or similar wet chemical system, automatically detects and suppresses cooking fires under the hood. This system must be installed by a licensed fire protection contractor and inspected semi-annually after installation. Second, the building sprinkler system may need modifications if the restaurant construction changes the ceiling layout, adds rooms, or modifies the floor plan. Third, the fire alarm system must include pull stations at exits, smoke detectors in appropriate locations, and audible and visual notification devices throughout the space. If the building is part of a larger complex, the restaurant fire alarm must integrate with the building master fire alarm panel. Fourth, emergency lighting, illuminated exit signs, and a posted evacuation plan are required. The fire marshal conducts a separate inspection from the building inspector, and both must approve the space before occupancy.',
   },
+  {
+    question: 'How much does a full restaurant build-out cost compared to converting an existing restaurant space in Charlotte?',
+    answer:
+      'Converting a second-generation restaurant space, one that previously operated as a restaurant, typically costs 30 to 50 percent less than building out a raw retail shell. The savings come from reusing existing hood ductwork, grease traps, floor drains, gas lines, and electrical capacity that were installed for the previous tenant. A second-gen conversion in Charlotte usually runs $100 to $250 per square foot, while a first-generation build-out from a vanilla shell ranges from $150 to $400 per square foot. However, reuse savings depend on condition and code compliance of the existing systems. We inspect every component before recommending reuse versus replacement.',
+  },
+  {
+    question: 'How does restaurant construction in Charlotte differ from building in Fort Mill or Rock Hill, SC?',
+    answer:
+      'The biggest differences are permitting jurisdiction and health department requirements. Charlotte restaurants are reviewed by Mecklenburg County Code Enforcement and the Mecklenburg County Health Department, which enforce the North Carolina Food Code. Fort Mill and Rock Hill fall under York County building permits and the South Carolina Department of Health and Environmental Control, which follows a different set of food service regulations. ABC licensing also differs because South Carolina has its own alcohol control commission with separate permit types and requirements. We Build holds general contractor licenses in both states and has completed restaurant projects on both sides of the state line, so we manage these jurisdictional differences seamlessly for our clients.',
+  },
+  {
+    question: 'Is it better to lease a restaurant space or build a freestanding restaurant building in Charlotte?',
+    answer:
+      'Leasing is the right choice for most first-time restaurant operators and new concept launches because it requires significantly less upfront capital and allows you to test the market before committing to a permanent building. A leased space with a landlord-provided TI allowance might require $300,000 to $750,000 in construction costs, while a freestanding ground-up restaurant on owned land typically costs $800,000 to $2 million or more depending on size and site work. Freestanding buildings make sense for established operators with proven concepts who want to build equity, control their space long-term, and design from scratch without landlord restrictions. We Build handles both lease build-outs and ground-up restaurant construction throughout the Charlotte metro area.',
+  },
 ];
 
 export default function RestaurantConstructionPage() {
@@ -336,6 +363,11 @@ export default function RestaurantConstructionPage() {
             'https://webuildclt.com/services/restaurant-construction'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Restaurant Construction' },
+          ]),
         ]}
       />
 
@@ -545,6 +577,137 @@ export default function RestaurantConstructionPage() {
         </div>
       </section>
 
+      {/* Featured Restaurant Projects */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
+              Featured Projects
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+              Charlotte Restaurant Construction Projects
+            </h2>
+            <p className="text-muted-foreground">
+              From intimate neighborhood bistros to multi-vendor food halls, our restaurant construction
+              portfolio spans the full range of food and beverage concepts across the Charlotte metro area.
+              Below are representative projects that illustrate the complexity and quality we deliver.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            {[
+              {
+                title: 'Farm-to-Table Restaurant',
+                neighborhood: 'South End, Charlotte',
+                sqft: '3,200',
+                duration: '14 weeks',
+                icon: ChefHat,
+                highlights: [
+                  'Full commercial kitchen with custom ventilation hood array',
+                  'Walk-in cooler + freezer with remote condensing units',
+                  'Custom reclaimed wood bar and back-bar display',
+                  'Exposed brick dining room with acoustic ceiling panels',
+                  'Mecklenburg County Health Department first-attempt approval',
+                ],
+                desc: 'A complete ground-up interior buildout in a 1920s warehouse shell in Charlotte\'s South End corridor. The farm-to-table concept required a production-forward kitchen visible through a pass-through window, an open prep station for guest interaction, a full bar with ABC mixed beverage permit compliance, and premium finishes that honored the historic character of the space.',
+              },
+              {
+                title: 'Fast-Casual Restaurant',
+                neighborhood: 'Ballantyne, Charlotte',
+                sqft: '2,400',
+                duration: '10 weeks',
+                icon: Store,
+                highlights: [
+                  'Inline retail center upfit from vanilla shell',
+                  'Commissary-style kitchen with linear workflow prep line',
+                  'Open kitchen concept with guest-facing assembly counter',
+                  'Digital menu board and POS infrastructure rough-in',
+                  'Drive-through window with dedicated order confirmation screen',
+                ],
+                desc: 'A fast-casual buildout in a Ballantyne retail center positioned for high lunch and dinner throughput. The compact commissary kitchen layout maximizes efficiency within the footprint, with a visible assembly line designed to reinforce the brand\'s freshness story. Delivered in 10 weeks including permitting to accommodate a pre-planned marketing launch.',
+              },
+              {
+                title: 'Upscale Bar & Lounge',
+                neighborhood: 'NoDa, Charlotte',
+                sqft: '4,100',
+                duration: '18 weeks',
+                icon: Beer,
+                highlights: [
+                  'Adaptive reuse of a 1940s industrial warehouse',
+                  '42-foot custom craft cocktail bar with 16-tap draft system',
+                  'VIP lounge area with private bottle service stations',
+                  'Exposed steel, concrete floors, and designer pendant lighting',
+                  'Full ABC on-premises mixed beverage permit layout coordination',
+                ],
+                desc: 'An adaptive reuse of a mid-century industrial warehouse in NoDa, transformed into an upscale cocktail lounge with a 42-foot bar, VIP lounge pods, and a full draft beer program. The project required structural reinforcement of the existing roof deck, complete mechanical and electrical upgrades, and careful acoustic design to support a live entertainment program within a mixed-use residential corridor.',
+              },
+              {
+                title: 'Food Hall Vendor Stall',
+                neighborhood: 'Camp North End, Charlotte',
+                sqft: '800',
+                duration: '6 weeks',
+                icon: Warehouse,
+                highlights: [
+                  'Individual health department permit with dedicated hood system',
+                  'Compact commercial kitchen with shared prep access',
+                  'Independent utility metering for vendor accountability',
+                  'FRP wall panels, sealed epoxy flooring, and floor drain network',
+                  'Coordinated with food hall developer\'s shared common area scope',
+                ],
+                desc: 'A compact vendor stall buildout within the Camp North End food hall development. Despite the tight 800 square foot footprint, the stall required its own independent commercial kitchen infrastructure: a dedicated exhaust hood with fire suppression, grease management connection, individual electrical and plumbing service, and health department approval as a standalone food service establishment. Completed in 6 weeks to meet the food hall\'s coordinated opening schedule.',
+              },
+            ].map((project) => (
+              <Card key={project.title} className="overflow-hidden">
+                <CardContent className="p-0">
+                  <div className="bg-primary/5 border-b border-primary/10 p-6">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <project.icon className="h-6 w-6 text-primary" aria-hidden="true" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-xl font-bold">{project.title}</h3>
+                        <div className="flex flex-wrap gap-3 mt-2">
+                          <span className="inline-flex items-center gap-1 text-sm text-muted-foreground">
+                            <MapPin className="h-3.5 w-3.5 flex-shrink-0" aria-hidden="true" />
+                            {project.neighborhood}
+                          </span>
+                          <span className="inline-flex items-center gap-1 text-sm text-muted-foreground">
+                            <Scale className="h-3.5 w-3.5 flex-shrink-0" aria-hidden="true" />
+                            {project.sqft} sq ft
+                          </span>
+                          <span className="inline-flex items-center gap-1 text-sm text-muted-foreground">
+                            <Clock className="h-3.5 w-3.5 flex-shrink-0" aria-hidden="true" />
+                            {project.duration}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="p-6 space-y-4">
+                    <p className="text-sm text-muted-foreground leading-relaxed">{project.desc}</p>
+                    <ul className="space-y-2">
+                      {project.highlights.map((h) => (
+                        <li key={h} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <CheckCircle className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" aria-hidden="true" />
+                          <span>{h}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <Button size="lg" variant="outline" asChild>
+              <Link href="/portfolio">
+                View Full Project Portfolio
+                <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Commercial Kitchen Design Section */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
@@ -744,13 +907,21 @@ export default function RestaurantConstructionPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', desc: 'Explore our full commercial upfit services including restaurant build-outs, office renovations, and retail spaces.' },
-              { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', desc: 'Ground-up commercial construction for restaurants, retail, and mixed-use developments across the Charlotte metro.' },
-              { title: 'Design-Build Services', href: '/services/design-build', desc: 'Our design-build approach delivers restaurant projects faster with fewer change orders and a single point of accountability.' },
+              { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', type: 'Service', desc: 'Explore our full commercial upfit services including restaurant build-outs, office renovations, and retail spaces.' },
+              { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service', desc: 'TI build-outs and leasehold improvements for restaurant tenants, including TI allowance maximization.' },
+              { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for restaurants, retail, and mixed-use developments across the Charlotte metro.' },
+              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Our design-build approach delivers restaurant projects faster with fewer change orders and a single point of accountability.' },
+              { title: 'Restaurant Opening Guide: Build-Out, Permits & Timeline in Charlotte', href: '/guides/restaurant-opening-guide-charlotte', type: 'Guide', desc: 'Everything you need to know about opening a restaurant in Charlotte, from permits and timeline to build-out costs.' },
+              { title: 'Brewery Construction Charlotte NC', href: '/services/brewery-construction', type: 'Service', desc: 'Craft brewery, taproom, and brewpub construction with specialized systems for glycol, CO2, grain handling, and ABC licensing.' },
+              { title: 'Commercial Flooring Guide: Best Options by Business Type', href: '/guides/commercial-flooring-guide-business-type', type: 'Guide', desc: 'Choose the best commercial flooring for your restaurant, retail space, or office with our comprehensive guide.' },
+              { title: 'Commercial Construction Costs Charlotte NC', href: '/guides/commercial-construction-costs-charlotte', type: 'Guide', desc: 'Detailed cost breakdowns for commercial construction in Charlotte — per-square-foot pricing by project type, finish level, and market conditions.' },
+              { title: 'Charlotte Building Permit Guide', href: '/guides/charlotte-building-permit-guide', type: 'Guide', desc: 'Step-by-step walkthrough of the Mecklenburg County building permit process for commercial projects, including timelines and required documents.' },
+              { title: 'Commercial Construction Timeline Guide Charlotte', href: '/guides/commercial-construction-timeline-guide-charlotte', type: 'Guide', desc: 'Understand realistic schedules for commercial buildouts in Charlotte — from permit submission through final inspection and occupancy.' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-2 group-hover:text-primary transition-colors">
                     {resource.title}
                   </h3>
                   <p className="text-sm text-muted-foreground mb-4">{resource.desc}</p>
@@ -758,7 +929,7 @@ export default function RestaurantConstructionPage() {
                     href={resource.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    Learn More <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                    {resource.type === 'Guide' ? 'Read Guide' : 'Learn More'} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
@@ -796,9 +967,9 @@ export default function RestaurantConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -34,13 +34,17 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Tenant Improvement Contractor Charlotte NC | TI Build-Outs & Leasehold Improvements',
   description:
-    'Expert tenant improvement contractor in Charlotte, NC. Class A & B office TI, retail tenant build-outs, restaurant TI, medical TI, industrial leasehold improvements. TI allowance maximization, landlord coordination. Veteran-owned, licensed NC & SC. Free estimates. (562) 708-6616.',
+    'Expert tenant improvement contractor in Charlotte, NC. Commercial renovation contractor for Class A & B office TI, retail tenant build-outs, restaurant TI, medical TI & industrial leasehold improvements. TI allowance maximization, landlord coordination. Veteran-owned, licensed NC & SC. Free estimates. (704) 574-8124.',
   keywords: [
     'tenant improvement contractor charlotte nc',
+    'tenant improvement contractor near me',
     'tenant improvement charlotte nc',
+    'tenant improvement near me',
     'ti contractor charlotte',
     'leasehold improvement charlotte nc',
+    'leasehold improvement near me',
     'tenant buildout charlotte nc',
+    'tenant buildout near me',
     'ti allowance charlotte',
     'tenant improvement allowance charlotte',
     'commercial tenant buildout charlotte',
@@ -48,7 +52,15 @@ export const metadata: Metadata = {
     'ti construction charlotte nc',
     'leasehold improvement contractor charlotte',
     'tenant fit out charlotte nc',
+    'tenant improvement Charlotte North Carolina',
+    'tenant improvement fort mill sc',
+    'tenant improvement lake norman nc',
+    'tenant improvement detroit mi',
+    'commercial tenant improvement near me',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/tenant-improvements',
+  },
   openGraph: {
     title: 'Tenant Improvement Contractor Charlotte NC | We Build',
     description:
@@ -305,6 +317,21 @@ const faqs = [
     answer:
       'We Build serves the entire Charlotte metropolitan area for tenant improvement projects. Our primary service area includes Charlotte, South Charlotte, Uptown, South End, NoDa, University City, Ballantyne, and surrounding Mecklenburg County communities. We also serve Fort Mill, Rock Hill, Indian Land, and Tega Cay in South Carolina, as well as the Lake Norman corridor communities of Cornelius, Davidson, Huntersville, and Mooresville. Our general contractor licenses in both North Carolina and South Carolina allow us to work on both sides of the state line, which is especially convenient for businesses with multiple locations across the Charlotte metro. We have completed tenant improvement projects in virtually every major office park, shopping center, and commercial development in the Charlotte region and bring valuable local knowledge about landlord requirements, permitting timelines, and subcontractor availability to every project.',
   },
+  {
+    question: 'How much does a Class A office tenant improvement cost per square foot in Uptown Charlotte?',
+    answer:
+      'Class A office tenant improvements in Uptown Charlotte typically cost $50 to $120 per square foot for construction, depending on the level of finish, mechanical complexity, and custom features. A standard open-plan office with perimeter offices and a break room runs $50 to $75 per square foot. Executive suites with custom millwork, glass-front offices, and premium finishes range from $80 to $120 per square foot. High-end law firm or financial services build-outs with conference centers and specialized AV infrastructure can exceed $120 per square foot. These costs are in addition to soft costs like design fees and furniture. We provide detailed line-item estimates during lease negotiation so you can request the right TI allowance from your landlord.',
+  },
+  {
+    question: 'How does a tenant improvement in South End compare to one in Ballantyne or University City?',
+    answer:
+      'Construction costs per square foot are comparable across these Charlotte submarkets because material and labor costs are market-wide. The differences are in building type, landlord requirements, and base building condition. South End buildings tend to be newer Class A mixed-use with modern base building systems, streamlined landlord approval, and warm shell deliveries. Ballantyne office parks are typically suburban Class A or B with established building management teams and standard approval processes. University City spaces vary more widely in age and condition, with some offering cost savings through lower lease rates and simpler landlord requirements. We have completed TI projects in all three submarkets and tailor our approach to each building management team.',
+  },
+  {
+    question: 'What is the difference between a tenant improvement and a commercial renovation?',
+    answer:
+      'A tenant improvement is construction performed within a leased commercial space, governed by the lease agreement, work letter, and TI allowance. The landlord owns the building and typically retains ownership of all permanent improvements upon lease expiration. A commercial renovation is construction performed by a property owner on their own building, with no landlord approval process, no TI allowance structure, and full ownership of all improvements. The physical construction work may be identical, but the contractual framework, documentation requirements, and financial structure are different. We Build handles both tenant improvements and owner-occupied commercial renovations throughout the Charlotte metro area and structures our process to match whichever arrangement applies to your project.',
+  },
 ];
 
 export default function TenantImprovementsPage() {
@@ -318,6 +345,11 @@ export default function TenantImprovementsPage() {
             'https://webuildclt.com/services/tenant-improvements'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Tenant Improvements' },
+          ]),
         ]}
       />
 
@@ -805,6 +837,8 @@ export default function TenantImprovementsPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', type: 'service' },
+              { title: 'Office Buildouts Charlotte NC', href: '/services/office-buildouts', type: 'service' },
+              { title: 'Commercial Renovation Charlotte NC', href: '/services/commercial-renovation', type: 'service' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'service' },
               { title: 'Design-Build Services', href: '/services/design-build', type: 'service' },
             ].map((resource) => (
@@ -859,9 +893,9 @@ export default function TenantImprovementsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

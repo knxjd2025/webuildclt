@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -38,11 +38,13 @@ import {
 export const metadata: Metadata = {
   title: 'Design-Build Contractor Charlotte NC | Single-Source Design & Construction',
   description:
-    'Design-build contractor in Charlotte, NC. One team handles design and construction — faster timelines, lower costs, single point of accountability. Visit our Design Center. Licensed in NC & SC. (562) 708-6616.',
+    'Design-build contractor in Charlotte, NC. One team handles design and construction — faster timelines, lower costs, single point of accountability. Visit our Design Center. Licensed in NC & SC. (704) 574-8124.',
   keywords: [
     'design build charlotte nc',
     'design build contractor charlotte',
     'design build construction charlotte nc',
+    'design and build contractors',
+    'design and build contractors near me',
     'design build firm charlotte',
     'design build company charlotte nc',
     'design build services charlotte',
@@ -50,7 +52,13 @@ export const metadata: Metadata = {
     'design build vs design bid build',
     'design build process charlotte nc',
     'design build cost charlotte',
+    'design build contractor near me',
+    'design build Charlotte North Carolina',
+    'design build contractor Detroit MI',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/design-build',
+  },
 };
 
 const processPhases = [
@@ -195,13 +203,6 @@ const projectTypes = [
     link: '/services/commercial-construction',
     linkLabel: 'Hospitality Construction',
   },
-  {
-    icon: HardHat,
-    title: 'Custom Residential Design-Build',
-    desc: 'Custom homes, luxury residences, and large-scale residential projects. Residential design-build gives homeowners the same benefits that commercial clients enjoy — one team, one contract, one guaranteed price. Visit our Design Center to browse materials and make selections for your dream home.',
-    link: '/services/custom-home-builder',
-    linkLabel: 'Custom Home Building',
-  },
 ];
 
 const faqs = [
@@ -227,7 +228,7 @@ const faqs = [
   },
   {
     question: 'Do you have a design center or showroom in Charlotte?',
-    answer: 'Yes. Our WeBuild Design Center is located at our South Charlotte office at 14330 S Lakes Drive, Charlotte NC 28273. The Design Center features a curated selection of materials, finishes, fixtures, and samples that you can browse, touch, and compare in person. Our design team guides you through the selection process while our construction managers provide input on cost, durability, and installation. Visits are by appointment — contact us at (562) 708-6616 to schedule.',
+    answer: 'Yes. Our WeBuild Design Center is located at our South Charlotte office at 14330 S Lakes Drive, Charlotte NC 28273. The Design Center features a curated selection of materials, finishes, fixtures, and samples that you can browse, touch, and compare in person. Our design team guides you through the selection process while our construction managers provide input on cost, durability, and installation. Visits are by appointment — contact us at (704) 574-8124 to schedule.',
   },
   {
     question: 'What types of projects are best suited for design-build?',
@@ -243,7 +244,19 @@ const faqs = [
   },
   {
     question: 'How do I get started with a design-build project?',
-    answer: 'Getting started is simple. Contact us at (562) 708-6616 or visit our contact page to request a free consultation. During the initial meeting, we will discuss your project goals, budget range, timeline requirements, and site conditions. We will then provide a preliminary scope and fee proposal. Once you approve, we begin the discovery and concept design phase. There is no obligation, and the consultation is free for projects in the Charlotte metro area.',
+    answer: 'Getting started is simple. Contact us at (704) 574-8124 or visit our contact page to request a free consultation. During the initial meeting, we will discuss your project goals, budget range, timeline requirements, and site conditions. We will then provide a preliminary scope and fee proposal. Once you approve, we begin the discovery and concept design phase. There is no obligation, and the consultation is free for projects in the Charlotte metro area.',
+  },
+  {
+    question: 'How does design-build pricing compare to traditional construction delivery in Charlotte?',
+    answer: 'Design-build projects in Charlotte typically cost 6 to 12 percent less than traditional design-bid-build delivery for the same scope and quality. The savings come from fewer change orders because the builder participates in design decisions from day one, value engineering opportunities identified during design rather than discovered during bidding, and shorter construction timelines that reduce overhead, financing costs, and delayed revenue. A $1 million Charlotte commercial project delivered through design-build commonly saves $60,000 to $120,000 compared to the traditional method. We Build provides transparent, itemized pricing so you can see exactly how the design-build budget compares.',
+  },
+  {
+    question: 'What happens if I want to change the design after construction starts on a design-build project?',
+    answer: 'Design changes during construction are handled through a straightforward change order process. Because the designer and builder are on the same team in a design-build contract, change orders are evaluated faster and with less conflict than in traditional delivery where the architect and contractor may disagree on cost and schedule impact. Our team provides a written change order with the cost and timeline impact before any work proceeds, so you have full control over every decision. Design-build projects experience 50 to 80 percent fewer change orders overall because the integrated team resolves design conflicts during the design phase rather than discovering them in the field.',
+  },
+  {
+    question: 'Can We Build handle design-build for restaurants and medical offices in Mecklenburg County?',
+    answer: 'Yes, restaurants and medical offices are two of the project types that benefit most from design-build delivery. Restaurant design-build requires close coordination between kitchen equipment suppliers, hood ventilation engineers, fire suppression contractors, and the health department, which is far more efficient under one contract than with separate design and construction firms. Medical office design-build integrates specialized requirements like medical gas systems, shielded radiology rooms, and infection control protocols into the design from the start. Our team has experience with Mecklenburg County health department reviews, fire marshal requirements, and the specialized inspections these project types demand throughout the Charlotte area.',
   },
 ];
 
@@ -258,6 +271,11 @@ export default function DesignBuildPage() {
             'https://webuildclt.com/services/design-build'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Design-Build' },
+          ]),
         ]}
       />
 
@@ -297,7 +315,7 @@ export default function DesignBuildPage() {
                 <Link href="/design-center" className="text-primary hover:underline">Design Center</Link>{' '}
                 in South Charlotte where clients can browse materials, explore finishes, and make selections with our design and construction teams present. We are licensed in both North Carolina and South Carolina, insured, and a proud member of the U.S. Green Building Council (USGBC). Whether you are planning a{' '}
                 <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfit</Link>, a ground-up office building, or a{' '}
-                <Link href="/services/custom-home-builder" className="text-primary hover:underline">custom home</Link>, our design-build approach delivers the results you need on the timeline and budget you require.
+                <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial build</Link>, our design-build approach delivers the results you need on the timeline and budget you require.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
@@ -563,9 +581,7 @@ export default function DesignBuildPage() {
                 <Link href="/services/commercial-upfits" className="text-primary hover:underline">upfits and tenant improvements</Link>. Retail spaces and storefronts cost $100 to $250 per square foot. Restaurants and food service facilities range from $150 to $350 per square foot due to the complexity of commercial kitchen infrastructure. Medical and dental facilities cost $175 to $400 per square foot because of specialized HVAC, plumbing, and regulatory requirements. Industrial and warehouse projects run $80 to $200 per square foot depending on the level of interior finish.
               </p>
               <p>
-                For residential design-build projects, custom homes in Charlotte typically cost $200 to $500 per square foot depending on the level of finish, site conditions, and architectural complexity.{' '}
-                <Link href="/services/residential-additions" className="text-primary hover:underline">Residential additions</Link>{' '}
-                range from $150 to $350 per square foot.
+                Commercial renovation and upfit projects typically range from $50 to $200 per square foot depending on the scope and complexity of the work.
               </p>
               <p>
                 These ranges include both design fees and construction costs — that is the advantage of design-build pricing. In traditional delivery, you would pay the architect separately (typically 8 to 15 percent of construction cost) on top of the construction contract. With design-build, all professional services are bundled into one price, and that price is guaranteed before construction begins. We provide detailed, line-item estimates with full cost transparency so you know exactly where every dollar goes.
@@ -636,6 +652,43 @@ export default function DesignBuildPage() {
         </div>
       </section>
 
+      {/* Related Services */}
+      <section className="py-20 bg-muted">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold">Related Services</h2>
+            <p className="text-muted-foreground mt-2">
+              Design-build integrates with many of our core construction capabilities.
+              Explore our related services.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for office, retail, restaurant, medical, and mixed-use projects across the Charlotte metro area.' },
+              { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service', desc: 'Feasibility studies, cost estimating, and value engineering that set the foundation for successful design-build delivery.' },
+              { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control, budget management, and quality oversight for complex projects.' },
+              { title: 'Green Building & Sustainability', href: '/services/green-building', type: 'Service', desc: 'USGBC member contractor integrating LEED strategies and sustainable building practices into design-build projects.' },
+            ].map((resource) => (
+              <Card key={resource.href} className="group hover:shadow-md transition-shadow">
+                <CardContent className="p-6">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-2 group-hover:text-primary transition-colors">
+                    {resource.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4">{resource.desc}</p>
+                  <Link
+                    href={resource.href}
+                    className="inline-flex items-center text-primary text-sm font-medium hover:underline"
+                  >
+                    Learn More <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
@@ -656,9 +709,9 @@ export default function DesignBuildPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

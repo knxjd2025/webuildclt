@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -40,11 +40,15 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Medical & Healthcare Construction Charlotte NC | Clinic, Dental & Surgical Build-Outs',
   description:
-    'Expert medical and healthcare construction in Charlotte, NC. Medical office buildings, dental practices, urgent care clinics, surgical centers, veterinary clinics & physical therapy facilities. Veteran-owned, HIPAA-compliant layouts, infection control, medical gas systems. Licensed in NC & SC. (562) 708-6616.',
+    'Expert medical and healthcare construction in Charlotte, NC. Commercial general contractors for medical office buildings, dental practices, urgent care clinics, surgical centers, veterinary clinics & physical therapy facilities. HIPAA-compliant layouts, infection control, medical gas systems. Veteran-owned, licensed in NC & SC. (704) 574-8124.',
   keywords: [
     'medical office construction Charlotte NC',
+    'medical construction near me',
+    'medical construction contractor Charlotte NC',
     'healthcare construction Charlotte',
+    'healthcare construction near me',
     'dental office construction Charlotte NC',
+    'dental office construction near me',
     'clinic construction Charlotte NC',
     'medical facility renovation Charlotte',
     'urgent care construction Charlotte NC',
@@ -54,7 +58,15 @@ export const metadata: Metadata = {
     'medical office build out Charlotte NC',
     'healthcare facility renovation Charlotte NC',
     'HIPAA compliant construction Charlotte',
+    'medical construction Charlotte North Carolina',
+    'medical construction fort mill sc',
+    'medical construction lake norman nc',
+    'medical construction detroit mi',
+    'medical office contractor near me',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/medical-construction',
+  },
   openGraph: {
     title: 'Medical & Healthcare Construction Charlotte NC | We Build',
     description:
@@ -311,6 +323,21 @@ const faqs = [
     answer:
       'Yes, we construct lead-lined rooms for all types of medical and dental imaging equipment including conventional X-ray, panoramic dental X-ray, cone beam CT, fluoroscopy, and C-arm imaging. The amount of lead shielding required depends on the type and energy level of the imaging equipment, the occupancy of adjacent spaces, and the workload of the imaging room. A qualified medical physicist performs a shielding calculation that specifies the lead thickness required for each wall, floor, ceiling, door, and observation window based on these factors. We install lead sheet in continuous layers with minimum 2-inch overlaps at all seams and wrap lead around the perimeter of every penetration including electrical outlets, plumbing pipes, HVAC ducts, and door frames. Lead-lined doors with lead-glass observation windows are hung on heavy-duty frames and hinges rated for the additional weight. After construction, the medical physicist conducts a radiation survey to verify that shielding meets the design specifications before imaging equipment is installed and energized. We maintain detailed documentation of lead installation including thickness, overlap dimensions, and penetration protection details for your regulatory compliance files.',
   },
+  {
+    question: 'How does building a dental office differ from building a medical office in Charlotte?',
+    answer:
+      'Dental offices and medical offices share some construction requirements but differ in several important ways. Dental offices require compressed air and vacuum plumbing to each operatory, nitrous oxide delivery systems, specialized dental cabinetry with integrated plumbing and electrical connections, panoramic X-ray or CBCT imaging rooms with lead shielding, and heavy-duty floor drains for sterilization areas. Medical offices typically require more examination rooms, HIPAA-compliant acoustic separation, and potentially medical gas systems for oxygen delivery. Dental offices in Charlotte generally cost $175 to $350 per square foot compared to $200 to $325 for standard medical offices, though surgical dental suites approach the higher end of that range.',
+  },
+  {
+    question: 'What Mecklenburg County permits are needed specifically for medical facility construction?',
+    answer:
+      'Medical facility construction in Mecklenburg County requires standard commercial building permits from Code Enforcement covering structural, mechanical, electrical, plumbing, and fire alarm work. Beyond standard permits, medical facilities often trigger additional reviews including fire marshal plan review for medical gas storage and piped systems, health department review for facilities with sterilization or laboratory functions, and NCDOT driveway permits for facilities on state-maintained roads. Ambulatory surgical centers require plan review by the NC Division of Health Service Regulation before construction begins and a pre-occupancy inspection before the facility can accept patients. We manage the complete permitting process and build all review timelines into the project schedule so there are no surprises.',
+  },
+  {
+    question: 'How does medical construction cost in Charlotte compare to Raleigh or Atlanta?',
+    answer:
+      'Medical construction costs in Charlotte are generally 5 to 10 percent lower than Raleigh-Durham and 10 to 15 percent lower than Atlanta for comparable facility types. A standard medical office build-out costs $200 to $325 per square foot in Charlotte, compared to $220 to $350 in Raleigh and $235 to $375 in Atlanta. Charlotte benefits from a competitive subcontractor market, lower commercial lease rates that reduce total occupancy cost, and a growing healthcare workforce that supports strong patient volume from day one. These cost advantages make Charlotte an attractive market for physician groups and healthcare systems expanding their outpatient footprint across the Southeast.',
+  },
 ];
 
 export default function MedicalConstructionPage() {
@@ -324,6 +351,11 @@ export default function MedicalConstructionPage() {
             'https://webuildclt.com/services/medical-construction'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Medical Construction' },
+          ]),
         ]}
       />
 
@@ -709,20 +741,25 @@ export default function MedicalConstructionPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: 'Commercial Upfits Including Medical Build-Outs', href: '/services/commercial-upfits' },
-              { title: 'Commercial Construction Services', href: '/services/commercial-construction' },
-              { title: 'Design-Build for Healthcare Facilities', href: '/services/design-build' },
+              { title: 'Commercial Upfits Including Medical Build-Outs', href: '/services/commercial-upfits', type: 'Service' },
+              { title: 'Office Buildouts Charlotte NC', href: '/services/office-buildouts', type: 'Service' },
+              { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service' },
+              { title: 'Commercial Construction Services', href: '/services/commercial-construction', type: 'Service' },
+              { title: 'Design-Build for Healthcare Facilities', href: '/services/design-build', type: 'Service' },
+              { title: 'Medical Office Setup Guide: Design, Compliance & Construction', href: '/guides/medical-office-setup-guide-charlotte', type: 'Guide' },
+              { title: 'ADA Compliance Guide for Charlotte Business Owners', href: '/guides/ada-compliance-guide-charlotte-businesses', type: 'Guide' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold mb-4 group-hover:text-primary transition-colors">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-4 group-hover:text-primary transition-colors">
                     {resource.title}
                   </h3>
                   <Link
                     href={resource.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    Learn More <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                    {resource.type === 'Guide' ? 'Read Guide' : 'Learn More'} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
@@ -760,9 +797,9 @@ export default function MedicalConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

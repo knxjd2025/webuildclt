@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -32,9 +32,10 @@ import {
 export const metadata: Metadata = {
   title: 'General Contractor Charlotte NC | Licensed & Veteran-Owned | We Build',
   description:
-    'Licensed general contractor in Charlotte, NC. Commercial construction, custom homes, upfits, design-build & roof coating. Veteran-owned, 60+ years combined experience. Licensed in NC & SC. Free estimates. (562) 708-6616.',
+    'Licensed general contractor near me in Charlotte, NC. Commercial construction, upfits, design-build & roof coating. Veteran-owned, 60+ years combined experience. Licensed in NC & SC. Free estimates. (704) 574-8124.',
   keywords: [
     'general contractor charlotte nc',
+    'general contractor near me',
     'general contractor in charlotte nc',
     'licensed general contractor charlotte',
     'commercial general contractor charlotte nc',
@@ -44,7 +45,17 @@ export const metadata: Metadata = {
     'charlotte nc construction company',
     'building contractor charlotte nc',
     'general contracting services charlotte',
+    'general contractor Charlotte North Carolina',
+    'general contractor Detroit MI',
+    'general contractor contractor near me',
+    'licensed general contractor near me',
+    'commercial GC Charlotte NC',
+    'GC Charlotte',
+    'GC near me Charlotte',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/general-contractor',
+  },
 };
 
 const services = [
@@ -75,20 +86,6 @@ const services = [
     description:
       'Eco-friendly commercial roof coating systems that extend the life of your existing roof by 10 to 15 years at a fraction of the cost of full replacement. Our We Coat division applies high-performance elastomeric and silicone coatings that reflect UV radiation, reduce cooling costs by up to 30 percent, and eliminate leaks. Roof coating is ideal for flat and low-slope commercial roofs including TPO, EPDM, modified bitumen, and metal substrates. Most roof coating projects are completed in just two to five days with zero business disruption.',
     href: '/services/roof-coating',
-  },
-  {
-    icon: Home,
-    title: 'Custom Home Building',
-    description:
-      'Build the home of your dreams with a veteran-owned construction team that treats your project with the same discipline, precision, and integrity we bring to our commercial work. Our custom home building services cover everything from lot evaluation and architectural planning through foundation, framing, mechanical systems, interior finishing, and landscaping. We build custom homes across the Charlotte metro area including South Charlotte, Ballantyne, Waxhaw, Marvin, Lake Norman, and Fort Mill, SC. Every custom home includes a detailed construction schedule, weekly progress updates, and a comprehensive warranty.',
-    href: '/services/custom-home-builder',
-  },
-  {
-    icon: ClipboardCheck,
-    title: 'Residential Additions & Renovations',
-    description:
-      'Expand and improve your existing home with professionally managed additions, second stories, garage conversions, kitchen expansions, and major renovations. Our residential addition services include structural engineering, permit management, construction, and finishing. We take special care to match new construction seamlessly with your existing home in terms of materials, rooflines, and architectural details. Whether you need a master suite addition in South Charlotte, a second-story build in Matthews, or a full home renovation near Lake Norman, We Build delivers quality results on schedule.',
-    href: '/services/residential-additions',
   },
 ];
 
@@ -124,7 +121,7 @@ const processSteps = [
     step: '01',
     title: 'Initial Contact & Free Consultation',
     description:
-      'Your project starts with a free, no-obligation conversation. We discuss your goals, timeline, budget expectations, and project requirements. Whether you reach us by phone at (562) 708-6616 or through our online contact form, we respond within one business day. During this initial consultation, we assess feasibility, identify potential challenges, and provide preliminary guidance on the best approach for your specific project.',
+      'Your project starts with a free, no-obligation conversation. We discuss your goals, timeline, budget expectations, and project requirements. Whether you reach us by phone at (704) 574-8124 or through our online contact form, we respond within one business day. During this initial consultation, we assess feasibility, identify potential challenges, and provide preliminary guidance on the best approach for your specific project.',
   },
   {
     step: '02',
@@ -245,6 +242,21 @@ const faqs = [
     answer:
       'Yes. Our design-build services combine architectural design, engineering, and construction under a single contract. This integrated approach gives you one point of accountability, eliminates the communication gaps between separate design and construction firms, reduces change orders, and typically delivers projects faster and at lower cost than the traditional design-bid-build method. Visit our Design Center in South Charlotte to explore materials, finishes, and layouts with our design team. For clients who already have architectural plans, we are equally experienced working as a traditional general contractor building from existing drawings and specifications.',
   },
+  {
+    question: 'How much does a general contractor cost compared to managing subcontractors yourself in Charlotte?',
+    answer:
+      'Self-managing subcontractors may appear cheaper because you avoid the 10 to 20 percent general contractor fee, but it almost always costs more in the end. Owner-managed projects in Charlotte experience 20 to 40 percent more change orders, schedule delays that increase carrying costs, and quality problems that require costly rework. General contractors negotiate better material pricing through volume purchasing and prevent expensive mistakes through professional oversight. On a typical $500,000 commercial project, the GC fee of $50,000 to $100,000 routinely saves $75,000 to $150,000 in avoided overruns, making professional management the more cost-effective choice.',
+  },
+  {
+    question: 'What is the difference between design-build and design-bid-build for projects in Charlotte?',
+    answer:
+      'Design-bid-build is the traditional method where you hire an architect to design the project, then solicit bids from general contractors to build it. Design-build combines both services under one contract with one team. In Charlotte, design-build projects typically complete 15 to 25 percent faster and experience 30 to 40 percent fewer change orders because the builder is involved from the design phase and can identify constructability issues before they become expensive field problems. Design-bid-build gives you more control over architect selection but creates a gap between designer and builder that often leads to disputes over scope interpretation.',
+  },
+  {
+    question: 'Does Mecklenburg County require inspections during construction, and does We Build coordinate them?',
+    answer:
+      'Yes, Mecklenburg County Code Enforcement requires multiple inspections at specific construction milestones including foundation, framing, rough mechanical, electrical, plumbing, insulation, and final inspections. Missing or failing an inspection can shut down your project and add weeks to the schedule. As your general contractor, We Build schedules every required inspection, ensures the work is inspection-ready before the inspector arrives, accompanies the inspector on-site to address any questions, and resolves any deficiency notes immediately. Our familiarity with local inspectors and their expectations means fewer failed inspections and a smoother path to your certificate of occupancy.',
+  },
 ];
 
 export default function GeneralContractorPage() {
@@ -258,6 +270,11 @@ export default function GeneralContractorPage() {
             'https://webuildclt.com/services/general-contractor'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'General Contractor' },
+          ]),
         ]}
       />
 
@@ -280,12 +297,12 @@ export default function GeneralContractorPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-start mt-8">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Your Trusted General Contractor in Charlotte, North Carolina
+                Your Trusted General Contractor (GC) in Charlotte, North Carolina
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 We Build is a veteran and family-owned general contracting company headquartered in
                 South Charlotte, NC. With more than 60 years of combined construction experience, our
-                team delivers high-quality commercial and residential construction services across the
+                team delivers high-quality commercial construction services across the
                 entire Charlotte metropolitan area — from Lake Norman and Cornelius to Fort Mill, SC
                 and every community in between. We are licensed in both North Carolina and South
                 Carolina, which means your project is never complicated by state-line jurisdictional
@@ -320,10 +337,10 @@ export default function GeneralContractorPage() {
                   commercial upfit
                 </Link>{' '}
                 for your growing business, a{' '}
-                <Link href="/services/custom-home-builder" className="text-primary hover:underline">
-                  custom home
+                <Link href="/services/design-build" className="text-primary hover:underline">
+                  design-build project
                 </Link>{' '}
-                built to your family&apos;s specifications, or an eco-friendly{' '}
+                managed from concept to completion, or an eco-friendly{' '}
                 <Link href="/services/roof-coating" className="text-primary hover:underline">
                   roof coating
                 </Link>{' '}
@@ -338,9 +355,9 @@ export default function GeneralContractorPage() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:5627086616">
+                  <a href="tel:+17045748124">
                     <Phone className="mr-2 h-5 w-5" />
-                    (562) 708-6616
+                    (704) 574-8124
                   </a>
                 </Button>
               </div>
@@ -446,8 +463,8 @@ export default function GeneralContractorPage() {
                 commercial construction
               </Link>{' '}
               to{' '}
-              <Link href="/services/custom-home-builder" className="text-primary hover:underline">
-                custom home building
+              <Link href="/services/design-build" className="text-primary hover:underline">
+                design-build
               </Link>
               , we offer comprehensive construction services tailored to your needs and budget. Every
               service includes transparent pricing, dedicated project management, and our commitment
@@ -989,10 +1006,10 @@ export default function GeneralContractorPage() {
                   commercial upfit
                 </Link>{' '}
                 in Ballantyne, a{' '}
-                <Link href="/services/custom-home-builder" className="text-primary hover:underline">
-                  custom home
+                <Link href="/services/design-build" className="text-primary hover:underline">
+                  design-build project
                 </Link>{' '}
-                on{' '}
+                near{' '}
                 <Link href="/areas/lake-norman" className="text-primary hover:underline">
                   Lake Norman
                 </Link>
@@ -1040,6 +1057,43 @@ export default function GeneralContractorPage() {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Services */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold">Related Services</h2>
+            <p className="text-muted-foreground mt-2">
+              As your general contractor, we offer a full range of construction services across the Charlotte metro area.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for office, retail, restaurant, medical, warehouse, and mixed-use developments.' },
+              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Single-source design and construction with one point of accountability, faster timelines, and lower costs.' },
+              { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control, budget management, and quality oversight for complex projects.' },
+              { title: 'Commercial Upfits & Renovations', href: '/services/commercial-upfits', type: 'Service', desc: 'Transform existing commercial spaces with tenant improvements, phased renovations, and fast-track buildouts.' },
+              { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service', desc: 'Feasibility studies, cost estimating, and value engineering before you break ground.' },
+            ].map((resource) => (
+              <Card key={resource.href} className="group hover:shadow-md transition-shadow">
+                <CardContent className="p-6">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-2 group-hover:text-primary transition-colors">
+                    {resource.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4">{resource.desc}</p>
+                  <Link
+                    href={resource.href}
+                    className="inline-flex items-center text-primary text-sm font-medium hover:underline"
+                  >
+                    Learn More <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
@@ -1129,7 +1183,7 @@ export default function GeneralContractorPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">(562) 708-6616</a>
+              <a href="tel:+17045748124">(704) 574-8124</a>
             </Button>
           </div>
         </div>

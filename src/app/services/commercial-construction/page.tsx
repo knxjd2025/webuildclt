@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -45,11 +45,14 @@ import {
 export const metadata: Metadata = {
   title: 'Commercial Construction Charlotte NC | Licensed General Contractor | We Build',
   description:
-    'Charlotte NC commercial construction company with 60+ years combined experience. Office buildings, retail spaces, restaurants, medical facilities, warehouses, mixed-use. Licensed in NC & SC. Veteran & family-owned. USGBC member. Free estimates. (562) 708-6616.',
+    'Top-rated commercial construction company in Charlotte NC with 60+ years combined experience. Commercial general contractors for office buildings, retail spaces, restaurants, medical facilities, warehouses & mixed-use. Licensed in NC & SC. Veteran & family-owned. USGBC member. Free estimates. (704) 574-8124.',
   keywords: [
     'commercial construction charlotte nc',
     'commercial construction companies charlotte nc',
+    'commercial construction companies near me',
+    'commercial construction near me',
     'commercial general contractor charlotte nc',
+    'commercial general contractors near me',
     'commercial building contractor charlotte',
     'office construction charlotte nc',
     'commercial builder charlotte',
@@ -62,7 +65,15 @@ export const metadata: Metadata = {
     'restaurant construction charlotte nc',
     'medical office construction charlotte nc',
     'warehouse construction charlotte nc',
+    'commercial construction Charlotte North Carolina',
+    'commercial contractor south charlotte',
+    'commercial construction fort mill sc',
+    'commercial construction lake norman nc',
+    'commercial construction detroit mi',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/commercial-construction',
+  },
 };
 
 const projectTypes = [
@@ -285,6 +296,18 @@ const faqs = [
     question: 'What warranty do you provide on commercial construction work?',
     answer: 'We provide a one-year workmanship warranty on all commercial construction projects, covering any defects in materials or labor. Major building systems like HVAC, roofing, and electrical carry manufacturer warranties ranging from 5-25 years. As a local Charlotte company, we are accessible for warranty service and stand behind our work long after the project is complete.',
   },
+  {
+    question: 'How does commercial construction cost in Charlotte compare to Raleigh or Atlanta?',
+    answer: 'Charlotte commercial construction costs are generally 5 to 15 percent lower than Atlanta and comparable to Raleigh-Durham. Charlotte benefits from a competitive subcontractor market, lower labor costs than major gateway cities, and efficient permitting through Mecklenburg County. However, Charlotte construction costs have been rising 3 to 6 percent annually due to population growth and sustained demand. Material costs are similar across all three markets since they share Southeast supply chains. We Build provides current, Charlotte-specific pricing on every estimate so you are working with real local numbers, not national averages.',
+  },
+  {
+    question: 'What Mecklenburg County inspections are required during commercial construction?',
+    answer: 'Commercial construction in Mecklenburg County requires multiple inspections at prescribed milestones. Typical inspections include footing and foundation before concrete pour, rough framing, rough electrical, rough plumbing, rough mechanical and HVAC, fire alarm and sprinkler systems, insulation and energy code compliance, and final building inspection before certificate of occupancy is issued. The fire marshal conducts separate inspections for fire suppression, alarm systems, and egress compliance. Failed inspections require corrections and reinspection, which can delay the schedule. Our project managers coordinate all inspections proactively and ensure each trade is ready before calling for inspection to avoid delays.',
+  },
+  {
+    question: 'Do I need a separate architect or does We Build handle design for commercial projects?',
+    answer: 'We Build offers full design-build services, so you do not need to hire a separate architect. Our integrated team handles space planning, architectural design, engineering coordination, permitting, and construction under one contract. This design-build approach typically saves 15 to 20 percent compared to the traditional method of hiring an architect first and then bidding construction separately. If you already have an architect or prefer to use one, we work collaboratively with outside design professionals as well. Visit our Design Center in South Charlotte to see how our design-build process works in person.',
+  },
 ];
 
 export default function CommercialConstructionPage() {
@@ -298,6 +321,11 @@ export default function CommercialConstructionPage() {
             'https://webuildclt.com/services/commercial-construction'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Commercial Construction' },
+          ]),
         ]}
       />
 
@@ -435,11 +463,11 @@ export default function CommercialConstructionPage() {
                     <Link href="/contact">Get a Free Estimate</Link>
                   </Button>
                   <a
-                    href="tel:5627086616"
+                    href="tel:+17045748124"
                     className="flex items-center justify-center gap-2 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
                     <Phone className="h-3.5 w-3.5" aria-hidden="true" />
-                    (562) 708-6616
+                    (704) 574-8124
                   </a>
                 </div>
 
@@ -755,7 +783,7 @@ export default function CommercialConstructionPage() {
             <ul>
               <li><strong>Licensing.</strong> Verify that the contractor holds an active general contractor license with the NC Licensing Board for General Contractors. If your project is in South Carolina (<Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>, Indian Land, Rock Hill), they also need an SC Contractors Licensing Board license. Ask for license numbers and verify them online.</li>
               <li><strong>Insurance.</strong> Require proof of general liability insurance ($1 million minimum), workers compensation coverage, and commercial auto insurance. Without adequate insurance, you could be liable for injuries or property damage on your job site.</li>
-              <li><strong>Commercial experience.</strong> A contractor who builds <Link href="/services/custom-home-builder" className="text-primary hover:underline">custom homes</Link> is not automatically qualified to build a medical office or restaurant. Ask for references and photos from projects similar to yours. Experience with your specific project type matters.</li>
+              <li><strong>Commercial experience.</strong> Not every contractor is qualified to build a medical office or restaurant. Ask for references and photos from projects similar to yours. Experience with your specific project type matters.</li>
               <li><strong>Financial stability.</strong> Commercial construction projects can run into the hundreds of thousands or millions of dollars. Your contractor needs the financial capacity to fund materials and labor before drawing on your construction loan. Ask about their bonding capacity and banking relationships.</li>
               <li><strong>Communication style.</strong> During construction, you will interact with your contractor weekly or even daily. Choose a contractor whose communication style matches your expectations. We provide weekly written updates, maintain a shared photo log, and make our project managers available by phone during business hours.</li>
               <li><strong>Local market knowledge.</strong> A Charlotte-based contractor understands Mecklenburg County permitting timelines, local subcontractor availability, material lead times from regional suppliers, and the specific building codes that apply to your project location.</li>
@@ -852,9 +880,9 @@ export default function CommercialConstructionPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
             {[
               { title: 'Commercial Upfits', href: '/services/commercial-upfits', desc: 'Tenant improvements and space renovations for existing commercial buildings.' },
+              { title: 'Commercial Renovation', href: '/services/commercial-renovation', desc: 'Full building renovation and remodeling for offices, retail, restaurants, and warehouses.' },
               { title: 'Design-Build', href: '/services/design-build', desc: 'Architecture and construction under one contract for faster, more affordable delivery.' },
-              { title: 'Roof Coating', href: '/services/roof-coating', desc: 'Commercial roof restoration with silicone coating systems that extend roof life.' },
-              { title: 'Residential Additions', href: '/services/residential-additions', desc: 'Home additions and expansions for Charlotte homeowners.' },
+              { title: 'Tenant Improvements', href: '/services/tenant-improvements', desc: 'TI build-outs and leasehold improvements for office, retail, and medical tenants.' },
             ].map((service) => (
               <Card key={service.href} className="card-hover">
                 <CardContent className="p-6">
@@ -883,19 +911,21 @@ export default function CommercialConstructionPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
-              { title: 'Complete Guide to Commercial Construction in Charlotte', slug: 'commercial-construction-guide-charlotte-nc', category: 'Guide' },
-              { title: 'Commercial Upfit Cost Breakdown', slug: 'commercial-upfit-cost-charlotte', category: 'Blog' },
-              { title: 'Construction Permits in Mecklenburg County', slug: 'commercial-building-permits-mecklenburg-county-guide', category: 'Blog' },
+              { title: 'Complete Guide to Commercial Construction in Charlotte', href: '/blog/commercial-construction-guide-charlotte-nc', category: 'Guide' },
+              { title: 'Commercial Upfit Cost Breakdown', href: '/blog/commercial-upfit-cost-charlotte', category: 'Blog' },
+              { title: 'Construction Permits in Mecklenburg County', href: '/blog/commercial-building-permits-mecklenburg-county-guide', category: 'Blog' },
+              { title: 'Commercial Building Maintenance Checklist for Charlotte', href: '/guides/commercial-building-maintenance-checklist', category: 'Guide' },
+              { title: 'Permit Guide: What Charlotte Property Owners Need to Know', href: '/guides/permit-guide-charlotte-property-owners', category: 'Guide' },
             ].map((post) => (
-              <Card key={post.slug} className="card-hover">
+              <Card key={post.href} className="card-hover">
                 <CardContent className="p-6">
                   <span className="section-label">{post.category}</span>
                   <h3 className="text-base font-semibold mt-2 mb-4">{post.title}</h3>
                   <Link
-                    href={`/blog/${post.slug}`}
+                    href={post.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    Read Article
+                    {post.category === 'Guide' ? 'Read Guide' : 'Read Article'}
                     <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
@@ -931,9 +961,9 @@ export default function CommercialConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

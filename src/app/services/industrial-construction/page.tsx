@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -47,10 +47,13 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Industrial & Warehouse Construction Charlotte NC | Distribution Centers & Manufacturing',
   description:
-    'Expert industrial and warehouse construction in Charlotte, NC. Distribution centers, manufacturing facilities, cold storage, logistics hubs, light industrial build-outs & warehouse renovations. Veteran-owned, licensed in NC & SC. 60+ years experience. Free estimates. (562) 708-6616.',
+    'Expert industrial construction and warehouse construction in Charlotte, NC. Distribution centers, manufacturing facilities, cold storage, logistics hubs, light industrial build-outs & warehouse renovations. Commercial general contractors, veteran-owned, licensed in NC & SC. 60+ years experience. Free estimates. (704) 574-8124.',
   keywords: [
-    'warehouse construction Charlotte NC',
     'industrial construction Charlotte NC',
+    'industrial construction near me',
+    'industrial construction contractor Charlotte NC',
+    'warehouse construction Charlotte NC',
+    'warehouse construction near me',
     'industrial buildout Charlotte NC',
     'distribution center construction Charlotte',
     'warehouse renovation Charlotte NC',
@@ -61,7 +64,15 @@ export const metadata: Metadata = {
     'warehouse build out Charlotte',
     'industrial contractor Charlotte NC',
     'flex industrial space Charlotte',
+    'industrial construction Charlotte North Carolina',
+    'industrial construction fort mill sc',
+    'industrial construction lake norman nc',
+    'industrial construction detroit mi',
+    'warehouse contractor near me',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/industrial-construction',
+  },
   openGraph: {
     title: 'Industrial & Warehouse Construction Charlotte NC | We Build',
     description:
@@ -318,6 +329,21 @@ const faqs = [
     answer:
       'Safety is embedded in our company culture, reflecting our veteran leadership background where mission safety is non-negotiable. Every industrial construction project begins with a site-specific safety plan that identifies hazards unique to the scope of work, including steel erection, elevated work, heavy equipment operation, confined space entry, and hot work. We conduct daily safety briefings, weekly toolbox talks, and monthly safety audits. All workers on our industrial job sites complete OSHA 10-Hour construction safety training at minimum, with supervisors holding OSHA 30-Hour certifications. We maintain a comprehensive safety program that includes fall protection, lockout/tagout procedures, rigging and crane safety protocols, and emergency action plans. Our experience modification rate reflects our commitment to keeping every worker safe on every project.',
   },
+  {
+    question: 'How does industrial construction cost in Charlotte compare to other Southeast markets?',
+    answer:
+      'Charlotte industrial construction costs are competitive with other major Southeast markets. Basic warehouse shells in Charlotte run $55 to $80 per square foot, compared to $60 to $90 in Atlanta and $65 to $95 in Raleigh-Durham. Charlotte benefits from lower land costs than Atlanta, a deep pool of experienced industrial subcontractors, and proximity to major building material suppliers. However, Mecklenburg County stormwater requirements are more stringent than some competing markets, which can add 5 to 10 percent to site development costs. Overall, the Charlotte metro area offers strong value for industrial development, which is one reason the region has attracted record levels of warehouse and distribution investment.',
+  },
+  {
+    question: 'What is the difference between a distribution center and a warehouse in terms of construction?',
+    answer:
+      'While the terms are often used interchangeably, distribution centers and warehouses have different operational requirements that affect construction. Warehouses are designed primarily for long-term storage with slower inventory turnover, emphasizing maximum storage density with high racking and fewer dock doors. Distribution centers are optimized for rapid throughput, requiring more dock doors for simultaneous loading and unloading, wider aisles for efficient material handling, cross-dock configurations, sorting and packing areas, and more robust electrical systems for conveyor and automation equipment. Distribution centers in Charlotte typically cost 10 to 20 percent more per square foot than basic warehouses due to these additional operational infrastructure requirements.',
+  },
+  {
+    question: 'Can you build EV charging infrastructure into a new industrial facility near Charlotte?',
+    answer:
+      'Yes, and we strongly recommend incorporating EV charging infrastructure during initial construction rather than retrofitting later. Installing conduit, electrical panels, and transformer capacity during construction costs 60 to 80 percent less than adding it after the building is complete. For industrial facilities in the Charlotte area, we design EV-ready infrastructure that supports fleet vehicle charging at loading docks, employee charging stations in parking areas, and future expansion capacity as EV adoption grows. Mecklenburg County is increasingly requiring EV-ready parking for new commercial developments, and Duke Energy offers commercial EV infrastructure incentive programs that can offset installation costs by $2,000 to $5,000 per charging station.',
+  },
 ];
 
 export default function IndustrialConstructionPage() {
@@ -331,6 +357,11 @@ export default function IndustrialConstructionPage() {
             'https://webuildclt.com/services/industrial-construction'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Industrial Construction' },
+          ]),
         ]}
       />
 
@@ -727,20 +758,26 @@ export default function IndustrialConstructionPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: 'Warehouse Construction Costs in Charlotte: Complete Guide', slug: 'warehouse-construction-cost-charlotte' },
-              { title: 'Choosing the Right Industrial Building Type', slug: 'choosing-industrial-building-type' },
-              { title: 'Site Selection for Industrial Facilities in the Charlotte Market', slug: 'industrial-site-selection-charlotte' },
+              { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', category: 'Service' },
+              { title: 'Commercial Renovation Charlotte NC', href: '/services/commercial-renovation', category: 'Service' },
+              { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', category: 'Service' },
+              { title: 'Warehouse Construction Costs in Charlotte: Complete Guide', href: '/blog/warehouse-construction-cost-charlotte', category: 'Blog' },
+              { title: 'Choosing the Right Industrial Building Type', href: '/blog/choosing-industrial-building-type', category: 'Blog' },
+              { title: 'Site Selection for Industrial Facilities in the Charlotte Market', href: '/blog/industrial-site-selection-charlotte', category: 'Blog' },
+              { title: 'Commercial Building Maintenance Checklist for Charlotte', href: '/guides/commercial-building-maintenance-checklist', category: 'Guide' },
+              { title: 'Energy Efficiency Guide for Charlotte Homes', href: '/guides/energy-efficiency-guide-charlotte-homes', category: 'Guide' },
             ].map((post) => (
-              <Card key={post.slug} className="group hover:shadow-md transition-shadow">
+              <Card key={post.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold mb-4 group-hover:text-primary transition-colors">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{post.category}</span>
+                  <h3 className="font-semibold mt-2 mb-4 group-hover:text-primary transition-colors">
                     {post.title}
                   </h3>
                   <Link
-                    href={`/blog/${post.slug}`}
+                    href={post.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    Read Article <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                    {post.category === 'Service' ? 'View Service' : post.category === 'Guide' ? 'Read Guide' : 'Read Article'} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
@@ -778,9 +815,9 @@ export default function IndustrialConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

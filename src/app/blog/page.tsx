@@ -5,14 +5,19 @@ import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { Badge } from '@/components/ui/badge';
 import { Calendar, ArrowRight, User } from 'lucide-react';
+import { JsonLd } from '@/components/JsonLd';
+import { breadcrumbSchema } from '@/lib/structured-data';
 import { createAdminClient } from '@/lib/supabase';
 
 export const revalidate = false; // Static at build time — redeploy or use /api/revalidate to update
 
 export const metadata: Metadata = {
-  title: 'Blog',
+  title: 'Blog | Charlotte Construction Tips & Industry Insights',
   description:
-    'Construction tips, project spotlights, and industry insights from We Build in Charlotte, NC. Expert advice on commercial construction, roof coating, and custom homes.',
+    'Charlotte construction blog by We Build — expert tips on commercial construction, roof coating, custom homes, and design-build. Project spotlights, industry insights, and practical advice for commercial and residential construction in Charlotte NC.',
+  alternates: {
+    canonical: 'https://webuildclt.com/blog',
+  },
 };
 
 interface BlogPost {
@@ -62,6 +67,7 @@ export default async function BlogPage() {
   if (allPosts.length === 0) {
     return (
       <>
+        <JsonLd data={breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Blog' }])} />
         <PageHero
           title="Blog"
           subtitle="Construction tips, project spotlights, and industry insights"
@@ -84,6 +90,7 @@ export default async function BlogPage() {
 
   return (
     <>
+      <JsonLd data={breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Blog' }])} />
       <PageHero
         title="Blog"
         subtitle="Construction tips, project spotlights, and industry insights"

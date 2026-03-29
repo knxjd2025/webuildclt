@@ -27,14 +27,13 @@ import {
   Eye,
   DollarSign,
   ClipboardList,
-  Home,
   Warehouse,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Design Center Charlotte NC | Construction Showroom & Material Selection',
   description:
-    'Visit the We Build Design Center in Charlotte, NC. Browse flooring, countertops, cabinetry, tile, fixtures & lighting. Hands-on material selection for commercial & residential construction. By appointment. (562) 708-6616.',
+    'Visit the We Build Design Center in Charlotte, NC. Browse flooring, countertops, cabinetry, tile, fixtures & lighting. Hands-on material selection for commercial & residential construction. By appointment. (704) 574-8124.',
   keywords: [
     'design center charlotte nc',
     'construction showroom charlotte',
@@ -114,7 +113,7 @@ const selectionSteps = [
     step: 1,
     title: 'Schedule Your Appointment',
     description:
-      'Contact us by phone at (562) 708-6616 or through our website to book your Design Center appointment. We schedule appointments Monday through Friday during business hours and can accommodate evening or weekend visits for clients with scheduling constraints. Each appointment is private, meaning you will have the full attention of our design team without competing for space with other clients.',
+      'Contact us by phone at (704) 574-8124 or through our website to book your Design Center appointment. We schedule appointments Monday through Friday during business hours and can accommodate evening or weekend visits for clients with scheduling constraints. Each appointment is private, meaning you will have the full attention of our design team without competing for space with other clients.',
   },
   {
     step: 2,
@@ -253,7 +252,7 @@ const faqs = [
   {
     question: 'Do I need an appointment to visit the Design Center?',
     answer:
-      'Yes, all Design Center visits are by appointment only. This ensures you receive private access to the showroom and the undivided attention of our design consultant during your visit. We schedule appointments Monday through Friday during business hours and can accommodate evening or weekend visits for clients with scheduling needs. Call (562) 708-6616 or use our online contact form to book your appointment.',
+      'Yes, all Design Center visits are by appointment only. This ensures you receive private access to the showroom and the undivided attention of our design consultant during your visit. We schedule appointments Monday through Friday during business hours and can accommodate evening or weekend visits for clients with scheduling needs. Call (704) 574-8124 or use our online contact form to book your appointment.',
   },
   {
     question: 'How long does a typical Design Center appointment take?',
@@ -295,6 +294,21 @@ const faqs = [
     answer:
       'There is no charge to visit our Design Center when you are a We Build construction client. The design consultation and material selection process is included as part of our design-build service. For clients who are exploring whether We Build is the right fit for their project, an initial consultation visit is complimentary. Our goal is to help you make confident material decisions that result in a finished space you love.',
   },
+  {
+    question: 'How does the Design Center help prevent costly change orders during construction?',
+    answer:
+      'Change orders are one of the biggest sources of budget overruns in construction, and most stem from material decisions made too late or based on small catalog samples. Our Design Center eliminates this problem by letting you see, touch, and compare full-size material samples before construction begins. You confirm every countertop, floor, tile, fixture, and cabinet finish in person — under proper lighting and next to complementary materials. When selections are locked in before the first day of construction, there are fewer surprises, fewer delays, and significantly fewer change orders on the job site.',
+  },
+  {
+    question: 'Can I use the Design Center for a commercial construction project?',
+    answer:
+      'Yes. Our Design Center serves both commercial and residential clients across the Charlotte area. Commercial clients use the showroom to select flooring, wall finishes, countertops, fixtures, and hardware for office build-outs, medical facilities, restaurants, and retail spaces. For larger commercial projects, our design team can also source specialty materials, coordinate with your architect or interior designer, and provide finish schedules that align with your construction timeline and budget.',
+  },
+  {
+    question: 'What is the difference between design-build and hiring a separate architect and contractor?',
+    answer:
+      'In a traditional approach, you hire an architect to design the project and then a separate contractor to build it. This creates communication gaps, potential design conflicts, and added cost when the contractor identifies constructability issues the architect did not anticipate. Design-build combines both roles under one contract and one team. At We Build, your design consultant and project manager collaborate from day one, aligning material selections, budgets, and schedules. This integrated approach typically delivers projects twenty to thirty percent faster and with fewer change orders than the traditional method.',
+  },
 ];
 
 export default function DesignCenterPage() {
@@ -332,7 +346,7 @@ export default function DesignCenterPage() {
               </p>
 
               <p>
-                The We Build Design Center is located at our office at 14330 S Lakes Drive, Charlotte, NC 28273. It is a private showroom, open by appointment, where you can browse curated collections of flooring, countertops, cabinetry, tile, fixtures, hardware, paint, and lighting from leading manufacturers. Whether you are building a <Link href="/services/custom-home-builder">custom home in South Charlotte</Link>, planning a <Link href="/services/commercial-construction">commercial construction project</Link>, designing a <Link href="/services/commercial-upfits">commercial upfit for a new tenant</Link>, or adding a <Link href="/services/residential-additions">residential addition to your existing home</Link>, our Design Center is where your vision takes shape.
+                The We Build Design Center is located at our office at 14330 S Lakes Drive, Charlotte, NC 28273. It is a private showroom, open by appointment, where you can browse curated collections of flooring, countertops, cabinetry, tile, fixtures, hardware, paint, and lighting from leading manufacturers. Whether you are planning a <Link href="/services/commercial-construction">commercial construction project</Link>, designing a <Link href="/services/commercial-upfits">commercial upfit for a new tenant</Link>, or managing a <Link href="/services/design-build">design-build project</Link>, our Design Center is where your vision takes shape.
               </p>
 
               <p>
@@ -392,9 +406,9 @@ export default function DesignCenterPage() {
                     className="w-full border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
                     asChild
                   >
-                    <a href="tel:5627086616">
+                    <a href="tel:+17045748124">
                       <Phone className="mr-2 h-4 w-4" aria-hidden="true" />
-                      (562) 708-6616
+                      (704) 574-8124
                     </a>
                   </Button>
                 </div>
@@ -681,10 +695,10 @@ export default function DesignCenterPage() {
       <section className="py-16 bg-muted" id="residential-section">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto article-prose">
-            <h2 id="residential-selections">Residential Design Selections</h2>
+            <h2 id="interior-selections">Interior Design Selections</h2>
 
             <p>
-              For <Link href="/services/custom-home-builder">custom home</Link> and residential renovation clients, our Design Center offers the opportunity to build a cohesive material palette for your entire home in one location. Rather than visiting a flooring store, then a countertop fabricator, then a cabinet dealer, then a plumbing showroom, and then a paint store, you can see everything together and make coordinated decisions that create a unified design throughout your home.
+              Our Design Center offers the opportunity to build a cohesive material palette for your entire project in one location. Rather than visiting a flooring store, then a countertop fabricator, then a cabinet dealer, then a plumbing showroom, and then a paint store, you can see everything together and make coordinated decisions that create a unified design throughout your space.
             </p>
 
             <p>
@@ -700,7 +714,7 @@ export default function DesignCenterPage() {
             </p>
 
             <p>
-              For clients building <Link href="/services/residential-additions">residential additions</Link>, matching existing materials is a common challenge. Bring a sample of your current flooring, countertop, or cabinet finish to the Design Center and our team will help you find the closest match or a complementary option that makes the transition between existing and new spaces feel intentional rather than mismatched.
+              For renovation and expansion projects, matching existing materials is a common challenge. Bring a sample of your current flooring, countertop, or cabinet finish to the Design Center and our team will help you find the closest match or a complementary option that makes the transition between existing and new spaces feel intentional rather than mismatched.
             </p>
 
             <p>
@@ -770,10 +784,9 @@ export default function DesignCenterPage() {
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {[
               { title: 'Design-Build Construction', href: '/services/design-build', icon: Layers, description: 'Integrated design and construction under one team for seamless project delivery.' },
-              { title: 'Custom Home Builder', href: '/services/custom-home-builder', icon: Home, description: 'Build your dream home in Charlotte with our full-service custom home construction.' },
               { title: 'Commercial Construction', href: '/services/commercial-construction', icon: Building, description: 'Office, retail, restaurant, and medical construction throughout the Charlotte metro.' },
               { title: 'Commercial Upfits', href: '/services/commercial-upfits', icon: Warehouse, description: 'Tenant improvements and commercial renovations for Charlotte businesses.' },
-              { title: 'Residential Additions', href: '/services/residential-additions', icon: Home, description: 'Expand your existing home with room additions, second stories, and more.' },
+              { title: 'Roof Coating', href: '/services/roof-coating', icon: Building, description: 'Eco-friendly commercial roof coating and restoration through our We Coat division.' },
               { title: 'General Contractor', href: '/services/general-contractor', icon: HardHat, description: 'Full-service general contracting licensed in North Carolina and South Carolina.' },
             ].map((service) => (
               <Card key={service.href} className="card-hover">
@@ -819,9 +832,9 @@ export default function DesignCenterPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

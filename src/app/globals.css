@@ -153,6 +153,17 @@
   --color-brand-light: var(--brand-light);
   --color-brand-steel: var(--brand-steel);
   --color-brand-warm: var(--brand-warm);
+
+  /* Semantic status colors */
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-success-muted: var(--success-muted);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning-muted: var(--warning-muted);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+  --color-info-muted: var(--info-muted);
 }
 
 :root {
@@ -199,6 +210,17 @@
   --brand-light: oklch(0.82 0.1 50);
   --brand-steel: oklch(0.35 0.04 230);
   --brand-warm: oklch(0.95 0.02 60);
+
+  /* Semantic status colors */
+  --success: oklch(0.52 0.14 145);
+  --success-foreground: oklch(1 0 0);
+  --success-muted: oklch(0.95 0.04 145);
+  --warning: oklch(0.75 0.15 70);
+  --warning-foreground: oklch(0.2 0.02 70);
+  --warning-muted: oklch(0.96 0.04 70);
+  --info: oklch(0.55 0.12 240);
+  --info-foreground: oklch(1 0 0);
+  --info-muted: oklch(0.95 0.03 240);
 
   /* Spacing scale (8px grid) */
   --space-xs: 0.25rem;   /* 4px */
@@ -267,6 +289,17 @@
   --brand-light: oklch(0.88 0.08 50);
   --brand-steel: oklch(0.25 0.03 230);
   --brand-warm: oklch(0.2 0.02 50);
+
+  /* Semantic status — dark mode */
+  --success: oklch(0.62 0.14 145);
+  --success-foreground: oklch(0.1 0.015 240);
+  --success-muted: oklch(0.2 0.04 145);
+  --warning: oklch(0.8 0.14 70);
+  --warning-foreground: oklch(0.15 0.02 70);
+  --warning-muted: oklch(0.22 0.04 70);
+  --info: oklch(0.65 0.12 240);
+  --info-foreground: oklch(0.1 0.015 240);
+  --info-muted: oklch(0.2 0.03 240);
 
   /* Dark mode shadows — subtle glow instead of dark shadow */
   --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.3);
@@ -584,6 +617,12 @@ html {
 }
 .animate-count {
   animation: count-up 600ms var(--ease-out-expo) both;
+}
+
+/* ── Scroll indicator ── */
+@keyframes scroll-hint {
+  0%, 100% { opacity: 0.4; transform: translateY(0); }
+  50% { opacity: 1; transform: translateY(6px); }
 }
 
 /* ── Delight: Magnetic CTA button effect ── */

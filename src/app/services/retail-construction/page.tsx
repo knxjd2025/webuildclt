@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -46,11 +46,14 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Retail Construction & Buildouts Charlotte NC | Store Build-Out Contractor',
   description:
-    'Expert retail construction and buildout contractor in Charlotte, NC. Boutique shops, big box stores, shopping center renovations, showrooms, quick-service restaurants, and pop-up retail. Veteran-owned, licensed in NC & SC. Every day closed is lost revenue — we build fast. Free estimates. (562) 708-6616.',
+    'Expert retail construction and buildout contractor in Charlotte, NC. Commercial construction companies for boutique shops, big box stores, shopping center renovations, showrooms, quick-service restaurants & pop-up retail. Veteran-owned, licensed in NC & SC. We build fast. Free estimates. (704) 574-8124.',
   keywords: [
     'retail construction Charlotte NC',
+    'retail construction near me',
+    'retail construction contractor Charlotte NC',
     'retail buildout contractor Charlotte',
     'store buildout Charlotte NC',
+    'store buildout near me',
     'retail renovation Charlotte',
     'shopping center renovation Charlotte',
     'retail space construction',
@@ -60,7 +63,15 @@ export const metadata: Metadata = {
     'retail tenant buildout Charlotte',
     'storefront construction Charlotte NC',
     'retail interior construction Charlotte',
+    'retail construction Charlotte North Carolina',
+    'retail construction fort mill sc',
+    'retail construction lake norman nc',
+    'retail construction detroit mi',
+    'commercial retail contractor near me',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/retail-construction',
+  },
   openGraph: {
     title: 'Retail Construction & Buildouts Charlotte NC | We Build',
     description:
@@ -322,6 +333,21 @@ const faqs = [
     answer:
       'Yes, We Build has the project management capacity and subcontractor relationships to manage multiple retail construction projects simultaneously across the Charlotte metro area. National and regional retailers expanding into the Charlotte market often need several locations built out on parallel timelines. We assign a dedicated project manager to each location while our operations team coordinates shared resources, material purchasing economies, and subcontractor scheduling across all projects. Running multiple projects simultaneously also allows us to negotiate volume pricing with material suppliers and subcontractors, which can reduce per-location costs. If you are planning a multi-location rollout in the Charlotte market, contact us early so we can plan resource allocation and sequencing that supports your launch timeline.',
   },
+  {
+    question: 'How much does it cost to open a retail store in SouthPark versus South End Charlotte?',
+    answer:
+      'Construction costs are similar in both areas, but lease economics differ significantly. SouthPark retail lease rates run $35 to $65 per square foot annually for inline space near SouthPark Mall, with TI allowances of $25 to $50 per square foot. South End rates range from $30 to $55 per square foot with TI allowances of $20 to $45 per square foot. Build-out construction costs average $75 to $150 per square foot in both areas for standard retail. The key difference is customer profile: SouthPark draws affluent suburban shoppers, while South End attracts younger urban professionals with high foot traffic from the light rail. We Build has completed retail projects in both submarkets and can advise on construction considerations specific to each area.',
+  },
+  {
+    question: 'How does retail build-out compare to restaurant construction in terms of cost and complexity?',
+    answer:
+      'Retail build-outs are generally less expensive and faster than restaurant construction because they do not require commercial kitchen ventilation, grease traps, extensive plumbing, or health department compliance. A standard retail build-out in Charlotte costs $75 to $140 per square foot, while restaurant construction runs $150 to $400 per square foot. Retail timelines are also shorter, typically 8 to 12 weeks versus 12 to 22 weeks for restaurants. The exception is food retail concepts like juice bars, bakeries, or coffee shops, which require some food-service infrastructure and fall between pure retail and full restaurant complexity. We handle all of these project types and help clients understand what their specific concept will actually require.',
+  },
+  {
+    question: 'What Mecklenburg County signage permits do I need for my retail storefront?',
+    answer:
+      'Retail signage in Mecklenburg County requires a sign permit from Charlotte-Mecklenburg Code Enforcement for any permanent exterior signage. The Sign Ordinance regulates sign type, size, height, illumination, and placement based on zoning district and street frontage. Shopping center tenants must also comply with the landlord sign criteria document, which often imposes additional restrictions on sign dimensions, materials, colors, and mounting methods. Interior window graphics covering more than 25 percent of the glass area may also require a permit. We coordinate signage infrastructure during construction, including electrical conduit, structural blocking, and mounting brackets, so your sign installer has everything needed for a clean, code-compliant installation on day one.',
+  },
 ];
 
 export default function RetailConstructionPage() {
@@ -335,6 +361,11 @@ export default function RetailConstructionPage() {
             'https://webuildclt.com/services/retail-construction'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'Retail Construction' },
+          ]),
         ]}
       />
 
@@ -732,13 +763,17 @@ export default function RetailConstructionPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { title: 'Commercial Upfits', desc: 'Office, restaurant, medical, and retail upfit services across Charlotte.', href: '/services/commercial-upfits' },
-              { title: 'Commercial Construction', desc: 'Ground-up commercial construction for new retail buildings and shopping centers.', href: '/services/commercial-construction' },
-              { title: 'Design-Build Services', desc: 'Single-source design and construction for faster retail project delivery.', href: '/services/design-build' },
+              { title: 'Commercial Upfits', desc: 'Office, restaurant, medical, and retail upfit services across Charlotte.', href: '/services/commercial-upfits', type: 'Service' },
+              { title: 'Tenant Improvements', desc: 'TI build-outs and leasehold improvements for retail tenants in shopping centers and mixed-use.', href: '/services/tenant-improvements', type: 'Service' },
+              { title: 'Commercial Construction', desc: 'Ground-up commercial construction for new retail buildings and shopping centers.', href: '/services/commercial-construction', type: 'Service' },
+              { title: 'Design-Build Services', desc: 'Single-source design and construction for faster retail project delivery.', href: '/services/design-build', type: 'Service' },
+              { title: 'Retail Space Build-Out Guide for Charlotte Business Owners', desc: 'Plan your retail build-out with cost estimates, timelines, and design tips for Charlotte retail spaces.', href: '/guides/retail-space-build-out-guide-charlotte', type: 'Guide' },
+              { title: 'Commercial Flooring Guide: Best Options by Business Type', desc: 'Find the best flooring for your retail store, from durability ratings to cost per square foot.', href: '/guides/commercial-flooring-guide-business-type', type: 'Guide' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
-                  <h3 className="font-semibold mb-2 group-hover:text-primary transition-colors">
+                  <span className="text-xs font-semibold uppercase tracking-wider text-primary">{resource.type}</span>
+                  <h3 className="font-semibold mt-2 mb-2 group-hover:text-primary transition-colors">
                     {resource.title}
                   </h3>
                   <p className="text-sm text-muted-foreground mb-4">{resource.desc}</p>
@@ -746,7 +781,7 @@ export default function RetailConstructionPage() {
                     href={resource.href}
                     className="inline-flex items-center text-primary text-sm font-medium hover:underline"
                   >
-                    Learn More <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
+                    {resource.type === 'Guide' ? 'Read Guide' : 'Learn More'} <ArrowRight className="ml-1 h-3.5 w-3.5" aria-hidden="true" />
                   </Link>
                 </CardContent>
               </Card>
@@ -785,9 +820,9 @@ export default function RetailConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>

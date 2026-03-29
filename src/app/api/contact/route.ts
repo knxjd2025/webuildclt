@@ -1,9 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-// Optional: Uncomment and install Resend for email functionality
-// import { Resend } from 'resend';
-// const resend = new Resend(process.env.RESEND_API_KEY);
-
 interface ContactFormData {
   firstName: string;
   lastName: string;
@@ -13,14 +9,86 @@ interface ContactFormData {
   message: string;
 }
 
+/* Simple in-memory rate limiter: max 5 submissions per IP per minute */
+const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
+const RATE_LIMIT_WINDOW_MS = 60_000;
+const RATE_LIMIT_MAX = 5;
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now();
+  const entry = rateLimitMap.get(ip);
+  if (!entry || now > entry.resetAt) {
+    rateLimitMap.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
+    return false;
+  }
+  entry.count++;
+  return entry.count > RATE_LIMIT_MAX;
+}
+
+/* Validate webhook URL is HTTPS and on an allowed host */
+const ALLOWED_WEBHOOK_HOSTS = [
+  'hooks.zapier.com',
+  'hook.us1.make.com',
+  'hook.eu1.make.com',
+  'discord.com',
+  'hooks.slack.com',
+];
+
+function isAllowedWebhookUrl(url: string): boolean {
+  try {
+    const parsed = new URL(url);
+    return parsed.protocol === 'https:' && ALLOWED_WEBHOOK_HOSTS.some((h) => parsed.hostname === h || parsed.hostname.endsWith(`.${h}`));
+  } catch {
+    return false;
+  }
+}
+
+/* Field length limits */
+const MAX_LENGTHS: Record<string, number> = {
+  firstName: 100,
+  lastName: 100,
+  email: 254,
+  phone: 20,
+  subject: 200,
+  message: 5000,
+};
+
+function exceedsLength(data: ContactFormData): string | null {
+  for (const [field, max] of Object.entries(MAX_LENGTHS)) {
+    const value = data[field as keyof ContactFormData];
+    if (typeof value === 'string' && value.length > max) {
+      return field;
+    }
+  }
+  return null;
+}
+
 export async function POST(request: NextRequest) {
   try {
+    // Rate limiting
+    const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
+    if (isRateLimited(ip)) {
+      return NextResponse.json(
+        { error: 'Too many requests. Please try again later.' },
+        { status: 429 }
+      );
+    }
+
     const data: ContactFormData = await request.json();
 
     // Validate required fields
     if (!data.firstName || !data.lastName || !data.email || !data.subject || !data.message) {
       return NextResponse.json(
         { error: 'Missing required fields' },
+        { status: 400 }
+      );
+    }
+
+    // Input length validation
+    const tooLong = exceedsLength(data);
+    if (tooLong) {
+      return NextResponse.json(
+        { error: `${tooLong} exceeds maximum length` },
         { status: 400 }
       );
     }
@@ -34,55 +102,55 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Option 1: Send email via Resend
-    // Uncomment the following to enable email sending:
-    /*
-    await resend.emails.send({
-      from: 'We Build <noreply@webuildclt.com>',
-      to: ['designcenter@webuildclt.com'],
-      replyTo: data.email,
-      subject: `Contact Form: ${data.subject}`,
-      html: `
-        <h2>New Contact Form Submission</h2>
-        <p><strong>Name:</strong> ${data.firstName} ${data.lastName}</p>
-        <p><strong>Email:</strong> ${data.email}</p>
-        <p><strong>Phone:</strong> ${data.phone || 'Not provided'}</p>
-        <p><strong>Subject:</strong> ${data.subject}</p>
-        <hr />
-        <p><strong>Message:</strong></p>
-        <p>${data.message.replace(/\n/g, '<br>')}</p>
-      `,
-    });
-    */
+    const webhookUrl = process.env.CONTACT_WEBHOOK_URL;
+    if (!webhookUrl) {
+      console.error('CONTACT_WEBHOOK_URL is not configured');
+      return NextResponse.json(
+        { error: 'Contact form is temporarily unavailable' },
+        { status: 503 }
+      );
+    }
 
-    // Option 2: Forward to WordPress/Gravity Forms API
-    // Uncomment and configure for WordPress form submission:
-    /*
-    const wpResponse = await fetch(`${process.env.WORDPRESS_API_URL}`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        query: SUBMIT_CONTACT_FORM,
-        variables: {
-          input: {
-            formId: 1, // Your Gravity Forms form ID
-            fieldValues: [
-              { id: 1, value: `${data.firstName} ${data.lastName}` },
-              { id: 2, value: data.email },
-              { id: 3, value: data.phone || '' },
-              { id: 4, value: data.subject },
-              { id: 5, value: data.message },
-            ],
-          },
-        },
-      }),
-    });
-    */
+    // Validate webhook destination
+    if (!isAllowedWebhookUrl(webhookUrl)) {
+      console.error('CONTACT_WEBHOOK_URL is not an allowed destination');
+      return NextResponse.json(
+        { error: 'Contact form is temporarily unavailable' },
+        { status: 503 }
+      );
+    }
 
-    // For now, just log and return success (replace with actual implementation)
-    console.log('Contact form submission:', data);
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+    try {
+      const webhookResponse = await fetch(webhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: `${data.firstName} ${data.lastName}`,
+          firstName: data.firstName,
+          lastName: data.lastName,
+          email: data.email,
+          phone: data.phone || '',
+          subject: data.subject,
+          message: data.message,
+          source: 'webuildclt.com',
+          submittedAt: new Date().toISOString(),
+        }),
+        signal: controller.signal,
+      });
+
+      if (!webhookResponse.ok) {
+        console.error('Webhook failed:', webhookResponse.status);
+        return NextResponse.json(
+          { error: 'Failed to send message' },
+          { status: 502 }
+        );
+      }
+    } finally {
+      clearTimeout(timeoutId);
+    }
 
     return NextResponse.json(
       { success: true, message: 'Message sent successfully' },

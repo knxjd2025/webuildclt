@@ -5,12 +5,14 @@ import { notFound } from 'next/navigation';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { ShareButtons } from '@/components/ShareButtons';
 import { JsonLd } from '@/components/JsonLd';
-import { articleSchema } from '@/lib/structured-data';
+import { articleSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Calendar, User, Clock, ArrowLeft, ArrowRight } from 'lucide-react';
+import { Card, CardContent } from '@/components/ui/card';
+import { Calendar, User, Clock, ArrowLeft, ArrowRight, Phone } from 'lucide-react';
 import { createAdminClient } from '@/lib/supabase';
 import { enrichBlogContent } from '@/lib/blog-enricher';
+import { allServices, type ServiceLink } from '@/data/services';
 
 export const revalidate = false; // Static at build time — redeploy or use /api/revalidate to update
 
@@ -56,6 +58,51 @@ function categoryLabel(slug: string): string {
   return slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
+function getServicesForCategory(categorySlug: string): ServiceLink[] {
+  const categoryMap: Record<string, string[]> = {
+    'commercial-construction': [
+      '/services/commercial-construction',
+      '/services/commercial-upfits',
+      '/services/commercial-renovation',
+      '/services/office-buildouts',
+      '/services/tenant-improvements',
+    ],
+    'design-build': [
+      '/services/design-build',
+      '/services/general-contractor',
+      '/services/pre-construction',
+      '/services/construction-management',
+    ],
+    roofing: [
+      '/services/roof-coating',
+      '/services/green-building',
+      '/services/commercial-construction',
+      '/services/commercial-renovation',
+    ],
+    residential: [
+      '/services/general-contractor',
+      '/services/design-build',
+      '/services/commercial-construction',
+      '/services/commercial-upfits',
+    ],
+  };
+
+  // Check for partial matches (e.g. "roof" in "roofing-tips")
+  const matchedKey = Object.keys(categoryMap).find(
+    (key) => categorySlug.includes(key) || key.includes(categorySlug)
+  );
+
+  if (matchedKey) {
+    const hrefs = categoryMap[matchedKey];
+    return allServices.filter((s) => hrefs.includes(s.href));
+  }
+
+  // Default: top 5 commercial-focused services
+  return allServices
+    .filter((s) => s.category === 'commercial')
+    .slice(0, 5);
+}
+
 type Params = Promise<{ slug: string }>;
 
 async function getPost(slug: string) {
@@ -81,6 +128,9 @@ export async function generateMetadata({
   return {
     title: post.meta_title || post.title,
     description: post.meta_description || post.excerpt,
+    alternates: {
+      canonical: `https://webuildclt.com/blog/${slug}`,
+    },
     openGraph: {
       title: post.meta_title || post.title,
       description: post.meta_description || post.excerpt,
@@ -121,14 +171,21 @@ export default async function BlogPostPage({
   return (
     <>
       <JsonLd
-        data={articleSchema({
-          title: post.title,
-          slug: post.slug,
-          excerpt: post.excerpt ?? '',
-          date: postDate,
-          authorName: post.author,
-          imageUrl: post.featured_image,
-        })}
+        data={[
+          articleSchema({
+            title: post.title,
+            slug: post.slug,
+            excerpt: post.excerpt ?? '',
+            date: postDate,
+            authorName: post.author,
+            imageUrl: post.featured_image,
+          }),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Blog', href: '/blog' },
+            { label: post.title },
+          ]),
+        ]}
       />
 
       {/* Hero */}
@@ -203,26 +260,74 @@ export default async function BlogPostPage({
             </article>
 
             {/* Sidebar */}
-            <aside className="space-y-8">
-              {headings.length > 0 && (
-                <div className="sticky top-24 bg-muted rounded-lg p-6">
-                  <h3 className="font-semibold mb-4">Table of Contents</h3>
-                  <nav>
-                    <ol className="space-y-2 text-sm">
-                      {headings.map((heading) => (
-                        <li key={heading.id}>
-                          <a
-                            href={`#${heading.id}`}
+            <aside>
+              <div className="sticky top-24 space-y-6">
+                {headings.length > 0 && (
+                  <div className="bg-muted rounded-lg p-6">
+                    <h3 className="font-semibold mb-4">Table of Contents</h3>
+                    <nav>
+                      <ol className="space-y-2 text-sm">
+                        {headings.map((heading) => (
+                          <li key={heading.id}>
+                            <a
+                              href={`#${heading.id}`}
+                              className="text-muted-foreground hover:text-primary transition-colors"
+                            >
+                              {heading.text}
+                            </a>
+                          </li>
+                        ))}
+                      </ol>
+                    </nav>
+                  </div>
+                )}
+
+                {/* Related Services */}
+                <Card className="py-4">
+                  <CardContent className="px-5">
+                    <h3 className="font-semibold mb-3">Our Services</h3>
+                    <ul className="space-y-2 text-sm">
+                      {getServicesForCategory(post.category_slug).map((service) => (
+                        <li key={service.href}>
+                          <Link
+                            href={service.href}
                             className="text-muted-foreground hover:text-primary transition-colors"
                           >
-                            {heading.text}
-                          </a>
+                            {service.name}
+                          </Link>
                         </li>
                       ))}
-                    </ol>
-                  </nav>
-                </div>
-              )}
+                    </ul>
+                    <Link
+                      href="/services"
+                      className="inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline mt-4"
+                    >
+                      View All Services
+                      <ArrowRight className="h-3.5 w-3.5" />
+                    </Link>
+                  </CardContent>
+                </Card>
+
+                {/* Free Consultation CTA */}
+                <Card className="py-4 bg-primary text-primary-foreground border-primary">
+                  <CardContent className="px-5">
+                    <h3 className="font-semibold mb-2">Ready to Start Your Project?</h3>
+                    <p className="text-sm text-primary-foreground/80 mb-4">
+                      Get a free estimate from Charlotte&apos;s trusted contractor.
+                    </p>
+                    <Button size="sm" variant="secondary" className="w-full" asChild>
+                      <Link href="/contact">Get Your Free Quote</Link>
+                    </Button>
+                    <a
+                      href="tel:+17045748124"
+                      className="flex items-center gap-2 text-sm text-primary-foreground/90 hover:text-primary-foreground mt-3 justify-center transition-colors"
+                    >
+                      <Phone className="h-3.5 w-3.5" />
+                      (704) 574-8124
+                    </a>
+                  </CardContent>
+                </Card>
+              </div>
             </aside>
           </div>
         </div>

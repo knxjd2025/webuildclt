@@ -39,7 +39,7 @@ export function AboutSection() {
               <Link href="/services/commercial-construction" className="text-primary hover:underline">
                 commercial construction
               </Link>
-              , residential building,{' '}
+              ,{' '}
               <Link href="/services/roof-coating" className="text-primary hover:underline">
                 roof coating
               </Link>

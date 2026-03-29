@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { serviceSchema, faqSchema } from '@/lib/structured-data';
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/structured-data';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
@@ -45,9 +45,10 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'ADA Compliance & Code Updates Charlotte NC | Commercial ADA Contractor',
   description:
-    'Expert ADA compliance contractor in Charlotte, NC. ADA restroom renovation, accessible entrance construction, ramp building, parking lot compliance, elevator installation & building code updates. Veteran-owned, licensed in NC & SC. Avoid lawsuits & fines. Free ADA assessments. (562) 708-6616.',
+    'Expert ADA compliance contractor in Charlotte, NC. ADA restroom renovation, accessible entrance construction, ramp building, parking lot compliance, elevator installation & building code updates. Veteran-owned, licensed in NC & SC. Avoid lawsuits & fines. Free ADA assessments. (704) 574-8124.',
   keywords: [
     'ADA compliance contractor Charlotte NC',
+    'ADA compliance contractor near me',
     'ADA renovation Charlotte NC',
     'building code compliance Charlotte NC',
     'ADA accessibility construction Charlotte',
@@ -59,7 +60,12 @@ export const metadata: Metadata = {
     'commercial building code updates Charlotte NC',
     'ADA elevator installation Charlotte',
     'ADA signage contractor Charlotte NC',
+    'ADA compliance near me',
+    'ADA contractor Charlotte North Carolina',
   ],
+  alternates: {
+    canonical: 'https://webuildclt.com/services/ada-compliance',
+  },
   openGraph: {
     title: 'ADA Compliance & Code Updates Charlotte NC | We Build',
     description:
@@ -359,6 +365,21 @@ const faqs = [
     answer:
       'The ADA and the North Carolina State Building Code are separate requirements that often overlap but are not identical. The ADA is a federal civil rights law enforced by the Department of Justice and through private lawsuits. It applies to all places of public accommodation and commercial facilities regardless of whether construction or renovation is occurring. The North Carolina State Building Code is a construction regulation enforced by Mecklenburg County Code Enforcement and applies when construction permits are issued. The building code adopts accessibility standards based on ICC A117.1, which are similar to but not identical to the ADA Standards for Accessible Design. In some cases the building code is more stringent than the ADA, and in others the ADA requires more than the building code. For example, the ADA ongoing barrier removal obligation has no building code equivalent. When you renovate a commercial property in Charlotte, you must comply with both the ADA and the building code, and where they differ, you must meet the more stringent requirement. Our team ensures that every project we build satisfies both sets of requirements so you are fully protected.',
   },
+  {
+    question: 'How much does it cost to build an ADA-compliant ramp for a commercial building in Charlotte?',
+    answer:
+      'ADA ramp construction in Charlotte typically costs between $1,500 and $8,000 depending on the rise height, length, materials, and site conditions. A short concrete ramp with a single run and one landing averages $2,000 to $4,000. Longer ramps with switchback configurations, intermediate landings, and handrails on both sides can reach $6,000 to $12,000. ADA ramps must maintain a maximum slope of 1:12, meaning one inch of rise for every twelve inches of run, with 60-inch landings at the top, bottom, and every 30 inches of rise. Handrails must extend 12 inches beyond the top and bottom of the ramp. We Build handles the full scope from engineering through Mecklenburg County permitting and construction.',
+  },
+  {
+    question: 'How does ADA compliance compare to the newer 2010 ADA Standards versus the original 1991 Standards?',
+    answer:
+      'The 2010 ADA Standards for Accessible Design replaced the original 1991 Standards and introduced significant changes that affect commercial properties in Charlotte. Key differences include updated reach range requirements, revised accessible parking space dimensions, new standards for recreational facilities and play areas, and more detailed requirements for sales and service counters. The 2010 Standards also added requirements for areas that were not previously covered, such as fishing piers, golf courses, and swimming pools. Any new construction or alteration started after March 15, 2012, must comply with the 2010 Standards. For existing buildings, the 2010 Standards serve as the benchmark when evaluating barrier removal obligations. Our team applies the current 2010 Standards to all ADA compliance projects in Charlotte and Mecklenburg County.',
+  },
+  {
+    question: 'Are there tax credits or deductions available for ADA compliance work in Mecklenburg County?',
+    answer:
+      'Yes, two federal tax incentives help offset the cost of ADA compliance construction. The Disabled Access Credit, IRS Code Section 44, provides eligible small businesses with a tax credit of up to $5,000 per year for expenditures incurred to comply with the ADA. To qualify, the business must have 30 or fewer full-time employees or no more than $1 million in gross receipts in the prior year. The Architectural Barrier Removal Deduction, IRS Code Section 190, allows businesses of any size to deduct up to $15,000 per year for expenses related to removing architectural and transportation barriers for people with disabilities. These incentives can be used together and renewed annually, significantly reducing the net cost of phased compliance programs. We Build helps Charlotte property owners document their ADA construction expenses to support these tax filings.',
+  },
 ];
 
 export default function ADACompliancePage() {
@@ -372,6 +393,11 @@ export default function ADACompliancePage() {
             'https://webuildclt.com/services/ada-compliance'
           ),
           faqSchema(faqs),
+          breadcrumbSchema([
+            { label: 'Home', href: '/' },
+            { label: 'Services', href: '/services' },
+            { label: 'ADA Compliance' },
+          ]),
         ]}
       />
 
@@ -815,6 +841,7 @@ export default function ADACompliancePage() {
             {[
               { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', desc: 'Full-service commercial upfit construction including ADA-compliant layouts for office, retail, restaurant, and medical spaces.' },
               { title: 'Commercial Renovation Charlotte NC', href: '/services/commercial-renovation', desc: 'Complete commercial renovation services that incorporate ADA compliance and building code updates into every project scope.' },
+              { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', desc: 'Tenant buildouts and improvements that meet current ADA standards and building code requirements from the start.' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', desc: 'Ground-up commercial construction built to current ADA standards and North Carolina Building Code from day one.' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
@@ -866,9 +893,9 @@ export default function ADACompliancePage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:5627086616">
+              <a href="tel:+17045748124">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (562) 708-6616
+                (704) 574-8124
               </a>
             </Button>
           </div>
