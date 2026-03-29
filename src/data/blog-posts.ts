@@ -37,6 +37,9 @@ import { detroitMarketPosts } from './blog-posts-detroit';
 import { costGuidePosts } from './blog-posts-cost-guides';
 import { medicalConstructionPosts } from './blog-posts-medical';
 import { commercialNewPosts } from './blog-posts-commercial-new';
+import { roofingNewPosts } from './blog-posts-roofing-new';
+import { greenBuildingNewPosts } from './blog-posts-green-building';
+import { charlotteLocalNewPosts } from './blog-posts-charlotte-local';
 
 // ============================================================
 // CLUSTER 3: ROOF COATING (Posts 1-15)
@@ -8497,6 +8500,9 @@ export const blogPosts: BlogPost[] = [
   ...costGuidePosts,
   ...medicalConstructionPosts,
   ...commercialNewPosts,
+  ...roofingNewPosts,
+  ...greenBuildingNewPosts,
+  ...charlotteLocalNewPosts,
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
