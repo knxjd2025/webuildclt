@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   title:
     'Contact We Build | Free Construction Estimates Charlotte NC | (704) 574-8124',
   description:
-    'Contact We Build for free construction estimates in Charlotte NC. Commercial construction, residential additions, roof coating, design-build. Veteran-owned, licensed NC & SC. Call (704) 574-8124 or visit our South Charlotte office.',
+    'Contact We Build for free construction estimates in Charlotte NC. Commercial construction, commercial upfits, roof coating, design-build. Veteran-owned, licensed NC & SC. Call (704) 574-8124 or visit our South Charlotte office.',
   keywords: [
     'contact we build charlotte nc',
     'free construction estimate charlotte',
@@ -82,7 +82,7 @@ const faqs = [
     question:
       'Is there a minimum project size or budget for We Build?',
     answer:
-      'We Build works on projects of varying sizes, from small residential additions and bathroom renovations to large-scale commercial construction and ground-up builds. While we do not have a strict minimum project dollar amount, most of our projects start at around $25,000. For smaller maintenance or repair tasks, we may be able to recommend trusted subcontractors in the Charlotte area. The best way to find out if your project is a good fit is to contact us for a free consultation, and we will give you an honest assessment.',
+      'We Build works on projects of varying sizes, from small commercial renovations and tenant improvements to large-scale commercial construction and ground-up builds. While we do not have a strict minimum project dollar amount, most of our projects start at around $25,000. For smaller maintenance or repair tasks, we may be able to recommend trusted subcontractors in the Charlotte area. The best way to find out if your project is a good fit is to contact us for a free consultation, and we will give you an honest assessment.',
   },
   {
     question:
@@ -382,7 +382,7 @@ export default function ContactPage() {
                 <h2 className="text-2xl font-bold mb-4">Get In Touch With We Build</h2>
                 <p className="text-muted-foreground">
                   Ready to start your construction project in Charlotte? Whether you need a
-                  commercial build-out, residential addition, roof coating, or a full
+                  commercial build-out, tenant improvement, roof coating, or a full
                   design-build project, our team is here to help. Reach out using the form,
                   give us a call, or stop by our South Charlotte office. We respond to every
                   inquiry within one business day.
@@ -1073,7 +1073,7 @@ export default function ContactPage() {
               Ready to Start Your Construction Project?
             </h2>
             <p className="text-secondary-foreground/80 text-lg mb-8 leading-relaxed">
-              Whether you are planning a commercial build-out, a residential addition, a roof
+              Whether you are planning a commercial build-out, a tenant improvement, a roof
               coating project, or a full design-build from the ground up, We Build is ready to
               help. Contact us today for a free, no-obligation estimate and discover why
               Charlotte property owners trust our veteran and family-owned team to deliver

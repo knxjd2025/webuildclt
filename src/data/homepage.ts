@@ -274,7 +274,7 @@ export const areasServedDetailed: AreaItem[] = [
     name: 'South Charlotte & Ballantyne',
     href: '/areas/south-charlotte',
     description:
-      'Our home base in South Charlotte gives us unmatched access to the Ballantyne, Pineville, and Waxhaw communities. South Charlotte is one of the fastest-growing areas in the region, with new commercial developments, retail centers, medical offices, and custom homes under construction year-round. We know the permitting process in both Charlotte and the surrounding towns, understand the deed restrictions in planned communities, and have deep relationships with South Charlotte subcontractors and suppliers.',
+      'Our home base in South Charlotte gives us unmatched access to the Ballantyne, Pineville, and Waxhaw communities. South Charlotte is one of the fastest-growing areas in the region, with new commercial developments, retail centers, medical offices, and restaurants under construction year-round. We know the permitting process in both Charlotte and the surrounding towns, understand local zoning requirements, and have deep relationships with South Charlotte subcontractors and suppliers.',
   },
   {
     name: 'Fort Mill, SC',
@@ -286,7 +286,7 @@ export const areasServedDetailed: AreaItem[] = [
     name: 'Lake Norman & Cornelius',
     href: '/areas/lake-norman',
     description:
-      'The Lake Norman area — including Cornelius, Davidson, Huntersville, and Mooresville — is one of Charlotte\'s premier markets for custom home construction and commercial development. We build lakefront custom homes, commercial spaces along the I-77 corridor, restaurant build-outs in downtown Davidson, and office upfits in Mooresville\'s growing business parks. Our team understands the unique requirements of lakefront construction including setback regulations, erosion control, and dock permitting.',
+      'The Lake Norman area — including Cornelius, Davidson, Huntersville, and Mooresville — is one of Charlotte\'s premier markets for commercial development. We build commercial spaces along the I-77 corridor, restaurant build-outs in downtown Davidson, and office upfits in Mooresville\'s growing business parks. Our team understands the unique requirements of lakefront-area construction including setback regulations, erosion control, and local permitting requirements.',
   },
   {
     name: 'Huntersville & North Charlotte',
@@ -330,7 +330,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'What types of construction projects does We Build handle?',
     answer:
-      'We Build provides full-service general contracting for commercial construction (offices, retail, restaurants, breweries, medical facilities, warehouses), residential construction (custom homes, additions, renovations), commercial roof coating and restoration through our We Coat division, FAA-certified thermal drone roof inspections, site development, value engineering, adaptive reuse, and integrated design-build services. We handle projects of all sizes across the Charlotte metro area, South Carolina, and the Detroit metropolitan area. Our team manages every phase from pre-construction planning through final walkthrough and warranty support.',
+      'We Build provides full-service general contracting for commercial construction (offices, retail, restaurants, breweries, medical facilities, warehouses), commercial renovation and tenant improvements, commercial roof coating and restoration through our We Coat division, FAA-certified thermal drone roof inspections, site development, value engineering, adaptive reuse, and integrated design-build services. We handle projects of all sizes across the Charlotte metro area, South Carolina, and the Detroit metropolitan area. Our team manages every phase from pre-construction planning through final walkthrough and warranty support.',
   },
   {
     question: 'What areas in the Charlotte region do you serve?',
@@ -355,7 +355,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'Do you offer free estimates for construction projects?',
     answer:
-      'Yes. We provide free consultations and detailed, transparent estimates for all project types — commercial construction, upfits, custom homes, additions, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (704) 574-8124 or through our website to schedule your free consultation. We typically respond within one business day.',
+      'Yes. We provide free consultations and detailed, transparent estimates for all project types — commercial construction, upfits, tenant improvements, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (704) 574-8124 or through our website to schedule your free consultation. We typically respond within one business day.',
   },
   {
     question: 'What makes We Build different from other Charlotte contractors?',
@@ -365,7 +365,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'How long does a typical construction project take?',
     answer:
-      'Project timelines depend on the type and scope of work. Commercial upfits typically take three to five months from permit to completion. Ground-up commercial buildings take six to fourteen months. Custom homes take ten to eighteen months from design through move-in. Home additions take three to six months. Commercial roof coatings take two to five days per building. We provide detailed project schedules during the planning phase, communicate proactively if timelines shift, and include schedule milestones in every contract.',
+      'Project timelines depend on the type and scope of work. Commercial upfits typically take three to five months from permit to completion. Ground-up commercial buildings take six to fourteen months. Commercial renovations take three to eight months depending on scope. Commercial roof coatings take two to five days per building. We provide detailed project schedules during the planning phase, communicate proactively if timelines shift, and include schedule milestones in every contract.',
   },
   {
     question: 'Is We Build a veteran-owned construction company?',
@@ -425,9 +425,9 @@ export const blogPreviewPosts = [
     category: 'Commercial',
   },
   {
-    title: 'How Much Does a Custom Home Cost in Charlotte?',
-    slug: 'cost-to-build-custom-home-charlotte-nc',
-    category: 'Residential',
+    title: 'What Does a Commercial Upfit Cost in Charlotte?',
+    slug: 'what-is-commercial-upfit-charlotte',
+    category: 'Commercial',
   },
   {
     title: 'Roof Coating vs. Roof Replacement: Cost Comparison',

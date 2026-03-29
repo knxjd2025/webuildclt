@@ -28,7 +28,7 @@ export function AreasSection() {
             <Card key={area.name} className="reveal">
               <CardContent className="p-6">
                 <div className="flex items-center gap-3 mb-3">
-                  <MapPin className="h-5 w-5 text-primary flex-shrink-0" />
+                  <MapPin className="h-5 w-5 text-primary flex-shrink-0" aria-hidden="true" />
                   <h3 className="text-lg font-semibold">{area.name}</h3>
                 </div>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-4">

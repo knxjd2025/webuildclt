@@ -24,9 +24,9 @@ export function CTASection() {
           <span className="text-primary-foreground font-medium">
             roof coating
           </span>
-          , or a{' '}
+          , or{' '}
           <span className="text-primary-foreground font-medium">
-            custom home
+            commercial renovation
           </span>
           , We Build delivers quality results on time and on budget. Licensed
           in NC, SC, and MI. USGBC member. Sixty plus years combined experience.

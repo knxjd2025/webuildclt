@@ -153,10 +153,10 @@ export function Header() {
                     aria-label="Services menu"
                     aria-hidden={!dropdownOpen}
                     className={cn(
-                      'absolute top-full -left-4 mt-2 bg-white dark:bg-card rounded-lg shadow-xl border py-4 px-4 z-50 transition-[opacity,transform] duration-200',
+                      'absolute top-full -left-4 mt-2 bg-white dark:bg-card rounded-lg shadow-xl border py-4 px-4 z-50 transition-[opacity,transform,visibility] duration-200',
                       dropdownOpen
                         ? 'opacity-100 translate-y-0 pointer-events-auto visible'
-                        : 'opacity-0 -translate-y-2 pointer-events-none invisible'
+                        : 'opacity-0 -translate-y-2 pointer-events-none invisible delay-0'
                     )}
                     style={{ width: 'max(620px, 40vw)', maxWidth: '720px' }}
                   >

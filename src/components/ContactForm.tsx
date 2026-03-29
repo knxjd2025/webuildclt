@@ -6,7 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
-import { CheckCircle } from 'lucide-react';
+import { CheckCircle, AlertCircle } from 'lucide-react';
 
 export function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -140,9 +140,10 @@ export function ContactForm() {
               </div>
 
               {error && (
-                <p className="text-sm text-destructive" role="alert">
-                  {error}
-                </p>
+                <div className="flex items-start gap-2 text-sm text-destructive" role="alert">
+                  <AlertCircle className="h-4 w-4 flex-shrink-0 mt-0.5" aria-hidden="true" />
+                  <span>{error}</span>
+                </div>
               )}
 
               <Button
