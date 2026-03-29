@@ -42,6 +42,7 @@ import { greenBuildingNewPosts } from './blog-posts-green-building';
 import { charlotteLocalNewPosts } from './blog-posts-charlotte-local';
 import { tipsNewPosts } from './blog-posts-tips-new';
 import { phase3MixedPosts } from './blog-posts-phase3-mixed';
+import { phase4Posts } from './blog-posts-phase4';
 
 // ============================================================
 // CLUSTER 3: ROOF COATING (Posts 1-15)
@@ -8507,6 +8508,7 @@ export const blogPosts: BlogPost[] = [
   ...charlotteLocalNewPosts,
   ...tipsNewPosts,
   ...phase3MixedPosts,
+  ...phase4Posts,
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
