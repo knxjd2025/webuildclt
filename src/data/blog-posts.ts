@@ -28,7 +28,15 @@ export const categories: Record<string, string> = {
   'detroit-construction': 'Detroit Construction',
   'brewery-construction': 'Brewery Construction',
   'drone-inspections': 'Drone Inspections',
+  'medical-construction': 'Medical Construction',
+  'cost-guides': 'Cost Guides',
 };
+
+// Phase 1 expansion imports (separate files to keep main file manageable)
+import { detroitMarketPosts } from './blog-posts-detroit';
+import { costGuidePosts } from './blog-posts-cost-guides';
+import { medicalConstructionPosts } from './blog-posts-medical';
+import { commercialNewPosts } from './blog-posts-commercial-new';
 
 // ============================================================
 // CLUSTER 3: ROOF COATING (Posts 1-15)
@@ -8485,6 +8493,10 @@ export const blogPosts: BlogPost[] = [
   ...detroitRoofCoatingPosts,
   ...commercialGCPosts,
   ...nicheProjectPosts,
+  ...detroitMarketPosts,
+  ...costGuidePosts,
+  ...medicalConstructionPosts,
+  ...commercialNewPosts,
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
