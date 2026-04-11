@@ -34,20 +34,6 @@ export const metadata: Metadata = {
   },
   description:
     'Charlotte NC and Detroit MI commercial construction company specializing in commercial upfits, design-build, drone inspections, brewery construction, and roof coatings. Veteran & family-owned with 60+ years combined experience. USGBC member. Licensed in NC, SC & MI.',
-  keywords: [
-    'commercial construction Charlotte NC',
-    'commercial upfits Charlotte',
-    'design build contractor Charlotte NC',
-    'commercial general contractor Charlotte',
-    'roof coating Charlotte NC',
-    'drone roof inspection Charlotte NC',
-    'brewery construction Charlotte NC',
-    'commercial renovation Charlotte',
-    'USGBC member contractor',
-    'veteran owned construction company Charlotte',
-    'construction company Detroit MI',
-    'adaptive reuse Charlotte NC',
-  ],
   authors: [{ name: 'We Build' }],
   creator: 'We Build',
   openGraph: {

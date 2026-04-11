@@ -56,7 +56,7 @@ export function FeaturedProjects() {
                   <span className="text-primary text-sm font-medium">
                     {project.category}
                   </span>
-                  <h3 className="text-white text-xl font-semibold">
+                  <h3 className="text-[var(--on-image)] text-xl font-semibold">
                     {project.title}
                   </h3>
                 </div>

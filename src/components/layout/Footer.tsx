@@ -35,7 +35,7 @@ export function Footer() {
               height={60}
               className="h-12 w-auto brightness-0 invert"
             />
-            <p className="text-sm text-secondary-foreground/80 leading-relaxed">
+            <p className="text-sm text-secondary-foreground/85 leading-relaxed">
               Charlotte&rsquo;s trusted commercial construction company. Over 60
               years of combined experience in commercial upfits, design-build,
               and roof coatings. Veteran &amp; family-owned. USGBC member.
@@ -47,7 +47,7 @@ export function Footer() {
                   href={item.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-secondary-foreground/60 hover:text-primary transition-colors"
+                  className="text-secondary-foreground/75 hover:text-primary transition-colors"
                   aria-label={`Follow We Build on ${item.name}`}
                 >
                   <item.icon className="h-6 w-6" />
@@ -64,7 +64,7 @@ export function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
+                    className="text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -81,7 +81,7 @@ export function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
+                    className="text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -98,7 +98,7 @@ export function Footer() {
                 <li key={item.name}>
                   <Link
                     href={item.href}
-                    className="text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
+                    className="text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -111,7 +111,7 @@ export function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
+                    className="text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                   >
                     {item.name}
                   </Link>
@@ -129,7 +129,7 @@ export function Footer() {
                   href="https://maps.google.com/?q=14330+S+Lakes+Drive,+Charlotte+NC+28273"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start gap-3 text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
+                  className="flex items-start gap-3 text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                 >
                   <MapPin className="h-5 w-5 flex-shrink-0 mt-0.5" aria-hidden="true" />
                   <span>14330 S Lakes Drive, Charlotte NC 28273</span>
@@ -138,7 +138,7 @@ export function Footer() {
               <li>
                 <a
                   href="tel:+17045748124"
-                  className="flex items-center gap-3 text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
+                  className="flex items-center gap-3 text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                 >
                   <Phone className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
                   (704) 574-8124
@@ -147,7 +147,7 @@ export function Footer() {
               <li>
                 <a
                   href="mailto:designcenter@webuildclt.com"
-                  className="flex items-center gap-3 text-sm text-secondary-foreground/80 hover:text-primary transition-colors"
+                  className="flex items-center gap-3 text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                 >
                   <Mail className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
                   designcenter@webuildclt.com
@@ -158,14 +158,14 @@ export function Footer() {
         </div>
 
         {/* Certifications */}
-        <div className="mt-12 pt-8 border-t border-secondary-foreground/10">
+        <div className="mt-12 pt-8 border-t border-secondary-foreground/15">
           <div className="flex flex-wrap items-center justify-center gap-8">
             <Image
               src="/images/certifications/usgbc-member-dark.png"
               alt="USGBC Member"
               width={80}
               height={80}
-              className="h-16 w-auto opacity-90 hover:opacity-100 transition-opacity"
+              className="h-16 w-auto"
             />
             <div className="flex flex-col items-center gap-1.5">
               <Image
@@ -173,16 +173,16 @@ export function Footer() {
                 alt="NC Licensing Board for General Contractors"
                 width={64}
                 height={64}
-                className="h-14 w-14 object-contain invert opacity-90 hover:opacity-100 transition-opacity"
+                className="h-14 w-14 object-contain invert"
               />
-              <span className="text-[10px] text-secondary-foreground/50 uppercase tracking-wider">NC Licensed</span>
+              <span className="text-xs text-secondary-foreground/75 uppercase tracking-wider">NC Licensed</span>
             </div>
           </div>
         </div>
 
         {/* Copyright */}
-        <div className="mt-12 pt-8 border-t border-secondary-foreground/10 text-center">
-          <p className="text-sm text-secondary-foreground/60">
+        <div className="mt-12 pt-8 border-t border-secondary-foreground/15 text-center">
+          <p className="text-sm text-secondary-foreground/75">
             &copy; {new Date().getFullYear()} We Build. All rights reserved.
           </p>
         </div>

@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { Menu, Phone, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -27,13 +28,34 @@ const navigation = [
   { name: 'Contact', href: '/contact' },
 ];
 
+/**
+ * Routes with a dark full-bleed hero that warrants a transparent header.
+ * Every other route gets a solid (scrolled) header by default so nav links
+ * are always readable against page content.
+ */
+const TRANSPARENT_HERO_ROUTES = new Set<string>(['/']);
+
 export function Header() {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname();
+  const allowTransparent = TRANSPARENT_HERO_ROUTES.has(pathname ?? '/');
+
+  const [isScrolled, setIsScrolled] = useState(!allowTransparent);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
+  const menuRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLAnchorElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
 
+  // Re-sync scrolled state when route changes
   useEffect(() => {
+    if (!allowTransparent) {
+      setIsScrolled(true);
+      return;
+    }
+    setIsScrolled(window.scrollY > 50);
+  }, [allowTransparent, pathname]);
+
+  useEffect(() => {
+    if (!allowTransparent) return; // solid routes don't need scroll tracking
     let ticking = false;
     const handleScroll = () => {
       if (!ticking) {
@@ -46,7 +68,7 @@ export function Header() {
     };
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [allowTransparent]);
 
   // Clean up pending dropdown timeout on unmount
   useEffect(() => {
@@ -67,6 +89,7 @@ export function Header() {
   function handleDropdownKeyDown(e: React.KeyboardEvent) {
     if (e.key === 'Escape') {
       setDropdownOpen(false);
+      triggerRef.current?.focus();
       return;
     }
     if (e.key === 'Enter' || e.key === ' ') {
@@ -76,7 +99,7 @@ export function Header() {
     }
     if (!dropdownOpen) return;
 
-    const menu = dropdownRef.current;
+    const menu = menuRef.current;
     if (!menu) return;
     const links = Array.from(menu.querySelectorAll<HTMLAnchorElement>('a[href]'));
     const current = document.activeElement as HTMLElement;
@@ -102,9 +125,9 @@ export function Header() {
   return (
     <header
       className={cn(
-        'fixed left-0 right-0 z-50 transition-[background-color,padding,box-shadow,top] duration-300',
+        'fixed left-0 right-0 z-50 transition-[background-color,padding,box-shadow] duration-300',
         isScrolled
-          ? 'bg-white/95 dark:bg-[oklch(0.12_0.015_240/0.95)] backdrop-blur-md shadow-md py-2'
+          ? 'bg-white/95 dark:bg-[var(--header-scrolled-bg)] backdrop-blur-md shadow-md py-2'
           : 'bg-transparent py-4'
       )}
       style={{ top: 'var(--banner-height, 0px)' }}
@@ -129,17 +152,17 @@ export function Header() {
               item.hasDropdown ? (
                 <div
                   key={item.name}
-                  ref={dropdownRef}
                   className="relative"
                   onMouseEnter={openDropdown}
                   onMouseLeave={closeDropdown}
                   onKeyDown={handleDropdownKeyDown}
                 >
                   <Link
+                    ref={triggerRef}
                     href={item.href}
                     className={cn(
                       'text-sm font-medium transition-colors hover:text-primary inline-flex items-center gap-1',
-                      isScrolled ? 'text-foreground' : 'text-white'
+                      isScrolled ? 'text-foreground' : 'text-[var(--on-image)]'
                     )}
                     aria-expanded={dropdownOpen}
                     aria-haspopup="menu"
@@ -149,6 +172,7 @@ export function Header() {
                   </Link>
 
                   <div
+                    ref={menuRef}
                     role="menu"
                     aria-label="Services menu"
                     aria-hidden={!dropdownOpen}
@@ -158,7 +182,7 @@ export function Header() {
                         ? 'opacity-100 translate-y-0 pointer-events-auto visible'
                         : 'opacity-0 -translate-y-2 pointer-events-none invisible delay-0'
                     )}
-                    style={{ width: 'max(620px, 40vw)', maxWidth: '720px' }}
+                    style={{ width: 'var(--dropdown-width)' }}
                   >
                     <div className="grid grid-cols-3 gap-4">
                       {/* Commercial — first column */}
@@ -171,7 +195,7 @@ export function Header() {
                             key={link.href}
                             href={link.href}
                             role="menuitem"
-                            className="block px-2 py-1.5 text-sm text-foreground hover:bg-muted hover:text-primary rounded transition-colors"
+                            className="block px-2 py-2 text-sm text-foreground hover:bg-muted hover:text-primary rounded transition-colors"
                           >
                             {link.name}
                           </Link>
@@ -188,7 +212,7 @@ export function Header() {
                             key={link.href}
                             href={link.href}
                             role="menuitem"
-                            className="block px-2 py-1.5 text-sm text-foreground hover:bg-muted hover:text-primary rounded transition-colors"
+                            className="block px-2 py-2 text-sm text-foreground hover:bg-muted hover:text-primary rounded transition-colors"
                           >
                             {link.name}
                           </Link>
@@ -205,7 +229,7 @@ export function Header() {
                             key={link.href}
                             href={link.href}
                             role="menuitem"
-                            className="block px-2 py-1.5 text-sm text-foreground hover:bg-muted hover:text-primary rounded transition-colors"
+                            className="block px-2 py-2 text-sm text-foreground hover:bg-muted hover:text-primary rounded transition-colors"
                           >
                             {link.name}
                           </Link>
@@ -220,7 +244,7 @@ export function Header() {
                   href={item.href}
                   className={cn(
                     'text-sm font-medium transition-colors hover:text-primary',
-                    isScrolled ? 'text-foreground' : 'text-white'
+                    isScrolled ? 'text-foreground' : 'text-[var(--on-image)]'
                   )}
                 >
                   {item.name}
@@ -235,7 +259,7 @@ export function Header() {
               href="tel:+17045748124"
               className={cn(
                 'flex items-center gap-2 text-sm font-medium transition-colors',
-                isScrolled ? 'text-foreground' : 'text-white'
+                isScrolled ? 'text-foreground' : 'text-[var(--on-image)]'
               )}
             >
               <Phone className="h-4 w-4" aria-hidden="true" />
@@ -254,7 +278,7 @@ export function Header() {
                 variant="ghost"
                 size="icon"
                 className={cn(
-                  isScrolled ? 'text-foreground' : 'text-white'
+                  isScrolled ? 'text-foreground' : 'text-[var(--on-image)]'
                 )}
               >
                 <Menu className="h-6 w-6" />
@@ -274,7 +298,7 @@ export function Header() {
                   <SheetClose asChild>
                     <Link
                       href="/"
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
                     >
                       Home
                     </Link>
@@ -282,7 +306,7 @@ export function Header() {
                   <SheetClose asChild>
                     <Link
                       href="/about"
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
                     >
                       About
                     </Link>
@@ -297,7 +321,7 @@ export function Header() {
                       <SheetClose asChild key={link.href}>
                         <Link
                           href={link.href}
-                          className="block text-base text-foreground hover:text-primary transition-colors py-1.5 pl-3"
+                          className="block text-base text-foreground hover:text-primary transition-colors py-3 pl-3 min-h-11"
                         >
                           {link.name}
                         </Link>
@@ -314,7 +338,7 @@ export function Header() {
                       <SheetClose asChild key={link.href}>
                         <Link
                           href={link.href}
-                          className="block text-base text-foreground hover:text-primary transition-colors py-1.5 pl-3"
+                          className="block text-base text-foreground hover:text-primary transition-colors py-3 pl-3 min-h-11"
                         >
                           {link.name}
                         </Link>
@@ -325,7 +349,7 @@ export function Header() {
                   <SheetClose asChild>
                     <Link
                       href="/portfolio"
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
                     >
                       Portfolio
                     </Link>
@@ -333,7 +357,7 @@ export function Header() {
                   <SheetClose asChild>
                     <Link
                       href="/design-center"
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
                     >
                       Design Center
                     </Link>
@@ -341,7 +365,7 @@ export function Header() {
                   <SheetClose asChild>
                     <Link
                       href="/we-coat"
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
                     >
                       We Coat
                     </Link>
@@ -349,7 +373,7 @@ export function Header() {
                   <SheetClose asChild>
                     <Link
                       href="/guides"
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
                     >
                       Guides
                     </Link>
@@ -357,7 +381,7 @@ export function Header() {
                   <SheetClose asChild>
                     <Link
                       href="/blog"
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
                     >
                       Blog
                     </Link>
@@ -365,7 +389,7 @@ export function Header() {
                   <SheetClose asChild>
                     <Link
                       href="/contact"
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-2"
+                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
                     >
                       Contact
                     </Link>
@@ -380,7 +404,7 @@ export function Header() {
                       <SheetClose asChild key={link.href}>
                         <Link
                           href={link.href}
-                          className="block text-base text-foreground hover:text-primary transition-colors py-1.5 pl-3"
+                          className="block text-base text-foreground hover:text-primary transition-colors py-3 pl-3 min-h-11"
                         >
                           {link.name}
                         </Link>
