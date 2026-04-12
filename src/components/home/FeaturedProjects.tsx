@@ -10,9 +10,7 @@ export function FeaturedProjects() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
           <div>
-            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
-              Featured Projects
-            </span>
+            <span className="section-label">Featured Projects</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2">
               Recent Construction Projects in Charlotte
             </h2>

@@ -8,7 +8,7 @@ export function StatsBar() {
           {stats.map((stat) => (
             <div key={stat.label}>
               <div className="text-3xl md:text-4xl font-bold">{stat.value}</div>
-              <div className="text-sm text-primary-foreground/80 mt-1">{stat.label}</div>
+              <div className="text-sm text-primary-foreground/85 mt-1">{stat.label}</div>
             </div>
           ))}
         </div>

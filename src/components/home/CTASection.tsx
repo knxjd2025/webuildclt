@@ -12,24 +12,9 @@ export function CTASection() {
         <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
           Contact Charlotte&apos;s trusted veteran-owned construction company
           today for a free consultation and detailed estimate. Whether you
-          need{' '}
-          <span className="text-primary-foreground font-medium">
-            commercial construction
-          </span>
-          , a{' '}
-          <span className="text-primary-foreground font-medium">
-            design-build project
-          </span>
-          ,{' '}
-          <span className="text-primary-foreground font-medium">
-            roof coating
-          </span>
-          , or{' '}
-          <span className="text-primary-foreground font-medium">
-            commercial renovation
-          </span>
-          , We Build delivers quality results on time and on budget. Licensed
-          in NC, SC, and MI. USGBC member. Sixty plus years combined experience.
+          need commercial construction, a design-build project, roof coating,
+          or commercial renovation, We Build delivers quality results on time
+          and on budget. Licensed in NC, SC, and MI. USGBC member.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button size="lg" variant="secondary" asChild>
@@ -38,7 +23,7 @@ export function CTASection() {
           <Button
             size="lg"
             variant="outline"
-            className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
+            className="border-primary-foreground/70 text-primary-foreground bg-primary-foreground/10 hover:bg-primary-foreground hover:text-primary"
             asChild
           >
             <a href="tel:+17045748124">

@@ -9,7 +9,7 @@ export function TestimonialSection() {
     <section className="py-20 bg-secondary text-secondary-foreground content-lazy">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="text-primary font-semibold uppercase tracking-wider text-sm">Client Testimonials</span>
+          <span className="section-label">Client Testimonials</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-8">What Our Charlotte Clients Say</h2>
 
           {/* Star rating */}
@@ -31,7 +31,7 @@ export function TestimonialSection() {
             </div>
             <div className="text-left">
               <div className="font-semibold">Pure Physique</div>
-              <div className="text-sm text-secondary-foreground/70">
+              <div className="text-sm text-secondary-foreground/80">
                 Commercial Upfit — Fort Mill, SC
               </div>
             </div>

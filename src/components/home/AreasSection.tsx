@@ -9,9 +9,7 @@ export function AreasSection() {
     <section className="py-20 bg-background content-lazy">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="text-primary font-semibold uppercase tracking-wider text-sm">
-            Service Areas
-          </span>
+          <span className="section-label">Service Areas</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
             Areas We Serve Across the Charlotte Metro
           </h2>

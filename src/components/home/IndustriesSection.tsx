@@ -8,7 +8,7 @@ export function IndustriesSection() {
     <section className="py-20 bg-muted content-lazy">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="text-primary font-semibold uppercase tracking-wider text-sm">Industries</span>
+          <span className="section-label">Industries</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Industries We Serve in Charlotte</h2>
           <p className="text-muted-foreground">Deep experience across commercial industries — each with unique construction requirements.</p>
         </div>

@@ -5,7 +5,7 @@ export function WhyChooseUs() {
     <section className="py-20 bg-background content-lazy">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-primary font-semibold uppercase tracking-wider text-sm">Why We Build</span>
+          <span className="section-label">Why We Build</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Why Charlotte Chooses We Build</h2>
           <p className="text-muted-foreground">Choosing the right construction company is one of the most important decisions you will make for your project. Here is what sets We Build apart.</p>
         </div>

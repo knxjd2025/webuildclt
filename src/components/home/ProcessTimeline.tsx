@@ -5,7 +5,7 @@ export function ProcessTimeline() {
     <section className="py-20 bg-muted content-lazy">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="text-primary font-semibold uppercase tracking-wider text-sm">How We Work</span>
+          <span className="section-label">How We Work</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">Our Construction Process — From First Call to Final Walkthrough</h2>
           <p className="text-muted-foreground">Our proven six-step process ensures your project is delivered on time, on budget, and exactly to your specifications.</p>
         </div>

@@ -7,9 +7,7 @@ export function FAQSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <span className="text-primary font-semibold uppercase tracking-wider text-sm">
-              Frequently Asked Questions
-            </span>
+            <span className="section-label">Frequently Asked Questions</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
               Charlotte Construction Questions — Answered
             </h2>
