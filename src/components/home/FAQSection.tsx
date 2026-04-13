@@ -3,7 +3,7 @@ import { homeFaqs } from '@/data/homepage';
 
 export function FAQSection() {
   return (
-    <section className="py-20 bg-muted content-lazy">
+    <section className="py-24 md:py-32 bg-muted content-lazy">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">

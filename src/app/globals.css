@@ -351,18 +351,21 @@
     line-height: 1.15;
   }
   h1 {
-    font-size: clamp(2rem, 5vw + 1rem, 3.75rem);
-    font-weight: 800;
-    letter-spacing: -0.03em;
+    font-size: clamp(2.5rem, 6vw + 1rem, 5rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1.05;
   }
   h2 {
-    font-size: clamp(1.5rem, 3vw + 0.75rem, 2.5rem);
-    font-weight: 700;
-    letter-spacing: -0.02em;
+    font-size: clamp(1.75rem, 4vw + 0.75rem, 3.25rem);
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
   }
   h3 {
-    font-size: clamp(1.125rem, 2vw + 0.5rem, 1.5rem);
+    font-size: clamp(1.25rem, 2vw + 0.5rem, 1.75rem);
     font-weight: 700;
+    line-height: 1.15;
   }
   p { text-wrap: pretty; }
 
@@ -412,7 +415,7 @@ html {
   );
 }
 
-/* Bold section divider — angled or with brand accent */
+/* Bold section divider — thick industrial accent bar */
 .section-divider {
   position: relative;
 }
@@ -422,10 +425,10 @@ html {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 48px;
-  height: 3px;
+  width: 64px;
+  height: 5px;
   background: var(--primary);
-  border-radius: 2px;
+  border-radius: 0;
 }
 
 /* Warm gradient mesh for commercial sections */
@@ -479,14 +482,49 @@ html {
   letter-spacing: -0.03em;
 }
 
-/* Strong section label */
+/* Strong section label — industrial: thick left bar + bold caps */
 .section-label {
   font-family: var(--font-heading), system-ui, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   font-size: 0.8125rem;
   color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.section-label::before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 1.1em;
+  background: var(--primary);
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+/* Industrial card — left accent bar, bold hover */
+.card-industrial {
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius) var(--radius) var(--radius) 0;
+  transition: box-shadow 400ms var(--ease-out-expo), transform 400ms var(--ease-out-expo);
+}
+.card-industrial:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+.dark .card-industrial {
+  border-left-color: oklch(0.72 0.2 48);
+}
+
+/* Section accent — thick horizontal rule in primary */
+.section-accent {
+  width: 64px;
+  height: 5px;
+  background: var(--primary);
+  border: none;
+  margin: 0;
 }
 
 /* Portfolio grid — responsive with mobile-safe minimums */

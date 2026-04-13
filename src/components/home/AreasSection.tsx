@@ -6,7 +6,7 @@ import { areasServedDetailed } from '@/data/homepage';
 
 export function AreasSection() {
   return (
-    <section className="py-20 bg-background content-lazy">
+    <section className="py-24 md:py-32 bg-background content-lazy">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="section-label">Service Areas</span>
@@ -23,8 +23,8 @@ export function AreasSection() {
 
         <div className="grid md:grid-cols-2 gap-8">
           {areasServedDetailed.map((area) => (
-            <Card key={area.name} className="reveal">
-              <CardContent className="p-6">
+            <Card key={area.name} className="card-industrial reveal">
+              <CardContent className="p-6 md:p-8">
                 <div className="flex items-center gap-3 mb-3">
                   <MapPin className="h-5 w-5 text-primary flex-shrink-0" aria-hidden="true" />
                   <h3 className="text-lg font-semibold">{area.name}</h3>

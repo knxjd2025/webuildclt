@@ -5,7 +5,7 @@ import { services } from '@/data/homepage';
 
 export function ServicesGrid() {
   return (
-    <section className="py-20 gradient-warm content-lazy">
+    <section className="py-24 md:py-32 gradient-warm content-lazy">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="section-label">Construction Services</span>
@@ -44,16 +44,16 @@ export function ServicesGrid() {
           {services.map((service) => (
             <Card
               key={service.title}
-              className="group hover:shadow-lg transition-shadow reveal"
+              className="group card-industrial reveal"
             >
-              <CardContent className="p-6">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary transition-colors">
-                  <service.icon className="h-6 w-6 text-primary group-hover:text-primary-foreground transition-colors" />
+              <CardContent className="p-6 md:p-8">
+                <div className="w-14 h-14 bg-primary/10 rounded-none flex items-center justify-center mb-5 group-hover:bg-primary transition-colors duration-300">
+                  <service.icon className="h-7 w-7 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">
+                <h3 className="text-xl font-bold mb-3">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
+                <p className="text-muted-foreground mb-5 text-sm leading-relaxed">
                   {service.description}
                 </p>
                 <Link

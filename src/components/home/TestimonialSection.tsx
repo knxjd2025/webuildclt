@@ -6,7 +6,7 @@ import { Star } from 'lucide-react';
 
 export function TestimonialSection() {
   return (
-    <section className="py-20 bg-secondary text-secondary-foreground content-lazy">
+    <section className="py-24 md:py-32 bg-secondary text-secondary-foreground content-lazy">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <span className="section-label">Client Testimonials</span>
@@ -19,8 +19,8 @@ export function TestimonialSection() {
             ))}
           </div>
 
-          <blockquote className="text-xl md:text-2xl leading-relaxed mb-8 italic relative">
-            <span className="absolute -top-6 -left-2 text-6xl text-primary/30 font-serif" aria-hidden="true">&ldquo;</span>
+          <blockquote className="text-xl md:text-2xl lg:text-3xl leading-relaxed mb-10 italic relative">
+            <span className="absolute -top-8 -left-4 text-7xl md:text-8xl text-primary/20 font-serif" aria-hidden="true">&ldquo;</span>
             We Build transformed our vision into reality. Their attention to detail and commitment to quality exceeded our expectations. The team was professional, communicative, and delivered on time and within budget. We highly recommend We Build for any commercial construction project in the Charlotte area.
             <span className="text-6xl text-primary/30 font-serif leading-none" aria-hidden="true">&rdquo;</span>
           </blockquote>

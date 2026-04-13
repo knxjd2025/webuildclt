@@ -2,7 +2,7 @@ import { whyChooseUs } from '@/data/homepage';
 
 export function WhyChooseUs() {
   return (
-    <section className="py-20 bg-background content-lazy">
+    <section className="py-24 md:py-32 bg-background content-lazy">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="section-label">Why We Build</span>
@@ -16,7 +16,7 @@ export function WhyChooseUs() {
               key={item.title}
               className={`flex flex-col md:flex-row items-start gap-6 md:gap-10 reveal ${i % 2 === 1 ? 'md:flex-row-reverse' : ''}`}
             >
-              <div className="flex-shrink-0 w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center">
+              <div className="flex-shrink-0 w-16 h-16 bg-primary/10 rounded-none flex items-center justify-center">
                 <item.icon className="h-8 w-8 text-primary" aria-hidden="true" />
               </div>
               <div className="flex-1">

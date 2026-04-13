@@ -78,7 +78,7 @@ export default function HomePage() {
 
         <div className="container mx-auto px-4 relative z-10 pt-24">
           <div className="max-w-3xl">
-            <h1 className="font-bold text-[var(--on-image)] mb-6 leading-tight text-4xl md:text-5xl lg:text-6xl tracking-tight">
+            <h1 className="font-black text-[var(--on-image)] mb-8 text-5xl md:text-6xl lg:text-7xl tracking-tighter leading-[1.02]">
               Commercial Construction{' '}
               <span className="text-primary">Charlotte, NC</span>
             </h1>

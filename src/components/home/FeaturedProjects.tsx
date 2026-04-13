@@ -6,7 +6,7 @@ import { featuredProjects } from '@/data/homepage';
 
 export function FeaturedProjects() {
   return (
-    <section className="py-20 bg-muted content-lazy">
+    <section className="py-24 md:py-32 bg-muted content-lazy">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
           <div>

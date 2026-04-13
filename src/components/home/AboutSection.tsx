@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react';
 
 export function AboutSection() {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-24 md:py-32 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
@@ -18,9 +18,9 @@ export function AboutSection() {
                 className="object-cover"
               />
             </div>
-            <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-primary text-primary-foreground p-4 md:p-6 rounded-lg shadow-xl">
-              <div className="text-4xl font-bold">60+</div>
-              <div className="text-sm">Years Combined Experience</div>
+            <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-primary text-primary-foreground p-5 md:p-7 rounded-none shadow-xl">
+              <div className="stat-value text-5xl md:text-6xl">60+</div>
+              <div className="text-sm font-medium uppercase tracking-wider mt-1">Years Combined Experience</div>
             </div>
           </div>
 

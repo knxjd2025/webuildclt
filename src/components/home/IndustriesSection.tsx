@@ -5,7 +5,7 @@ import { industriesServed } from '@/data/homepage';
 
 export function IndustriesSection() {
   return (
-    <section className="py-20 bg-muted content-lazy">
+    <section className="py-24 md:py-32 bg-muted content-lazy">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="section-label">Industries</span>

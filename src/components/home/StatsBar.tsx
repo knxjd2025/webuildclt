@@ -2,13 +2,13 @@ import { stats } from '@/data/homepage';
 
 export function StatsBar() {
   return (
-    <section className="py-8 bg-primary text-primary-foreground">
+    <section className="py-10 md:py-14 bg-secondary text-secondary-foreground">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 text-center">
           {stats.map((stat) => (
-            <div key={stat.label}>
-              <div className="text-3xl md:text-4xl font-bold">{stat.value}</div>
-              <div className="text-sm text-primary-foreground/85 mt-1">{stat.label}</div>
+            <div key={stat.label} className="relative">
+              <div className="stat-value text-4xl md:text-5xl lg:text-6xl text-primary">{stat.value}</div>
+              <div className="text-sm text-secondary-foreground/85 mt-2 uppercase tracking-wider font-medium">{stat.label}</div>
             </div>
           ))}
         </div>

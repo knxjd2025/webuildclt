@@ -4,7 +4,7 @@ import { Phone } from 'lucide-react';
 
 export function CTASection() {
   return (
-    <section className="py-20 bg-primary text-primary-foreground">
+    <section className="py-24 md:py-32 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Ready to Start Your Construction Project in Charlotte?
