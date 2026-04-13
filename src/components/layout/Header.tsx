@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { usePathname } from 'next/navigation';
+
 import { Menu, Phone, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -28,47 +28,11 @@ const navigation = [
   { name: 'Contact', href: '/contact' },
 ];
 
-/**
- * Routes with a dark full-bleed hero that warrants a transparent header.
- * Every other route gets a solid (scrolled) header by default so nav links
- * are always readable against page content.
- */
-const TRANSPARENT_HERO_ROUTES = new Set<string>(['/']);
-
 export function Header() {
-  const pathname = usePathname();
-  const allowTransparent = TRANSPARENT_HERO_ROUTES.has(pathname ?? '/');
-
-  const [isScrolled, setIsScrolled] = useState(!allowTransparent);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const triggerRef = useRef<HTMLAnchorElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout>>(undefined);
-
-  // Re-sync scrolled state when route changes
-  useEffect(() => {
-    if (!allowTransparent) {
-      setIsScrolled(true);
-      return;
-    }
-    setIsScrolled(window.scrollY > 50);
-  }, [allowTransparent, pathname]);
-
-  useEffect(() => {
-    if (!allowTransparent) return; // solid routes don't need scroll tracking
-    let ticking = false;
-    const handleScroll = () => {
-      if (!ticking) {
-        requestAnimationFrame(() => {
-          setIsScrolled(window.scrollY > 50);
-          ticking = false;
-        });
-        ticking = true;
-      }
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [allowTransparent]);
 
   // Clean up pending dropdown timeout on unmount
   useEffect(() => {
@@ -124,12 +88,7 @@ export function Header() {
 
   return (
     <header
-      className={cn(
-        'fixed left-0 right-0 z-50 transition-[background-color,padding,box-shadow] duration-300',
-        isScrolled
-          ? 'bg-white/95 dark:bg-[var(--header-scrolled-bg)] backdrop-blur-md shadow-md py-2'
-          : 'bg-transparent py-4'
-      )}
+      className="fixed left-0 right-0 z-50 bg-white/95 dark:bg-[var(--header-scrolled-bg)] backdrop-blur-md shadow-md py-2"
       style={{ top: 'var(--banner-height, 0px)' }}
     >
       <div className="container mx-auto px-4">
@@ -162,7 +121,7 @@ export function Header() {
                     href={item.href}
                     className={cn(
                       'text-sm font-medium transition-colors hover:text-primary inline-flex items-center gap-1',
-                      isScrolled ? 'text-foreground' : 'text-[var(--on-image)]'
+                      'text-foreground'
                     )}
                     aria-expanded={dropdownOpen}
                     aria-haspopup="menu"
@@ -244,7 +203,7 @@ export function Header() {
                   href={item.href}
                   className={cn(
                     'text-sm font-medium transition-colors hover:text-primary',
-                    isScrolled ? 'text-foreground' : 'text-[var(--on-image)]'
+                    'text-foreground'
                   )}
                 >
                   {item.name}
@@ -259,7 +218,7 @@ export function Header() {
               href="tel:+17045748124"
               className={cn(
                 'flex items-center gap-2 text-sm font-medium transition-colors',
-                isScrolled ? 'text-foreground' : 'text-[var(--on-image)]'
+                'text-foreground'
               )}
             >
               <Phone className="h-4 w-4" aria-hidden="true" />
@@ -278,7 +237,7 @@ export function Header() {
                 variant="ghost"
                 size="icon"
                 className={cn(
-                  isScrolled ? 'text-foreground' : 'text-[var(--on-image)]'
+                  'text-foreground'
                 )}
               >
                 <Menu className="h-6 w-6" />
