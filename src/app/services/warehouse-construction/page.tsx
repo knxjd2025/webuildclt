@@ -37,7 +37,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Warehouse Construction Charlotte NC | Distribution Center & Industrial Building Contractor',
   description:
-    'Expert warehouse construction contractor in Charlotte, NC and Detroit Metro. Industrial construction for distribution centers, cold storage, flex space, manufacturing facilities, and warehouse renovations. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Expert warehouse construction contractor in Charlotte, NC and the Carolinas. Industrial construction for distribution centers, cold storage, flex space, manufacturing facilities, and warehouse renovations. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
   keywords: [
     'warehouse construction Charlotte NC',
     'warehouse construction near me',
@@ -53,7 +53,6 @@ export const metadata: Metadata = {
     'logistics facility Charlotte NC',
     'warehouse renovation Charlotte',
     'industrial warehouse contractor',
-    'distribution warehouse Detroit MI',
     'warehouse builder Charlotte NC',
     'warehouse contractor near me',
     'commercial warehouse construction',
@@ -64,7 +63,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Warehouse & Industrial Construction Charlotte NC | We Build',
     description:
-      'Build your warehouse, distribution center, or industrial facility with Charlotte\'s veteran-owned construction team. Licensed in NC & SC. Serving Charlotte and Detroit Metro.',
+      'Build your warehouse, distribution center, or industrial facility with Charlotte\'s veteran-owned construction team. Licensed in NC & SC. Serving Charlotte and the Carolinas.',
     url: 'https://webuildclt.com/services/warehouse-construction',
     type: 'website',
   },
@@ -226,8 +225,8 @@ const whyChooseUs = [
   },
   {
     icon: Scale,
-    title: 'Dual Market: Charlotte & Detroit',
-    desc: 'We Build serves both the Charlotte, NC metro and the Detroit, MI metro area, giving us insight into two of the most active industrial construction markets in the country. Whether you are building a distribution center on the I-85 corridor or a manufacturing facility in the Detroit Metro, we bring local market knowledge and construction expertise.',
+    title: 'Charlotte & Carolinas Coverage',
+    desc: 'We Build serves the Charlotte, NC metro and the greater Carolinas region, giving us deep insight into one of the most active industrial construction markets in the Southeast. Whether you are building a distribution center on the I-85 corridor or a manufacturing facility along I-77, we bring local market knowledge and construction expertise.',
   },
   {
     icon: BadgeCheck,
@@ -293,9 +292,9 @@ const faqs = [
       'Warehouse floor slabs in Charlotte typically cost $6 to $12 per square foot depending on thickness, reinforcement, and finish requirements. Standard warehouse operations with conventional forklifts need a 6-inch slab with fiber or wire mesh reinforcement. Heavy-duty distribution centers with high-capacity racking and reach trucks require 7 to 8-inch slabs with rebar reinforcement. Cold storage facilities need insulated slabs with vapor barriers and in some cases heated sub-slab systems to prevent frost heave. Floor flatness specifications such as FF50/FL30 for standard use or FF100/FL50 for very narrow aisle racking directly affect installation cost and must be specified correctly before concrete is placed.',
   },
   {
-    question: 'How does building a warehouse in Charlotte compare to the Detroit Metro area?',
+    question: 'What should I know about building a warehouse in the Charlotte metro area?',
     answer:
-      'We Build serves both the Charlotte metro and the Detroit Metro area, and construction costs are broadly comparable between the two markets. Charlotte offers advantages in year-round construction weather, which shortens project timelines, and strong interstate access via I-85 and I-77. Detroit provides proximity to the automotive supply chain, Great Lakes shipping, and the Canadian border. The primary differences are in local permitting timelines, soil conditions, and building code requirements. Charlotte sites frequently encounter clay soils requiring engineered fill, while Detroit-area sites may have different geotechnical challenges. Our dual-market experience allows us to advise clients on the construction considerations specific to each region.',
+      'Charlotte offers significant advantages for warehouse construction, including year-round construction weather that shortens project timelines and strong interstate access via I-85 and I-77. The Charlotte industrial market spans from Concord to Gastonia along I-85 and up to Mooresville along I-77, with the Airport-West submarket near Charlotte Douglas International providing excellent logistics connectivity. Charlotte sites frequently encounter clay soils requiring engineered fill, which we account for during the site evaluation and budgeting process. Our deep familiarity with local permitting timelines, soil conditions, and building code requirements across Mecklenburg, Union, Iredell, Cabarrus, and York counties ensures your project moves efficiently from design through occupancy.',
   },
   {
     question: 'What is the difference between a distribution center and a fulfillment center, and how does it affect construction?',
@@ -311,7 +310,7 @@ export default function WarehouseConstructionPage() {
         data={[
           serviceSchema(
             'Warehouse & Industrial Construction Charlotte NC',
-            'Expert warehouse construction contractor in Charlotte, NC and Detroit Metro. Distribution centers, cold storage, flex space, manufacturing facilities, and warehouse renovations. Veteran-owned, licensed in NC & SC.',
+            'Expert warehouse construction contractor in Charlotte, NC and the Carolinas. Distribution centers, cold storage, flex space, manufacturing facilities, and warehouse renovations. Veteran-owned, licensed in NC & SC.',
             'https://webuildclt.com/services/warehouse-construction'
           ),
           faqSchema(faqs),
@@ -366,7 +365,7 @@ export default function WarehouseConstructionPage() {
               <p className="text-muted-foreground leading-relaxed">
                 We Build is a veteran and family-owned{' '}
                 <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> serving
-                both the Charlotte, NC metro and the Detroit, MI metro area. With over 60 years of combined
+                the Charlotte, NC metro and the greater Carolinas region. With over 60 years of combined
                 construction experience, we specialize in warehouse construction, distribution center builds,
                 cold storage facilities, flex space development, manufacturing facility construction, and
                 warehouse renovation and expansion. Our{' '}
@@ -658,7 +657,7 @@ export default function WarehouseConstructionPage() {
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-4 max-w-2xl mx-auto">
             Whether you are planning a distribution center, cold storage facility, flex space,
-            manufacturing plant, or warehouse expansion in Charlotte or the Detroit Metro area,
+            manufacturing plant, or warehouse expansion in the Charlotte metro area,
             We Build has the industrial construction expertise, structural engineering capability,
             and fire protection knowledge to deliver your project on schedule and ready for operations.
           </p>
@@ -667,7 +666,7 @@ export default function WarehouseConstructionPage() {
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
-            and the Detroit Metro area.
+            and the greater Carolinas region.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>

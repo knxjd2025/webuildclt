@@ -112,12 +112,12 @@ export const heroFeatures = [
   '60+ years combined experience',
   'Veteran & family owned',
   'USGBC member',
-  'Licensed in NC, SC & MI',
+  'Licensed in NC & SC',
 ];
 
 export const stats: StatItem[] = [
   { value: '60+', label: 'Years Combined Experience' },
-  { value: '3', label: 'State Licenses (NC, SC & MI)' },
+  { value: '2', label: 'State Licenses (NC & SC)' },
   { value: '2019', label: 'Founded in Charlotte' },
   { value: '25', label: 'Service Specialties' },
 ];
@@ -170,9 +170,9 @@ export const processSteps: ProcessStep[] = [
 export const whyChooseUs: WhyChooseItem[] = [
   {
     icon: Shield,
-    title: 'Licensed & Insured in NC, SC & MI',
+    title: 'Licensed & Insured in NC & SC',
     description:
-      'We hold active general contractor licenses in North Carolina, South Carolina, and Michigan, backed by comprehensive general liability, workers\' compensation, and commercial auto insurance. Your project is fully protected from permit application through final inspection. Multi-state licensing means we can serve clients across the Charlotte metro area, the South Carolina border communities, and the Detroit metropolitan area without jurisdictional delays.',
+      'We hold active general contractor licenses in North Carolina and South Carolina, backed by comprehensive general liability, workers\' compensation, and commercial auto insurance. Your project is fully protected from permit application through final inspection. Multi-state licensing means we can serve clients across the Charlotte metro area and the South Carolina border communities without jurisdictional delays.',
   },
   {
     icon: Users,
@@ -312,35 +312,23 @@ export const areasServedDetailed: AreaItem[] = [
     description:
       'Licensed in South Carolina, We Build serves Rock Hill, Tega Cay, and York County with commercial construction and tenant improvements. Rock Hill\'s Knowledge Park tech hub and Dave Lyle Boulevard corridor are driving significant commercial development and construction demand.',
   },
-  {
-    name: 'Detroit Metro, MI',
-    href: '/areas/detroit',
-    description:
-      'We Build is bringing our commercial construction expertise to the Detroit metropolitan area. From commercial upfits and tenant improvements in Dearborn to industrial construction in Warren and restaurant build-outs in Royal Oak, we serve businesses across Metro Detroit with the same quality and accountability that defines our Charlotte operations.',
-  },
-  {
-    name: 'Dearborn, MI',
-    href: '/areas/dearborn',
-    description:
-      'Construction services in Dearborn, Dearborn Heights, and western Wayne County. From the Ford Road commercial corridor to Michigan Avenue, We Build delivers commercial upfits, office renovations, and tenant improvements for businesses in this key Metro Detroit market.',
-  },
 ];
 
 export const homeFaqs: FAQItem[] = [
   {
     question: 'What types of construction projects does We Build handle?',
     answer:
-      'We Build provides full-service general contracting for commercial construction (offices, retail, restaurants, breweries, medical facilities, warehouses), commercial renovation and tenant improvements, commercial roof coating and restoration through our We Coat division, FAA-certified thermal drone roof inspections, site development, value engineering, adaptive reuse, and integrated design-build services. We handle projects of all sizes across the Charlotte metro area, South Carolina, and the Detroit metropolitan area. Our team manages every phase from pre-construction planning through final walkthrough and warranty support.',
+      'We Build provides full-service general contracting for commercial construction (offices, retail, restaurants, breweries, medical facilities, warehouses), commercial renovation and tenant improvements, commercial roof coating and restoration through our We Coat division, FAA-certified thermal drone roof inspections, site development, value engineering, adaptive reuse, and integrated design-build services. We handle projects of all sizes across the Charlotte metro area and South Carolina. Our team manages every phase from pre-construction planning through final walkthrough and warranty support.',
   },
   {
     question: 'What areas in the Charlotte region do you serve?',
     answer:
-      'We serve the entire Charlotte metropolitan area including South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, Fort Mill SC, and Rock Hill SC. We are also expanding into the Detroit metropolitan area including Dearborn, Troy, Southfield, Royal Oak, and Warren. Our headquarters is at 14330 S Lakes Drive, Charlotte NC 28273. We hold active general contractor licenses in North Carolina, South Carolina, and Michigan.',
+      'We serve the entire Charlotte metropolitan area including South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, Fort Mill SC, and Rock Hill SC. Our headquarters is at 14330 S Lakes Drive, Charlotte NC 28273. We hold active general contractor licenses in North Carolina and South Carolina.',
   },
   {
     question: 'Are you a licensed and insured general contractor?',
     answer:
-      'Yes. We Build holds active general contractor licenses in North Carolina, South Carolina, and Michigan. We carry comprehensive insurance including general liability, workers\' compensation, and commercial auto coverage. Our FAA Part 107 certification also authorizes our commercial drone pilot to conduct aerial inspections legally in any state. We are happy to provide copies of our licenses and certificates of insurance to any prospective client or property manager upon request.',
+      'Yes. We Build holds active general contractor licenses in North Carolina and South Carolina. We carry comprehensive insurance including general liability, workers\' compensation, and commercial auto coverage. Our FAA Part 107 certification also authorizes our commercial drone pilot to conduct aerial inspections legally in any state. We are happy to provide copies of our licenses and certificates of insurance to any prospective client or property manager upon request.',
   },
   {
     question: 'How much does commercial construction cost in Charlotte?',
@@ -360,7 +348,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'What makes We Build different from other Charlotte contractors?',
     answer:
-      'Several things set We Build apart from other general contractors in Charlotte. We are veteran and family-owned, which means the owners are personally involved in every project. We maintain a dedicated Design Center where clients explore materials hands-on. We offer integrated design-build services that deliver projects faster and with fewer surprises. We are a USGBC member committed to sustainable building practices. Our FAA-certified drone pilot provides thermal roof inspections that detect problems invisible to the naked eye. We provide transparent, line-item pricing with no hidden costs. And we hold licenses in North Carolina, South Carolina, and Michigan, giving us coverage from Charlotte to the Detroit metro area.',
+      'Several things set We Build apart from other general contractors in Charlotte. We are veteran and family-owned, which means the owners are personally involved in every project. We maintain a dedicated Design Center where clients explore materials hands-on. We offer integrated design-build services that deliver projects faster and with fewer surprises. We are a USGBC member committed to sustainable building practices. Our FAA-certified drone pilot provides thermal roof inspections that detect problems invisible to the naked eye. We provide transparent, line-item pricing with no hidden costs. And we hold licenses in North Carolina and South Carolina, giving us coverage across the Charlotte metro area and beyond.',
   },
   {
     question: 'How long does a typical construction project take?',
@@ -386,11 +374,6 @@ export const homeFaqs: FAQItem[] = [
     question: 'How does We Build use drone inspections for construction and roofing projects?',
     answer:
       'We Build operates FAA-certified commercial drones equipped with thermal imaging cameras to inspect roofs and construction sites without scaffolding, ladders, or business disruption. Thermal drone inspections detect hidden moisture intrusion, insulation failures, and structural issues that visual inspections miss entirely. The data is compiled into detailed reports with annotated imagery so building owners can make informed decisions about repairs or coating. This technology saves time, reduces inspection costs, and delivers more accurate assessments than traditional methods — a capability most Charlotte contractors do not offer.',
-  },
-  {
-    question: 'Does We Build offer construction services in the Detroit area?',
-    answer:
-      'Yes. We Build has expanded into the Detroit metropolitan area with an active general contractor license in Michigan. We serve businesses in Dearborn, Southfield, Troy, Royal Oak, Warren, and surrounding Wayne and Oakland County communities. Our Detroit operations offer the same commercial construction, upfit, and renovation services that define our Charlotte work — backed by the same veteran-owned accountability and transparent pricing. Clients in Metro Detroit benefit from our sixty-plus years of combined experience and a dedicated project manager for every job.',
   },
 ];
 

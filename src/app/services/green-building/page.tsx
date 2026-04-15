@@ -61,7 +61,6 @@ export const metadata: Metadata = {
     'eco friendly construction Charlotte',
     'net zero building Charlotte NC',
     'green building Charlotte North Carolina',
-    'green building contractor Detroit MI',
     'sustainable construction Charlotte NC',
     'energy efficient commercial construction Charlotte',
   ],

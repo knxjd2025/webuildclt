@@ -34,14 +34,14 @@ export const revalidate = false;
 
 export const metadata: Metadata = {
   title:
-    'Certifications & Licenses | We Build — Veteran-Owned, USGBC Member, Licensed in NC SC MI',
+    'Certifications & Licenses | We Build — Veteran-Owned, USGBC Member, Licensed in NC & SC',
   description:
-    'We Build is a veteran-owned, fully licensed, and insured general contractor in Charlotte, NC. USGBC member, FAA Part 107 certified drone pilot, licensed in North Carolina, South Carolina, and Michigan. General liability, workers comp, and commercial auto insurance. Free estimates — (704) 574-8124.',
+    'We Build is a veteran-owned, fully licensed, and insured general contractor in Charlotte, NC. USGBC member, FAA Part 107 certified drone pilot, licensed in North Carolina and South Carolina. General liability, workers comp, and commercial auto insurance. Free estimates — (704) 574-8124.',
   keywords: [
     'veteran owned construction company Charlotte NC',
     'USGBC member contractor Charlotte',
     'licensed general contractor North Carolina',
-    'licensed contractor South Carolina Michigan',
+    'licensed contractor South Carolina',
     'FAA certified drone pilot Charlotte',
     'insured construction company Charlotte NC',
     'certified green building contractor',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Certifications & Licenses | We Build — Veteran-Owned, USGBC Member',
     description:
-      'Fully licensed, insured, and certified general contractor in Charlotte, NC. USGBC member, FAA Part 107 drone pilot, licensed in NC, SC, and MI. Veteran and family-owned. (704) 574-8124.',
+      'Fully licensed, insured, and certified general contractor in Charlotte, NC. USGBC member, FAA Part 107 drone pilot, licensed in NC & SC. Veteran and family-owned. (704) 574-8124.',
     url: 'https://webuildclt.com/about/certifications',
     type: 'website',
   },
@@ -74,13 +74,6 @@ const licenses = [
     authority: 'SC Contractors\' Licensing Board',
     description:
       'We Build is licensed by the South Carolina Contractors\' Licensing Board to perform general contracting work throughout the state. This license enables us to serve clients in Fort Mill, Rock Hill, Indian Land, Tega Cay, and other communities in York County and beyond. South Carolina requires general contractors to demonstrate financial responsibility, carry appropriate insurance, and pass examinations covering SC construction law and business practices. Our dual NC and SC licensing allows us to serve the entire Charlotte metro area without jurisdictional limitations, which is critical for clients with projects on both sides of the state line.',
-  },
-  {
-    icon: Building2,
-    title: 'Michigan Builder License',
-    authority: 'Michigan LARA (Licensing and Regulatory Affairs)',
-    description:
-      'We Build holds a builder license issued by the Michigan Department of Licensing and Regulatory Affairs (LARA). This license authorizes construction work throughout the state of Michigan, with a focus on the Detroit metropolitan area including Dearborn, Livonia, Troy, and surrounding communities. Michigan builder licensing requires demonstrated competency in construction methods, building codes, and business practices specific to Michigan. Our Michigan license enables We Build to serve clients in the Detroit metro area with the same level of professionalism and accountability that we deliver in the Carolinas.',
   },
 ];
 
@@ -116,19 +109,19 @@ const insurancePolicies = [
     icon: Shield,
     title: 'General Liability Insurance',
     description:
-      'We Build carries comprehensive general liability insurance that protects property owners, tenants, and the public against claims arising from construction operations. Our GL policy covers bodily injury, property damage, completed operations, and personal and advertising injury. General liability insurance is your first line of financial protection if an accident occurs on your property during construction. Without it, property owners can be held personally liable for injuries and damages. We Build maintains GL coverage limits that meet or exceed the requirements of commercial property owners, property management companies, and government agencies throughout Charlotte and the Detroit metro area.',
+      'We Build carries comprehensive general liability insurance that protects property owners, tenants, and the public against claims arising from construction operations. Our GL policy covers bodily injury, property damage, completed operations, and personal and advertising injury. General liability insurance is your first line of financial protection if an accident occurs on your property during construction. Without it, property owners can be held personally liable for injuries and damages. We Build maintains GL coverage limits that meet or exceed the requirements of commercial property owners, property management companies, and government agencies throughout Charlotte and the surrounding region.',
   },
   {
     icon: Users,
     title: 'Workers\' Compensation Insurance',
     description:
-      'We Build carries workers\' compensation insurance covering every employee on every jobsite. Workers\' comp provides medical benefits and wage replacement to employees who are injured on the job, and it protects property owners from liability for workplace injuries that occur during construction on their property. North Carolina, South Carolina, and Michigan all require contractors to carry workers\' compensation insurance, and We Build maintains active policies in every state where we are licensed. Hiring an uninsured contractor exposes property owners to significant financial risk if a worker is injured on your project.',
+      'We Build carries workers\' compensation insurance covering every employee on every jobsite. Workers\' comp provides medical benefits and wage replacement to employees who are injured on the job, and it protects property owners from liability for workplace injuries that occur during construction on their property. Both North Carolina and South Carolina require contractors to carry workers\' compensation insurance, and We Build maintains active policies in every state where we are licensed. Hiring an uninsured contractor exposes property owners to significant financial risk if a worker is injured on your project.',
   },
   {
     icon: Car,
     title: 'Commercial Auto Insurance',
     description:
-      'We Build maintains commercial auto insurance on all company vehicles used to transport personnel, equipment, and materials to and from project sites. Commercial auto coverage protects against liability claims arising from vehicle accidents involving company trucks, vans, and equipment trailers. This coverage is separate from personal auto insurance and is specifically designed for vehicles used in business operations. Our commercial auto policy covers all vehicles operating in North Carolina, South Carolina, and Michigan.',
+      'We Build maintains commercial auto insurance on all company vehicles used to transport personnel, equipment, and materials to and from project sites. Commercial auto coverage protects against liability claims arising from vehicle accidents involving company trucks, vans, and equipment trailers. This coverage is separate from personal auto insurance and is specifically designed for vehicles used in business operations. Our commercial auto policy covers all vehicles operating in North Carolina and South Carolina.',
   },
   {
     icon: Scale,
@@ -142,7 +135,7 @@ const faqs = [
   {
     question: 'Is We Build a licensed general contractor?',
     answer:
-      'Yes. We Build is a licensed general contractor in three states: North Carolina, South Carolina, and Michigan. Our North Carolina license is issued by the NC Licensing Board for General Contractors, our South Carolina license is issued by the SC Contractors\' Licensing Board, and our Michigan license is issued by Michigan LARA (Licensing and Regulatory Affairs). These licenses authorize We Build to perform commercial and residential construction work throughout all three states. We maintain all licenses in active, good standing.',
+      'Yes. We Build is a licensed general contractor in two states: North Carolina and South Carolina. Our North Carolina license is issued by the NC Licensing Board for General Contractors and our South Carolina license is issued by the SC Contractors\' Licensing Board. These licenses authorize We Build to perform commercial and residential construction work throughout both states. We maintain all licenses in active, good standing.',
   },
   {
     question: 'Is We Build insured?',
@@ -170,11 +163,6 @@ const faqs = [
       'Absolutely. We Build provides copies of all current certificates of insurance and contractor licenses to clients upon request, and we are happy to have our insurance carrier add your organization as an additional insured on our general liability policy if your project requires it. We strongly encourage every property owner to verify their contractor\'s insurance and licensing before any construction work begins. Contact us at (704) 574-8124 or through our contact page to request documentation.',
   },
   {
-    question: 'Are you licensed to work in Michigan?',
-    answer:
-      'Yes. We Build holds a builder license issued by the Michigan Department of Licensing and Regulatory Affairs (LARA). This license authorizes us to perform construction work throughout the state of Michigan, with a focus on the Detroit metropolitan area including Dearborn, Livonia, Troy, and surrounding communities. We bring the same quality standards, project management discipline, and client communication that our Charlotte-area clients expect to every project in Michigan.',
-  },
-  {
     question: 'What safety certifications does We Build hold?',
     answer:
       'We Build maintains strict OSHA safety compliance across all jobsites. Our supervisory personnel hold OSHA 30-Hour Construction Safety certifications, and all field employees complete OSHA 10-Hour training. Our safety program includes daily toolbox talks, weekly safety inspections, fall protection plans, hazard communication training, PPE requirements, and incident investigation protocols. Safety is a non-negotiable aspect of every We Build project — a reflection of the military discipline that drives our company culture.',
@@ -182,12 +170,12 @@ const faqs = [
   {
     question: 'How many years of experience does We Build have?',
     answer:
-      'We Build was founded in 2019 and our team brings over 60 years of combined construction experience spanning commercial construction, commercial upfits, design-build, roof coatings, general contracting, and project management. Our experience covers projects across North Carolina, South Carolina, and Michigan in sectors including commercial offices, retail, restaurants, medical facilities, warehouses, and industrial buildings.',
+      'We Build was founded in 2019 and our team brings over 60 years of combined construction experience spanning commercial construction, commercial upfits, design-build, roof coatings, general contracting, and project management. Our experience covers projects across North Carolina and South Carolina in sectors including commercial offices, retail, restaurants, medical facilities, warehouses, and industrial buildings.',
   },
   {
     question: 'What areas does We Build serve?',
     answer:
-      'We Build serves the Charlotte, NC metropolitan area including South Charlotte, Lake Norman, Huntersville, Matthews, Mooresville, Fort Mill SC, Rock Hill SC, and surrounding communities in North Carolina and South Carolina. We also serve the Detroit, Michigan metropolitan area including Dearborn, Livonia, Troy, and surrounding communities. Contact us at (704) 574-8124 to discuss your project regardless of location — if it is within our licensed service areas, we can help.',
+      'We Build serves the Charlotte, NC metropolitan area including South Charlotte, Lake Norman, Huntersville, Matthews, Mooresville, Fort Mill SC, Rock Hill SC, and surrounding communities in North Carolina and South Carolina. Contact us at (704) 574-8124 to discuss your project — if it is within our licensed service areas, we can help.',
   },
 ];
 
@@ -217,8 +205,8 @@ export default function CertificationsPage() {
           <div className="max-w-4xl mx-auto">
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
               We Build is a fully licensed, insured, and certified general contractor serving
-              Charlotte, NC and the Detroit metro area. We hold active general contractor licenses in
-              North Carolina, South Carolina, and Michigan. We are a{' '}
+              Charlotte, NC and the surrounding region. We hold active general contractor licenses in
+              North Carolina and South Carolina. We are a{' '}
               <Link href="/services/green-building" className="text-primary hover:underline">
                 U.S. Green Building Council (USGBC) member
               </Link>
@@ -264,15 +252,15 @@ export default function CertificationsPage() {
               State Licenses
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
-              Licensed General Contractor in Three States
+              Licensed General Contractor in Two States
             </h2>
             <p className="text-muted-foreground">
-              We Build holds active general contractor licenses in North Carolina, South Carolina, and
-              Michigan — enabling us to serve clients across the Charlotte metro area, the Upstate SC
-              region, and the Detroit metropolitan area with full legal authority and accountability.
+              We Build holds active general contractor licenses in North Carolina and South Carolina
+              — enabling us to serve clients across the Charlotte metro area and the Upstate SC
+              region with full legal authority and accountability.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {licenses.map((license) => (
               <Card key={license.title}>
                 <CardContent className="p-8">
@@ -596,7 +584,7 @@ export default function CertificationsPage() {
             Work with a Contractor You Can Verify
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-4 max-w-2xl mx-auto">
-            We Build is licensed in North Carolina, South Carolina, and Michigan. We are a USGBC
+            We Build is licensed in North Carolina and South Carolina. We are a USGBC
             member, FAA Part 107 certified, fully insured, and bondable. Every credential is
             verifiable, and copies of all documentation are available upon request.
           </p>
@@ -612,10 +600,6 @@ export default function CertificationsPage() {
             ,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">
               Lake Norman
-            </Link>
-            ,{' '}
-            <Link href="/areas/detroit" className="underline hover:text-primary-foreground">
-              Detroit
             </Link>
             , and surrounding communities.
           </p>

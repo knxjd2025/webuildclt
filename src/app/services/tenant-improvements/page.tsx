@@ -55,7 +55,6 @@ export const metadata: Metadata = {
     'tenant improvement Charlotte North Carolina',
     'tenant improvement fort mill sc',
     'tenant improvement lake norman nc',
-    'tenant improvement detroit mi',
     'commercial tenant improvement near me',
   ],
   alternates: {

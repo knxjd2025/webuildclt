@@ -63,7 +63,6 @@ export const metadata: Metadata = {
     'restaurant construction Charlotte North Carolina',
     'restaurant construction fort mill sc',
     'restaurant construction lake norman nc',
-    'restaurant construction detroit mi',
     'restaurant buildout contractor near me',
   ],
   alternates: {

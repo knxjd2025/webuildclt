@@ -39,7 +39,6 @@ SERVICE AREA:
 - Lake Norman: Huntersville, Cornelius, Davidson, Mooresville
 - East Charlotte: Matthews, Mint Hill, Indian Trail, Stallings
 - South Carolina: Fort Mill, Rock Hill, Tega Cay, Indian Land (York County)
-- Detroit Metro, MI: Detroit, Dearborn, Troy, Southfield, Royal Oak, Warren, Sterling Heights, Ann Arbor
 
 BRAND VOICE:
 - Professional but approachable
@@ -64,12 +63,10 @@ INTERNAL LINK PATHS (use these exact paths when linking):
 - /services/value-engineering — value engineering and cost optimization
 - /services/owners-representative — owner's representative services
 - /areas/south-charlotte — South Charlotte area
-- /areas/detroit — Detroit Metro area
 - /areas/huntersville — Huntersville NC
 - /areas/matthews — Matthews NC
 - /areas/mooresville — Mooresville NC
 - /areas/rock-hill-sc — Rock Hill SC
-- /areas/dearborn — Dearborn MI
 - /contact — contact We Build
 - /portfolio — our project portfolio
 - /design-center — our design center
@@ -89,4 +86,4 @@ CRITICAL RULES:
 /**
  * Short version for prompts with limited context windows
  */
-export const BUSINESS_SUMMARY = `We Build is a veteran and family-owned construction company in Charlotte, NC and Detroit Metro, MI (HQ: 14330 S Lakes Drive, Charlotte 28273). Services: commercial construction, upfits, design-build, roof coating (We Coat), thermal drone inspections (FAA-certified), brewery/restaurant construction, warehouse/industrial, site development, adaptive reuse, value engineering, owner's representative, custom homes. USGBC member. Licensed in NC, SC & MI. 60+ years combined experience. Phone: (704) 574-8124. Website: webuildclt.com.`;
+export const BUSINESS_SUMMARY = `We Build is a veteran and family-owned construction company in Charlotte, NC (HQ: 14330 S Lakes Drive, Charlotte 28273). Services: commercial construction, upfits, design-build, roof coating (We Coat), thermal drone inspections (FAA-certified), brewery/restaurant construction, warehouse/industrial, site development, adaptive reuse, value engineering, owner's representative, custom homes. USGBC member. Licensed in NC & SC. 60+ years combined experience. Phone: (704) 574-8124. Website: webuildclt.com.`;

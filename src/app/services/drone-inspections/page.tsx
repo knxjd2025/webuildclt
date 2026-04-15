@@ -36,7 +36,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Drone Roof Inspection Charlotte NC | Thermal Imaging & Commercial Drone Inspection Services',
   description:
-    'FAA-certified commercial drone roof inspection in Charlotte NC and Detroit Metro. Thermal imaging detects hidden leaks, moisture, and insulation failures without roof access. Veteran-owned, USGBC member. Same-day emergency inspections available. (704) 574-8124.',
+    'FAA-certified commercial drone roof inspection in Charlotte NC and the Carolinas. Thermal imaging detects hidden leaks, moisture, and insulation failures without roof access. Veteran-owned, USGBC member. Same-day emergency inspections available. (704) 574-8124.',
   keywords: [
     'drone roof inspection Charlotte NC',
     'drone roof inspection near me',
@@ -48,11 +48,8 @@ export const metadata: Metadata = {
     'FAA certified drone pilot Charlotte',
     'aerial roof inspection near me',
     'drone roof survey commercial',
-    'thermal imaging roof inspection Detroit',
-    'commercial drone inspection Michigan',
     'drone inspection Charlotte NC',
     'drone inspection contractor',
-    'drone inspection Detroit MI',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/drone-inspections',
@@ -60,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Drone Roof Inspection Charlotte NC | Thermal Imaging & Commercial Drone Inspection Services',
     description:
-      'FAA-certified commercial drone pilots offering thermal imaging roof inspections in Charlotte NC and Detroit Metro. Detect hidden leaks, moisture intrusion, and insulation failures without scaffolding or roof access. Veteran-owned.',
+      'FAA-certified commercial drone pilots offering thermal imaging roof inspections in Charlotte NC and the Carolinas. Detect hidden leaks, moisture intrusion, and insulation failures without scaffolding or roof access. Veteran-owned.',
     url: 'https://webuildclt.com/services/drone-inspections',
     type: 'website',
   },
@@ -91,7 +88,7 @@ const serviceTypes = [
     slug: 'construction-progress-monitoring',
     desc: 'Aerial documentation of construction sites providing owners, architects, and stakeholders with visual progress tracking from a perspective impossible at ground level.',
     details:
-      'Construction progress monitoring uses scheduled drone flights to create a visual timeline of your project from groundbreaking through completion. Each visit produces high-resolution aerial photographs and video from multiple angles and altitudes, capturing site conditions, material staging, structural progress, equipment placement, and workforce activity. These images become invaluable documentation for owner progress reports, lender draw requests, schedule verification, and dispute resolution. We can create orthomosaic maps that stitch together hundreds of individual images into a single, georeferenced overhead view of the entire site, accurate to within inches. For large commercial projects, we provide volumetric analysis of earthwork, stockpile measurements, and grading verification using photogrammetry software. Weekly or biweekly monitoring visits give project stakeholders a clear, objective view of construction progress that supplements on-the-ground reporting. Many of our clients in Charlotte and Detroit use these reports to keep remote investors, corporate ownership groups, and insurance carriers informed without requiring site visits.',
+      'Construction progress monitoring uses scheduled drone flights to create a visual timeline of your project from groundbreaking through completion. Each visit produces high-resolution aerial photographs and video from multiple angles and altitudes, capturing site conditions, material staging, structural progress, equipment placement, and workforce activity. These images become invaluable documentation for owner progress reports, lender draw requests, schedule verification, and dispute resolution. We can create orthomosaic maps that stitch together hundreds of individual images into a single, georeferenced overhead view of the entire site, accurate to within inches. For large commercial projects, we provide volumetric analysis of earthwork, stockpile measurements, and grading verification using photogrammetry software. Weekly or biweekly monitoring visits give project stakeholders a clear, objective view of construction progress that supplements on-the-ground reporting. Many of our clients in the Charlotte area use these reports to keep remote investors, corporate ownership groups, and insurance carriers informed without requiring site visits.',
     cost: '$400-$800 per visit',
   },
   {
@@ -100,7 +97,7 @@ const serviceTypes = [
     slug: 'storm-damage-assessment',
     desc: 'Post-storm aerial inspection for insurance documentation, capturing hail damage, wind uplift, debris impact, and water intrusion evidence from above.',
     details:
-      'After severe weather events including hailstorms, hurricanes, tornadoes, and high-wind events, drone inspection provides fast, safe, and comprehensive damage documentation for insurance claims. Our pilots can be on-site within 24 hours of a storm event in the Charlotte or Detroit metro areas, capturing high-resolution imagery of roof damage before temporary repairs alter the evidence. We document hail impact patterns across the entire roof surface, wind uplift damage to membrane edges and flashing, debris strikes, punctures, torn or missing roofing materials, and damaged rooftop equipment. Thermal imaging during storm damage assessment reveals moisture intrusion that may not be visible in standard photographs, proving that water has penetrated the roof system even when surface damage appears minor. The deliverable includes a detailed damage report formatted specifically for insurance adjusters, with annotated photographs, measurements, damage location maps, and material identification. Insurance companies increasingly accept and prefer drone inspection documentation because it provides objective, comprehensive coverage of the entire roof rather than the limited sampling area a human inspector can safely access. Same-day emergency inspections are available for critical situations.',
+      'After severe weather events including hailstorms, hurricanes, tornadoes, and high-wind events, drone inspection provides fast, safe, and comprehensive damage documentation for insurance claims. Our pilots can be on-site within 24 hours of a storm event in the Charlotte metro area, capturing high-resolution imagery of roof damage before temporary repairs alter the evidence. We document hail impact patterns across the entire roof surface, wind uplift damage to membrane edges and flashing, debris strikes, punctures, torn or missing roofing materials, and damaged rooftop equipment. Thermal imaging during storm damage assessment reveals moisture intrusion that may not be visible in standard photographs, proving that water has penetrated the roof system even when surface damage appears minor. The deliverable includes a detailed damage report formatted specifically for insurance adjusters, with annotated photographs, measurements, damage location maps, and material identification. Insurance companies increasingly accept and prefer drone inspection documentation because it provides objective, comprehensive coverage of the entire roof rather than the limited sampling area a human inspector can safely access. Same-day emergency inspections are available for critical situations.',
     cost: '$500-$1,200',
   },
   {
@@ -160,7 +157,7 @@ const whyChooseUs = [
   {
     icon: Plane,
     title: 'FAA Part 107 Certified Pilots',
-    desc: 'Every drone inspection is conducted by FAA Part 107 certified commercial drone pilots who maintain current certifications, carry aviation liability insurance, and follow strict safety protocols. Our pilots have logged hundreds of commercial flight hours across both Charlotte and Detroit metro areas, giving them the experience to handle complex airspace, challenging weather conditions, and multi-building industrial sites safely and efficiently.',
+    desc: 'Every drone inspection is conducted by FAA Part 107 certified commercial drone pilots who maintain current certifications, carry aviation liability insurance, and follow strict safety protocols. Our pilots have logged hundreds of commercial flight hours across the Charlotte metro area, giving them the experience to handle complex airspace, challenging weather conditions, and multi-building industrial sites safely and efficiently.',
   },
   {
     icon: Shield,
@@ -185,12 +182,12 @@ const whyChooseUs = [
   {
     icon: Zap,
     title: 'Same-Day Emergency Inspections',
-    desc: 'When a major storm hits Charlotte or Detroit, you cannot wait weeks for an inspection. We offer same-day and next-day emergency drone inspections for storm damage assessment, providing rapid documentation before temporary repairs alter the evidence. Fast turnaround protects your insurance claim and gets the repair process started immediately.',
+    desc: 'When a major storm hits Charlotte, you cannot wait weeks for an inspection. We offer same-day and next-day emergency drone inspections for storm damage assessment, providing rapid documentation before temporary repairs alter the evidence. Fast turnaround protects your insurance claim and gets the repair process started immediately.',
   },
   {
     icon: MapPin,
-    title: 'Charlotte & Detroit Metro Coverage',
-    desc: 'We provide drone inspection services across two major metro areas: Charlotte NC, including South Charlotte, Lake Norman, Fort Mill, and the surrounding region, plus the Detroit Michigan metro area. Dual-market coverage means we understand the roofing systems, weather patterns, and building codes specific to both the Southeast and the Midwest.',
+    title: 'Charlotte & Carolinas Coverage',
+    desc: 'We provide drone inspection services across the Charlotte NC metro area, including South Charlotte, Lake Norman, Fort Mill, and the surrounding Carolinas region. Our local expertise means we understand the roofing systems, weather patterns, and building codes specific to the Southeast.',
   },
   {
     icon: DollarSign,
@@ -284,11 +281,6 @@ const faqs = [
       'Our drone pilots hold FAA Part 107 Remote Pilot Certificates, the federal certification required for all commercial drone operations in the United States. This certification requires passing an FAA knowledge exam covering airspace regulations, weather, flight operations, and safety procedures, with recurrent testing every 24 months. Beyond the FAA certification, our pilots carry aviation liability insurance, maintain proficiency through regular flight hours, and have specific training in thermal imaging interpretation and roof inspection methodology. As a veteran-owned company, our team brings military-grade discipline and attention to detail to every flight operation.',
   },
   {
-    question: 'Do you provide drone inspections in Detroit Michigan?',
-    answer:
-      'Yes, we provide full drone inspection services across the Detroit Michigan metro area including Detroit, Dearborn, Warren, Sterling Heights, Troy, Southfield, Livonia, Ann Arbor, and surrounding communities. Our Detroit operations offer the same thermal imaging, visual inspection, storm damage assessment, and construction monitoring services available in Charlotte. Michigan commercial and industrial buildings face unique challenges from freeze-thaw cycles, heavy snow loads, and ice damming that make regular drone inspection especially valuable for detecting moisture intrusion and insulation failures before they cause structural damage.',
-  },
-  {
     question: 'Can a drone inspection replace a physical roof inspection?',
     answer:
       'For most purposes, a drone inspection provides equal or better data than a traditional physical roof inspection. Drones capture the entire roof surface with consistent detail, while a human inspector can only walk a sampling path and may miss deficiencies in areas they do not visit. Thermal imaging detects subsurface moisture that no physical inspection method can identify without destructive core sampling. However, there are specific situations where a physical inspection complements drone data: evaluating membrane adhesion by pulling on seams, taking core samples to measure remaining roof life, and inspecting the underside of the roof deck from inside the building. For warranty claims, some roofing manufacturers still require a physical inspection by a certified inspector. We recommend drone inspection as your primary assessment tool, supplemented by targeted physical inspection of specific areas identified in the drone data when needed.',
@@ -317,7 +309,7 @@ export default function DroneInspectionsPage() {
         data={[
           serviceSchema(
             'Drone Roof Inspection & Thermal Imaging Charlotte NC',
-            'FAA-certified commercial drone roof inspection services in Charlotte NC and Detroit Metro. Thermal imaging detects hidden leaks, moisture intrusion, and insulation failures without roof access. Storm damage assessment, construction monitoring, and building envelope inspection. Veteran-owned, USGBC member.',
+            'FAA-certified commercial drone roof inspection services in Charlotte NC and the Carolinas. Thermal imaging detects hidden leaks, moisture intrusion, and insulation failures without roof access. Storm damage assessment, construction monitoring, and building envelope inspection. Veteran-owned, USGBC member.',
             'https://webuildclt.com/services/drone-inspections'
           ),
           faqSchema(faqs),
@@ -331,7 +323,7 @@ export default function DroneInspectionsPage() {
 
       <PageHero
         title="Drone Roof Inspection & Thermal Imaging Services"
-        subtitle="FAA-certified commercial drone pilots serving Charlotte NC and Detroit Metro"
+        subtitle="FAA-certified commercial drone pilots serving Charlotte NC and the Carolinas"
         backgroundImage="/images/hero-bg.jpg"
       />
 
@@ -357,7 +349,7 @@ export default function DroneInspectionsPage() {
                 comprehensive than traditional manual roof inspection.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Commercial and industrial buildings in Charlotte NC and the Detroit Metro area face constant
+                Commercial and industrial buildings in Charlotte NC and the Carolinas face constant
                 threats from severe weather, UV degradation, thermal cycling, and age-related deterioration.
                 Traditional roof inspections require scaffolding, boom lifts, or rope access teams that cost
                 thousands of dollars, take days to set up, and still only cover a fraction of the roof surface.
@@ -378,7 +370,7 @@ export default function DroneInspectionsPage() {
                 <Link href="https://www.usgbc.org" className="text-primary hover:underline">USGBC member</Link>,
                 we use inspection data to help building owners reduce energy waste, extend roof life, and
                 support sustainable building operations. We serve Charlotte, South Charlotte, Lake Norman,
-                Fort Mill, and the greater Detroit Michigan metro area.
+                Fort Mill, and the greater Carolinas region.
               </p>
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
@@ -538,7 +530,7 @@ export default function DroneInspectionsPage() {
               </h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
                 Drone inspection costs depend on roof size, inspection type, sensor requirements, and
-                report complexity. Below are typical price ranges for our Charlotte and Detroit metro
+                report complexity. Below are typical price ranges for our Charlotte metro
                 service areas. Every project receives a fixed-price quote before we fly.
               </p>
             </div>
@@ -665,7 +657,7 @@ export default function DroneInspectionsPage() {
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
-            and the Detroit Michigan metro area.
+            and the greater Carolinas region.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>

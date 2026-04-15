@@ -60,7 +60,6 @@ export const metadata: Metadata = {
     'schedule management Charlotte NC',
     'construction management firm Charlotte',
     'construction management Charlotte North Carolina',
-    'construction management Detroit MI',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/construction-management',

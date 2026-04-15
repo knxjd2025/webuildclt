@@ -53,7 +53,6 @@ export const metadata: Metadata = {
     'owner rep services Charlotte NC',
     'construction advocacy Charlotte',
     'owners representative Charlotte North Carolina',
-    'owners representative Detroit MI',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/owners-representative',
@@ -266,7 +265,7 @@ const faqs = [
   {
     question: "What areas do you serve for owner's representative services?",
     answer:
-      "We provide owner's representative services throughout the greater Charlotte metropolitan area, including Uptown Charlotte, South End, NoDa, University City, Ballantyne, South Charlotte, and all Mecklenburg County communities. We also serve the Lake Norman corridor including Cornelius, Davidson, Huntersville, and Mooresville, as well as Fort Mill, Rock Hill, Indian Land, and the broader York County area in South Carolina. Our general contractor licenses in both North Carolina and South Carolina enable us to provide informed oversight regardless of which side of the state line your project is located. We are also expanding into the Detroit Metro area in Michigan.",
+      "We provide owner's representative services throughout the greater Charlotte metropolitan area, including Uptown Charlotte, South End, NoDa, University City, Ballantyne, South Charlotte, and all Mecklenburg County communities. We also serve the Lake Norman corridor including Cornelius, Davidson, Huntersville, and Mooresville, as well as Fort Mill, Rock Hill, Indian Land, and the broader York County area in South Carolina. Our general contractor licenses in both North Carolina and South Carolina enable us to provide informed oversight regardless of which side of the state line your project is located. ",
   },
   {
     question: "How do I get started with owner's representative services?",

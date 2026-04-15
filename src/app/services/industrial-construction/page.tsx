@@ -67,7 +67,6 @@ export const metadata: Metadata = {
     'industrial construction Charlotte North Carolina',
     'industrial construction fort mill sc',
     'industrial construction lake norman nc',
-    'industrial construction detroit mi',
     'warehouse contractor near me',
   ],
   alternates: {

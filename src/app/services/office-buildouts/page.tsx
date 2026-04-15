@@ -57,7 +57,6 @@ export const metadata: Metadata = {
     'office buildout Charlotte North Carolina',
     'office buildout fort mill sc',
     'office buildout lake norman nc',
-    'office buildout detroit mi',
     'commercial office construction near me',
   ],
   alternates: {

@@ -61,7 +61,6 @@ export const metadata: Metadata = {
     'medical construction Charlotte North Carolina',
     'medical construction fort mill sc',
     'medical construction lake norman nc',
-    'medical construction detroit mi',
     'medical office contractor near me',
   ],
   alternates: {

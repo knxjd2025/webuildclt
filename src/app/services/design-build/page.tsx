@@ -54,7 +54,6 @@ export const metadata: Metadata = {
     'design build cost charlotte',
     'design build contractor near me',
     'design build Charlotte North Carolina',
-    'design build contractor Detroit MI',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/design-build',

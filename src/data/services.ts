@@ -53,9 +53,6 @@ export const areaLinks = [
   // South Carolina
   { name: 'Fort Mill, SC', href: '/areas/fort-mill-sc', description: 'Licensed in South Carolina — serving Fort Mill, Tega Cay, and Indian Land.' },
   { name: 'Rock Hill, SC', href: '/areas/rock-hill-sc', description: 'Commercial construction in Rock Hill and York County.' },
-  // Michigan (expansion market)
-  { name: 'Detroit Metro', href: '/areas/detroit', description: 'Commercial construction services in the Detroit metropolitan area.' },
-  { name: 'Dearborn, MI', href: '/areas/dearborn', description: 'Construction services in Dearborn, Dearborn Heights, and Wayne County.' },
 ];
 
 /** Map service_type slugs (from Supabase projects) to service page hrefs */

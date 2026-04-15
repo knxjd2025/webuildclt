@@ -29,11 +29,8 @@ const AREAS_SERVED = [
   { '@type': 'City' as const, name: 'Matthews' },
   { '@type': 'City' as const, name: 'Mooresville' },
   { '@type': 'City' as const, name: 'Rock Hill' },
-  { '@type': 'City' as const, name: 'Detroit', sameAs: 'https://en.wikipedia.org/wiki/Detroit' },
-  { '@type': 'City' as const, name: 'Dearborn' },
   { '@type': 'State' as const, name: 'North Carolina' },
   { '@type': 'State' as const, name: 'South Carolina' },
-  { '@type': 'State' as const, name: 'Michigan' },
 ];
 
 /** Full GeneralContractor entity reused as provider across schemas */

@@ -59,7 +59,6 @@ export const metadata: Metadata = {
     'construction scheduling Charlotte NC',
     'site analysis Charlotte NC',
     'construction feasibility study Charlotte',
-    'pre-construction services Detroit MI',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/pre-construction',

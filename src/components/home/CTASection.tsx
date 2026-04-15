@@ -14,7 +14,7 @@ export function CTASection() {
           today for a free consultation and detailed estimate. Whether you
           need commercial construction, a design-build project, roof coating,
           or commercial renovation, We Build delivers quality results on time
-          and on budget. Licensed in NC, SC, and MI. USGBC member.
+          and on budget. Licensed in NC & SC. USGBC member.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
           <Button size="lg" variant="secondary" asChild>

@@ -62,7 +62,6 @@ export const metadata: Metadata = {
     'commercial upfit Charlotte North Carolina',
     'commercial upfit fort mill sc',
     'commercial upfit lake norman nc',
-    'commercial upfit detroit mi',
     'commercial build out contractor Charlotte',
     'commercial interior contractor Charlotte',
     'commercial buildout Charlotte NC',

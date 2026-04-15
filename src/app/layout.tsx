@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: '%s | We Build Charlotte NC',
   },
   description:
-    'Charlotte NC and Detroit MI commercial construction company specializing in commercial upfits, design-build, drone inspections, brewery construction, and roof coatings. Veteran & family-owned with 60+ years combined experience. USGBC member. Licensed in NC, SC & MI.',
+    'Charlotte NC commercial construction company specializing in commercial upfits, design-build, drone inspections, brewery construction, and roof coatings. Veteran & family-owned with 60+ years combined experience. USGBC member. Licensed in NC & SC.',
   authors: [{ name: 'We Build' }],
   creator: 'We Build',
   openGraph: {

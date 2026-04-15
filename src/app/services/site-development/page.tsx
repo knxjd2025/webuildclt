@@ -54,7 +54,6 @@ export const metadata: Metadata = {
     'land clearing and grading Charlotte',
     'commercial grading Charlotte NC',
     'erosion control Charlotte NC',
-    'site development Detroit MI',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/site-development',
@@ -277,7 +276,7 @@ const faqs = [
   {
     question: 'Can you develop sites in both North Carolina and South Carolina?',
     answer:
-      'Yes. We Build holds general contractor licenses in both North Carolina and South Carolina, and we regularly perform site development work on both sides of the state line. Our Charlotte-area service territory includes all of Mecklenburg County, Union County, Cabarrus County, Iredell County, and Gaston County in North Carolina, as well as York County, Lancaster County, and Chester County in South Carolina. We also serve the Detroit Metro area as we expand into Michigan. Our familiarity with the different permitting requirements, inspection processes, and utility providers in each jurisdiction ensures a smooth project regardless of which side of the state line your site is located.',
+      'Yes. We Build holds general contractor licenses in both North Carolina and South Carolina, and we regularly perform site development work on both sides of the state line. Our Charlotte-area service territory includes all of Mecklenburg County, Union County, Cabarrus County, Iredell County, and Gaston County in North Carolina, as well as York County, Lancaster County, and Chester County in South Carolina. Our familiarity with the different permitting requirements, inspection processes, and utility providers in each jurisdiction ensures a smooth project regardless of which side of the state line your site is located.',
   },
   {
     question: 'How do I get started with site development for my commercial project?',

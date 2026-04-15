@@ -64,7 +64,6 @@ export const metadata: Metadata = {
     'commercial renovation Charlotte North Carolina',
     'commercial renovation fort mill sc',
     'commercial renovation lake norman nc',
-    'commercial renovation detroit mi',
     'commercial building renovation near me',
     'commercial remodeling Charlotte NC',
     'commercial remodeling contractor Charlotte NC',

@@ -25,7 +25,6 @@ export const categories: Record<string, string> = {
   'construction-tips': 'Construction Tips',
   'green-building': 'Green Building',
   'company-news': 'Company News',
-  'detroit-construction': 'Detroit Construction',
   'brewery-construction': 'Brewery Construction',
   'drone-inspections': 'Drone Inspections',
   'medical-construction': 'Medical Construction',
@@ -33,7 +32,6 @@ export const categories: Record<string, string> = {
 };
 
 // Phase 1 expansion imports (separate files to keep main file manageable)
-import { detroitMarketPosts } from './blog-posts-detroit';
 import { costGuidePosts } from './blog-posts-cost-guides';
 import { medicalConstructionPosts } from './blog-posts-medical';
 import { commercialNewPosts } from './blog-posts-commercial-new';
@@ -6493,130 +6491,10 @@ const droneInspectionsPosts: BlogPost[] = [
 ];
 
 // ============================================================
-// CLUSTER: DETROIT & BREWERY CONSTRUCTION (Posts 200-203)
+// CLUSTER: BREWERY CONSTRUCTION (Posts 202-203)
 // ============================================================
 
-const detroitBreweryPosts: BlogPost[] = [
-  {
-    id: '200',
-    title: 'Commercial Construction Costs in Detroit: 2026 Guide for Business Owners',
-    slug: 'commercial-construction-costs-detroit-2026',
-    excerpt: 'A detailed breakdown of commercial construction costs across the Detroit Metro area in 2026, including per-square-foot ranges by project type and tips for managing your budget.',
-    content: `
-<h2>How Much Does Commercial Construction Cost in Detroit?</h2>
-<p>Commercial construction costs in Detroit range from $80 to $350 per square foot depending on the project type, location within the metro area, and the level of finish required. For business owners planning a new build or major renovation in 2026, understanding these ranges is the first step toward a realistic budget and timeline.</p>
-<p>Detroit's construction market has shifted significantly over the past several years. The city's ongoing revitalization, combined with suburban growth in Oakland and Macomb Counties, means demand for commercial space is strong — and costs reflect that momentum. Here is what you should expect to pay across the most common project types.</p>
-
-<h2>Cost Ranges by Project Type</h2>
-<h3>Office Upfits and Tenant Improvements</h3>
-<p>Office upfits in the Detroit Metro typically cost between <strong>$50 and $175 per square foot</strong>. A basic cosmetic refresh — new paint, flooring, and lighting — falls toward the lower end. Full gut renovations with new mechanical systems, custom millwork, and high-end finishes push closer to $175/sf. Demand for modernized office space in Downtown Detroit and Southfield has kept upfit costs steady through 2026.</p>
-
-<h3>Ground-Up Commercial Construction</h3>
-<p>New commercial buildings in Detroit range from <strong>$150 to $300 per square foot</strong>. Single-story retail and flex space sits at the lower end, while multi-story office buildings and mixed-use developments with structured parking can reach $300/sf or more. Site preparation costs vary widely — some Detroit lots require environmental remediation that adds $10-$30/sf to the total project budget.</p>
-
-<h3>Industrial and Warehouse Construction</h3>
-<p>Industrial construction costs between <strong>$80 and $200 per square foot</strong> in the Detroit area. Basic warehouse shells with minimal finish are the most affordable, while specialized manufacturing facilities with heavy power requirements, overhead cranes, and climate control push toward the higher end. The I-94 and I-75 corridors remain the most active areas for new industrial development.</p>
-
-<h3>Restaurant and Hospitality</h3>
-<p>Restaurant construction is among the most expensive commercial project types, ranging from <strong>$150 to $350 per square foot</strong> in Detroit. Commercial kitchen buildouts, grease traps, hood systems, and specialized ventilation drive the higher costs. A fast-casual concept with a simple kitchen may come in around $150/sf, while a full-service restaurant with a bar, open kitchen, and custom interior design regularly exceeds $300/sf.</p>
-
-<h2>What Factors Affect Construction Cost in Detroit?</h2>
-<p>Several factors can move your project cost up or down within these ranges:</p>
-<ul>
-<li><strong>Location within the metro:</strong> Downtown Detroit and Birmingham command premium pricing for both labor and materials. Suburban locations in Warren or Sterling Heights tend to be 10-15% less expensive.</li>
-<li><strong>Building condition:</strong> Adaptive reuse of existing Detroit buildings can save on structure costs but may require asbestos abatement, lead paint removal, or foundation reinforcement.</li>
-<li><strong>Permitting and inspections:</strong> The City of Detroit permitting process can add 4-8 weeks compared to suburban municipalities. Budget accordingly for holding costs during the approval phase.</li>
-<li><strong>Labor availability:</strong> Skilled trades in the Detroit Metro are in high demand due to automotive and infrastructure projects. Scheduling early and locking in subcontractor pricing helps control costs.</li>
-<li><strong>Material choices:</strong> Steel, concrete, and lumber prices have stabilized in 2026 compared to the volatility of 2022-2024, but specialty materials and custom fabrication still carry premium lead times.</li>
-</ul>
-
-<h2>Detroit vs Charlotte: How Do Costs Compare?</h2>
-<p>As a general contractor operating in both markets, We Build sees notable differences between Detroit and Charlotte construction costs. Detroit's labor rates tend to run 5-10% higher due to union prevalence and automotive industry competition for skilled trades. Material costs are comparable between the two cities, though Detroit's proximity to steel production in the Midwest can provide slight advantages on structural steel pricing.</p>
-<p>Permitting timelines are the biggest difference. Charlotte's building department typically processes commercial permits in 2-4 weeks, while Detroit can take 6-10 weeks depending on project complexity and the specific department involved. For time-sensitive projects, this difference directly impacts total project cost through extended carrying costs.</p>
-
-<h2>Wayne County vs Oakland County Construction Costs</h2>
-<p>Within the Detroit Metro, there is a meaningful cost difference between Wayne County and Oakland County projects. Oakland County — including cities like Troy, Southfield, and Birmingham — generally runs 10-20% higher than comparable projects in Wayne County. This is driven by higher land costs, more stringent municipal requirements, and premium finish expectations from tenants and customers in those markets.</p>
-<p>Wayne County offers more affordable construction opportunities, particularly in areas like Dearborn, Livonia, and the city of Detroit itself. Detroit's various incentive programs, including tax abatements and Opportunity Zone benefits, can further reduce the effective cost of development within city limits.</p>
-
-<h2>How to Control Construction Costs in Detroit</h2>
-<p>Managing your budget starts long before the first shovel hits the ground. Here are the strategies we recommend to Detroit business owners:</p>
-<ul>
-<li><strong>Get a detailed estimate early:</strong> A comprehensive preconstruction estimate identifies potential cost drivers before they become surprises.</li>
-<li><strong>Design to your budget:</strong> Work with your general contractor during the design phase to make value engineering decisions before drawings are finalized.</li>
-<li><strong>Plan for contingency:</strong> Budget 10-15% contingency for unknowns, especially on renovation projects in older Detroit buildings.</li>
-<li><strong>Lock in subcontractor pricing:</strong> In a busy market, getting subcontractor commitments 60-90 days before construction starts protects against price escalation.</li>
-</ul>
-
-<p>Ready to get a detailed estimate for your Detroit commercial project? <a href="/contact">Contact We Build</a> for a free consultation. We serve the entire <a href="/areas/detroit">Detroit Metro area</a> including <a href="/areas/dearborn">Dearborn</a> and surrounding communities, with the same <a href="/services/commercial-construction">commercial construction</a> expertise we bring to every project.</p>
-`,
-    date: '2026-03-24',
-    category: 'Detroit Construction',
-    categorySlug: 'detroit-construction',
-    image: '/images/blog/commercial-construction-costs-detroit-2026.jpg',
-    author: 'We Build Team',
-  },
-  {
-    id: '201',
-    title: 'Detroit Commercial Construction: Top Neighborhoods for Business Development in 2026',
-    slug: 'detroit-commercial-construction-top-neighborhoods',
-    excerpt: 'Discover the best Detroit Metro neighborhoods for commercial development in 2026, from Downtown revitalization to suburban office corridors and industrial hubs.',
-    content: `
-<h2>Where Should You Build Your Business in Detroit?</h2>
-<p>Detroit's commercial real estate market is experiencing a sustained renaissance, with multiple neighborhoods offering compelling opportunities for business development in 2026. Whether you are planning a new office, retail space, restaurant, or industrial facility, the right location within the metro area can significantly impact your construction costs, customer access, and long-term property value.</p>
-<p>As a general contractor serving the Detroit Metro, We Build has projects across these neighborhoods and firsthand knowledge of what each area offers — and what challenges to expect during construction.</p>
-
-<h2>Downtown Detroit and Midtown: The Revitalization Epicenter</h2>
-<p>Downtown Detroit continues to lead the city's commercial resurgence. The area around Woodward Avenue, Campus Martius, and the Detroit Riverfront has seen billions in investment over the past decade, and 2026 is no exception. New mixed-use developments, office conversions, and retail spaces are filling in gaps that remained vacant for years.</p>
-<p>Midtown, anchored by Wayne State University and the Detroit Medical Center, is one of the hottest submarkets for restaurant, retail, and creative office development. The combination of foot traffic, transit access, and a young professional demographic makes it ideal for customer-facing businesses.</p>
-<p><strong>What to know before building:</strong> Parking is limited and expensive. Many available buildings require significant renovation, and environmental assessments are common on older properties. The Detroit Historic District Commission may also apply to projects in designated areas, adding design review requirements.</p>
-
-<h2>Dearborn: The Ford Corridor and Beyond</h2>
-<p>Dearborn is undergoing a transformation driven by Ford Motor Company's Michigan Central Station project and the broader Ford corridor development along Michigan Avenue. This has created ripple effects throughout the city, with new restaurants, hotels, and professional offices opening to serve the growing workforce.</p>
-<p>The city's diverse population also supports a thriving restaurant and retail scene, particularly along Warren Avenue and Ford Road. Commercial construction in <a href="/areas/dearborn">Dearborn</a> benefits from a cooperative building department and competitive costs compared to Detroit proper.</p>
-<p><strong>What to know before building:</strong> Dearborn's building codes are well-enforced and inspections are thorough. The city has specific signage and facade requirements in certain districts. Plan for 3-5 weeks for commercial permits.</p>
-
-<h2>Troy and Southfield: Suburban Office and Medical Corridors</h2>
-<p>The Big Beaver Road corridor in Troy and the Southfield Town Center area remain the premier suburban office markets in Metro Detroit. Fortune 500 companies, medical practices, and technology firms continue to invest in these locations. Tenant improvement projects are the most common construction type here, as businesses renovate existing Class A office space to meet modern workplace standards.</p>
-<p>Troy's Somerset Collection area also attracts high-end retail and restaurant development, while Southfield's proximity to major expressways makes it a logistics-friendly location for distribution and light industrial uses.</p>
-<p><strong>What to know before building:</strong> Both municipalities have well-organized permitting processes, but Troy in particular has detailed site plan review requirements. Construction costs run 10-15% higher than the metro average due to premium finish expectations.</p>
-
-<h2>Royal Oak and Ferndale: Restaurant and Retail Boom</h2>
-<p>Royal Oak and Ferndale have established themselves as the Detroit Metro's go-to destinations for restaurants, breweries, and boutique retail. Main Street in Royal Oak and Nine Mile Road in Ferndale are virtually fully leased, with new concepts regularly opening in renovated storefronts and purpose-built spaces.</p>
-<p>These walkable downtowns attract a mix of local residents and visitors from across the metro area. For restaurant and retail entrepreneurs, the built-in foot traffic and vibrant nightlife scene make these communities highly desirable — though competition for available spaces is fierce.</p>
-<p><strong>What to know before building:</strong> Available commercial space is limited, and lease rates are among the highest in the suburbs. Most construction work involves renovating existing buildings, which can uncover surprises in older structures. Both cities have active downtown development authorities with design standards.</p>
-
-<h2>Warren: Industrial Powerhouse</h2>
-<p>Warren is the industrial heart of the Detroit Metro, home to the General Motors Technical Center and hundreds of automotive suppliers and manufacturers. The city offers abundant industrial-zoned land, competitive lease rates, and excellent expressway access via I-696 and I-75.</p>
-<p>New industrial construction in Warren focuses on advanced manufacturing, EV battery supply chain, and logistics facilities. The city has actively courted new industrial development with streamlined permitting and economic incentive programs.</p>
-<p><strong>What to know before building:</strong> Environmental due diligence is essential on former industrial sites. Warren's building department is efficient for industrial projects but can be slower on mixed-use or retail applications. Heavy power and gas infrastructure is readily available in most industrial parks.</p>
-
-<h2>What Is Driving Commercial Growth in Detroit?</h2>
-<p>Several macro trends are fueling commercial construction across the metro:</p>
-<ul>
-<li><strong>EV and automotive investment:</strong> Billions in electric vehicle manufacturing investment are creating demand for everything from factory floors to office space to restaurants serving the workforce.</li>
-<li><strong>Population stabilization:</strong> After decades of decline, Detroit's population has stabilized and young professionals are moving into the city and inner-ring suburbs.</li>
-<li><strong>Remote work hybrid models:</strong> Companies are renovating and right-sizing office space rather than abandoning it, driving steady <a href="/services/commercial-upfits">commercial upfit</a> and <a href="/services/tenant-improvements">tenant improvement</a> demand.</li>
-<li><strong>Entertainment and hospitality:</strong> Detroit's sports, music, and cultural scene continues to attract visitors and support new hotel, restaurant, and entertainment venue development.</li>
-</ul>
-
-<h2>Permitting and Development Process in Detroit Metro</h2>
-<p>Each municipality in the Detroit Metro has its own permitting process, timeline, and requirements. Here is a general overview:</p>
-<ul>
-<li><strong>City of Detroit:</strong> Plan review takes 4-8 weeks for commercial projects. The Buildings, Safety Engineering, and Environmental Department (BSEED) handles permits. Larger projects may require Planning Commission approval.</li>
-<li><strong>Dearborn:</strong> 3-5 weeks typical. The Engineering Department is responsive and well-organized.</li>
-<li><strong>Troy:</strong> 4-6 weeks with detailed site plan review. The Planning Department is thorough but predictable.</li>
-<li><strong>Royal Oak/Ferndale:</strong> 3-4 weeks for interior renovations, 6-8 weeks for new construction or significant exterior changes.</li>
-<li><strong>Warren:</strong> 2-4 weeks for industrial projects. Commercial and retail may take longer due to site plan review.</li>
-</ul>
-
-<p>Planning a commercial project in the <a href="/areas/detroit">Detroit Metro area</a>? <a href="/contact">Contact We Build</a> for expert guidance on site selection, permitting, and construction across all Detroit neighborhoods. Our <a href="/services/commercial-construction">commercial construction</a> team knows the local landscape inside and out.</p>
-`,
-    date: '2026-03-24',
-    category: 'Detroit Construction',
-    categorySlug: 'detroit-construction',
-    image: '/images/blog/detroit-commercial-construction-top-neighborhoods.jpg',
-    author: 'We Build Team',
-  },
+const breweryPosts: BlogPost[] = [
   {
     id: '202',
     title: 'Complete Guide to Brewery Construction in Charlotte NC',
@@ -6874,7 +6752,7 @@ const newServicesPosts: BlogPost[] = [
 <p>Mecklenburg County's permitting process has specific timelines and requirements that can trip up out-of-market teams. The Charlotte-Mecklenburg building inspection process, zoning reviews, and fire marshal coordination each have their own protocols. An owner's rep with deep Charlotte roots knows who to call and how to keep approvals moving.</p>
 
 <h2>Ready to Discuss Your Project?</h2>
-<p>We Build provides <a href="/services/owners-representative">owner's representative services</a> for commercial construction projects throughout Charlotte, the surrounding region, and the Detroit Metro Area. Whether you need full-service representation from programming through close-out or targeted oversight for a specific project phase, we can tailor our engagement to your needs.</p>
+<p>We Build provides <a href="/services/owners-representative">owner's representative services</a> for commercial construction projects throughout Charlotte and the surrounding region. Whether you need full-service representation from programming through close-out or targeted oversight for a specific project phase, we can tailor our engagement to your needs.</p>
 <p>Call us at <a href="tel:+17045748124">(704) 574-8124</a> or <a href="/contact">contact us online</a> to discuss your project and learn how owner's representation can protect your investment.</p>
 `,
     date: '2026-03-27',
@@ -7570,11 +7448,11 @@ const detroitRoofCoatingPosts: BlogPost[] = [
     id: '217',
     title: 'Commercial Roof Coating in Detroit: Protecting Your Building from Michigan Winters',
     slug: 'commercial-roof-coating-detroit-michigan-winters',
-    excerpt: 'Detroit commercial buildings face 100+ freeze-thaw cycles per year, lake effect snow, and ice dams. Here\'s how professional roof coating protects your investment — and why We Build now serves the Detroit Metro Area.',
+    excerpt: 'Detroit commercial buildings face 100+ freeze-thaw cycles per year, lake effect snow, and ice dams. Here\'s how professional roof coating protects your investment — and why We Coat now serves the Detroit Metro Area.',
     content: `
 <h2>Why Detroit Buildings Need Roof Coating More Than Most</h2>
 <p>Detroit's climate is one of the most demanding in the United States for commercial roofing. Unlike Charlotte, where we built our reputation, the Detroit Metro Area subjects commercial roofs to a punishment cycle that few other markets match: more than 100 freeze-thaw cycles per year, lake effect snow from Lake Erie and Lake St. Clair, ice dam formation along parapet walls, and year-round salt air corrosion from the millions of pounds of road salt applied to Michigan roads and parking lots each winter.</p>
-<p>We Build has expanded from Charlotte, NC to serve the Detroit Metro Area, bringing the same commercial roof coating expertise that has protected Charlotte buildings for years to Michigan building owners who face far harsher roofing conditions. This guide explains why Detroit commercial roofs need coating, which coating types perform best in Michigan's climate, and what you can expect to pay.</p>
+<p><a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">We Coat</a> serves the Detroit Metro Area, bringing commercial roof coating expertise to Michigan building owners who face some of the harshest roofing conditions in the country. This guide explains why Detroit commercial roofs need coating, which coating types perform best in Michigan's climate, and what you can expect to pay.</p>
 
 <h2>The Michigan Roofing Challenge: Freeze-Thaw Cycles</h2>
 <p>The single biggest roofing threat in Michigan is the freeze-thaw cycle. When water penetrates even minor membrane cracks or seams, it freezes and expands — exerting pressure of up to 2,000 PSI on surrounding materials. That ice then melts, leaving behind a larger crack. The next freeze repeats the cycle.</p>
@@ -7608,10 +7486,10 @@ const detroitRoofCoatingPosts: BlogPost[] = [
 
 <h2>Michigan Building Code and Wayne County Permitting</h2>
 <p>Michigan's building code follows the Michigan Residential Code and Michigan Building Code, which are based on the International Building Code with state amendments. Roof coating projects typically fall under maintenance provisions and may not require a full building permit — but this varies by jurisdiction and project scope.</p>
-<p>Wayne County and the City of Detroit have their own permitting departments. For commercial roof work exceeding a threshold value (typically $5,000-$10,000 depending on the municipality), permits are generally required. As a licensed contractor serving the Detroit Metro Area, We Build handles all permitting requirements as part of our project scope.</p>
+<p>Wayne County and the City of Detroit have their own permitting departments. For commercial roof work exceeding a threshold value (typically $5,000-$10,000 depending on the municipality), permits are generally required. As a licensed contractor serving the Detroit Metro Area, We Coat handles all permitting requirements as part of our project scope.</p>
 
-<h2>We Build: Charlotte Expertise, Now Serving Detroit</h2>
-<p>We Build is a veteran and family-owned commercial construction company and proud USGBC member that has protected commercial buildings in Charlotte, NC for years. Our expansion to the Detroit Metro Area means Michigan building owners now have access to a commercial roofing contractor with deep expertise in roof coating — and the commitment to quality that comes from being veteran-owned.</p>
+<h2>We Coat: Commercial Roof Coating for Detroit</h2>
+<p><a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">We Coat</a> is a veteran and family-owned commercial roof coating company and proud USGBC member serving the Detroit Metro Area. Michigan building owners have access to a commercial roofing contractor with deep expertise in roof coating — and the commitment to quality that comes from being veteran-owned.</p>
 <p>We understand Michigan's climate challenges and the specific demands they place on commercial roofing systems. Whether you own a single commercial building or a portfolio of properties in the Detroit Metro Area, we can assess your roof's condition and recommend the right coating solution.</p>
 <p>Learn more about our <a href="/services/roof-coating">roof coating services</a>, explore our <a href="/we-coat">WeCoat program</a>, or visit our <a href="/areas/detroit">Detroit service area page</a>. Ready to schedule an inspection? Call us at <a href="tel:+17045748124">(704) 574-8124</a> or <a href="/contact">contact us online</a>.</p>
 `,
@@ -7619,7 +7497,7 @@ const detroitRoofCoatingPosts: BlogPost[] = [
     category: 'Roof Coating',
     categorySlug: 'roof-coating',
     image: '/images/blog/commercial-roof-coating-detroit-mi.jpg',
-    author: 'We Build Team',
+    author: 'We Coat',
   },
   {
     id: '218',
@@ -7629,7 +7507,7 @@ const detroitRoofCoatingPosts: BlogPost[] = [
     content: `
 <h2>Detroit's Flat Roof Problem</h2>
 <p>Detroit's commercial building stock is dominated by flat and low-slope roofs — on office buildings, retail strips, industrial facilities, warehouses, and mixed-use developments throughout Wayne, Oakland, and Macomb counties. These roofs are efficient to build and easy to maintain HVAC equipment on, but they face a specific set of problems that Michigan's climate makes significantly worse than in most U.S. markets.</p>
-<p>We Build has expanded from Charlotte, NC to serve the Detroit Metro Area, and one of the first things we noticed is how many Detroit commercial roofs are suffering from one or more of the five problems below. The good news: commercial roof coating addresses all of them — often at a fraction of the cost of a full replacement.</p>
+<p><a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">We Coat</a> serves the Detroit Metro Area, and one of the first things we noticed is how many Detroit commercial roofs are suffering from one or more of the five problems below. The good news: commercial roof coating addresses all of them — often at a fraction of the cost of a full replacement.</p>
 <p>Detroit's commercial building stock averages more than 40 years old. Many buildings still have original EPDM or built-up roofing (BUR) systems that are well past their design lifespan. These roofs aren't necessarily ready for full replacement, but they are ready for the right coating intervention.</p>
 
 <h2>Problem 1: Ponding Water from Snowmelt</h2>
@@ -7660,13 +7538,13 @@ const detroitRoofCoatingPosts: BlogPost[] = [
 <h2>Is Your Detroit Flat Roof a Candidate for Coating?</h2>
 <p>Roof coating works best when the existing roof structure is sound. A professional inspection evaluates whether the deck is structurally intact, insulation saturation is minimal (less than 25% wet), and the existing membrane has adequate adhesion for a coating system.</p>
 <p>Detroit's aging building stock means some roofs are beyond coating — the deck may be rotted, or there may already be multiple coating layers that prevent proper adhesion. Our inspections are honest: we'll tell you whether coating makes sense, and we won't recommend it if replacement is the right answer.</p>
-<p>Learn more about our <a href="/services/roof-coating">roof coating services</a> or visit our <a href="/areas/detroit">Detroit service area page</a>. Call We Build at <a href="tel:+17045748124">(704) 574-8124</a> to schedule a free roof inspection.</p>
+<p>Learn more about our <a href="/services/roof-coating">roof coating services</a> or visit our <a href="/areas/detroit">Detroit service area page</a>. Call We Coat at <a href="tel:+17045748124">(704) 574-8124</a> or visit <a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">wecoatcommercialroofing.com</a> to schedule a free roof inspection.</p>
 `,
     date: '2026-03-27',
     category: 'Roof Coating',
     categorySlug: 'roof-coating',
     image: '/images/blog/flat-roof-problems-detroit-commercial.jpg',
-    author: 'We Build Team',
+    author: 'We Coat',
   },
   {
     id: '219',
@@ -7676,7 +7554,7 @@ const detroitRoofCoatingPosts: BlogPost[] = [
     content: `
 <h2>The Most Important Roofing Decision You'll Make</h2>
 <p>When a Michigan commercial roof starts showing its age — leaks appearing, membrane cracking, energy bills climbing — building owners face a decision with significant financial consequences: coat or replace? Get it right and you protect your investment at the lowest possible cost. Get it wrong and you either spend money on a coating that fails prematurely, or tear off a roof that still had years of serviceable life.</p>
-<p>We Build serves commercial building owners in Charlotte, NC and the Detroit Metro Area, and this is the most common question we get from Michigan clients. Here is our honest framework for making the right call.</p>
+<p><a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">We Coat</a> serves commercial building owners in the Detroit Metro Area, and this is the most common question we get from Michigan clients. Here is our honest framework for making the right call.</p>
 
 <h2>When to Choose Roof Coating</h2>
 <p>Coating is the right choice when three conditions are met:</p>
@@ -7728,15 +7606,15 @@ const detroitRoofCoatingPosts: BlogPost[] = [
 </ul>
 <p>Michigan building owners who discover a roof problem in winter face a difficult choice: apply a temporary emergency repair and wait for spring, or escalate to replacement work that can proceed in winter with appropriate precautions. Planning roof coating for the optimal May-October window delivers the best results and typically the best pricing.</p>
 
-<h2>Detroit and Dearborn: We Build's Michigan Service Area</h2>
-<p>We Build is a veteran and family-owned commercial construction company and USGBC member that has expanded from Charlotte, NC to serve the Detroit Metro Area. Our commercial roof coating expertise is available to building owners throughout Wayne, Oakland, and Macomb counties.</p>
+<h2>Detroit and Dearborn: We Coat's Michigan Service Area</h2>
+<p><a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">We Coat</a> is a veteran and family-owned commercial roof coating company and USGBC member serving the Detroit Metro Area. Our commercial roof coating expertise is available to building owners throughout Wayne, Oakland, and Macomb counties.</p>
 <p>Learn more about our <a href="/services/roof-coating">roof coating services</a>, explore the <a href="/we-coat">WeCoat program</a>, or visit our service area pages for <a href="/areas/detroit">Detroit</a> and <a href="/areas/dearborn">Dearborn</a>. Call <a href="tel:+17045748124">(704) 574-8124</a> to schedule a free roof inspection and get an honest coat-vs-replace recommendation.</p>
 `,
     date: '2026-03-28',
     category: 'Roof Coating',
     categorySlug: 'roof-coating',
     image: '/images/blog/roof-coating-vs-replacement-michigan.jpg',
-    author: 'We Build Team',
+    author: 'We Coat',
   },
   {
     id: '220',
@@ -7746,7 +7624,7 @@ const detroitRoofCoatingPosts: BlogPost[] = [
     content: `
 <h2>Dearborn's Commercial Roof Challenge</h2>
 <p>Dearborn, Michigan is home to some of the most demanding commercial real estate in the Detroit Metro Area. From the Ford Motor Company's world headquarters campus to the dense commercial corridors of Michigan Avenue and Warren Avenue, Dearborn's building owners manage properties that have been weathering Michigan winters for decades — in some cases, more than half a century.</p>
-<p>We Build is a veteran and family-owned commercial construction company that has expanded from Charlotte, NC to serve the Detroit Metro Area, including Dearborn's industrial and commercial building owners. One of the most important services we offer is helping building owners develop and execute a year-round maintenance strategy that extends roof life, prevents costly emergency repairs, and keeps properties in peak condition.</p>
+<p><a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">We Coat</a> is a veteran and family-owned commercial roof coating company serving the Detroit Metro Area, including Dearborn's industrial and commercial building owners. One of the most important services we offer is helping building owners develop and execute a year-round maintenance strategy that extends roof life, prevents costly emergency repairs, and keeps properties in peak condition.</p>
 <p>This seasonal guide is designed specifically for Dearborn commercial roof owners — covering the specific conditions, timing windows, and maintenance actions that Michigan's climate demands.</p>
 
 <h2>Spring: Post-Winter Assessment (March - May)</h2>
@@ -7760,7 +7638,7 @@ const detroitRoofCoatingPosts: BlogPost[] = [
 <li><strong>Interior water damage inventory:</strong> Walk the building interior and note any ceiling staining, wet insulation, or visible water intrusion. Roof damage is often discovered inside first.</li>
 </ul>
 <h3>Scheduling Spring Coating Work</h3>
-<p>May is the opening of Michigan's coating window. Building owners who identify coating needs during spring inspection should schedule contractors in April — before the June-August peak season drives up pricing and reduces contractor availability. We Build recommends completing coating applications in May or early June when possible, ensuring maximum cure time before Michigan's next freeze season.</p>
+<p>May is the opening of Michigan's coating window. Building owners who identify coating needs during spring inspection should schedule contractors in April — before the June-August peak season drives up pricing and reduces contractor availability. We Coat recommends completing coating applications in May or early June when possible, ensuring maximum cure time before Michigan's next freeze season.</p>
 
 <h2>Summer: Optimal Coating Window (June - August)</h2>
 <p>Michigan summers are Michigan's best roofing season — warm, dry conditions enable coating applications to cure fully and bond properly. This is the time for major coating projects, but also for proactive protection measures.</p>
@@ -7801,21 +7679,21 @@ const detroitRoofCoatingPosts: BlogPost[] = [
 <li>For buildings with known ice dam problems, consider heat tape installation on vulnerable parapet wall areas</li>
 </ul>
 <h3>Emergency Leak Protocol</h3>
-<p>Winter leaks require immediate response. Water infiltrating a building during Michigan's heating season causes accelerated damage — freezing in wall cavities, expanding in structural members, and creating mold conditions. We Build maintains emergency response capability for Dearborn commercial building owners. Document the leak location, apply temporary interior protection to limit property damage, and contact us promptly for emergency assessment.</p>
+<p>Winter leaks require immediate response. Water infiltrating a building during Michigan's heating season causes accelerated damage — freezing in wall cavities, expanding in structural members, and creating mold conditions. We Coat maintains emergency response capability for Dearborn commercial building owners. Document the leak location, apply temporary interior protection to limit property damage, and contact us promptly for emergency assessment.</p>
 
 <h2>Drone Inspections: The Michigan Advantage</h2>
-<p>Traditional roof inspection in Michigan — someone physically walking the roof — becomes dangerous and impractical during winter months and early spring when ice remains on the surface. We Build offers drone inspection services that provide detailed roof condition assessment year-round, without putting anyone on an icy roof surface.</p>
+<p>Traditional roof inspection in Michigan — someone physically walking the roof — becomes dangerous and impractical during winter months and early spring when ice remains on the surface. We Coat offers drone inspection services that provide detailed roof condition assessment year-round, without putting anyone on an icy roof surface.</p>
 <p>Our drone inspections capture high-resolution imagery of the entire roof surface, identify problem areas with precision, and create a documented baseline for maintenance planning. For Dearborn building owners managing multiple properties, drone inspection enables efficient portfolio-wide assessment in a single day. Learn more about our <a href="/services/drone-inspections">drone inspection services</a>.</p>
 
 <h2>Dearborn Service Area</h2>
-<p>We Build serves commercial building owners throughout Dearborn's industrial and commercial corridors — Michigan Avenue, Ford Road, Warren Avenue, and the industrial properties of the Ford Rouge Complex area. Our team understands the specific age, construction type, and climate challenges of Dearborn's commercial building stock.</p>
-<p>Learn more about our <a href="/services/roof-coating">roof coating services</a> and <a href="/areas/dearborn">Dearborn service area</a>. Call We Build at <a href="tel:+17045748124">(704) 574-8124</a> or <a href="/contact">contact us online</a> to schedule a seasonal roof inspection.</p>
+<p>We Coat serves commercial building owners throughout Dearborn's industrial and commercial corridors — Michigan Avenue, Ford Road, Warren Avenue, and the industrial properties of the Ford Rouge Complex area. Our team understands the specific age, construction type, and climate challenges of Dearborn's commercial building stock.</p>
+<p>Learn more about our <a href="/services/roof-coating">roof coating services</a> and <a href="/areas/dearborn">Dearborn service area</a>. Call We Coat at <a href="tel:+17045748124">(704) 574-8124</a>, visit <a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">wecoatcommercialroofing.com</a>, or <a href="/contact">contact us online</a> to schedule a seasonal roof inspection.</p>
 `,
     date: '2026-03-28',
     category: 'Detroit Construction',
     categorySlug: 'detroit-construction',
     image: '/images/blog/commercial-roof-maintenance-dearborn-mi.jpg',
-    author: 'We Build Team',
+    author: 'We Coat',
   },
 ];
 
@@ -7944,7 +7822,7 @@ const commercialGCPosts: BlogPost[] = [
 <p>A low bid that excludes five major line items isn't a good deal — it's an incomplete price.</p>
 
 <h2>Ready to Work with a Trusted Charlotte Commercial Contractor?</h2>
-<p>We Build is a veteran and family-owned commercial general contractor serving Charlotte, NC and the Detroit Metro Area. We hold NC and SC GC licenses, are fully bonded and insured, and are a proud <a href="/about">USGBC member</a>. Our team handles everything from <a href="/services/commercial-upfits">commercial upfits</a> and <a href="/services/office-buildouts">office buildouts</a> to <a href="/services/general-contractor">general contracting</a> for new construction.</p>
+<p>We Build is a veteran and family-owned commercial general contractor serving Charlotte, NC and the Carolinas. We hold NC and SC GC licenses, are fully bonded and insured, and are a proud <a href="/about">USGBC member</a>. Our team handles everything from <a href="/services/commercial-upfits">commercial upfits</a> and <a href="/services/office-buildouts">office buildouts</a> to <a href="/services/general-contractor">general contracting</a> for new construction.</p>
 <p>Call us at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to discuss your project. We'll give you straight answers — the same quality of answers we'd want if we were in your position.</p>
 `,
     date: '2026-03-28',
@@ -8136,7 +8014,7 @@ const commercialGCPosts: BlogPost[] = [
 <p>For most projects under $2–3M in Charlotte, the GC model is more cost-effective. For projects over $5M with complex programming or phased delivery, CM often pays for itself through design-phase savings.</p>
 
 <h2>We Build Offers Both Services</h2>
-<p>We Build is a veteran and family-owned commercial contractor serving Charlotte, NC and the Detroit Metro Area. We provide traditional <a href="/services/general-contractor">general contracting</a> services for straightforward commercial projects and <a href="/services/construction-management">construction management</a> for complex, large-scale developments — including CM-at-Risk and owner's representative services.</p>
+<p>We Build is a veteran and family-owned commercial contractor serving Charlotte, NC and the Carolinas. We provide traditional <a href="/services/general-contractor">general contracting</a> services for straightforward commercial projects and <a href="/services/construction-management">construction management</a> for complex, large-scale developments — including CM-at-Risk and owner's representative services.</p>
 <p>Not sure which approach is right for your project? Call us at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> for a no-obligation consultation. We'll give you an honest recommendation based on your project's specific needs — not whichever service earns us more revenue.</p>
 `,
     date: '2026-03-28',
@@ -8492,14 +8370,13 @@ export const blogPosts: BlogPost[] = [
   ...commercialServicesPosts,
   ...commercialServicesPosts2,
   ...droneInspectionsPosts,
-  ...detroitBreweryPosts,
+  ...breweryPosts,
   ...newServicesPosts,
   ...southCarolinaPosts,
   ...ncLocalPosts,
   ...detroitRoofCoatingPosts,
   ...commercialGCPosts,
   ...nicheProjectPosts,
-  ...detroitMarketPosts,
   ...costGuidePosts,
   ...medicalConstructionPosts,
   ...commercialNewPosts,

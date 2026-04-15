@@ -69,7 +69,6 @@ export const metadata: Metadata = {
     'commercial contractor south charlotte',
     'commercial construction fort mill sc',
     'commercial construction lake norman nc',
-    'commercial construction detroit mi',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/commercial-construction',

@@ -53,7 +53,6 @@ export const metadata: Metadata = {
     'industrial conversion Charlotte',
     'historic tax credit Charlotte NC',
     'adaptive reuse Charlotte North Carolina',
-    'adaptive reuse Detroit MI',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/adaptive-reuse',

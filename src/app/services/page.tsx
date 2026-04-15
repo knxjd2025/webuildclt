@@ -12,9 +12,9 @@ import { servicesByCategory, areaLinks, allServices } from '@/data/services';
 import { BUSINESS } from '@/data/business';
 
 export const metadata: Metadata = {
-  title: 'Construction Services Charlotte NC & Detroit MI | We Build',
+  title: 'Construction Services Charlotte NC | We Build',
   description:
-    'Full-service commercial construction in Charlotte NC and Detroit Metro. 25 specialized services including commercial upfits, design-build, drone inspections, brewery construction, adaptive reuse, and roof coating. Veteran & family-owned. USGBC member. Free estimates: (704) 574-8124.',
+    'Full-service commercial construction in Charlotte NC and the Carolinas. 25 specialized services including commercial upfits, design-build, drone inspections, brewery construction, adaptive reuse, and roof coating. Veteran & family-owned. USGBC member. Free estimates: (704) 574-8124.',
   keywords: [
     'construction services charlotte nc',
     'commercial construction charlotte',
@@ -26,7 +26,6 @@ export const metadata: Metadata = {
     'brewery construction charlotte nc',
     'commercial contractor charlotte',
     'construction company charlotte nc',
-    'construction services detroit mi',
     'adaptive reuse charlotte nc',
     'warehouse construction charlotte nc',
   ],
@@ -91,7 +90,7 @@ const faqs = [
   {
     question: 'What construction services does We Build offer in Charlotte?',
     answer:
-      'We Build offers over twenty specialized construction services across the Charlotte metro area and the Carolinas. Our core services include commercial construction, commercial upfits and tenant improvements, design-build, general contracting, construction management, pre-construction planning, roof coating and restoration, drone inspections, restaurant construction, medical facility build-outs, office buildouts, retail construction, industrial and warehouse construction, brewery construction, adaptive reuse, site development, value engineering, ADA compliance, green building, and owner\'s representative services. We are licensed in NC, SC, and MI.',
+      'We Build offers over twenty specialized construction services across the Charlotte metro area and the Carolinas. Our core services include commercial construction, commercial upfits and tenant improvements, design-build, general contracting, construction management, pre-construction planning, roof coating and restoration, drone inspections, restaurant construction, medical facility build-outs, office buildouts, retail construction, industrial and warehouse construction, brewery construction, adaptive reuse, site development, value engineering, ADA compliance, green building, and owner\'s representative services. We are licensed in NC & SC.',
   },
   {
     question: 'How do I know if I need a commercial upfit or a full renovation?',
@@ -106,7 +105,7 @@ const faqs = [
   {
     question: 'Do you offer construction services outside of Charlotte?',
     answer:
-      'Yes. While our headquarters is at 14330 S Lakes Drive in Charlotte, NC, we serve the entire Charlotte metropolitan area including South Charlotte, Lake Norman, Fort Mill SC, Rock Hill SC, Matthews, Huntersville, Mooresville, and surrounding communities in Mecklenburg, Union, Iredell, Cabarrus, and York counties. We also hold an active general contractor license in Michigan and serve the Detroit metro area including Dearborn, Southfield, Troy, and Royal Oak. Our multi-state licensing allows us to take on projects across NC, SC, and MI.',
+      'Yes. While our headquarters is at 14330 S Lakes Drive in Charlotte, NC, we serve the entire Charlotte metropolitan area including South Charlotte, Lake Norman, Fort Mill SC, Rock Hill SC, Matthews, Huntersville, Mooresville, and surrounding communities in Mecklenburg, Union, Iredell, Cabarrus, and York counties. Our multi-state licensing allows us to take on projects across NC & SC.',
   },
   {
     question: 'What is the most cost-effective way to renovate a commercial space?',

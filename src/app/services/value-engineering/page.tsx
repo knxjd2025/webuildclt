@@ -53,7 +53,6 @@ export const metadata: Metadata = {
     'VE study Charlotte NC',
     'construction cost savings Charlotte',
     'value engineering Charlotte North Carolina',
-    'value engineering Detroit MI',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/value-engineering',

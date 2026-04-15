@@ -24,7 +24,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Why Law Firm Office Build-Outs Require Specialized Construction Expertise</h2>
 <p>Law firms have unique space requirements that go far beyond a standard office build-out. From confidential meeting rooms and secure document storage to impressive client-facing reception areas and partner offices, every square foot must serve both functional and professional purposes. In Charlotte's competitive legal market — home to major firms along South Tryon Street, Ballantyne, and SouthPark — the right office environment directly impacts client perception, attorney productivity, and staff retention.</p>
-<p>At We Build, we are a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan, and we have extensive experience building professional office spaces that meet the exacting standards of legal practices. Whether you are a solo practitioner opening your first office or a mid-size firm expanding to a second Charlotte location, this guide covers every aspect of law firm office design and construction.</p>
+<p>At We Build, we are a veteran-owned commercial construction company licensed in North Carolina and South Carolina, and we have extensive experience building professional office spaces that meet the exacting standards of legal practices. Whether you are a solo practitioner opening your first office or a mid-size firm expanding to a second Charlotte location, this guide covers every aspect of law firm office design and construction.</p>
 
 <h2>Key Design Considerations for Law Firm Offices</h2>
 <h3>Reception and First Impressions</h3>
@@ -111,7 +111,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Building the Ideal Accounting Firm Office</h2>
 <p>Accounting firms face unique space planning challenges that differ from other professional offices. The seasonal nature of tax preparation creates dramatic swings in staffing levels and workflow intensity. During tax season (January through April), firms may bring on 30 to 50 percent additional temporary staff, require extended operating hours, and need every workstation functioning at peak capacity. The rest of the year, the same space must support audit teams, advisory services, and business development activities without feeling cavernous or wasteful.</p>
-<p>We Build is a veteran-owned construction company licensed in North Carolina, South Carolina, and Michigan, and we understand the operational demands that accounting practices place on their physical spaces. This guide covers everything Charlotte-area CPA firms need to know about designing and constructing an office that works as hard as they do.</p>
+<p>We Build is a veteran-owned construction company licensed in North Carolina and South Carolina, and we understand the operational demands that accounting practices place on their physical spaces. This guide covers everything Charlotte-area CPA firms need to know about designing and constructing an office that works as hard as they do.</p>
 
 <h2>Space Planning for Seasonal Workflow Variations</h2>
 <h3>Flexible Workstation Strategies</h3>
@@ -178,7 +178,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Constructing Compliant Financial Services Offices in Charlotte</h2>
 <p>Charlotte is the second-largest banking center in the United States, and the financial services industry demands office environments that meet stringent regulatory requirements, protect sensitive data, and project the stability and trustworthiness that clients expect. From banks and credit unions to investment advisory firms, insurance companies, and fintech startups, every financial services office build-out must address compliance, security, and operational efficiency from the earliest design stages.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan, with deep experience building financial services offices across the Charlotte metro area. This guide covers the critical compliance and security requirements that distinguish financial services construction from standard commercial office work.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina, with deep experience building financial services offices across the Charlotte metro area. This guide covers the critical compliance and security requirements that distinguish financial services construction from standard commercial office work.</p>
 
 <h2>Regulatory Framework Affecting Office Design</h2>
 <h3>Physical Security Requirements</h3>
@@ -250,7 +250,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Building a Corporate Headquarters in Charlotte</h2>
 <p>Charlotte continues to attract corporate headquarters relocations and expansions, driven by the region's business-friendly environment, talented workforce, and quality of life. Companies establishing or upgrading headquarters in the Charlotte metro area face significant construction decisions that impact brand perception, employee experience, operational efficiency, and long-term real estate costs. A well-executed headquarters project becomes a strategic asset; a poorly planned one becomes a costly liability.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan. Our experience with large-scale commercial projects throughout the Charlotte region gives us unique insight into what it takes to build a headquarters facility that serves your organization's needs today and adapts to your growth for years to come.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina. Our experience with large-scale commercial projects throughout the Charlotte region gives us unique insight into what it takes to build a headquarters facility that serves your organization's needs today and adapts to your growth for years to come.</p>
 
 <h2>Site Selection and Development Considerations</h2>
 <h3>Charlotte's Key Corporate Corridors</h3>
@@ -318,7 +318,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>What Defines a Premium Executive Suite Build-Out</h2>
 <p>Executive suites serve as the nerve center of an organization and the primary venue for high-stakes meetings, board sessions, and client entertainment. The construction quality, material selections, and design details in executive spaces must meet a higher standard than the rest of the facility — these spaces directly reflect the company's success, stability, and attention to quality. In Charlotte's competitive corporate landscape, a well-crafted executive suite can differentiate your organization in the eyes of clients, recruits, and business partners.</p>
-<p>We Build is a veteran-owned construction company licensed in NC, SC, and MI, and we specialize in premium commercial construction that meets the exacting standards of executive environments. This guide covers the materials, systems, and design strategies that distinguish exceptional executive suites from ordinary office spaces.</p>
+<p>We Build is a veteran-owned construction company licensed in NC and SC, and we specialize in premium commercial construction that meets the exacting standards of executive environments. This guide covers the materials, systems, and design strategies that distinguish exceptional executive suites from ordinary office spaces.</p>
 
 <h2>Premium Material Selections</h2>
 <h3>Flooring</h3>
@@ -382,7 +382,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>The Unique Construction Challenges of Call Center Build-Outs</h2>
 <p>Call centers represent one of the most demanding commercial office environments to design and construct properly. The combination of high occupant density (often 80 to 120 square feet per agent versus 150 to 250 for standard offices), continuous voice activity, intensive technology requirements, and extended operating hours (many call centers run 16 to 24 hours per day) creates construction challenges that standard office build-outs do not address.</p>
-<p>Charlotte has become a significant call center market, with operations serving banking, healthcare, insurance, technology, and customer service sectors. We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan, with experience building high-density work environments that balance operational efficiency, employee comfort, and cost-effectiveness.</p>
+<p>Charlotte has become a significant call center market, with operations serving banking, healthcare, insurance, technology, and customer service sectors. We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina, with experience building high-density work environments that balance operational efficiency, employee comfort, and cost-effectiveness.</p>
 
 <h2>Acoustic Design: The Critical Challenge</h2>
 <h3>Understanding the Noise Problem</h3>
@@ -450,7 +450,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Charlotte's Adaptive Reuse Movement</h2>
 <p>Charlotte is experiencing a transformation as developers, businesses, and communities recognize the value of repurposing existing buildings rather than demolishing them. From former textile mills in NoDa and South End to abandoned churches in historic neighborhoods and decommissioned warehouses along the rail corridor, adaptive reuse projects are reshaping Charlotte's built environment while preserving the city's architectural heritage.</p>
-<p>Adaptive reuse — the process of converting a building from its original purpose to a new function — offers compelling economic, environmental, and cultural benefits. But these projects also present unique construction challenges that require specialized expertise. We Build is a veteran-owned construction company licensed in North Carolina, South Carolina, and Michigan, and our <a href="/services/adaptive-reuse">adaptive reuse construction services</a> help Charlotte property owners navigate the complexities of building transformation.</p>
+<p>Adaptive reuse — the process of converting a building from its original purpose to a new function — offers compelling economic, environmental, and cultural benefits. But these projects also present unique construction challenges that require specialized expertise. We Build is a veteran-owned construction company licensed in North Carolina and South Carolina, and our <a href="/services/adaptive-reuse">adaptive reuse construction services</a> help Charlotte property owners navigate the complexities of building transformation.</p>
 
 <h2>Why Adaptive Reuse Makes Economic Sense</h2>
 <h3>Cost Advantages</h3>
@@ -520,7 +520,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Understanding Historic Tax Credits in North Carolina</h2>
 <p>Historic tax credits are among the most powerful financial incentives available for commercial construction projects in North Carolina. When properly structured, a qualifying rehabilitation project can receive combined federal and state tax credits offsetting up to 45 percent of eligible construction costs — transforming marginally viable projects into highly attractive investments. For property owners and developers in the Charlotte metro area, these credits can make the difference between a project that pencils and one that stays on the shelf.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan. Our team has extensive experience with historic rehabilitation projects and understands the specific construction requirements that these tax credit programs demand. This guide explains how the credits work, who qualifies, and what the construction process looks like when historic preservation is part of the equation.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina. Our team has extensive experience with historic rehabilitation projects and understands the specific construction requirements that these tax credit programs demand. This guide explains how the credits work, who qualifies, and what the construction process looks like when historic preservation is part of the equation.</p>
 
 <h2>Federal Historic Tax Credit (20%)</h2>
 <h3>Program Overview</h3>
@@ -589,7 +589,7 @@ export const phase4Posts: BlogPost[] = [
 <h2>Why Warehouse-to-Office Conversions Are Booming in Charlotte</h2>
 <p>Charlotte's commercial real estate market has seen explosive growth in warehouse-to-office conversions, particularly along the South End rail corridor, in NoDa, and throughout the Wilmore and FreeMoreWest neighborhoods. The appeal is straightforward: warehouses offer the open floor plans, high ceilings, exposed structural elements, and raw industrial character that modern tenants crave — features that are prohibitively expensive to replicate in new construction. Companies in technology, creative services, marketing, architecture, and co-working have driven demand for these converted spaces, willing to pay premium rents for the unique aesthetic they provide.
 
-We Build is a veteran-owned construction company licensed in North Carolina, South Carolina, and Michigan, and we specialize in transforming industrial buildings into high-performing modern workplaces. Our <a href="/services/adaptive-reuse">adaptive reuse construction services</a> address the complex technical challenges these conversions present while preserving the industrial character that makes them desirable.</p>
+We Build is a veteran-owned construction company licensed in North Carolina and South Carolina, and we specialize in transforming industrial buildings into high-performing modern workplaces. Our <a href="/services/adaptive-reuse">adaptive reuse construction services</a> address the complex technical challenges these conversions present while preserving the industrial character that makes them desirable.</p>
 
 <h2>Building Code Requirements for Occupancy Change</h2>
 <h3>Occupancy Classification</h3>
@@ -652,7 +652,7 @@ Phase I and Phase II Environmental Site Assessments should be completed before a
 <h2>The Opportunity in Church Adaptive Reuse</h2>
 <p>Charlotte has seen a significant increase in church properties becoming available for adaptive reuse as congregations merge, relocate to larger facilities in suburban areas, or unfortunately close. These buildings — often located on prominent corner lots in established neighborhoods with mature landscaping and ample parking — represent extraordinary development opportunities. Their distinctive architecture, including soaring ceilings, stained glass windows, bell towers, and ornate masonry, creates spaces with a character and emotional resonance that new construction simply cannot replicate.
 
-We Build is a veteran-owned construction company licensed in North Carolina, South Carolina, and Michigan, and our team brings the sensitivity and technical expertise that church adaptive reuse projects demand. Whether you envision a restaurant, office, event venue, residential lofts, or community center, we understand how to transform these sacred spaces into vibrant commercial properties while honoring their architectural heritage.</p>
+We Build is a veteran-owned construction company licensed in North Carolina and South Carolina, and our team brings the sensitivity and technical expertise that church adaptive reuse projects demand. Whether you envision a restaurant, office, event venue, residential lofts, or community center, we understand how to transform these sacred spaces into vibrant commercial properties while honoring their architectural heritage.</p>
 
 <h2>Common Church Conversion Types</h2>
 <h3>Event Venues and Wedding Spaces</h3>
@@ -713,7 +713,7 @@ Neighborhood engagement is critical for church conversion projects. Churches are
 <h2>Charlotte's Textile Mill Legacy</h2>
 <p>Charlotte and the surrounding Piedmont region were the heart of America's textile industry for over a century. From the 1880s through the 1980s, hundreds of cotton mills dotted the landscape — massive brick buildings with sawtooth roofs, tall windows, and heavy timber frames that powered the region's economy. As textile manufacturing moved offshore, these mills fell silent, and many sat vacant for decades.
 
-Today, Charlotte's former textile mills are among the city's most coveted addresses. The combination of distinctive industrial architecture, generous floor plates, soaring ceilings, abundant natural light, and locations in neighborhoods undergoing rapid revitalization has made mill conversions some of the most successful adaptive reuse projects in the Southeast. We Build is a veteran-owned construction company licensed in NC, SC, and MI, and we bring specialized experience in transforming these industrial monuments into vibrant modern spaces.</p>
+Today, Charlotte's former textile mills are among the city's most coveted addresses. The combination of distinctive industrial architecture, generous floor plates, soaring ceilings, abundant natural light, and locations in neighborhoods undergoing rapid revitalization has made mill conversions some of the most successful adaptive reuse projects in the Southeast. We Build is a veteran-owned construction company licensed in NC and SC, and we bring specialized experience in transforming these industrial monuments into vibrant modern spaces.</p>
 
 <h2>Why Mills Make Exceptional Conversion Candidates</h2>
 <p>Textile mills possess construction qualities that make them ideal for adaptive reuse. Heavy timber frames (with columns and beams of heart pine or Douglas fir) provide structural capacity far exceeding modern office requirements — these buildings were designed to support heavy machinery and material storage. Brick exterior walls, often 12 to 24 inches thick, provide excellent thermal mass, sound isolation, and durability. Large, regularly spaced windows flood the interior with natural light. Open floor plans with minimal interior partitions allow maximum flexibility in layout design.
@@ -754,7 +754,7 @@ Our <a href="/services/pre-construction">pre-construction services</a> provide d
 <h3>Are there environmental risks specific to textile mill conversions?</h3>
 <p>Yes. Beyond the asbestos and lead paint common to buildings of this era, textile mills may have soil and groundwater contamination from dyeing chemicals, petroleum-saturated floors from decades of machine lubrication, coal ash deposits from on-site power generation, and residual fiber dust in building cavities. Thorough environmental assessment before acquisition is essential. Remediation costs can range from modest to substantial depending on the type and extent of contamination.</p>
 <h3>What makes We Build qualified for mill conversion projects?</h3>
-<p>We Build brings experience with complex adaptive reuse construction, understanding of heavy timber and masonry structural systems, relationships with environmental remediation specialists, knowledge of historic tax credit requirements, and a veteran-owned team that values preserving heritage. We are licensed in NC, SC, and MI, and we serve the entire Charlotte metro area. <a href="/contact">Contact us</a> or call (704) 574-8124 to discuss your mill conversion project.</p>`,
+<p>We Build brings experience with complex adaptive reuse construction, understanding of heavy timber and masonry structural systems, relationships with environmental remediation specialists, knowledge of historic tax credit requirements, and a veteran-owned team that values preserving heritage. We are licensed in NC and SC, and we serve the entire Charlotte metro area. <a href="/contact">Contact us</a> or call (704) 574-8124 to discuss your mill conversion project.</p>`,
   },
   {
     id: "wh-1",
@@ -770,7 +770,7 @@ Our <a href="/services/pre-construction">pre-construction services</a> provide d
 <h2>Understanding Warehouse Construction Costs in 2026</h2>
 <p>Warehouse construction costs in the Charlotte, NC region have stabilized after several years of post-pandemic inflation, though they remain 15 to 25 percent above pre-2020 levels. Understanding current cost benchmarks is essential for property owners, developers, and businesses planning warehouse construction along Charlotte's major logistics corridors — the I-77 corridor from Mooresville to Rock Hill, the I-85 corridor from Gastonia to Concord, and the I-485 loop connecting suburban industrial parks.
 
-We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan, with extensive experience in <a href="/services/warehouse-construction">warehouse construction</a> across the Charlotte metro area. This guide provides current cost data and explains the factors that drive warehouse construction pricing.</p>
+We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina, with extensive experience in <a href="/services/warehouse-construction">warehouse construction</a> across the Charlotte metro area. This guide provides current cost data and explains the factors that drive warehouse construction pricing.</p>
 
 <h2>Cost Ranges by Warehouse Type</h2>
 <h3>Basic Storage Warehouse (Shell Building)</h3>
@@ -820,7 +820,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Why Distribution Center Design and Construction Matters</h2>
 <p>Distribution centers are the engines of modern commerce. Every product purchased online, every grocery item on a store shelf, and every automotive part delivered to a dealership flows through a distribution network — and the physical design of the distribution center determines how efficiently that network operates. In the Charlotte metro area, strategically located at the intersection of I-77 and I-85 with access to one of the nation's busiest airports, distribution center construction is a thriving sector of the commercial construction market.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan. Our <a href="/services/warehouse-construction">warehouse and distribution center construction services</a> combine deep technical knowledge with practical project management to deliver facilities that optimize your logistics operations from day one.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina. Our <a href="/services/warehouse-construction">warehouse and distribution center construction services</a> combine deep technical knowledge with practical project management to deliver facilities that optimize your logistics operations from day one.</p>
 
 <h2>Site Selection for Distribution Centers in Charlotte</h2>
 <h3>Corridor Analysis: I-77 vs I-85</h3>
@@ -885,7 +885,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Charlotte's Industrial Boom Along the I-77 and I-85 Corridors</h2>
 <p>The Charlotte metropolitan area has emerged as one of the Southeast's premier industrial markets, driven by population growth exceeding 2 percent annually, a central East Coast location, strong transportation infrastructure, and a business-friendly regulatory environment. Industrial vacancy rates in the Charlotte market have tightened to historic lows, creating significant demand for new industrial park development along the region's primary logistics corridors.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan. Our <a href="/services/site-development">site development</a> and <a href="/services/warehouse-construction">warehouse construction</a> capabilities support industrial park development from raw land through building occupancy.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina. Our <a href="/services/site-development">site development</a> and <a href="/services/warehouse-construction">warehouse construction</a> capabilities support industrial park development from raw land through building occupancy.</p>
 
 <h2>I-77 Corridor: Mooresville to Rock Hill</h2>
 <h3>Northern I-77 (Mooresville, Statesville, Troutman)</h3>
@@ -953,7 +953,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>The Growing Demand for Cold Storage in Charlotte</h2>
 <p>The cold storage warehouse sector is experiencing unprecedented demand driven by growth in online grocery delivery, pharmaceutical distribution, meal kit services, and the expansion of cold chain logistics networks. Charlotte's position as a major distribution hub at the intersection of I-77 and I-85, combined with its growing population and proximity to major food production regions, makes it an ideal location for cold storage development.</p>
-<p>Cold storage warehouse construction is among the most technically complex and expensive commercial construction types, requiring specialized expertise in insulation, refrigeration, structural engineering, and food safety compliance. We Build is a veteran-owned construction company licensed in North Carolina, South Carolina, and Michigan, and our <a href="/services/warehouse-construction">warehouse construction services</a> include cold storage facilities designed to meet the specific temperature, efficiency, and regulatory requirements of the cold chain industry.</p>
+<p>Cold storage warehouse construction is among the most technically complex and expensive commercial construction types, requiring specialized expertise in insulation, refrigeration, structural engineering, and food safety compliance. We Build is a veteran-owned construction company licensed in North Carolina and South Carolina, and our <a href="/services/warehouse-construction">warehouse construction services</a> include cold storage facilities designed to meet the specific temperature, efficiency, and regulatory requirements of the cold chain industry.</p>
 
 <h2>Types of Cold Storage Facilities</h2>
 <h3>Cooler Storage (35 to 55 Degrees Fahrenheit)</h3>
@@ -1018,7 +1018,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>The Critical Role of Loading Dock Design</h2>
 <p>Loading docks are the interface between the transportation network and the warehouse — every product that enters or leaves the building passes through the dock. A well-designed loading dock facilitates efficient operations, protects products from weather and contamination, ensures worker safety, and minimizes energy waste. A poorly designed dock creates bottlenecks, damage, safety hazards, and unnecessary costs that compound every operating day. Despite this importance, loading dock design is frequently underinvested and an afterthought in warehouse construction projects.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan. Our <a href="/services/warehouse-construction">warehouse construction services</a> include comprehensive loading dock design and construction that matches your operational requirements. This guide covers the essential design considerations, equipment options, and best practices for loading dock construction in the Charlotte area.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina. Our <a href="/services/warehouse-construction">warehouse construction services</a> include comprehensive loading dock design and construction that matches your operational requirements. This guide covers the essential design considerations, equipment options, and best practices for loading dock construction in the Charlotte area.</p>
 
 <h2>Types of Loading Docks</h2>
 <h3>Enclosed Docks</h3>
@@ -1080,7 +1080,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>What Are Commercial Drone Inspections?</h2>
 <p>Commercial drone inspections use unmanned aerial vehicles (UAVs) equipped with high-resolution cameras, thermal imaging sensors, and other specialized payloads to inspect buildings, roofs, facades, and infrastructure without the need for scaffolding, lifts, swing stages, or personnel working at height. The technology has matured rapidly over the past five years, and drone inspections now deliver data quality that meets or exceeds traditional manual inspection methods — at a fraction of the cost and time.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan, and our <a href="/services/drone-inspections">drone inspection services</a> provide Charlotte building owners with comprehensive property condition data that supports maintenance planning, insurance claims, roof coating decisions, and pre-construction assessments.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina, and our <a href="/services/drone-inspections">drone inspection services</a> provide Charlotte building owners with comprehensive property condition data that supports maintenance planning, insurance claims, roof coating decisions, and pre-construction assessments.</p>
 
 <h2>How Drone Inspections Work</h2>
 <h3>Pre-Flight Planning</h3>
@@ -1144,7 +1144,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>How Drone Facade Inspections Are Changing Building Maintenance</h2>
 <p>Commercial building facades require periodic inspection to identify deterioration, structural issues, and water intrusion before they become expensive problems. Traditionally, facade inspections meant weeks of scaffolding installation, swing stages suspended from the roof, or rope access technicians — all expensive, time-consuming, and disruptive to building operations. Drone technology has fundamentally changed this equation, delivering equivalent or superior inspection data at 40 to 70 percent lower cost and in a fraction of the time.</p>
-<p>We Build is a veteran-owned construction company licensed in NC, SC, and MI, and our <a href="/services/drone-inspections">drone inspection services</a> include comprehensive facade assessments for Charlotte commercial buildings of all sizes and types.</p>
+<p>We Build is a veteran-owned construction company licensed in NC and SC, and our <a href="/services/drone-inspections">drone inspection services</a> include comprehensive facade assessments for Charlotte commercial buildings of all sizes and types.</p>
 
 <h2>The Traditional Facade Inspection Problem</h2>
 <p>Traditional facade inspections are expensive because they require physical access to every portion of the building exterior. For a 10-story office building in Uptown Charlotte, scaffolding installation alone can cost $30,000 to $80,000 and take 1 to 2 weeks. Swing stage operations require roof anchor systems, rigging, and trained operators at $3,000 to $5,000 per day. Rope access (industrial abseiling) is less expensive than scaffolding but still costs $1,500 to $3,000 per day and requires specialized technicians. All these methods disrupt building operations, restrict sidewalk and parking access, and create liability exposure.</p>
@@ -1202,7 +1202,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>How Drone Inspections Strengthen Insurance Claims</h2>
 <p>When storm damage, water intrusion, or structural deterioration affects your commercial property, the quality of your documentation directly impacts the outcome of your insurance claim. Traditional inspection methods — a contractor walking the roof with a clipboard, or a few cell phone photos taken from ground level — often fail to capture the full extent of damage. Insurance adjusters evaluating your claim rely on the evidence you provide, and incomplete documentation leads to underpaid or denied claims.</p>
-<p>Drone inspections transform insurance claim documentation by providing comprehensive, high-resolution, GPS-tagged, time-stamped evidence of damage across the entire property. We Build is a veteran-owned construction company licensed in NC, SC, and MI, and our <a href="/services/drone-inspections">drone inspection services</a> give Charlotte property owners the documentation advantage they need when filing insurance claims.</p>
+<p>Drone inspections transform insurance claim documentation by providing comprehensive, high-resolution, GPS-tagged, time-stamped evidence of damage across the entire property. We Build is a veteran-owned construction company licensed in NC and SC, and our <a href="/services/drone-inspections">drone inspection services</a> give Charlotte property owners the documentation advantage they need when filing insurance claims.</p>
 
 <h2>Why Traditional Documentation Falls Short</h2>
 <p>Traditional damage documentation has inherent limitations that weaken insurance claims. Ground-level photos cannot capture roof damage detail. Manual roof inspections cover limited area and miss damage in hard-to-reach locations. Handwritten notes lack the precision and objectivity of aerial imagery. Without GPS coordinates, it is difficult to create a comprehensive damage map. And without pre-damage baseline data, proving that damage is new (rather than pre-existing) becomes the insured's word against the adjuster's skepticism.</p>
@@ -1261,7 +1261,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Why Parking Garages Need Specialized Inspection</h2>
 <p>Parking garages are among the most deterioration-prone commercial structures. Exposed to weather, road salts, vehicle fluids, and constant traffic loading, they deteriorate from the inside out — moisture infiltrates through surface cracks, reaches the embedded reinforcing steel, causes corrosion that expands the steel and spalls the surrounding concrete, creating a progressive cycle of deterioration that accelerates if not detected and treated early. A parking garage that appears serviceable from a casual walk-through may be hiding significant structural deterioration that threatens safety and requires expensive repairs.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in NC, SC, and MI, and our <a href="/services/drone-inspections">drone inspection services</a> include specialized parking garage assessments that detect deterioration traditional methods miss.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in NC and SC, and our <a href="/services/drone-inspections">drone inspection services</a> include specialized parking garage assessments that detect deterioration traditional methods miss.</p>
 
 <h2>How Traditional Parking Garage Inspections Work</h2>
 <p>Traditional parking garage condition assessments rely on three primary techniques. Visual inspection involves an engineer walking the garage, noting visible distress including cracks, spalls, staining, and exposed reinforcing steel. Chain drag or hammer sounding involves dragging a chain or tapping the concrete surface with a hammer to identify delaminated areas (where the concrete has separated internally but has not yet spalled to the surface) — delaminated areas produce a hollow sound compared to the sharp ring of sound concrete. Core sampling involves extracting concrete cores for laboratory testing of compressive strength, chloride content, and carbonation depth.</p>
@@ -1318,7 +1318,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>What Thermal Imaging Reveals About Commercial Roofs</h2>
 <p>Most commercial roof problems start long before they become visible. Moisture infiltrates through pinhole breaches in the membrane, failed flashings, or deteriorated sealants and saturates the insulation below. This trapped moisture degrades the insulation's thermal performance, adds weight that stresses the roof structure, and initiates a cycle of freeze-thaw damage that progressively enlarges the breach. By the time a leak appears inside the building, the damage area is typically five to ten times larger than the visible leak suggests.</p>
-<p>Thermal drone imaging reveals this hidden moisture by detecting the temperature differences between wet and dry roof areas — making invisible problems visible and enabling targeted repairs that extend roof life at a fraction of replacement cost. We Build is a veteran-owned construction company licensed in NC, SC, and MI, and our <a href="/services/drone-inspections">drone inspection services</a> include thermal roof scanning for Charlotte commercial properties.</p>
+<p>Thermal drone imaging reveals this hidden moisture by detecting the temperature differences between wet and dry roof areas — making invisible problems visible and enabling targeted repairs that extend roof life at a fraction of replacement cost. We Build is a veteran-owned construction company licensed in NC and SC, and our <a href="/services/drone-inspections">drone inspection services</a> include thermal roof scanning for Charlotte commercial properties.</p>
 
 <h2>How Thermal Roof Scanning Works</h2>
 <h3>The Science Behind Infrared Detection</h3>
@@ -1381,7 +1381,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Drone Roof Inspection Pricing in 2026</h2>
 <p>Drone roof inspections have become an essential tool for commercial building maintenance, insurance documentation, and pre-construction assessment. As the technology has matured and more providers have entered the market, pricing has become more competitive — but understanding what drives costs and what is included in the price helps Charlotte building owners make informed purchasing decisions and avoid overpaying or under-specifying their inspections.</p>
-<p>We Build is a veteran-owned construction company licensed in NC, SC, and MI, and our <a href="/services/drone-inspections">drone inspection services</a> provide transparent, competitive pricing for Charlotte-area commercial properties.</p>
+<p>We Build is a veteran-owned construction company licensed in NC and SC, and our <a href="/services/drone-inspections">drone inspection services</a> provide transparent, competitive pricing for Charlotte-area commercial properties.</p>
 
 <h2>2026 Price Ranges for Charlotte</h2>
 <h3>Visual-Only Roof Inspection</h3>
@@ -1446,7 +1446,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Why Understanding Your Construction Estimate Matters</h2>
 <p>A commercial construction estimate is the financial blueprint for your project — a detailed document that translates architectural drawings and specifications into dollars and cents. Yet many business owners and property managers receive estimates of 20, 50, or even 100 pages and do not know how to evaluate them critically. This knowledge gap can lead to accepting inflated bids, missing important scope exclusions, comparing bids that are not truly comparable, and making decisions based on bottom-line price alone without understanding what is (and is not) included.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan. We believe that informed clients make better decisions, and we provide transparent, detailed estimates designed to be understood — not just signed. This guide explains how to read and evaluate a commercial construction estimate like a professional.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina. We believe that informed clients make better decisions, and we provide transparent, detailed estimates designed to be understood — not just signed. This guide explains how to read and evaluate a commercial construction estimate like a professional.</p>
 
 <h2>Anatomy of a Commercial Construction Estimate</h2>
 <h3>CSI MasterFormat Organization</h3>
@@ -1508,7 +1508,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>What Does a Commercial General Contractor Actually Do?</h2>
 <p>A commercial general contractor (GC) is the single point of responsibility for executing a construction project from start to finish. The GC manages every aspect of the construction process — hiring and coordinating subcontractors, procuring materials, managing the schedule, ensuring quality, maintaining safety, handling permits and inspections, and communicating with the building owner throughout the project. Think of the GC as the CEO of your construction project.</p>
-<p>We Build is a veteran-owned commercial general contractor licensed in North Carolina, South Carolina, and Michigan. Our <a href="/services/general-contractor">general contractor services</a> have served Charlotte-area businesses for years, delivering projects on budget and on schedule across the commercial construction spectrum.</p>
+<p>We Build is a veteran-owned commercial general contractor licensed in North Carolina and South Carolina. Our <a href="/services/general-contractor">general contractor services</a> have served Charlotte-area businesses for years, delivering projects on budget and on schedule across the commercial construction spectrum.</p>
 
 <h2>The Daily Responsibilities of a Commercial GC</h2>
 <h3>Pre-Construction Phase</h3>
@@ -1570,7 +1570,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Navigating Charlotte's Commercial Construction Permitting Process</h2>
 <p>Commercial construction permits are legal authorizations from the local government that verify your project complies with building codes, zoning regulations, fire codes, and other safety requirements. No commercial construction project in Charlotte — whether a new building, renovation, or tenant upfit — can legally proceed without the appropriate permits. Attempting to build without permits exposes you to stop-work orders, fines, required demolition of unpermitted work, and liability in the event of accidents or property damage.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in NC, SC, and MI. Our <a href="/services/general-contractor">general contractor services</a> include complete permitting management — from initial application through final inspection and certificate of occupancy. This guide demystifies Charlotte's commercial permitting process.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in NC and SC. Our <a href="/services/general-contractor">general contractor services</a> include complete permitting management — from initial application through final inspection and certificate of occupancy. This guide demystifies Charlotte's commercial permitting process.</p>
 
 <h2>Types of Permits Required</h2>
 <h3>Building Permit</h3>
@@ -1633,7 +1633,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Financing Options for Commercial Construction in Charlotte</h2>
 <p>Financing is often the most complex and least understood aspect of commercial construction projects. Unlike residential mortgages, commercial construction financing involves multiple loan types, complex underwriting criteria, draw schedules tied to construction milestones, and a transition from construction lending to permanent financing upon project completion. Understanding your financing options before you begin design helps you set realistic budgets, choose appropriate project delivery methods, and avoid costly delays.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in NC, SC, and MI. While we are builders, not lenders, our experience with hundreds of Charlotte-area commercial projects gives us practical knowledge of how construction financing works and how to structure projects for successful lending. Our <a href="/services/pre-construction">pre-construction services</a> include budget development that supports loan applications.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in NC and SC. While we are builders, not lenders, our experience with hundreds of Charlotte-area commercial projects gives us practical knowledge of how construction financing works and how to structure projects for successful lending. Our <a href="/services/pre-construction">pre-construction services</a> include budget development that supports loan applications.</p>
 
 <h2>SBA Loans for Owner-Occupied Commercial Properties</h2>
 <h3>SBA 504 Loan Program</h3>
@@ -1692,7 +1692,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Learning From Others' Expensive Mistakes</h2>
 <p>Commercial construction projects in Charlotte represent significant investments — typically hundreds of thousands to millions of dollars — and mistakes during the process can be extraordinarily costly to correct. After completing projects across the Charlotte metro area, we have seen the same mistakes repeated by business owners who are experienced in their own industries but unfamiliar with the construction process. This guide identifies the ten most common and expensive mistakes, explains why they happen, and provides practical advice for avoiding them.</p>
-<p>We Build is a veteran-owned commercial construction company licensed in North Carolina, South Carolina, and Michigan. Our mission is to help Charlotte business owners navigate the construction process successfully — and that starts with understanding the pitfalls that trap the unwary.</p>
+<p>We Build is a veteran-owned commercial construction company licensed in North Carolina and South Carolina. Our mission is to help Charlotte business owners navigate the construction process successfully — and that starts with understanding the pitfalls that trap the unwary.</p>
 
 <h2>Mistake 1: Skipping Pre-Construction Planning</h2>
 <p>The most expensive mistake happens before construction begins — or more accurately, because proper planning did not happen before construction began. Business owners eager to open a new location, expand their operations, or renovate their space often want to start construction immediately, viewing the planning phase as unnecessary delay. In reality, every dollar spent on pre-construction planning saves $5 to $15 during construction by identifying and resolving issues when they are cheap to fix (on paper) rather than expensive to fix (in the field).</p>

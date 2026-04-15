@@ -272,7 +272,6 @@ const areaPages = [
   { name: 'Lake Norman', href: '/areas/lake-norman' },
   { name: 'Huntersville', href: '/areas/huntersville' },
   { name: 'Mooresville', href: '/areas/mooresville' },
-  { name: 'Detroit, MI', href: '/areas/detroit' },
 ];
 
 export default function RockHillPage() {
@@ -794,7 +793,7 @@ export default function RockHillPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-bold mb-4">Other Areas We Serve</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              In addition to Rock Hill and York County, We Build provides construction services throughout the greater Charlotte region and Metro Detroit. Our multi-state licensing allows us to serve clients across SC, NC, and MI.
+              In addition to Rock Hill and York County, We Build provides construction services throughout the greater Charlotte region. Our multi-state licensing allows us to serve clients across SC and NC.
             </p>
             <div className="flex flex-wrap gap-3">
               {areaPages.map((area) => (

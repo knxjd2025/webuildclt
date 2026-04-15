@@ -659,7 +659,7 @@ export default function LakeNormanPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-2xl font-bold mb-4">Other Areas We Serve</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              In addition to the Lake Norman region, We Build provides construction services throughout the greater Charlotte area and Metro Detroit. Our multi-state licensing allows us to serve clients across NC, SC, and MI.
+              In addition to the Lake Norman region, We Build provides construction services throughout the greater Charlotte area. Our multi-state licensing allows us to serve clients across NC and SC.
             </p>
             <div className="flex flex-wrap gap-3">
               {[

@@ -66,7 +66,6 @@ export const metadata: Metadata = {
     'retail construction Charlotte North Carolina',
     'retail construction fort mill sc',
     'retail construction lake norman nc',
-    'retail construction detroit mi',
     'commercial retail contractor near me',
   ],
   alternates: {

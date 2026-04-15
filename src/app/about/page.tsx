@@ -37,7 +37,7 @@ import {
 export const metadata: Metadata = {
   title: 'About We Build | Veteran-Owned Construction Company Charlotte NC',
   description:
-    'We Build is a veteran and family-owned construction company in Charlotte NC and Detroit MI with 60+ years combined experience. Licensed in NC, SC & MI. USGBC member. FAA-certified drone inspections. Commercial construction, roof coating, and design-build services.',
+    'We Build is a veteran and family-owned construction company in Charlotte NC with 60+ years combined experience. Licensed in NC & SC. USGBC member. FAA-certified drone inspections. Commercial construction, roof coating, and design-build services.',
   keywords: [
     'about we build charlotte',
     'veteran owned construction company charlotte nc',
@@ -45,10 +45,9 @@ export const metadata: Metadata = {
     'construction company charlotte nc',
     'commercial construction charlotte',
     'general contractor charlotte nc',
-    'licensed contractor north carolina south carolina michigan',
+    'licensed contractor north carolina south carolina',
     'USGBC member contractor charlotte',
     'veteran contractor charlotte nc',
-    'construction company detroit mi',
     'drone inspection charlotte nc',
     'design build charlotte nc',
   ],
@@ -240,9 +239,9 @@ const whyChooseUs = [
   },
   {
     icon: Award,
-    title: 'Licensed in NC, SC & Michigan',
+    title: 'Licensed in NC & SC',
     description:
-      'We Build holds active general contractor licenses in North Carolina, South Carolina, and Michigan. Multi-state licensing allows us to serve the Charlotte metro, South Carolina border communities, and the Detroit metropolitan area. View all our certifications and licenses on our credentials page.',
+      'We Build holds active general contractor licenses in North Carolina and South Carolina. Multi-state licensing allows us to serve the Charlotte metro and South Carolina border communities. View all our certifications and licenses on our credentials page.',
   },
   {
     icon: Leaf,
@@ -346,7 +345,7 @@ const aboutFaqs = [
   {
     question: 'How long has We Build been serving the Charlotte construction market?',
     answer:
-      'We Build was founded in Charlotte, North Carolina in 2019 and has been delivering commercial construction, upfits, roof coatings, and design-build services across the region ever since. While the company is relatively young, our leadership team brings over sixty years of combined construction experience spanning commercial builds, industrial projects, and specialty coatings. That depth of field knowledge, combined with fresh energy and veteran-driven accountability, has fueled our growth from a small upfit contractor to a multi-state construction company serving Charlotte, Fort Mill, Lake Norman, and the Detroit metro area.',
+      'We Build was founded in Charlotte, North Carolina in 2019 and has been delivering commercial construction, upfits, roof coatings, and design-build services across the region ever since. While the company is relatively young, our leadership team brings over sixty years of combined construction experience spanning commercial builds, industrial projects, and specialty coatings. That depth of field knowledge, combined with fresh energy and veteran-driven accountability, has fueled our growth from a small upfit contractor to a multi-state construction company serving Charlotte, Fort Mill, Lake Norman, and the surrounding Carolinas.',
   },
 ];
 
@@ -731,7 +730,7 @@ export default function AboutPage() {
                   industrial warehouses
                 </Link>
                 , and commercial roof restoration projects across
-                North Carolina, South Carolina, and Michigan.
+                North Carolina and South Carolina.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 This breadth of experience means we understand the unique

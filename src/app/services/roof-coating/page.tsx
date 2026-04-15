@@ -34,7 +34,7 @@ import {
 export const metadata: Metadata = {
   title: 'Roof Coating Charlotte NC | Commercial Roof Restoration',
   description:
-    'Commercial roofing contractor near me in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric roof coatings. Save up to 50% vs roof replacement. Commercial roofing contractors near me serving Charlotte and Detroit Metro. USGBC member. Veteran-owned. Free roof assessments. (704) 574-8124.',
+    'Commercial roofing contractor near me in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric roof coatings. Save up to 50% vs roof replacement. Commercial roofing contractors near me serving Charlotte and the Carolinas. USGBC member. Veteran-owned. Free roof assessments. (704) 574-8124.',
   keywords: [
     'roof coating charlotte nc',
     'commercial roof coating charlotte',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     'roof coating cost charlotte nc',
     'commercial roofing Charlotte NC',
     'commercial roof coating near me',
-    'commercial roofing contractor Detroit MI',
+    'commercial roofing contractor near me Charlotte NC',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/roof-coating',
@@ -219,7 +219,7 @@ const benefits = [
     icon: DollarSign,
     title: 'Save 50-70% vs. Roof Replacement',
     description:
-      'A full commercial roof replacement in Charlotte typically costs $7 to $12 per square foot, while a professional roof coating costs $2 to $5 per square foot. For a 20,000-square-foot commercial roof, that is a savings of $100,000 to $140,000. Coating also avoids the hidden costs of replacement: dumpster fees, tear-off labor, disposal charges, and potential damage to interior spaces during removal. The savings compound further when you factor in the tax treatment, as roof coatings are typically classified as a maintenance expense rather than a capital expenditure.',
+      'A full commercial roof replacement in Charlotte typically costs $12 to $20 per square foot, while a professional roof coating costs $8 to $12 per square foot installed. For a 20,000-square-foot commercial roof, that is a savings of $80,000 to $160,000. Coating also avoids the hidden costs of replacement: dumpster fees, tear-off labor, disposal charges, and potential damage to interior spaces during removal. The savings compound further when you factor in the tax treatment, as roof coatings are typically classified as a maintenance expense rather than a capital expenditure.',
   },
   {
     icon: Zap,
@@ -290,7 +290,7 @@ const faqs = [
   {
     question: 'How much does commercial roof coating cost in Charlotte, NC?',
     answer:
-      'Commercial roof coating in Charlotte typically costs $2 to $5 per square foot, depending on the coating type, roof condition, and accessibility. For comparison, a full commercial roof replacement runs $7 to $12 per square foot. A standard 15,000-square-foot commercial roof coating project in Charlotte ranges from $30,000 to $75,000, compared to $105,000 to $180,000 for replacement. We provide free roof assessments with detailed, itemized cost estimates so you know exactly what to expect before any work begins.',
+      'Commercial roof coating in Charlotte typically costs $8 to $12 per square foot installed, depending on the coating type, roof condition, and accessibility. For comparison, a full commercial roof replacement runs $12 to $20 per square foot. A standard 15,000-square-foot commercial roof coating project in Charlotte ranges from $120,000 to $180,000, compared to $180,000 to $300,000 for replacement. We provide free roof assessments with detailed, itemized cost estimates so you know exactly what to expect before any work begins.',
   },
   {
     question: 'How long does a commercial roof coating last?',
@@ -345,7 +345,7 @@ const faqs = [
   {
     question: 'How does roof coating compare to a TPO or EPDM roof replacement in Charlotte?',
     answer:
-      'A full TPO or EPDM roof replacement in Charlotte costs $7 to $12 per square foot and requires 2 to 4 weeks of disruptive tear-off, disposal, and installation. Roof coating costs $2 to $5 per square foot and takes 3 to 7 days with zero interior disruption. Replacement generates significant landfill waste from the old membrane, while coating creates no tear-off waste at all. The trade-off is that coating requires a structurally sound existing roof and substrate in reasonable condition. If your existing membrane is severely deteriorated or insulation is saturated, replacement is the better long-term investment. Our free roof assessment determines which option is right for your specific building.',
+      'A full TPO or EPDM roof replacement in Charlotte costs $12 to $20 per square foot and requires 2 to 4 weeks of disruptive tear-off, disposal, and installation. Roof coating costs $8 to $12 per square foot installed and takes 3 to 7 days with zero interior disruption. Replacement generates significant landfill waste from the old membrane, while coating creates no tear-off waste at all. The trade-off is that coating requires a structurally sound existing roof and substrate in reasonable condition. If your existing membrane is severely deteriorated or insulation is saturated, replacement is the better long-term investment. Our free roof assessment determines which option is right for your specific building.',
   },
   {
     question: 'Can you coat a metal roof on a warehouse or industrial building in the Charlotte area?',
@@ -440,9 +440,9 @@ export default function RoofCoatingPage() {
                 Save 50-70% vs. Full Roof Replacement
               </h3>
               <p className="text-muted-foreground">
-                A commercial roof coating costs $2 to $5 per square foot, compared to $7 to $12
+                A commercial roof coating costs $8 to $12 per square foot installed, compared to $12 to $20
                 per square foot for full replacement. For a 20,000-square-foot commercial roof,
-                that is a potential savings of $100,000 to $140,000 — plus reduced energy costs
+                that is a potential savings of $80,000 to $160,000 — plus reduced energy costs
                 from reflective coatings and favorable tax treatment as a maintenance expense.
               </p>
             </div>
@@ -664,7 +664,7 @@ export default function RoofCoatingPage() {
                   <h3 className="text-lg font-bold mb-4 text-primary">Roof Coating</h3>
                   <ul className="space-y-3">
                     {[
-                      'Cost: $2-$5 per square foot',
+                      'Cost: $8-$12 per square foot installed',
                       'Timeline: 3-7 business days',
                       'Business disruption: None',
                       'Waste generated: Near zero',
@@ -686,7 +686,7 @@ export default function RoofCoatingPage() {
                   <h3 className="text-lg font-bold mb-4">Roof Replacement</h3>
                   <ul className="space-y-3">
                     {[
-                      'Cost: $7-$12 per square foot',
+                      'Cost: $12-$20 per square foot',
                       'Timeline: 2-6 weeks',
                       'Business disruption: Significant noise and debris',
                       'Waste generated: Thousands of pounds to landfill',
@@ -851,27 +851,27 @@ export default function RoofCoatingPage() {
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li className="flex justify-between">
                       <span>Acrylic coating:</span>
-                      <span className="font-medium">$2.00 - $3.50/sq ft</span>
+                      <span className="font-medium">$8.00 - $10.00/sq ft</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Silicone coating:</span>
-                      <span className="font-medium">$3.00 - $5.00/sq ft</span>
+                      <span className="font-medium">$9.00 - $12.00/sq ft</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Polyurethane system:</span>
-                      <span className="font-medium">$3.50 - $5.50/sq ft</span>
+                      <span className="font-medium">$9.00 - $12.00/sq ft</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Elastomeric coating:</span>
-                      <span className="font-medium">$2.50 - $4.50/sq ft</span>
+                      <span className="font-medium">$8.50 - $11.00/sq ft</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Cool roof coating:</span>
-                      <span className="font-medium">$2.50 - $4.00/sq ft</span>
+                      <span className="font-medium">$8.00 - $10.00/sq ft</span>
                     </li>
                     <li className="border-t pt-2 flex justify-between font-semibold text-foreground">
                       <span>Full replacement:</span>
-                      <span>$7.00 - $12.00/sq ft</span>
+                      <span>$12.00 - $20.00/sq ft</span>
                     </li>
                   </ul>
                 </CardContent>

@@ -46,7 +46,6 @@ export const metadata: Metadata = {
     'building contractor charlotte nc',
     'general contracting services charlotte',
     'general contractor Charlotte North Carolina',
-    'general contractor Detroit MI',
     'general contractor contractor near me',
     'licensed general contractor near me',
     'commercial GC Charlotte NC',

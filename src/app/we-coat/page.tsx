@@ -37,9 +37,9 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'We Coat | Commercial Roof Coating Charlotte NC | Save Up to 50%',
+  title: 'We Coat | Commercial Roof Coating Charlotte NC & Michigan | Save Up to 50%',
   description:
-    'We Coat is We Build\u2019s dedicated commercial roof coating division in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs replacement. IIBEC certified. USGBC member. Free assessments. (704) 574-8124.',
+    'We Coat is We Build\u2019s dedicated commercial roof coating division serving the Carolinas and Michigan. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs replacement. IIBEC certified. USGBC member. Free assessments. (704) 574-8124.',
   keywords: [
     'roof coating charlotte nc',
     'commercial roof coating charlotte',
@@ -55,6 +55,9 @@ export const metadata: Metadata = {
     'flat roof coating charlotte nc',
     'metal roof coating charlotte',
     'cool roof charlotte nc',
+    'roof coating michigan',
+    'commercial roof coating detroit',
+    'roof coating contractor michigan',
   ],
 };
 
@@ -63,7 +66,7 @@ const coatingTypes = [
     title: 'Silicone Roof Coating',
     description:
       'Silicone roof coating is the premium choice for flat and low-slope commercial roofs in the Charlotte area. Silicone excels at waterproofing and handles ponding water without degradation, which is a critical advantage for flat commercial roofs where drainage can be imperfect. Silicone delivers the longest lifespan of any coating type at 15 to 20 years, and its superior UV resistance makes it the ideal choice for Charlotte\u2019s intense summers where roof surface temperatures regularly exceed 160 degrees Fahrenheit. Silicone coatings maintain their flexibility and reflectivity over their full lifespan without becoming brittle or chalking, which is a common failure mode in lower-grade coatings. Our team applies silicone coatings at a dry film thickness of 20 to 25 mils to ensure maximum waterproofing performance and longevity.',
-    cost: '$3\u2013$5/sq ft',
+    cost: '$9\u2013$12/sq ft',
     lifespan: '15\u201320 years',
     bestFor: 'Flat roofs, roofs with ponding water, maximum longevity',
   },
@@ -71,7 +74,7 @@ const coatingTypes = [
     title: 'Acrylic Roof Coating',
     description:
       'Acrylic roof coating is the most affordable professional coating option and offers excellent reflective properties that reduce cooling costs significantly. Acrylic works best on sloped metal roofs where water drains quickly rather than ponding, as prolonged water exposure can degrade acrylic coatings over time. The high solar reflectance of white acrylic coatings bounces up to 85 percent of solar radiation away from the building, making it one of the most effective options for reducing energy costs in Charlotte\u2019s hot climate. Acrylic coatings are also the easiest to apply and maintain, accepting topcoats and touch-ups readily. For building owners looking for a cost-effective entry into roof coating with a solid return on investment, acrylic is often the right starting point.',
-    cost: '$1.50\u2013$3/sq ft',
+    cost: '$8\u2013$10/sq ft',
     lifespan: '10\u201315 years',
     bestFor: 'Sloped metal roofs, budget-conscious projects, good drainage',
   },
@@ -79,7 +82,7 @@ const coatingTypes = [
     title: 'Polyurethane Roof Coating',
     description:
       'Polyurethane roof coating provides the highest impact resistance and abrasion resistance of any coating type, making it the preferred choice for roofs that experience heavy foot traffic from maintenance personnel, HVAC technicians, or rooftop equipment servicing. Polyurethane coatings are available in both aromatic and aliphatic formulations. Aromatic polyurethane serves as a durable, adhesion-promoting base coat, while aliphatic polyurethane functions as a UV-stable topcoat that resists color fading and chalking. Many of our Charlotte commercial projects use a two-coat polyurethane system that combines the impact resistance of aromatic with the weathering resistance of aliphatic for maximum performance. This system is particularly effective on high-traffic commercial roofs where durability matters more than anything else.',
-    cost: '$3\u2013$5.50/sq ft',
+    cost: '$9\u2013$12/sq ft',
     lifespan: '10\u201320 years',
     bestFor: 'High-traffic roofs, rooftop equipment areas, maximum durability',
   },
@@ -87,7 +90,7 @@ const coatingTypes = [
     title: 'Elastomeric Roof Coating',
     description:
       'Elastomeric roof coating is known for its exceptional flexibility, stretching up to 300 percent without cracking even under extreme temperature swings. This elasticity makes elastomeric coatings the ideal solution for metal roofs that experience significant thermal cycling between Charlotte\u2019s hot summers and cool winters. Metal roof panels expand and contract with temperature changes, and rigid coatings will crack at those stress points. Elastomeric coatings move with the metal, maintaining a seamless waterproof barrier regardless of temperature. Elastomeric systems also bridge existing cracks and gaps in the substrate, which makes them an effective repair-and-coat solution for aging metal and modified bitumen roofs that have developed minor cracking over the years.',
-    cost: '$2.50\u2013$4.50/sq ft',
+    cost: '$8.50\u2013$11/sq ft',
     lifespan: '10\u201315 years',
     bestFor: 'Metal roofs, thermal cycling, modified bitumen substrates',
   },
@@ -218,7 +221,7 @@ const benefits = [
     icon: DollarSign,
     title: 'Save 50\u201370% vs. Full Replacement',
     description:
-      'A professional roof coating costs $2 to $5 per square foot compared to $5 to $12 or more per square foot for a full roof replacement. For a 10,000 square foot commercial roof, that represents $30,000 to $70,000 in savings. When you factor in avoided business disruption, zero landfill disposal fees, and reduced energy costs from reflective coatings, the total return on investment makes roof coating one of the smartest capital expenditure decisions a building owner can make.',
+      'A professional roof coating costs $8 to $12 per square foot installed compared to $12 to $20 or more per square foot for a full roof replacement. For a 10,000 square foot commercial roof, that represents $40,000 to $80,000 in savings. When you factor in avoided business disruption, zero landfill disposal fees, and reduced energy costs from reflective coatings, the total return on investment makes roof coating one of the smartest capital expenditure decisions a building owner can make.',
   },
   {
     icon: Leaf,
@@ -283,7 +286,7 @@ const weCoatFaqs = [
   {
     question: 'How much does commercial roof coating cost in Charlotte?',
     answer:
-      'Commercial roof coating in Charlotte typically costs $2 to $5 per square foot, depending on coating type, roof condition, and accessibility. Silicone coatings run $3 to $5 per square foot, acrylic $1.50 to $3 per square foot, polyurethane $3 to $5.50 per square foot, and elastomeric $2.50 to $4.50 per square foot. For a 10,000 square foot commercial roof, expect $20,000 to $50,000 compared to $50,000 to $120,000 or more for full replacement. We provide detailed, line-item proposals so you know exactly where your money is going.',
+      'Commercial roof coating in Charlotte typically costs $8 to $12 per square foot installed, depending on coating type, roof condition, and accessibility. Silicone coatings run $9 to $12 per square foot, acrylic $8 to $10 per square foot, polyurethane $9 to $12 per square foot, and elastomeric $8.50 to $11 per square foot. For a 10,000 square foot commercial roof, expect $80,000 to $120,000 compared to $120,000 to $200,000 or more for full replacement. We provide detailed, line-item proposals so you know exactly where your money is going.',
   },
   {
     question: 'How long does a commercial roof coating last?',
@@ -321,9 +324,9 @@ const weCoatFaqs = [
       'Yes. We provide manufacturer-backed warranties on all our coating systems, typically ranging from 10 to 20 years depending on the product and system specification. These warranties cover material defects and, in many cases, include labor for warranty repairs. Our workmanship warranty covers the quality of our application. Specific warranty terms, exclusions, and requirements are detailed in every proposal so you know exactly what is covered before work begins.',
   },
   {
-    question: 'What areas near Charlotte do you serve for roof coating?',
+    question: 'What areas do you serve for roof coating?',
     answer:
-      'We Coat serves the entire Charlotte metropolitan area including Mecklenburg County, Union County, Iredell County, Cabarrus County, and York County in South Carolina. Specific communities include South Charlotte, Ballantyne, Uptown Charlotte, South End, Huntersville, Cornelius, Davidson, Mooresville, Fort Mill, Indian Land, Rock Hill, Matthews, Mint Hill, Pineville, and Waxhaw. We hold contractor licenses in both North Carolina and South Carolina.',
+      'We Coat serves two major markets. In the Carolinas, we cover the entire Charlotte metropolitan area including Mecklenburg County, Union County, Iredell County, Cabarrus County, and York County in South Carolina. Specific communities include South Charlotte, Ballantyne, Uptown Charlotte, South End, Huntersville, Cornelius, Davidson, Mooresville, Fort Mill, Indian Land, Rock Hill, Matthews, Mint Hill, Pineville, and Waxhaw. We also serve the Detroit Metro area in Michigan, including Detroit, Dearborn, Troy, Southfield, Royal Oak, Warren, Sterling Heights, and Ann Arbor. We hold contractor licenses in North Carolina, South Carolina, and Michigan. Visit wecoatcommercialroofing.com for more about our Michigan operations.',
   },
   {
     question: 'How do I know if my roof qualifies for coating instead of replacement?',
@@ -333,7 +336,7 @@ const weCoatFaqs = [
   {
     question: 'What is the We Coat division and how is it related to We Build?',
     answer:
-      'We Coat is the dedicated commercial roof coating division of We Build, our veteran and family-owned construction company in Charlotte, NC. While We Build handles full-service commercial construction, upfits, and design-build projects, We Coat focuses exclusively on commercial roof coating and restoration. This specialization means our coating crews apply coatings every day — not as a side service — which results in better application quality and faster project completion. We Coat clients receive the same transparent pricing, dedicated project management, and warranty support that all We Build clients enjoy.',
+      'We Coat is the dedicated commercial roof coating division of We Build, our veteran and family-owned construction company. While We Build handles full-service commercial construction in the Carolinas, We Coat focuses exclusively on commercial roof coating and restoration across both the Carolinas and Michigan. This specialization means our coating crews apply coatings every day — not as a side service — which results in better application quality and faster project completion. We Coat clients receive the same transparent pricing, dedicated project management, and warranty support that all We Build clients enjoy. Visit wecoatcommercialroofing.com for details about our Michigan roof coating services.',
   },
   {
     question: 'How does We Coat use drone technology for roof assessments?',
@@ -372,7 +375,7 @@ export default function WeCoatPage() {
         data={[
           serviceSchema(
             'We Coat \u2014 Commercial Roof Coating & Restoration',
-            'Professional commercial roof coating in Charlotte, NC. Silicone, acrylic, polyurethane, and elastomeric coatings. Save up to 50% vs roof replacement. IIBEC certified. USGBC member.',
+            'Professional commercial roof coating in the Carolinas and Michigan. Silicone, acrylic, polyurethane, and elastomeric coatings. Save up to 50% vs roof replacement. IIBEC certified. USGBC member.',
             'https://webuildclt.com/we-coat'
           ),
           faqSchema(weCoatFaqs),
@@ -381,7 +384,7 @@ export default function WeCoatPage() {
 
       <PageHero
         title="We Coat | Commercial Roof Coating Charlotte NC"
-        subtitle="Charlotte\u2019s dedicated commercial roof coating division. Save up to 50% vs replacement. IIBEC certified. Free assessments."
+        subtitle="Commercial roof coating in the Carolinas & Michigan. Save up to 50% vs replacement. IIBEC certified. Free assessments."
         backgroundImage="/images/we-coat-hero.jpg"
       />
 
@@ -402,7 +405,7 @@ export default function WeCoatPage() {
               <h2 id="overview">What Is We Coat? Charlotte&rsquo;s Commercial Roof Coating Experts</h2>
 
               <p>
-                When a commercial roof starts showing its age, most building owners assume the only option is a full tear-off and replacement costing $50,000 to $120,000 or more. That assumption is wrong for the majority of commercial roofs in Charlotte. If the structure is sound and the insulation is dry, a professionally applied roof coating can restore waterproofing, add 10 to 20 years of service life, and save 50 to 70 percent compared to replacement. That is exactly the service We Coat delivers.
+                When a commercial roof starts showing its age, most building owners assume the only option is a full tear-off and replacement costing $120,000 to $200,000 or more. That assumption is wrong for the majority of commercial roofs in Charlotte. If the structure is sound and the insulation is dry, a professionally applied roof coating can restore waterproofing, add 10 to 20 years of service life, and save 50 to 70 percent compared to replacement. That is exactly the service We Coat delivers.
               </p>
 
               <p>
@@ -419,7 +422,7 @@ export default function WeCoatPage() {
 
               <div className="mini-story">
                 <p>
-                  Mountain Island Charter School in Charlotte needed a roof solution that would protect their 22,000-square-foot facility without disrupting classes. A full replacement would have required closing sections of the school for weeks and cost over $200,000. We Coat applied a multi-layer silicone coating system with polyester fabric reinforcement at all seams and penetrations. The project completed in 5 working days with zero disruption to school operations, at approximately 40 percent of the replacement cost. The school received a 20-year NDL (No Dollar Limit) manufacturer warranty on the completed coating system.
+                  Mountain Island Charter School in Charlotte needed a roof solution that would protect their 22,000-square-foot facility without disrupting classes. A full replacement would have required closing sections of the school for weeks and cost significantly more. We Coat applied a multi-layer silicone coating system with polyester fabric reinforcement at all seams and penetrations. The project completed in 5 working days with zero disruption to school operations, at approximately 40 percent of the replacement cost. The school received a 20-year NDL (No Dollar Limit) manufacturer warranty on the completed coating system.
                 </p>
                 <div className="story-attribution">Mountain Island Charter School, Charlotte NC</div>
               </div>
@@ -445,6 +448,15 @@ export default function WeCoatPage() {
                 </p>
               </div>
 
+              <div className="callout callout-tip">
+                <div className="callout-title">We Coat Service Areas: Carolinas &amp; Michigan</div>
+                <p>
+                  While We Build&rsquo;s construction services are focused in the Carolinas, <strong>We Coat serves both the Carolinas and Michigan</strong>. Our roof coating division is licensed and operates in North Carolina, South Carolina, and Michigan, serving the Charlotte metro area and the Detroit Metro area. For Michigan roof coating inquiries, visit{' '}
+                  <a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">wecoatcommercialroofing.com</a>{' '}
+                  or call us at <a href="tel:+17045748124">(704) 574-8124</a>.
+                </p>
+              </div>
+
               <h2 id="coating-types">Commercial Roof Coating Services</h2>
 
               <p>
@@ -465,7 +477,7 @@ export default function WeCoatPage() {
                     </li>
                     <li className="flex items-start gap-3">
                       <Shield className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                      <span className="text-muted-foreground">Licensed in NC &amp; SC</span>
+                      <span className="text-muted-foreground">Licensed in NC, SC &amp; MI</span>
                     </li>
                     <li className="flex items-start gap-3">
                       <Clock className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
@@ -481,7 +493,7 @@ export default function WeCoatPage() {
                     </li>
                     <li className="flex items-start gap-3">
                       <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                      <span className="text-muted-foreground">Based in South Charlotte</span>
+                      <span className="text-muted-foreground">Serving Carolinas &amp; Michigan</span>
                     </li>
                   </ul>
                 </div>
@@ -686,7 +698,7 @@ export default function WeCoatPage() {
             <h2 id="cost-savings">Cost Savings &amp; ROI: Roof Coating vs. Full Replacement</h2>
 
             <p>
-              The financial case for roof coating over full replacement is compelling and straightforward. A commercial roof coating costs $2 to $5 per square foot installed, while a full roof replacement costs $5 to $12 or more per square foot. For a typical 10,000 square foot commercial roof in Charlotte, that is $20,000 to $50,000 for coating versus $50,000 to $120,000 for replacement. The savings range from $30,000 to $70,000 or more on a single building.
+              The financial case for roof coating over full replacement is compelling and straightforward. A commercial roof coating costs $8 to $12 per square foot installed, while a full roof replacement costs $12 to $20 or more per square foot. For a typical 10,000 square foot commercial roof in Charlotte, that is $80,000 to $120,000 for coating versus $120,000 to $200,000 for replacement. The savings range from $40,000 to $80,000 or more on a single building.
             </p>
 
             <p>
@@ -698,7 +710,7 @@ export default function WeCoatPage() {
             <Card className="border-primary/30 bg-primary/5">
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-semibold mb-2">Roof Coating</h3>
-                <div className="text-4xl font-bold text-primary mb-4">$20K\u2013$50K</div>
+                <div className="text-4xl font-bold text-primary mb-4">$80K\u2013$120K</div>
                 <ul className="text-sm text-muted-foreground space-y-2 text-left">
                   <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />2\u20135 day application</li>
                   <li className="flex items-start gap-2"><CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />Zero business disruption</li>
@@ -713,7 +725,7 @@ export default function WeCoatPage() {
             <Card>
               <CardContent className="p-8 text-center">
                 <h3 className="text-xl font-semibold mb-2">Full Replacement</h3>
-                <div className="text-4xl font-bold text-muted-foreground mb-4">$50K\u2013$120K+</div>
+                <div className="text-4xl font-bold text-muted-foreground mb-4">$120K\u2013$200K+</div>
                 <ul className="text-sm text-muted-foreground space-y-2 text-left">
                   <li className="flex items-start gap-2"><Clock className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" aria-hidden="true" />2\u20136 week installation</li>
                   <li className="flex items-start gap-2"><Clock className="h-4 w-4 text-muted-foreground flex-shrink-0 mt-0.5" aria-hidden="true" />Significant business disruption</li>

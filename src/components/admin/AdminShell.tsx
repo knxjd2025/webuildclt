@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { createBrowserClient } from '@/lib/supabase-browser';
 import { ADMIN_PATH } from '@/lib/admin-path';
 import { Button } from '@/components/ui/button';
-import { LayoutDashboard, FolderOpen, FileText, Bot, Megaphone, LogOut } from 'lucide-react';
+import { LayoutDashboard, FolderOpen, FileText, Bot, Megaphone, DollarSign, LogOut } from 'lucide-react';
 
 export function AdminShell({ children }: { children: React.ReactNode }) {
   const router = useRouter();
@@ -52,6 +52,13 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
           >
             <Bot className="h-5 w-5" />
             Automation
+          </Link>
+          <Link
+            href={`${ADMIN_PATH}/pricing`}
+            className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
+          >
+            <DollarSign className="h-5 w-5" />
+            Pricing
           </Link>
           <Link
             href={`${ADMIN_PATH}/banner-cta`}
