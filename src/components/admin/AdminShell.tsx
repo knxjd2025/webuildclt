@@ -54,13 +54,6 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
             Automation
           </Link>
           <Link
-            href={`${ADMIN_PATH}/pricing`}
-            className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
-          >
-            <DollarSign className="h-5 w-5" />
-            Pricing
-          </Link>
-          <Link
             href={`${ADMIN_PATH}/banner-cta`}
             className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-800 transition-colors"
           >
