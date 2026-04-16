@@ -13,7 +13,6 @@ import {
   SheetClose,
 } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
-import { ThemeToggle } from '@/components/ThemeToggle';
 import { servicesByCategory, areaLinks } from '@/data/services';
 
 const navigation = [
@@ -223,7 +222,6 @@ export function Header() {
               <Phone className="h-4 w-4" aria-hidden="true" />
               (980) 471-1745
             </a>
-            <ThemeToggle />
             <Button asChild>
               <Link href="/contact">Get a Quote</Link>
             </Button>
@@ -371,10 +369,6 @@ export function Header() {
                     <Phone className="h-5 w-5" aria-hidden="true" />
                     (980) 471-1745
                   </a>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-muted-foreground">Theme</span>
-                    <ThemeToggle />
-                  </div>
                   <Button asChild className="w-full">
                     <Link href="/contact">Get a Quote</Link>
                   </Button>

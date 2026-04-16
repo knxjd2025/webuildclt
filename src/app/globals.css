@@ -110,7 +110,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
@@ -258,79 +257,6 @@
   --dropdown-width: clamp(620px, 40vw, 720px);
 }
 
-.dark {
-  /* Deep steel-tinted blacks — not pure black, layered depth */
-  --background: oklch(0.1 0.015 240);
-  --foreground: oklch(0.95 0.005 60);
-
-  /* Card surfaces — elevated from background */
-  --card: oklch(0.15 0.015 240);
-  --card-foreground: oklch(0.95 0.005 60);
-  --popover: oklch(0.15 0.015 240);
-  --popover-foreground: oklch(0.95 0.005 60);
-
-  /* Orange glows brighter in the dark — more impact */
-  --primary: oklch(0.72 0.2 48);
-  --primary-foreground: oklch(0.1 0.015 240);
-
-  /* Elevated dark surface for secondary sections */
-  --secondary: oklch(0.18 0.015 240);
-  --secondary-foreground: oklch(0.92 0.005 60);
-
-  /* Subtle layered muted surfaces */
-  --muted: oklch(0.18 0.01 240);
-  --muted-foreground: oklch(0.65 0.01 240);
-
-  /* Warm accent in dark — subtle glow */
-  --accent: oklch(0.22 0.02 50);
-  --accent-foreground: oklch(0.92 0.01 60);
-
-  --destructive: oklch(0.65 0.22 25);
-  --border: oklch(1 0 0 / 12%);
-  --input: oklch(1 0 0 / 18%);
-  --ring: oklch(0.72 0.2 48);
-
-  --sidebar: oklch(0.12 0.015 240);
-  --sidebar-foreground: oklch(0.92 0.005 60);
-  --sidebar-primary: oklch(0.72 0.2 48);
-  --sidebar-primary-foreground: oklch(0.1 0.015 240);
-  --sidebar-accent: oklch(0.2 0.015 240);
-  --sidebar-accent-foreground: oklch(0.92 0.005 60);
-  --sidebar-border: oklch(1 0 0 / 12%);
-  --sidebar-ring: oklch(0.5 0 0);
-
-  --brand: oklch(0.72 0.2 48);
-  --brand-dark: oklch(0.12 0.015 240);
-  --brand-light: oklch(0.88 0.08 50);
-  --brand-steel: oklch(0.25 0.03 230);
-  --brand-warm: oklch(0.2 0.02 50);
-
-  /* Semantic status — dark mode */
-  --success: oklch(0.62 0.14 145);
-  --success-foreground: oklch(0.1 0.015 240);
-  --success-muted: oklch(0.2 0.04 145);
-  --warning: oklch(0.8 0.14 70);
-  --warning-foreground: oklch(0.15 0.02 70);
-  --warning-muted: oklch(0.22 0.04 70);
-  --info: oklch(0.65 0.12 240);
-  --info-foreground: oklch(0.1 0.015 240);
-  --info-muted: oklch(0.2 0.03 240);
-
-  /* Dark mode shadows — subtle glow instead of dark shadow */
-  --shadow-sm: 0 1px 2px oklch(0 0 0 / 0.3);
-  --shadow-md: 0 4px 6px -1px oklch(0 0 0 / 0.4), 0 2px 4px -2px oklch(0 0 0 / 0.3);
-  --shadow-lg: 0 10px 15px -3px oklch(0 0 0 / 0.4), 0 4px 6px -4px oklch(0 0 0 / 0.2);
-  --shadow-xl: 0 20px 25px -5px oklch(0 0 0 / 0.5), 0 8px 10px -6px oklch(0 0 0 / 0.3);
-
-  /* On-image tokens stay white in dark mode — photos don't switch themes */
-  --on-image: oklch(1 0 0);
-  --on-image-muted: oklch(1 0 0 / 0.85);
-  --on-image-subtle: oklch(1 0 0 / 0.7);
-  --scrim-from: oklch(0 0 0 / 0.75);
-  --scrim-to: oklch(0 0 0 / 0);
-  --header-scrolled-bg: oklch(0.12 0.015 240 / 0.95);
-  --dropdown-width: clamp(620px, 40vw, 720px);
-}
 
 @layer base {
   * {
@@ -378,11 +304,6 @@
 /* Smooth scroll — respects reduced motion */
 html {
   scroll-behavior: smooth;
-}
-
-/* Dark mode color-scheme for native elements */
-.dark {
-  color-scheme: dark;
 }
 
 /* Reduced motion — disable animations for users who prefer it */
@@ -439,14 +360,6 @@ html {
     oklch(0.97 0.015 50) 50%,
     oklch(0.96 0.01 70) 100%
   );
-}
-
-/* Dark mode elevated surface — subtle orange glow */
-.dark .card-glow {
-  box-shadow: 0 0 0 1px oklch(0.72 0.2 48 / 0.08), 0 4px 12px oklch(0 0 0 / 0.3);
-}
-.dark .card-glow:hover {
-  box-shadow: 0 0 0 1px oklch(0.72 0.2 48 / 0.15), 0 8px 24px oklch(0 0 0 / 0.4);
 }
 
 /* Steel gradient for authority sections */
