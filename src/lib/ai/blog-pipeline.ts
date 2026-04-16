@@ -30,6 +30,7 @@ export interface BlogGenerationResult {
   primaryKeyword: string;
   secondaryKeywords: string[];
   wordCount: number;
+  imageCount: number;
 }
 
 function countWords(html: string): number {
@@ -103,6 +104,11 @@ export async function generateBlogPost(
   const finalWordCount = countWords(refined.content);
   console.log(`[blog-pipeline] Refinement complete (${finalWordCount} words)`);
 
+  // Calculate recommended image count: 1 per 500 words, min 2, max 8
+  const rawImageCount = Math.floor(finalWordCount / 500);
+  const imageCount = Math.max(2, Math.min(8, rawImageCount));
+  console.log(`[blog-pipeline] Recommended images: ${imageCount} (based on ${finalWordCount} words)`);
+
   const title = refined.metaTitle.replace(/\s*\|.*$/, '').replace(/\s*[-–].*$/, '').trim();
   const slug = generateSlug(title);
 
@@ -116,5 +122,6 @@ export async function generateBlogPost(
     primaryKeyword: refined.primaryKeyword,
     secondaryKeywords: refined.secondaryKeywords,
     wordCount: finalWordCount,
+    imageCount,
   };
 }

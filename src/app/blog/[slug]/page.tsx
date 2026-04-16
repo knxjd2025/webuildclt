@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { ShareButtons } from '@/components/ShareButtons';
 import { JsonLd } from '@/components/JsonLd';
-import { articleSchema, breadcrumbSchema } from '@/lib/structured-data';
+import { articleSchema, breadcrumbSchema, faqSchema } from '@/lib/structured-data';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -56,6 +56,22 @@ function formatDate(dateString: string): string {
 
 function categoryLabel(slug: string): string {
   return slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+/** Extract FAQ Q&A pairs from blog HTML for structured data */
+function extractFaqItems(content: string): Array<{ question: string; answer: string }> {
+  const faqs: Array<{ question: string; answer: string }> = [];
+  // Match <h3>Question?</h3> followed by <p>Answer</p> patterns
+  const faqRegex = /<h3[^>]*>(.*?\?)<\/h3>\s*<p[^>]*>(.*?)<\/p>/gi;
+  let match;
+  while ((match = faqRegex.exec(content)) !== null) {
+    const question = match[1].replace(/<[^>]*>/g, '').trim();
+    const answer = match[2].replace(/<[^>]*>/g, '').trim();
+    if (question && answer) {
+      faqs.push({ question, answer });
+    }
+  }
+  return faqs;
 }
 
 function getServicesForCategory(categorySlug: string): ServiceLink[] {
@@ -144,6 +160,8 @@ export default async function BlogPostPage({
   const contentWithIds = enrichBlogContent(addHeadingIds(post.content ?? ''));
   const postUrl = `https://webuildclt.com/blog/${slug}`;
   const postDate = post.published_at ?? post.created_at;
+  const faqItems = extractFaqItems(post.content ?? '');
+  const lastUpdated = post.updated_at ?? postDate;
 
   // Fetch related posts (same category, exclude current)
   const admin = createAdminClient();
@@ -173,6 +191,7 @@ export default async function BlogPostPage({
             { label: 'Blog', href: '/blog' },
             { label: post.title },
           ]),
+          ...(faqItems.length > 0 ? [faqSchema(faqItems)] : []),
         ]}
       />
 
@@ -214,6 +233,11 @@ export default async function BlogPostPage({
               <Clock className="h-4 w-4" />
               {readTime} min read
             </div>
+            {lastUpdated !== postDate && (
+              <div className="flex items-center gap-2">
+                <span>Updated {formatDate(lastUpdated)}</span>
+              </div>
+            )}
           </div>
         </div>
       </section>

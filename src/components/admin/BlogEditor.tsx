@@ -22,6 +22,7 @@ import {
   MediaUploader,
   type UploadedFile,
 } from '@/components/admin/MediaUploader';
+import { RichBlogEditor } from '@/components/admin/RichBlogEditor';
 
 export interface BlogFormData {
   title: string;
@@ -317,7 +318,7 @@ export function BlogEditor({
             </Card>
           )}
 
-          {/* Content with preview/code toggle */}
+          {/* Content — Rich WYSIWYG Editor with HTML fallback */}
           <Card>
             <CardHeader>
               <div className="flex items-center justify-between">
@@ -332,7 +333,7 @@ export function BlogEditor({
                     }`}
                   >
                     <Eye className="h-3.5 w-3.5" />
-                    Preview
+                    Visual Editor
                   </button>
                   <button
                     onClick={() => setViewMode('code')}
@@ -343,24 +344,28 @@ export function BlogEditor({
                     }`}
                   >
                     <Code className="h-3.5 w-3.5" />
-                    Edit HTML
+                    HTML Source
                   </button>
                 </div>
               </div>
             </CardHeader>
             <CardContent>
               {viewMode === 'preview' ? (
-                <div
-                  className="prose prose-gray max-w-none
-                    prose-headings:font-bold prose-headings:text-gray-900
-                    prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4
-                    prose-h3:text-xl prose-h3:mt-6 prose-h3:mb-3
-                    prose-p:text-gray-700 prose-p:leading-7
-                    prose-a:text-orange-600 prose-a:underline
-                    prose-strong:text-gray-900
-                    prose-ul:my-4 prose-li:my-1
-                    prose-img:rounded-lg prose-img:shadow-md"
-                  dangerouslySetInnerHTML={{ __html: content }}
+                <RichBlogEditor
+                  content={content}
+                  onChange={setContent}
+                  onImageUpload={async (file: File) => {
+                    const formData = new FormData();
+                    formData.append('file', file);
+                    const res = await fetch('/api/admin/upload', {
+                      method: 'POST',
+                      body: formData,
+                    });
+                    if (!res.ok) throw new Error('Upload failed');
+                    const data = await res.json();
+                    return data.url;
+                  }}
+                  placeholder="Start writing your blog post... Use the toolbar above to format text, add images, and insert CTAs."
                 />
               ) : (
                 <Textarea

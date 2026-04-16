@@ -5,7 +5,7 @@ type RouteContext = { params: Promise<{ id: string }> };
 
 /**
  * POST /api/admin/blogs/[id]/generate — Trigger AI blog generation
- * Pipeline: DataForSEO → Kimi K2 → Claude → (optional) DALL-E images
+ * Pipeline: DataForSEO → Kimi K2 → Claude → Gemini Imagen 4 images
  */
 export async function POST(_request: NextRequest, context: RouteContext) {
   const { id } = await context.params;
@@ -60,20 +60,26 @@ export async function POST(_request: NextRequest, context: RouteContext) {
 
     // Generate AI images if user didn't provide any
     let featuredImage = blog.featured_image;
+    let contentWithImages = generated.content;
+
     if (!hasUserImages) {
       try {
         const { generateBlogImages, uploadGeneratedImage } = await import(
           '@/lib/ai/image-generator'
         );
 
-        console.log('[generate] No user images — generating AI images...');
+        // Use dynamic image count from pipeline (based on word count)
+        const imageCount = generated.imageCount ?? 2;
+        console.log(`[generate] No user images — generating ${imageCount} AI images via Gemini...`);
+
         const aiImages = await generateBlogImages(
           generated.title,
           blog.category_slug,
-          2
+          imageCount
         );
 
-        // Upload each generated image to Supabase and save as blog_media
+        // Save each generated image as blog_media
+        const uploadedUrls: string[] = [];
         for (let i = 0; i < aiImages.length; i++) {
           const uploaded = await uploadGeneratedImage(
             aiImages[i].url,
@@ -90,16 +96,43 @@ export async function POST(_request: NextRequest, context: RouteContext) {
               sort_order: i,
             });
 
+            uploadedUrls.push(uploaded.url);
+
             // First image becomes featured
             if (i === 0) {
               featuredImage = uploaded.url;
             }
           }
         }
+
+        // Replace [IMAGE_PLACEHOLDER_N] with actual image tags
+        for (let i = 0; i < uploadedUrls.length; i++) {
+          const placeholder = `[IMAGE_PLACEHOLDER_${i + 1}]`;
+          const imgTag = `<figure class="blog-image"><img src="${uploadedUrls[i]}" alt="${aiImages[i]?.alt ?? `${generated.title} - image ${i + 1}`}" loading="lazy" /><figcaption>${aiImages[i]?.alt ?? ''}</figcaption></figure>`;
+          contentWithImages = contentWithImages.replace(placeholder, imgTag);
+        }
+
+        // Remove any remaining unfilled placeholders
+        contentWithImages = contentWithImages.replace(
+          /\[IMAGE_PLACEHOLDER_\d+\]/g,
+          ''
+        );
+
+        console.log(`[generate] Replaced ${uploadedUrls.length} image placeholders, removed remaining`);
       } catch (imgError) {
         console.error('[generate] Image generation failed:', imgError);
-        // Continue without images — not a blocker
+        // Remove all placeholders if image generation failed entirely
+        contentWithImages = contentWithImages.replace(
+          /\[IMAGE_PLACEHOLDER_\d+\]/g,
+          ''
+        );
       }
+    } else {
+      // User has images — just remove any placeholders
+      contentWithImages = contentWithImages.replace(
+        /\[IMAGE_PLACEHOLDER_\d+\]/g,
+        ''
+      );
     }
 
     // Save generated content and move to review
@@ -108,7 +141,7 @@ export async function POST(_request: NextRequest, context: RouteContext) {
       .update({
         title: generated.title,
         slug: generated.slug,
-        content: generated.content,
+        content: contentWithImages,
         excerpt: generated.excerpt,
         meta_title: generated.metaTitle,
         meta_description: generated.metaDescription,

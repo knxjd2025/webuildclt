@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next';
 import { createClient } from '@supabase/supabase-js';
 import { allServices, areaLinks } from '@/data/services';
 import { getAllGuideSlugs } from '@/data/guides';
-import { blogPosts, getAllCategorySlugs } from '@/data/blog-posts';
+import { getAllCategorySlugs } from '@/data/blog-posts';
 
 const BASE_URL = 'https://webuildclt.com';
 
@@ -128,11 +128,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     fetchSupabaseBlogSlugs(),
   ]);
 
-  // Static blog post slugs from data file
-  const staticBlogSlugs = blogPosts.map((p) => p.slug);
-
-  // Combine WP, Supabase, and static blog slugs — deduplicate
-  const allBlogSlugs = [...new Set([...staticBlogSlugs, ...wpBlogSlugs, ...supabaseBlogSlugs])];
+  // Combine WP and Supabase blog slugs — deduplicate
+  const allBlogSlugs = [...new Set([...wpBlogSlugs, ...supabaseBlogSlugs])];
 
   const blogPages: MetadataRoute.Sitemap = allBlogSlugs.map((slug) => ({
     url: `${BASE_URL}/blog/${slug}`,

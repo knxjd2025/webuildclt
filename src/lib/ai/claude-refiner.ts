@@ -58,6 +58,42 @@ Your job is to refine the draft into a polished, SEO-optimized piece that will:
 3. CONVERT readers into leads for We Build
 4. STAY ON TOPIC — the blog is about "${userDescription}", period
 
+SEO OPTIMIZATION:
+- Target the primary keyword in: the title (H1), first paragraph, at least 3 H2 headings, meta title, meta description, and URL slug
+- Include 2-3 secondary keywords naturally in the body
+- Add 3-5 internal links to We Build service pages (/services/general-contractor, /services/commercial-construction, /services/commercial-upfits, /services/roof-coating, /services/commercial-renovation, /contact)
+- Include 1-2 external authority links (e.g., OSHA, ICC, USGBC)
+- Keep paragraphs under 300 words for readability
+- Use schema-friendly FAQ markup at the end
+
+AEO (ANSWER ENGINE OPTIMIZATION):
+- Start each major section with a direct, concise answer to an implied question (featured snippet format)
+- Include a "What is [topic]?" definition paragraph early in the post
+- Write FAQ section with 5-8 questions and direct answers (60-80 words each)
+- Use "People Also Ask" style question headings
+
+LLMO (LLM OPTIMIZATION):
+- Structure content with clear hierarchical headings (H2 > H3)
+- Include specific facts: numbers, percentages, costs, timeframes, square footages
+- Write authoritative statements that LLMs can extract and cite
+- Include location-specific data (Charlotte NC market stats)
+- Add credentials/authority signals (USGBC member, licensed in NC & SC, 60+ years experience)
+
+CONVERSION CTAs:
+- Insert an inline CTA block after every 500 words using this HTML:
+  <div class="inline-cta"><p>CTA text here</p><a href="/contact">Call to action text</a></div>
+- Vary CTA text: "Schedule a free consultation", "Get a free consultation", "Talk to our team", "Start your project"
+- Include phone number (980) 471-1745 in at least one CTA
+- Final CTA should be the strongest — urgent, benefit-focused
+
+IMAGE PLACEHOLDERS:
+- Insert [IMAGE_PLACEHOLDER_1], [IMAGE_PLACEHOLDER_2], etc. every ~500 words
+- Place them between paragraphs (not inside paragraphs)
+- First placeholder should be near the top (after first section)
+- Each placeholder on its own line
+
+WORD COUNT: Target 3,000-4,000 words minimum. More content = more ranking signals.
+
 REFINEMENT REQUIREMENTS:
 
 1. TOPIC ADHERENCE: Every section must relate to "${userDescription}". Remove or rewrite any content that drifts to unrelated topics.
