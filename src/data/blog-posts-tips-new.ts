@@ -81,7 +81,7 @@ export const tipsNewPosts: BlogPost[] = [
 
 <h2>How We Build Approaches the Contractor-Client Relationship</h2>
 <p>At We Build, we welcome these questions because transparency is the foundation of every successful project. As a veteran and family-owned <a href="/services/general-contractor">general contractor</a> and <a href="/services/construction-management">construction manager</a> in Charlotte, we believe that informed clients make the best partners. Our <a href="/services/pre-construction">pre-construction services</a> ensure you have accurate budgets and realistic timelines before committing to construction.</p>
-<p>Ready to discuss your commercial construction project? Call us at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to schedule a consultation. We are happy to answer all 15 of these questions — and any others you bring to the table.</p>
+<p>Ready to discuss your commercial construction project? Call us at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to schedule a consultation. We are happy to answer all 15 of these questions — and any others you bring to the table.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -168,12 +168,12 @@ export const tipsNewPosts: BlogPost[] = [
 <p>The ideal time to engage a contractor for pre-construction is during the design phase — after you have a concept and preliminary plans but before construction documents are finalized. This timing allows the contractor's field experience to inform design decisions while changes are still easy and inexpensive to make.</p>
 <p>For Charlotte projects, we recommend starting pre-construction at least 60-90 days before your target construction start date. This provides adequate time for thorough planning, permitting, and subcontractor procurement without rushing critical decisions.</p>
 
-<h2>The Design-Build Advantage</h2>
-<p>Pre-construction is most effective when the contractor is involved from the earliest stages of design. This is a core principle of the <a href="/services/design-build">design-build</a> delivery method, where the contractor and architect work as a unified team from concept through completion. Design-build eliminates the adversarial dynamic that can develop in traditional design-bid-build projects, where the architect designs without input from the builder and the contractor is left to figure out how to construct what was designed.</p>
-<p>At We Build, our <a href="/services/design-build">design-build</a> approach integrates pre-construction into the design process, ensuring that every design decision is informed by cost data, constructability analysis, and scheduling considerations.</p>
+<h2>The Early Involvement Advantage</h2>
+<p>Pre-construction is most effective when the contractor is involved from the earliest stages of design. When the contractor and architect work as a unified team from concept through completion, it eliminates the adversarial dynamic that can develop in traditional projects where the architect designs without input from the builder and the contractor is left to figure out how to construct what was designed.</p>
+<p>At We Build, our <a href="/services/pre-construction">pre-construction</a> approach integrates planning into the design process, ensuring that every design decision is informed by cost data, constructability analysis, and scheduling considerations.</p>
 
 <h2>Ready to Plan Your Charlotte Project?</h2>
-<p>Whether you are planning a new <a href="/services/commercial-construction">commercial construction</a> project, a <a href="/services/tenant-improvements">tenant improvement</a>, or a major <a href="/services/commercial-renovation">renovation</a>, pre-construction planning is the smartest investment you can make. Call We Build at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to discuss how our pre-construction services can save you time and money on your next Charlotte-area project.</p>
+<p>Whether you are planning a new <a href="/services/commercial-construction">commercial construction</a> project, a <a href="/services/tenant-improvements">tenant improvement</a>, or a major <a href="/services/commercial-renovation">renovation</a>, pre-construction planning is the smartest investment you can make. Call We Build at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to discuss how our pre-construction services can save you time and money on your next Charlotte-area project.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -186,8 +186,8 @@ export const tipsNewPosts: BlogPost[] = [
 <h3>Can I use one contractor for pre-construction and another for construction?</h3>
 <p>Yes, but it is generally not recommended. The contractor who performs pre-construction develops deep knowledge of your project that translates directly into better construction execution. Switching contractors means the new firm must re-learn the project, which adds time and cost. Additionally, the pre-construction contractor has a vested interest in accurate budgeting and planning when they know they will be responsible for delivering the project.</p>
 
-<h3>How does pre-construction work with the design-build delivery method?</h3>
-<p>In <a href="/services/design-build">design-build</a>, pre-construction is integrated into the design process from day one. The contractor provides real-time cost and constructability feedback as the architect develops plans. This collaborative approach produces designs that are optimized for both function and buildability, resulting in lower costs and faster construction timelines.</p>
+<h3>How does pre-construction work when the contractor is involved early?</h3>
+<p>When the contractor is involved from day one, pre-construction is integrated into the design process seamlessly. The contractor provides real-time cost and constructability feedback as the architect develops plans. This collaborative approach produces designs that are optimized for both function and buildability, resulting in lower costs and faster construction timelines.</p>
 
 <h3>What documents do I need to start pre-construction?</h3>
 <p>At minimum, you need a clear description of your project goals, your target budget range, and preliminary design concepts or sketches. If you have architectural plans at any stage of development — from schematic design through construction documents — those provide a stronger starting point. We Build can begin pre-construction with as little as a site address and a description of your intended use.</p>
@@ -268,7 +268,7 @@ export const tipsNewPosts: BlogPost[] = [
 <h2>How We Build Handles Permitting</h2>
 <p>As an experienced Charlotte <a href="/services/general-contractor">general contractor</a>, We Build manages the entire permitting process on behalf of our clients. Our team has relationships with Mecklenburg County plan reviewers and inspectors developed over years of local construction experience. We know which common plan check comments to address proactively, how to expedite reviews when schedules are tight, and how to coordinate multi-department reviews for complex projects.</p>
 <p>Our <a href="/services/pre-construction">pre-construction services</a> include permitting strategy — identifying which permits are required, estimating review timelines, and incorporating permit durations into the project schedule. This proactive approach prevents the schedule delays that catch unprepared contractors off guard.</p>
-<p>Have questions about permitting for your Charlotte commercial project? Call We Build at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> for a consultation.</p>
+<p>Have questions about permitting for your Charlotte commercial project? Call We Build at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> for a consultation.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -313,13 +313,13 @@ export const tipsNewPosts: BlogPost[] = [
 <p>Key time factors during pre-construction include the completeness of design documents when the contractor is engaged, the complexity of the permitting requirements, how quickly the owner can make decisions on budget and scope questions, and whether the project requires zoning approval, rezoning, or variances.</p>
 
 <h2>Phase 2: Design and Documentation (6-16 Weeks)</h2>
-<p>The design phase progresses through several stages, each requiring owner review and approval. In a traditional project delivery, the architect works independently. In a <a href="/services/design-build">design-build</a> arrangement, the contractor participates throughout, which can compress this timeline significantly.</p>
+<p>The design phase progresses through several stages, each requiring owner review and approval. In a traditional project delivery, the architect works independently. When the <a href="/services/general-contractor">general contractor</a> participates throughout design, this timeline can be compressed significantly.</p>
 
 <h3>Schematic Design (2-4 weeks)</h3>
 <p>The architect develops the overall project concept — floor plans, building form, spatial relationships, and preliminary material selections. This is the broadest-stroke phase of design, focused on capturing the owner's vision in a buildable form.</p>
 
 <h3>Design Development (3-6 weeks)</h3>
-<p>Design development refines the schematic design into more specific detail. Materials and systems are selected, structural and mechanical systems are sized, and the design is reviewed for code compliance. The contractor's constructability input during this phase — standard in design-build — can save weeks of rework later.</p>
+<p>Design development refines the schematic design into more specific detail. Materials and systems are selected, structural and mechanical systems are sized, and the design is reviewed for code compliance. The contractor's constructability input during this phase can save weeks of rework later.</p>
 
 <h3>Construction Documents (4-8 weeks)</h3>
 <p>Construction documents (CDs) are the fully detailed drawings and specifications from which the project will be built and permitted. This is typically the longest design phase because every detail must be documented — from framing dimensions to outlet locations to finish schedules. Complete, well-coordinated CDs are essential for accurate bidding and smooth permitting.</p>
@@ -383,7 +383,7 @@ export const tipsNewPosts: BlogPost[] = [
 
 <h2>How We Build Manages Project Timelines</h2>
 <p>At We Build, every project begins with a detailed <a href="/services/pre-construction">pre-construction</a> schedule that accounts for all phases, lead times, and contingencies specific to the Charlotte market. Our <a href="/services/construction-management">construction management</a> team monitors the schedule daily, identifies potential delays before they impact the critical path, and communicates schedule updates to clients regularly.</p>
-<p>Have a project timeline question? Call We Build at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> for a project-specific timeline estimate.</p>
+<p>Have a project timeline question? Call We Build at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> for a project-specific timeline estimate.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -391,7 +391,7 @@ export const tipsNewPosts: BlogPost[] = [
 <p>Yes, and an experienced <a href="/services/construction-management">construction manager</a> identifies opportunities for phase overlap throughout the project. Common overlaps include ordering long-lead materials during permitting, beginning demolition while the building permit is in review (using a separate demolition permit), and starting construction document development before design development is fully complete (fast-track scheduling). However, some phases must remain sequential — you cannot install drywall before rough-in inspections are complete.</p>
 
 <h3>What is the fastest way to complete a commercial construction project?</h3>
-<p>The <a href="/services/design-build">design-build</a> delivery method typically produces the fastest project timelines because it eliminates the sequential design-then-bid-then-build process. In design-build, construction can begin on early phases while later design phases are still being completed. Combined with aggressive procurement of long-lead items, design-build can reduce total project timelines by 15-30% compared to traditional project delivery.</p>
+<p>Integrated project delivery typically produces the fastest timelines because it eliminates the sequential design-then-bid-then-build process. When the <a href="/services/general-contractor">general contractor</a> is involved early, construction can begin on early phases while later design phases are still being completed. Combined with aggressive procurement of long-lead items, this approach can reduce total project timelines by 15-30% compared to traditional project delivery.</p>
 
 <h3>How accurate are initial timeline estimates?</h3>
 <p>Timeline accuracy depends on how much information is available when the estimate is made. Pre-construction timelines based on complete construction documents are typically accurate within 10-15%. Estimates based on conceptual plans may vary by 20-30%. The best approach is to invest in thorough <a href="/services/pre-construction">pre-construction planning</a> to develop a schedule based on detailed analysis rather than rough assumptions.</p>
@@ -493,7 +493,7 @@ export const tipsNewPosts: BlogPost[] = [
 
 <h2>How We Build Helps You Budget</h2>
 <p>At We Build, our <a href="/services/pre-construction">pre-construction services</a> include detailed budgeting based on current Charlotte market conditions. We provide itemized cost estimates, identify value engineering opportunities, and help you make informed decisions about scope priorities. Our <a href="/services/construction-management">construction management</a> approach includes monthly cost reporting so you always know where your project stands financially.</p>
-<p>Ready to budget your commercial project? Call We Build at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> for a consultation.</p>
+<p>Ready to budget your commercial project? Call We Build at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> for a consultation.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -594,14 +594,14 @@ export const tipsNewPosts: BlogPost[] = [
 
 <h2>Negotiated vs. Competitive Bidding</h2>
 <p>Not all commercial projects benefit from competitive bidding. Negotiated contracts — where you select a contractor based on qualifications and negotiate pricing collaboratively — offer advantages for complex projects, tight schedules, or when a specific contractor's expertise is critical to the project's success.</p>
-<p>In a negotiated approach, the contractor provides open-book pricing with transparent cost breakdowns, and the owner can verify material costs, subcontractor quotes, and labor rates. This approach is standard in <a href="/services/design-build">design-build</a> and <a href="/services/construction-management">construction management</a> delivery methods and often produces better outcomes than competitive bidding for complex Charlotte commercial projects.</p>
+<p>In a negotiated approach, the contractor provides open-book pricing with transparent cost breakdowns, and the owner can verify material costs, subcontractor quotes, and labor rates. This approach is standard in <a href="/services/construction-management">construction management</a> delivery methods and often produces better outcomes than competitive bidding for complex Charlotte commercial projects.</p>
 
 <h2>After You Select a Contractor</h2>
 <p>Once you have evaluated bids and selected a contractor, the bid becomes the foundation for your contract. Ensure that the contract reflects the bid scope, price, and schedule exactly. Any pre-contract negotiations or clarifications should be documented in writing and incorporated into the agreement. Have your attorney review the contract before signing.</p>
 
 <h2>How We Build Approaches Bidding</h2>
 <p>At We Build, we provide detailed, transparent bids that include itemized cost breakdowns, clear scope definitions, proposed subcontractor lists, and realistic schedules. Our <a href="/services/pre-construction">pre-construction services</a> help owners develop comprehensive bid packages that yield accurate, comparable proposals — whether from us or other contractors.</p>
-<p>Need help evaluating bids for your Charlotte project? Call We Build at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> for expert guidance.</p>
+<p>Need help evaluating bids for your Charlotte project? Call We Build at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> for expert guidance.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -700,13 +700,9 @@ export const tipsNewPosts: BlogPost[] = [
 <h3>Best For</h3>
 <p><strong>GC:</strong> Well-defined projects, owners who want a hands-off approach, competitive bid environments. <strong>CM:</strong> Complex projects, owners who want transparency and involvement, projects requiring pre-construction services.</p>
 
-<h2>The Hybrid Approach: Design-Build</h2>
-<p>A third project delivery method — <a href="/services/design-build">design-build</a> — combines elements of both general contracting and construction management. In design-build, a single entity (often a contractor partnered with an architect) provides both design and construction services. This approach offers the single-point-of-responsibility benefit of general contracting with the early involvement and collaboration of construction management.</p>
-<p>Design-build is particularly effective for Charlotte projects where speed is critical, because design and construction can overlap. The owner works with one team from concept through completion, reducing the communication gaps and finger-pointing that can occur between separate design and construction teams.</p>
-
 <h2>Making the Right Choice for Your Charlotte Project</h2>
 <p>The right choice depends on your project's characteristics, your own level of construction knowledge, and your appetite for involvement in project decisions. Many Charlotte commercial projects — particularly <a href="/services/tenant-improvements">tenant improvements</a>, <a href="/services/office-buildouts">office buildouts</a>, and <a href="/services/commercial-renovation">renovations</a> under $1 million — are well served by traditional general contracting. Larger, more complex projects — <a href="/services/medical-construction">medical facilities</a>, multi-phase renovations, <a href="/services/commercial-construction">new commercial construction</a> — often benefit from the construction management approach.</p>
-<p>At We Build, we help owners choose the delivery method that best suits their project. Call us at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to discuss which approach makes sense for your specific situation.</p>
+<p>At We Build, we help owners choose the delivery method that best suits their project. Call us at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to discuss which approach makes sense for your specific situation.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -820,7 +816,7 @@ export const tipsNewPosts: BlogPost[] = [
 
 <h2>How We Build Handles Payment</h2>
 <p>At We Build, we submit detailed monthly payment applications with supporting documentation, photographs, and lien waivers from all subcontractors and suppliers. Our <a href="/services/construction-management">construction management</a> approach includes transparent financial reporting so owners always know exactly where project funds are allocated.</p>
-<p>Questions about construction payment processes? Call We Build at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> for guidance.</p>
+<p>Questions about construction payment processes? Call We Build at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> for guidance.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -835,9 +831,6 @@ export const tipsNewPosts: BlogPost[] = [
 
 <h3>Should I make a large upfront payment to the contractor?</h3>
 <p>Be cautious of contractors requesting large upfront payments. Industry standard is to pay for work completed, not work anticipated. Some contractors request a mobilization payment (3-5% of the contract value) to cover initial procurement and setup costs, which is reasonable. Requests for 15-25% upfront should be questioned and may indicate financial instability.</p>
-
-<h3>How does the payment process differ for design-build projects?</h3>
-<p>In <a href="/services/design-build">design-build</a> projects, the payment application includes both design fees and construction costs. During the design phase, billings are based on design phase completion milestones. During construction, the standard percentage-of-completion method applies. The combined billing can simplify payment administration for the owner since there is one payment application covering all project costs.</p>
 
 <h3>What documentation should I keep for tax purposes?</h3>
 <p>Maintain copies of all payment applications, lien waivers, contracts, change orders, and correspondence related to construction payments. Commercial construction costs are typically capitalized and depreciated over the asset's useful life (39 years for commercial property under current tax law). Your accountant will need detailed payment documentation to properly classify and depreciate construction costs.</p>
@@ -974,7 +967,7 @@ export const tipsNewPosts: BlogPost[] = [
 <h2>How We Build Manages Punch Lists</h2>
 <p>At We Build, our internal quality control process begins long before the formal punch list. Our superintendents conduct ongoing quality inspections throughout construction, catching and correcting deficiencies as they occur rather than letting them accumulate. When the formal punch list walk-through happens, the list is shorter because our team has already addressed the easy-to-catch items.</p>
 <p>We use digital punch list management tools with photo documentation, real-time status tracking, and automated notifications to responsible subcontractors. Our <a href="/services/construction-management">construction management</a> approach ensures that punch list items are completed promptly and to the owner's satisfaction.</p>
-<p>Planning a commercial construction project in Charlotte? Call We Build at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to discuss how our quality management approach delivers a smoother path to occupancy.</p>
+<p>Planning a commercial construction project in Charlotte? Call We Build at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to discuss how our quality management approach delivers a smoother path to occupancy.</p>
 
 <h2>Frequently Asked Questions</h2>
 

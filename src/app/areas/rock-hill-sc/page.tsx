@@ -30,7 +30,7 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company Rock Hill SC | General Contractor York County',
   description:
-    'Need a construction company near me in Rock Hill SC? Licensed general contractor serving Rock Hill & York County. Commercial construction, upfits, office buildouts, roof coating, design-build & drone inspections. SC licensed. Veteran & family-owned. Free estimates.',
+    'Need a construction company near me in Rock Hill SC? Licensed general contractor serving Rock Hill & York County. Commercial construction, upfits, office buildouts, roof coating & drone inspections. SC licensed. Veteran & family-owned. Free consultations.',
   keywords: [
     'construction company rock hill sc',
     'general contractor rock hill',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     'contractor york county sc',
     'rock hill renovation contractor',
     'commercial upfit rock hill sc',
-    'custom home builder rock hill south carolina',
+    'commercial builder rock hill south carolina',
     'tega cay construction company',
     'construction company near me rock hill',
     'general contractor near me york county',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Construction Company Rock Hill SC | General Contractor York County | We Build',
     description:
-      'Licensed SC general contractor serving Rock Hill, Tega Cay & York County. Commercial construction, upfits, roof coating & design-build. Veteran & family-owned. Free estimates.',
+      'Licensed SC general contractor serving Rock Hill, Tega Cay & York County. Commercial construction, upfits & roof coating. Veteran & family-owned. Free consultations.',
     type: 'website',
     locale: 'en_US',
   },
@@ -91,12 +91,6 @@ const services = [
     title: 'Roof Coating',
     desc: 'Commercial roof restoration and protective coating systems for Rock Hill building owners seeking to extend roof life by 10-20 years.',
     href: '/services/roof-coating',
-  },
-  {
-    icon: Ruler,
-    title: 'Design-Build',
-    desc: 'Streamlined single-source design and construction for Rock Hill commercial projects from concept to completion, saving 10-15% over traditional methods.',
-    href: '/services/design-build',
   },
 ];
 
@@ -201,12 +195,12 @@ const faqs = [
   {
     question: 'What does a construction company charge in Rock Hill, SC?',
     answer:
-      'Construction costs in Rock Hill vary by project type. Commercial office upfits typically cost $50-120 per square foot. Ground-up commercial construction ranges from $150 to $400+ per square foot depending on complexity and finishes. Industrial warehouse construction runs $80-180 per square foot. Custom home construction averages $175-350 per square foot. We provide free, detailed estimates after an on-site consultation so you know exact costs before any work begins.',
+      'Construction costs in Rock Hill vary by project type. Commercial office upfits typically cost $50-120 per square foot. Ground-up commercial construction ranges from $150 to $400+ per square foot depending on complexity and finishes. Industrial warehouse construction runs $80-180 per square foot. We provide free, detailed consultations on-site so you know exact costs before any work begins.',
   },
   {
     question: 'Are you licensed to do construction work in Rock Hill, SC?',
     answer:
-      'Yes. We Build holds active general contractor licenses in both South Carolina and North Carolina. Our SC license covers the full scope of general contracting including commercial construction, residential builds, tenant improvements, and specialty work like roof coating throughout Rock Hill and all of York County. We maintain all required insurance and bonding for South Carolina projects.',
+      'Yes. We Build holds active general contractor licenses in both South Carolina and North Carolina. Our SC license covers the full scope of general contracting including commercial construction, tenant improvements, and specialty work like roof coating throughout Rock Hill and all of York County. We maintain all required insurance and bonding for South Carolina projects.',
   },
   {
     question: 'How do Rock Hill building permits work?',
@@ -229,9 +223,9 @@ const faqs = [
       'Absolutely. We Build serves all of Rock Hill including Knowledge Park, downtown/Old Town, Dave Lyle Boulevard, Cherry Road, Galleria area, Celanese Road, and surrounding York County communities. Knowledge Park\u2019s tech-focused development and downtown\u2019s revitalization create excellent opportunities for creative office buildouts, adaptive reuse projects, and mixed-use commercial construction. We understand the unique design standards and zoning requirements in these districts.',
   },
   {
-    question: 'Can you build a custom home in Rock Hill or Tega Cay?',
+    question: 'Does We Build serve Tega Cay and Lake Wylie?',
     answer:
-      'Yes. We build custom homes throughout the Rock Hill area including Tega Cay, India Hook, Riverwalk, Lake Wylie waterfront, Ebenezer, and Newport. Custom home construction in Rock Hill typically ranges from $175-350 per square foot depending on finishes, lot conditions, and design complexity. We handle everything from lot evaluation through final construction, including material selection at our Design Center. Lakefront properties on Lake Wylie require specialized knowledge of shoreline setbacks and dock permitting that our team provides.',
+      'Yes. We Build provides commercial construction services throughout the Rock Hill area including Tega Cay, India Hook, Riverwalk, Lake Wylie, Ebenezer, and Newport. We handle everything from lot evaluation through final construction. Lakefront commercial properties on Lake Wylie require specialized knowledge of shoreline setbacks and permitting that our team provides.',
   },
   {
     question: 'What areas near Rock Hill do you serve?',
@@ -246,7 +240,7 @@ const faqs = [
   {
     question: 'How do I get a construction estimate for my Rock Hill project?',
     answer:
-      'Getting a free estimate from We Build is straightforward. Call us at (704) 574-8124 or fill out our online contact form. We will schedule an on-site consultation to review your project scope, take measurements, discuss your timeline and budget, and answer any questions. Within 5-10 business days you will receive a detailed, itemized proposal with transparent pricing. There is no obligation, and we never pressure clients into signing.',
+      'Getting a free consultation from We Build is straightforward. Call us at (980) 471-1745 or fill out our online contact form. We will schedule an on-site consultation to review your project scope, take measurements, discuss your timeline and budget, and answer any questions. Within 5-10 business days you will receive a detailed, itemized proposal with transparent pricing. There is no obligation, and we never pressure clients into signing.',
   },
   {
     question: 'How do construction costs in Rock Hill compare to Fort Mill or Charlotte?',
@@ -285,7 +279,7 @@ export default function RockHillPage() {
 
       <PageHero
         title="Construction Company Rock Hill SC"
-        subtitle="Licensed SC general contractor serving Rock Hill, Tega Cay, and York County — commercial construction, upfits, roof coating & design-build"
+        subtitle="Licensed SC general contractor serving Rock Hill, Tega Cay, and York County — commercial construction, upfits & roof coating"
         backgroundImage="/images/hero-bg.jpg"
       />
 
@@ -305,7 +299,7 @@ export default function RockHillPage() {
               </h2>
               <p className="text-muted-foreground leading-relaxed">
                 We Build is a licensed South Carolina general contractor providing commercial
-                construction, tenant improvements, roof coating, and design-build services
+                construction, tenant improvements, and roof coating services
                 throughout Rock Hill and York County. Based in Charlotte with active SC licensing,
                 we bring over 60 years of combined construction experience to every Rock Hill project.
               </p>
@@ -327,8 +321,8 @@ export default function RockHillPage() {
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Whether you are a business owner looking to build out commercial space in Knowledge
-                Park, a retailer opening on Cherry Road, a manufacturer expanding along Dave Lyle
-                Boulevard, or a family building a custom home near Lake Wylie, We Build delivers the
+                Park, a retailer opening on Cherry Road, or a manufacturer expanding along Dave Lyle
+                Boulevard, We Build delivers the
                 craftsmanship and professionalism that Rock Hill&apos;s growing community demands.
                 As a veteran and family-owned{' '}
                 <Link href="/services/general-contractor" className="text-primary hover:underline">
@@ -349,13 +343,13 @@ export default function RockHillPage() {
               <div className="flex flex-wrap gap-4 pt-2">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
+                    Get a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+17045748124">
+                  <a href="tel:+19804711745">
                     <Phone className="mr-2 h-5 w-5" />
-                    (704) 574-8124
+                    (980) 471-1745
                   </a>
                 </Button>
               </div>
@@ -522,53 +516,7 @@ export default function RockHillPage() {
                 </p>
               </div>
 
-              <div className="space-y-4">
-                <h3 className="text-2xl font-bold flex items-center gap-3">
-                  <Ruler className="h-6 w-6 text-primary" aria-hidden="true" />
-                  Design-Build
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Our{' '}
-                  <Link href="/services/design-build" className="text-primary hover:underline">
-                    design-build
-                  </Link>{' '}
-                  approach combines architectural design and construction under one contract,
-                  providing Rock Hill clients with a streamlined project delivery method that saves
-                  time and money. Instead of hiring separate architects, engineers, and contractors,
-                  our design-build process gives you a single point of contact from concept through
-                  completion. This method typically reduces project timelines by 20-30% and costs by
-                  10-15% compared to the traditional design-bid-build approach. Visit our{' '}
-                  <Link href="/design-center" className="text-primary hover:underline">
-                    Design Center
-                  </Link>{' '}
-                  to explore materials and finishes in person.
-                </p>
-              </div>
 
-              <div className="space-y-4">
-                <h3 className="text-2xl font-bold flex items-center gap-3">
-                  <Home className="h-6 w-6 text-primary" aria-hidden="true" />
-                  Custom Home Building
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Rock Hill offers diverse construction opportunities across commercial sectors.
-                  We Build helps businesses bring their projects to life as an experienced{' '}
-                  <Link
-                    href="/services/general-contractor"
-                    className="text-primary hover:underline"
-                  >
-                    general contractor
-                  </Link>
-                  . We guide clients through every phase from lot evaluation and architectural
-                  planning through material selection at our{' '}
-                  <Link href="/design-center" className="text-primary hover:underline">
-                    Design Center
-                  </Link>{' '}
-                  to final construction. Custom homes in Rock Hill typically cost $175-350 per square
-                  foot depending on finishes and lot conditions. We build in Riverwalk, India Hook,
-                  Tega Cay lakefront communities, Ebenezer, and throughout York County.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -772,7 +720,7 @@ export default function RockHillPage() {
                 discipline, and commitment to excellence that define both military service and
                 family values. We treat every Rock Hill project with the same level of
                 professionalism and care, whether it is a multi-million-dollar commercial
-                development or a custom home addition. Visit our{' '}
+                development or a commercial renovation. Visit our{' '}
                 <Link href="/portfolio" className="text-primary hover:underline">
                   project portfolio
                 </Link>{' '}
@@ -845,9 +793,8 @@ export default function RockHillPage() {
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-4 max-w-2xl mx-auto">
             Whether you need a commercial buildout in Knowledge Park, an industrial facility on
-            Dave Lyle Boulevard, a roof coating for your Rock Hill warehouse, or a custom home
-            near Lake Wylie, We Build is your licensed SC general contractor with the experience
-            to deliver.
+            Dave Lyle Boulevard, or a roof coating for your Rock Hill warehouse, We Build is your
+            licensed SC general contractor with the experience to deliver.
           </p>
           <p className="text-primary-foreground/70 mb-8 max-w-2xl mx-auto">
             Contact us today for a free, no-obligation estimate on your Rock Hill construction
@@ -857,7 +804,7 @@ export default function RockHillPage() {
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <Button size="lg" variant="secondary" asChild>
               <Link href="/contact">
-                Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
+                Get a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button
@@ -866,9 +813,9 @@ export default function RockHillPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

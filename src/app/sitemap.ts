@@ -18,7 +18,6 @@ const corePages: MetadataRoute.Sitemap = [
   { url: `${BASE_URL}/about`, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${BASE_URL}/about/certifications`, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${BASE_URL}/portfolio`, changeFrequency: 'weekly', priority: 0.6 },
-  { url: `${BASE_URL}/design-center`, changeFrequency: 'monthly', priority: 0.7 },
   { url: `${BASE_URL}/we-coat`, changeFrequency: 'monthly', priority: 0.7 },
   { url: `${BASE_URL}/contact`, changeFrequency: 'monthly', priority: 0.8 },
   { url: `${BASE_URL}/news`, changeFrequency: 'weekly', priority: 0.6 },

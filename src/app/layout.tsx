@@ -29,11 +29,11 @@ const body = DM_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL('https://webuildclt.com'),
   title: {
-    default: 'We Build | Commercial Construction & Design-Build Charlotte NC',
+    default: 'We Build | Commercial Construction Charlotte NC',
     template: '%s | We Build Charlotte NC',
   },
   description:
-    'Charlotte NC commercial construction company specializing in commercial upfits, design-build, drone inspections, brewery construction, and roof coatings. Veteran & family-owned with 60+ years combined experience. USGBC member. Licensed in NC & SC.',
+    'Charlotte NC commercial construction company specializing in commercial upfits, drone inspections, brewery construction, and roof coatings. Veteran & family-owned with 60+ years combined experience. USGBC member. Licensed in NC & SC.',
   authors: [{ name: 'We Build' }],
   creator: 'We Build',
   openGraph: {
@@ -41,9 +41,9 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://webuildclt.com',
     siteName: 'We Build',
-    title: 'We Build | Commercial Construction & Design-Build Charlotte NC',
+    title: 'We Build | Commercial Construction Charlotte NC',
     description:
-      'Charlotte NC commercial construction company. Commercial upfits, design-build, roof coatings. Veteran & family-owned, USGBC member.',
+      'Charlotte NC commercial construction company. Commercial upfits, roof coatings. Veteran & family-owned, USGBC member.',
     images: [
       {
         url: '/images/og-image.jpg',
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'We Build | Commercial Construction & Design-Build Charlotte NC',
+    title: 'We Build | Commercial Construction Charlotte NC',
     description:
-      'Charlotte NC commercial construction company. Commercial upfits, design-build, roof coatings. Veteran & family-owned.',
+      'Charlotte NC commercial construction company. Commercial upfits, roof coatings. Veteran & family-owned.',
     images: ['/images/og-image.jpg'],
   },
   robots: {

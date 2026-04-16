@@ -26,13 +26,12 @@ import {
   Scale,
   AlertTriangle,
   Search,
-  Paintbrush,
 } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'General Contractor Charlotte NC | Licensed & Veteran-Owned | We Build',
   description:
-    'Licensed general contractor near me in Charlotte, NC. Commercial construction, upfits, design-build & roof coating. Veteran-owned, 60+ years combined experience. Licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Licensed general contractor near me in Charlotte, NC. Commercial construction, upfits & roof coating. Veteran-owned, 60+ years combined experience. Licensed in NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'general contractor charlotte nc',
     'general contractor near me',
@@ -73,17 +72,10 @@ const services = [
     href: '/services/commercial-upfits',
   },
   {
-    icon: Paintbrush,
-    title: 'Design-Build Services',
-    description:
-      'Our design-build approach combines architectural design, engineering, and construction under a single contract, giving you one point of accountability from concept through completion. This integrated method eliminates the communication gaps and finger-pointing that occur when architects and builders are separate entities. Visit our Design Center in South Charlotte to explore materials, finishes, and layouts with our design team before construction begins. Design-build consistently delivers projects faster and with fewer change orders than the traditional design-bid-build approach.',
-    href: '/services/design-build',
-  },
-  {
     icon: Shield,
     title: 'Roof Coating & Restoration',
     description:
-      'Eco-friendly commercial roof coating systems that extend the life of your existing roof by 10 to 15 years at a fraction of the cost of full replacement. Our We Coat division applies high-performance elastomeric and silicone coatings that reflect UV radiation, reduce cooling costs by up to 30 percent, and eliminate leaks. Roof coating is ideal for flat and low-slope commercial roofs including TPO, EPDM, modified bitumen, and metal substrates. Most roof coating projects are completed in just two to five days with zero business disruption.',
+      'Eco-friendly commercial roof coating systems that extend the life of your existing roof by 10 to 15 years at a fraction of the cost of full replacement. Our We Coat division applies high-performance elastomeric and silicone coatings that reflect UV radiation, reduce cooling costs by up to 30 percent, and eliminate leaks. Roof coating is ideal for flat and low-slope commercial roofs including TPO, EPDM, modified bitumen, and metal substrates. Most roof coating projects are completed in two to three weeks with zero business disruption.',
     href: '/services/roof-coating',
   },
 ];
@@ -99,7 +91,7 @@ const whyChooseUs = [
     icon: Users,
     title: 'Veteran & Family Owned',
     description:
-      'Founded by veterans who bring military discipline, integrity, and accountability to every construction project. We treat your project like our own.',
+      'Founded by a veteran who brings military discipline, integrity, and accountability to every construction project. We treat your project like our own.',
   },
   {
     icon: CheckCircle,
@@ -120,7 +112,7 @@ const processSteps = [
     step: '01',
     title: 'Initial Contact & Free Consultation',
     description:
-      'Your project starts with a free, no-obligation conversation. We discuss your goals, timeline, budget expectations, and project requirements. Whether you reach us by phone at (704) 574-8124 or through our online contact form, we respond within one business day. During this initial consultation, we assess feasibility, identify potential challenges, and provide preliminary guidance on the best approach for your specific project.',
+      'Your project starts with a free, no-obligation conversation. We discuss your goals, timeline, budget expectations, and project requirements. Whether you reach us by phone at (980) 471-1745 or through our online contact form, we respond within one business day. During this initial consultation, we assess feasibility, identify potential challenges, and provide preliminary guidance on the best approach for your specific project.',
   },
   {
     step: '02',
@@ -138,7 +130,7 @@ const processSteps = [
     step: '04',
     title: 'Contract & Pre-Construction Planning',
     description:
-      'Once you approve the estimate, we execute a clear, straightforward contract that defines scope, pricing, timeline, payment schedule, warranty terms, and change order procedures. Our pre-construction phase includes finalizing material selections (visit our Design Center for hands-on selection assistance), coordinating with engineers and architects, preparing detailed construction drawings, and establishing the project schedule.',
+      'Once you approve the estimate, we execute a clear, straightforward contract that defines scope, pricing, timeline, payment schedule, warranty terms, and change order procedures. Our pre-construction phase includes finalizing material selections, coordinating with engineers and architects, preparing detailed construction drawings, and establishing the project schedule.',
   },
   {
     step: '05',
@@ -187,7 +179,7 @@ const costGuide = [
   { type: 'Warehouse/Industrial', range: '$80–$200/sq ft', timeline: '6–12 months' },
   { type: 'Custom Home', range: '$200–$600+/sq ft', timeline: '10–18 months' },
   { type: 'Home Addition', range: '$150–$400/sq ft', timeline: '3–6 months' },
-  { type: 'Roof Coating', range: '$2–$5/sq ft', timeline: '2–5 days' },
+  { type: 'Roof Coating', range: '$2–$5/sq ft', timeline: '2–3 weeks' },
 ];
 
 const faqs = [
@@ -204,12 +196,12 @@ const faqs = [
   {
     question: 'How much does a general contractor charge in Charlotte?',
     answer:
-      'General contractor fees in Charlotte are typically structured in one of three ways. Cost-plus contracts charge the actual cost of materials and labor plus a management fee of 10 to 20 percent. Fixed-price (lump-sum) contracts include the contractor fee built into a single total price. Time-and-materials contracts charge hourly labor rates plus material costs, typically used for smaller or undefined-scope projects. For reference, commercial upfits in Charlotte run $50 to $175 per square foot, custom homes $200 to $600+ per square foot, and home additions $150 to $400 per square foot. We provide detailed, transparent estimates tailored to your specific project scope and specifications.',
+      'General contractor fees in Charlotte are typically structured as fixed-price (lump-sum) contracts, which include the contractor fee built into a single total price. This structure works best when the scope, plans, and specifications are well-defined before construction begins, providing budget certainty upfront. For reference, commercial upfits in Charlotte run $50 to $175 per square foot, custom homes $200 to $600+ per square foot, and home additions $150 to $400 per square foot. We provide detailed, transparent estimates tailored to your specific project scope and specifications.',
   },
   {
     question: 'How long does a typical construction project take in Charlotte?',
     answer:
-      'Project timelines vary significantly by type and scope. Commercial office upfits typically take 3 to 5 months. Restaurant build-outs require 5 to 8 months due to kitchen and ventilation complexity. Custom homes range from 10 to 18 months depending on size and finish level. Home additions average 3 to 6 months. Roof coating projects are completed in 2 to 5 days. The permitting process with Mecklenburg County adds approximately 4 to 8 weeks before construction can begin. We provide detailed project schedules during the planning phase and communicate proactively if any factors impact the timeline.',
+      'Project timelines vary significantly by type and scope. Commercial office upfits typically take 3 to 5 months. Restaurant build-outs require 5 to 8 months due to kitchen and ventilation complexity. Custom homes range from 10 to 18 months depending on size and finish level. Home additions average 3 to 6 months. Roof coating projects are completed in 2 to 3 weeks. The permitting process with Mecklenburg County adds approximately 4 to 8 weeks before construction can begin. We provide detailed project schedules during the planning phase and communicate proactively if any factors impact the timeline.',
   },
   {
     question: 'What areas does We Build serve as a general contractor?',
@@ -229,7 +221,7 @@ const faqs = [
   {
     question: 'What should I look for when hiring a general contractor in Charlotte?',
     answer:
-      'The most important qualifications to verify are: an active North Carolina general contractor license (verify at nclbgc.org), current general liability insurance and workers compensation coverage, relevant experience with your project type, strong local references you can actually contact, a physical office or showroom (not just a truck and a cell phone), detailed and transparent estimates with line-item breakdowns, clear communication practices including regular progress updates, and a written warranty on completed work. We Build meets every one of these criteria and welcomes your due diligence. Visit our portfolio to see completed projects and contact our references directly.',
+      'The most important qualifications to verify are: an active North Carolina general contractor license (verify at nclbgc.org), current general liability insurance and workers compensation coverage, relevant experience with your project type, strong local references you can actually contact, a physical office (not just a truck and a cell phone), detailed and transparent estimates with line-item breakdowns, clear communication practices including regular progress updates, and a written warranty on completed work. We Build meets every one of these criteria and welcomes your due diligence. Visit our portfolio to see completed projects and contact our references directly.',
   },
   {
     question: 'What is the difference between commercial and residential general contracting?',
@@ -237,19 +229,9 @@ const faqs = [
       'While the fundamental project management principles are the same, commercial and residential construction differ significantly in scale, complexity, codes, and process. Commercial projects must comply with the International Building Code (IBC), ADA accessibility requirements, fire suppression mandates, commercial HVAC standards, and more stringent structural engineering requirements. Residential projects follow the International Residential Code (IRC) with different standards. Commercial projects also involve landlord coordination, tenant improvement allowances, and phased occupancy considerations. We Build is licensed and experienced in both commercial and residential general contracting, which gives us a broader perspective and deeper expertise than contractors who specialize in only one sector.',
   },
   {
-    question: 'Can We Build handle both the design and construction of my project?',
-    answer:
-      'Yes. Our design-build services combine architectural design, engineering, and construction under a single contract. This integrated approach gives you one point of accountability, eliminates the communication gaps between separate design and construction firms, reduces change orders, and typically delivers projects faster and at lower cost than the traditional design-bid-build method. Visit our Design Center in South Charlotte to explore materials, finishes, and layouts with our design team. For clients who already have architectural plans, we are equally experienced working as a traditional general contractor building from existing drawings and specifications.',
-  },
-  {
     question: 'How much does a general contractor cost compared to managing subcontractors yourself in Charlotte?',
     answer:
       'Self-managing subcontractors may appear cheaper because you avoid the 10 to 20 percent general contractor fee, but it almost always costs more in the end. Owner-managed projects in Charlotte experience 20 to 40 percent more change orders, schedule delays that increase carrying costs, and quality problems that require costly rework. General contractors negotiate better material pricing through volume purchasing and prevent expensive mistakes through professional oversight. On a typical $500,000 commercial project, the GC fee of $50,000 to $100,000 routinely saves $75,000 to $150,000 in avoided overruns, making professional management the more cost-effective choice.',
-  },
-  {
-    question: 'What is the difference between design-build and design-bid-build for projects in Charlotte?',
-    answer:
-      'Design-bid-build is the traditional method where you hire an architect to design the project, then solicit bids from general contractors to build it. Design-build combines both services under one contract with one team. In Charlotte, design-build projects typically complete 15 to 25 percent faster and experience 30 to 40 percent fewer change orders because the builder is involved from the design phase and can identify constructability issues before they become expensive field problems. Design-bid-build gives you more control over architect selection but creates a gap between designer and builder that often leads to disputes over scope interpretation.',
   },
   {
     question: 'Does Mecklenburg County require inspections during construction, and does We Build coordinate them?',
@@ -265,7 +247,7 @@ export default function GeneralContractorPage() {
         data={[
           serviceSchema(
             'General Contractor Services Charlotte NC',
-            'Licensed general contractor in Charlotte, NC providing commercial construction, custom homes, upfits, design-build, and roof coating services. Veteran-owned, 60+ years combined experience. Licensed in NC & SC.',
+            'Licensed general contractor in Charlotte, NC providing commercial construction, custom homes, upfits, and roof coating services. Veteran-owned, 60+ years combined experience. Licensed in NC & SC.',
             'https://webuildclt.com/services/general-contractor'
           ),
           faqSchema(faqs),
@@ -335,11 +317,7 @@ export default function GeneralContractorPage() {
                 <Link href="/services/commercial-upfits" className="text-primary hover:underline">
                   commercial upfit
                 </Link>{' '}
-                for your growing business, a{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">
-                  design-build project
-                </Link>{' '}
-                managed from concept to completion, or an eco-friendly{' '}
+                for your growing business, or an eco-friendly{' '}
                 <Link href="/services/roof-coating" className="text-primary hover:underline">
                   roof coating
                 </Link>{' '}
@@ -349,14 +327,14 @@ export default function GeneralContractorPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+17045748124">
+                  <a href="tel:+19804711745">
                     <Phone className="mr-2 h-5 w-5" />
-                    (704) 574-8124
+                    (980) 471-1745
                   </a>
                 </Button>
               </div>
@@ -370,8 +348,7 @@ export default function GeneralContractorPage() {
                   'USGBC member — committed to green building',
                   'Commercial & residential construction',
                   '60+ years combined team experience',
-                  'Free consultations and detailed estimates',
-                  'Full design-build capabilities with in-house Design Center',
+                  'Free consultations with transparent proposals',
                   'Serving Charlotte metro, Lake Norman, Fort Mill & beyond',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
@@ -462,8 +439,8 @@ export default function GeneralContractorPage() {
                 commercial construction
               </Link>{' '}
               to{' '}
-              <Link href="/services/design-build" className="text-primary hover:underline">
-                design-build
+              <Link href="/services/roof-coating" className="text-primary hover:underline">
+                roof coating
               </Link>
               , we offer comprehensive construction services tailored to your needs and budget. Every
               service includes transparent pricing, dedicated project management, and our commitment
@@ -664,25 +641,11 @@ export default function GeneralContractorPage() {
 
             <div className="space-y-6 text-muted-foreground leading-relaxed mb-12">
               <p>
-                <strong className="text-foreground">Cost-plus contracts</strong> are the most
-                transparent pricing structure. Under a cost-plus agreement, you pay the actual cost of
-                materials, labor, and subcontractors, plus a management fee that typically ranges from
-                10 to 20 percent of total project cost. This structure works well when the scope is not
-                fully defined or when the owner wants maximum visibility into where every dollar goes.
-                The trade-off is that the final cost is not known until the project is complete.
-              </p>
-              <p>
                 <strong className="text-foreground">Fixed-price (lump-sum) contracts</strong> provide a
                 single total price for the entire project. The general contractor&apos;s fee is built
                 into the total, and the owner knows the exact cost upfront. This structure works best
                 when the scope, plans, and specifications are well-defined before construction begins.
-                It provides budget certainty but offers less flexibility for changes during construction.
-              </p>
-              <p>
-                <strong className="text-foreground">Time-and-materials contracts</strong> charge hourly
-                labor rates plus the actual cost of materials. This structure is common for smaller
-                projects, repair work, or projects where the scope cannot be precisely defined in
-                advance. It provides flexibility but requires trust between the owner and contractor.
+                It provides budget certainty and a clear understanding of total investment from the start.
               </p>
               <p>
                 <strong className="text-foreground">Budgeting guidance:</strong> regardless of contract
@@ -848,12 +811,8 @@ export default function GeneralContractorPage() {
                   <li className="flex items-start gap-3">
                     <CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-1" aria-hidden="true" />
                     <span>
-                      <strong className="text-foreground">Physical office or showroom</strong> — a
-                      contractor with a permanent location (like our{' '}
-                      <Link href="/design-center" className="text-primary hover:underline">
-                        Design Center
-                      </Link>
-                      ) is invested in the community and easier to find if issues arise.
+                      <strong className="text-foreground">Physical office</strong> — a
+                      contractor with a permanent location is invested in the community and easier to find if issues arise.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -935,15 +894,11 @@ export default function GeneralContractorPage() {
               </p>
               <p>
                 We Build welcomes every one of these questions. We encourage prospective clients to
-                visit our{' '}
-                <Link href="/design-center" className="text-primary hover:underline">
-                  Design Center
-                </Link>
-                , review our{' '}
+                review our{' '}
                 <Link href="/portfolio" className="text-primary hover:underline">
                   portfolio
                 </Link>{' '}
-                of completed projects, and speak with our references directly. Learn more{' '}
+                of completed projects and speak with our references directly. Learn more{' '}
                 <Link href="/about" className="text-primary hover:underline">
                   about our company
                 </Link>{' '}
@@ -1004,11 +959,7 @@ export default function GeneralContractorPage() {
                 <Link href="/services/commercial-upfits" className="text-primary hover:underline">
                   commercial upfit
                 </Link>{' '}
-                in Ballantyne, a{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">
-                  design-build project
-                </Link>{' '}
-                near{' '}
+                in Ballantyne, a new construction project near{' '}
                 <Link href="/areas/lake-norman" className="text-primary hover:underline">
                   Lake Norman
                 </Link>
@@ -1072,7 +1023,6 @@ export default function GeneralContractorPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for office, retail, restaurant, medical, warehouse, and mixed-use developments.' },
-              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Single-source design and construction with one point of accountability, faster timelines, and lower costs.' },
               { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control, budget management, and quality oversight for complex projects.' },
               { title: 'Commercial Upfits & Renovations', href: '/services/commercial-upfits', type: 'Service', desc: 'Transform existing commercial spaces with tenant improvements, phased renovations, and fast-track buildouts.' },
               { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service', desc: 'Feasibility studies, cost estimating, and value engineering before you break ground.' },
@@ -1166,7 +1116,7 @@ export default function GeneralContractorPage() {
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
             Contact Charlotte&apos;s trusted general contractor today for a free consultation and
-            detailed estimate. Whether you are planning a{' '}
+            consultation. Whether you are planning a{' '}
             <span className="text-primary-foreground">commercial build</span>, a{' '}
             <span className="text-primary-foreground">custom home</span>, or a{' '}
             <span className="text-primary-foreground">renovation</span>, We Build is ready to turn
@@ -1174,7 +1124,7 @@ export default function GeneralContractorPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get Your Free Estimate</Link>
+              <Link href="/contact">Get Your Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -1182,7 +1132,7 @@ export default function GeneralContractorPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">(704) 574-8124</a>
+              <a href="tel:+19804711745">(980) 471-1745</a>
             </Button>
           </div>
         </div>

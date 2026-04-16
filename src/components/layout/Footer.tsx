@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Facebook, Instagram, Phone, Mail, MapPin } from 'lucide-react';
+import { Facebook, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
 import { servicesByCategory, areaLinks } from '@/data/services';
 
 const navigation = {
@@ -9,14 +9,13 @@ const navigation = {
     { name: 'About', href: '/about' },
     { name: 'Certifications & Licenses', href: '/about/certifications' },
     { name: 'Portfolio', href: '/portfolio' },
-    { name: 'Design Center', href: '/design-center' },
     { name: 'We Coat', href: '/we-coat' },
     { name: 'Guides', href: '/guides' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ],
   social: [
-    { name: 'Instagram', href: 'https://www.instagram.com/webuildclt/', icon: Instagram },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/company/we-build-clt', icon: Linkedin },
     { name: 'Facebook', href: 'https://www.facebook.com/WeBuildCLT', icon: Facebook },
   ],
 };
@@ -37,8 +36,8 @@ export function Footer() {
             />
             <p className="text-sm text-secondary-foreground/85 leading-relaxed">
               Charlotte&rsquo;s trusted commercial construction company. Over 60
-              years of combined experience in commercial upfits, design-build,
-              and roof coatings. Veteran &amp; family-owned. USGBC member.
+              years of combined experience in commercial upfits, commercial
+              construction, and roof coatings. Veteran &amp; family-owned. USGBC member.
             </p>
             <div className="flex gap-4">
               {navigation.social.map((item) => (
@@ -137,20 +136,20 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+17045748124"
+                  href="tel:+19804711745"
                   className="flex items-center gap-3 text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                 >
                   <Phone className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
-                  (704) 574-8124
+                  (980) 471-1745
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:designcenter@webuildclt.com"
+                  href="mailto:info@webuildclt.com"
                   className="flex items-center gap-3 text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                 >
                   <Mail className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
-                  designcenter@webuildclt.com
+                  info@webuildclt.com
                 </a>
               </li>
             </ul>
@@ -176,6 +175,25 @@ export function Footer() {
                 className="h-14 w-14 object-contain invert"
               />
               <span className="text-xs text-secondary-foreground/75 uppercase tracking-wider">NC Licensed</span>
+            </div>
+            <div className="flex flex-col items-center gap-1.5">
+              <span className="text-sm font-semibold text-secondary-foreground/85">SC Licensed</span>
+              <span className="text-xs text-secondary-foreground/75 uppercase tracking-wider">SC #122817</span>
+            </div>
+            <Image
+              src="/images/certifications/iibec.png"
+              alt="IIBEC Certified"
+              width={64}
+              height={64}
+              className="h-14 w-auto invert"
+            />
+            <div className="flex flex-col items-center gap-1.5">
+              <span className="text-sm font-semibold text-secondary-foreground/85">Purple Heart</span>
+              <span className="text-xs text-secondary-foreground/75 uppercase tracking-wider">Recipient</span>
+            </div>
+            <div className="flex flex-col items-center gap-1.5">
+              <span className="text-sm font-semibold text-secondary-foreground/85">CHAMP</span>
+              <span className="text-xs text-secondary-foreground/75 uppercase tracking-wider">Certified</span>
             </div>
           </div>
         </div>

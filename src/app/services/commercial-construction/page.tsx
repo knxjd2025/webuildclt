@@ -45,7 +45,7 @@ import {
 export const metadata: Metadata = {
   title: 'Commercial Construction Charlotte NC | Licensed General Contractor | We Build',
   description:
-    'Top-rated commercial construction company in Charlotte NC with 60+ years combined experience. Commercial general contractors for office buildings, retail spaces, restaurants, medical facilities, warehouses & mixed-use. Licensed in NC & SC. Veteran & family-owned. USGBC member. Free estimates. (704) 574-8124.',
+    'Top-rated commercial construction company in Charlotte NC with 60+ years combined experience. Commercial general contractors for office buildings, retail spaces, restaurants, medical facilities, warehouses & mixed-use. Licensed in NC & SC. Veteran & family-owned. USGBC member. Free consultations. (980) 471-1745.',
   keywords: [
     'commercial construction charlotte nc',
     'commercial construction companies charlotte nc',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     'new commercial construction charlotte',
     'commercial construction cost charlotte',
     'commercial building permits mecklenburg county',
-    'design build commercial contractor charlotte',
+    'commercial contractor charlotte',
     'commercial upfit charlotte nc',
     'restaurant construction charlotte nc',
     'medical office construction charlotte nc',
@@ -80,7 +80,7 @@ const projectTypes = [
     icon: Building2,
     title: 'Office Buildings',
     desc: 'New builds, expansions, and full renovations for modern workspaces. Open-concept layouts, private offices, conference rooms, and reception areas designed for productivity.',
-    details: 'We handle everything from single-tenant professional offices to multi-story corporate buildings. Our design-build approach means architecture, engineering, and construction are coordinated under one roof, eliminating the communication gaps that cause delays. Whether you need a 1,500-square-foot professional suite or a 50,000-square-foot corporate headquarters, we bring the same attention to detail and project management discipline to every office construction project in Charlotte. Our office builds incorporate modern infrastructure including structured cabling for high-speed networking, energy-efficient HVAC zoning, and LED lighting systems that reduce operating costs from day one.',
+    details: 'We handle everything from single-tenant professional offices to multi-story corporate buildings. We work closely with your architect and design team to ensure architecture, engineering, and construction are coordinated seamlessly, eliminating the communication gaps that cause delays. Whether you need a 1,500-square-foot professional suite or a 50,000-square-foot corporate headquarters, we bring the same attention to detail and project management discipline to every office construction project in Charlotte. Our office builds incorporate modern infrastructure including structured cabling for high-speed networking, energy-efficient HVAC zoning, and LED lighting systems that reduce operating costs from day one.',
     cost: '$150-$400/sq ft',
   },
   {
@@ -124,17 +124,12 @@ const processSteps = [
   {
     icon: Phone,
     title: 'Initial Consultation',
-    desc: 'Every project starts with a conversation. We meet with you to understand your business needs, timeline, budget range, and vision for the space. This initial meeting is free and comes with no obligation. We listen first, then provide honest feedback about feasibility, approximate costs, and realistic timelines. Many clients visit our Design Center in South Charlotte during this phase to get a feel for our quality standards and explore material options.',
+    desc: 'Every project starts with a conversation. We meet with you to understand your business needs, timeline, budget range, and vision for the space. This initial meeting is free and comes with no obligation. We listen first, then provide honest feedback about feasibility, approximate costs, and realistic timelines. We work closely with your architect and design team to ensure a seamless build process.',
   },
   {
     icon: Search,
     title: 'Site Evaluation & Due Diligence',
     desc: 'Before we estimate, we evaluate your site thoroughly. For existing buildings, this means assessing structural conditions, electrical capacity, plumbing infrastructure, HVAC systems, and ADA compliance. For ground-up projects, we review soil conditions, utility access, grading requirements, and zoning regulations. This due diligence prevents the expensive surprises that derail budgets and timelines.',
-  },
-  {
-    icon: PenTool,
-    title: 'Design & Space Planning',
-    desc: 'As a design-build contractor, we coordinate architectural design, structural engineering, and MEP (mechanical, electrical, plumbing) layout as an integrated team. Our Design Center in South Charlotte is where you select finishes, flooring, lighting, countertops, and fixtures. Making these decisions before construction starts eliminates the change orders that blow up budgets on traditional projects.',
   },
   {
     icon: FileText,
@@ -185,11 +180,6 @@ const benefits = [
     desc: 'We hold active general contractor licenses with both the North Carolina Licensing Board for General Contractors and the South Carolina Contractors Licensing Board. This dual licensing allows us to serve the entire Charlotte metro area seamlessly, including projects in Fort Mill, Indian Land, Rock Hill, and other communities across the state line.',
   },
   {
-    icon: Ruler,
-    title: 'In-House Design Center',
-    desc: 'Our dedicated Design Center in South Charlotte is where your project comes to life before construction starts. Browse flooring, countertop, cabinet, lighting, and fixture samples in person. Making material selections before construction begins eliminates costly change orders and ensures the finished space matches your vision exactly.',
-  },
-  {
     icon: Users,
     title: 'Single Point of Contact',
     desc: 'Every project is assigned a dedicated project manager who serves as your single point of contact from groundbreaking to handover. You will never be passed between departments or left wondering who to call. Our project managers provide weekly written updates, maintain shared photo documentation, and are available by phone during business hours.',
@@ -208,11 +198,6 @@ const benefits = [
     icon: Clock,
     title: '60+ Years Combined Experience',
     desc: 'Our leadership team brings over 60 years of combined construction experience to every project. That experience translates into better problem-solving, more accurate estimating, stronger subcontractor relationships, and the ability to anticipate issues before they become expensive problems. Experience is the difference between a project that finishes on time and one that does not.',
-  },
-  {
-    icon: FileCheck,
-    title: 'Design-Build Efficiency',
-    desc: 'Our design-build delivery method combines architecture, engineering, and construction under one contract. This integrated approach typically saves 15-20% on total project costs and delivers projects 20-30% faster than traditional design-bid-build. One team, one contract, one point of accountability eliminates the finger-pointing that plagues fragmented construction projects.',
   },
 ];
 
@@ -276,10 +261,6 @@ const faqs = [
     answer: 'Yes, We Build holds active general contractor licenses in both North Carolina and South Carolina. We are fully insured with general liability, workers compensation, and commercial auto coverage. We also carry builder risk insurance for projects under construction. As a USGBC member, we maintain the highest professional standards in the commercial construction industry.',
   },
   {
-    question: 'Do you offer design-build commercial construction services?',
-    answer: 'Yes, design-build is one of our core specialties. With design-build, one team handles both architecture and construction, eliminating miscommunication between separate design and build teams. This approach typically saves 15-20% on total project costs and delivers projects 20-30% faster. Visit our Design Center in South Charlotte to see our design-build approach in action.',
-  },
-  {
     question: 'What financing options are available for commercial construction projects?',
     answer: 'Most commercial construction projects are financed through commercial construction loans from banks or SBA loans for small business owners. Some landlords provide tenant improvement allowances for commercial upfits. We work with your lender to provide the documentation they require, including detailed cost breakdowns, draw schedules, and progress certifications. We can recommend local lenders experienced with construction financing.',
   },
@@ -304,8 +285,8 @@ const faqs = [
     answer: 'Commercial construction in Mecklenburg County requires multiple inspections at prescribed milestones. Typical inspections include footing and foundation before concrete pour, rough framing, rough electrical, rough plumbing, rough mechanical and HVAC, fire alarm and sprinkler systems, insulation and energy code compliance, and final building inspection before certificate of occupancy is issued. The fire marshal conducts separate inspections for fire suppression, alarm systems, and egress compliance. Failed inspections require corrections and reinspection, which can delay the schedule. Our project managers coordinate all inspections proactively and ensure each trade is ready before calling for inspection to avoid delays.',
   },
   {
-    question: 'Do I need a separate architect or does We Build handle design for commercial projects?',
-    answer: 'We Build offers full design-build services, so you do not need to hire a separate architect. Our integrated team handles space planning, architectural design, engineering coordination, permitting, and construction under one contract. This design-build approach typically saves 15 to 20 percent compared to the traditional method of hiring an architect first and then bidding construction separately. If you already have an architect or prefer to use one, we work collaboratively with outside design professionals as well. Visit our Design Center in South Charlotte to see how our design-build process works in person.',
+    question: 'Do I need a separate architect or can We Build work with my existing design team?',
+    answer: 'Most commercial projects require an architect, and we work closely with your architect and design team to ensure a seamless build process. We coordinate engineering, permitting, and construction to keep the project on schedule and on budget. If you do not yet have an architect, we can recommend experienced commercial architects in the Charlotte area who specialize in your project type.',
   },
 ];
 
@@ -363,10 +344,7 @@ export default function CommercialConstructionPage() {
               </p>
 
               <p>
-                What makes us different from other commercial construction companies in Charlotte? Three things. First, we are a{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build contractor</Link>,
-                which means your architect and your builder work as one team. That eliminates the finger-pointing and change orders that plague traditional construction projects. Second, we have a dedicated{' '}
-                <Link href="/design-center" className="text-primary hover:underline">Design Center</Link> in South Charlotte where you can see and touch materials before committing to any selections. Third, we are U.S. Green Building Council (USGBC) members, so sustainable building practices are integrated into every project from the start, not bolted on as an afterthought.
+                What makes us different from other commercial construction companies in Charlotte? Two things. First, we work closely with your architect and design team to ensure seamless coordination between design and construction, eliminating the finger-pointing and change orders that plague fragmented projects. Second, we are U.S. Green Building Council (USGBC) members, so sustainable building practices are integrated into every project from the start, not bolted on as an afterthought.
               </p>
 
               <p>
@@ -442,10 +420,6 @@ export default function CommercialConstructionPage() {
                       <span className="text-muted-foreground">USGBC member</span>
                     </li>
                     <li className="flex items-start gap-3">
-                      <Ruler className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                      <span className="text-muted-foreground">In-house Design Center</span>
-                    </li>
-                    <li className="flex items-start gap-3">
                       <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
                       <span className="text-muted-foreground">Based in South Charlotte</span>
                     </li>
@@ -454,19 +428,19 @@ export default function CommercialConstructionPage() {
 
                 {/* CTA Card */}
                 <div className="bg-primary text-primary-foreground rounded-lg p-6">
-                  <h3 className="font-semibold text-lg mb-2">Free Estimate</h3>
+                  <h3 className="font-semibold text-lg mb-2">Free Consultation</h3>
                   <p className="text-sm text-primary-foreground/80 mb-4">
                     Tell us about your commercial project. We provide detailed, transparent estimates with no obligation.
                   </p>
                   <Button variant="secondary" className="w-full mb-3" asChild>
-                    <Link href="/contact">Get a Free Estimate</Link>
+                    <Link href="/contact">Get a Free Consultation</Link>
                   </Button>
                   <a
-                    href="tel:+17045748124"
+                    href="tel:+19804711745"
                     className="flex items-center justify-center gap-2 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
                     <Phone className="h-3.5 w-3.5" aria-hidden="true" />
-                    (704) 574-8124
+                    (980) 471-1745
                   </a>
                 </div>
 
@@ -522,8 +496,8 @@ export default function CommercialConstructionPage() {
       {/* Inline CTA */}
       <div className="container mx-auto px-4">
         <div className="inline-cta my-0 rounded-none md:rounded-lg md:my-8">
-          <p>Ready to discuss your commercial construction project in Charlotte? We provide free estimates with detailed, line-item breakdowns.</p>
-          <Link href="/contact">Get a Free Estimate <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
+          <p>Ready to discuss your commercial construction project in Charlotte? We provide free consultations with detailed, line-item breakdowns.</p>
+          <Link href="/contact">Get a Free Consultation <ArrowRight className="h-4 w-4" aria-hidden="true" /></Link>
         </div>
       </div>
 
@@ -572,8 +546,8 @@ export default function CommercialConstructionPage() {
             <div className="callout callout-cost">
               <div className="callout-title">Cost-Saving Tip</div>
               <p>
-                <Link href="/services/design-build" className="text-primary hover:underline">Design-build delivery</Link> can
-                save 15-20% compared to the traditional design-bid-build method. By combining design and construction under one contract, you eliminate redundant coordination costs and reduce change orders. Ask us about our design-build process for your commercial project.
+                <Link href="/services/value-engineering" className="text-primary hover:underline">Value engineering</Link> can
+                save 10-20% on total project costs. By identifying cost-effective alternatives for materials and methods early in the planning phase, you reduce expenses without sacrificing quality. Ask us about our value engineering process for your commercial project.
               </p>
             </div>
 
@@ -585,7 +559,7 @@ export default function CommercialConstructionPage() {
 
             <ul>
               <li><strong>Project type and complexity.</strong> A standard office upfit with drywall, carpet, and paint is far less expensive than a restaurant requiring commercial kitchen ventilation, grease traps, and fire suppression systems. Medical facilities that need specialized HVAC for air pressure control or lead-lined walls for radiology cost more per square foot than general office space.</li>
-              <li><strong>Finish level.</strong> The gap between builder-grade finishes and high-end finishes can be 50-100% of the base cost. Polished concrete is cheaper than hardwood flooring. Standard drywall ceilings cost less than exposed structural ceilings with custom lighting. Visit our <Link href="/design-center" className="text-primary hover:underline">Design Center</Link> to see the full range of finish options and understand how selections affect your budget.</li>
+              <li><strong>Finish level.</strong> The gap between builder-grade finishes and high-end finishes can be 50-100% of the base cost. Polished concrete is cheaper than hardwood flooring. Standard drywall ceilings cost less than exposed structural ceilings with custom lighting. We help you understand the full range of finish options and how selections affect your budget.</li>
               <li><strong>Site conditions.</strong> Existing building conditions matter significantly. An older building may need electrical panel upgrades, structural reinforcement, asbestos abatement, or ADA accessibility improvements that are not immediately obvious. A thorough site assessment before bidding prevents expensive surprises later. This is why our process always begins with a detailed site evaluation.</li>
               <li><strong>Location within Charlotte.</strong> Construction costs vary by location. Projects in Uptown Charlotte or South End may face higher labor costs due to parking challenges, restricted delivery windows, and urban site logistics. Suburban locations like Ballantyne, <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>, or <Link href="/areas/lake-norman" className="text-primary hover:underline">Lake Norman</Link> typically have lower site-related costs.</li>
               <li><strong>Current market conditions.</strong> Material costs fluctuate based on supply chain conditions and demand. Labor availability also affects pricing. In Charlotte, the strong construction market means skilled tradespeople are in high demand, which can impact scheduling and costs. Planning ahead and booking your contractor early helps lock in favorable pricing.</li>
@@ -880,8 +854,8 @@ export default function CommercialConstructionPage() {
             {[
               { title: 'Commercial Upfits', href: '/services/commercial-upfits', desc: 'Tenant improvements and space renovations for existing commercial buildings.' },
               { title: 'Commercial Renovation', href: '/services/commercial-renovation', desc: 'Full building renovation and remodeling for offices, retail, restaurants, and warehouses.' },
-              { title: 'Design-Build', href: '/services/design-build', desc: 'Architecture and construction under one contract for faster, more affordable delivery.' },
               { title: 'Tenant Improvements', href: '/services/tenant-improvements', desc: 'TI build-outs and leasehold improvements for office, retail, and medical tenants.' },
+              { title: 'Construction Management', href: '/services/construction-management', desc: 'Professional CM services with schedule control, budget management, and quality oversight.' },
             ].map((service) => (
               <Card key={service.href} className="card-hover">
                 <CardContent className="p-6">
@@ -941,7 +915,7 @@ export default function CommercialConstructionPage() {
             Ready to Build Your Commercial Project in Charlotte?
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact Charlotte&rsquo;s trusted commercial construction company for a free consultation and detailed estimate. Whether you need a{' '}
+            Contact Charlotte&rsquo;s trusted commercial construction company for a free consultation. Whether you need a{' '}
             <span className="text-primary-foreground">ground-up office building</span>, a{' '}
             <span className="text-primary-foreground">restaurant build-out</span>, a{' '}
             <span className="text-primary-foreground">medical facility</span>, or a{' '}
@@ -950,7 +924,7 @@ export default function CommercialConstructionPage() {
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild className="btn-shimmer">
               <Link href="/contact">
-                Get a Free Estimate
+                Get a Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
               </Link>
             </Button>
@@ -960,9 +934,9 @@ export default function CommercialConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

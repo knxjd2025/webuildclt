@@ -37,7 +37,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Warehouse Construction Charlotte NC | Distribution Center & Industrial Building Contractor',
   description:
-    'Expert warehouse construction contractor in Charlotte, NC and the Carolinas. Industrial construction for distribution centers, cold storage, flex space, manufacturing facilities, and warehouse renovations. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Expert warehouse construction contractor in Charlotte, NC and the Carolinas. Industrial construction for distribution centers, cold storage, flex space, manufacturing facilities, and warehouse renovations. Veteran-owned, licensed in NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'warehouse construction Charlotte NC',
     'warehouse construction near me',
@@ -139,8 +139,8 @@ const processSteps = [
   },
   {
     step: '03',
-    title: 'Design-Build Engineering',
-    desc: 'Our design-build approach integrates architectural, structural, mechanical, electrical, plumbing, and fire protection design under one contract. For warehouse construction, structural engineering drives the design: steel column spacing, clear height, roof load capacity for mechanical equipment or solar panels, and foundation design for floor loads and rack anchorage. We design the building around your operational requirements, including rack layout, dock door count and spacing, office location and size, and any specialized systems for your specific use.',
+    title: 'Engineering & Coordination',
+    desc: 'We work closely with your architect and design team to integrate architectural, structural, mechanical, electrical, plumbing, and fire protection design seamlessly. For warehouse construction, structural engineering drives the design: steel column spacing, clear height, roof load capacity for mechanical equipment or solar panels, and foundation design for floor loads and rack anchorage. We coordinate the building design around your operational requirements, including rack layout, dock door count and spacing, office location and size, and any specialized systems for your specific use.',
   },
   {
     step: '04',
@@ -219,11 +219,6 @@ const whyChooseUs = [
     desc: 'Charlotte industrial market spans the I-85 corridor from Concord to Gastonia, the I-77 corridor toward Mooresville, the Airport-West submarket near Charlotte Douglas International, and the I-485 outer belt. We understand site conditions, utility availability, zoning requirements, and construction timelines in each of these submarkets.',
   },
   {
-    icon: Lightbulb,
-    title: 'Design-Build Delivery',
-    desc: 'Our design-build approach integrates architectural, structural, and MEP engineering with construction under one contract. For warehouse projects, this means faster delivery because design and construction phases overlap, and fewer change orders because the team designing the building is the same team building it.',
-  },
-  {
     icon: Scale,
     title: 'Charlotte & Carolinas Coverage',
     desc: 'We Build serves the Charlotte, NC metro and the greater Carolinas region, giving us deep insight into one of the most active industrial construction markets in the Southeast. Whether you are building a distribution center on the I-85 corridor or a manufacturing facility along I-77, we bring local market knowledge and construction expertise.',
@@ -239,7 +234,7 @@ const faqs = [
   {
     question: 'How much does it cost to build a warehouse in Charlotte, NC?',
     answer:
-      'Warehouse construction costs in Charlotte range from $80 per square foot for a basic warehouse shell to $300 per square foot for a refrigerated cold storage facility. A standard 50,000 square foot distribution warehouse with 32-foot clear heights, dock doors, ESFR sprinklers, and basic office space typically costs between $5 million and $10 million for the complete building. The biggest cost variables are building size, clear height requirements, floor slab specifications, fire suppression system type, dock equipment count, and any climate control or specialized systems. We provide detailed estimates after a site visit and operational needs assessment.',
+      'Warehouse construction costs in Charlotte range from $80 per square foot for a basic warehouse shell to $300 per square foot for a refrigerated cold storage facility. A standard 50,000 square foot distribution warehouse with 32-foot clear heights, dock doors, ESFR sprinklers, and basic office space typically costs between $5 million and $10 million for the complete building. The biggest cost variables are building size, clear height requirements, floor slab specifications, fire suppression system type, dock equipment count, and any climate control or specialized systems. We provide consultations after a site visit and operational needs assessment.',
   },
   {
     question: 'How long does it take to build a warehouse in Charlotte?',
@@ -368,10 +363,9 @@ export default function WarehouseConstructionPage() {
                 the Charlotte, NC metro and the greater Carolinas region. With over 60 years of combined
                 construction experience, we specialize in warehouse construction, distribution center builds,
                 cold storage facilities, flex space development, manufacturing facility construction, and
-                warehouse renovation and expansion. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link> approach
-                integrates structural, mechanical, and fire protection engineering with construction under
-                one contract. Licensed in North Carolina and South Carolina, we serve the greater Charlotte
+                warehouse renovation and expansion. We work closely with your architect and design team to
+                integrate structural, mechanical, and fire protection engineering with construction
+                seamlessly. Licensed in North Carolina and South Carolina, we serve the greater Charlotte
                 metro including{' '}
                 <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>,{' '}
                 <Link href="/areas/lake-norman" className="text-primary hover:underline">Lake Norman</Link>, and{' '}
@@ -380,7 +374,7 @@ export default function WarehouseConstructionPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -540,7 +534,7 @@ export default function WarehouseConstructionPage() {
                 Warehouse construction costs in Charlotte depend on building type, size, clear height,
                 floor specifications, fire suppression requirements, and any climate control or specialized
                 systems. Below are typical cost ranges for industrial construction in the Charlotte metro
-                area. Every project is unique, and we provide detailed estimates after a site visit.
+                area. Every project is unique, and we provide consultations after a site visit.
               </p>
             </div>
             <div className="space-y-4">
@@ -627,7 +621,7 @@ export default function WarehouseConstructionPage() {
               { title: 'Site Development Charlotte NC', href: '/services/site-development', type: 'Service', desc: 'Land clearing, grading, stormwater management, and utility infrastructure to prepare your warehouse site for construction.' },
               { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control, budget management, and quality oversight for complex industrial projects.' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for office, retail, mixed-use, and specialty buildings across the Charlotte metro area.' },
-              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Our design-build approach delivers warehouse projects faster with integrated engineering and construction under one contract.' },
+              { title: 'Industrial Construction', href: '/services/industrial-construction', type: 'Service', desc: 'Heavy industrial facilities, manufacturing plants, and production spaces built for operational efficiency.' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
@@ -662,7 +656,7 @@ export default function WarehouseConstructionPage() {
             and fire protection knowledge to deliver your project on schedule and ready for operations.
           </p>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free site evaluation and detailed estimate. We serve Charlotte,{' '}
+            Contact us today for a free site evaluation and consultation. We serve Charlotte,{' '}
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
@@ -670,7 +664,7 @@ export default function WarehouseConstructionPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -678,9 +672,9 @@ export default function WarehouseConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

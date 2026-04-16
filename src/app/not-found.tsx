@@ -36,7 +36,6 @@ export default function NotFound() {
             {[
               { name: 'Portfolio', href: '/portfolio' },
               { name: 'About Us', href: '/about' },
-              { name: 'Design Center', href: '/design-center' },
               { name: 'Roof Coating', href: '/we-coat' },
               { name: 'Blog', href: '/blog' },
             ].map((link) => (

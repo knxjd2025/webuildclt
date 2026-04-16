@@ -45,7 +45,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'ADA Compliance & Code Updates Charlotte NC | Commercial ADA Contractor',
   description:
-    'Expert ADA compliance contractor in Charlotte, NC. ADA restroom renovation, accessible entrance construction, ramp building, parking lot compliance, elevator installation & building code updates. Veteran-owned, licensed in NC & SC. Avoid lawsuits & fines. Free ADA assessments. (704) 574-8124.',
+    'Expert ADA compliance contractor in Charlotte, NC. ADA restroom renovation, accessible entrance construction, ramp building, parking lot compliance, elevator installation & building code updates. Veteran-owned, licensed in NC & SC. Avoid lawsuits & fines. Free ADA assessments. (980) 471-1745.',
   keywords: [
     'ADA compliance contractor Charlotte NC',
     'ADA compliance contractor near me',
@@ -754,7 +754,7 @@ export default function ADACompliancePage() {
                 ADA compliance costs in Charlotte vary significantly depending on the type of
                 modification, existing building conditions, and scope of deficiencies. Below are
                 typical cost ranges based on our recent ADA compliance projects in the Charlotte
-                metro area. Every project is different, and we provide detailed estimates after
+                metro area. Every project is different, and we provide detailed proposals after
                 an initial assessment.
               </p>
             </div>
@@ -893,9 +893,9 @@ export default function ADACompliancePage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

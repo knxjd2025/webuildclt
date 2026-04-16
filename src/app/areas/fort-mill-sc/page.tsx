@@ -27,7 +27,7 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company Fort Mill SC | Licensed General Contractor',
   description:
-    'Need a contractor near me in Fort Mill SC? Licensed general contractor for commercial construction, commercial upfits, roof coating & design-build. SC licensed. Veteran-owned. 60+ years combined experience. Free estimates.',
+    'Need a contractor near me in Fort Mill SC? Licensed general contractor for commercial construction, commercial upfits & roof coating. SC licensed. Veteran-owned. 60+ years combined experience. Free consultations.',
   keywords: [
     'construction company fort mill sc',
     'general contractor fort mill sc',
@@ -42,14 +42,13 @@ export const metadata: Metadata = {
     'commercial upfit fort mill sc',
     'commercial contractor fort mill',
     'roof coating fort mill sc',
-    'design build fort mill sc',
     'york county contractor',
     'fort mill commercial contractor',
   ],
   openGraph: {
     title: 'Construction Company Fort Mill SC | Licensed General Contractor | We Build',
     description:
-      'Licensed SC general contractor serving Fort Mill. Commercial construction, upfits, roof coating & design-build. Veteran & family-owned. Free estimates.',
+      'Licensed SC general contractor serving Fort Mill. Commercial construction, upfits & roof coating. Veteran & family-owned. Free consultations.',
     type: 'website',
     locale: 'en_US',
   },
@@ -77,24 +76,18 @@ const services = [
     desc: 'Commercial roof restoration and protective coating systems for Fort Mill building owners seeking to extend roof life.',
     href: '/services/roof-coating',
   },
-  {
-    icon: Ruler,
-    title: 'Design-Build',
-    desc: 'Streamlined single-source design and construction for Fort Mill commercial and residential projects from concept to completion.',
-    href: '/services/design-build',
-  },
 ];
 
 const faqs = [
   {
     question: 'Are you licensed to work in Fort Mill, SC?',
     answer:
-      'Yes. We Build holds active general contractor licenses in both North Carolina and South Carolina. This dual licensing allows us to legally perform commercial construction, residential builds, upfits, and all other construction work in Fort Mill and throughout York County. Our SC license covers the full scope of general contracting services, and we maintain all required insurance and bonding for projects in the state.',
+      'Yes. We Build holds active general contractor licenses in both North Carolina and South Carolina. This dual licensing allows us to legally perform commercial construction, upfits, and all other construction work in Fort Mill and throughout York County. Our SC license covers the full scope of general contracting services, and we maintain all required insurance and bonding for projects in the state.',
   },
   {
     question: 'Have you completed projects in Fort Mill?',
     answer:
-      'Yes. One of our featured projects is the Pure Physique commercial upfit in Fort Mill, SC, where we transformed a raw commercial space into a fully functional fitness facility. This project involved structural modifications, custom interior buildout, specialized flooring, and mechanical systems work. We regularly serve clients across the Charlotte-Fort Mill metro area for both commercial and residential construction.',
+      'Yes. One of our featured projects is the Pure Physique commercial upfit in Fort Mill, SC, where we transformed a raw commercial space into a fully functional fitness facility. This project involved structural modifications, custom interior buildout, specialized flooring, and mechanical systems work. We regularly serve clients across the Charlotte-Fort Mill metro area for commercial construction.',
   },
   {
     question: 'How far is Fort Mill from your Charlotte office?',
@@ -104,7 +97,7 @@ const faqs = [
   {
     question: 'What does commercial construction cost in Fort Mill, SC?',
     answer:
-      'Commercial construction costs in Fort Mill typically range from $150 to $400+ per square foot depending on the project type, complexity, finishes, and site conditions. A basic office upfit might start around $50-80 per square foot, while ground-up commercial construction with specialized systems can exceed $300 per square foot. We provide detailed, transparent estimates for every Fort Mill project after an initial consultation and site assessment. Contact us for a free estimate tailored to your specific project.',
+      'Commercial construction costs in Fort Mill typically range from $150 to $400+ per square foot depending on the project type, complexity, finishes, and site conditions. A basic office upfit might start around $50-80 per square foot, while ground-up commercial construction with specialized systems can exceed $300 per square foot. We provide detailed, transparent proposals for every Fort Mill project after an initial consultation and site assessment. Contact us for a free consultation tailored to your specific project.',
   },
   {
     question: 'How long does a typical construction project take in Fort Mill?',
@@ -122,14 +115,9 @@ const faqs = [
       'Commercial construction in Fort Mill follows the International Building Code (IBC) and typically involves more stringent requirements for fire safety, ADA accessibility, structural engineering, and occupancy ratings. Commercial projects also require specialized insurance, commercial-grade materials, and often involve coordination with multiple municipal departments. We Build is experienced in commercial construction codes and standards for York County projects.',
   },
   {
-    question: 'Can you help with the design phase of my Fort Mill project?',
-    answer:
-      'Absolutely. Our design-build service provides a single point of responsibility for both the design and construction of your Fort Mill project. This streamlined approach eliminates the communication gaps that often occur between separate architects and contractors, saves time on the overall project timeline, and can reduce costs by 10-15% compared to the traditional design-bid-build method. Visit our Design Center to explore materials, finishes, and design options with our team.',
-  },
-  {
     question: 'What commercial services does We Build offer in Fort Mill and Tega Cay?',
     answer:
-      'We Build provides full-service commercial construction throughout the Fort Mill area including Tega Cay and York County. Our services include ground-up commercial construction, commercial upfits and tenant improvements, design-build, commercial roof coating, and general contracting. We handle everything from project planning and permitting through construction and final walkthrough.',
+      'We Build provides full-service commercial construction throughout the Fort Mill area including Tega Cay and York County. Our services include ground-up commercial construction, commercial upfits and tenant improvements, commercial roof coating, and general contracting. We handle everything from project planning and permitting through construction and final walkthrough.',
   },
   {
     question: 'What areas near Fort Mill do you serve?',
@@ -172,7 +160,7 @@ const whyChooseUs = [
   {
     icon: HardHat,
     title: '60+ Years Combined Experience',
-    desc: 'Veteran and family-owned with deep construction expertise across commercial, residential, and specialty projects.',
+    desc: 'Veteran and family-owned with deep construction expertise across commercial and specialty projects.',
   },
   {
     icon: FileText,
@@ -207,7 +195,7 @@ export default function FortMillPage() {
 
       <PageHero
         title="Construction Company Fort Mill SC"
-        subtitle="Licensed SC general contractor serving Fort Mill, Tega Cay, and York County — commercial construction, upfits, design-build & more"
+        subtitle="Licensed SC general contractor serving Fort Mill, Tega Cay, and York County — commercial construction, upfits & more"
         backgroundImage="/images/hero-bg.jpg"
       />
 
@@ -250,7 +238,7 @@ export default function FortMillPage() {
                 >
                   commercial construction
                 </Link>
-                , professional office upfits, and custom residential builds throughout the area.
+                 and professional office upfits throughout the area.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Whether you are a business owner looking to build out a new retail space along
@@ -274,13 +262,13 @@ export default function FortMillPage() {
               <div className="flex flex-wrap gap-4 pt-2">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
+                    Get a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+17045748124">
+                  <a href="tel:+19804711745">
                     <Phone className="mr-2 h-5 w-5" />
-                    (704) 574-8124
+                    (980) 471-1745
                   </a>
                 </Button>
               </div>
@@ -416,31 +404,6 @@ export default function FortMillPage() {
                 </p>
               </div>
 
-              <div className="space-y-4">
-                <h3 className="text-2xl font-bold flex items-center gap-3">
-                  <Ruler className="h-6 w-6 text-primary" aria-hidden="true" />
-                  Design-Build
-                </h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Our{' '}
-                  <Link href="/services/design-build" className="text-primary hover:underline">
-                    design-build
-                  </Link>{' '}
-                  approach combines architectural design and construction under one contract,
-                  providing Fort Mill clients with a streamlined project delivery method that saves
-                  time and money. Instead of hiring separate architects, engineers, and contractors —
-                  and managing the communication between them — our design-build process gives you a
-                  single point of contact from concept through completion. This method typically
-                  reduces project timelines by 20-30% and costs by 10-15% compared to the
-                  traditional design-bid-build approach. For Fort Mill business owners and
-                  homeowners who value efficiency and accountability, design-build is often the
-                  smartest path forward. Visit our{' '}
-                  <Link href="/design-center" className="text-primary hover:underline">
-                    Design Center
-                  </Link>{' '}
-                  to explore materials and finishes in person.
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -976,7 +939,7 @@ export default function FortMillPage() {
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
               <Link href="/contact">
-                Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
+                Get a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button
@@ -985,9 +948,9 @@ export default function FortMillPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

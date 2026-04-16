@@ -29,7 +29,6 @@ export async function generateBlogImages(
     'commercial-upfits': 'office renovation interior, modern commercial space, tenant improvement',
     'residential': 'custom home construction, residential building, suburban neighborhood',
     'roof-coating': 'commercial flat roof coating, aerial view of roofing work, roof restoration',
-    'design-center': 'modern construction design showroom, material samples, architectural finishes',
     'construction-tips': 'professional construction worker, building tools, construction planning',
     'green-building': 'sustainable green building, solar panels on building, eco-friendly construction',
     'charlotte-area': 'Charlotte NC cityscape, uptown Charlotte skyline, South End Charlotte',

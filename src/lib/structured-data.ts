@@ -63,7 +63,6 @@ const SERVICE_CATALOG_ITEMS = [
   'Commercial Construction',
   'Commercial Upfits',
   'Commercial Renovation',
-  'Design-Build',
   'General Contracting',
   'Roof Coating',
   'Tenant Improvements',
@@ -180,7 +179,7 @@ export function serviceSchema(
         serviceType: 'In-person consultation',
         serviceLocation: {
           '@type': 'Place',
-          name: 'We Build Design Center',
+          name: 'We Build Office',
           address: {
             '@type': 'PostalAddress',
             streetAddress: BUSINESS.address.street,

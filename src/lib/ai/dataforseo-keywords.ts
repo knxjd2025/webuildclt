@@ -54,7 +54,6 @@ function extractSeedKeywords(description: string, category: string): string[] {
     'commercial-upfits': ['commercial upfit', 'tenant improvement', 'office renovation'],
     'residential': ['home renovation', 'residential construction', 'home remodel'],
     'roof-coating': ['roof coating', 'commercial roofing', 'roof restoration'],
-    'design-center': ['design center', 'design build', 'construction showroom'],
     'construction-tips': ['construction tips', 'building guide', 'construction advice'],
     'green-building': ['green building', 'sustainable construction', 'LEED construction'],
     'charlotte-area': ['Charlotte construction', 'Charlotte contractor', 'Charlotte NC builder'],

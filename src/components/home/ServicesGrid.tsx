@@ -24,10 +24,6 @@ export function ServicesGrid() {
             to eco-friendly{' '}
             <Link href="/we-coat" className="text-primary hover:underline">
               roof coating
-            </Link>{' '}
-            and{' '}
-            <Link href="/services/design-build" className="text-primary hover:underline">
-              design-build
             </Link>
             , We Build offers comprehensive construction services for
             businesses across the Charlotte metro area. Every

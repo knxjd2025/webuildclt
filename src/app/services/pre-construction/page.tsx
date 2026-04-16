@@ -42,7 +42,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Pre-Construction Services Charlotte NC | Planning, Estimating & Value Engineering',
   description:
-    'Expert pre-construction services in Charlotte, NC. Feasibility studies, cost estimating, value engineering, constructability reviews, scheduling, and site analysis. Veteran-owned, licensed in NC & SC. Save money before you break ground. (704) 574-8124.',
+    'Expert pre-construction services in Charlotte, NC. Feasibility studies, cost estimating, value engineering, constructability reviews, scheduling, and site analysis. Veteran-owned, licensed in NC & SC. Save money before you break ground. (980) 471-1745.',
   keywords: [
     'pre-construction services Charlotte NC',
     'pre-construction services near me',
@@ -193,11 +193,6 @@ const whyChooseUs = [
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, giving us direct knowledge of building codes, permit processes, and regulatory requirements on both sides of the state line. For projects in Fort Mill, Rock Hill, Indian Land, or Lake Norman, our dual licensing means we understand the jurisdictional differences that affect project planning, permitting timelines, and construction costs.',
   },
   {
-    icon: Lightbulb,
-    title: 'Design-Build Integration',
-    desc: 'Our design-build capability means pre-construction planning is seamlessly integrated with both design and construction. There is no handoff between a pre-construction consultant and a separate construction team. The estimators and project managers who plan your project during pre-construction are the same professionals who will manage the construction phase, ensuring complete continuity of knowledge, relationships, and accountability.',
-  },
-  {
     icon: Calculator,
     title: 'Proven Estimating Accuracy',
     desc: 'Our pre-construction estimates consistently come within three to five percent of final construction cost. This accuracy comes from maintaining a current database of Charlotte-area subcontractor pricing, material costs, and labor rates that is updated with every project we bid and build. We do not rely on outdated cost databases or national averages. Our numbers reflect what construction actually costs in Charlotte right now.',
@@ -319,11 +314,6 @@ const faqs = [
       'We Build provides pre-construction services throughout the greater Charlotte metropolitan area. Our primary service area includes Charlotte, South Charlotte, University City, NoDa, South End, Uptown, and all of Mecklenburg County. We also serve Fort Mill, Rock Hill, Indian Land, and Tega Cay in South Carolina, as well as the Lake Norman corridor communities of Cornelius, Davidson, Huntersville, and Mooresville. Our general contractor licenses in both North Carolina and South Carolina give us direct knowledge of building codes, permitting processes, and regulatory requirements in all of these jurisdictions. For clients with projects in both states, our cross-border experience ensures consistent planning regardless of which side of the state line your project sits on.',
   },
   {
-    question: 'How does pre-construction differ from design-build?',
-    answer:
-      'Pre-construction is a phase of a project, while design-build is a delivery method. Pre-construction services, including estimating, value engineering, scheduling, and constructability review, can be provided under any project delivery method including design-build, design-bid-build, and construction management. In a design-build project, pre-construction planning is deeply integrated with the design process because the same firm handles both. In a design-bid-build project, pre-construction services from a contractor provide the cost and scheduling expertise that the owner does not have access to until after bidding. We Build offers both design-build services and standalone pre-construction consulting. If you are pursuing a design-build project, our pre-construction services are included as part of our integrated approach. If you already have a design team and want construction planning expertise, we can provide pre-construction services as a standalone engagement.',
-  },
-  {
     question: 'How does pre-construction cost estimating compare to hiring a separate cost consultant in Charlotte?',
     answer:
       'A dedicated pre-construction contractor typically provides more accurate and actionable estimates than an independent cost consultant. Independent estimators rely on published cost databases that may not reflect current Charlotte subcontractor pricing, material availability, or local labor conditions. A contractor performing pre-construction solicits real preliminary pricing from the subcontractors who will actually bid the work, giving you estimates grounded in current market reality. We Build maintains active relationships with hundreds of Charlotte-area subcontractors and suppliers, which means our estimates reflect what the project will actually cost to build today, not what a national cost index suggests it should cost.',
@@ -437,10 +427,7 @@ export default function PreConstructionPage() {
                 </Link>, a major{' '}
                 <Link href="/services/commercial-upfits" className="text-primary hover:underline">
                   commercial upfit
-                </Link>, or a complex{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">
-                  design-build project
-                </Link>, investing in pre-construction planning is the single most effective way to
+                </Link>, or a complex new construction project, investing in pre-construction planning is the single most effective way to
                 protect your investment.
               </p>
               <p className="text-muted-foreground leading-relaxed">
@@ -769,7 +756,7 @@ export default function PreConstructionPage() {
             {[
               { title: 'Value Engineering', href: '/services/value-engineering', type: 'Service', desc: 'Construction cost optimization and material substitution analysis that delivers 10-25% savings without sacrificing quality.' },
               { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control, budget management, and quality oversight from pre-construction through closeout.' },
-              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Single-source design and construction that integrates pre-construction planning from the earliest project stages.' },
+              { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control, budget management, and quality oversight for complex projects.' },
               { title: 'Site Development', href: '/services/site-development', type: 'Service', desc: 'Land clearing, grading, and site preparation informed by thorough pre-construction site analysis.' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
@@ -854,9 +841,9 @@ export default function PreConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

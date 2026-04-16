@@ -40,7 +40,7 @@ import {
 export const metadata: Metadata = {
   title: 'Commercial Upfits Charlotte NC | Office, Retail & Restaurant Build-Outs',
   description:
-    'Expert commercial upfit and build-out contractor in Charlotte, NC. Commercial interior contractor for office upfits, restaurant build-outs, retail renovations, medical facility upgrades & tenant improvements. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free estimates. (704) 574-8124.',
+    'Expert commercial upfit and build-out contractor in Charlotte, NC. Commercial interior contractor for office upfits, restaurant build-outs, retail renovations, medical facility upgrades & tenant improvements. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free consultations. (980) 471-1745.',
   keywords: [
     'commercial upfit charlotte nc',
     'commercial upfit near me',
@@ -144,7 +144,7 @@ const processSteps = [
   {
     step: '02',
     title: 'Space Planning & Conceptual Design',
-    desc: 'Our design-build team creates initial floor plans and conceptual layouts based on your operational needs. We consider traffic flow, departmental adjacencies, ADA accessibility, natural light optimization, and code-required egress paths. You can visit our Design Center to explore material options and see finish samples in person.',
+    desc: 'We work with your architect and design team to create initial floor plans and conceptual layouts based on your operational needs. We consider traffic flow, departmental adjacencies, ADA accessibility, natural light optimization, and code-required egress paths.',
   },
   {
     step: '03',
@@ -154,7 +154,7 @@ const processSteps = [
   {
     step: '04',
     title: 'Design Development & Finish Selection',
-    desc: 'Once the budget is approved, we finalize construction drawings, mechanical engineering plans, and finish schedules. You select flooring, paint colors, countertop materials, lighting fixtures, and hardware. Our Design Center lets you see and touch every material before it goes into your space.',
+    desc: 'Once the budget is approved, we finalize construction drawings, mechanical engineering plans, and finish schedules. You select flooring, paint colors, countertop materials, lighting fixtures, and hardware at our office, where you can review material samples and make informed selections.',
   },
   {
     step: '05',
@@ -203,11 +203,6 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, allowing us to serve businesses throughout the greater Charlotte metro area including Fort Mill, Rock Hill, Indian Land, and the Lake Norman corridor. Our licensing ensures full compliance with state regulations and building codes.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build Capability',
-    desc: 'Our in-house design-build approach means architecture, engineering, and construction are coordinated under one contract and one team. This eliminates the finger-pointing and communication gaps that plague projects where design and construction are handled by separate firms. You get faster decisions, fewer change orders, and a single point of accountability.',
   },
   {
     icon: Zap,
@@ -298,7 +293,7 @@ const faqs = [
   {
     question: 'Do you handle the design or do I need to hire an architect separately?',
     answer:
-      'We Build offers full design-build services, which means we handle design and construction under one contract. Our team creates space plans, selects materials, coordinates engineering, and builds the project, all managed by a single project team. This eliminates the communication gaps and delays that occur when design and construction are handled by separate firms. If you already have an architect or designer, we are equally comfortable working with outside design professionals. Visit our Design Center in Charlotte to see material options and work through design decisions in person.',
+      'We work closely with your architect and design team to coordinate space planning, material selection, engineering, and construction. If you do not yet have an architect, we can recommend experienced commercial architects in the Charlotte area. Our team ensures seamless coordination between design and construction to minimize change orders and keep your project on schedule.',
   },
   {
     question: 'What ADA requirements apply to commercial upfits?',
@@ -313,7 +308,7 @@ const faqs = [
   {
     question: 'How do I finance a commercial upfit?',
     answer:
-      'Commercial upfits can be financed through several methods. If you are leasing, the tenant improvement allowance covers a portion of the cost, with the tenant funding the balance. Some landlords will increase the TI allowance in exchange for a longer lease term or higher rent. SBA loans, commercial lines of credit, and equipment financing can cover costs beyond the TI allowance. For owner-occupied properties, commercial construction loans or business lines of credit are common financing tools. We provide detailed estimates and payment schedules that work with your financing timeline.',
+      'Commercial upfits can be financed through several methods. If you are leasing, the tenant improvement allowance covers a portion of the cost, with the tenant funding the balance. Some landlords will increase the TI allowance in exchange for a longer lease term or higher rent. SBA loans, commercial lines of credit, and equipment financing can cover costs beyond the TI allowance. For owner-occupied properties, commercial construction loans or business lines of credit are common financing tools. We provide consultations and payment schedules that work with your financing timeline.',
   },
   {
     question: 'What areas do you serve for commercial upfits?',
@@ -401,10 +396,8 @@ export default function CommercialUpfitsPage() {
                 We Build is a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> with
                 over 60 years of combined construction experience. We have completed commercial upfits
                 across the Charlotte metro area for offices, restaurants, retail stores, medical
-                facilities, dental practices, fitness studios, and warehouses. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link> approach
-                means we handle everything from initial space planning and material selection at our{' '}
-                <Link href="/design-center" className="text-primary hover:underline">Design Center</Link> to
+                facilities, dental practices, fitness studios, and warehouses. We handle everything from
+                coordination with your architect and design team to
                 permitting, construction, and final handoff, all under one roof. Licensed in both
                 North Carolina and South Carolina, we serve Charlotte and the surrounding communities
                 including <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>,{' '}
@@ -414,7 +407,7 @@ export default function CommercialUpfitsPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -940,7 +933,7 @@ export default function CommercialUpfitsPage() {
             licenses, and local knowledge to deliver your project on time and within budget.
           </p>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free site visit and detailed estimate. We serve Charlotte,{' '}
+            Contact us today for a free site visit and consultation. We serve Charlotte,{' '}
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
@@ -948,7 +941,7 @@ export default function CommercialUpfitsPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -956,9 +949,9 @@ export default function CommercialUpfitsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

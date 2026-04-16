@@ -59,17 +59,6 @@ const posts = [
     image: '/images/news/upfit-tips.jpg',
     author: 'We Build Team',
   },
-  {
-    id: '5',
-    title: 'New Design Center Now Open for Appointments',
-    slug: 'design-center-open',
-    excerpt:
-      'Visit our new WeBuild Design Center to explore materials, get inspiration, and plan your next project.',
-    date: '2024-01-10',
-    category: 'Company News',
-    image: '/images/news/design-center.jpg',
-    author: 'We Build Team',
-  },
 ];
 
 function formatDate(dateString: string): string {
@@ -201,11 +190,11 @@ export default function NewsPage() {
           <div className="flex justify-center gap-4">
             <Button asChild>
               <a
-                href="https://www.instagram.com/webuildclt/"
+                href="https://www.linkedin.com/company/we-build-clt"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Follow on Instagram
+                Follow on LinkedIn
               </a>
             </Button>
             <Button variant="outline" asChild>

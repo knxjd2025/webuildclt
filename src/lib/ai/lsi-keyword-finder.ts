@@ -51,7 +51,7 @@ FOCUS AREAS (prioritize keywords related to these services):
 - Roof coating and commercial roofing
 - Custom home building in Charlotte, NC
 - Residential additions and renovations
-- Design-build construction
+
 - Charlotte area neighborhoods and surrounding cities
 
 KEYWORD SELECTION CRITERIA:
@@ -68,7 +68,6 @@ CATEGORIES (assign the keyword to one):
 - commercial-upfits (categorySlug: commercial-upfits)
 - construction-management (categorySlug: construction-management)
 - roof-coating (categorySlug: roof-coating)
-- design-build (categorySlug: design-build)
 - construction-tips (categorySlug: construction-tips)
 
 OUTPUT: Return ONLY valid JSON (no markdown fences, no extra text) with exactly these fields:

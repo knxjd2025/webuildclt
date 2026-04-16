@@ -36,7 +36,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Adaptive Reuse Construction Charlotte NC | Historic Renovation & Building Conversion',
   description:
-    'Professional adaptive reuse construction services in Charlotte, NC. Warehouse conversions, historic renovation, industrial-to-retail transformation, mill adaptive reuse & mixed-use conversion. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (704) 574-8124.',
+    'Professional adaptive reuse construction services in Charlotte, NC. Warehouse conversions, historic renovation, industrial-to-retail transformation, mill adaptive reuse & mixed-use conversion. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (980) 471-1745.',
   keywords: [
     'adaptive reuse Charlotte NC',
     'adaptive reuse near me',
@@ -616,7 +616,7 @@ export default function AdaptiveReusePage() {
             {[
               { title: 'Commercial Renovation', href: '/services/commercial-renovation', type: 'Service' },
               { title: 'ADA Compliance & Code Updates', href: '/services/ada-compliance', type: 'Service' },
-              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service' },
+              { title: 'Construction Management', href: '/services/construction-management', type: 'Service' },
               { title: 'Commercial Construction', href: '/services/commercial-construction', type: 'Service' },
               { title: 'Green Building', href: '/services/green-building', type: 'Service' },
             ].map((resource) => (
@@ -669,9 +669,9 @@ export default function AdaptiveReusePage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

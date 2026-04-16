@@ -36,7 +36,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Owner's Representative Charlotte NC | Construction Project Advocacy & Oversight",
   description:
-    "Professional owner's representative services in Charlotte, NC. Construction project advocacy, contractor oversight, schedule & budget management, quality assurance & closeout management. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (704) 574-8124.",
+    "Professional owner's representative services in Charlotte, NC. Construction project advocacy, contractor oversight, schedule & budget management, quality assurance & closeout management. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (980) 471-1745.",
   keywords: [
     'owners representative Charlotte NC',
     'owners representative near me',
@@ -270,7 +270,7 @@ const faqs = [
   {
     question: "How do I get started with owner's representative services?",
     answer:
-      "Contact us for a free initial consultation. We will discuss your project, assess your specific needs, and recommend the level of representation that makes sense for your situation. Not every project needs full owner's representation; some benefit most from targeted support in areas like contractor selection, construction oversight, or closeout management. We will provide a clear proposal with scope, fee structure, and timeline so you can make an informed decision. Call us at (704) 574-8124 or submit a request through our contact page.",
+      "Contact us for a free initial consultation. We will discuss your project, assess your specific needs, and recommend the level of representation that makes sense for your situation. Not every project needs full owner's representation; some benefit most from targeted support in areas like contractor selection, construction oversight, or closeout management. We will provide a clear proposal with scope, fee structure, and timeline so you can make an informed decision. Call us at (980) 471-1745 or submit a request through our contact page.",
   },
   {
     question: "How much can an owner's representative save on a $5 million Charlotte construction project?",
@@ -604,7 +604,7 @@ export default function OwnersRepresentativePage() {
               { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service' },
               { title: 'Value Engineering', href: '/services/value-engineering', type: 'Service' },
               { title: 'Commercial Construction', href: '/services/commercial-construction', type: 'Service' },
-              { title: 'Design-Build Delivery', href: '/services/design-build', type: 'Service' },
+              { title: 'General Contractor', href: '/services/general-contractor', type: 'Service' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
@@ -656,9 +656,9 @@ export default function OwnersRepresentativePage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

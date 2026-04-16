@@ -45,7 +45,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Commercial Renovation Charlotte NC | Building Remodeling & Renovation Contractor',
   description:
-    'Leading commercial renovation contractor in Charlotte, NC with 60+ years experience. Office renovation, retail remodeling, restaurant renovation, warehouse upgrades, healthcare facility renovation & building exterior restoration. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free estimates. (704) 574-8124.',
+    'Leading commercial renovation contractor in Charlotte, NC with 60+ years experience. Office renovation, retail remodeling, restaurant renovation, warehouse upgrades, healthcare facility renovation & building exterior restoration. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free consultations. (980) 471-1745.',
   keywords: [
     'commercial renovation Charlotte NC',
     'commercial renovation contractor Charlotte NC',
@@ -151,7 +151,7 @@ const processSteps = [
   {
     step: '03',
     title: 'Conceptual Design & Space Planning',
-    desc: 'Our design-build team creates conceptual floor plans, elevation drawings, and 3D renderings that bring your renovation vision to life. We consider traffic flow, departmental adjacencies, natural light optimization, ADA accessibility, building code egress requirements, and the practical constraints of the existing structure. You can visit our Design Center to explore material options, see finish samples, and make selections in person with guidance from our team.',
+    desc: 'We work closely with your architect and design team to create conceptual floor plans, elevation drawings, and 3D renderings that bring your renovation vision to life. We consider traffic flow, departmental adjacencies, natural light optimization, ADA accessibility, building code egress requirements, and the practical constraints of the existing structure.',
   },
   {
     step: '04',
@@ -205,11 +205,6 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, enabling us to serve businesses throughout the entire Charlotte metropolitan area. This dual-state licensing is especially valuable for companies with locations on both sides of the state line, including Fort Mill, Rock Hill, Indian Land, Tega Cay, and the Lake Norman corridor communities of Cornelius, Davidson, Huntersville, and Mooresville.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build Renovation',
-    desc: 'Our design-build approach combines architecture, engineering, and construction under one contract and one team. For commercial renovations, this single-source accountability is especially valuable because renovation projects frequently encounter unexpected conditions that require real-time design modifications. When your designer and builder are the same team, decisions happen faster, change orders are minimized, and the project stays on schedule.',
   },
   {
     icon: Zap,
@@ -426,13 +421,10 @@ export default function CommercialRenovationPage() {
                 We Build is a veteran and family-owned{' '}
                 <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> with
                 over 60 years of combined construction experience specializing in commercial renovation
-                throughout the Charlotte metropolitan area. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link> approach
-                means we handle every aspect of your renovation project from the initial building
-                assessment and conceptual design through permitting, construction, and final handoff,
-                all under one contract with a single point of accountability. Our{' '}
-                <Link href="/design-center" className="text-primary hover:underline">Design Center</Link> allows
-                you to see, touch, and compare finish materials before they go into your building.
+                throughout the Charlotte metropolitan area. We handle every aspect of your renovation
+                project from the initial building assessment through permitting, construction, and final
+                handoff, with a single point of accountability. We work closely with your architect and
+                design team to ensure seamless coordination throughout the project.
                 Licensed in both North Carolina and South Carolina, we serve commercial renovation
                 clients across Charlotte,{' '}
                 <Link href="/areas/south-charlotte" className="text-primary hover:underline">South Charlotte</Link>,{' '}
@@ -445,7 +437,7 @@ export default function CommercialRenovationPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -836,7 +828,7 @@ export default function CommercialRenovationPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -844,9 +836,9 @@ export default function CommercialRenovationPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

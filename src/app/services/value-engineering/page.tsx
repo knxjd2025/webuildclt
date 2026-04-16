@@ -36,7 +36,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Value Engineering Charlotte NC | Construction Cost Optimization & Budget Management',
   description:
-    'Professional value engineering services in Charlotte, NC. Construction cost optimization, material substitution analysis, lifecycle cost analysis, budget recovery & constructability review. Veteran-owned, licensed in NC & SC. Typical savings 10-25%. (704) 574-8124.',
+    'Professional value engineering services in Charlotte, NC. Construction cost optimization, material substitution analysis, lifecycle cost analysis, budget recovery & constructability review. Veteran-owned, licensed in NC & SC. Typical savings 10-25%. (980) 471-1745.',
   keywords: [
     'value engineering Charlotte NC',
     'value engineering near me',
@@ -270,7 +270,7 @@ const faqs = [
   {
     question: 'How do I get started with value engineering for my project?',
     answer:
-      'Contact us for a free initial consultation. We will discuss your project, review the current budget situation, and determine whether a formal value engineering study is likely to deliver meaningful savings. If VE is appropriate, we will propose a scope of work, timeline, and fee for the study. To get the most value from VE, provide us with the latest design documents, the current cost estimate or budget, and a clear description of the budget challenge or savings target. Call us at (704) 574-8124 or submit a request through our contact page.',
+      'Contact us for a free initial consultation. We will discuss your project, review the current budget situation, and determine whether a formal value engineering study is likely to deliver meaningful savings. If VE is appropriate, we will propose a scope of work, timeline, and fee for the study. To get the most value from VE, provide us with the latest design documents, the current cost estimate or budget, and a clear description of the budget challenge or savings target. Call us at (980) 471-1745 or submit a request through our contact page.',
   },
   {
     question: 'How much does value engineering save compared to simply rebidding a project in Charlotte?',
@@ -604,7 +604,7 @@ export default function ValueEngineeringPage() {
             {[
               { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service' },
               { title: 'Construction Management', href: '/services/construction-management', type: 'Service' },
-              { title: 'Design-Build Delivery', href: '/services/design-build', type: 'Service' },
+              { title: 'General Contractor', href: '/services/general-contractor', type: 'Service' },
               { title: 'Commercial Construction', href: '/services/commercial-construction', type: 'Service' },
               { title: 'Green Building & Sustainability', href: '/services/green-building', type: 'Service' },
             ].map((resource) => (
@@ -657,9 +657,9 @@ export default function ValueEngineeringPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

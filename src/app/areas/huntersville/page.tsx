@@ -30,7 +30,7 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company Huntersville NC | General Contractor Near Lake Norman',
   description:
-    'Top-rated construction company near me in Huntersville NC. Veteran-owned general contractor for commercial construction, custom homes, upfits & roof coatings near Birkdale Village, Northlake, Rosedale. Licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Top-rated construction company near me in Huntersville NC. Veteran-owned general contractor for commercial construction, upfits & roof coatings near Birkdale Village, Northlake, Rosedale. Licensed in NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'construction company huntersville nc',
     'general contractor huntersville',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     'huntersville remodeling contractor',
     'licensed contractor NC',
     'commercial construction huntersville nc',
-    'custom home builder huntersville',
+    'commercial builder huntersville',
     'contractor near lake norman',
     'huntersville commercial upfits',
     'huntersville renovation contractor',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Construction Company Huntersville NC | General Contractor Near Lake Norman',
     description:
-      'Veteran-owned construction company serving Huntersville NC. Commercial & residential construction near Birkdale Village, Northlake, Rosedale. Licensed in NC & SC.',
+      'Veteran-owned construction company serving Huntersville NC. Commercial construction near Birkdale Village, Northlake, Rosedale. Licensed in NC & SC.',
     type: 'website',
   },
 };
@@ -76,13 +76,6 @@ const services = [
     href: '/services/commercial-upfits',
     description:
       'Huntersville businesses frequently need interior renovations to keep up with rapid growth. We Build provides commercial upfit services throughout Birkdale Village, the Sam Furr Road business corridor, Statesville Road commercial properties, and Northlake area office parks. Our upfit projects range from open-concept office redesigns and medical suite build-outs to restaurant renovations and retail space transformations. We work within occupied buildings when necessary, minimizing disruption to your operations while delivering a finished space that supports your business goals. Most Huntersville commercial upfits are completed in 2 to 5 months depending on scope.',
-  },
-  {
-    icon: Ruler,
-    title: 'Design-Build Services',
-    href: '/services/design-build',
-    description:
-      'Our design-build approach is especially valuable in Huntersville where lot configurations, setback requirements, and community architectural standards vary significantly between neighborhoods. We Build manages the entire project under one contract, from conceptual design and engineering through permitting and construction. This single-source accountability eliminates finger-pointing between architects and builders, reduces change orders, and typically saves Huntersville property owners ten to fifteen percent compared to the traditional design-bid-build method. For commercial projects along the I-77 corridor, our design-build process is particularly efficient.',
   },
   {
     icon: Shield,
@@ -225,7 +218,7 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     description:
-      'We hold general contractor licenses in both North Carolina and South Carolina. Our licensing, insurance, and bonding meet or exceed all requirements for commercial and residential construction in Huntersville and throughout the Charlotte metropolitan area.',
+      'We hold general contractor licenses in both North Carolina and South Carolina. Our licensing, insurance, and bonding meet or exceed all requirements for commercial construction in Huntersville and throughout the Charlotte metropolitan area.',
   },
   {
     icon: Landmark,
@@ -251,12 +244,12 @@ const faqs = [
   {
     question: 'What construction services are available in Huntersville NC?',
     answer:
-      'We Build provides comprehensive construction services in Huntersville including commercial construction, commercial upfits and renovations, custom home building, residential additions and renovations, design-build services, general contracting, and commercial roof coatings. We handle projects from small office upfits to ground-up commercial buildings and custom homes throughout the Huntersville area. Call (704) 574-8124 for a free estimate on any construction project in Huntersville.',
+      'We Build provides comprehensive construction services in Huntersville including commercial construction, commercial upfits and renovations, general contracting, and commercial roof coatings. We handle projects from small office upfits to ground-up commercial buildings throughout the Huntersville area. Call (980) 471-1745 for a free consultation on any construction project in Huntersville.',
   },
   {
     question: 'How much does construction cost in Huntersville NC in 2026?',
     answer:
-      'Construction costs in Huntersville vary by project type. Commercial office upfits typically range from $50 to $175 per square foot. Retail build-outs run $75 to $200 per square foot. Restaurant construction costs $150 to $350 per square foot. Custom homes in Huntersville range from $250 to $550 per square foot depending on finishes and complexity. Renovations and additions typically cost $150 to $350 per square foot. We provide detailed, line-item estimates for every project so you know exactly what to expect.',
+      'Construction costs in Huntersville vary by project type. Commercial office upfits typically range from $50 to $175 per square foot. Retail build-outs run $75 to $200 per square foot. Restaurant construction costs $150 to $350 per square foot. Commercial renovations typically cost $150 to $350 per square foot. We provide detailed, line-item estimates for every project so you know exactly what to expect.',
   },
   {
     question: 'What permits are required for construction in Huntersville?',
@@ -266,12 +259,12 @@ const faqs = [
   {
     question: 'How long does a typical construction project take in Huntersville?',
     answer:
-      'Project timelines in Huntersville depend on scope and complexity. Commercial upfits typically take 2 to 5 months. Restaurant build-outs require 4 to 8 months. Custom homes take 8 to 14 months depending on size and complexity. Home additions and renovations range from 2 to 6 months. Permitting in Mecklenburg County typically adds 4 to 8 weeks before construction can begin. Town of Huntersville zoning review may add additional time for commercial projects. We provide a detailed project schedule at the start of every engagement.',
+      'Project timelines in Huntersville depend on scope and complexity. Commercial upfits typically take 2 to 5 months. Restaurant build-outs require 4 to 8 months. Ground-up commercial construction takes 8 to 14 months depending on size and complexity. Commercial renovations range from 2 to 6 months. Permitting in Mecklenburg County typically adds 4 to 8 weeks before construction can begin. Town of Huntersville zoning review may add additional time for commercial projects. We provide a detailed project schedule at the start of every engagement.',
   },
   {
     question: 'Does We Build work near Lake Norman and Birkdale Village?',
     answer:
-      'Yes. We Build serves all of Huntersville including the Birkdale Village area, Northlake, Sam Furr Road corridor, Gilead Road, and the Lake Norman shoreline communities within Huntersville. We provide both commercial construction services for businesses in these areas and residential construction for homeowners. Our team is familiar with the specific architectural standards and community requirements throughout the Huntersville area.',
+      'Yes. We Build serves all of Huntersville including the Birkdale Village area, Northlake, Sam Furr Road corridor, Gilead Road, and the Lake Norman shoreline communities within Huntersville. We provide commercial construction services for businesses throughout these areas. Our team is familiar with the specific architectural standards and community requirements throughout the Huntersville area.',
   },
   {
     question: 'Can We Build construct commercial spaces near Northlake Mall?',
@@ -286,17 +279,17 @@ const faqs = [
   {
     question: 'What neighborhoods in Huntersville does We Build serve?',
     answer:
-      'We serve all Huntersville neighborhoods and communities including Birkdale, Rosedale, Bryton, Skybrook, Vermillion, Northlake, Cedarfield, Gilead Ridge, Wynfield, Becton Park, Highland Creek, Asbury, Torrence Creek, Bradford, and Hambright. Our service area covers the entire Town of Huntersville from I-485 north to the Lake Norman shoreline. We handle both commercial and residential projects throughout these areas.',
+      'We serve all Huntersville neighborhoods and communities including Birkdale, Rosedale, Bryton, Skybrook, Vermillion, Northlake, Cedarfield, Gilead Ridge, Wynfield, Becton Park, Highland Creek, Asbury, Torrence Creek, Bradford, and Hambright. Our service area covers the entire Town of Huntersville from I-485 north to the Lake Norman shoreline. We handle commercial projects throughout these areas.',
   },
   {
-    question: 'Does We Build handle both commercial and residential construction in Huntersville?',
+    question: 'What types of commercial construction does We Build handle in Huntersville?',
     answer:
-      'Yes. We Build is a full-service general contractor licensed for both commercial and residential construction in North Carolina and South Carolina. Our Huntersville commercial projects include office buildings, retail spaces, restaurants, medical facilities, and commercial upfits. Our residential projects include custom home building, home additions, renovations, and remodels. Many Huntersville property owners hire us for both their business and personal construction needs.',
+      'We Build is a full-service general contractor licensed for commercial construction in North Carolina and South Carolina. Our Huntersville commercial projects include office buildings, retail spaces, restaurants, medical facilities, commercial upfits, and roof coatings. We handle everything from small tenant improvements to ground-up commercial buildings throughout the Huntersville area.',
   },
   {
     question: 'How do I get a construction estimate for a project in Huntersville?',
     answer:
-      'Getting a construction estimate from We Build is straightforward. Call us at (704) 574-8124 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. There is no obligation and no charge for initial consultations. We typically deliver estimates within one to two weeks of the initial site visit, depending on project complexity.',
+      'Getting a construction estimate from We Build is straightforward. Call us at (980) 471-1745 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. There is no obligation and no charge for initial consultations. We typically deliver estimates within one to two weeks of the initial site visit, depending on project complexity.',
   },
   {
     question: 'How do commercial construction costs in Huntersville compare to Charlotte or Mooresville?',
@@ -346,16 +339,16 @@ export default function HuntersvillePage() {
           <div className="grid lg:grid-cols-3 gap-12 items-start mt-8">
             <div className="lg:col-span-2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Huntersville NC Construction Company — Commercial & Residential General Contractor
+                Huntersville NC Construction Company — Commercial General Contractor
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Huntersville NC has comprehensive construction services available from We Build, a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> serving the entire Lake Norman corridor. We provide <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits</Link>, <Link href="/services/design-build" className="text-primary hover:underline">design-build services</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link> throughout Huntersville, Birkdale Village, Northlake, and surrounding communities. Licensed in NC and SC with over 60 years of combined experience.
+                Huntersville NC has comprehensive construction services available from We Build, a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> serving the entire Lake Norman corridor. We provide <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link> throughout Huntersville, Birkdale Village, Northlake, and surrounding communities. Licensed in NC and SC with over 60 years of combined experience.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Huntersville has emerged as one of the fastest-growing towns in the Charlotte metropolitan area, sitting strategically along the I-77 corridor between Charlotte and Lake Norman. The town&apos;s population has more than doubled in the past two decades, driving an extraordinary level of commercial and residential construction activity. Birkdale Village anchors a thriving mixed-use retail and dining scene. The Sam Furr Road corridor has transformed into a major commercial thoroughfare lined with medical offices, professional services, and neighborhood retail. The Northlake area at I-77 and I-485 continues to evolve as one of the region&apos;s most important commercial hubs. And residential communities like Skybrook, Vermillion, and Rosedale continue to attract families seeking proximity to Lake Norman with Charlotte metro convenience.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We Build serves Huntersville with the same commitment to quality, transparency, and local expertise that has made us a trusted construction partner across the greater Charlotte region. Our team handles projects ranging from corporate office build-outs near Northlake to custom homes in Skybrook to restaurant construction at Birkdale Village. Whether you are planning a $50,000 commercial upfit or a $2 million custom home, We Build brings the experience, licensing, and accountability to deliver exceptional results in Huntersville.
+                We Build serves Huntersville with the same commitment to quality, transparency, and local expertise that has made us a trusted construction partner across the greater Charlotte region. Our team handles projects ranging from corporate office build-outs near Northlake to restaurant construction at Birkdale Village to commercial renovations along the Sam Furr Road corridor. Whether you are planning a $50,000 commercial upfit or a $2 million ground-up commercial build, We Build brings the experience, licensing, and accountability to deliver exceptional results in Huntersville.
               </p>
 
               <div className="flex items-start gap-3 bg-primary/10 border border-primary/20 rounded-lg p-4">
@@ -369,12 +362,12 @@ export default function HuntersvillePage() {
               <div className="flex flex-wrap gap-4 pt-2">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
+                    Get a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+17045748124">
-                    <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+                  <a href="tel:+19804711745">
+                    <Phone className="mr-2 h-5 w-5" />(980) 471-1745
                   </a>
                 </Button>
               </div>
@@ -417,7 +410,7 @@ export default function HuntersvillePage() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                    <span>Commercial &amp; residential</span>
+                    <span>Commercial construction</span>
                   </li>
                 </ul>
               </div>
@@ -588,10 +581,10 @@ export default function HuntersvillePage() {
                 We Coat Roof Coatings
               </Link>
               <Link
-                href="/design-center"
+                href="/contact"
                 className="inline-flex items-center gap-2 bg-background border rounded-lg px-4 py-2 text-sm hover:border-primary hover:text-primary transition-colors"
               >
-                Design Center
+                Contact Us
               </Link>
             </div>
           </div>
@@ -624,11 +617,11 @@ export default function HuntersvillePage() {
             Veteran and family-owned. Licensed in NC &amp; SC. Over 60 years combined experience. USGBC member.
           </p>
           <p className="text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Whether you are planning a commercial build-out at Birkdale Village, a custom home in Skybrook, or a renovation in Rosedale, We Build is the Huntersville general contractor you can trust. Contact us today for a free estimate on your project.
+            Whether you are planning a commercial build-out at Birkdale Village, a restaurant renovation near Northlake, or a medical office upfit on Sam Furr Road, We Build is the Huntersville general contractor you can trust. Contact us today for a free consultation on your project.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -636,8 +629,8 @@ export default function HuntersvillePage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
-                <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+              <a href="tel:+19804711745">
+                <Phone className="mr-2 h-5 w-5" />(980) 471-1745
               </a>
             </Button>
           </div>

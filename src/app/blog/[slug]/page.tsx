@@ -67,23 +67,11 @@ function getServicesForCategory(categorySlug: string): ServiceLink[] {
       '/services/office-buildouts',
       '/services/tenant-improvements',
     ],
-    'design-build': [
-      '/services/design-build',
-      '/services/general-contractor',
-      '/services/pre-construction',
-      '/services/construction-management',
-    ],
     roofing: [
       '/services/roof-coating',
       '/services/green-building',
       '/services/commercial-construction',
       '/services/commercial-renovation',
-    ],
-    residential: [
-      '/services/general-contractor',
-      '/services/design-build',
-      '/services/commercial-construction',
-      '/services/commercial-upfits',
     ],
   };
 
@@ -313,17 +301,17 @@ export default async function BlogPostPage({
                   <CardContent className="px-5">
                     <h3 className="font-semibold mb-2">Ready to Start Your Project?</h3>
                     <p className="text-sm text-primary-foreground/80 mb-4">
-                      Get a free estimate from Charlotte&apos;s trusted contractor.
+                      Get a free consultation from Charlotte&apos;s trusted contractor.
                     </p>
                     <Button size="sm" variant="secondary" className="w-full" asChild>
-                      <Link href="/contact">Get Your Free Quote</Link>
+                      <Link href="/contact">Get Your Free Consultation</Link>
                     </Button>
                     <a
-                      href="tel:+17045748124"
+                      href="tel:+19804711745"
                       className="flex items-center gap-2 text-sm text-primary-foreground/90 hover:text-primary-foreground mt-3 justify-center transition-colors"
                     >
                       <Phone className="h-3.5 w-3.5" />
-                      (704) 574-8124
+                      (980) 471-1745
                     </a>
                   </CardContent>
                 </Card>
@@ -386,10 +374,10 @@ export default async function BlogPostPage({
             Ready to Start Your Project?
           </h2>
           <p className="text-primary-foreground/80 mb-8 max-w-xl mx-auto">
-            Contact We Build today for a free consultation and quote.
+            Contact We Build today for a free consultation.
           </p>
           <Button size="lg" variant="secondary" asChild>
-            <Link href="/contact">Get Your Free Quote</Link>
+            <Link href="/contact">Get Your Free Consultation</Link>
           </Button>
         </div>
       </section>

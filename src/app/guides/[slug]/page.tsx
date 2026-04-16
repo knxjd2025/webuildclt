@@ -19,7 +19,7 @@ const guideCategoryServiceMap: Record<string, string[]> = {
   'Home Maintenance': [
     '/services/general-contractor',
     '/services/commercial-upfits',
-    '/services/design-build',
+    '/services/commercial-construction',
   ],
   Flooring: [
     '/services/commercial-upfits',
@@ -28,8 +28,8 @@ const guideCategoryServiceMap: Record<string, string[]> = {
   ],
   Kitchen: [
     '/services/commercial-upfits',
-    '/services/design-build',
     '/services/general-contractor',
+    '/services/commercial-construction',
   ],
   Commercial: [
     '/services/commercial-construction',
@@ -213,14 +213,14 @@ export default async function GuidePage({
                     className="w-full mb-2"
                     asChild
                   >
-                    <Link href="/contact">Get a Free Quote</Link>
+                    <Link href="/contact">Get a Free Consultation</Link>
                   </Button>
                   <a
-                    href="tel:+17045748124"
+                    href="tel:+19804711745"
                     className="flex items-center justify-center gap-2 text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                   >
                     <Phone className="h-3.5 w-3.5" aria-hidden="true" />
-                    (704) 574-8124
+                    (980) 471-1745
                   </a>
                 </div>
               </div>
@@ -268,7 +268,7 @@ export default async function GuidePage({
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get Your Free Quote</Link>
+              <Link href="/contact">Get Your Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -276,9 +276,9 @@ export default async function GuidePage({
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

@@ -46,7 +46,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Retail Construction & Buildouts Charlotte NC | Store Build-Out Contractor',
   description:
-    'Expert retail construction and buildout contractor in Charlotte, NC. Commercial construction companies for boutique shops, big box stores, shopping center renovations, showrooms, quick-service restaurants & pop-up retail. Veteran-owned, licensed in NC & SC. We build fast. Free estimates. (704) 574-8124.',
+    'Expert retail construction and buildout contractor in Charlotte, NC. Commercial construction companies for boutique shops, big box stores, shopping center renovations, showrooms, quick-service restaurants & pop-up retail. Veteran-owned, licensed in NC & SC. We build fast. Free consultations. (980) 471-1745.',
   keywords: [
     'retail construction Charlotte NC',
     'retail construction near me',
@@ -146,7 +146,7 @@ const processSteps = [
   {
     step: '02',
     title: 'Retail Space Planning & Customer Flow Design',
-    desc: 'Our design-build team creates floor plans optimized for retail performance. We map customer traffic flow from entrance to checkout, position high-margin merchandise in prime sight lines, plan fitting room locations for convenience without consuming premium selling floor, design stockroom and receiving areas for efficient inventory management, and ensure ADA compliance throughout. You can visit our Design Center to review material options for flooring, fixtures, and finishes.',
+    desc: 'We work with your architect and design team to create floor plans optimized for retail performance. We map customer traffic flow from entrance to checkout, position high-margin merchandise in prime sight lines, plan fitting room locations for convenience without consuming premium selling floor, design stockroom and receiving areas for efficient inventory management, and ensure ADA compliance throughout.',
   },
   {
     step: '03',
@@ -210,11 +210,6 @@ const whyChooseUs = [
     icon: Zap,
     title: 'Speed-First Retail Scheduling',
     desc: 'Every day your retail space is under construction instead of open for business represents lost revenue. We structure retail construction schedules with opening-day urgency, front-loading critical path work, overlapping trades where safely possible, and scheduling inspections proactively to avoid waiting periods. Our fast-track approach has consistently delivered retail spaces ahead of schedule across the Charlotte market.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build Capability',
-    desc: 'Our in-house design-build approach means space planning, engineering, and construction are coordinated under one contract and one team. For retailers, this translates to faster decisions on storefront design, fixture layout, and material selection without the delays of coordinating between separate architecture and construction firms. Visit our Design Center to explore materials and finishes in person.',
   },
   {
     icon: BadgeCheck,
@@ -320,7 +315,7 @@ const faqs = [
   {
     question: 'How does tenant improvement allowance work for retail leases?',
     answer:
-      'A tenant improvement allowance is a dollar amount per square foot that a retail landlord provides to help cover the cost of building out a leased space. For retail leases in Charlotte, TI allowances typically range from $15 to $50 per square foot for inline spaces and $20 to $75 per square foot for anchor spaces, depending on the landlord, property condition, lease term, and negotiating leverage. For example, a $30 per square foot allowance on a 2,500 square foot retail space provides $75,000 toward the build-out. We help retail tenants maximize their TI allowance by structuring the scope of work so that reimbursable construction costs are clearly documented. Having our detailed estimate during lease negotiations gives you leverage to request an appropriate allowance based on actual construction costs rather than guesswork.',
+      'A tenant improvement allowance is a dollar amount per square foot that a retail landlord provides to help cover the cost of building out a leased space. For retail leases in Charlotte, TI allowances typically range from $15 to $50 per square foot for inline spaces and $20 to $75 per square foot for anchor spaces, depending on the landlord, property condition, lease term, and negotiating leverage. For example, a $30 per square foot allowance on a 2,500 square foot retail space provides $75,000 toward the build-out. We help retail tenants maximize their TI allowance by structuring the scope of work so that reimbursable construction costs are clearly documented. Having our consultation during lease negotiations gives you leverage to request an appropriate allowance based on actual construction costs rather than guesswork.',
   },
   {
     question: 'What areas do you serve for retail construction?',
@@ -421,12 +416,9 @@ export default function RetailConstructionPage() {
                 is one of our core specialties. We understand that retail clients need a contractor
                 who moves fast without cutting corners, communicates proactively because surprise
                 delays can derail a carefully planned grand opening, and delivers finished spaces
-                that meet both brand standards and building codes. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link>{' '}
-                approach means we handle everything from initial space planning and material
-                selection at our{' '}
-                <Link href="/design-center" className="text-primary hover:underline">Design Center</Link>{' '}
-                to permitting, construction, and final handoff, all under one contract. Licensed
+                that meet both brand standards and building codes. We work closely with your architect
+                and design team, handling everything from coordinating space planning and material selection
+                to permitting, construction, and final handoff. Licensed
                 in both North Carolina and South Carolina, we serve retailers across Charlotte,{' '}
                 <Link href="/areas/south-charlotte" className="text-primary hover:underline">South Charlotte</Link>,{' '}
                 <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>,{' '}
@@ -436,7 +428,7 @@ export default function RetailConstructionPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -765,7 +757,7 @@ export default function RetailConstructionPage() {
               { title: 'Commercial Upfits', desc: 'Office, restaurant, medical, and retail upfit services across Charlotte.', href: '/services/commercial-upfits', type: 'Service' },
               { title: 'Tenant Improvements', desc: 'TI build-outs and leasehold improvements for retail tenants in shopping centers and mixed-use.', href: '/services/tenant-improvements', type: 'Service' },
               { title: 'Commercial Construction', desc: 'Ground-up commercial construction for new retail buildings and shopping centers.', href: '/services/commercial-construction', type: 'Service' },
-              { title: 'Design-Build Services', desc: 'Single-source design and construction for faster retail project delivery.', href: '/services/design-build', type: 'Service' },
+              { title: 'Value Engineering', desc: 'Cost optimization strategies to maximize your retail construction budget.', href: '/services/value-engineering', type: 'Service' },
               { title: 'Retail Space Build-Out Guide for Charlotte Business Owners', desc: 'Plan your retail build-out with cost estimates, timelines, and design tips for Charlotte retail spaces.', href: '/guides/retail-space-build-out-guide-charlotte', type: 'Guide' },
               { title: 'Commercial Flooring Guide: Best Options by Business Type', desc: 'Find the best flooring for your retail store, from durability ratings to cost per square foot.', href: '/guides/commercial-flooring-guide-business-type', type: 'Guide' },
             ].map((resource) => (
@@ -803,7 +795,7 @@ export default function RetailConstructionPage() {
             and within budget.
           </p>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free site visit and detailed estimate. We serve Charlotte,{' '}
+            Contact us today for a free site visit and consultation. We serve Charlotte,{' '}
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
@@ -811,7 +803,7 @@ export default function RetailConstructionPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -819,9 +811,9 @@ export default function RetailConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

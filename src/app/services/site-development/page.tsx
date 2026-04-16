@@ -36,7 +36,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Site Development Charlotte NC | Land Clearing, Grading & Site Preparation Contractor',
   description:
-    'Professional site development services in Charlotte, NC. Land clearing, grading, earthwork, stormwater management, utility infrastructure & erosion control. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (704) 574-8124.',
+    'Professional site development services in Charlotte, NC. Land clearing, grading, earthwork, stormwater management, utility infrastructure & erosion control. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (980) 471-1745.',
   keywords: [
     'site development Charlotte NC',
     'site development near me',
@@ -281,7 +281,7 @@ const faqs = [
   {
     question: 'How do I get started with site development for my commercial project?',
     answer:
-      'The first step is to contact us for a free site assessment. We will review your property survey, zoning entitlements, and any existing civil engineering or geotechnical studies. If those studies do not exist yet, we can recommend qualified engineers and coordinate the due diligence process. Once we understand your site conditions, development plans, and timeline, we prepare a detailed proposal with scope, schedule, and cost for the complete site development scope. Call us at (704) 574-8124 or submit a request through our contact page to get started.',
+      'The first step is to contact us for a free site assessment. We will review your property survey, zoning entitlements, and any existing civil engineering or geotechnical studies. If those studies do not exist yet, we can recommend qualified engineers and coordinate the due diligence process. Once we understand your site conditions, development plans, and timeline, we prepare a detailed proposal with scope, schedule, and cost for the complete site development scope. Call us at (980) 471-1745 or submit a request through our contact page to get started.',
   },
   {
     question: 'How much does grading and earthwork cost per acre in the Charlotte area?',
@@ -536,7 +536,7 @@ export default function SiteDevelopmentPage() {
               <p className="text-muted-foreground max-w-2xl mx-auto">
                 Site development costs depend on acreage, topography, soil conditions, utility distances,
                 and stormwater requirements. Below are typical cost ranges for the Charlotte metro area.
-                We provide detailed estimates after reviewing your site-specific conditions.
+                We provide detailed proposals after reviewing your site-specific conditions.
               </p>
             </div>
             <div className="space-y-4">
@@ -674,9 +674,9 @@ export default function SiteDevelopmentPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

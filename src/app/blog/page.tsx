@@ -14,7 +14,7 @@ export const revalidate = false; // Static at build time — redeploy or use /ap
 export const metadata: Metadata = {
   title: 'Blog | Charlotte Construction Tips & Industry Insights',
   description:
-    'Charlotte construction blog by We Build — expert tips on commercial construction, roof coating, custom homes, and design-build. Project spotlights, industry insights, and practical advice for commercial and residential construction in Charlotte NC.',
+    'Charlotte construction blog by We Build — expert tips on commercial construction, roof coating, and commercial upfits. Project spotlights, industry insights, and practical advice for commercial construction in Charlotte NC.',
   alternates: {
     canonical: 'https://webuildclt.com/blog',
   },
@@ -226,12 +226,12 @@ export default async function BlogPage() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="https://www.instagram.com/webuildclt/"
+              href="https://www.linkedin.com/company/we-build-clt"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:opacity-90 transition-opacity"
             >
-              Follow on Instagram
+              Follow on LinkedIn
             </a>
             <a
               href="https://www.facebook.com/WeBuildCLT"

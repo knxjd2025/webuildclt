@@ -14,12 +14,12 @@ import { BUSINESS } from '@/data/business';
 export const metadata: Metadata = {
   title: 'Construction Services Charlotte NC | We Build',
   description:
-    'Full-service commercial construction in Charlotte NC and the Carolinas. 25 specialized services including commercial upfits, design-build, drone inspections, brewery construction, adaptive reuse, and roof coating. Veteran & family-owned. USGBC member. Free estimates: (704) 574-8124.',
+    'Full-service commercial construction in Charlotte NC and the Carolinas. 25 specialized services including commercial upfits, drone inspections, brewery construction, adaptive reuse, and roof coating. Veteran & family-owned. USGBC member. Free consultations: (980) 471-1745.',
   keywords: [
     'construction services charlotte nc',
     'commercial construction charlotte',
     'general contractor charlotte nc',
-    'design build charlotte',
+    'construction company charlotte',
     'commercial upfits charlotte nc',
     'roof coating charlotte nc',
     'drone roof inspection charlotte nc',
@@ -51,7 +51,7 @@ const categoryConfig = [
     key: 'specialty' as const,
     title: 'Specialty Services',
     description:
-      'Design-build, construction management, green building, and other specialized capabilities that set us apart.',
+      'Construction management, green building, and other specialized capabilities that set us apart.',
     icon: Wrench,
     services: servicesByCategory.specialty,
   },
@@ -90,17 +90,12 @@ const faqs = [
   {
     question: 'What construction services does We Build offer in Charlotte?',
     answer:
-      'We Build offers over twenty specialized construction services across the Charlotte metro area and the Carolinas. Our core services include commercial construction, commercial upfits and tenant improvements, design-build, general contracting, construction management, pre-construction planning, roof coating and restoration, drone inspections, restaurant construction, medical facility build-outs, office buildouts, retail construction, industrial and warehouse construction, brewery construction, adaptive reuse, site development, value engineering, ADA compliance, green building, and owner\'s representative services. We are licensed in NC & SC.',
+      'We Build offers over twenty specialized construction services across the Charlotte metro area and the Carolinas. Our core services include commercial construction, commercial upfits and tenant improvements, general contracting, construction management, pre-construction planning, roof coating and restoration, drone inspections, restaurant construction, medical facility build-outs, office buildouts, retail construction, industrial and warehouse construction, brewery construction, adaptive reuse, site development, value engineering, ADA compliance, green building, and owner\'s representative services. We are licensed in NC & SC.',
   },
   {
     question: 'How do I know if I need a commercial upfit or a full renovation?',
     answer:
       'A commercial upfit modifies the interior of an existing space — new walls, flooring, electrical, plumbing, and finishes — while keeping the building shell and structure intact. A full renovation addresses the building envelope, structural systems, and potentially the exterior in addition to interior work. If your building\'s roof, walls, foundation, and mechanical systems are in good condition but the interior layout does not meet your needs, an upfit is the right choice. If the structure itself needs significant work, a renovation is more appropriate. We Build provides free assessments to help you determine which approach fits your Charlotte project.',
-  },
-  {
-    question: 'What is the difference between design-build and traditional construction?',
-    answer:
-      'In traditional construction, you hire an architect to complete the design and then bid the project out to separate contractors. Design-build combines both design and construction under a single contract and team. This eliminates communication gaps between designer and builder, reduces change orders, and typically delivers projects twenty to thirty percent faster. At We Build, our design-build clients use our South Charlotte Design Center to select materials collaboratively with the team that will actually install them, ensuring budget alignment and constructability from day one.',
   },
   {
     question: 'Do you offer construction services outside of Charlotte?',
@@ -110,12 +105,12 @@ const faqs = [
   {
     question: 'What is the most cost-effective way to renovate a commercial space?',
     answer:
-      'The most cost-effective commercial renovation strategy depends on your goals, but several approaches consistently save money. First, consider a phased approach that prioritizes revenue-generating improvements. Second, explore value engineering with We Build to identify where you can reduce costs without sacrificing quality. Third, for roof issues, coating is fifty to seventy percent less expensive than replacement. Fourth, our design-build delivery method reduces change orders and speeds up timelines, both of which lower total project cost. Contact us for a free consultation to evaluate the best strategy for your specific space in the Charlotte area.',
+      'The most cost-effective commercial renovation strategy depends on your goals, but several approaches consistently save money. First, consider a phased approach that prioritizes revenue-generating improvements. Second, explore value engineering with We Build to identify where you can reduce costs without sacrificing quality. Third, for roof issues, coating is fifty to seventy percent less expensive than replacement. Contact us for a free consultation to evaluate the best strategy for your specific space in the Charlotte area.',
   },
   {
     question: 'How do I get started with a construction project?',
     answer:
-      'Getting started is simple. Call us at (704) 574-8124 or submit a request through our contact page for a free consultation. During the initial meeting, we discuss your project goals, timeline, and budget. We can meet at your project site, at our Design Center in South Charlotte, or virtually. From there, we develop a preliminary scope of work, provide a detailed line-item estimate, and walk you through our process. Once you approve the proposal, we handle permitting, scheduling, and all construction through final walkthrough. Most clients go from initial consultation to construction start within four to eight weeks.',
+      'Getting started is simple. Call us at (980) 471-1745 or submit a request through our contact page for a free consultation. During the initial meeting, we discuss your project goals, timeline, and budget. We can meet at your project site, at our office in South Charlotte, or virtually. From there, we develop a preliminary scope of work, provide a detailed line-item estimate, and walk you through our process. Once you approve the proposal, we handle permitting, scheduling, and all construction through final walkthrough. Most clients go from initial consultation to construction start within four to eight weeks.',
   },
   {
     question: 'What types of commercial buildings does We Build construct?',
@@ -150,7 +145,7 @@ const faqs = [
   {
     question: 'What should I budget for a commercial construction project in Charlotte?',
     answer:
-      'Commercial construction costs in the Charlotte area vary by project type. Commercial upfits typically run fifty to one hundred seventy-five dollars per square foot depending on finish level and mechanical complexity. Ground-up commercial buildings range from one hundred fifty to three hundred dollars or more per square foot. Restaurant build-outs cost one hundred fifty to three hundred fifty dollars per square foot due to kitchen, ventilation, and plumbing requirements. Medical facilities range from one hundred fifty to four hundred dollars per square foot. Roof coating costs two to five dollars per square foot. We provide free, detailed estimates tailored to your specific project scope and requirements.',
+      'Commercial construction costs in the Charlotte area vary by project type. Commercial upfits typically run fifty to one hundred seventy-five dollars per square foot depending on finish level and mechanical complexity. Ground-up commercial buildings range from one hundred fifty to three hundred dollars or more per square foot. Restaurant build-outs cost one hundred fifty to three hundred fifty dollars per square foot due to kitchen, ventilation, and plumbing requirements. Medical facilities range from one hundred fifty to four hundred dollars per square foot. Roof coating costs two to five dollars per square foot. We provide free consultations tailored to your specific project scope and requirements.',
   },
 ];
 
@@ -293,7 +288,7 @@ export default function ServicesPage() {
             Ready to Start Your Project?
           </h2>
           <p className="text-lg opacity-90 mb-8">
-            Get a free estimate from our team. We will walk through your scope,
+            Get a free consultation from our team. We will walk through your scope,
             timeline, and budget — no obligation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -304,7 +299,7 @@ export default function ServicesPage() {
               className="btn-shimmer"
             >
               <Link href="/contact">
-                Request a Free Estimate
+                Request a Free Consultation
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

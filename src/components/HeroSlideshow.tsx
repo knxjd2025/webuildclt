@@ -21,8 +21,8 @@ const slides = [
   },
   {
     src: '/images/showroom/lobby.jpg',
-    alt: 'We Build design center showroom lobby in Charlotte NC',
-    label: 'Design-Build',
+    alt: 'We Build office in Charlotte NC',
+    label: 'Our Office',
   },
   {
     src: '/images/portfolio/urgent-care.jpg',

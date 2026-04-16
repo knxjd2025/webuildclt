@@ -63,7 +63,6 @@ export const SERVICE_TYPES = [
   'upfit',
   'addition',
   'roof-coating',
-  'design-build',
   'custom-home',
   'tenant-improvement',
 ] as const;

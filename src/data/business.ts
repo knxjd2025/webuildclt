@@ -5,8 +5,8 @@
 
 export const BUSINESS = {
   name: 'We Build',
-  phone: '(704) 574-8124',
-  phoneTel: '7045748124',
+  phone: '(980) 471-1745',
+  phoneTel: '9804711745',
   email: 'designcenter@webuildclt.com',
   url: 'https://webuildclt.com',
   address: {
@@ -22,7 +22,7 @@ export const BUSINESS = {
     longitude: -80.9,
   },
   social: [
-    'https://www.instagram.com/webuildclt/',
+    'https://www.linkedin.com/company/we-build-clt',
     'https://www.facebook.com/WeBuildCLT',
   ],
   logo: 'https://webuildclt.com/images/logo.png',

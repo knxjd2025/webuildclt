@@ -54,7 +54,7 @@ export const roofingNewPosts: BlogPost[] = [
 <li><strong>Coat</strong> when the existing membrane is structurally sound but showing age-related wear across the surface. A roof coating system extends roof life by 10-20 years at 30-50% of the cost of replacement. Budget $2 to $4.50 per square foot.</li>
 <li><strong>Replace</strong> when insulation is saturated, decking shows structural damage, or the roof has been patched repeatedly with diminishing results. Budget $6 to $15 per square foot depending on the system.</li>
 </ul>
-<p>Not sure which category your roof falls into? <a href="/services/drone-inspections">Our drone inspection service</a> provides detailed aerial imagery and thermal scanning to assess your roof's condition without anyone needing to walk the surface. Call us at <strong>(704) 574-8124</strong> to schedule an assessment.</p>
+<p>Not sure which category your roof falls into? <a href="/services/drone-inspections">Our drone inspection service</a> provides detailed aerial imagery and thermal scanning to assess your roof's condition without anyone needing to walk the surface. Call us at <strong>(980) 471-1745</strong> to schedule an assessment.</p>
 
 <h2>The Roof Coating Solution for Charlotte Buildings</h2>
 <p>Elastomeric roof coatings have become the preferred repair strategy for Charlotte building owners dealing with aging flat roofs that are still structurally sound. A quality silicone or acrylic coating system applied by <a href="/we-coat">We Build's We Coat division</a> provides several advantages:</p>
@@ -75,7 +75,7 @@ export const roofingNewPosts: BlogPost[] = [
 <li>References from commercial projects in the Charlotte metro area</li>
 <li>A written warranty covering both materials and labor</li>
 </ul>
-<p>We Build is a veteran and family-owned construction company headquartered in Charlotte. Our We Coat division specializes exclusively in commercial roof coating systems. <a href="/contact">Contact us today</a> or call <strong>(704) 574-8124</strong> for a free roof assessment.</p>
+<p>We Build is a veteran and family-owned construction company headquartered in Charlotte. Our We Coat division specializes exclusively in commercial roof coating systems. <a href="/contact">Contact us today</a> or call <strong>(980) 471-1745</strong> for a free roof assessment.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -203,7 +203,7 @@ export const roofingNewPosts: BlogPost[] = [
 
 <h2>Getting the Right Warranty for Your Charlotte Building</h2>
 <p>The right warranty depends on your building type, budget, and risk tolerance. Our team at We Build helps building owners in Charlotte, Ballantyne, Fort Mill, and across the metro area navigate warranty options for both new roof installations and roof coating systems.</p>
-<p><a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> for a warranty consultation. We'll review your current coverage and recommend the best path forward to protect your building.</p>
+<p><a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> for a warranty consultation. We'll review your current coverage and recommend the best path forward to protect your building.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -300,7 +300,7 @@ export const roofingNewPosts: BlogPost[] = [
 <h2>When to Start Planning for Roof Replacement or Coating</h2>
 <p>Don't wait for active leaks to start planning. We recommend engaging a roofing professional when your roof reaches 70% of its expected lifespan. For a TPO roof expected to last 20 years, that means getting a professional assessment around year 14. This gives you time to budget for the work, evaluate options, and schedule the project during optimal weather.</p>
 <p><a href="/services/drone-inspections">Our drone inspection service</a> provides a detailed condition assessment using high-resolution aerial imagery and thermal scanning. This data helps us recommend the most cost-effective path forward, whether that's targeted repairs, a coating system, or a full replacement.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact We Build online</a> to schedule your roof assessment.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact We Build online</a> to schedule your roof assessment.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -404,7 +404,7 @@ export const roofingNewPosts: BlogPost[] = [
 <li><strong>Energy savings potential:</strong> Charlotte's 3,000+ cooling degree days per year mean that the energy savings from a reflective coating are among the highest in the Southeast.</li>
 </ul>
 
-<p>Ready to find out if your commercial roof is a candidate for coating? Call We Build at <strong>(704) 574-8124</strong> or <a href="/contact">request a free assessment online</a>.</p>
+<p>Ready to find out if your commercial roof is a candidate for coating? Call We Build at <strong>(980) 471-1745</strong> or <a href="/contact">request a free assessment online</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -537,7 +537,7 @@ export const roofingNewPosts: BlogPost[] = [
 <p>For most commercial buildings in Charlotte, we recommend <strong>60-mil TPO</strong> as the best balance of cost, performance, and longevity. It provides excellent energy efficiency in Charlotte's hot climate, strong welded seams, and a 20-25 year expected lifespan at a moderate cost point.</p>
 <p>For restaurants, medical facilities, and buildings with rooftop grease exhaust or chemical exposure, we recommend <strong>60-mil PVC</strong> for its superior chemical resistance.</p>
 <p>For budget-sensitive projects where the priority is maximum coverage at minimum cost, <strong>60-mil EPDM</strong> with a plan to apply a reflective coating in 5-7 years provides good value.</p>
-<p>Regardless of which membrane you choose, the quality of installation is more important than the membrane selection. At We Build, we install all three systems with manufacturer-certified crews and offer workmanship warranties on every project. Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> for a consultation.</p>
+<p>Regardless of which membrane you choose, the quality of installation is more important than the membrane selection. At We Build, we install all three systems with manufacturer-certified crews and offer workmanship warranties on every project. Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> for a consultation.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -577,7 +577,7 @@ export const roofingNewPosts: BlogPost[] = [
 
 <h3>1. Visual Inspection</h3>
 <p>The first step in any leak investigation is a systematic visual inspection of the roof surface. An experienced inspector examines the membrane for visible damage, checks all flashings, inspects seams, evaluates drainage systems, and looks for telltale signs like staining, biological growth patterns, or deteriorated sealant.</p>
-<p><strong>Cost:</strong> $200 to $500 for a standard commercial roof (10,000-20,000 sq ft). Many contractors include this as part of a free estimate.</p>
+<p><strong>Cost:</strong> $200 to $500 for a standard commercial roof (10,000-20,000 sq ft). Many contractors include this as part of a free consultation.</p>
 <p><strong>Effectiveness:</strong> Visual inspection identifies the source of approximately 40-50% of commercial roof leaks. It's most effective when the leak source is obvious: a torn membrane, failed flashing, or clogged drain.</p>
 <p><strong>Limitations:</strong> Cannot detect leaks beneath the membrane surface, finds only visible damage, and is limited by roof accessibility and weather conditions.</p>
 
@@ -633,7 +633,7 @@ export const roofingNewPosts: BlogPost[] = [
 <li><strong>Widespread failure:</strong> Roof replacement may be the most cost-effective long-term solution ($6-$15/sq ft)</li>
 </ul>
 <p>At <a href="/we-coat">We Build's We Coat division</a>, we frequently encounter buildings with multiple small leak sources distributed across aging membranes. In these cases, a complete coating system is typically more cost-effective than chasing individual leaks.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to schedule a leak investigation for your Charlotte commercial building.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to schedule a leak investigation for your Charlotte commercial building.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -757,7 +757,7 @@ export const roofingNewPosts: BlogPost[] = [
 
 <h2>Getting Started with an Energy Star Roof Coating</h2>
 <p>The process begins with a comprehensive roof assessment to determine if your existing roof is a suitable candidate for coating. <a href="/services/drone-inspections">Our drone inspection service</a> provides thermal imaging that identifies moisture issues and surfaces needing repair before coating application.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact We Build online</a> to schedule your free commercial roof energy assessment.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact We Build online</a> to schedule your free commercial roof energy assessment.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -803,7 +803,7 @@ export const roofingNewPosts: BlogPost[] = [
 <li>Checking flashings, seams, and penetrations</li>
 <li>Evaluating drainage and identifying ponding areas</li>
 <li>A verbal summary of findings and recommendations</li>
-<li>A written estimate for any recommended work</li>
+<li>A written proposal for any recommended work</li>
 </ul>
 <p><strong>What's not included:</strong> Detailed written reports, thermal imaging, core sampling, moisture testing, photo documentation for insurance or warranty purposes.</p>
 <p><strong>Best for:</strong> Getting a second opinion, exploring repair or coating options, initial project scoping.</p>
@@ -887,7 +887,7 @@ export const roofingNewPosts: BlogPost[] = [
 <li><strong>FAA Part 107 certification:</strong> For drone inspections, the pilot must hold a current Remote Pilot Certificate</li>
 <li><strong>Local experience:</strong> Knowledge of Charlotte's specific climate challenges and building codes</li>
 </ul>
-<p>We Build holds all of these qualifications and has been serving Charlotte building owners with professional roof assessments since our founding. Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to schedule your inspection.</p>
+<p>We Build holds all of these qualifications and has been serving Charlotte building owners with professional roof assessments since our founding. Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to schedule your inspection.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -997,7 +997,7 @@ export const roofingNewPosts: BlogPost[] = [
 <li><strong>Annual drainage assessment:</strong> Have a professional evaluate the roof's drainage performance annually. <a href="/services/drone-inspections">Drone-based assessments</a> can quickly identify ponding areas across large roofs.</li>
 <li><strong>HVAC contractor coordination:</strong> Ensure that HVAC technicians accessing the roof for equipment maintenance do not disturb drainage patterns or leave debris that could clog drains.</li>
 </ul>
-<p>For a free assessment of ponding issues on your Charlotte commercial building, call We Build at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a>.</p>
+<p>For a free assessment of ponding issues on your Charlotte commercial building, call We Build at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -1140,7 +1140,7 @@ export const roofingNewPosts: BlogPost[] = [
 <li>Widespread membrane deterioration visible across more than 25% of the surface</li>
 <li>Insulation moisture levels increasing despite ongoing maintenance</li>
 </ul>
-<p>When you reach this point, a <a href="/we-coat">roof coating from We Build's We Coat division</a> can often extend the roof's life by 10-20 years at a fraction of the replacement cost. Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us</a> for a free assessment.</p>
+<p>When you reach this point, a <a href="/we-coat">roof coating from We Build's We Coat division</a> can often extend the roof's life by 10-20 years at a fraction of the replacement cost. Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us</a> for a free assessment.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -1255,7 +1255,7 @@ export const roofingNewPosts: BlogPost[] = [
 </ul>
 <p>Timeline is for a typical 10,000-15,000 square foot roof. Larger roofs or those requiring extensive preparation may take longer.</p>
 
-<p><a href="/services/drone-inspections">Schedule a drone inspection</a> to assess your metal roof's condition, or call <strong>(704) 574-8124</strong> to discuss your project with our We Coat team. You can also <a href="/contact">contact us online</a>.</p>
+<p><a href="/services/drone-inspections">Schedule a drone inspection</a> to assess your metal roof's condition, or call <strong>(980) 471-1745</strong> to discuss your project with our We Coat team. You can also <a href="/contact">contact us online</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 
@@ -1409,7 +1409,7 @@ export const roofingNewPosts: BlogPost[] = [
 </ul>
 <p>We never recommend replacement when coating will provide reliable, warrantied performance. And we never recommend coating when the underlying conditions don't support it. Our assessment provides the data you need to make an informed decision.</p>
 
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact We Build online</a> to schedule your roof assessment and receive a detailed coating-vs-replacement comparison for your Charlotte commercial building.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact We Build online</a> to schedule your roof assessment and receive a detailed coating-vs-replacement comparison for your Charlotte commercial building.</p>
 
 <h2>Frequently Asked Questions</h2>
 

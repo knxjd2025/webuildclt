@@ -30,7 +30,7 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company Matthews NC | General Contractor Matthews & Mint Hill',
   description:
-    'Searching for a construction company near me in Matthews NC? Veteran-owned general contractor serving Matthews, Mint Hill, Indian Trail & Stallings. Commercial construction, custom homes, upfits & roof coatings. Licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Searching for a construction company near me in Matthews NC? Veteran-owned general contractor serving Matthews, Mint Hill, Indian Trail & Stallings. Commercial construction, upfits & roof coatings. Licensed in NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'construction company matthews nc',
     'general contractor matthews',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     'commercial construction matthews nc',
     'contractor mint hill nc',
     'matthews renovation contractor',
-    'custom home builder matthews nc',
+    'commercial builder matthews nc',
     'indian trail construction company',
     'general contractor near me matthews nc',
     'construction company near me mint hill',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Construction Company Matthews NC | General Contractor Matthews & Mint Hill',
     description:
-      'Veteran-owned construction company serving Matthews NC. Commercial & residential construction in Matthews, Mint Hill, Indian Trail, Stallings. Licensed in NC & SC.',
+      'Veteran-owned construction company serving Matthews NC. Commercial construction in Matthews, Mint Hill, Indian Trail, Stallings. Licensed in NC & SC.',
     type: 'website',
   },
 };
@@ -76,13 +76,6 @@ const services = [
     href: '/services/commercial-upfits',
     description:
       'Matthews businesses frequently need interior renovations to modernize or expand their operations. We Build provides commercial upfit services throughout downtown Matthews, the Independence Boulevard corridor, Matthews-Mint Hill Road commercial properties, and Sardis Road North business parks. Our upfit projects range from open-concept office redesigns and medical suite build-outs to restaurant renovations and retail space transformations. Many Matthews commercial properties are 20 to 30 years old, creating strong demand for modernization and renovation. Most commercial upfits in the Matthews area are completed in 2 to 5 months.',
-  },
-  {
-    icon: Ruler,
-    title: 'Design-Build Services',
-    href: '/services/design-build',
-    description:
-      'Our design-build approach is especially valuable in the Matthews area where lot configurations, setback requirements, and community architectural standards vary between Mecklenburg County (Matthews) and Union County (Indian Trail, Stallings) jurisdictions. We Build manages the entire project under one contract, from conceptual design and engineering through permitting and construction. This single-source accountability eliminates coordination issues between architects and builders, reduces change orders, and typically saves Matthews-area property owners ten to fifteen percent compared to traditional design-bid-build methods.',
   },
   {
     icon: Shield,
@@ -225,7 +218,7 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     description:
-      'We hold general contractor licenses in both North Carolina and South Carolina. Our licensing, insurance, and bonding meet or exceed all requirements for commercial and residential construction in Matthews, Mint Hill, Indian Trail, Stallings, and throughout the Charlotte metropolitan area.',
+      'We hold general contractor licenses in both North Carolina and South Carolina. Our licensing, insurance, and bonding meet or exceed all requirements for commercial construction in Matthews, Mint Hill, Indian Trail, Stallings, and throughout the Charlotte metropolitan area.',
   },
   {
     icon: Landmark,
@@ -251,12 +244,12 @@ const faqs = [
   {
     question: 'What construction services are available in Matthews NC?',
     answer:
-      'We Build provides comprehensive construction services in Matthews including commercial construction, commercial upfits and renovations, custom home building, residential additions and renovations, design-build services, general contracting, and commercial roof coatings. We serve Matthews, Mint Hill, Indian Trail, and Stallings with the same level of quality and commitment. Call (704) 574-8124 for a free estimate on any construction project in the Matthews area.',
+      'We Build provides comprehensive construction services in Matthews including commercial construction, commercial upfits and renovations, general contracting, and commercial roof coatings. We serve Matthews, Mint Hill, Indian Trail, and Stallings with the same level of quality and commitment. Call (980) 471-1745 for a free consultation on any construction project in the Matthews area.',
   },
   {
     question: 'How much does construction cost in Matthews NC in 2026?',
     answer:
-      'Construction costs in Matthews vary by project type. Commercial office upfits typically range from $50 to $175 per square foot. Retail build-outs run $75 to $200 per square foot. Restaurant construction costs $150 to $350 per square foot. Custom homes in the Matthews area range from $225 to $500 per square foot depending on finishes, lot size, and complexity. Renovations and additions typically cost $150 to $350 per square foot. We provide detailed, line-item estimates for every project.',
+      'Construction costs in Matthews vary by project type. Commercial office upfits typically range from $50 to $175 per square foot. Retail build-outs run $75 to $200 per square foot. Restaurant construction costs $150 to $350 per square foot. Ground-up commercial construction ranges from $150 to $350 per square foot depending on complexity. Commercial renovations typically cost $150 to $350 per square foot. We provide detailed, line-item estimates for every project.',
   },
   {
     question: 'What permits are required for construction in Matthews NC?',
@@ -266,7 +259,7 @@ const faqs = [
   {
     question: 'How long does a typical construction project take in Matthews?',
     answer:
-      'Project timelines in Matthews depend on scope and complexity. Commercial upfits typically take 2 to 5 months. Restaurant build-outs require 4 to 8 months. Custom homes take 8 to 14 months depending on size and complexity. Home additions and renovations range from 2 to 6 months. Permitting adds 4 to 8 weeks before construction can begin. Union County permitting timelines for Indian Trail and Stallings projects are similar. We provide a detailed project schedule at the start of every engagement.',
+      'Project timelines in Matthews depend on scope and complexity. Commercial upfits typically take 2 to 5 months. Restaurant build-outs require 4 to 8 months. Ground-up commercial construction takes 8 to 14 months depending on size and complexity. Commercial renovations range from 2 to 6 months. Permitting adds 4 to 8 weeks before construction can begin. Union County permitting timelines for Indian Trail and Stallings projects are similar. We provide a detailed project schedule at the start of every engagement.',
   },
   {
     question: 'Does We Build serve Mint Hill and Indian Trail as well as Matthews?',
@@ -289,14 +282,14 @@ const faqs = [
       'Matthews and the surrounding area represent one of the strongest construction markets in eastern Charlotte. Downtown Matthews has experienced significant revitalization, attracting new restaurants and businesses. Independence Boulevard continues to drive commercial development and redevelopment. Indian Trail and Stallings are among the fastest-growing towns in Union County with strong residential demand. The area benefits from proximity to Charlotte employment centers, quality schools, and relatively affordable land compared to other parts of the metro. Both commercial and residential construction investments in the Matthews area benefit from these fundamental growth drivers.',
   },
   {
-    question: 'Does We Build construct custom homes in Indian Trail and Stallings?',
+    question: 'Does We Build serve Indian Trail and Stallings?',
     answer:
-      'Yes. We Build constructs custom homes throughout Union County including Indian Trail and Stallings. These growing communities have specific building requirements under Union County jurisdiction that differ from Mecklenburg County, including different setback standards and potentially different utility requirements. Our team is experienced with Union County permitting and inspections, and we understand the expectations of homeowners in these newer residential communities where custom home construction is in high demand.',
+      'Yes. We Build provides commercial construction services throughout Union County including Indian Trail and Stallings. These growing communities have specific building requirements under Union County jurisdiction that differ from Mecklenburg County, including different setback standards and potentially different utility requirements. Our team is experienced with Union County permitting and inspections, ensuring a smooth construction process for commercial projects in these rapidly growing areas.',
   },
   {
     question: 'How do I get a construction estimate for a project in Matthews?',
     answer:
-      'Getting a construction estimate from We Build is straightforward. Call us at (704) 574-8124 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. There is no obligation and no charge for initial consultations. We typically deliver estimates within one to two weeks of the initial site visit, depending on project complexity.',
+      'Getting a construction estimate from We Build is straightforward. Call us at (980) 471-1745 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. There is no obligation and no charge for initial consultations. We typically deliver estimates within one to two weeks of the initial site visit, depending on project complexity.',
   },
   {
     question: 'How do commercial construction costs in Matthews compare to South Charlotte or Indian Trail?',
@@ -347,16 +340,16 @@ export default function MatthewsPage() {
           <div className="grid lg:grid-cols-3 gap-12 items-start mt-8">
             <div className="lg:col-span-2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Matthews NC Construction Company — Commercial & Residential General Contractor
+                Matthews NC Construction Company — Commercial General Contractor
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Matthews NC has comprehensive construction services available from We Build, a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> serving eastern Mecklenburg County and western Union County. We provide <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits</Link>, <Link href="/services/design-build" className="text-primary hover:underline">design-build services</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link> throughout Matthews, Mint Hill, Indian Trail, Stallings, and surrounding communities. Licensed in NC and SC with over 60 years of combined experience.
+                Matthews NC has comprehensive construction services available from We Build, a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> serving eastern Mecklenburg County and western Union County. We provide <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link> throughout Matthews, Mint Hill, Indian Trail, Stallings, and surrounding communities. Licensed in NC and SC with over 60 years of combined experience.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Matthews has established itself as one of the most charming and desirable communities in the Charlotte metro area, balancing a historic downtown core with modern commercial growth and thriving residential neighborhoods. The town&apos;s location along Independence Boulevard provides direct connectivity to Uptown Charlotte, while Matthews-Mint Hill Road links to the growing communities of Mint Hill to the north. To the south and east, Indian Trail and Stallings in Union County have experienced explosive residential growth, creating a combined market of over 150,000 residents who need quality commercial and residential construction services.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We Build serves this entire region with the commitment to quality, transparency, and local expertise that has made us a trusted construction partner across greater Charlotte. Our team handles projects ranging from restaurant build-outs in downtown Matthews to custom homes in Indian Trail to commercial renovations along Independence Boulevard. Whether you are planning a $75,000 office upfit or a $1.5 million custom home, We Build brings the experience, licensing, and multi-jurisdiction permitting knowledge to deliver exceptional results in the Matthews area.
+                We Build serves this entire region with the commitment to quality, transparency, and local expertise that has made us a trusted construction partner across greater Charlotte. Our team handles projects ranging from restaurant build-outs in downtown Matthews to commercial renovations along Independence Boulevard to medical office construction in Mint Hill. Whether you are planning a $75,000 office upfit or a $1.5 million ground-up commercial build, We Build brings the experience, licensing, and multi-jurisdiction permitting knowledge to deliver exceptional results in the Matthews area.
               </p>
 
               <div className="flex items-start gap-3 bg-primary/10 border border-primary/20 rounded-lg p-4">
@@ -370,12 +363,12 @@ export default function MatthewsPage() {
               <div className="flex flex-wrap gap-4 pt-2">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
+                    Get a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+17045748124">
-                    <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+                  <a href="tel:+19804711745">
+                    <Phone className="mr-2 h-5 w-5" />(980) 471-1745
                   </a>
                 </Button>
               </div>
@@ -589,10 +582,10 @@ export default function MatthewsPage() {
                 We Coat Roof Coatings
               </Link>
               <Link
-                href="/design-center"
+                href="/contact"
                 className="inline-flex items-center gap-2 bg-background border rounded-lg px-4 py-2 text-sm hover:border-primary hover:text-primary transition-colors"
               >
-                Design Center
+                Contact Us
               </Link>
             </div>
           </div>
@@ -625,11 +618,11 @@ export default function MatthewsPage() {
             Veteran and family-owned. Licensed in NC &amp; SC. Over 60 years combined experience. USGBC member.
           </p>
           <p className="text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Whether you are planning a commercial build-out in downtown Matthews, a custom home in Indian Trail, or a renovation in Mint Hill, We Build is the general contractor you can trust. Contact us today for a free estimate on your project.
+            Whether you are planning a commercial build-out in downtown Matthews, an office upfit along Independence Boulevard, or a renovation in Mint Hill, We Build is the general contractor you can trust. Contact us today for a free consultation on your project.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -637,8 +630,8 @@ export default function MatthewsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
-                <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+              <a href="tel:+19804711745">
+                <Phone className="mr-2 h-5 w-5" />(980) 471-1745
               </a>
             </Button>
           </div>

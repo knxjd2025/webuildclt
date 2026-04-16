@@ -41,7 +41,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Brewery Construction Charlotte NC | Taproom Buildout & Craft Brewery Contractor',
   description:
-    'Expert brewery construction contractor in Charlotte, NC. Craft brewery buildouts, taproom construction, brewpub builds, beer garden construction, and cidery/distillery facilities. ABC permit compliant. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Expert brewery construction contractor in Charlotte, NC. Craft brewery buildouts, taproom construction, brewpub builds, beer garden construction, and cidery/distillery facilities. ABC permit compliant. Veteran-owned, licensed in NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'brewery construction Charlotte NC',
     'brewery construction near me',
@@ -221,11 +221,6 @@ const whyChooseUs = [
     desc: 'Charlotte is one of the fastest-growing craft beer markets in the Southeast, with thriving brewery corridors in NoDa, South End, LoSo, FreeMoreWest, and Plaza Midwood. We understand the building stock, zoning requirements, utility infrastructure, and construction conditions in each of these neighborhoods and can provide site-specific guidance during your space search.',
   },
   {
-    icon: Lightbulb,
-    title: 'Design-Build Capability',
-    desc: 'Our in-house design-build approach coordinates production floor layout, taproom design, utility engineering, and construction under one contract. This eliminates the delays and finger-pointing that occur when the architect, equipment vendor, and general contractor are separate firms with conflicting priorities.',
-  },
-  {
     icon: BadgeCheck,
     title: 'USGBC Member',
     desc: 'As a member of the U.S. Green Building Council, we incorporate sustainable building practices into brewery construction. Energy-efficient glycol systems, LED lighting, water-reclamation-ready plumbing, insulated panel systems, and efficient HVAC design reduce your operating costs and environmental footprint from day one.',
@@ -291,7 +286,7 @@ const faqs = [
   {
     question: 'How much does a brewery taproom build-out cost compared to a full brewpub in Charlotte?',
     answer:
-      'A taproom-only build-out in Charlotte typically costs $100 to $175 per square foot, covering bar construction, draft systems, seating, restrooms, and basic HVAC. A full brewpub with a commercial kitchen runs $200 to $400 per square foot because of the additional hood ventilation, fire suppression, grease traps, walk-in coolers, three-compartment sinks, and health department compliance requirements. For a 3,000 square foot space, that means a taproom costs roughly $300,000 to $525,000 while a brewpub costs $600,000 to $1.2 million for construction alone, excluding brewing equipment. We Build provides detailed estimates that break out production, taproom, and kitchen costs separately so you can evaluate the right scope for your business model.',
+      'A taproom-only build-out in Charlotte typically costs $100 to $175 per square foot, covering bar construction, draft systems, seating, restrooms, and basic HVAC. A full brewpub with a commercial kitchen runs $200 to $400 per square foot because of the additional hood ventilation, fire suppression, grease traps, walk-in coolers, three-compartment sinks, and health department compliance requirements. For a 3,000 square foot space, that means a taproom costs roughly $300,000 to $525,000 while a brewpub costs $600,000 to $1.2 million for construction alone, excluding brewing equipment. We Build provides consultations that break out production, taproom, and kitchen costs separately so you can evaluate the right scope for your business model.',
   },
   {
     question: 'What wastewater requirements apply to brewery construction in Mecklenburg County?',
@@ -366,10 +361,9 @@ export default function BreweryConstructionPage() {
                 <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> with
                 over 60 years of combined construction experience. We specialize in craft brewery construction,
                 taproom buildouts, brewpub builds, beer garden construction, and cidery and distillery facilities
-                across the Charlotte metro area. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link> approach
-                coordinates production layout, equipment supplier specifications, taproom design, and regulatory
-                compliance under one contract. Licensed in both North Carolina and South Carolina, we serve Charlotte
+                across the Charlotte metro area. We work closely with your architect and design team to
+                coordinate production layout, equipment supplier specifications, taproom design, and regulatory
+                compliance seamlessly. Licensed in both North Carolina and South Carolina, we serve Charlotte
                 and surrounding communities including{' '}
                 <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>,{' '}
                 <Link href="/areas/lake-norman" className="text-primary hover:underline">Lake Norman</Link>, and{' '}
@@ -378,7 +372,7 @@ export default function BreweryConstructionPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -784,7 +778,7 @@ export default function BreweryConstructionPage() {
                 Brewery construction costs in Charlotte depend on the concept type, production capacity,
                 taproom size, food service scope, and existing building conditions. Below are typical cost
                 ranges based on recent brewery projects in the Charlotte metro area. Every project is unique,
-                and we provide detailed estimates after an initial site visit.
+                and we provide consultations after an initial site visit.
               </p>
             </div>
             <div className="space-y-4">
@@ -870,7 +864,7 @@ export default function BreweryConstructionPage() {
               { title: 'Restaurant Construction Charlotte NC', href: '/services/restaurant-construction', type: 'Service', desc: 'Full-service restaurant buildouts including commercial kitchens, bars, and hospitality renovations across the Charlotte metro area.' },
               { title: 'Adaptive Reuse Construction', href: '/services/adaptive-reuse', type: 'Service', desc: 'Convert warehouses and industrial buildings into craft brewery facilities — the most common path for new Charlotte breweries.' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for breweries, restaurants, retail, and mixed-use developments across Charlotte.' },
-              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Our design-build approach delivers brewery projects faster with fewer change orders and a single point of accountability.' },
+              { title: 'Green Building', href: '/services/green-building', type: 'Service', desc: 'Sustainable building practices that reduce operating costs for energy-intensive brewery facilities.' },
               { title: 'Commercial Construction Cost Guide', href: '/guides/commercial-construction-costs-charlotte', type: 'Guide', desc: 'Detailed cost breakdowns for commercial construction in Charlotte — understand what drives brewery and taproom build costs.' },
               { title: 'Charlotte Building Permit Guide', href: '/guides/charlotte-building-permit-guide', type: 'Guide', desc: 'A complete guide to the Charlotte permitting process for commercial projects, including timelines, agencies, and requirements.' },
             ].map((resource) => (
@@ -907,7 +901,7 @@ export default function BreweryConstructionPage() {
             your first pour.
           </p>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free site evaluation and detailed estimate. We serve Charlotte,{' '}
+            Contact us today for a free site evaluation and consultation. We serve Charlotte,{' '}
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
@@ -915,7 +909,7 @@ export default function BreweryConstructionPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -923,9 +917,9 @@ export default function BreweryConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

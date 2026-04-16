@@ -20,7 +20,6 @@ import {
   Paintbrush,
   Layers,
   Leaf,
-  Star,
   Clock,
   MapPin,
   HardHat,
@@ -37,7 +36,7 @@ import {
 export const metadata: Metadata = {
   title: 'About We Build | Veteran-Owned Construction Company Charlotte NC',
   description:
-    'We Build is a veteran and family-owned construction company in Charlotte NC with 60+ years combined experience. Licensed in NC & SC. USGBC member. FAA-certified drone inspections. Commercial construction, roof coating, and design-build services.',
+    'We Build is a veteran and family-owned construction company in Charlotte NC with 60+ years combined experience. Licensed in NC & SC. USGBC member. FAA-certified drone inspections. Commercial construction and roof coating services.',
   keywords: [
     'about we build charlotte',
     'veteran owned construction company charlotte nc',
@@ -49,7 +48,7 @@ export const metadata: Metadata = {
     'USGBC member contractor charlotte',
     'veteran contractor charlotte nc',
     'drone inspection charlotte nc',
-    'design build charlotte nc',
+    'general contractor charlotte nc',
   ],
   openGraph: {
     title: 'About We Build | Veteran-Owned Construction Company Charlotte NC',
@@ -74,7 +73,7 @@ const values = [
     icon: Heart,
     title: 'Integrity',
     description:
-      'We do what we say and say what we do. Honesty guides every decision from the initial estimate to the final walkthrough. When we encounter a problem, we tell you immediately and present solutions. Our pricing is transparent, our timelines are realistic, and our word is our bond. We believe that trust is built through consistent action, not promises. That is why we provide detailed written estimates, maintain open-book accounting on cost-plus projects, and never surprise our clients with hidden fees or unexpected change orders.',
+      'We do what we say and say what we do. Honesty guides every decision from the initial consultation to the final walkthrough. When we encounter a problem, we tell you immediately and present solutions. Our pricing is transparent, our timelines are realistic, and our word is our bond. We believe that trust is built through consistent action, not promises. That is why we provide detailed written proposals, maintain open-book accounting on cost-plus projects, and never surprise our clients with hidden fees or unexpected change orders.',
   },
   {
     icon: Gem,
@@ -167,12 +166,6 @@ const timeline = [
       'Launched We Coat, our dedicated commercial roof coating and restoration division, offering eco-friendly alternatives to full roof replacement.',
   },
   {
-    year: '2023',
-    title: 'Design Center Opens',
-    description:
-      'Opened the WeBuild Design Center showroom in South Charlotte, giving clients a hands-on space for material selection and design consultation.',
-  },
-  {
     year: '2024',
     title: 'SC License Obtained',
     description:
@@ -215,13 +208,6 @@ const serviceOverview = [
       'Eco-friendly commercial roof coating that saves up to 50% vs. full replacement. IIBEC certified team with proven restoration systems.',
   },
   {
-    icon: HardHat,
-    title: 'Design-Build',
-    href: '/services/design-build',
-    description:
-      'Integrated design and construction under one roof. Single point of accountability from concept through completion.',
-  },
-  {
     icon: Hammer,
     title: 'General Contracting',
     href: '/services/general-contractor',
@@ -250,22 +236,16 @@ const whyChooseUs = [
       'Our U.S. Green Building Council membership reflects a genuine commitment to sustainable construction. We incorporate energy-efficient systems, specify sustainable materials, and advise clients on green building strategies that reduce environmental impact and lower long-term operating costs.',
   },
   {
-    icon: Star,
-    title: 'Dedicated Design Center',
-    description:
-      'Unlike most contractors, We Build operates a dedicated Design Center showroom in South Charlotte. Clients can explore materials hands-on, make informed selections with our design team, and visualize their project before construction begins. This unique resource streamlines the selection process and reduces costly changes mid-project.',
-  },
-  {
     icon: Clock,
     title: 'Transparent Pricing & Timelines',
     description:
-      'We provide detailed written estimates with clear line items, realistic project schedules, and proactive communication throughout every phase. There are no hidden fees, no surprise change orders, and no vague timelines. You know exactly what your project will cost and when it will be complete.',
+      'We provide detailed written proposals with clear line items, realistic project schedules, and proactive communication throughout every phase. There are no hidden fees, no surprise change orders, and no vague timelines. You know exactly what your project will cost and when it will be complete.',
   },
   {
     icon: ThumbsUp,
     title: '60+ Years Combined Experience',
     description:
-      'Our team brings over six decades of combined construction experience spanning commercial building, roof coating and restoration, project management, and design-build delivery. This depth of experience means we have encountered virtually every construction challenge and know how to solve it efficiently.',
+      'Our team brings over six decades of combined construction experience spanning commercial building, roof coating and restoration, and project management. This depth of experience means we have encountered virtually every construction challenge and know how to solve it efficiently.',
   },
   {
     icon: Truck,
@@ -285,7 +265,7 @@ const aboutFaqs = [
   {
     question: 'Who owns We Build and what is the company history?',
     answer:
-      'We Build is a veteran and family-owned construction company founded in 2019 in Charlotte, North Carolina. The company was established by a veteran with extensive construction experience who saw an opportunity to bring military discipline, integrity, and accountability to the Charlotte construction market. Since our founding, We Build has grown from a small commercial upfit contractor into a full-service commercial construction company offering commercial construction, roof coating, design-build services, and more. The owner remains personally involved in every project, ensuring the quality and client service standards that have driven our growth.',
+      'We Build is a veteran and family-owned construction company founded in 2019 in Charlotte, North Carolina. The company was established by a veteran with extensive construction experience who saw an opportunity to bring military discipline, integrity, and accountability to the Charlotte construction market. Since our founding, We Build has grown from a small commercial upfit contractor into a full-service commercial construction company offering commercial construction, roof coating, and more. The owner remains personally involved in every project, ensuring the quality and client service standards that have driven our growth.',
   },
   {
     question: 'What are the benefits of hiring a veteran-owned construction company?',
@@ -305,7 +285,7 @@ const aboutFaqs = [
   {
     question: 'How much construction experience does the We Build team have?',
     answer:
-      'The We Build team brings over 60 years of combined construction experience spanning commercial building, roof coating and restoration, project management, and design-build delivery. Our experience covers a wide range of project types including office buildings, retail spaces, restaurants, medical facilities, commercial upfits, and industrial projects. This depth of experience means we have encountered virtually every construction challenge and know how to solve it efficiently while keeping your project on schedule and on budget.',
+      'The We Build team brings over 60 years of combined construction experience spanning commercial building, roof coating and restoration, and project management. Our experience covers a wide range of project types including office buildings, retail spaces, restaurants, medical facilities, commercial upfits, and industrial projects. This depth of experience means we have encountered virtually every construction challenge and know how to solve it efficiently while keeping your project on schedule and on budget.',
   },
   {
     question: 'What areas does We Build serve?',
@@ -313,24 +293,19 @@ const aboutFaqs = [
       'We Build serves the entire Charlotte metropolitan area and beyond. Our primary service areas include Charlotte, South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, and Fort Mill, SC. Our headquarters is located at 14330 S Lakes Drive, Charlotte NC 28273, and our dual-state licensing (NC and SC) allows us to take on projects throughout both states without licensing complications. We are especially well-established in South Charlotte, Lake Norman, and the Fort Mill corridor.',
   },
   {
-    question: 'Does We Build offer free estimates?',
+    question: 'Does We Build offer free consultations?',
     answer:
-      'Yes. We Build provides free project consultations and estimates for all construction projects. During the initial consultation, we visit your site (or review your plans), discuss your goals and budget, and provide a detailed written estimate with clear line items. Our estimates are thorough and transparent so you can make informed decisions. There is no pressure, no obligation, and no hidden fees. Contact us at (704) 574-8124 or visit our contact page to schedule your free consultation.',
-  },
-  {
-    question: 'Is We Build bonded?',
-    answer:
-      'Yes. We Build carries performance and payment bonds for commercial projects as required. Bonding provides an additional layer of financial protection for project owners, ensuring that the project will be completed according to contract terms and that all subcontractors and suppliers will be paid. Our bonding capacity reflects our strong financial standing and track record of successful project completion. We can discuss specific bonding requirements during the project consultation process.',
+      'Yes. We Build provides free project consultations for all construction projects. During the initial consultation, we visit your site (or review your plans), discuss your goals and budget, and provide a detailed written proposal with clear line items. Our proposals are thorough and transparent so you can make informed decisions. There is no pressure, no obligation, and no hidden fees. Contact us at (980) 471-1745 or visit our contact page to schedule your free consultation.',
   },
   {
     question: 'What types of construction projects does We Build handle?',
     answer:
-      'We Build handles a comprehensive range of commercial construction projects. Our services include ground-up commercial construction, commercial upfits and tenant improvements, restaurant build-outs, medical facility construction, retail spaces, office buildings, industrial projects, and commercial roof coating through our We Coat division. We also offer integrated design-build services and operate a dedicated Design Center in South Charlotte for hands-on material selection.',
+      'We Build handles a comprehensive range of commercial construction projects. Our services include ground-up commercial construction, commercial upfits and tenant improvements, restaurant build-outs, medical facility construction, retail spaces, office buildings, industrial projects, and commercial roof coating through our We Coat division.',
   },
   {
     question: 'How is We Build different from other construction companies in Charlotte?',
     answer:
-      'We Build is differentiated by several factors that most Charlotte contractors cannot match. First, our veteran ownership instills a culture of discipline, accountability, and mission-focus that produces better project outcomes. Second, our dedicated Design Center showroom in South Charlotte gives clients a hands-on experience for material selection that eliminates guesswork and costly mid-project changes. Third, our USGBC membership ensures we can advise on sustainable building practices. Fourth, our dual-state licensing (NC and SC) provides flexibility for clients near the state border. Fifth, our transparent pricing model means no hidden fees or surprise change orders. And sixth, as a family-owned company, the owner is personally involved in every project, ensuring the quality and care that larger firms often cannot provide.',
+      'We Build is differentiated by several factors that most Charlotte contractors cannot match. First, our veteran ownership instills a culture of discipline, accountability, and mission-focus that produces better project outcomes. Second, our USGBC membership ensures we can advise on sustainable building practices. Third, our dual-state licensing (NC and SC) provides flexibility for clients near the state border. Fourth, our transparent pricing model means no hidden fees or surprise change orders. And fifth, as a family-owned company, the owner is personally involved in every project, ensuring the quality and care that larger firms often cannot provide.',
   },
   {
     question: 'How does veteran ownership influence the way We Build runs construction projects?',
@@ -345,7 +320,7 @@ const aboutFaqs = [
   {
     question: 'How long has We Build been serving the Charlotte construction market?',
     answer:
-      'We Build was founded in Charlotte, North Carolina in 2019 and has been delivering commercial construction, upfits, roof coatings, and design-build services across the region ever since. While the company is relatively young, our leadership team brings over sixty years of combined construction experience spanning commercial builds, industrial projects, and specialty coatings. That depth of field knowledge, combined with fresh energy and veteran-driven accountability, has fueled our growth from a small upfit contractor to a multi-state construction company serving Charlotte, Fort Mill, Lake Norman, and the surrounding Carolinas.',
+      'We Build was founded in Charlotte, North Carolina in 2019 and has been delivering commercial construction, upfits, and roof coatings across the region ever since. While the company is relatively young, our leadership team brings over sixty years of combined construction experience spanning commercial builds, industrial projects, and specialty coatings. That depth of field knowledge, combined with fresh energy and veteran-driven accountability, has fueled our growth from a small upfit contractor to a multi-state construction company serving Charlotte, Fort Mill, Lake Norman, and the surrounding Carolinas.',
   },
 ];
 
@@ -418,10 +393,6 @@ export default function AboutPage() {
                 <Link href="/services/roof-coating" className="text-primary hover:underline">
                   commercial roof coating
                 </Link>{' '}
-                and integrated{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">
-                  design-build services
-                </Link>
                 . Our team brings over 60 years of combined construction
                 experience, and every project receives the same level of
                 attention, professionalism, and commitment to quality.
@@ -521,14 +492,10 @@ export default function AboutPage() {
               <p className="text-muted-foreground leading-relaxed">
                 Looking ahead, We Build is investing in expanded capabilities
                 including our{' '}
-                <Link href="/design-center" className="text-primary hover:underline">
-                  Design Center
-                </Link>{' '}
-                showroom experience, our{' '}
                 <Link href="/we-coat" className="text-primary hover:underline">
                   We Coat
                 </Link>{' '}
-                commercial roof coating division, and our commitment to staying
+                commercial roof coating division and our commitment to staying
                 at the forefront of construction technology and sustainable
                 building practices. Our goal is simple: to be the construction
                 company that Charlotte trusts most.
@@ -591,7 +558,8 @@ export default function AboutPage() {
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We also believe in supporting our fellow veterans and military
-                families. We actively recruit veterans into construction roles,
+                families. We are proud to be working with Purple Heart Homes,
+                and we actively recruit veterans into construction roles,
                 understanding that the skills and discipline developed in
                 military service are exactly what the construction industry
                 needs. When you choose We Build, you are supporting a company
@@ -850,10 +818,6 @@ export default function AboutPage() {
               <Link href="/services/construction-management" className="text-primary hover:underline">
                 construction management
               </Link>
-              , and hands-on material selection at our{' '}
-              <Link href="/design-center" className="text-primary hover:underline">
-                Design Center showroom
-              </Link>
               .{' '}
               <Link href="/services" className="text-primary hover:underline font-medium">
                 View all of our construction services
@@ -1042,95 +1006,6 @@ export default function AboutPage() {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Design Center Highlight */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6">
-              <span className="text-primary font-semibold uppercase tracking-wider text-sm">
-                Our Design Center
-              </span>
-              <h2 className="text-3xl md:text-4xl font-bold">
-                Where Your Vision Comes to Life
-              </h2>
-              <p className="text-muted-foreground leading-relaxed">
-                A major milestone in our journey was opening the WeBuild Design
-                Center in South Charlotte. This dedicated showroom gives our
-                clients a hands-on experience where they can explore materials,
-                browse curated selections, and make confident design decisions
-                with our experienced team by their side. Unlike most
-                contractors who send clients to third-party showrooms, We Build
-                brings the entire selection process in-house for a seamless,
-                personalized experience.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                The Design Center is central to our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">
-                  design-build approach
-                </Link>
-                . Rather than making selections from catalog images, you see and
-                touch actual materials — countertops, flooring, cabinetry, tile,
-                fixtures, and more. Our design team helps you coordinate
-                selections, visualize combinations, and stay within budget. This
-                hands-on approach reduces costly mid-project changes and ensures
-                you love the final result.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Whether you are renovating a commercial space, planning a{' '}
-                <Link href="/services/commercial-upfits" className="text-primary hover:underline">
-                  commercial upfit
-                </Link>
-                , or managing a{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">
-                  design-build project
-                </Link>
-                , the Design Center transforms the selection process from
-                overwhelming to enjoyable. Visits are by appointment so you
-                receive personalized, unrushed attention from our design
-                professionals.
-              </p>
-              <div className="flex flex-wrap gap-4 pt-2">
-                <Button asChild>
-                  <Link href="/design-center">
-                    Visit the Design Center
-                    <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
-                  </Link>
-                </Button>
-                <Button variant="outline" asChild>
-                  <a
-                    href="https://my.matterport.com/show/?m=CtFhaV3nbSx"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Virtual Tour
-                  </a>
-                </Button>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { src: '/images/showroom/lobby.jpg', alt: 'Design Center lobby' },
-                { src: '/images/showroom/kitchen.jpg', alt: 'Kitchen display' },
-                { src: '/images/showroom/bedroom.jpg', alt: 'Bedroom display' },
-                { src: '/images/showroom/lobby2.jpg', alt: 'Material selection area' },
-              ].map((img) => (
-                <div
-                  key={img.src}
-                  className="relative aspect-square rounded-lg overflow-hidden image-hover"
-                >
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </section>
@@ -1387,11 +1262,7 @@ export default function AboutPage() {
             <Link href="/services/commercial-construction" className="underline hover:text-primary-foreground">
               commercial construction
             </Link>
-            ,{' '}
-            <Link href="/services/design-build" className="underline hover:text-primary-foreground">
-              design-build
-            </Link>
-            , or{' '}
+            {' '}or{' '}
             <Link href="/services/roof-coating" className="underline hover:text-primary-foreground">
               roof coating
             </Link>
@@ -1408,9 +1279,9 @@ export default function AboutPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

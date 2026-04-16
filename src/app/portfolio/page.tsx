@@ -21,13 +21,11 @@ import {
   Shield,
   HardHat,
   MapPin,
-  Star,
   Users,
   Ruler,
   ClipboardCheck,
   Eye,
   Award,
-  Quote,
   Stethoscope,
   UtensilsCrossed,
   Warehouse,
@@ -40,7 +38,7 @@ export const metadata: Metadata = {
   title:
     'Construction Portfolio Charlotte NC | Commercial Construction Projects',
   description:
-    'Explore our construction portfolio featuring commercial upfits, design-build, roof coatings, and commercial construction projects across Charlotte NC, Fort Mill SC, and Lake Norman. Veteran-owned. (704) 574-8124.',
+    'Explore our construction portfolio featuring commercial upfits, roof coatings, and commercial construction projects across Charlotte NC, Fort Mill SC, and Lake Norman. Veteran-owned. (980) 471-1745.',
   keywords: [
     'construction portfolio charlotte nc',
     'commercial construction projects charlotte',
@@ -50,14 +48,14 @@ export const metadata: Metadata = {
     'building portfolio charlotte nc',
     'general contractor portfolio charlotte',
     'roof coating projects charlotte nc',
-    'design build portfolio charlotte nc',
+    'general contractor portfolio charlotte nc',
     'construction project gallery charlotte',
   ],
   openGraph: {
     title:
       'Construction Portfolio Charlotte NC | Commercial Construction Projects',
     description:
-      'Explore our construction portfolio featuring commercial upfits, design-build, roof coatings, and commercial construction projects across Charlotte NC and surrounding areas.',
+      'Explore our construction portfolio featuring commercial upfits, roof coatings, and commercial construction projects across Charlotte NC and surrounding areas.',
     url: 'https://webuildclt.com/portfolio',
     type: 'website',
   },
@@ -70,12 +68,12 @@ const faqs = [
     question:
       'What types of construction projects are in your Charlotte portfolio?',
     answer:
-      'Our portfolio includes a wide range of commercial and residential construction projects across the Charlotte metro area. We have completed commercial upfits for healthcare facilities, fitness studios, retail stores, and professional offices. Our residential portfolio includes custom homes, kitchen renovations, bathroom remodels, room additions, and whole-home renovations. We also showcase our commercial roof coating projects through our We Coat division. Every project in our portfolio reflects our commitment to quality craftsmanship and client satisfaction.',
+      'Our portfolio includes a wide range of commercial construction projects across the Charlotte metro area. We have completed commercial upfits for healthcare facilities, fitness studios, retail stores, and professional offices. We also showcase our commercial roof coating projects through our We Coat division. Every project in our portfolio reflects our commitment to quality craftsmanship and client satisfaction.',
   },
   {
-    question: 'Can I visit your completed projects or design center in person?',
+    question: 'Can I visit your completed projects in person?',
     answer:
-      'Yes. We encourage prospective clients to visit our Design Center located at 14330 S Lakes Drive, Charlotte NC 28273. Our showroom features material samples, finish options, and examples of our craftsmanship. We can also arrange visits to select completed projects with homeowner or business owner permission. Additionally, our website features a Matterport virtual tour of our Design Center so you can explore our capabilities from home. Call us at (704) 574-8124 to schedule a visit.',
+      'Yes. We encourage prospective clients to visit our office located at 14330 S Lakes Drive, Charlotte NC 28273. Our office features material samples, finish options, and examples of our craftsmanship. We can also arrange visits to select completed projects with business owner permission. Call us at (980) 471-1745 to schedule a visit.',
   },
   {
     question:
@@ -92,7 +90,7 @@ const faqs = [
   {
     question: 'Can you customize a project based on our specific business needs?',
     answer:
-      'Absolutely. Every project in our portfolio was customized to the specific needs of the client. We use a design-build approach that starts with understanding your business operations, workflow, branding, and growth plans. From there, our team develops architectural plans, selects materials, and creates a construction timeline tailored to your budget and schedule. Whether you need a healthcare facility with specialized exam rooms, a retail space with custom display fixtures, or a restaurant with a commercial kitchen, we build to your exact specifications.',
+      'Absolutely. Every project in our portfolio was customized to the specific needs of the client. Our process starts with understanding your business operations, workflow, branding, and growth plans. From there, our team develops architectural plans, selects materials, and creates a construction timeline tailored to your budget and schedule. Whether you need a healthcare facility with specialized exam rooms, a retail space with custom display fixtures, or a restaurant with a commercial kitchen, we build to your exact specifications.',
   },
   {
     question: 'What warranty do you offer on your construction work?',
@@ -106,12 +104,6 @@ const faqs = [
   },
   {
     question:
-      'Do you handle both commercial and residential construction projects?',
-    answer:
-      'Yes. We Build is a full-service general contractor licensed in both North Carolina and South Carolina. Our commercial portfolio includes office upfits, retail build-outs, healthcare facilities, restaurants, and industrial spaces across the Charlotte metro area. Our residential portfolio includes custom home construction, kitchen and bathroom renovations, room additions, and whole-home remodels. Many of our commercial clients also hire us for their personal residential projects because they trust the quality and professionalism we deliver on the job site.',
-  },
-  {
-    question:
       'What areas around Charlotte do you serve for construction projects?',
     answer:
       'We Build serves the entire Charlotte metropolitan area and surrounding communities in both North Carolina and South Carolina. Our project portfolio includes work in Charlotte, South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, and the greater Lake Norman area in North Carolina. In South Carolina, we regularly work in Fort Mill, Rock Hill, Tega Cay, Indian Land, and Lancaster. Our dual-state licensing allows us to take on projects throughout the greater Charlotte region without restrictions.',
@@ -119,7 +111,7 @@ const faqs = [
   {
     question: 'How do I get started with a construction project with We Build?',
     answer:
-      'Getting started is simple. Call us at (704) 574-8124 or visit our Contact page to request a free consultation. During the initial meeting, we will discuss your project goals, timeline, and budget. We can meet at your project site, at our Design Center in South Charlotte, or virtually. From there, we develop a preliminary scope of work, provide a detailed estimate, and walk you through our design-build process. Once you approve the proposal, we handle permitting, scheduling, and all construction through to final walkthrough. Most clients go from initial consultation to construction start within 4-8 weeks.',
+      'Getting started is simple. Call us at (980) 471-1745 or visit our Contact page to request a free consultation. During the initial meeting, we will discuss your project goals, timeline, and budget. We can meet at your project site, at our office in South Charlotte, or virtually. From there, we develop a preliminary scope of work, provide a detailed proposal, and walk you through our construction process. Once you approve the proposal, we handle permitting, scheduling, and all construction through to final walkthrough. Most clients go from initial consultation to construction start within 4-8 weeks.',
   },
   {
     question: 'What industries are represented in your construction portfolio?',
@@ -129,12 +121,12 @@ const faqs = [
   {
     question: 'Do you have examples of commercial upfit projects in your portfolio?',
     answer:
-      'Yes, commercial upfits are one of our core specialties and are well represented in our portfolio. We have transformed raw shell spaces into fully functioning healthcare clinics, fitness studios, and professional offices throughout Charlotte, Fort Mill, and the surrounding area. Our upfit portfolio shows every phase — from demolition of existing finishes through framing, MEP rough-ins, drywall, flooring, and final punch list. Browse our portfolio page or visit our Design Center to see finish samples from completed upfit projects.',
+      'Yes, commercial upfits are one of our core specialties and are well represented in our portfolio. We have transformed raw shell spaces into fully functioning healthcare clinics, fitness studios, and professional offices throughout Charlotte, Fort Mill, and the surrounding area. Our upfit portfolio shows every phase — from demolition of existing finishes through framing, MEP rough-ins, drywall, flooring, and final punch list. Browse our portfolio page to see completed upfit projects.',
   },
   {
     question: 'How can I see more details about a specific project in your portfolio?',
     answer:
-      'Click on any project card in our portfolio to view a detailed case page with project scope, photos, and key details about the build. For additional information beyond what is shown online, contact us at (704) 574-8124 or through our contact form. We can provide further details about construction methods, timelines, and challenges we solved. With the property owner\'s permission, we can also arrange a site visit to see the completed work in person at select Charlotte-area locations.',
+      'Click on any project card in our portfolio to view a detailed case page with project scope, photos, and key details about the build. For additional information beyond what is shown online, contact us at (980) 471-1745 or through our contact form. We can provide further details about construction methods, timelines, and challenges we solved. With the property owner\'s permission, we can also arrange a site visit to see the completed work in person at select Charlotte-area locations.',
   },
 ];
 
@@ -217,18 +209,13 @@ export default async function PortfolioPage() {
                 veteran and family-owned construction company
               </Link>{' '}
               based in Charlotte, North Carolina, we take that trust seriously. Our portfolio
-              spans commercial construction, commercial upfits, custom home building,
-              residential renovations, and commercial roof coating projects delivered across
+              spans commercial construction, commercial upfits, and commercial roof coating projects delivered across
               the greater Charlotte metropolitan area, Fort Mill, and the Lake Norman region.
             </p>
             <p>
               What you will see on this page is more than a collection of finished buildings
               and renovated spaces. Each project tells a story of careful planning, skilled
               craftsmanship, and relentless attention to detail. From the initial consultation
-              at our{' '}
-              <Link href="/design-center" className="text-primary hover:underline">
-                Design Center in South Charlotte
-              </Link>{' '}
               to the final walkthrough with the client, every step of our process is designed
               to deliver a result that exceeds expectations. We are licensed{' '}
               <Link href="/services/general-contractor" className="text-primary hover:underline">
@@ -241,8 +228,7 @@ export default async function PortfolioPage() {
               Our project diversity is intentional. We believe that a construction company
               should be able to handle whatever challenge a client brings to the table. That
               is why our portfolio includes urgent care facility build-outs, physical therapy
-              centers, retail storefronts, fitness studios, commercial roof restorations, and
-              residential kitchen transformations. Each project demanded a different set of
+              centers, retail storefronts, fitness studios, and commercial roof restorations. Each project demanded a different set of
               skills, materials, and problem-solving approaches, and our team delivered on
               every one. As a proud member of the{' '}
               <strong>U.S. Green Building Council (USGBC)</strong>, we also bring sustainable
@@ -254,8 +240,8 @@ export default async function PortfolioPage() {
               <Link href="/services/commercial-upfits" className="text-primary hover:underline">
                 commercial upfit
               </Link>{' '}
-              for a new retail location, a healthcare provider expanding into a second
-              facility, or a homeowner ready to transform your kitchen, our portfolio
+              for a new retail location or a healthcare provider expanding into a second
+              facility, our portfolio
               demonstrates that We Build has the experience, the team, and the process to
               deliver your project on time and on budget. Browse our completed projects below,
               then{' '}
@@ -435,36 +421,6 @@ export default async function PortfolioPage() {
               </CardContent>
             </Card>
 
-            {/* Design-Build */}
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 rounded-lg bg-primary/10">
-                    <Ruler className="h-6 w-6 text-primary" aria-hidden="true" />
-                  </div>
-                  <h3 className="text-xl font-semibold">Design-Build Projects</h3>
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  Many of the projects in our portfolio were delivered using our{' '}
-                  <Link href="/services/design-build" className="text-primary hover:underline">
-                    design-build approach
-                  </Link>
-                  , where architecture, engineering, and construction are managed under one
-                  contract. This eliminates the communication breakdowns that plague
-                  traditional design-bid-build projects, reduces timelines, and gives clients
-                  a single point of accountability. Our design-build portfolio includes
-                  commercial offices, healthcare facilities, retail spaces, and custom homes
-                  where the client benefited from having one team handle everything from
-                  concept sketches to certificate of occupancy. If you want a streamlined
-                  construction experience, design-build is the way to go.
-                </p>
-                <Button variant="outline" size="sm" asChild>
-                  <Link href="/services/design-build">
-                    View Design-Build Services <ArrowRight className="h-4 w-4 ml-1" aria-hidden="true" />
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -487,13 +443,13 @@ export default async function PortfolioPage() {
                 step: '01',
                 icon: ClipboardCheck,
                 title: 'Consultation & Planning',
-                desc: 'We meet at your project site or our Design Center to understand your goals, timeline, and budget. Our team evaluates the space, discusses design options, and develops a preliminary scope of work with a detailed estimate.',
+                desc: 'We meet at your project site or our office to understand your goals, timeline, and budget. Our team evaluates the space, discusses options, and develops a preliminary scope of work with a comprehensive proposal.',
               },
               {
                 step: '02',
                 icon: Ruler,
-                title: 'Design & Permitting',
-                desc: 'Our design-build team creates architectural plans, selects materials, and coordinates engineering. We handle all permitting with Mecklenburg County or your local municipality so construction can begin without delays.',
+                title: 'Planning & Permitting',
+                desc: 'Our team creates architectural plans, selects materials, and coordinates engineering. We handle all permitting with Mecklenburg County or your local municipality so construction can begin without delays.',
               },
               {
                 step: '03',
@@ -856,11 +812,7 @@ export default async function PortfolioPage() {
               the level of attention we give to quality and craftsmanship at every stage of
               the build. It starts with material selection. We do not cut corners on
               materials to save a few dollars. We source commercial-grade products from
-              trusted suppliers, and our{' '}
-              <Link href="/design-center" className="text-primary hover:underline">
-                Design Center
-              </Link>{' '}
-              gives clients the opportunity to see and touch material samples before making
+              trusted suppliers, and our office gives clients the opportunity to see and touch material samples before making
               decisions. From flooring and tile to countertops, cabinetry, fixtures, and
               paint, every selection is made with durability, aesthetics, and long-term
               performance in mind.
@@ -918,66 +870,6 @@ export default async function PortfolioPage() {
         </div>
       </section>
 
-      {/* ── Client Testimonials ── */}
-      <section className="py-16 bg-background">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-            What Our Clients Say
-          </h2>
-          <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            The best measure of our portfolio is the satisfaction of the clients we built
-            it for. Here is what they have to say about working with We Build.
-          </p>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {[
-              {
-                quote:
-                  'We Build transformed our empty shell into a fully functional urgent care facility. Their team handled everything from design through construction, and we opened on schedule. The attention to detail in the exam rooms and patient areas was exactly what we needed. We would hire them again without hesitation.',
-                name: 'Healthcare Facility Owner',
-                project: 'Commercial Upfit — Charlotte, NC',
-              },
-              {
-                quote:
-                  'From the first meeting at their Design Center to the final walkthrough, the We Build team was professional, communicative, and detail-oriented. Our fitness studio build-out was completed on time and the space looks incredible. Our members love it and so do we.',
-                name: 'Fitness Studio Owner',
-                project: 'Commercial Upfit — Fort Mill, SC',
-              },
-              {
-                quote:
-                  'The roof coating project saved us a significant amount compared to a full roof replacement. The We Coat team was thorough, clean, and the 20-year warranty gives us real peace of mind. We have already recommended them to other building owners in the area.',
-                name: 'Commercial Property Manager',
-                project: 'Roof Coating — Charlotte, NC',
-              },
-            ].map((testimonial) => (
-              <Card key={testimonial.name} className="hover:shadow-lg transition-shadow">
-                <CardContent className="p-6">
-                  <Quote
-                    className="h-8 w-8 text-primary/20 mb-4"
-                    aria-hidden="true"
-                  />
-                  <p className="text-muted-foreground text-sm mb-6 italic">
-                    &ldquo;{testimonial.quote}&rdquo;
-                  </p>
-                  <div className="flex items-center gap-1 mb-1">
-                    {Array.from({ length: 5 }).map((_, i) => (
-                      <Star
-                        key={i}
-                        className="h-4 w-4 fill-primary text-primary"
-                        aria-hidden="true"
-                      />
-                    ))}
-                  </div>
-                  <p className="font-semibold text-sm">{testimonial.name}</p>
-                  <p className="text-muted-foreground text-xs">
-                    {testimonial.project}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ── Start Your Project ── */}
       <section className="py-16 bg-muted/30">
@@ -1011,15 +903,12 @@ export default async function PortfolioPage() {
               provide an honest assessment of scope, timeline, and budget.
             </p>
             <p>
-              You can meet with us at your project site, at our{' '}
-              <Link href="/design-center" className="text-primary hover:underline">
-                Design Center in South Charlotte
-              </Link>
-              , or schedule a virtual consultation. Our Design Center showroom features
+              You can meet with us at your project site, at our office in South Charlotte,
+              or schedule a virtual consultation. Our office features
               material samples, finish options, and examples of our work so you can make
               informed decisions about your project before construction begins. From that
               initial consultation, we develop a detailed proposal, handle all permitting and
-              design coordination, and manage every aspect of construction through to final
+              coordination, and manage every aspect of construction through to final
               walkthrough.
             </p>
             <p>
@@ -1041,9 +930,9 @@ export default async function PortfolioPage() {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="tel:+17045748124">
+              <Link href="tel:+19804711745">
                 <Phone className="h-4 w-4 mr-2" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </Link>
             </Button>
           </div>
@@ -1090,13 +979,6 @@ export default async function PortfolioPage() {
             >
               commercial upfit
             </Link>
-            , a{' '}
-            <Link
-              href="/services/design-build"
-              className="text-primary hover:underline"
-            >
-              design-build project
-            </Link>
             , or a{' '}
             <Link
               href="/services/roof-coating"
@@ -1108,11 +990,7 @@ export default async function PortfolioPage() {
             Mill SC, Lake Norman, and surrounding areas.
           </p>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto text-sm">
-            Visit our{' '}
-            <Link href="/design-center" className="text-primary hover:underline">
-              Design Center
-            </Link>{' '}
-            to explore materials and finishes, read the latest on our{' '}
+            Read the latest on our{' '}
             <Link href="/blog" className="text-primary hover:underline">
               blog
             </Link>
@@ -1125,12 +1003,15 @@ export default async function PortfolioPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
               <Link href="/contact">
-                Get a Free Quote
+                Get a Free Consultation
                 <ArrowRight className="h-4 w-4 ml-2" aria-hidden="true" />
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="/design-center">Visit Our Design Center</Link>
+              <Link href="tel:+19804711745">
+                <Phone className="h-4 w-4 mr-2" aria-hidden="true" />
+                (980) 471-1745
+              </Link>
             </Button>
           </div>
         </div>

@@ -34,7 +34,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Tenant Improvement Contractor Charlotte NC | TI Build-Outs & Leasehold Improvements',
   description:
-    'Expert tenant improvement contractor in Charlotte, NC. Commercial renovation contractor for Class A & B office TI, retail tenant build-outs, restaurant TI, medical TI & industrial leasehold improvements. TI allowance maximization, landlord coordination. Veteran-owned, licensed NC & SC. Free estimates. (704) 574-8124.',
+    'Expert tenant improvement contractor in Charlotte, NC. Commercial renovation contractor for Class A & B office TI, retail tenant build-outs, restaurant TI, medical TI & industrial leasehold improvements. TI allowance maximization, landlord coordination. Veteran-owned, licensed NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'tenant improvement contractor charlotte nc',
     'tenant improvement contractor near me',
@@ -140,7 +140,7 @@ const processSteps = [
   {
     step: '03',
     title: 'Space Planning & Conceptual Layout',
-    desc: 'Our design-build team creates conceptual floor plans based on your operational requirements, employee count, departmental adjacencies, growth projections, and workflow patterns. We consider natural light, ADA accessibility, building code egress requirements, and the most efficient use of every square foot within your leased footprint. We present multiple layout options with preliminary cost implications so you can make informed decisions about scope and budget before detailed design begins. You are welcome to visit our Design Center to explore material options and see finish samples in person.',
+    desc: 'We work with your architect and design team to create conceptual floor plans based on your operational requirements, employee count, departmental adjacencies, growth projections, and workflow patterns. We consider natural light, ADA accessibility, building code egress requirements, and the most efficient use of every square foot within your leased footprint. We present multiple layout options with preliminary cost implications so you can make informed decisions about scope and budget before detailed design begins.',
   },
   {
     step: '04',
@@ -150,7 +150,7 @@ const processSteps = [
   {
     step: '05',
     title: 'Design Development & Finish Selections',
-    desc: 'Once the budget is approved, we develop detailed construction drawings, mechanical engineering plans, electrical layouts, and finish schedules. You select flooring materials, paint colors, countertop surfaces, lighting fixtures, hardware, and specialty items. Our Design Center in Charlotte lets you see and touch every material before it goes into your space. We coordinate with your IT team, furniture vendor, and any specialty equipment suppliers to ensure infrastructure requirements are incorporated into the construction documents.',
+    desc: 'Once the budget is approved, we develop detailed construction drawings, mechanical engineering plans, electrical layouts, and finish schedules. You select flooring materials, paint colors, countertop surfaces, lighting fixtures, hardware, and specialty items at our office, where you can review material samples and make informed selections. We coordinate with your IT team, furniture vendor, and any specialty equipment suppliers to ensure infrastructure requirements are incorporated into the construction documents.',
   },
   {
     step: '06',
@@ -194,11 +194,6 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, allowing us to serve tenants throughout the greater Charlotte metro area including Fort Mill, Rock Hill, Indian Land, Tega Cay, and the Lake Norman corridor. Our dual-state licensing is particularly valuable for multi-location businesses that need a single TI contractor to handle build-outs on both sides of the state line with consistent quality, pricing, and project management.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build TI Capability',
-    desc: 'Our in-house design-build approach means architecture, engineering, and construction are coordinated under one contract and one team. For tenant improvement projects, this eliminates the communication gaps between separate architecture and construction firms that lead to change orders, schedule delays, and budget overruns. You get faster decisions, a single point of accountability, and a team that understands how design choices affect construction cost from the very first meeting.',
   },
   {
     icon: DollarSign,
@@ -409,17 +404,10 @@ export default function TenantImprovementsPage() {
                 tenant improvement projects across the Charlotte metro area. From Class A executive
                 suites in Uptown high-rises to medical clinic build-outs in suburban office parks, we
                 bring the same level of professionalism, budget discipline, and schedule accountability
-                to every TI project. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">
-                  design-build
-                </Link>{' '}
-                approach means we handle everything from initial space planning and finish selection at
-                our{' '}
-                <Link href="/design-center" className="text-primary hover:underline">
-                  Design Center
-                </Link>{' '}
-                to landlord coordination, permitting, construction, TI reimbursement documentation, and
-                final handoff. Licensed in both North Carolina and South Carolina, we serve Charlotte
+                to every TI project. We work closely with your architect and design team, handling
+                everything from coordinating space planning and finish selection to landlord coordination,
+                permitting, construction, TI reimbursement documentation, and final handoff. Licensed in
+                both North Carolina and South Carolina, we serve Charlotte
                 and the surrounding communities including{' '}
                 <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>,{' '}
                 <Link href="/areas/lake-norman" className="text-primary hover:underline">Lake Norman</Link>, and{' '}
@@ -428,7 +416,7 @@ export default function TenantImprovementsPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -839,7 +827,7 @@ export default function TenantImprovementsPage() {
               { title: 'Office Buildouts Charlotte NC', href: '/services/office-buildouts', type: 'service' },
               { title: 'Commercial Renovation Charlotte NC', href: '/services/commercial-renovation', type: 'service' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'service' },
-              { title: 'Design-Build Services', href: '/services/design-build', type: 'service' },
+              { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'service' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">
@@ -884,7 +872,7 @@ export default function TenantImprovementsPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -892,9 +880,9 @@ export default function TenantImprovementsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

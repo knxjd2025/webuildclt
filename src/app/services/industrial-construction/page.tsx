@@ -47,7 +47,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Industrial & Warehouse Construction Charlotte NC | Distribution Centers & Manufacturing',
   description:
-    'Expert industrial construction and warehouse construction in Charlotte, NC. Distribution centers, manufacturing facilities, cold storage, logistics hubs, light industrial build-outs & warehouse renovations. Commercial general contractors, veteran-owned, licensed in NC & SC. 60+ years experience. Free estimates. (704) 574-8124.',
+    'Expert industrial construction and warehouse construction in Charlotte, NC. Distribution centers, manufacturing facilities, cold storage, logistics hubs, light industrial build-outs & warehouse renovations. Commercial general contractors, veteran-owned, licensed in NC & SC. 60+ years experience. Free consultations. (980) 471-1745.',
   keywords: [
     'industrial construction Charlotte NC',
     'industrial construction near me',
@@ -106,7 +106,7 @@ const facilityTypes = [
     slug: 'light-industrial-flex-space',
     desc: 'Versatile light industrial facilities combining warehouse, showroom, and office space in a single building footprint for maximum operational flexibility.',
     details:
-      'Light industrial and flex space construction is one of the fastest-growing segments in the Charlotte commercial real estate market. These facilities typically combine a warehouse or production area with an attached office component, creating a single building that accommodates multiple business functions. We construct light industrial flex buildings with clear heights of 18 to 24 feet in the warehouse portion, climate-controlled office build-outs with modern finishes, drive-in or dock-high loading capability, showroom or retail-facing frontage along high-visibility corridors, separately metered utilities for multi-tenant configurations, and fire separation walls between different occupancy types. Flex space is particularly popular along the I-77 corridor in Mooresville and the I-485 loop in south Charlotte where businesses need a facility that can serve as a headquarters combining office, light assembly, warehousing, and customer-facing showroom under one roof. Our design-build approach ensures the building proportions, utility sizing, and structural capacity are right for your specific mix of uses.',
+      'Light industrial and flex space construction is one of the fastest-growing segments in the Charlotte commercial real estate market. These facilities typically combine a warehouse or production area with an attached office component, creating a single building that accommodates multiple business functions. We construct light industrial flex buildings with clear heights of 18 to 24 feet in the warehouse portion, climate-controlled office build-outs with modern finishes, drive-in or dock-high loading capability, showroom or retail-facing frontage along high-visibility corridors, separately metered utilities for multi-tenant configurations, and fire separation walls between different occupancy types. Flex space is particularly popular along the I-77 corridor in Mooresville and the I-485 loop in south Charlotte where businesses need a facility that can serve as a headquarters combining office, light assembly, warehousing, and customer-facing showroom under one roof. We work closely with your architect and design team to ensure the building proportions, utility sizing, and structural capacity are right for your specific mix of uses.',
     cost: '$70-$130/sq ft',
   },
   {
@@ -152,12 +152,12 @@ const processSteps = [
   {
     step: '03',
     title: 'Conceptual Design & Budget Development',
-    desc: 'Our design-build team develops conceptual building plans, site layouts, and preliminary structural designs based on your operational requirements. We create initial cost models that break down every major budget category including sitework, foundations, structural steel or tilt-up panels, roofing, interior improvements, mechanical and electrical systems, fire protection, and site utilities. This phase establishes the project budget range and identifies any value engineering opportunities to optimize cost without sacrificing operational performance.',
+    desc: 'We work closely with your architect and design team to develop conceptual building plans, site layouts, and preliminary structural designs based on your operational requirements. We create initial cost models that break down every major budget category including sitework, foundations, structural steel or tilt-up panels, roofing, interior improvements, mechanical and electrical systems, fire protection, and site utilities. This phase establishes the project budget range and identifies any value engineering opportunities to optimize cost without sacrificing operational performance.',
   },
   {
     step: '04',
     title: 'Design Development & Engineering',
-    desc: 'Once the concept and budget are approved, we advance the design into detailed construction documents. Structural engineering addresses column spacing, clear heights, crane loads, mezzanine capacities, and seismic design requirements. Mechanical engineering sizes HVAC, process piping, and compressed air systems. Electrical engineering designs power distribution, lighting, fire alarm, and low-voltage systems. Civil engineering completes site grading, stormwater detention, utility routing, and paving designs. All disciplines coordinate through our design-build process to eliminate conflicts before construction begins.',
+    desc: 'Once the concept and budget are approved, we advance the design into detailed construction documents. Structural engineering addresses column spacing, clear heights, crane loads, mezzanine capacities, and seismic design requirements. Mechanical engineering sizes HVAC, process piping, and compressed air systems. Electrical engineering designs power distribution, lighting, fire alarm, and low-voltage systems. Civil engineering completes site grading, stormwater detention, utility routing, and paving designs. All disciplines coordinate through our integrated process to eliminate conflicts before construction begins.',
   },
   {
     step: '05',
@@ -206,11 +206,6 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, which is essential for industrial projects in the Charlotte metro area where the best sites may be on either side of the state line. Whether your project is along the I-85 corridor in Gastonia, the I-77 corridor in Mooresville, or across the border in Fort Mill or Rock Hill, our dual-state licensing ensures full compliance with state regulations and building codes.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build Capability',
-    desc: 'Our in-house design-build approach is particularly valuable for industrial construction, where building design must be driven by operational requirements rather than architectural aesthetics. We coordinate structural engineering, mechanical design, electrical layout, fire protection, and site civil engineering under one contract and one team. This single-source accountability eliminates the coordination gaps, finger-pointing, and costly change orders that plague projects where design and construction are handled by separate firms.',
   },
   {
     icon: Cog,
@@ -423,11 +418,10 @@ export default function IndustrialConstructionPage() {
               <p className="text-muted-foreground leading-relaxed">
                 We Build is a veteran and family-owned{' '}
                 <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> with
-                over 60 years of combined construction experience. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link> approach
-                means we handle everything from initial feasibility studies and site selection
-                assistance through engineering, permitting, construction, and final commissioning,
-                all under one contract and one team. Licensed in both North Carolina and South
+                over 60 years of combined construction experience. We handle everything from initial
+                feasibility studies and site selection assistance through engineering coordination,
+                permitting, construction, and final commissioning. We work closely with your architect
+                and design team to ensure seamless project delivery. Licensed in both North Carolina and South
                 Carolina, we serve the entire Charlotte metropolitan area including the I-85
                 industrial corridor, the I-77 corridor, and communities in{' '}
                 <Link href="/areas/south-charlotte" className="text-primary hover:underline">South Charlotte</Link>,{' '}
@@ -441,7 +435,7 @@ export default function IndustrialConstructionPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -452,7 +446,7 @@ export default function IndustrialConstructionPage() {
             </div>
             <div className="space-y-4">
               {[
-                { icon: DollarSign, title: 'Cost-Effective Solutions', desc: 'Our design-build approach and industrial trade relationships deliver maximum facility value per dollar invested, with transparent pricing and no hidden costs.' },
+                { icon: DollarSign, title: 'Cost-Effective Solutions', desc: 'Our industrial trade relationships and value engineering expertise deliver maximum facility value per dollar invested, with transparent pricing and no hidden costs.' },
                 { icon: Clock, title: 'On-Schedule Delivery', desc: 'Industrial timelines are driven by business deadlines. We build detailed schedules with long-lead procurement built in, keeping your project on track from groundbreaking to move-in.' },
                 { icon: Zap, title: 'Industrial Systems Expertise', desc: 'Heavy power, crane infrastructure, compressed air, process piping, ESFR sprinklers, and reinforced slabs. We build the specialized systems commercial contractors do not handle.' },
                 { icon: Shield, title: 'Veteran-Owned Accountability', desc: 'Military discipline drives our commitment to schedules, budgets, safety, and quality. When we commit to delivering your facility, we treat it as a mission to be completed.' },
@@ -798,7 +792,7 @@ export default function IndustrialConstructionPage() {
             project on time and within budget.
           </p>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free site visit and detailed estimate. We serve Charlotte,{' '}
+            Contact us today for a free site visit and consultation. We serve Charlotte,{' '}
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
@@ -806,7 +800,7 @@ export default function IndustrialConstructionPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -814,9 +808,9 @@ export default function IndustrialConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

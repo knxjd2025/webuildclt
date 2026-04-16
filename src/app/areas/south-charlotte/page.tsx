@@ -15,7 +15,6 @@ import {
   ArrowRight,
   Phone,
   MapPin,
-  Ruler,
   HardHat,
   FileCheck,
   Clock,
@@ -30,7 +29,7 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company South Charlotte NC | General Contractor Ballantyne, Pineville, Waxhaw',
   description:
-    'Looking for a construction company near me in South Charlotte NC? Locally headquartered general contractor serving Ballantyne, Pineville, Waxhaw, Marvin & Weddington. Commercial construction, upfits & roof coatings. Veteran-owned. Free estimates. (704) 574-8124.',
+    'Looking for a construction company near me in South Charlotte NC? Locally headquartered general contractor serving Ballantyne, Pineville, Waxhaw, Marvin & Weddington. Commercial construction, upfits & roof coatings. Veteran-owned. Free consultations. (980) 471-1745.',
   keywords: [
     'construction company south charlotte nc',
     'general contractor south charlotte',
@@ -76,13 +75,6 @@ const services = [
     href: '/services/commercial-upfits',
     description:
       'South Charlotte businesses frequently need interior renovations to accommodate growth, rebrand, or modernize their spaces. We Build provides commercial upfit services throughout Ballantyne Corporate Park, the Rea Road professional corridor, Pineville business parks, and retail centers across the area. Our upfit projects range from open-concept office redesigns and medical suite build-outs to restaurant renovations and retail space transformations. We work within occupied buildings when necessary, minimizing disruption to your operations while delivering a finished space that supports your business goals.',
-  },
-  {
-    icon: Ruler,
-    title: 'Design-Build Services',
-    href: '/services/design-build',
-    description:
-      'Our design-build approach is especially valuable in South Charlotte where lot sizes, setback requirements, and HOA architectural standards vary significantly between communities. We Build manages the entire project under one contract, from conceptual design and engineering through permitting and construction. This single-source accountability eliminates finger-pointing between architects and builders, reduces change orders, and typically saves South Charlotte property owners ten to fifteen percent compared to the traditional design-bid-build method.',
   },
   {
     icon: Shield,
@@ -244,7 +236,7 @@ const faqs = [
   {
     question: 'What types of construction does We Build handle in South Charlotte?',
     answer:
-      'Yes. We Build is a full-service general contractor licensed for commercial construction in North Carolina and South Carolina. Our South Charlotte commercial projects include office buildings, retail spaces, restaurants, medical facilities, commercial upfits, design-build, and roof coating. We serve businesses of all sizes throughout the South Charlotte area.',
+      'Yes. We Build is a full-service general contractor licensed for commercial construction in North Carolina and South Carolina. Our South Charlotte commercial projects include office buildings, retail spaces, restaurants, medical facilities, commercial upfits, and roof coating. We serve businesses of all sizes throughout the South Charlotte area.',
   },
   {
     question: 'How much does construction cost in South Charlotte in 2026?',
@@ -339,7 +331,7 @@ export default function SouthCharlottePage() {
                 South Charlotte has emerged as one of the most dynamic construction markets in the entire Charlotte metropolitan area. The Ballantyne corridor alone accounts for billions of dollars in commercial real estate, with ongoing development of office buildings, mixed-use projects, restaurants, and retail spaces. Along Rea Road and Providence Road, medical offices and professional service buildings are being constructed at a pace that reflects the area&apos;s population growth. Pineville is experiencing a renaissance of commercial redevelopment as aging retail properties are transformed into modern mixed-use developments. And in the growing communities of Waxhaw, Weddington, and Marvin, commercial development continues to follow population growth.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We Build serves this entire region with comprehensive construction services including <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits and renovations</Link>, <Link href="/services/design-build" className="text-primary hover:underline">design-build services</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link>. With over 60 years of combined experience and licenses in both North Carolina and South Carolina, our team handles projects ranging from corporate office build-outs in Ballantyne Corporate Park to restaurant construction in Pineville to medical facilities along Rea Road. Whatever you are building in South Charlotte, We Build has the expertise, the local knowledge, and the commitment to quality to deliver exceptional results.
+                We Build serves this entire region with comprehensive construction services including <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits and renovations</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link>. With over 60 years of combined experience and licenses in both North Carolina and South Carolina, our team handles projects ranging from corporate office build-outs in Ballantyne Corporate Park to restaurant construction in Pineville to medical facilities along Rea Road. Whatever you are building in South Charlotte, We Build has the expertise, the local knowledge, and the commitment to quality to deliver exceptional results.
               </p>
 
               <div className="flex items-start gap-3 bg-primary/10 border border-primary/20 rounded-lg p-4">
@@ -353,12 +345,12 @@ export default function SouthCharlottePage() {
               <div className="flex flex-wrap gap-4 pt-2">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
+                    Get a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+17045748124">
-                    <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+                  <a href="tel:+19804711745">
+                    <Phone className="mr-2 h-5 w-5" />(980) 471-1745
                   </a>
                 </Button>
               </div>
@@ -685,10 +677,10 @@ export default function SouthCharlottePage() {
                 We Coat Roof Coatings
               </Link>
               <Link
-                href="/design-center"
+                href="/contact"
                 className="inline-flex items-center gap-2 bg-background border rounded-lg px-4 py-2 text-sm hover:border-primary hover:text-primary transition-colors"
               >
-                Design Center
+                Contact Us
               </Link>
             </div>
           </div>
@@ -721,11 +713,11 @@ export default function SouthCharlottePage() {
             Locally headquartered. Veteran and family-owned. Licensed in NC &amp; SC. Over 60 years combined experience.
           </p>
           <p className="text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Whether you are planning a commercial build-out in Ballantyne, a tenant improvement in Pineville, or a renovation in Providence, We Build is the South Charlotte general contractor you can trust. Contact us today for a free estimate on your project.
+            Whether you are planning a commercial build-out in Ballantyne, a tenant improvement in Pineville, or a renovation in Providence, We Build is the South Charlotte general contractor you can trust. Contact us today for a free consultation on your project.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -733,8 +725,8 @@ export default function SouthCharlottePage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
-                <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+              <a href="tel:+19804711745">
+                <Phone className="mr-2 h-5 w-5" />(980) 471-1745
               </a>
             </Button>
           </div>

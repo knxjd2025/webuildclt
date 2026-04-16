@@ -55,8 +55,8 @@ export async function generateProjectContent(
     : '';
 
   const systemPrompt = `You are an SEO content writer for We Build, a veteran and family-owned construction company in Charlotte, NC.
-We Build specializes in commercial construction, upfits, roof coatings, and design-build projects.
-Headquarters: 14330 S Lakes Drive, Charlotte NC 28273. Phone: (704) 574-8124.
+We Build specializes in commercial construction, upfits, and roof coatings.
+Headquarters: 14330 S Lakes Drive, Charlotte NC 28273. Phone: (980) 471-1745.
 USGBC (U.S. Green Building Council) member.
 
 Your job is to write project portfolio pages that:

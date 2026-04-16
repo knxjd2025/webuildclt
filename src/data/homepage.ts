@@ -2,7 +2,6 @@ import {
   Building2,
   Home,
   Paintbrush,
-  Hammer,
   Layers,
   Radar,
   Phone,
@@ -16,7 +15,6 @@ import {
   HardHat,
   Wrench,
   FileText,
-  Eye,
   DollarSign,
   Briefcase,
   Stethoscope,
@@ -86,13 +84,6 @@ export const services: ServiceItem[] = [
     href: '/services/commercial-upfits',
   },
   {
-    icon: Hammer,
-    title: 'Design-Build Services',
-    description:
-      'Complete design and construction under one roof with our integrated design-build approach. Instead of hiring separate architects and contractors, you work with a single team from concept through completion. This eliminates communication gaps, reduces change orders, and delivers projects twenty to thirty percent faster than traditional methods. Visit our dedicated Design Center in South Charlotte to explore materials, review finishes, and collaborate with our design-build team face-to-face. One contract, one team, one point of accountability.',
-    href: '/services/design-build',
-  },
-  {
     icon: Wrench,
     title: 'General Contractor',
     description:
@@ -135,7 +126,7 @@ export const processSteps: ProcessStep[] = [
     step: '02',
     title: 'Design & Planning',
     description:
-      'Our design-build team creates detailed construction plans, engineers solutions for your specific site, helps you select materials at our Design Center, and manages all permit applications with local municipalities. This phase includes budgeting, scheduling, and value engineering to ensure your project delivers maximum value without cutting corners on quality or code compliance.',
+      'We work closely with your architect and design team while they create detailed construction plans and help engineer solutions for your specific site and manage all permit applications with local municipalities as needed. This phase includes budgeting, scheduling, and value engineering to ensure your project delivers maximum value without cutting corners on quality or code compliance.',
   },
   {
     icon: FileText,
@@ -178,7 +169,7 @@ export const whyChooseUs: WhyChooseItem[] = [
     icon: Users,
     title: 'Veteran & Family Owned',
     description:
-      'We Build was founded by veterans who bring military discipline, integrity, and accountability to every construction project. When you hire We Build, you work directly with the owners — not a sales team that hands you off to strangers. Our family-owned structure means faster decisions, personal accountability, and a genuine commitment to doing right by every client. We treat your project with the same care and attention we would give our own family\'s home or business.',
+      'We Build was founded by a veteran who brings military discipline, integrity, and accountability to every construction project. When you hire We Build, you work directly with the owners — not a sales team that hands you off to strangers. Our family-owned structure means faster decisions, personal accountability, and a genuine commitment to doing right by every client. We treat your project with the same care and attention we would give our own family\'s home or business.',
   },
   {
     icon: Award,
@@ -191,12 +182,6 @@ export const whyChooseUs: WhyChooseItem[] = [
     title: 'USGBC Member — Sustainable Building',
     description:
       'As a proud member of the U.S. Green Building Council, We Build integrates sustainable construction practices into every project. From energy-efficient building envelopes and low-VOC materials to waste reduction strategies and high-performance HVAC systems, we help clients build greener without breaking the budget. Sustainable construction is not just good for the environment — it reduces long-term operating costs and increases property values for building owners.',
-  },
-  {
-    icon: Eye,
-    title: 'Dedicated Design Center',
-    description:
-      'Our Design Center in South Charlotte is a hands-on showroom where clients explore materials, compare finishes, and make confident selections with our design team by their side. Instead of guessing from small samples or catalog photos, you see and touch full-scale displays of countertops, flooring, cabinetry, tile, fixtures, and more. The Design Center streamlines the selection process, reduces change orders, and ensures you love every finish in your completed project.',
   },
   {
     icon: Target,
@@ -318,7 +303,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'What types of construction projects does We Build handle?',
     answer:
-      'We Build provides full-service general contracting for commercial construction (offices, retail, restaurants, breweries, medical facilities, warehouses), commercial renovation and tenant improvements, commercial roof coating and restoration through our We Coat division, FAA-certified thermal drone roof inspections, site development, value engineering, adaptive reuse, and integrated design-build services. We handle projects of all sizes across the Charlotte metro area and South Carolina. Our team manages every phase from pre-construction planning through final walkthrough and warranty support.',
+      'We Build provides full-service general contracting for commercial construction (offices, retail, restaurants, breweries, medical facilities, warehouses), commercial renovation and tenant improvements, commercial roof coating and restoration through our We Coat division, FAA-certified thermal drone roof inspections, site development, value engineering, and adaptive reuse. We handle projects of all sizes across the Charlotte metro area and South Carolina. Licensed in NC (#85107) and SC (#122817). Our team manages every phase from pre-construction planning through final walkthrough and warranty support.',
   },
   {
     question: 'What areas in the Charlotte region do you serve?',
@@ -333,32 +318,27 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'How much does commercial construction cost in Charlotte?',
     answer:
-      'Construction costs in Charlotte vary by project type and scope. Commercial upfits typically run fifty to one hundred seventy-five dollars per square foot, depending on the level of finish and mechanical complexity. Ground-up commercial construction ranges from one hundred fifty to three hundred dollars per square foot. Custom homes cost two hundred to six hundred plus dollars per square foot. Home additions run one hundred fifty to four hundred dollars per square foot. Commercial roof coating costs two to five dollars per square foot. We provide free, detailed estimates tailored to your specific project.',
+      'Construction costs in Charlotte vary significantly by project type, scope, finish level, and site conditions. Every commercial project is unique, and we believe in providing accurate, detailed pricing rather than generic ranges that may not apply to your specific situation. Contact us for a free consultation and we will provide a transparent, line-item proposal tailored to your project. Call (980) 471-1745 or visit our contact page to get started.',
   },
   {
-    question: 'What is design-build construction and why should I consider it?',
+    question: 'Do you offer free consultations for construction projects?',
     answer:
-      'Design-build is a project delivery method where one company handles both the design and construction phases of your project. Instead of hiring a separate architect and contractor — who may not communicate well with each other — you work with a single integrated team. This approach eliminates communication gaps, reduces change orders, speeds up project delivery by twenty to thirty percent, and provides greater cost certainty from the start. Our Design Center in South Charlotte is where clients explore materials and collaborate with our design-build team in person.',
-  },
-  {
-    question: 'Do you offer free estimates for construction projects?',
-    answer:
-      'Yes. We provide free consultations and detailed, transparent estimates for all project types — commercial construction, upfits, tenant improvements, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (704) 574-8124 or through our website to schedule your free consultation. We typically respond within one business day.',
+      'Yes. We provide free consultations with detailed, transparent proposals for all project types — commercial construction, upfits, tenant improvements, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (980) 471-1745 or through our website to schedule your free consultation. We typically respond within one business day.',
   },
   {
     question: 'What makes We Build different from other Charlotte contractors?',
     answer:
-      'Several things set We Build apart from other general contractors in Charlotte. We are veteran and family-owned, which means the owners are personally involved in every project. We maintain a dedicated Design Center where clients explore materials hands-on. We offer integrated design-build services that deliver projects faster and with fewer surprises. We are a USGBC member committed to sustainable building practices. Our FAA-certified drone pilot provides thermal roof inspections that detect problems invisible to the naked eye. We provide transparent, line-item pricing with no hidden costs. And we hold licenses in North Carolina and South Carolina, giving us coverage across the Charlotte metro area and beyond.',
+      'Several things set We Build apart from other general contractors in Charlotte. We are veteran and family-owned, which means the owners are personally involved in every project. We are a USGBC member committed to sustainable building practices. Our FAA-certified drone pilot provides thermal roof inspections that detect problems invisible to the naked eye. We provide transparent, line-item pricing with no hidden costs. And we hold licenses in North Carolina and South Carolina, giving us coverage across the Charlotte metro area and beyond.',
   },
   {
     question: 'How long does a typical construction project take?',
     answer:
-      'Project timelines depend on the type and scope of work. Commercial upfits typically take three to five months from permit to completion. Ground-up commercial buildings take six to fourteen months. Commercial renovations take three to eight months depending on scope. Commercial roof coatings take two to five days per building. We provide detailed project schedules during the planning phase, communicate proactively if timelines shift, and include schedule milestones in every contract.',
+      'Project timelines depend on the type and scope of work. Commercial upfits typically take three to five months from permit to completion. Ground-up commercial buildings take six to fourteen months. Commercial renovations take three to eight months depending on scope. Commercial roof coatings take two to three weeks depending upon building size and weather delays. We provide detailed project schedules during the planning phase, communicate proactively if timelines shift, and include schedule milestones in every contract.',
   },
   {
     question: 'Is We Build a veteran-owned construction company?',
     answer:
-      'Yes. We Build is a veteran and family-owned construction company founded in Charlotte, NC in 2019. Our founders bring military service backgrounds that instill discipline, integrity, accountability, and a mission-first mindset into every construction project. These values are not just marketing — they show up in how we communicate with clients, how we manage job sites, how we treat subcontractors, and how we stand behind our work after project completion.',
+      'Yes. We Build is a veteran and family-owned construction company founded in Charlotte, NC in 2019. Our founder, Joe Sherlock, brings a military service background that instills discipline, integrity, accountability, and a mission-first mindset into every construction project. These values are not just marketing — they show up in how we communicate with clients, how we manage job sites, how we treat subcontractors, and how we stand behind our work after project completion.',
   },
   {
     question: 'What is the USGBC and why does membership matter?',

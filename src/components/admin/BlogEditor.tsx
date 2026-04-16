@@ -57,7 +57,6 @@ const CATEGORIES = [
   { value: 'commercial-upfits', label: 'Commercial Upfits' },
   { value: 'residential', label: 'Residential' },
   { value: 'roof-coating', label: 'Roof Coating' },
-  { value: 'design-center', label: 'Design Center' },
   { value: 'construction-tips', label: 'Construction Tips' },
   { value: 'green-building', label: 'Green Building' },
   { value: 'charlotte-area', label: 'Charlotte Area' },

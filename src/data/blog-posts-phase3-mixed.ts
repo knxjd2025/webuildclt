@@ -3,7 +3,7 @@ import type { BlogPost } from './blog-posts';
 // ============================================================
 // PHASE 3 — MIXED CLUSTERS
 // Office/Tenant Improvements (7), Restaurant/Food & Bev (7),
-// Design-Build (4), Brewery/Distillery (3)
+// Brewery/Distillery (3)
 // ============================================================
 
 export const phase3MixedPosts: BlogPost[] = [
@@ -88,7 +88,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <li><strong>Weeks 17–18:</strong> FF&E installation, technology commissioning, punch list</li>
 <li><strong>Weeks 19–20:</strong> Final inspections, certificate of occupancy, soft opening</li>
 </ul>
-<p>Total timeline: approximately five months from design kickoff to opening day. Compressed schedules are possible with a <a href="/services/design-build">design-build delivery method</a> that overlaps design and construction phases.</p>
+<p>Total timeline: approximately five months from design kickoff to opening day. Compressed schedules are possible with an integrated delivery approach that overlaps design and construction phases.</p>
 
 <h2>Choosing the Right General Contractor</h2>
 <p>Your general contractor's experience with coworking and multi-tenant commercial interiors directly impacts the quality, cost, and timeline of your project. Look for a contractor who understands the unique requirements of flexible workspace — from acoustic wall assemblies to high-density power distribution.</p>
@@ -112,7 +112,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Use STC-45 rated wall assemblies for private offices, install acoustic ceiling treatment, add a sound masking system in open areas, and use carpet tile flooring in work zones. These four strategies together create a comfortable acoustic environment.</p>
 
 <h3>Can We Build help with my coworking space construction?</h3>
-<p>Yes. We Build is a veteran and family-owned general contractor specializing in commercial build-outs across the Charlotte metro area. Call us at <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to discuss your coworking project.</p>
+<p>Yes. We Build is a veteran and family-owned general contractor specializing in commercial build-outs across the Charlotte metro area. Call us at <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to discuss your coworking project.</p>
 `,
   },
   {
@@ -206,7 +206,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Private office layouts with VRF or VAV systems can be more energy-efficient because unoccupied spaces can be set back. Open plans are simpler to condition but cannot reduce energy use in unoccupied zones. The difference is typically 10 to 20 percent in annual energy costs.</p>
 
 <h3>Can We Build help me decide on the right office layout?</h3>
-<p>Absolutely. We Build provides <a href="/services/pre-construction">pre-construction planning</a> services that include space programming, layout options analysis, and detailed cost comparisons. Call us at <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to schedule a consultation.</p>
+<p>Absolutely. We Build provides <a href="/services/pre-construction">pre-construction planning</a> services that include space programming, layout options analysis, and detailed cost comparisons. Call us at <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to schedule a consultation.</p>
 `,
   },
   {
@@ -360,11 +360,8 @@ export const phase3MixedPosts: BlogPost[] = [
 <h3>How long does office construction take in Charlotte?</h3>
 <p>A typical office build-out takes 12 to 16 weeks for construction, plus 4 to 8 weeks for design and permitting. Total timeline from lease signing to move-in is usually 5 to 7 months.</p>
 
-<h3>Should I use a design-build contractor for my office relocation?</h3>
-<p>Design-build is often the best delivery method for office build-outs because it compresses the schedule by overlapping design and construction phases. Learn more about this approach on our <a href="/services/design-build">design-build services page</a>.</p>
-
 <h3>How can We Build help with my office relocation?</h3>
-<p>We Build provides comprehensive <a href="/services/pre-construction">pre-construction planning</a>, <a href="/services/construction-management">construction management</a>, and <a href="/services/office-buildouts">office build-out</a> services across the Charlotte metro area. Call us at <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to start planning your move.</p>
+<p>We Build provides comprehensive <a href="/services/pre-construction">pre-construction planning</a>, <a href="/services/construction-management">construction management</a>, and <a href="/services/office-buildouts">office build-out</a> services across the Charlotte metro area. Call us at <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to start planning your move.</p>
 `,
   },
   {
@@ -448,7 +445,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Yes. The current combination of high vacancy, generous concessions, and stabilized construction costs creates one of the most tenant-favorable markets Charlotte has seen in over a decade. Locking in a long-term lease now could provide significant savings over the lease term.</p>
 
 <h3>How can We Build help with my office lease and build-out?</h3>
-<p>We Build provides pre-construction budgeting, tenant improvement construction, and <a href="/services/construction-management">construction management</a> services. We can help you evaluate spaces, negotiate TI allowances, and execute a build-out that maximizes your investment. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>We Build provides pre-construction budgeting, tenant improvement construction, and <a href="/services/construction-management">construction management</a> services. We can help you evaluate spaces, negotiate TI allowances, and execute a build-out that maximizes your investment. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 `,
   },
   {
@@ -532,7 +529,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Most leases require the tenant to forfeit unused TI allowance. However, you can negotiate for unused amounts to be applied as rent credits, applied toward furniture purchases, or carried forward for future improvements. This is a common negotiation point and landlords in the current market are often willing to agree.</p>
 
 <h3>How can We Build help with my TI negotiation?</h3>
-<p>We Build provides detailed cost estimates, reviews work letters for construction-related provisions, and identifies potential cost risks in prospective spaces. Call us at <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to engage our <a href="/services/pre-construction">pre-construction team</a> before your next lease negotiation.</p>
+<p>We Build provides detailed cost estimates, reviews work letters for construction-related provisions, and identifies potential cost risks in prospective spaces. Call us at <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to engage our <a href="/services/pre-construction">pre-construction team</a> before your next lease negotiation.</p>
 `,
   },
   {
@@ -609,7 +606,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Potentially. Older buildings in South End and NoDa may require structural engineering review, fire-rated separations, and accessibility upgrades. Some NoDa locations fall within historic district overlays that require design review. Budget extra time for permitting on these projects.</p>
 
 <h3>Can We Build handle creative office construction in South End or NoDa?</h3>
-<p>Yes. We Build has extensive experience with commercial <a href="/services/commercial-upfits">upfits</a> and <a href="/services/adaptive-reuse">adaptive reuse</a> projects across Charlotte, including South End and NoDa. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to discuss your project.</p>
+<p>Yes. We Build has extensive experience with commercial <a href="/services/commercial-upfits">upfits</a> and <a href="/services/adaptive-reuse">adaptive reuse</a> projects across Charlotte, including South End and NoDa. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to discuss your project.</p>
 `,
   },
   {
@@ -707,7 +704,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>For individual tenants, it is usually more cost-effective to invest in a quality build-out within the Class B shell rather than attempting to upgrade the entire building. Focus on the spaces you control — your suite, reception, and amenity areas — and accept that the building lobby and common areas will remain Class B.</p>
 
 <h3>Can We Build help evaluate and build out a Class B office space?</h3>
-<p>Yes. We Build has deep experience with <a href="/services/commercial-renovation">commercial renovations</a> and <a href="/services/office-buildouts">office build-outs</a> in buildings of all classes across the Charlotte metro area. Our <a href="/services/pre-construction">pre-construction team</a> can assess building conditions before you commit to a lease. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Yes. We Build has deep experience with <a href="/services/commercial-renovation">commercial renovations</a> and <a href="/services/office-buildouts">office build-outs</a> in buildings of all classes across the Charlotte metro area. Our <a href="/services/pre-construction">pre-construction team</a> can assess building conditions before you commit to a lease. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 `,
   },
 
@@ -792,7 +789,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Sometimes. Existing hoods and ductwork must be inspected, cleaned, and evaluated for code compliance. If the system is in good condition and appropriately sized for your equipment layout, reuse can save $15,000 to $30,000 or more. However, fire suppression systems typically need to be reconfigured for new equipment layouts.</p>
 
 <h3>Can We Build help with restaurant kitchen construction in Charlotte?</h3>
-<p>Yes. We Build specializes in <a href="/services/restaurant-construction">restaurant construction</a> across the Charlotte metro area, including full kitchen build-outs with ventilation, fire suppression, and code-compliant installations. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to start planning your project.</p>
+<p>Yes. We Build specializes in <a href="/services/restaurant-construction">restaurant construction</a> across the Charlotte metro area, including full kitchen build-outs with ventilation, fire suppression, and code-compliant installations. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to start planning your project.</p>
 `,
   },
   {
@@ -880,7 +877,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Yes. Charlotte-Mecklenburg Utilities requires grease interceptors for all food service establishments. The interceptor must be properly sized and maintained. Installation costs $5,000 to $15,000 depending on location and size.</p>
 
 <h3>Can We Build help with health code-compliant restaurant construction?</h3>
-<p>Yes. We Build has extensive experience with <a href="/services/restaurant-construction">restaurant construction</a> in the Charlotte metro area, including full kitchen build-outs designed to pass Mecklenburg County Health Department inspections on the first attempt. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Yes. We Build has extensive experience with <a href="/services/restaurant-construction">restaurant construction</a> in the Charlotte metro area, including full kitchen build-outs designed to pass Mecklenburg County Health Department inspections on the first attempt. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 `,
   },
   {
@@ -962,7 +959,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Yes. In Mecklenburg County, each vendor operating within the food hall typically needs its own food service permit from the Health Department. The food hall operator may also need a separate permit for shared facilities like bars, coffee stations, or central dishwashing areas.</p>
 
 <h3>Can We Build construct a food hall in Charlotte?</h3>
-<p>Yes. We Build has the <a href="/services/restaurant-construction">restaurant construction</a> and <a href="/services/commercial-construction">commercial construction</a> expertise required for food hall projects. Our experience with multi-tenant commercial build-outs and commercial kitchen infrastructure makes us well-suited for this complex project type. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Yes. We Build has the <a href="/services/restaurant-construction">restaurant construction</a> and <a href="/services/commercial-construction">commercial construction</a> expertise required for food hall projects. Our experience with multi-tenant commercial build-outs and commercial kitchen infrastructure makes us well-suited for this complex project type. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 `,
   },
   {
@@ -1067,7 +1064,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Evaluate the condition of existing exhaust hoods, fire suppression, walk-in coolers, grease interceptor, plumbing, and electrical service. Have a qualified contractor inspect these systems before signing a lease — the inspection cost of $1,000 to $3,000 is trivial compared to the potential cost of hidden deficiencies.</p>
 
 <h3>Can We Build help me evaluate a restaurant space before I lease it?</h3>
-<p>Yes. We Build provides <a href="/services/pre-construction">pre-construction assessments</a> for restaurant spaces, evaluating existing infrastructure and providing detailed cost estimates for renovation or new build. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Yes. We Build provides <a href="/services/pre-construction">pre-construction assessments</a> for restaurant spaces, evaluating existing infrastructure and providing detailed cost estimates for renovation or new build. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 `,
   },
   {
@@ -1176,7 +1173,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <li>Apply for your ABC permit on the same day you sign your lease</li>
 <li>Order long-lead equipment (walk-in coolers, custom hoods, specialty appliances) during the design phase, before permitting is complete</li>
 <li>Make all finish selections during design — not during construction</li>
-<li>Use a <a href="/services/design-build">design-build approach</a> to overlap design and construction phases</li>
+<li>Engage your <a href="/services/general-contractor">general contractor</a> early to overlap design and construction phases</li>
 <li>Budget realistically and maintain a 10 to 15 percent contingency</li>
 <li>Do not change your mind during construction — change orders are the number one cause of timeline delays</li>
 </ul>
@@ -1196,7 +1193,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Design changes during construction (change orders), incomplete permit submissions that require resubmission, and late equipment orders are the three most common causes of delays. All three are preventable with proper planning.</p>
 
 <h3>Can We Build manage my restaurant construction timeline?</h3>
-<p>Yes. We Build provides <a href="/services/construction-management">construction management</a> and <a href="/services/restaurant-construction">restaurant construction</a> services with detailed scheduling and milestone tracking. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to discuss your timeline.</p>
+<p>Yes. We Build provides <a href="/services/construction-management">construction management</a> and <a href="/services/restaurant-construction">restaurant construction</a> services with detailed scheduling and milestone tracking. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to discuss your timeline.</p>
 `,
   },
   {
@@ -1284,7 +1281,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>A taproom build-out typically takes 12 to 20 weeks of construction, plus 4 to 8 weeks for design and permitting. Total timeline from concept to opening is 6 to 9 months for the taproom alone.</p>
 
 <h3>Can We Build construct a brewery taproom in Charlotte?</h3>
-<p>Yes. We Build has experience with <a href="/services/brewery-construction">brewery construction</a> and commercial build-outs across the Charlotte metro area. Our team understands the unique HVAC, plumbing, and code requirements of brewery taproom projects. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Yes. We Build has experience with <a href="/services/brewery-construction">brewery construction</a> and commercial build-outs across the Charlotte metro area. Our team understands the unique HVAC, plumbing, and code requirements of brewery taproom projects. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 `,
   },
   {
@@ -1360,7 +1357,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <li><strong>Choose a second-generation restaurant space:</strong> Reusing existing ventilation, plumbing, and electrical infrastructure can save $50,000 to $150,000. See our guide on <a href="/blog/restaurant-renovation-vs-new-build-charlotte">restaurant renovation vs new build</a>.</li>
 <li><strong>Buy quality used equipment:</strong> Savings of 40 to 60 percent on many items. Focus used purchases on prep tables, shelving, and simple cooking equipment.</li>
 <li><strong>Right-size your kitchen:</strong> A smaller, efficiently designed kitchen costs less to build and operate. Work with a kitchen consultant to optimize your layout for your menu.</li>
-<li><strong>Use a <a href="/services/design-build">design-build approach</a>:</strong> Integrated design and construction eliminates inefficiencies and reduces overall project cost by 10 to 15 percent.</li>
+<li><strong>Engage a <a href="/services/general-contractor">general contractor</a> early:</strong> Integrated planning and construction eliminates inefficiencies and reduces overall project cost by 10 to 15 percent.</li>
 <li><strong>Value engineer equipment selections:</strong> Domestic equipment brands (like Vulcan, Garland, True) offer excellent quality at lower price points than premium European brands (Rational, Henny Penny).</li>
 </ul>
 
@@ -1379,26 +1376,24 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Kitchen construction typically takes 10 to 18 weeks, depending on whether you are renovating an existing space or building from shell condition. Equipment delivery lead times (6 to 12 weeks for some items) should be factored into your project schedule.</p>
 
 <h3>Can We Build help with my commercial kitchen build-out?</h3>
-<p>Yes. We Build specializes in <a href="/services/restaurant-construction">restaurant construction</a> across the Charlotte metro area, including full commercial kitchen build-outs from design through final health inspection. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> for a consultation.</p>
+<p>Yes. We Build specializes in <a href="/services/restaurant-construction">restaurant construction</a> across the Charlotte metro area, including full commercial kitchen build-outs from design through final health inspection. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> for a consultation.</p>
 `,
   },
 
-  // ============================================================
-  // CLUSTER 3: DESIGN-BUILD (4 posts)
-  // ============================================================
+  // (Design-Build cluster removed — service discontinued)
+
   {
-    id: 'db-1',
-    title: 'Design-Build vs Design-Bid-Build: Which Is Right for Your Project?',
+    id: 'db-1-removed',
+    title: '[Removed]',
     slug: 'design-build-vs-design-bid-build',
-    excerpt:
-      'A clear comparison of design-build and design-bid-build project delivery methods — covering cost, timeline, risk, and quality considerations for Charlotte NC construction projects.',
+    excerpt: '',
     date: '2026-05-10',
     category: 'Commercial Construction',
     categorySlug: 'commercial-construction',
-    image: '/images/blog/design-build-vs-design-bid-build.jpg',
+    image: '',
     author: 'We Build',
-    content: `
-<h2>Two Approaches to Commercial Construction</h2>
+    content: `<p>This page is no longer available. Please visit our <a href="/services/commercial-construction">commercial construction</a> page instead.</p>
+<!-- REMOVED_DB1_CONTENT_START
 <p>When you plan a commercial construction project in Charlotte — whether it is an office build-out, restaurant, medical facility, or warehouse — one of the first and most consequential decisions you will make is how to deliver the project. The two most common delivery methods are design-build (DB) and design-bid-build (DBB). Each has distinct advantages and limitations, and the right choice depends on your priorities, timeline, budget certainty requirements, and project complexity.</p>
 <p>This guide provides an honest, side-by-side comparison based on real project outcomes in the Charlotte market, so you can make an informed decision before committing to a delivery approach.</p>
 
@@ -1491,21 +1486,21 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Yes. Design-build is especially well-suited to <a href="/services/tenant-improvements">tenant improvement</a> and <a href="/services/office-buildouts">office build-out</a> projects because the schedule savings are particularly valuable when you are paying rent during construction.</p>
 
 <h3>How do I select a design-build contractor in Charlotte?</h3>
-<p>Evaluate design-build firms based on their relevant project experience, team qualifications (both design and construction), references from past clients, and their proposed approach to your specific project. See our guide on <a href="/blog/finding-design-build-contractor-charlotte">finding a design-build contractor in Charlotte</a>. You can also call We Build at <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Evaluate design-build firms based on their relevant project experience, team qualifications (both design and construction), references from past clients, and their proposed approach to your specific project. See our guide on <a href="/blog/finding-design-build-contractor-charlotte">REMOVED_DB1_CONTENT_END -->
 `,
   },
   {
-    id: 'db-2',
-    title: 'How the Design-Build Process Works: A Step-by-Step Guide',
+    id: 'db-2-removed',
+    title: '[Removed]',
     slug: 'design-build-process-step-by-step',
-    excerpt:
-      'A complete walkthrough of the design-build process from initial consultation through project completion — with practical guidance for Charlotte NC commercial construction projects.',
+    excerpt: '',
     date: '2026-05-12',
     category: 'Commercial Construction',
     categorySlug: 'commercial-construction',
-    image: '/images/blog/design-build-process-step-by-step.jpg',
+    image: '',
     author: 'We Build',
-    content: `
+    content: `<p>This page is no longer available. Please visit our <a href="/services/commercial-construction">commercial construction</a> page instead.</p>
+<!-- REMOVED_DB2_CONTENT_START
 <h2>What Is Design-Build?</h2>
 <p>Design-build is a project delivery method in which a single entity — the design-build firm — provides both architectural design and construction services under one contract. Instead of hiring an architect and general contractor separately and managing their interactions, you work with one integrated team from start to finish.</p>
 <p>For Charlotte business owners planning a commercial construction project, understanding how the design-build process actually works — step by step — helps set realistic expectations and enables you to be a more effective project partner. This guide walks through each phase in detail.</p>
@@ -1576,21 +1571,21 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Yes. Design-build is especially well-suited to small and mid-size commercial projects like <a href="/services/tenant-improvements">tenant improvements</a>, <a href="/services/office-buildouts">office build-outs</a>, and <a href="/services/restaurant-construction">restaurant construction</a> where speed and simplicity are valued.</p>
 
 <h3>How do I get started with design-build at We Build?</h3>
-<p>Contact We Build for a free initial consultation. We will discuss your project goals, visit the site, and provide a preliminary scope and budget assessment. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to schedule. Learn more about our <a href="/services/design-build">design-build services</a>.</p>
+<p>Contact We Build for a free initial consultation. We will discuss your project goals, visit the site, and provide a preliminary scope and budget assessment. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to schedule. REMOVED_DB2_CONTENT_END -->
 `,
   },
   {
-    id: 'db-3',
-    title: 'Design-Build Cost Savings: Why Integrated Delivery Saves 15-20%',
+    id: 'db-3-removed',
+    title: '[Removed]',
     slug: 'design-build-cost-savings-integrated-delivery',
-    excerpt:
-      'How design-build project delivery saves 15 to 20 percent on total project cost through reduced change orders, faster schedules, value engineering, and eliminated coordination gaps.',
+    excerpt: '',
     date: '2026-05-14',
     category: 'Commercial Construction',
     categorySlug: 'commercial-construction',
-    image: '/images/blog/design-build-cost-savings-integrated-delivery.jpg',
+    image: '',
     author: 'We Build',
-    content: `
+    content: `<p>This page is no longer available. Please visit our <a href="/services/commercial-construction">commercial construction</a> page instead.</p>
+<!-- REMOVED_DB3_CONTENT_START
 <h2>The 15-20% Savings Claim: Is It Real?</h2>
 <p>The claim that design-build saves 15 to 20 percent compared to traditional design-bid-build is frequently cited by design-build advocates — and frequently questioned by skeptics. The truth is nuanced: the savings are real, but they do not come from a single source. Instead, they accumulate across multiple dimensions of the project — schedule, change orders, value engineering, reduced overhead, and eliminated coordination gaps.</p>
 <p>This article examines each source of savings with real-world examples from Charlotte commercial construction projects, so you can evaluate the design-build value proposition with data rather than marketing claims.</p>
@@ -1647,26 +1642,21 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Work with a design-build firm that provides transparent, open-book pricing where you can see subcontractor bids, material costs, and the firm's fee. A guaranteed maximum price (GMP) with shared savings provisions aligns the firm's incentives with your budget goals.</p>
 
 <h3>Can We Build provide design-build services for my project?</h3>
-<p>Yes. We Build is a full-service <a href="/services/design-build">design-build contractor</a> serving the Charlotte metro area. We provide integrated design and construction services for commercial projects of all types. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to discuss your project.</p>
+<p>Yes. We Build is a full-service <a href="/services/design-build">design-build contractor</a> serving the Charlotte metro area. REMOVED_DB3_CONTENT_END -->
 `,
   },
   {
-    id: 'db-4',
-    title: 'Finding a Design-Build Contractor in Charlotte NC',
+    id: 'db-4-removed',
+    title: '[Removed]',
     slug: 'finding-design-build-contractor-charlotte',
-    excerpt:
-      'How to evaluate and select a design-build contractor in Charlotte NC — covering qualifications, portfolio review, pricing transparency, and key questions to ask before signing a contract.',
+    excerpt: '',
     date: '2026-05-16',
     category: 'Commercial Construction',
     categorySlug: 'commercial-construction',
-    image: '/images/blog/finding-design-build-contractor-charlotte.jpg',
+    image: '',
     author: 'We Build',
-    content: `
-<h2>Why the Right Design-Build Partner Matters</h2>
-<p>Choosing a design-build contractor is one of the most important decisions you will make for your commercial construction project. Unlike design-bid-build, where you can compare detailed bids from multiple contractors on identical plans, design-build requires you to select your contractor before the design is complete. This means you are choosing based on qualifications, trust, and team chemistry as much as price — and getting this decision wrong can be costly.</p>
-<p>In the Charlotte market, there are dozens of firms that offer design-build services. The quality, approach, and capabilities of these firms vary enormously. This guide provides a structured framework for evaluating and selecting a design-build contractor that is right for your project.</p>
-
-<h2>What to Look for in a Design-Build Contractor</h2>
+    content: `<p>This page is no longer available. Please visit our <a href="/services/commercial-construction">commercial construction</a> page instead.</p>
+<!-- REMOVED_DB4_CONTENT_START
 <h3>1. Relevant Project Experience</h3>
 <p>The single most important qualification is relevant project experience. A design-build firm that has successfully completed projects similar to yours — in type, size, complexity, and market — is far more likely to deliver a successful outcome than a firm learning on your project.</p>
 <p>Ask to see the firm's portfolio of completed projects in your specific category. If you are building a restaurant, look for restaurant experience. If you are planning an office build-out, look for office experience. Pay attention to projects completed in the Charlotte market specifically, because local knowledge of permitting processes, subcontractor capabilities, and building code interpretations makes a material difference.</p>
@@ -1742,7 +1732,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>You can terminate a design-build contract according to its terms, but you will owe the firm for design work completed to date. To minimize risk, most design-build contracts are structured in phases — you can complete the design phase and then decide whether to proceed with construction or take the completed design to other contractors for competitive bids.</p>
 
 <h3>How do I reach We Build for a design-build consultation?</h3>
-<p>Call us at <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to schedule a free initial consultation. We serve the entire Charlotte metro area, including South Charlotte, Lake Norman, Fort Mill, and the surrounding region. Learn more about our <a href="/services/design-build">design-build services</a>.</p>
+<p>Call us at <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to schedule a free initial consultation. We serve the entire Charlotte metro area, including South Charlotte, Lake Norman, Fort Mill, and the surrounding region. REMOVED_DB4_CONTENT_END -->
 `,
   },
 
@@ -1850,7 +1840,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>No. Breweries are classified as manufacturing and are permitted in industrial, business, and some mixed-use zoning districts. Verify zoning compliance with Mecklenburg County before signing a lease. Some Charlotte neighborhoods have overlay districts that restrict or prohibit manufacturing uses.</p>
 
 <h3>Can We Build construct my brewery in Charlotte?</h3>
-<p>Yes. We Build offers <a href="/services/brewery-construction">brewery construction</a> services across the Charlotte metro area, including production area build-outs, taproom construction, and full site improvements. Our team understands the unique structural, plumbing, and electrical requirements of brewery projects. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Yes. We Build offers <a href="/services/brewery-construction">brewery construction</a> services across the Charlotte metro area, including production area build-outs, taproom construction, and full site improvements. Our team understands the unique structural, plumbing, and electrical requirements of brewery projects. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 `,
   },
   {
@@ -1940,7 +1930,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>The domestic water supply and sewer connection can usually be reused (with possible upgrades for capacity), but the in-slab drainage system almost always needs to be rebuilt. Existing floor drains in a warehouse or retail space are not positioned correctly, not sized adequately, and not made of chemical-resistant materials for brewery use.</p>
 
 <h3>Can We Build handle brewery plumbing construction?</h3>
-<p>Yes. We Build provides full <a href="/services/brewery-construction">brewery construction</a> services including specialized plumbing, drainage, and utility infrastructure. Our team understands the unique plumbing requirements of craft breweries and coordinates with Charlotte-Mecklenburg Utilities on discharge permits and requirements. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Yes. We Build provides full <a href="/services/brewery-construction">brewery construction</a> services including specialized plumbing, drainage, and utility infrastructure. Our team understands the unique plumbing requirements of craft breweries and coordinates with Charlotte-Mecklenburg Utilities on discharge permits and requirements. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 `,
   },
   {
@@ -2029,7 +2019,7 @@ export const phase3MixedPosts: BlogPost[] = [
 <p>Yes, but the distilling area must be separated from the brewery and taproom by fire-rated construction, and the distilling area must meet all H-3 occupancy requirements independently. Some Charlotte craft producers operate combined brewery-distillery operations successfully.</p>
 
 <h3>Can We Build construct a distillery in Charlotte?</h3>
-<p>Yes. We Build has <a href="/services/brewery-construction">brewery and distillery construction</a> experience including hazardous occupancy build-outs, explosion-proof electrical systems, and fire-rated separations. Our team coordinates with the Charlotte Fire Department and TTB requirements from the design phase. Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Yes. We Build has <a href="/services/brewery-construction">brewery and distillery construction</a> experience including hazardous occupancy build-outs, explosion-proof electrical systems, and fire-rated separations. Our team coordinates with the Charlotte Fire Department and TTB requirements from the design phase. Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 `,
   },
 ];

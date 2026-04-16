@@ -41,7 +41,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Medical and healthcare:</strong> $200-$450 per square foot</li>
 <li><strong>Adaptive reuse projects:</strong> $100-$250 per square foot (highly variable)</li>
 </ul>
-<p>These figures represent total construction costs including materials, labor, and general contractor fees. They do not include land acquisition, architectural fees, permitting, or furniture and equipment. For a personalized estimate on your Detroit commercial roof coating project, contact We Coat at <strong>(704) 574-8124</strong> or visit <a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">wecoatcommercialroofing.com</a>.</p>
+<p>These figures represent total construction costs including materials, labor, and general contractor fees. They do not include land acquisition, architectural fees, permitting, or furniture and equipment. For a personalized estimate on your Detroit commercial roof coating project, contact We Coat at <strong>(980) 471-1745</strong> or visit <a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">wecoatcommercialroofing.com</a>.</p>
 
 <h3>Factors Affecting Detroit Construction Costs</h3>
 <p>Several regional factors influence commercial construction pricing in the Detroit market:</p>
@@ -99,7 +99,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Proven project management systems</strong> that ensure consistent quality regardless of location</li>
 <li><strong>Commitment to the Detroit community</strong> through local hiring and community engagement</li>
 </ul>
-<p>Whether your project is a ground-up commercial building, a tenant improvement, an adaptive reuse conversion, or a <a href="/services/commercial-renovation">commercial renovation</a>, We Coat has the expertise and licensing to deliver. Contact us at <strong>(704) 574-8124</strong> or visit <a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">wecoatcommercialroofing.com</a> to discuss your Detroit commercial roof coating project.</p>
+<p>Whether your project is a ground-up commercial building, a tenant improvement, an adaptive reuse conversion, or a <a href="/services/commercial-renovation">commercial renovation</a>, We Coat has the expertise and licensing to deliver. Contact us at <strong>(980) 471-1745</strong> or visit <a href="https://wecoatcommercialroofing.com" target="_blank" rel="noopener noreferrer">wecoatcommercialroofing.com</a> to discuss your Detroit commercial roof coating project.</p>
 
 <h2>Getting Started with Your Detroit Commercial Construction Project</h2>
 <p>Starting a commercial construction project in Detroit involves several key steps. Following this general process helps ensure a smooth project from concept to completion:</p>
@@ -125,7 +125,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Commercial construction in Detroit requires a building permit from BSEED, along with trade permits for electrical, plumbing, and mechanical work. Depending on your project, you may also need a demolition permit, site plan approval, zoning variance, environmental compliance certification, and fire suppression system permits. We Coat manages the entire permitting process as part of our general contracting and construction management services.</p>
 
 <h3>Can We Coat handle both Charlotte and Detroit projects simultaneously?</h3>
-<p>Absolutely. We Coat's project management infrastructure supports multi-site operations. Our dedicated project managers, digital collaboration tools, and established subcontractor networks in both markets allow us to deliver the same quality and communication standards across all projects. Our Charlotte headquarters at 14330 S Lakes Drive coordinates all operations, and we maintain a growing presence in the Detroit metro area. Call us at <strong>(704) 574-8124</strong> to discuss your project in either market.</p>
+<p>Absolutely. We Coat's project management infrastructure supports multi-site operations. Our dedicated project managers, digital collaboration tools, and established subcontractor networks in both markets allow us to deliver the same quality and communication standards across all projects. Our Charlotte headquarters at 14330 S Lakes Drive coordinates all operations, and we maintain a growing presence in the Detroit metro area. Call us at <strong>(980) 471-1745</strong> to discuss your project in either market.</p>
 `,
     date: '2026-03-15',
     category: 'Detroit Construction',
@@ -165,12 +165,12 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Fire suppression modifications:</strong> Relocating sprinkler heads to accommodate new ceiling layouts is a common and often overlooked cost</li>
 <li><strong>Elevator building logistics:</strong> Working in high-rise buildings adds material delivery costs and coordination complexity</li>
 </ul>
-<p>For a detailed estimate on your Detroit office build-out, contact We Coat at <strong>(704) 574-8124</strong>. We provide transparent, line-item budgets so you know exactly where every dollar is going.</p>
+<p>For a free consultation on your Detroit office build-out, contact We Coat at <strong>(980) 471-1745</strong>. We provide transparent, line-item budgets so you know exactly where every dollar is going.</p>
 
 <h2>Office Build-Out Timeline in Detroit</h2>
 <p>Timelines for office build-outs in Detroit depend on scope, permitting, and material lead times. Here is a general framework:</p>
 <h3>Planning and Design Phase (2-6 weeks)</h3>
-<p>This phase includes space programming, architectural design, MEP engineering, and permit preparation. Working with a <a href="/services/design-build">design-build contractor</a> like We Coat can compress this phase by running design and pre-construction simultaneously.</p>
+<p>This phase includes space programming, architectural design, MEP engineering, and permit preparation. Working with a <a href="/services/general-contractor">general contractor</a> like We Build can compress this phase by running design and pre-construction simultaneously.</p>
 <h3>Permitting Phase (2-6 weeks)</h3>
 <p>Detroit's BSEED department reviews commercial build-out permits. Simple projects with no structural changes may receive permits in 2-3 weeks, while more complex projects with HVAC, plumbing, or structural modifications can take 4-6 weeks. Suburban municipalities like Dearborn, Southfield, and Troy generally process permits faster.</p>
 <h3>Construction Phase</h3>
@@ -230,7 +230,7 @@ export const detroitMarketPosts: BlogPost[] = [
 </ul>
 
 <h3>How much does a typical office build-out cost in Detroit?</h3>
-<p>A typical office build-out in Detroit costs between $55 and $95 per square foot for a standard finish level. For a 5,000 square foot office, that translates to approximately $275,000-$475,000. Basic cosmetic refreshes can be done for $30-$55 per square foot, while premium Class A build-outs with custom finishes range from $95 to $165 per square foot. Contact We Coat at <strong>(704) 574-8124</strong> for a project-specific estimate.</p>
+<p>A typical office build-out in Detroit costs between $55 and $95 per square foot for a standard finish level. For a 5,000 square foot office, that translates to approximately $275,000-$475,000. Basic cosmetic refreshes can be done for $30-$55 per square foot, while premium Class A build-outs with custom finishes range from $95 to $165 per square foot. Contact We Coat at <strong>(980) 471-1745</strong> for a project-specific estimate.</p>
 
 <h3>How long does an office build-out take in Detroit?</h3>
 <p>Including design, permitting, and construction, a typical office build-out in Detroit takes 10-16 weeks total. Simple cosmetic projects can be completed in 4-6 weeks, while complex build-outs of 10,000+ square feet may take 16-26 weeks. Michigan winter weather generally does not impact interior build-outs, making them viable year-round projects.</p>
@@ -290,14 +290,14 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Temporary facilities:</strong> Phased moves may require temporary workspaces, internet connectivity, and phone systems</li>
 <li><strong>Move coordination:</strong> Professional move planning, furniture delivery staging, and IT relocation are separate from construction costs</li>
 </ul>
-<p>We Coat provides comprehensive cost estimates that account for these hidden expenses upfront. Call us at <strong>(704) 574-8124</strong> to discuss your Detroit tenant improvement project.</p>
+<p>We Coat provides comprehensive cost estimates that account for these hidden expenses upfront. Call us at <strong>(980) 471-1745</strong> to discuss your Detroit tenant improvement project.</p>
 
 <h2>The Tenant Improvement Process with We Coat</h2>
 <p>Our tenant improvement process follows a proven sequence that minimizes risk and keeps projects on schedule:</p>
 <h3>Step 1: Initial Consultation and Site Walk</h3>
 <p>We meet you at the space, review your business needs, discuss budget parameters, and identify existing conditions that will affect the build-out. We also review your lease for TI-related provisions and building standard requirements.</p>
 <h3>Step 2: Pre-Construction and Budgeting</h3>
-<p>Our <a href="/services/pre-construction">pre-construction team</a> develops a detailed scope of work and line-item budget. If the project includes design, we can provide <a href="/services/design-build">design-build services</a> that combine architecture and construction under one contract for faster delivery and single-source accountability.</p>
+<p>Our <a href="/services/pre-construction">pre-construction team</a> develops a detailed scope of work and line-item budget. If the project includes design, we coordinate with architects to deliver integrated services for faster delivery and single-source accountability.</p>
 <h3>Step 3: Permitting</h3>
 <p>We prepare and submit permit applications to the appropriate municipal authority — BSEED for City of Detroit projects, or the local building department for suburban locations. We manage the review process and respond to any examiner comments or revision requests.</p>
 <h3>Step 4: Construction</h3>
@@ -323,7 +323,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Medical and dental:</strong> Physician practices, dental offices, urgent care clinics, physical therapy centers, and specialty medical offices — see our <a href="/services/medical-construction">medical construction</a> services</li>
 <li><strong>Retail:</strong> Boutiques, salons, fitness studios, and specialty retail — see our <a href="/services/retail-construction">retail construction</a> services</li>
 <li><strong>Restaurants and food service:</strong> Full-service restaurants, fast-casual concepts, coffee shops, and commercial kitchens — see our <a href="/services/restaurant-construction">restaurant construction</a> services</li>
-<li><strong>Industrial and warehouse:</strong> Office space within warehouse buildings, break rooms, and showroom areas</li>
+<li><strong>Industrial and warehouse:</strong> Office space within warehouse buildings, break rooms, and display areas</li>
 </ul>
 <p>Each industry has unique code requirements, finish standards, and operational needs. We Coat's experience across all of these sectors means we understand what questions to ask, what code requirements apply, and how to deliver a space that supports your business operations from day one.</p>
 
@@ -349,7 +349,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Yes, many tenant improvements in Detroit are performed in occupied spaces, especially phased renovations. This requires careful planning to minimize disruption — dust barriers, after-hours work, phased construction sequences, and clear communication with employees. We Coat has extensive experience with occupied space renovations and develops detailed phasing plans to keep your business operational during construction.</p>
 
 <h3>How far in advance should I start planning a tenant improvement project in Detroit?</h3>
-<p>We recommend starting the planning process 3-6 months before your desired move-in date for standard TI projects, and 6-12 months for complex or large-scale build-outs. This timeline allows for design, budgeting, landlord approval, permitting, construction, and move coordination. Contact We Coat at <strong>(704) 574-8124</strong> early in your planning process — our <a href="/services/pre-construction">pre-construction services</a> are specifically designed to streamline this timeline.</p>
+<p>We recommend starting the planning process 3-6 months before your desired move-in date for standard TI projects, and 6-12 months for complex or large-scale build-outs. This timeline allows for design, budgeting, landlord approval, permitting, construction, and move coordination. Contact We Coat at <strong>(980) 471-1745</strong> early in your planning process — our <a href="/services/pre-construction">pre-construction services</a> are specifically designed to streamline this timeline.</p>
 `,
     date: '2026-03-19',
     category: 'Detroit Construction',
@@ -400,7 +400,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Utilities extension:</strong> Highly variable — $50,000-$500,000+ depending on proximity to existing infrastructure</li>
 <li><strong>Environmental remediation:</strong> Many Detroit industrial sites require Phase I and Phase II environmental assessments, with remediation costs ranging from $50,000 to $2M+ for heavily contaminated properties</li>
 </ul>
-<p>Contact We Coat at <strong>(704) 574-8124</strong> for a comprehensive cost analysis of your Detroit warehouse construction project.</p>
+<p>Contact We Coat at <strong>(980) 471-1745</strong> for a comprehensive cost analysis of your Detroit warehouse construction project.</p>
 
 <h2>Site Selection for Warehouse Construction in Detroit</h2>
 <p>Choosing the right site is critical for warehouse construction success. Key factors for Detroit-area warehouse site selection include:</p>
@@ -424,7 +424,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Building construction:</strong> 16-32 weeks depending on size and complexity</li>
 <li><strong>Commissioning and turnover:</strong> 2-4 weeks</li>
 </ul>
-<p>Total project duration from concept to occupancy typically runs 12-18 months for a standard warehouse. This timeline can be compressed through <a href="/services/design-build">design-build delivery</a>, where design and permitting overlap with early site work.</p>
+<p>Total project duration from concept to occupancy typically runs 12-18 months for a standard warehouse. This timeline can be compressed through integrated project delivery, where design and permitting overlap with early site work.</p>
 
 <h2>Building Types for Detroit Warehouses</h2>
 <p>The two primary structural systems for warehouse construction in the Detroit area are pre-engineered metal buildings (PEMB) and concrete tilt-up:</p>
@@ -440,10 +440,10 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>We Coat brings proven <a href="/services/industrial-construction">industrial construction</a> capabilities to the Detroit warehouse market. Our experience includes ground-up warehouse construction, warehouse expansion and addition projects, warehouse-to-office conversions, dock and loading area improvements, and cold storage facility construction. Our Charlotte headquarters coordinates all project management, and our Michigan-licensed team executes on the ground in the Detroit metro area.</p>
 
 <h3>What is the cost per square foot for warehouse construction in Detroit?</h3>
-<p>Standard warehouse construction in Detroit costs $45-$70 per square foot for basic shell buildings, $70-$110 per square foot for modern distribution centers with higher clear heights and more dock doors, and $150-$250 per square foot for cold storage facilities. Site development costs add $8-$20 per square foot of site area depending on conditions. Contact We Coat at <strong>(704) 574-8124</strong> for a project-specific estimate.</p>
+<p>Standard warehouse construction in Detroit costs $45-$70 per square foot for basic shell buildings, $70-$110 per square foot for modern distribution centers with higher clear heights and more dock doors, and $150-$250 per square foot for cold storage facilities. Site development costs add $8-$20 per square foot of site area depending on conditions. Contact We Coat at <strong>(980) 471-1745</strong> for a project-specific estimate.</p>
 
 <h3>How long does it take to build a warehouse in Detroit?</h3>
-<p>A typical ground-up warehouse construction project in Detroit takes 12-18 months from concept to occupancy, including design, permitting, site development, and building construction. Smaller facilities under 50,000 square feet can sometimes be completed in 8-12 months. Design-build delivery can compress the overall schedule by overlapping design and early construction activities.</p>
+<p>A typical ground-up warehouse construction project in Detroit takes 12-18 months from concept to occupancy, including design, permitting, site development, and building construction. Smaller facilities under 50,000 square feet can sometimes be completed in 8-12 months. Integrated project delivery can compress the overall schedule by overlapping design and early construction activities.</p>
 
 <h3>What are the best locations for warehouse construction in Detroit?</h3>
 <p>The most active warehouse construction corridors in the Detroit metro area include the I-94 corridor between Detroit and Ann Arbor, the I-75 corridor through Monroe and southern Wayne County, the I-275/M-14 corridor in western Wayne and Washtenaw counties, the Romulus/Huron Township area near Detroit Metro Airport, and the I-96 corridor through Livonia and Novi. Each corridor offers different advantages in terms of labor access, transportation networks, and land availability.</p>
@@ -504,7 +504,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Exterior and entry (5-10%):</strong> Storefront modifications, signage, patio construction, landscaping</li>
 <li><strong>MEP systems (15-25%):</strong> HVAC with kitchen make-up air, electrical service upgrade, plumbing rough-in and fixtures</li>
 </ul>
-<p>For a detailed restaurant construction estimate in Detroit, call We Coat at <strong>(704) 574-8124</strong>.</p>
+<p>For a detailed restaurant construction estimate in Detroit, call We Coat at <strong>(980) 471-1745</strong>.</p>
 
 <h2>Restaurant Code Requirements in Detroit and Michigan</h2>
 <p>Restaurant construction in Detroit and Michigan must comply with multiple overlapping code requirements. Understanding these before you start design saves time, money, and frustration:</p>
@@ -543,7 +543,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>We Coat's restaurant construction portfolio from the Charlotte market demonstrates our ability to deliver food service environments on time and on budget. Our <a href="/services/commercial-upfits">commercial upfit</a> experience extends directly to the specialized requirements of restaurant build-outs.</p>
 
 <h3>How much does it cost to build a restaurant in Detroit?</h3>
-<p>Restaurant construction costs in Detroit range from $100-$175 per square foot for fast-casual concepts in second-generation spaces to $250-$450 per square foot for upscale dining establishments. A typical 2,500 square foot full-service restaurant in a second-generation space costs approximately $375,000-$625,000 for construction, plus $125,000-$375,000 for furniture, fixtures, and equipment. Contact We Coat at <strong>(704) 574-8124</strong> for a project-specific estimate.</p>
+<p>Restaurant construction costs in Detroit range from $100-$175 per square foot for fast-casual concepts in second-generation spaces to $250-$450 per square foot for upscale dining establishments. A typical 2,500 square foot full-service restaurant in a second-generation space costs approximately $375,000-$625,000 for construction, plus $125,000-$375,000 for furniture, fixtures, and equipment. Contact We Coat at <strong>(980) 471-1745</strong> for a project-specific estimate.</p>
 
 <h3>What permits do I need for restaurant construction in Detroit?</h3>
 <p>Restaurant construction in Detroit requires a building permit from BSEED, trade permits for electrical, plumbing, and mechanical work, a food service establishment license from the local health department, fire marshal approval for hood suppression systems, and potentially a liquor license from the Michigan Liquor Control Commission. We Coat manages all construction-related permits as part of our general contracting services.</p>
@@ -642,7 +642,7 @@ export const detroitMarketPosts: BlogPost[] = [
 
 <h2>We Coat's Michigan Licensing and Credentials</h2>
 <p>We Coat's expansion into the <a href="/areas/detroit">Detroit</a> and <a href="/areas/dearborn">Dearborn</a> markets includes full Michigan contractor licensing. Our credentials include an active Michigan Builder's License through LARA, comprehensive general liability insurance exceeding $2 million per occurrence, workers' compensation coverage for all employees, bonding capacity sufficient for large commercial projects, and OSHA safety certifications for all field personnel.</p>
-<p>We are a veteran and family-owned company headquartered at 14330 S Lakes Drive, Charlotte, NC 28273, now serving the Michigan market with the same professionalism and transparency that has defined our work in the Carolinas. Contact us at <strong>(704) 574-8124</strong> with any questions about our licensing or to discuss your Michigan construction project.</p>
+<p>We are a veteran and family-owned company headquartered at 14330 S Lakes Drive, Charlotte, NC 28273, now serving the Michigan market with the same professionalism and transparency that has defined our work in the Carolinas. Contact us at <strong>(980) 471-1745</strong> with any questions about our licensing or to discuss your Michigan construction project.</p>
 
 <h3>Does Michigan require a specific license for commercial construction?</h3>
 <p>Michigan does not have a separate state-level "commercial construction license." However, commercial construction requires compliance with local permitting, trade-specific licensing for electrical, plumbing, and mechanical work, and most municipalities expect general contractors to hold a Michigan Builder's License. Additionally, commercial projects require plan review and permits from the local building authority.</p>
@@ -657,7 +657,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Out-of-state contractors can work in Michigan if they obtain the appropriate Michigan licenses and comply with all state and local requirements. Michigan does not have reciprocity agreements with other states for contractor licensing. We Coat went through the full Michigan licensing process as part of our expansion from Charlotte to Detroit.</p>
 
 <h3>What insurance should a Michigan contractor carry?</h3>
-<p>At minimum, Michigan contractors should carry general liability insurance ($50,000 minimum required by law, though $1 million+ is standard for commercial work), workers' compensation insurance for all employees, and commercial auto insurance. For larger commercial projects, property owners should also require payment and performance bonds. We Coat carries all required insurance with coverage levels appropriate for large commercial construction projects. Contact us at <strong>(704) 574-8124</strong> for certificate details.</p>
+<p>At minimum, Michigan contractors should carry general liability insurance ($50,000 minimum required by law, though $1 million+ is standard for commercial work), workers' compensation insurance for all employees, and commercial auto insurance. For larger commercial projects, property owners should also require payment and performance bonds. We Coat carries all required insurance with coverage levels appropriate for large commercial construction projects. Contact us at <strong>(980) 471-1745</strong> for certificate details.</p>
 `,
     date: '2026-03-25',
     category: 'Detroit Construction',
@@ -751,7 +751,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>The best candidates for adaptive reuse in Detroit are structurally sound buildings with interesting architectural character — high ceilings, large windows, exposed structural elements, and quality construction materials like brick, timber, and concrete. Former factories, warehouses, schools, churches, and office buildings from the early to mid-20th century are typically the strongest candidates. Buildings listed on the National Register of Historic Places or in designated historic districts offer additional financial advantages through tax credits.</p>
 
 <h3>How much does adaptive reuse construction cost compared to new construction?</h3>
-<p>Adaptive reuse construction in Detroit typically costs $80-$300+ per square foot depending on building condition and target use. New commercial construction costs $100-$200+ per square foot. While adaptive reuse can be more expensive per square foot than new construction, the lower acquisition cost of existing buildings plus available tax credits often make the total project cost competitive with or less than new construction. Contact We Coat at <strong>(704) 574-8124</strong> for a project-specific analysis.</p>
+<p>Adaptive reuse construction in Detroit typically costs $80-$300+ per square foot depending on building condition and target use. New commercial construction costs $100-$200+ per square foot. While adaptive reuse can be more expensive per square foot than new construction, the lower acquisition cost of existing buildings plus available tax credits often make the total project cost competitive with or less than new construction. Contact We Coat at <strong>(980) 471-1745</strong> for a project-specific analysis.</p>
 
 <h3>What incentives are available for adaptive reuse in Detroit?</h3>
 <p>Detroit adaptive reuse projects may qualify for federal historic tax credits (20% of qualified costs), Michigan historic preservation tax credits, Neighborhood Enterprise Zone tax abatements, Obsolete Property Rehabilitation Act exemptions, brownfield tax increment financing, and New Markets Tax Credits. The combination of available incentives can offset 40-60% of project costs in some cases.</p>
@@ -760,7 +760,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>We Coat approaches adaptive reuse with a deep respect for existing buildings and a practical understanding of construction challenges. Our <a href="/services/pre-construction">pre-construction</a> process includes thorough building assessments, honest cost estimation including contingencies for unknown conditions, and realistic scheduling. We bring our Charlotte renovation expertise to the Detroit market, combined with our Michigan contractor licensing and growing network of local trades experienced with historic and industrial buildings.</p>
 
 <h3>Does We Coat work on adaptive reuse projects in both Detroit and Charlotte?</h3>
-<p>Yes. Adaptive reuse is a growing part of our portfolio in both markets. In Charlotte, we have converted former textile mills, warehouses, and commercial buildings into modern office, retail, and restaurant spaces. In <a href="/areas/detroit">Detroit</a> and <a href="/areas/dearborn">Dearborn</a>, we are applying that experience to the region's rich stock of industrial and institutional buildings. Our headquarters is at 14330 S Lakes Drive, Charlotte, NC 28273. Call <strong>(704) 574-8124</strong> to discuss your adaptive reuse project.</p>
+<p>Yes. Adaptive reuse is a growing part of our portfolio in both markets. In Charlotte, we have converted former textile mills, warehouses, and commercial buildings into modern office, retail, and restaurant spaces. In <a href="/areas/detroit">Detroit</a> and <a href="/areas/dearborn">Dearborn</a>, we are applying that experience to the region's rich stock of industrial and institutional buildings. Our headquarters is at 14330 S Lakes Drive, Charlotte, NC 28273. Call <strong>(980) 471-1745</strong> to discuss your adaptive reuse project.</p>
 `,
     date: '2026-03-27',
     category: 'Detroit Construction',
@@ -822,7 +822,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <h3>Phase 1: Assessment and Planning</h3>
 <p>We begin with a comprehensive building assessment that evaluates structural condition, mechanical and electrical systems, roof condition, building envelope integrity, ADA compliance gaps, and environmental concerns (lead paint, asbestos). This assessment forms the basis for accurate budgeting and scheduling.</p>
 <h3>Phase 2: Design and Permitting</h3>
-<p>Our <a href="/services/design-build">design-build</a> approach integrates design and construction planning from the start. For Dearborn projects, permits are obtained through the City of Dearborn Building Department, which is generally efficient and responsive for renovation projects.</p>
+<p>Our <a href="/services/pre-construction">pre-construction</a> approach integrates design and construction planning from the start. For Dearborn projects, permits are obtained through the City of Dearborn Building Department, which is generally efficient and responsive for renovation projects.</p>
 <h3>Phase 3: Construction</h3>
 <p>Renovation construction often occurs in occupied buildings or active commercial areas, requiring careful phasing, dust and noise control, and coordination with neighboring businesses. We Coat excels at managing these logistics to minimize disruption while maintaining aggressive schedules.</p>
 <h3>Phase 4: Commissioning and Turnover</h3>
@@ -836,7 +836,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Commercial renovation in Dearborn presents an excellent opportunity to improve building energy performance. Michigan's climate — with cold winters and warm summers — makes energy efficiency a significant operating cost factor. Our <a href="/services/green-building">green building</a> capabilities include high-efficiency HVAC system replacement, LED lighting with intelligent controls, building envelope improvements including insulation and air sealing, high-performance window replacement or restoration, and smart building management systems. Energy-efficient renovations can qualify for DTE Energy rebates, Consumers Energy incentives, and federal tax deductions under Section 179D.</p>
 
 <h3>How much does commercial renovation cost in Dearborn MI?</h3>
-<p>Commercial renovation costs in Dearborn range from $25-$50 per square foot for cosmetic refreshes to $150-$300+ per square foot for full gut renovations. A typical moderate renovation of a 3,000 square foot retail or office space costs approximately $150,000-$300,000. Restaurant and medical renovations cost more due to specialized requirements. Contact We Coat at <strong>(704) 574-8124</strong> for a project-specific estimate.</p>
+<p>Commercial renovation costs in Dearborn range from $25-$50 per square foot for cosmetic refreshes to $150-$300+ per square foot for full gut renovations. A typical moderate renovation of a 3,000 square foot retail or office space costs approximately $150,000-$300,000. Restaurant and medical renovations cost more due to specialized requirements. Contact We Coat at <strong>(980) 471-1745</strong> for a project-specific estimate.</p>
 
 <h3>What permits do I need for commercial renovation in Dearborn?</h3>
 <p>Commercial renovation in Dearborn requires a building permit from the City of Dearborn Building Department, plus trade permits for electrical, plumbing, and mechanical work as applicable. Depending on the scope, you may also need sign permits, zoning compliance verification, fire marshal approval, and health department approval for restaurant or food service renovations. We Coat handles all permitting as part of our general contracting services.</p>
@@ -848,7 +848,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Yes, many commercial renovations in Dearborn can be phased to allow continued business operations. This requires careful planning — separating the project into sections, scheduling noisy and dusty work during off-hours, installing temporary partitions, and maintaining customer access throughout. We Coat specializes in occupied-space renovations and develops detailed phasing plans to keep your business running during construction.</p>
 
 <h3>Why should I choose We Coat for my Dearborn renovation?</h3>
-<p>We Coat brings a unique combination of multi-state construction experience, Michigan contractor licensing, and a client-focused approach to the Dearborn market. Our Charlotte headquarters has delivered hundreds of commercial renovation projects, and we are applying that expertise to the Dearborn and broader <a href="/areas/detroit">Detroit metro area</a>. We offer transparent pricing, proactive communication, and a commitment to quality that sets us apart. Call us at <strong>(704) 574-8124</strong> to discuss your project.</p>
+<p>We Coat brings a unique combination of multi-state construction experience, Michigan contractor licensing, and a client-focused approach to the Dearborn market. Our Charlotte headquarters has delivered hundreds of commercial renovation projects, and we are applying that expertise to the Dearborn and broader <a href="/areas/detroit">Detroit metro area</a>. We offer transparent pricing, proactive communication, and a commitment to quality that sets us apart. Call us at <strong>(980) 471-1745</strong> to discuss your project.</p>
 `,
     date: '2026-03-29',
     category: 'Detroit Construction',
@@ -935,7 +935,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Build relationships:</strong> Respectful, professional interactions with plan reviewers and inspectors facilitate smoother processes</li>
 <li><strong>Allow adequate time:</strong> Build permitting time into your project schedule from the start — do not assume permits will be issued quickly</li>
 </ul>
-<p>Contact We Coat at <strong>(704) 574-8124</strong> to discuss your Wayne County construction project. We manage the entire permitting process as part of our general contracting and construction management services, saving you time and ensuring compliance with all applicable codes and regulations.</p>
+<p>Contact We Coat at <strong>(980) 471-1745</strong> to discuss your Wayne County construction project. We manage the entire permitting process as part of our general contracting and construction management services, saving you time and ensuring compliance with all applicable codes and regulations.</p>
 
 <h3>How long does it take to get a commercial construction permit in Detroit?</h3>
 <p>Commercial construction permits in Detroit typically take 4-8 weeks for plan review, depending on project complexity. Simple interior build-outs with no structural changes may be reviewed in 2-3 weeks, while complex projects with structural, MEP, and site work components can take 6-8 weeks or longer. Pre-application meetings with BSEED can help identify issues early and streamline the review process.</p>
@@ -950,7 +950,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>No. Starting construction before permits are issued is a code violation that can result in stop-work orders, fines, and required removal of unpermitted work. In some cases, work done without permits may need to be opened up for inspection, adding significant cost. Always wait for permit issuance before beginning any construction activity.</p>
 
 <h3>Does We Coat handle the permitting process for clients?</h3>
-<p>Yes. Permitting management is a standard part of We Coat's general contracting and <a href="/services/construction-management">construction management</a> services. We prepare and submit permit applications, coordinate with plan reviewers, respond to review comments, schedule and attend inspections, and obtain certificates of occupancy. Whether your project is in <a href="/areas/detroit">Detroit</a>, <a href="/areas/dearborn">Dearborn</a>, or elsewhere in Wayne County, we handle the full permitting process. Call <strong>(704) 574-8124</strong> to learn more.</p>
+<p>Yes. Permitting management is a standard part of We Coat's general contracting and <a href="/services/construction-management">construction management</a> services. We prepare and submit permit applications, coordinate with plan reviewers, respond to review comments, schedule and attend inspections, and obtain certificates of occupancy. Whether your project is in <a href="/areas/detroit">Detroit</a>, <a href="/areas/dearborn">Dearborn</a>, or elsewhere in Wayne County, we handle the full permitting process. Call <strong>(980) 471-1745</strong> to learn more.</p>
 `,
     date: '2026-03-31',
     category: 'Detroit Construction',
@@ -1004,7 +1004,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <li><strong>Infection control during construction:</strong> Renovating or building adjacent to active healthcare spaces requires ICRA (Infection Control Risk Assessment) compliance — negative pressure containment, HEPA-filtered air, sealed barriers, and specific cleaning protocols.</li>
 <li><strong>Regulatory compliance:</strong> Meeting state healthcare facility licensing requirements, CMS conditions, ADA/barrier-free accessibility, and fire and life safety codes for healthcare occupancies adds design and construction costs.</li>
 </ul>
-<p>For a detailed estimate on your Detroit medical construction project, contact We Coat at <strong>(704) 574-8124</strong>.</p>
+<p>For a free consultation on your Detroit medical construction project, contact We Coat at <strong>(980) 471-1745</strong>.</p>
 
 <h2>Medical Construction Regulations in Michigan</h2>
 <p>Healthcare facility construction in Michigan must comply with multiple layers of regulation:</p>
@@ -1047,7 +1047,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Our <a href="/services/pre-construction">pre-construction</a> and <a href="/services/construction-management">construction management</a> services ensure your medical construction project is planned thoroughly, budgeted accurately, and executed safely.</p>
 
 <h3>How much does it cost to build a medical office in Detroit?</h3>
-<p>Medical office construction in Detroit costs $150-$300 per square foot depending on specialty and complexity. A typical 4,000 square foot primary care practice costs approximately $600,000-$1,000,000 for construction, plus $100,000-$400,000 for medical equipment and technology. Specialty practices with imaging, procedure rooms, or surgery suites cost significantly more. Contact We Coat at <strong>(704) 574-8124</strong> for a detailed estimate.</p>
+<p>Medical office construction in Detroit costs $150-$300 per square foot depending on specialty and complexity. A typical 4,000 square foot primary care practice costs approximately $600,000-$1,000,000 for construction, plus $100,000-$400,000 for medical equipment and technology. Specialty practices with imaging, procedure rooms, or surgery suites cost significantly more. Contact We Coat at <strong>(980) 471-1745</strong> for a free consultation.</p>
 
 <h3>What regulations apply to medical construction in Michigan?</h3>
 <p>Medical construction in Michigan must comply with the Michigan Building Code, ADA and Michigan Barrier Free Design requirements, MDHHS plan review and licensing (for applicable facility types), CMS Conditions for Coverage (if accepting Medicare/Medicaid), NFPA 101 Life Safety Code, and local building and zoning codes. We Coat navigates all of these regulatory requirements as part of our medical construction services.</p>
@@ -1059,7 +1059,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Yes. We Coat is trained in ICRA (Infection Control Risk Assessment) procedures and has the equipment and protocols to perform construction in and adjacent to active healthcare facilities. We work closely with facility infection control practitioners to maintain appropriate containment, negative pressure, and air filtration throughout the project.</p>
 
 <h3>Does We Coat work with healthcare architects and equipment vendors?</h3>
-<p>Absolutely. Medical construction success depends on close coordination between the general contractor, healthcare architect, MEP engineers, medical equipment vendors, and technology consultants. We Coat regularly coordinates with these team members and can recommend experienced healthcare design professionals in both the <a href="/areas/detroit">Detroit</a> and Charlotte markets. Our <a href="/services/design-build">design-build</a> approach can also integrate design and construction under one contract for streamlined delivery.</p>
+<p>Absolutely. Medical construction success depends on close coordination between the general contractor, healthcare architect, MEP engineers, medical equipment vendors, and technology consultants. We Coat regularly coordinates with these team members and can recommend experienced healthcare design professionals in both the <a href="/areas/detroit">Detroit</a> and Charlotte markets. Our <a href="/services/general-contractor">general contracting</a> approach integrates design coordination and construction under one team for streamlined delivery.</p>
 `,
     date: '2026-04-02',
     category: 'Detroit Construction',
@@ -1107,7 +1107,7 @@ export const detroitMarketPosts: BlogPost[] = [
 
 <h2>Mixed-Use Development</h2>
 <p>Mixed-use development is the dominant format for new construction and major adaptive reuse projects in Detroit. These projects combine two or more uses — typically ground-floor retail/restaurant with upper-floor office and/or residential — in a single building or campus.</p>
-<p>Key mixed-use development areas in Detroit include Corktown (anchored by Ford's Michigan Central Station campus), the Woodward Corridor from downtown through Midtown to New Center, the Riverfront from downtown east through the proposed Amazon campus area, and Capitol Park and the Grand River corridor. Mixed-use development requires <a href="/services/design-build">design-build</a> expertise and <a href="/services/construction-management">construction management</a> capabilities that can handle the complexity of multiple occupancy types, diverse tenant requirements, and phased construction schedules.</p>
+<p>Key mixed-use development areas in Detroit include Corktown (anchored by Ford's Michigan Central Station campus), the Woodward Corridor from downtown through Midtown to New Center, the Riverfront from downtown east through the proposed Amazon campus area, and Capitol Park and the Grand River corridor. Mixed-use development requires <a href="/services/general-contractor">general contracting</a> expertise and <a href="/services/construction-management">construction management</a> capabilities that can handle the complexity of multiple occupancy types, diverse tenant requirements, and phased construction schedules.</p>
 
 <h2>Adaptive Reuse Continues to Dominate</h2>
 <p>Detroit's most exciting development projects continue to be <a href="/services/adaptive-reuse">adaptive reuse</a> conversions. The city's extraordinary inventory of historic industrial, commercial, and institutional buildings provides a seemingly endless pipeline of adaptive reuse opportunities. Key adaptive reuse trends in 2026 include larger-scale projects involving entire industrial campuses rather than single buildings, creative financing combining historic tax credits, New Markets Tax Credits, brownfield incentives, and conventional debt, increasing sophistication in preservation approaches that honor building character while delivering modern performance, and growing investor comfort with Detroit adaptive reuse as successful projects demonstrate strong returns.</p>
@@ -1119,8 +1119,8 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Sustainability is increasingly important in Detroit's commercial real estate market. Tenants, investors, and municipalities are prioritizing buildings with strong environmental performance. Our <a href="/services/green-building">green building</a> services help developers and owners meet these expectations through energy-efficient building systems, sustainable material selection, water conservation features, indoor air quality optimization, and building performance monitoring. Green building features not only reduce operating costs but increasingly command premium rents and attract quality tenants.</p>
 
 <h2>Construction Market Implications</h2>
-<p>For commercial construction firms operating in Detroit, these development trends have several implications. There is strong and diversified demand across all property sectors, increasing project complexity as mixed-use and adaptive reuse projects grow, growing importance of specialized capabilities in healthcare, restaurant, and industrial construction, continued emphasis on speed-to-market through design-build and fast-track delivery methods, and rising material and labor costs requiring sophisticated cost management.</p>
-<p>We Coat is positioned to serve this dynamic market with our multi-sector commercial construction expertise, Michigan contractor licensing, and the operational discipline developed through years of project delivery from our Charlotte headquarters. Contact us at <strong>(704) 574-8124</strong> to discuss how these market trends affect your Detroit commercial real estate development plans.</p>
+<p>For commercial construction firms operating in Detroit, these development trends have several implications. There is strong and diversified demand across all property sectors, increasing project complexity as mixed-use and adaptive reuse projects grow, growing importance of specialized capabilities in healthcare, restaurant, and industrial construction, continued emphasis on speed-to-market through integrated and fast-track delivery methods, and rising material and labor costs requiring sophisticated cost management.</p>
+<p>We Coat is positioned to serve this dynamic market with our multi-sector commercial construction expertise, Michigan contractor licensing, and the operational discipline developed through years of project delivery from our Charlotte headquarters. Contact us at <strong>(980) 471-1745</strong> to discuss how these market trends affect your Detroit commercial real estate development plans.</p>
 
 <h3>What are the strongest commercial real estate sectors in Detroit for 2026?</h3>
 <p>The strongest sectors in Detroit's commercial real estate market for 2026 are industrial and logistics (driven by EV supply chain and e-commerce), healthcare and medical office (driven by outpatient facility expansion), and mixed-use development (driven by urban revitalization in neighborhoods like Corktown and Midtown). Office demand is recovering in high-quality spaces, and the restaurant and retail sectors continue to grow, particularly in emerging neighborhoods.</p>
@@ -1135,7 +1135,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Yes. Detroit's commercial construction market offers strong and diversified demand, relatively lower competition than some peer markets, opportunities across all property sectors, a growing economy attracting new businesses and investment, and available workforce with deep construction skills from the automotive industry. We Coat's expansion from Charlotte to Detroit is based on our assessment that the market offers significant long-term opportunity for quality commercial contractors.</p>
 
 <h3>How can I get started with a commercial development project in Detroit?</h3>
-<p>Starting a commercial development project in Detroit begins with market research and site selection, followed by engaging a development team including architect, general contractor, and legal counsel. We Coat's <a href="/services/pre-construction">pre-construction services</a> help developers evaluate sites, estimate construction costs, and plan project delivery before committing significant capital. Contact us at <strong>(704) 574-8124</strong> to discuss your development concept and how we can help bring it to reality in the <a href="/areas/detroit">Detroit</a> or <a href="/areas/dearborn">Dearborn</a> market.</p>
+<p>Starting a commercial development project in Detroit begins with market research and site selection, followed by engaging a development team including architect, general contractor, and legal counsel. We Coat's <a href="/services/pre-construction">pre-construction services</a> help developers evaluate sites, estimate construction costs, and plan project delivery before committing significant capital. Contact us at <strong>(980) 471-1745</strong> to discuss your development concept and how we can help bring it to reality in the <a href="/areas/detroit">Detroit</a> or <a href="/areas/dearborn">Dearborn</a> market.</p>
 `,
     date: '2026-04-06',
     category: 'Detroit Construction',
@@ -1191,7 +1191,7 @@ export const detroitMarketPosts: BlogPost[] = [
 </ul>
 <p>For a 10,000 square foot commercial roof, typical coating costs range from $20,000-$55,000 for coating alone, plus $5,000-$15,000 for preparation work including cleaning, minor repairs, seam treatment, and flashing reinforcement.</p>
 <p>Compare these costs to full roof replacement at $7-$14 per square foot ($70,000-$140,000 for a 10,000 SF roof), and the economic case for coating becomes clear — 50-70% savings compared to replacement, with comparable performance and lifespan extension.</p>
-<p>Contact We Coat at <strong>(704) 574-8124</strong> for a free roof assessment and coating estimate for your Detroit commercial building.</p>
+<p>Contact We Coat at <strong>(980) 471-1745</strong> for a free roof assessment and coating estimate for your Detroit commercial building.</p>
 
 <h2>The Roof Coating Process</h2>
 <p>We Coat's commercial roof coating process follows a systematic approach designed for Michigan conditions:</p>
@@ -1238,7 +1238,7 @@ export const detroitMarketPosts: BlogPost[] = [
 <p>Commercial roof coating in Detroit typically costs $2.00-$6.00 per square foot compared to $7.00-$14.00 per square foot for full roof replacement. For a 10,000 square foot commercial roof, that represents savings of $40,000-$80,000. Additionally, roof coating produces ongoing energy savings of 10-25% on cooling costs and, with SPF systems, significant heating cost reductions as well. Over the coating's 15-20 year lifespan, total savings can exceed $100,000 compared to replacement.</p>
 
 <h3>Is my Detroit commercial roof a good candidate for coating?</h3>
-<p>Most Detroit commercial flat roofs are candidates for coating if the existing membrane is in fair to good condition, the roof insulation is dry (not saturated with moisture), there are no significant structural issues with the roof deck, and the roof has fewer than two existing coating layers. We Coat conducts a thorough roof assessment including moisture scanning to determine candidacy. Roofs with extensive damage, saturated insulation, or structural issues may require replacement rather than coating. Call <strong>(704) 574-8124</strong> to schedule a free assessment.</p>
+<p>Most Detroit commercial flat roofs are candidates for coating if the existing membrane is in fair to good condition, the roof insulation is dry (not saturated with moisture), there are no significant structural issues with the roof deck, and the roof has fewer than two existing coating layers. We Coat conducts a thorough roof assessment including moisture scanning to determine candidacy. Roofs with extensive damage, saturated insulation, or structural issues may require replacement rather than coating. Call <strong>(980) 471-1745</strong> to schedule a free assessment.</p>
 
 <h3>Does We Coat offer roof coating warranties in Detroit?</h3>
 <p>Yes. We Coat provides workmanship warranties on all roof coating projects, and we install coating systems that qualify for manufacturer material warranties of 10-20 years depending on the product and application specifications. We register all applicable manufacturer warranties on your behalf and provide comprehensive documentation including product data, application records, and maintenance recommendations. Our commitment to quality in both the Charlotte and <a href="/areas/detroit">Detroit</a> markets is backed by warranties you can count on.</p>

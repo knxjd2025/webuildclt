@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Construction Company Lake Norman NC | General Contractor Cornelius, Davidson, Mooresville',
     description:
-      'Licensed NC general contractor serving Lake Norman communities. Commercial construction, commercial upfits, and design-build. 60+ years combined experience.',
+      'Licensed NC general contractor serving Lake Norman communities. Commercial construction and commercial upfits. 60+ years combined experience.',
     type: 'website',
   },
 };
@@ -72,13 +72,6 @@ const services = [
     href: '/services/commercial-upfits',
     description:
       'The Lake Norman business landscape changes rapidly, and commercial spaces need to keep pace. Our commercial upfit services transform existing retail, office, and industrial spaces to match your brand and operational needs. We work with business owners and property managers across Cornelius, Davidson, Mooresville, and Huntersville to reconfigure floor plans, upgrade finishes, improve ADA compliance, and modernize building systems. From a boutique retail upfit in Birkdale Village to a full office renovation in the Northlake area, we manage every detail including permits, inspections, and tenant coordination to minimize disruption to your business operations.',
-  },
-  {
-    icon: HardHat,
-    title: 'Design-Build',
-    href: '/services/design-build',
-    description:
-      'Our design-build approach streamlines your Lake Norman construction project by combining architectural design and construction under a single contract. This method reduces miscommunication between designers and builders, keeps timelines shorter, and gives you a single point of accountability. For Lake Norman homeowners and business owners who want a collaborative process from concept through completion, design-build is often the most efficient path. Visit our design center to explore materials, finishes, and layouts before construction begins.',
   },
   {
     icon: Shield,
@@ -133,7 +126,7 @@ const communities = [
   {
     name: 'Mooresville',
     description:
-      'Mooresville is the largest community on Lake Norman, located in Iredell County with a rapidly expanding commercial base. The town offers active business parks and a growing retail landscape. Mooresville operates under Iredell County building codes, which differ from Mecklenburg County in several important ways. We Build understands these differences and navigates Iredell County permitting efficiently. We serve Mooresville with commercial construction, upfits, design-build, and our full range of construction services.',
+      'Mooresville is the largest community on Lake Norman, located in Iredell County with a rapidly expanding commercial base. The town offers active business parks and a growing retail landscape. Mooresville operates under Iredell County building codes, which differ from Mecklenburg County in several important ways. We Build understands these differences and navigates Iredell County permitting efficiently. We serve Mooresville with commercial construction, upfits, and our full range of construction services.',
   },
   {
     name: 'Huntersville',
@@ -223,11 +216,6 @@ const faqs = [
       'Yes, but construction in FEMA-designated flood zones requires specific engineering and compliance measures. Properties in flood zones A or AE around Lake Norman must meet FEMA floodplain management regulations, which typically require elevated foundations, flood-resistant materials below the base flood elevation, and specific mechanical system placement. We work with structural engineers and floodplain administrators to design and build compliant structures. We also assist property owners in understanding how flood zone classification affects insurance requirements and construction costs.',
   },
   {
-    question: 'Do you offer design-build services in Lake Norman?',
-    answer:
-      'Yes. Our design-build services combine architectural planning and construction management under a single contract, which simplifies your project timeline and reduces the potential for miscommunication between separate design and construction teams. This approach works particularly well for commercial projects and renovations in the Lake Norman area. We invite clients to visit our design center to explore materials, finishes, and design options before construction begins. Learn more about our design-build approach on our design-build services page.',
-  },
-  {
     question: 'How long does a typical construction project take in Lake Norman?',
     answer:
       'Construction timelines in the Lake Norman area vary by project type. Commercial upfits typically take 2 to 5 months. Ground-up commercial construction ranges from 8 to 14 months depending on the size and complexity. Waterfront projects often take longer due to additional permitting requirements, foundation engineering, and coordination with Duke Energy and environmental agencies. Factors that affect timeline include plan review and permitting duration (which varies by county), weather conditions, material availability, and the complexity of site work. We provide a detailed project schedule during the planning phase so you know what to expect.',
@@ -265,7 +253,7 @@ export default function LakeNormanPage() {
 
       <PageHero
         title="Construction Company Lake Norman NC | General Contractor Cornelius, Davidson, Mooresville"
-        subtitle="Veteran and family-owned general contractor serving Lake Norman communities with commercial construction, upfits, and design-build expertise"
+        subtitle="Veteran and family-owned general contractor serving Lake Norman communities with commercial construction and upfit expertise"
         backgroundImage="/images/hero-bg.jpg"
       />
 
@@ -302,9 +290,9 @@ export default function LakeNormanPage() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+17045748124">
+                  <a href="tel:+19804711745">
                     <Phone className="mr-2 h-5 w-5" />
-                    (704) 574-8124
+                    (980) 471-1745
                   </a>
                 </Button>
               </div>
@@ -337,13 +325,6 @@ export default function LakeNormanPage() {
                     <Link href="/portfolio" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
                       <Building2 className="h-4 w-4" />
                       <span>View Our Portfolio</span>
-                      <ArrowRight className="h-3 w-3 ml-auto" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/design-center" className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors">
-                      <Paintbrush className="h-4 w-4" />
-                      <span>Visit Design Center</span>
                       <ArrowRight className="h-3 w-3 ml-auto" />
                     </Link>
                   </li>
@@ -382,7 +363,7 @@ export default function LakeNormanPage() {
             <span className="text-primary font-semibold uppercase tracking-wider text-sm">Full-Service Construction</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2">Construction Services in Lake Norman</h2>
             <p className="text-muted-foreground mt-4 max-w-3xl mx-auto">
-              We Build provides a comprehensive range of construction services to homeowners and businesses across the Lake Norman region. Every project is managed by our experienced team from start to finish, ensuring quality craftsmanship and adherence to local building codes in Mecklenburg, Iredell, Lincoln, and Catawba counties.
+              We Build provides a comprehensive range of construction services to businesses across the Lake Norman region. Every project is managed by our experienced team from start to finish, ensuring quality craftsmanship and adherence to local building codes in Mecklenburg, Iredell, Lincoln, and Catawba counties.
             </p>
           </div>
           <div className="space-y-8">
@@ -462,7 +443,7 @@ export default function LakeNormanPage() {
                 Mooresville represents the largest and most diverse construction market in the Lake Norman region. The town&apos;s Iredell County location offers competitive land costs compared to Mecklenburg County communities, attracting both residential developers and commercial operators. Mooresville has seen significant growth in healthcare facilities, retail centers, business parks, and residential subdivisions. The town&apos;s expanding infrastructure including road improvements and utility extensions continues to open new areas for development.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Huntersville has emerged as a major suburban employment center with substantial retail, office, and mixed-use development. The Northlake and Birkdale areas represent two of the most active commercial districts in the Charlotte metro. Huntersville&apos;s residential market features a range of housing from starter homes to luxury communities, creating diverse opportunities for construction projects. The western Lake Norman communities of Denver and Sherrills Ford continue to attract homeowners seeking lakefront living with a more rural character, driving demand for custom home construction and general contracting services in Lincoln and Catawba counties.
+                Huntersville has emerged as a major suburban employment center with substantial retail, office, and mixed-use development. The Northlake and Birkdale areas represent two of the most active commercial districts in the Charlotte metro. The western Lake Norman communities of Denver and Sherrills Ford continue to grow, driving demand for commercial construction and general contracting services in Lincoln and Catawba counties.
               </p>
             </div>
           </div>
@@ -689,7 +670,7 @@ export default function LakeNormanPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Build in Lake Norman?</h2>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact We Build for a free consultation on your Lake Norman construction project. Whether you are planning a commercial build, custom home, waterfront renovation, or commercial upfit, our team is ready to help you build with confidence.
+            Contact We Build for a free consultation on your Lake Norman construction project. Whether you are planning a commercial build, waterfront renovation, or commercial upfit, our team is ready to help you build with confidence.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
@@ -701,9 +682,9 @@ export default function LakeNormanPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

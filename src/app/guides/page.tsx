@@ -11,18 +11,16 @@ import { Button } from '@/components/ui/button';
 import { getAllGuides } from '@/data/guides';
 
 export const metadata: Metadata = {
-  title: 'Guides | Construction & Home Improvement Guides Charlotte NC',
+  title: 'Guides | Commercial Construction Guides Charlotte NC',
   description:
-    'Free, in-depth Charlotte construction guides for homeowners and business owners — home maintenance, flooring, kitchen remodels, commercial build-outs, roof care, and more. Expert tips from We Build.',
+    'Free, in-depth Charlotte construction guides for business owners — commercial build-outs, flooring, roof care, and more. Expert tips from We Build.',
   keywords: [
     'Charlotte construction guides',
-    'home improvement guides Charlotte NC',
     'commercial construction tips',
-    'home maintenance guide charlotte',
-    'flooring guide charlotte nc',
-    'kitchen remodel guide',
+    'commercial flooring guide charlotte nc',
     'commercial construction guide charlotte',
     'roof maintenance guide',
+    'restaurant build-out guide charlotte',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/guides',
@@ -42,7 +40,7 @@ export default function GuidesPage() {
       <JsonLd data={breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Guides' }])} />
       <PageHero
         title="Guides"
-        subtitle="Free, expert construction and home improvement guides for Charlotte"
+        subtitle="Free, expert commercial construction guides for Charlotte"
         backgroundImage="/images/hero-bg.jpg"
       />
 
@@ -52,10 +50,10 @@ export default function GuidesPage() {
 
           <div className="max-w-3xl mt-8 mb-12">
             <h2 className="text-3xl font-bold mb-4">
-              Expert Guides for Homeowners & Business Owners
+              Expert Guides for Business Owners
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              We created these guides to help Charlotte homeowners and business
+              We created these guides to help Charlotte business
               owners make informed decisions about construction, maintenance, and
               improvements. Each guide is written by our experienced team and
               tailored to Charlotte&apos;s specific climate, codes, and market

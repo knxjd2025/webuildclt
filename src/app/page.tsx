@@ -34,14 +34,14 @@ export const metadata: Metadata = {
   title:
     'We Build | Commercial Construction Company Charlotte NC | General Contractor',
   description:
-    'We Build is Charlotte NC\'s veteran-owned commercial construction company. General contractor licensed in NC & SC. Commercial upfits, design-build, roof coating. 60+ years combined experience. USGBC member. Free estimates: (704) 574-8124.',
+    'We Build is Charlotte NC\'s veteran-owned commercial construction company. General contractor licensed in NC & SC. Commercial upfits, commercial construction, roof coating. 60+ years combined experience. USGBC member. Free consultations: (980) 471-1745.',
   alternates: {
     canonical: 'https://webuildclt.com',
   },
   openGraph: {
     title: 'We Build | Commercial Construction Company Charlotte NC',
     description:
-      'Veteran-owned commercial construction company in Charlotte, NC. Licensed in NC & SC. Commercial upfits, design-build, roof coating. 60+ years combined experience. Free estimates.',
+      'Veteran-owned commercial construction company in Charlotte, NC. Licensed in NC & SC. Commercial upfits, commercial construction, roof coating. 60+ years combined experience. Free consultations.',
     url: 'https://webuildclt.com',
     siteName: 'We Build',
     locale: 'en_US',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'We Build | Commercial Construction Company Charlotte NC',
     description:
-      'Veteran-owned commercial construction. Licensed in NC & SC. 60+ years experience. Free estimates: (704) 574-8124.',
+      'Veteran-owned commercial construction. Licensed in NC & SC. 60+ years experience. Free consultations: (980) 471-1745.',
   },
 };
 
@@ -95,10 +95,6 @@ export default function HomePage() {
                 commercial upfits
               </Link>{' '}
               to{' '}
-              <Link href="/services/design-build" className="underline text-[var(--on-image)] hover:text-primary transition-colors">
-                design-build
-              </Link>{' '}
-              and{' '}
               <Link href="/services/roof-coating" className="underline text-[var(--on-image)] hover:text-primary transition-colors">
                 roof coatings
               </Link>
@@ -107,15 +103,15 @@ export default function HomePage() {
             <p className="text-base text-[var(--on-image-muted)] mb-8 leading-relaxed">
               USGBC member. Serving Charlotte, South Charlotte, Fort Mill SC,
               Lake Norman, and the greater Carolina region. Call{' '}
-              <a href="tel:+17045748124" className="text-primary font-semibold hover:underline">
-                (704) 574-8124
+              <a href="tel:+19804711745" className="text-primary font-semibold hover:underline">
+                (980) 471-1745
               </a>{' '}
-              for a free estimate.
+              for a free consultation.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" asChild className="btn-shimmer">
                 <Link href="/contact">
-                  Get a Free Quote
+                  Get a Free Consultation
                   <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                 </Link>
               </Button>
@@ -123,7 +119,7 @@ export default function HomePage() {
                 <Link href="/portfolio">View Our Work</Link>
               </Button>
               <Button size="lg" variant="onImage" className="md:hidden" asChild>
-                <a href="tel:+17045748124">
+                <a href="tel:+19804711745">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
                   Call Now
                 </a>

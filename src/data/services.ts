@@ -24,7 +24,6 @@ export const allServices: ServiceLink[] = [
   { name: 'Tenant Improvements', href: '/services/tenant-improvements', description: 'Lease space customization and tenant fit-out projects.', category: 'commercial' },
   { name: 'Brewery Construction', href: '/services/brewery-construction', description: 'Craft brewery, taproom, brewpub, and cidery construction.', category: 'commercial' },
   // — Specialty —
-  { name: 'Design-Build', href: '/services/design-build', description: 'Integrated design and construction under one roof.', category: 'specialty' },
   { name: 'General Contractor', href: '/services/general-contractor', description: 'Full-service general contracting for any project type.', category: 'specialty' },
   { name: 'Construction Management', href: '/services/construction-management', description: 'Professional project oversight and construction management.', category: 'specialty' },
   { name: 'Pre-Construction', href: '/services/pre-construction', description: 'Budgeting, planning, and feasibility before breaking ground.', category: 'specialty' },
@@ -71,7 +70,6 @@ export const serviceToGuides: Record<string, string[]> = {
   'medical-construction': ['medical-office-setup-guide-charlotte', 'ada-compliance-guide-charlotte-businesses', 'commercial-flooring-guide-business-type'],
   'industrial-construction': ['commercial-building-maintenance-checklist', 'energy-efficiency-guide-charlotte-homes', 'commercial-roof-inspection-checklist-charlotte'],
   'tenant-improvements': ['tenant-improvement-allowance-guide-charlotte', 'commercial-construction-financing-guide-charlotte', 'office-build-out-guide-charlotte', 'commercial-flooring-guide-business-type'],
-  'design-build': ['commercial-construction-timeline-guide-charlotte', 'charlotte-building-permit-guide', 'choosing-right-contractor-charlotte-guide'],
   'general-contractor': ['commercial-construction-costs-charlotte', 'charlotte-building-permit-guide', 'commercial-construction-timeline-guide-charlotte', 'choosing-right-contractor-charlotte-guide'],
   'construction-management': ['commercial-construction-timeline-guide-charlotte', 'commercial-construction-costs-charlotte', 'commercial-building-maintenance-checklist'],
   'pre-construction': ['commercial-construction-costs-charlotte', 'commercial-construction-timeline-guide-charlotte', 'commercial-construction-financing-guide-charlotte', 'charlotte-building-permit-guide'],

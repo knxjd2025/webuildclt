@@ -21,7 +21,6 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Services', href: '/services/general-contractor', hasDropdown: true },
   { name: 'Portfolio', href: '/portfolio' },
-  { name: 'Design Center', href: '/design-center' },
   { name: 'We Coat', href: '/we-coat' },
   { name: 'Guides', href: '/guides' },
   { name: 'Blog', href: '/blog' },
@@ -215,14 +214,14 @@ export function Header() {
           {/* CTA Button - Desktop */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:+17045748124"
+              href="tel:+19804711745"
               className={cn(
                 'flex items-center gap-2 text-sm font-medium transition-colors',
                 'text-foreground'
               )}
             >
               <Phone className="h-4 w-4" aria-hidden="true" />
-              (704) 574-8124
+              (980) 471-1745
             </a>
             <ThemeToggle />
             <Button asChild>
@@ -315,14 +314,6 @@ export function Header() {
                   </SheetClose>
                   <SheetClose asChild>
                     <Link
-                      href="/design-center"
-                      className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
-                    >
-                      Design Center
-                    </Link>
-                  </SheetClose>
-                  <SheetClose asChild>
-                    <Link
                       href="/we-coat"
                       className="text-lg font-medium text-foreground hover:text-primary transition-colors py-3 min-h-11 flex items-center"
                     >
@@ -374,11 +365,11 @@ export function Header() {
 
                 <div className="flex flex-col gap-4 pt-6 border-t">
                   <a
-                    href="tel:+17045748124"
+                    href="tel:+19804711745"
                     className="flex items-center gap-2 text-foreground"
                   >
                     <Phone className="h-5 w-5" aria-hidden="true" />
-                    (704) 574-8124
+                    (980) 471-1745
                   </a>
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-muted-foreground">Theme</span>

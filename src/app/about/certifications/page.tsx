@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   title:
     'Certifications & Licenses | We Build — Veteran-Owned, USGBC Member, Licensed in NC & SC',
   description:
-    'We Build is a veteran-owned, fully licensed, and insured general contractor in Charlotte, NC. USGBC member, FAA Part 107 certified drone pilot, licensed in North Carolina and South Carolina. General liability, workers comp, and commercial auto insurance. Free estimates — (704) 574-8124.',
+    'We Build is a veteran-owned, fully licensed, and insured general contractor in Charlotte, NC. USGBC member, FAA Part 107 certified drone pilot, licensed in North Carolina and South Carolina. General liability, workers comp, and commercial auto insurance. Free consultations — (980) 471-1745.',
   keywords: [
     'veteran owned construction company Charlotte NC',
     'USGBC member contractor Charlotte',
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Certifications & Licenses | We Build — Veteran-Owned, USGBC Member',
     description:
-      'Fully licensed, insured, and certified general contractor in Charlotte, NC. USGBC member, FAA Part 107 drone pilot, licensed in NC & SC. Veteran and family-owned. (704) 574-8124.',
+      'Fully licensed, insured, and certified general contractor in Charlotte, NC. USGBC member, FAA Part 107 drone pilot, licensed in NC & SC. Veteran and family-owned. (980) 471-1745.',
     url: 'https://webuildclt.com/about/certifications',
     type: 'website',
   },
@@ -160,7 +160,7 @@ const faqs = [
   {
     question: 'Can you provide proof of insurance and licensing?',
     answer:
-      'Absolutely. We Build provides copies of all current certificates of insurance and contractor licenses to clients upon request, and we are happy to have our insurance carrier add your organization as an additional insured on our general liability policy if your project requires it. We strongly encourage every property owner to verify their contractor\'s insurance and licensing before any construction work begins. Contact us at (704) 574-8124 or through our contact page to request documentation.',
+      'Absolutely. We Build provides copies of all current certificates of insurance and contractor licenses to clients upon request, and we are happy to have our insurance carrier add your organization as an additional insured on our general liability policy if your project requires it. We strongly encourage every property owner to verify their contractor\'s insurance and licensing before any construction work begins. Contact us at (980) 471-1745 or through our contact page to request documentation.',
   },
   {
     question: 'What safety certifications does We Build hold?',
@@ -170,12 +170,12 @@ const faqs = [
   {
     question: 'How many years of experience does We Build have?',
     answer:
-      'We Build was founded in 2019 and our team brings over 60 years of combined construction experience spanning commercial construction, commercial upfits, design-build, roof coatings, general contracting, and project management. Our experience covers projects across North Carolina and South Carolina in sectors including commercial offices, retail, restaurants, medical facilities, warehouses, and industrial buildings.',
+      'We Build was founded in 2019 and our team brings over 60 years of combined construction experience spanning commercial construction, commercial upfits, roof coatings, general contracting, and project management. Our experience covers projects across North Carolina and South Carolina in sectors including commercial offices, retail, restaurants, medical facilities, warehouses, and industrial buildings.',
   },
   {
     question: 'What areas does We Build serve?',
     answer:
-      'We Build serves the Charlotte, NC metropolitan area including South Charlotte, Lake Norman, Huntersville, Matthews, Mooresville, Fort Mill SC, Rock Hill SC, and surrounding communities in North Carolina and South Carolina. Contact us at (704) 574-8124 to discuss your project — if it is within our licensed service areas, we can help.',
+      'We Build serves the Charlotte, NC metropolitan area including South Charlotte, Lake Norman, Huntersville, Matthews, Mooresville, Fort Mill SC, Rock Hill SC, and surrounding communities in North Carolina and South Carolina. Contact us at (980) 471-1745 to discuss your project — if it is within our licensed service areas, we can help.',
   },
 ];
 
@@ -234,9 +234,9 @@ export default function CertificationsPage() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="tel:+17045748124">
+                <a href="tel:+19804711745">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                  (704) 574-8124
+                  (980) 471-1745
                 </a>
               </Button>
             </div>
@@ -390,8 +390,8 @@ export default function CertificationsPage() {
                   Contact us
                 </Link>{' '}
                 or call{' '}
-                <a href="tel:+17045748124" className="text-primary hover:underline font-medium">
-                  (704) 574-8124
+                <a href="tel:+19804711745" className="text-primary hover:underline font-medium">
+                  (980) 471-1745
                 </a>
                 .
               </span>
@@ -605,7 +605,7 @@ export default function CertificationsPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -613,9 +613,9 @@ export default function CertificationsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

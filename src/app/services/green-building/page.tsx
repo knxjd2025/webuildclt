@@ -42,7 +42,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Green Building & Sustainable Construction Charlotte NC | USGBC Contractor',
   description:
-    'USGBC member green building contractor in Charlotte, NC. LEED construction, energy-efficient building, sustainable materials, water conservation, indoor air quality, and solar-ready construction. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'USGBC member green building contractor in Charlotte, NC. LEED construction, energy-efficient building, sustainable materials, water conservation, indoor air quality, and solar-ready construction. Veteran-owned, licensed in NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'green building contractor Charlotte NC',
     'green building contractor near me',
@@ -208,11 +208,6 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, enabling us to serve green building clients throughout the Charlotte metro area and beyond. Our dual-state licensing is especially valuable for companies with facilities on both sides of the state line who want consistent green building standards across their entire portfolio.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build Green Integration',
-    desc: 'Our design-build approach integrates sustainability into every project phase from the earliest design decisions through construction and commissioning. When architecture, engineering, and construction are coordinated under one contract, green building strategies are embedded into the project DNA rather than added as afterthoughts during construction. This integration eliminates the value engineering battles that often strip sustainability features from projects managed by separate design and construction firms.',
   },
   {
     icon: Leaf,
@@ -442,13 +437,11 @@ export default function GreenBuildingPage() {
                 </Link>{' '}
                 with over 60 years of combined construction experience. We deliver green building
                 services across the Charlotte metro area for commercial offices, retail spaces,
-                medical facilities, restaurants, warehouses, and mixed-use developments. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">
-                  design-build
-                </Link>{' '}
-                approach integrates sustainability into every project phase, from initial energy
-                modeling and LEED credit strategy through construction, commissioning, and
-                certification. Licensed in both North Carolina and South Carolina, we serve
+                medical facilities, restaurants, warehouses, and mixed-use developments. We integrate
+                sustainability into every project phase, from initial energy modeling and LEED credit
+                strategy through construction, commissioning, and certification. We work closely with
+                your architect and design team to ensure green building goals are achieved.
+                Licensed in both North Carolina and South Carolina, we serve
                 Charlotte and the surrounding communities including{' '}
                 <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">
                   Fort Mill
@@ -466,7 +459,7 @@ export default function GreenBuildingPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -1001,7 +994,7 @@ export default function GreenBuildingPage() {
               { title: 'Commercial Construction', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction with integrated green building strategies for new facilities.' },
               { title: 'Roof Coating Charlotte NC', href: '/services/roof-coating', type: 'Service', desc: 'Reflective roof coatings that reduce cooling costs by up to 30% and contribute to LEED credits and energy efficiency.' },
               { title: 'Adaptive Reuse Construction', href: '/services/adaptive-reuse', type: 'Service', desc: 'Sustainable building conversion that preserves embodied energy and reduces construction waste through adaptive reuse.' },
-              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Single-source design and construction that integrates sustainability from the earliest design phase.' },
+              { title: 'Value Engineering', href: '/services/value-engineering', type: 'Service', desc: 'Cost optimization strategies that maintain sustainability goals while reducing project costs.' },
               { title: 'Commercial Upfits', href: '/services/commercial-upfits', type: 'Service', desc: 'Sustainable interior renovations and tenant build-outs with LEED Commercial Interiors support.' },
               { title: 'Green Building Guide: Sustainable Construction in Charlotte', href: '/guides/green-building-guide-sustainable-charlotte', type: 'Guide', desc: 'Learn about sustainable building practices, LEED certification, and energy-efficient construction strategies for Charlotte projects.' },
               { title: 'Energy Efficiency Guide for Charlotte Homes', href: '/guides/energy-efficiency-guide-charlotte-homes', type: 'Guide', desc: 'Practical tips for improving energy efficiency in new construction and renovations throughout Charlotte.' },
@@ -1057,7 +1050,7 @@ export default function GreenBuildingPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -1065,9 +1058,9 @@ export default function GreenBuildingPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

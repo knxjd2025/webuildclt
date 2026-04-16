@@ -40,7 +40,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Medical & Healthcare Construction Charlotte NC | Clinic, Dental & Surgical Build-Outs',
   description:
-    'Expert medical and healthcare construction in Charlotte, NC. Commercial general contractors for medical office buildings, dental practices, urgent care clinics, surgical centers, veterinary clinics & physical therapy facilities. HIPAA-compliant layouts, infection control, medical gas systems. Veteran-owned, licensed in NC & SC. (704) 574-8124.',
+    'Expert medical and healthcare construction in Charlotte, NC. Commercial general contractors for medical office buildings, dental practices, urgent care clinics, surgical centers, veterinary clinics & physical therapy facilities. HIPAA-compliant layouts, infection control, medical gas systems. Veteran-owned, licensed in NC & SC. (980) 471-1745.',
   keywords: [
     'medical office construction Charlotte NC',
     'medical construction near me',
@@ -146,7 +146,7 @@ const processSteps = [
   {
     step: '03',
     title: 'Medical Space Planning & Workflow Design',
-    desc: 'Healthcare space planning is fundamentally different from commercial office planning because clinical workflow, infection control pathways, and patient experience must all be optimized simultaneously. Our design team creates floor plans that separate clean and soiled utility paths, minimize patient travel distances between check-in and treatment areas, provide direct sight lines from nursing stations to patient areas, and comply with ADA clearance requirements in examination and procedure rooms. You can visit our Design Center to review material options and see finish samples.',
+    desc: 'Healthcare space planning is fundamentally different from commercial office planning because clinical workflow, infection control pathways, and patient experience must all be optimized simultaneously. We work with your architect and design team to create floor plans that separate clean and soiled utility paths, minimize patient travel distances between check-in and treatment areas, provide direct sight lines from nursing stations to patient areas, and comply with ADA clearance requirements in examination and procedure rooms.',
   },
   {
     step: '04',
@@ -200,11 +200,6 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, allowing us to serve healthcare providers throughout the greater Charlotte metro area including Fort Mill, Rock Hill, Indian Land, and the Lake Norman corridor. Our dual-state licensing is particularly valuable for healthcare systems with facilities on both sides of the state line, providing a single trusted contractor relationship across all locations.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build Healthcare Expertise',
-    desc: 'Our in-house design-build approach is especially valuable for healthcare projects where clinical workflow, infection control, and regulatory compliance must be integrated from the earliest design decisions. With architecture, engineering, and construction coordinated under one contract, we eliminate the communication gaps that plague healthcare projects where design and construction are handled by separate firms. The result is faster decisions, fewer change orders, and a facility that works exactly as your clinical team needs it to from day one.',
   },
   {
     icon: Zap,
@@ -407,15 +402,12 @@ export default function MedicalConstructionPage() {
                 We Build is a veteran and family-owned{' '}
                 <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> with
                 over 60 years of combined construction experience, including deep expertise in healthcare facility
-                construction across the Charlotte metro area. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link> approach
-                integrates clinical workflow planning, regulatory compliance, and construction execution under one
-                contract and one team. From medical office buildings and dental practices to urgent care clinics
+                construction across the Charlotte metro area. We work closely with your architect and design
+                team to integrate clinical workflow planning, regulatory compliance, and construction execution
+                seamlessly. From medical office buildings and dental practices to urgent care clinics
                 and ambulatory surgical centers, we build healthcare environments that support excellent patient
                 care, meet every regulatory requirement, and stand up to the demanding operational conditions of
-                clinical use. Visit our{' '}
-                <Link href="/design-center" className="text-primary hover:underline">Design Center</Link> to explore
-                healthcare-grade materials and finishes. Licensed in both North Carolina and South Carolina, we
+                clinical use. Licensed in both North Carolina and South Carolina, we
                 serve healthcare providers in Charlotte,{' '}
                 <Link href="/areas/south-charlotte" className="text-primary hover:underline">South Charlotte</Link>,{' '}
                 <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>,{' '}
@@ -425,7 +417,7 @@ export default function MedicalConstructionPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -744,7 +736,7 @@ export default function MedicalConstructionPage() {
               { title: 'Office Buildouts Charlotte NC', href: '/services/office-buildouts', type: 'Service' },
               { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service' },
               { title: 'Commercial Construction Services', href: '/services/commercial-construction', type: 'Service' },
-              { title: 'Design-Build for Healthcare Facilities', href: '/services/design-build', type: 'Service' },
+              { title: 'ADA Compliance', href: '/services/ada-compliance', type: 'Service' },
               { title: 'Medical Office Setup Guide: Design, Compliance & Construction', href: '/guides/medical-office-setup-guide-charlotte', type: 'Guide' },
               { title: 'ADA Compliance Guide for Charlotte Business Owners', href: '/guides/ada-compliance-guide-charlotte-businesses', type: 'Guide' },
             ].map((resource) => (
@@ -780,7 +772,7 @@ export default function MedicalConstructionPage() {
             with every regulatory requirement.
           </p>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free site visit and detailed estimate. We serve healthcare providers in Charlotte,{' '}
+            Contact us today for a free site visit and consultation. We serve healthcare providers in Charlotte,{' '}
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
@@ -788,7 +780,7 @@ export default function MedicalConstructionPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -796,9 +788,9 @@ export default function MedicalConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

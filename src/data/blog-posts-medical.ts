@@ -86,7 +86,7 @@ export const medicalConstructionPosts: BlogPost[] = [
   <li><strong>Subcontractor relationships:</strong> Our long-standing relationships with Charlotte-area mechanical, electrical, and plumbing subcontractors who specialize in healthcare work ensure competitive pricing and reliable scheduling.</li>
   <li><strong>Permitting expertise:</strong> We navigate Mecklenburg County, Union County, and York County (SC) permitting processes daily, reducing approval timelines.</li>
 </ul>
-<p>If you are planning a medical office build-out in Charlotte, call us at <strong>(704) 574-8124</strong> or <a href="/contact">request a consultation</a> to get a project-specific estimate.</p>
+<p>If you are planning a medical office build-out in Charlotte, call us at <strong>(980) 471-1745</strong> or <a href="/contact">request a consultation</a> to get a project-specific estimate.</p>
 
 <h2>Charlotte Medical Construction Market Context</h2>
 <p>Charlotte is one of the fastest-growing healthcare markets in the Southeast. Atrium Health (now part of Advocate Health, the nation's third-largest nonprofit health system) is headquartered here and continues to expand its ambulatory footprint across the region. Novant Health operates major medical centers in Huntersville, Matthews, and Mint Hill, and is building new outpatient facilities along the I-77 corridor. HCA Healthcare's CarePoint network is growing in south Charlotte and the Lake Norman area.</p>
@@ -118,7 +118,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <p>Medical office build-outs in Mecklenburg County require a commercial building permit, mechanical permit, electrical permit, plumbing permit, and fire-protection permit. Plan review typically takes 4 – 6 weeks. If your project includes X-ray equipment, you will also need approval from the NC Department of Health and Human Services Radiation Protection Section. Projects in Union County (NC) and York County (SC) have similar requirements under their respective state codes.</p>
 
 <h3>Should I build out shell space or renovate existing medical office space in Charlotte?</h3>
-<p>First-generation (new) shell space is generally cheaper to build out because you avoid demolition costs ($8 – $15/SF) and potential asbestos or lead-paint abatement in older buildings. However, existing medical space may already have compliant plumbing, HVAC, and electrical infrastructure that reduces your build-out scope. The best choice depends on location, lease economics, and your practice's specific clinical requirements. We Build can evaluate both options and provide comparative estimates — call <strong>(704) 574-8124</strong>.</p>
+<p>First-generation (new) shell space is generally cheaper to build out because you avoid demolition costs ($8 – $15/SF) and potential asbestos or lead-paint abatement in older buildings. However, existing medical space may already have compliant plumbing, HVAC, and electrical infrastructure that reduces your build-out scope. The best choice depends on location, lease economics, and your practice's specific clinical requirements. We Build can evaluate both options and provide comparative estimates — call <strong>(980) 471-1745</strong>.</p>
 `,
   },
 
@@ -218,7 +218,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <h2>Working with We Build on HIPAA-Compliant Construction</h2>
 <p>We Build is a veteran-owned <a href="/services/general-contractor">general contractor</a> based in Charlotte NC, specializing in <a href="/services/medical-construction">medical and healthcare construction</a>. We work with healthcare architects, IT consultants, and practice managers to ensure that every build-out we deliver meets HIPAA physical safeguard requirements as well as North Carolina building, mechanical, and fire codes.</p>
 <p>Our pre-construction process includes a HIPAA physical-safeguard review that identifies compliance requirements for your specific practice type and maps them to construction specifications. This proactive approach eliminates costly change orders and post-occupancy remediation.</p>
-<p>If you are planning a medical office build-out in Charlotte, South Charlotte, Lake Norman, Fort Mill, or anywhere in the greater Charlotte metro, call us at <strong>(704) 574-8124</strong> or <a href="/contact">request a consultation online</a>.</p>
+<p>If you are planning a medical office build-out in Charlotte, South Charlotte, Lake Norman, Fort Mill, or anywhere in the greater Charlotte metro, call us at <strong>(980) 471-1745</strong> or <a href="/contact">request a consultation online</a>.</p>
 
 <h3>Does HIPAA require specific wall construction in medical offices?</h3>
 <p>HIPAA does not specify exact wall construction, but it requires "reasonable safeguards" to prevent incidental disclosure of protected health information. In practice, this means exam room and consultation room walls should achieve STC 45 – 50 acoustic ratings, which requires full-height walls with batt insulation and solid-core doors with gaskets. Walls that stop at the ceiling grid are a common compliance failure.</p>
@@ -233,7 +233,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <p>Sound masking systems emit a continuous background noise (typically pink noise tuned to the frequency range of human speech) that raises the ambient noise floor in corridors and waiting areas. This makes it significantly harder for patients in these areas to overhear clinical conversations in adjacent exam rooms. Sound masking costs $2 – $4 per square foot to install during construction and is far less expensive than upgrading wall assemblies after the fact.</p>
 
 <h3>Can my existing medical office be renovated to meet HIPAA physical safeguard requirements?</h3>
-<p>Yes, but it may be costly depending on the existing construction. Common renovation items include extending walls to the deck, replacing hollow-core doors with solid-core doors, adding sound masking, installing access-control hardware, and reconfiguring workstation placement. We Build provides <a href="/services/ada-compliance">compliance-focused renovation services</a> and can assess your existing space for HIPAA gaps. Call <strong>(704) 574-8124</strong> for a site evaluation.</p>
+<p>Yes, but it may be costly depending on the existing construction. Common renovation items include extending walls to the deck, replacing hollow-core doors with solid-core doors, adding sound masking, installing access-control hardware, and reconfiguring workstation placement. We Build provides <a href="/services/ada-compliance">compliance-focused renovation services</a> and can assess your existing space for HIPAA gaps. Call <strong>(980) 471-1745</strong> for a site evaluation.</p>
 `,
   },
 
@@ -324,7 +324,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <h2>Why Choose We Build for Dental Construction</h2>
 <p>We Build is a veteran-owned <a href="/services/general-contractor">general contractor</a> specializing in <a href="/services/medical-construction">medical and dental construction</a> across the Charlotte metro area. Our dental construction experience includes coordination with dental equipment suppliers (we work with all major dental chair and cabinetry manufacturers), dental utility system installation (compressed air, vacuum, N2O scavenging), lead-shielding installation and testing, and Mecklenburg County permitting for dental occupancy.</p>
 <p>We understand that construction downtime means lost revenue for dental practices. Our project management approach minimizes disruption for practices that are renovating or expanding while continuing to see patients, with phased construction plans that keep portions of the office operational throughout the project.</p>
-<p>Call us at <strong>(704) 574-8124</strong> or <a href="/contact">request a consultation</a> to discuss your dental office project.</p>
+<p>Call us at <strong>(980) 471-1745</strong> or <a href="/contact">request a consultation</a> to discuss your dental office project.</p>
 
 <h3>How much does it cost to build a dental office in Charlotte NC?</h3>
 <p>A general dental office with 3 – 5 operatories costs $220 – $280 per square foot for construction in the Charlotte metro. A 2,400 SF practice with four operatories typically runs $530,000 – $670,000 for construction plus $120,000 – $180,000 for dental equipment — a total project budget of $650,000 – $850,000.</p>
@@ -339,7 +339,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <p>A typical 2,000 – 4,000 SF dental office build-out takes 4 – 7 months from design to patient-ready occupancy. This includes 4 – 6 weeks for design and permitting, 10 – 16 weeks for construction, and 2 – 3 weeks for equipment installation and testing. Larger multi-specialty practices or oral surgery centers may take 7 – 10 months.</p>
 
 <h3>What is the best location for a new dental office in Charlotte?</h3>
-<p>High-growth Charlotte submarkets with strong dental demographics include Ballantyne, Steele Creek, University City, Harrisburg, Indian Trail, and the Lake Norman communities (Mooresville, Cornelius, Huntersville). Key site-selection factors include visibility, parking availability, proximity to complementary medical practices, and demographic analysis of the surrounding population. We Build can help evaluate shell spaces and provide preliminary build-out cost estimates for candidate locations — call <strong>(704) 574-8124</strong>.</p>
+<p>High-growth Charlotte submarkets with strong dental demographics include Ballantyne, Steele Creek, University City, Harrisburg, Indian Trail, and the Lake Norman communities (Mooresville, Cornelius, Huntersville). Key site-selection factors include visibility, parking availability, proximity to complementary medical practices, and demographic analysis of the surrounding population. We Build can help evaluate shell spaces and provide preliminary build-out cost estimates for candidate locations — call <strong>(980) 471-1745</strong>.</p>
 `,
   },
 
@@ -435,7 +435,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <h2>Why Choose We Build for Urgent Care Construction</h2>
 <p>We Build is a veteran-owned <a href="/services/general-contractor">general contractor</a> based in Charlotte NC with extensive experience in <a href="/services/medical-construction">healthcare facility construction</a>. Our urgent care construction capabilities include turnkey project management from site evaluation through certificate of occupancy, coordination with healthcare architects who specialize in urgent care workflow design, medical-grade MEP installation (HVAC, plumbing, electrical, and low-voltage systems), lead-shielding installation for X-ray rooms, and <a href="/services/ada-compliance">ADA compliance</a> design and construction.</p>
 <p>We have built urgent care centers for both independent operators and multi-site groups across the Charlotte metro, including locations in south Charlotte, the University City area, and York County SC. Our understanding of Mecklenburg County permitting timelines and NC DHHS licensing requirements helps our clients avoid delays that can push opening dates and increase carrying costs.</p>
-<p>Ready to build an urgent care center in Charlotte? Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> for a project consultation and preliminary budget estimate.</p>
+<p>Ready to build an urgent care center in Charlotte? Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> for a project consultation and preliminary budget estimate.</p>
 
 <h3>How much does it cost to build an urgent care center in Charlotte?</h3>
 <p>Total project costs for a turnkey urgent care center in Charlotte range from $1.35 to $1.85 million for a 4,500 SF facility with digital X-ray. This includes $1.1 – $1.35 million for construction ($250 – $300/SF), $200,000 – $400,000 for medical equipment, and $50,000 – $100,000 for IT infrastructure. Facilities with CT scanners cost more — up to $350/SF for construction.</p>
@@ -450,7 +450,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <p>The licensing requirements depend on the scope of services offered. Most urgent care centers operating as physician offices do not require separate facility licensure from NC DHHS. However, centers performing certain procedures, administering anesthesia, or operating as ambulatory surgical centers may require licensure. CLIA certification is required for any lab testing, and X-ray equipment must be registered with NC DHHS Radiation Protection Section.</p>
 
 <h3>What are the best locations for urgent care centers in Charlotte?</h3>
-<p>The strongest urgent care locations in Charlotte are high-traffic retail corridors with visibility, convenient parking, and proximity to residential populations. Top-performing submarkets include Independence Blvd corridor, South Blvd near Pineville, Rea Road in south Charlotte, University City near UNCC, and highway-adjacent retail in Huntersville, Mooresville, and Indian Trail. End-cap retail spaces with pylon signage consistently outperform mid-strip locations for walk-in traffic. Call We Build at <strong>(704) 574-8124</strong> to discuss site evaluation.</p>
+<p>The strongest urgent care locations in Charlotte are high-traffic retail corridors with visibility, convenient parking, and proximity to residential populations. Top-performing submarkets include Independence Blvd corridor, South Blvd near Pineville, Rea Road in south Charlotte, University City near UNCC, and highway-adjacent retail in Huntersville, Mooresville, and Indian Trail. End-cap retail spaces with pylon signage consistently outperform mid-strip locations for walk-in traffic. Call We Build at <strong>(980) 471-1745</strong> to discuss site evaluation.</p>
 `,
   },
 
@@ -525,7 +525,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 
 <h2>Partner with We Build for Healthcare Renovation</h2>
 <p>We Build is a veteran-owned <a href="/services/general-contractor">general contractor</a> in Charlotte NC specializing in <a href="/services/medical-construction">healthcare construction and renovation</a>. We have renovated medical offices, dental practices, urgent care centers, and specialty clinics across the Charlotte metro — always with a focus on minimizing disruption to patient care, maintaining infection-control standards, and delivering on budget and schedule.</p>
-<p>If your healthcare facility needs renovation, call us at <strong>(704) 574-8124</strong> or <a href="/contact">request a consultation</a>. We will assess your facility, identify code-compliance gaps, and provide a phased renovation plan with detailed cost estimates.</p>
+<p>If your healthcare facility needs renovation, call us at <strong>(980) 471-1745</strong> or <a href="/contact">request a consultation</a>. We will assess your facility, identify code-compliance gaps, and provide a phased renovation plan with detailed cost estimates.</p>
 
 <h3>How much does it cost to renovate a medical office in Charlotte?</h3>
 <p>Healthcare facility renovation in Charlotte ranges from $40 – $80 per square foot for a cosmetic refresh to $250 – $350 per square foot for a gut renovation. A moderate renovation that includes ADA upgrades, some MEP work, and finish updates typically costs $100 – $180 per square foot. Add 10 – 20 percent for work performed in occupied facilities due to ICRA containment and phased scheduling.</p>
@@ -540,7 +540,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <p>The most common ADA deficiencies in Charlotte medical offices built before 2010 include doorways narrower than 36 inches, non-compliant door hardware (knob-type instead of lever), restrooms lacking adequate turning radius and grab bars, reception counters above the 36-inch maximum accessible height, missing tactile/Braille signage, and exam rooms without adequate clear floor space for wheelchair transfer. A comprehensive ADA assessment identifies all non-compliant elements and their remediation costs.</p>
 
 <h3>How do I know if my medical facility should be renovated or replaced?</h3>
-<p>Renovation is generally more cost-effective when the building's structure, roof, and site are sound, and the renovation scope is less than 70 – 80 percent of new construction cost. Consider replacement when the building has structural or environmental issues (foundation problems, asbestos, mold), the mechanical/electrical infrastructure requires complete replacement, or the site no longer serves your patient base. We Build provides renovation-vs-relocation cost analyses — call <strong>(704) 574-8124</strong> for a facility assessment.</p>
+<p>Renovation is generally more cost-effective when the building's structure, roof, and site are sound, and the renovation scope is less than 70 – 80 percent of new construction cost. Consider replacement when the building has structural or environmental issues (foundation problems, asbestos, mold), the mechanical/electrical infrastructure requires complete replacement, or the site no longer serves your patient base. We Build provides renovation-vs-relocation cost analyses — call <strong>(980) 471-1745</strong> for a facility assessment.</p>
 `,
   },
 
@@ -638,7 +638,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 
 <h2>We Build Medical Gas Installation Expertise</h2>
 <p>We Build is a veteran-owned <a href="/services/general-contractor">general contractor</a> in Charlotte NC. Our healthcare construction team includes relationships with ASSE 6010-certified medical gas installers and ASSE 6030-certified third-party verifiers who work throughout the Charlotte metro. We have installed medical gas systems in dental offices, ambulatory surgery centers, specialty clinics, and urgent care centers across Mecklenburg, Union, and York counties.</p>
-<p>If your healthcare project requires medical gas installation, call us at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a>. We will review your project scope, coordinate with your healthcare architect and equipment suppliers, and provide a comprehensive estimate that includes all NFPA 99 testing and certification requirements.</p>
+<p>If your healthcare project requires medical gas installation, call us at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a>. We will review your project scope, coordinate with your healthcare architect and equipment suppliers, and provide a comprehensive estimate that includes all NFPA 99 testing and certification requirements.</p>
 
 <h3>What certifications are required for medical gas installers in North Carolina?</h3>
 <p>NFPA 99 requires that medical gas systems be installed by qualified personnel. While North Carolina does not have a state-specific medical gas installer license, the industry standard is ASSE 6010 certification for installers and ASSE 6020 certification for inspectors. Third-party verification must be performed by an ASSE 6030-certified verifier. We Build works exclusively with ASSE-certified medical gas subcontractors on all healthcare projects.</p>
@@ -653,7 +653,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <p>For a dental office with nitrous oxide (2 – 4 operatories), medical gas rough-in takes 2 – 3 days during the construction phase, with final connections and testing adding 1 – 2 days. For an ambulatory surgery center with full medical gas systems, installation spans 2 – 4 weeks depending on the number of operating rooms. Third-party verification testing adds 1 – 2 days after installation is complete.</p>
 
 <h3>Can medical gas piping be installed in an existing building during renovation?</h3>
-<p>Yes. Medical gas piping is routinely installed in existing buildings during healthcare renovation projects. The piping can be routed through ceiling plenums, chases, and walls — the same pathways used for other MEP systems. The key challenges are maintaining ICRA infection-control protocols during construction in occupied healthcare facilities and ensuring adequate mechanical room space for source equipment. We Build has extensive experience with medical gas retrofits in occupied Charlotte-area healthcare facilities — call <strong>(704) 574-8124</strong> to discuss your project.</p>
+<p>Yes. Medical gas piping is routinely installed in existing buildings during healthcare renovation projects. The piping can be routed through ceiling plenums, chases, and walls — the same pathways used for other MEP systems. The key challenges are maintaining ICRA infection-control protocols during construction in occupied healthcare facilities and ensuring adequate mechanical room space for source equipment. We Build has extensive experience with medical gas retrofits in occupied Charlotte-area healthcare facilities — call <strong>(980) 471-1745</strong> to discuss your project.</p>
 `,
   },
 
@@ -745,7 +745,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <p>We Build provides pre-construction services for both lease and build scenarios. For leased space, we review the shell condition, evaluate the landlord's TI allowance against your build-out scope, and identify any structural, mechanical, or code issues that could affect construction cost or timeline. For ground-up construction, our <a href="/services/general-contractor">general contracting services</a> cover everything from site development through certificate of occupancy.</p>
 
 <h2>Get Expert Guidance</h2>
-<p>The lease-vs-build decision involves financial, tax, legal, and construction expertise. We Build does not provide financial or legal advice, but we do provide accurate construction cost data that is essential to making an informed decision. If you are evaluating medical office options in Charlotte, South Charlotte, Lake Norman, Fort Mill, or anywhere in the greater Charlotte metro, call us at <strong>(704) 574-8124</strong> or <a href="/contact">request a consultation</a>. We will provide a construction cost estimate for your specific practice requirements — whether you are building out leased space or constructing a new building.</p>
+<p>The lease-vs-build decision involves financial, tax, legal, and construction expertise. We Build does not provide financial or legal advice, but we do provide accurate construction cost data that is essential to making an informed decision. If you are evaluating medical office options in Charlotte, South Charlotte, Lake Norman, Fort Mill, or anywhere in the greater Charlotte metro, call us at <strong>(980) 471-1745</strong> or <a href="/contact">request a consultation</a>. We will provide a construction cost estimate for your specific practice requirements — whether you are building out leased space or constructing a new building.</p>
 
 <h3>What are typical medical office lease rates in Charlotte NC?</h3>
 <p>Medical office lease rates in Charlotte range from $22 – $42 per square foot NNN (triple net) depending on location and building class. Class A medical office buildings in SouthPark, Ballantyne, and near major hospital campuses command $32 – $42/SF NNN. Class B space in secondary corridors runs $22 – $30/SF NNN. Add $10 – $15/SF for CAM, taxes, and insurance to get total occupancy cost.</p>
@@ -760,7 +760,7 @@ export const medicalConstructionPosts: BlogPost[] = [
 <p>Yes, and this is the most common ownership structure for physician-owned medical offices in Charlotte. The physician(s) form a real estate LLC that owns the building, and the medical practice (a separate entity) signs a triple-net lease with the LLC. This structure provides asset protection, creates a rental income stream for the physician-owners, and allows the building to be retained as a passive investment if the practice is sold. Consult a healthcare attorney and CPA for the specific tax and liability implications.</p>
 
 <h3>What tenant improvement allowance should I expect from a Charlotte medical office landlord?</h3>
-<p>TI allowances for medical tenants in Charlotte Class A buildings typically range from $40 – $80 per square foot for new leases of 7 – 10 years. Anchor tenants in new developments may negotiate $80 – $120/SF. The TI allowance is amortized into your lease rate, so a higher allowance means a higher monthly rent. Negotiating the right balance between TI allowance and lease rate is critical — We Build can provide the construction cost data you need to inform this negotiation. Call <strong>(704) 574-8124</strong>.</p>
+<p>TI allowances for medical tenants in Charlotte Class A buildings typically range from $40 – $80 per square foot for new leases of 7 – 10 years. Anchor tenants in new developments may negotiate $80 – $120/SF. The TI allowance is amortized into your lease rate, so a higher allowance means a higher monthly rent. Negotiating the right balance between TI allowance and lease rate is critical — We Build can provide the construction cost data you need to inform this negotiation. Call <strong>(980) 471-1745</strong>.</p>
 `,
   },
 ];

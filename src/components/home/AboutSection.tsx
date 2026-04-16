@@ -39,13 +39,9 @@ export function AboutSection() {
               <Link href="/services/commercial-construction" className="text-primary hover:underline">
                 commercial construction
               </Link>
-              ,{' '}
+              , and{' '}
               <Link href="/services/roof-coating" className="text-primary hover:underline">
                 roof coating
-              </Link>
-              , and{' '}
-              <Link href="/services/design-build" className="text-primary hover:underline">
-                design-build services
               </Link>{' '}
               to every project we undertake. Our founders are veterans who
               bring military discipline, integrity, and a mission-first mindset
@@ -77,18 +73,11 @@ export function AboutSection() {
             </p>
             <p className="text-muted-foreground leading-relaxed">
               What sets We Build apart is our integrated approach to
-              construction. Our dedicated{' '}
-              <Link href="/design-center" className="text-primary hover:underline">
-                Design Center
-              </Link>{' '}
-              in South Charlotte gives clients a hands-on experience where
-              they can explore materials, compare finishes, and make confident
-              selections — all with our experienced team by their side. As a
-              proud member of the U.S. Green Building Council (USGBC), we
-              integrate sustainable building practices into every project,
-              reducing environmental impact while improving building
-              performance and lowering long-term operating costs for our
-              clients. Read more on our{' '}
+              construction. As a proud member of the U.S. Green Building
+              Council (USGBC), we integrate sustainable building practices
+              into every project, reducing environmental impact while
+              improving building performance and lowering long-term operating
+              costs for our clients. Read more on our{' '}
               <Link href="/about" className="text-primary hover:underline">
                 About page
               </Link>
@@ -100,9 +89,6 @@ export function AboutSection() {
                   Learn More About Us
                   <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
                 </Link>
-              </Button>
-              <Button variant="outline" asChild>
-                <Link href="/design-center">Visit Our Design Center</Link>
               </Button>
             </div>
           </div>

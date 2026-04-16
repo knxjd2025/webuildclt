@@ -30,7 +30,7 @@ import {
 export const metadata: Metadata = {
   title: 'Construction Company Mooresville NC | General Contractor Race City & Lake Norman West',
   description:
-    'Looking for a contractor near me in Mooresville NC? Veteran-owned construction company serving Race City USA, Lake Norman west shore & Langtree. Commercial construction, custom homes, upfits & roof coatings. Licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Looking for a contractor near me in Mooresville NC? Veteran-owned construction company serving Race City USA, Lake Norman west shore & Langtree. Commercial construction, upfits & roof coatings. Licensed in NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'construction company mooresville nc',
     'general contractor mooresville',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     'general contractor near me mooresville nc',
     'construction company near me lake norman',
     'mooresville commercial upfits',
-    'custom home builder mooresville nc',
+    'commercial builder mooresville nc',
     'iredell county contractor',
   ],
   alternates: {
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Construction Company Mooresville NC | General Contractor Race City & Lake Norman West',
     description:
-      'Veteran-owned construction company serving Mooresville NC. Commercial & residential construction in Race City USA, Lake Norman west shore, Langtree. Licensed in NC & SC.',
+      'Veteran-owned construction company serving Mooresville NC. Commercial construction in Race City USA, Lake Norman west shore, Langtree. Licensed in NC & SC.',
     type: 'website',
   },
 };
@@ -76,13 +76,6 @@ const services = [
     href: '/services/commercial-upfits',
     description:
       'Mooresville businesses frequently need interior renovations as the town\'s commercial base expands and diversifies. We Build provides commercial upfit services throughout downtown Mooresville, the Exit 28 (Williamson Road) corridor, Morrison Plantation commercial areas, and the Langtree mixed-use district. Our upfit projects range from open-concept office redesigns and medical suite build-outs to restaurant renovations and motorsports-related facility upgrades. The Mooresville area has a unique mix of traditional commercial and motorsports-industry tenants, and our team adapts to the specific finish and infrastructure requirements of each. Most commercial upfits are completed in 2 to 5 months.',
-  },
-  {
-    icon: Ruler,
-    title: 'Design-Build Services',
-    href: '/services/design-build',
-    description:
-      'Our design-build approach is especially valuable in Mooresville where lakefront lots, sloped terrain, and community architectural standards create unique design challenges. We Build manages the entire project under one contract, from conceptual design and engineering through Iredell County permitting and construction. This single-source accountability eliminates coordination issues between architects and builders, reduces change orders, and typically saves Mooresville property owners ten to fifteen percent compared to the traditional design-bid-build method. For lakefront properties requiring specialized foundation design and dock integration, our design-build process is particularly efficient.',
   },
   {
     icon: Shield,
@@ -225,7 +218,7 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     description:
-      'We hold general contractor licenses in both North Carolina and South Carolina. Our licensing, insurance, and bonding meet or exceed all requirements for commercial and residential construction in Mooresville, Iredell County, and throughout the Charlotte metropolitan area.',
+      'We hold general contractor licenses in both North Carolina and South Carolina. Our licensing, insurance, and bonding meet or exceed all requirements for commercial construction in Mooresville, Iredell County, and throughout the Charlotte metropolitan area.',
   },
   {
     icon: Landmark,
@@ -251,12 +244,12 @@ const faqs = [
   {
     question: 'What construction services are available in Mooresville NC?',
     answer:
-      'We Build provides comprehensive construction services in Mooresville including commercial construction, commercial upfits and renovations, custom home building, residential additions and renovations, design-build services, general contracting, and commercial roof coatings. We handle projects from small office upfits to ground-up commercial buildings, lakefront custom homes, and motorsports-related facilities throughout the Mooresville area. Call (704) 574-8124 for a free estimate on any construction project in Mooresville.',
+      'We Build provides comprehensive construction services in Mooresville including commercial construction, commercial upfits and renovations, general contracting, and commercial roof coatings. We handle projects from small office upfits to ground-up commercial buildings and motorsports-related facilities throughout the Mooresville area. Call (980) 471-1745 for a free consultation on any construction project in Mooresville.',
   },
   {
     question: 'How much does construction cost in Mooresville NC in 2026?',
     answer:
-      'Construction costs in Mooresville vary by project type and location. Commercial office upfits typically range from $50 to $175 per square foot. Retail build-outs run $75 to $200 per square foot. Restaurant construction costs $150 to $350 per square foot. Custom homes in Mooresville range from $225 to $600 per square foot, with lakefront properties at the higher end due to site preparation, foundation requirements, and premium finishes. Renovations and additions typically cost $150 to $400 per square foot. We provide detailed, line-item estimates for every project.',
+      'Construction costs in Mooresville vary by project type and location. Commercial office upfits typically range from $50 to $175 per square foot. Retail build-outs run $75 to $200 per square foot. Restaurant construction costs $150 to $350 per square foot. Ground-up commercial construction ranges from $150 to $400 per square foot depending on complexity. Commercial renovations typically cost $150 to $400 per square foot. We provide detailed, line-item estimates for every project.',
   },
   {
     question: 'What is the difference between Iredell County and Mecklenburg County permitting?',
@@ -266,12 +259,12 @@ const faqs = [
   {
     question: 'How long does a typical construction project take in Mooresville?',
     answer:
-      'Project timelines in Mooresville depend on scope and complexity. Commercial upfits typically take 2 to 5 months. Restaurant build-outs require 4 to 8 months. Custom homes take 8 to 16 months depending on size, complexity, and lakefront site conditions. Home additions and renovations range from 2 to 6 months. Iredell County permitting typically adds 4 to 8 weeks before construction can begin. Lakefront projects may require additional permitting time for dock construction and environmental approvals. We provide a detailed project schedule at the start of every engagement.',
+      'Project timelines in Mooresville depend on scope and complexity. Commercial upfits typically take 2 to 5 months. Restaurant build-outs require 4 to 8 months. Ground-up commercial construction takes 8 to 16 months depending on size and complexity. Commercial renovations range from 2 to 6 months. Iredell County permitting typically adds 4 to 8 weeks before construction can begin. We provide a detailed project schedule at the start of every engagement.',
   },
   {
-    question: 'Does We Build construct lakefront homes on Lake Norman in Mooresville?',
+    question: 'Does We Build handle lakefront commercial projects on Lake Norman in Mooresville?',
     answer:
-      'Yes. We Build constructs custom lakefront homes on Lake Norman\'s western shore in Mooresville and surrounding areas. Lakefront construction is one of our specialties and involves unique considerations including specialized foundation design for sloped and waterfront lots, erosion control measures, dock permitting through the state, shoreline stabilization, and environmental compliance for Lake Norman. Our design-build approach is especially well-suited for lakefront projects where coordinating site work, foundation engineering, and dock construction under a single contract reduces cost and complexity.',
+      'Yes. We Build handles commercial projects along Lake Norman\'s western shore in Mooresville and surrounding areas. Lakefront commercial construction involves unique considerations including specialized foundation design for sloped and waterfront lots, erosion control measures, dock permitting through the state, shoreline stabilization, and environmental compliance for Lake Norman. Our team coordinates site work, foundation engineering, and all permitting under a single contract to reduce cost and complexity.',
   },
   {
     question: 'Can We Build handle motorsports-related construction in Mooresville?',
@@ -289,14 +282,14 @@ const faqs = [
       'We serve all Mooresville neighborhoods and communities including The Peninsula, Langtree, Morrison Plantation, Curtis Pond, Brawley School area, Coddle Creek, Muirfield, Talbert Pointe, Bellingham, Rolling Hills, Cove Creek, Waybridge, Harbour Watch, Northington, and River Highway. Our service area covers the entire Town of Mooresville and surrounding Iredell County from the Lake Norman shoreline to the rural areas west and north of town.',
   },
   {
-    question: 'Does We Build handle both commercial and residential construction in Mooresville?',
+    question: 'What types of commercial construction does We Build handle in Mooresville?',
     answer:
-      'Yes. We Build is a full-service general contractor licensed for both commercial and residential construction in North Carolina and South Carolina. Our Mooresville commercial projects include office buildings, retail spaces, restaurants, medical facilities, motorsports shops, and industrial build-outs. Our residential projects include lakefront custom homes, golf community homes, residential additions, and whole-home renovations. Many Mooresville property owners hire us for both their business and personal construction needs.',
+      'We Build is a full-service general contractor licensed for commercial construction in North Carolina and South Carolina. Our Mooresville commercial projects include office buildings, retail spaces, restaurants, medical facilities, motorsports shops, industrial build-outs, and roof coatings. We handle everything from small tenant improvements to ground-up commercial buildings and specialized motorsports facilities throughout the Mooresville area.',
   },
   {
     question: 'How do I get a construction estimate for a project in Mooresville?',
     answer:
-      'Getting a construction estimate from We Build is straightforward. Call us at (704) 574-8124 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. For lakefront properties, the site visit is especially important to assess lot conditions, access, and any waterfront-specific requirements. There is no obligation and no charge for initial consultations. We typically deliver estimates within one to two weeks of the initial site visit.',
+      'Getting a construction estimate from We Build is straightforward. Call us at (980) 471-1745 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. For lakefront properties, the site visit is especially important to assess lot conditions, access, and any waterfront-specific requirements. There is no obligation and no charge for initial consultations. We typically deliver estimates within one to two weeks of the initial site visit.',
   },
   {
     question: 'How do commercial construction costs in Mooresville compare to Cornelius or Huntersville?',
@@ -346,16 +339,16 @@ export default function MooresvillePage() {
           <div className="grid lg:grid-cols-3 gap-12 items-start mt-8">
             <div className="lg:col-span-2 space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Mooresville NC Construction Company — Commercial & Specialty General Contractor
+                Mooresville NC Construction Company — Commercial General Contractor
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Mooresville NC has comprehensive construction services available from We Build, a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> serving Race City USA and the Lake Norman west shore. We provide <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits</Link>, <Link href="/services/design-build" className="text-primary hover:underline">design-build services</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link> throughout Mooresville, Langtree, Morrison Plantation, and surrounding Iredell County communities. Licensed in NC and SC with over 60 years of combined experience.
+                Mooresville NC has comprehensive construction services available from We Build, a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> serving Race City USA and the Lake Norman west shore. We provide <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link> throughout Mooresville, Langtree, Morrison Plantation, and surrounding Iredell County communities. Licensed in NC and SC with over 60 years of combined experience.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Mooresville occupies a unique position in the Charlotte metro construction market. Known worldwide as Race City USA for its concentration of NASCAR teams and motorsports technology companies, the town has diversified well beyond racing into a thriving commercial and residential hub along the I-77 corridor. Lowe&apos;s Companies is headquartered here, anchoring a corporate ecosystem that drives office and commercial construction demand. The Exit 28 corridor has become one of the busiest commercial development zones in the Lake Norman region. Downtown Mooresville has experienced a restaurant and retail renaissance that has made it a dining destination. And Lake Norman&apos;s western shore — from The Peninsula to Langtree to dozens of waterfront communities — supports a robust custom home construction market where lakefront living meets Charlotte metro convenience.
+                Mooresville occupies a unique position in the Charlotte metro construction market. Known worldwide as Race City USA for its concentration of NASCAR teams and motorsports technology companies, the town has diversified well beyond racing into a thriving commercial hub along the I-77 corridor. Lowe&apos;s Companies is headquartered here, anchoring a corporate ecosystem that drives office and commercial construction demand. The Exit 28 corridor has become one of the busiest commercial development zones in the Lake Norman region. Downtown Mooresville has experienced a restaurant and retail renaissance that has made it a dining destination. And Lake Norman&apos;s western shore — from Langtree to dozens of waterfront communities — supports strong commercial development where lakefront appeal meets Charlotte metro convenience.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                We Build serves Mooresville with the commitment to quality, transparency, and construction expertise that property owners in this market expect. Whether you are building a NASCAR-grade shop on NC-150, a lakefront estate at The Peninsula, a restaurant in downtown Mooresville, or a medical office near Exit 28, our team delivers the project management, craftsmanship, and Iredell County permitting knowledge to ensure your project succeeds. Contact us at (704) 574-8124 for a free estimate.
+                We Build serves Mooresville with the commitment to quality, transparency, and construction expertise that property owners in this market expect. Whether you are building a NASCAR-grade shop on NC-150, a restaurant in downtown Mooresville, or a medical office near Exit 28, our team delivers the project management, craftsmanship, and Iredell County permitting knowledge to ensure your project succeeds. Contact us at (980) 471-1745 for a free consultation.
               </p>
 
               <div className="flex items-start gap-3 bg-primary/10 border border-primary/20 rounded-lg p-4">
@@ -369,12 +362,12 @@ export default function MooresvillePage() {
               <div className="flex flex-wrap gap-4 pt-2">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate <ArrowRight className="ml-2 h-5 w-5" />
+                    Get a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="tel:+17045748124">
-                    <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+                  <a href="tel:+19804711745">
+                    <Phone className="mr-2 h-5 w-5" />(980) 471-1745
                   </a>
                 </Button>
               </div>
@@ -433,7 +426,7 @@ export default function MooresvillePage() {
             <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">Full-Service General Contractor</p>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Construction Services in Mooresville NC</h2>
             <p className="text-muted-foreground max-w-3xl mx-auto">
-              We Build provides comprehensive construction services across Mooresville, Lake Norman west shore, and surrounding Iredell County communities. From commercial and industrial projects to lakefront custom homes, every project is managed with full accountability.
+              We Build provides comprehensive construction services across Mooresville, Lake Norman west shore, and surrounding Iredell County communities. From commercial and industrial projects to specialty motorsports facilities, every project is managed with full accountability.
             </p>
           </div>
 
@@ -588,10 +581,10 @@ export default function MooresvillePage() {
                 We Coat Roof Coatings
               </Link>
               <Link
-                href="/design-center"
+                href="/contact"
                 className="inline-flex items-center gap-2 bg-background border rounded-lg px-4 py-2 text-sm hover:border-primary hover:text-primary transition-colors"
               >
-                Design Center
+                Contact Us
               </Link>
             </div>
           </div>
@@ -624,11 +617,11 @@ export default function MooresvillePage() {
             Veteran and family-owned. Licensed in NC &amp; SC. Over 60 years combined experience. USGBC member.
           </p>
           <p className="text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Whether you are planning a commercial build-out near Exit 28, a lakefront home at The Peninsula, or a motorsports facility on NC-150, We Build is the Mooresville general contractor you can trust. Contact us today for a free estimate on your project.
+            Whether you are planning a commercial build-out near Exit 28, a lakefront home at The Peninsula, or a motorsports facility on NC-150, We Build is the Mooresville general contractor you can trust. Contact us today for a free consultation on your project.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -636,8 +629,8 @@ export default function MooresvillePage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
-                <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+              <a href="tel:+19804711745">
+                <Phone className="mr-2 h-5 w-5" />(980) 471-1745
               </a>
             </Button>
           </div>

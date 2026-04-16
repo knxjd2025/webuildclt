@@ -49,15 +49,12 @@ async function getProject(slug: string): Promise<Project | null> {
 const categoryServiceMap: Record<string, string[]> = {
   // Project categories
   commercial: ['commercial-construction', 'commercial-upfits', 'general-contractor'],
-  residential: ['general-contractor', 'design-build', 'commercial-construction'],
   'roof-coating': ['roof-coating', 'commercial-construction', 'green-building'],
   // Service types
   upfit: ['commercial-upfits', 'tenant-improvements', 'office-buildouts'],
-  'new-construction': ['commercial-construction', 'design-build', 'general-contractor'],
-  renovation: ['commercial-renovation', 'design-build', 'general-contractor'],
-  addition: ['design-build', 'general-contractor', 'commercial-construction'],
-  'design-build': ['design-build', 'commercial-construction', 'pre-construction'],
-  'custom-home': ['design-build', 'general-contractor', 'commercial-construction'],
+  'new-construction': ['commercial-construction', 'general-contractor', 'pre-construction'],
+  renovation: ['commercial-renovation', 'general-contractor', 'commercial-upfits'],
+  addition: ['general-contractor', 'commercial-construction', 'commercial-upfits'],
   'tenant-improvement': ['tenant-improvements', 'commercial-upfits', 'office-buildouts'],
 };
 
@@ -302,12 +299,12 @@ export default async function ProjectPage({ params }: PageProps) {
                 </p>
                 <div className="space-y-2">
                   <Button className="w-full" asChild>
-                    <Link href="/contact">Get a Free Quote</Link>
+                    <Link href="/contact">Get a Free Consultation</Link>
                   </Button>
                   <Button variant="outline" className="w-full" asChild>
-                    <a href="tel:+17045748124">
+                    <a href="tel:+19804711745">
                       <Phone className="h-4 w-4 mr-2" />
-                      (704) 574-8124
+                      (980) 471-1745
                     </a>
                   </Button>
                 </div>
@@ -445,7 +442,7 @@ export default async function ProjectPage({ params }: PageProps) {
             with commercial construction services.
           </p>
           <Button size="lg" asChild>
-            <Link href="/contact">Get a Free Estimate</Link>
+            <Link href="/contact">Get a Free Consultation</Link>
           </Button>
         </div>
       </section>

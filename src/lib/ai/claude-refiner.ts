@@ -87,7 +87,7 @@ REFINEMENT REQUIREMENTS:
    <div class="stats-grid"><div class="stat-card"><div class="stat-value">60+</div><div class="stat-label">Years Experience</div></div></div>
 
    INLINE CTA (use 2-3 per post):
-   <div class="inline-cta"><p>Ready to discuss your project?</p><a href="/contact">Get a Free Quote</a></div>
+   <div class="inline-cta"><p>Ready to discuss your project?</p><a href="/contact">Get a Free Consultation</a></div>
 
    TWO-COLUMN LAYOUT (use for comparisons, pros/cons):
    <div class="two-col"><div><h3>Option A</h3><p>Details</p></div><div><h3>Option B</h3><p>Details</p></div></div>

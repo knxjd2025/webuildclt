@@ -28,7 +28,7 @@ import {
 export const metadata: Metadata = {
   title: 'Commercial Roof Coating Detroit MI | We Coat by We Build',
   description:
-    'We Coat provides professional commercial roof coating in Detroit and Metro Detroit MI. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs roof replacement. Free assessments. IIBEC certified. (704) 574-8124.',
+    'We Coat provides professional commercial roof coating in Detroit and Metro Detroit MI. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs roof replacement. Free assessments. IIBEC certified. (980) 471-1745.',
   keywords: [
     'roof coating detroit mi',
     'commercial roof coating detroit',
@@ -457,8 +457,8 @@ export default function DetroitPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
-                <Phone className="mr-2 h-5 w-5" />(704) 574-8124
+              <a href="tel:+19804711745">
+                <Phone className="mr-2 h-5 w-5" />(980) 471-1745
               </a>
             </Button>
           </div>

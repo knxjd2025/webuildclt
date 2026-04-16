@@ -37,7 +37,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Office Buildouts & Renovation Charlotte NC | Corporate, Co-Working & Medical Office Construction',
   description:
-    'Expert office buildout and renovation contractor in Charlotte, NC. Commercial general contractors for corporate headquarters, co-working spaces, medical office suites, law firms, tech startups & executive suites. Veteran-owned, licensed in NC & SC. Hybrid-ready designs. Free estimates. (704) 574-8124.',
+    'Expert office buildout and renovation contractor in Charlotte, NC. Commercial general contractors for corporate headquarters, co-working spaces, medical office suites, law firms, tech startups & executive suites. Veteran-owned, licensed in NC & SC. Hybrid-ready designs. Free consultations. (980) 471-1745.',
   keywords: [
     'office buildout Charlotte NC',
     'office buildout near me',
@@ -137,12 +137,12 @@ const processSteps = [
   {
     step: '02',
     title: 'Space Planning & Programming',
-    desc: 'Based on the discovery session, our design-build team develops a detailed space program that defines every room and zone in the office: private offices, open workstations, conference rooms, huddle rooms, phone booths, collaboration areas, break rooms, reception, storage, server rooms, and amenity spaces. We create preliminary floor plans that show how each element fits within the available footprint, with attention to traffic flow, departmental adjacencies, sight lines, natural light distribution, and building code egress requirements.',
+    desc: 'Based on the discovery session, we work with your architect and design team to develop a detailed space program that defines every room and zone in the office: private offices, open workstations, conference rooms, huddle rooms, phone booths, collaboration areas, break rooms, reception, storage, server rooms, and amenity spaces. We create preliminary floor plans that show how each element fits within the available footprint, with attention to traffic flow, departmental adjacencies, sight lines, natural light distribution, and building code egress requirements.',
   },
   {
     step: '03',
     title: 'Conceptual Design & Material Exploration',
-    desc: 'We develop conceptual designs that bring the floor plan to life with material palettes, lighting concepts, ceiling treatments, and architectural features. You are invited to visit our Design Center in Charlotte to see and touch material samples, explore finish options, and review design boards that show how your office will look and feel. We present multiple design directions so you can choose the aesthetic that best represents your brand and culture.',
+    desc: 'We develop conceptual designs that bring the floor plan to life with material palettes, lighting concepts, ceiling treatments, and architectural features. You are invited to visit our office in Charlotte to review material samples, explore finish options, and see design boards that show how your office will look and feel. We present multiple design directions so you can choose the aesthetic that best represents your brand and culture.',
   },
   {
     step: '04',
@@ -196,11 +196,6 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, allowing us to serve businesses across the entire Charlotte metropolitan area. Whether your office is in Uptown Charlotte, SouthPark, Ballantyne, Fort Mill, Rock Hill, or the Lake Norman corridor, we have the licensing, insurance, and local code knowledge to build your project in full compliance with all applicable regulations.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build Under One Roof',
-    desc: 'Our design-build approach combines architecture, engineering, and construction under a single contract and one accountable team. This eliminates the communication breakdowns, finger-pointing, and coordination delays that occur when design and construction are handled by separate firms. For office buildouts, this integrated approach means faster decisions during design development, fewer change orders during construction, and a finished space that matches the original vision.',
   },
   {
     icon: Zap,
@@ -388,7 +383,7 @@ export default function OfficeBuildoutsPage() {
 
       <PageHero
         title="Office Buildouts & Renovation Charlotte NC"
-        subtitle="Expert office construction and renovation from Charlotte's veteran-owned design-build team"
+        subtitle="Expert office construction and renovation from Charlotte's veteran-owned construction team"
         backgroundImage="/images/hero-bg.jpg"
       />
 
@@ -438,12 +433,10 @@ export default function OfficeBuildoutsPage() {
                 <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> with
                 over 60 years of combined construction experience. We have completed office buildouts across
                 the Charlotte metro area for corporate headquarters, co-working operators, medical practices,
-                law firms, technology companies, financial advisors, and professional services firms. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link> approach
-                means architecture, engineering, and construction are coordinated under one team and one contract,
-                eliminating the finger-pointing and coordination gaps that delay conventional projects. Visit our{' '}
-                <Link href="/design-center" className="text-primary hover:underline">Design Center</Link> to
-                explore material options, review finish samples, and start planning your office buildout. Licensed
+                law firms, technology companies, financial advisors, and professional services firms. We work
+                closely with your architect and design team to ensure architecture, engineering, and construction
+                are coordinated seamlessly, eliminating the finger-pointing and coordination gaps that delay
+                conventional projects. Licensed
                 in both North Carolina and South Carolina, we serve Charlotte and surrounding communities
                 including <Link href="/areas/south-charlotte" className="text-primary hover:underline">South Charlotte</Link>,{' '}
                 <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>,{' '}
@@ -452,7 +445,7 @@ export default function OfficeBuildoutsPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -736,7 +729,7 @@ export default function OfficeBuildoutsPage() {
               { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', type: 'Service' },
               { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service' },
               { title: 'Commercial Renovation Charlotte NC', href: '/services/commercial-renovation', type: 'Service' },
-              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service' },
+              { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service' },
               { title: 'Office Build-Out Guide: Planning Your Charlotte Workspace', href: '/guides/office-build-out-guide-charlotte', type: 'Guide' },
               { title: 'Commercial Flooring Guide: Best Options by Business Type', href: '/guides/commercial-flooring-guide-business-type', type: 'Guide' },
             ].map((resource) => (
@@ -771,7 +764,7 @@ export default function OfficeBuildoutsPage() {
             licenses, and local knowledge to deliver your project on time and within budget.
           </p>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free site visit and detailed estimate. We serve Charlotte,{' '}
+            Contact us today for a free site visit and consultation. We serve Charlotte,{' '}
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
@@ -779,7 +772,7 @@ export default function OfficeBuildoutsPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -787,9 +780,9 @@ export default function OfficeBuildoutsPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

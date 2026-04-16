@@ -69,7 +69,7 @@ export function ContactForm() {
         ) : (
           <>
             <h2 className="text-2xl font-bold mb-2">
-              Request a Free Estimate
+              Request a Free Consultation
             </h2>
             <p className="text-muted-foreground mb-6">
               Fill out the form below and a member of our team will be in touch within one business day. All fields marked with * are required.

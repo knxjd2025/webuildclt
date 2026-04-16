@@ -21,7 +21,7 @@ export const costGuidePosts: BlogPost[] = [
 <h2>What Does Commercial Construction Cost Per Square Foot in Charlotte in 2026?</h2>
 <p>If you are planning a commercial construction project in Charlotte, NC, the first question on your mind is almost certainly: <strong>how much will it cost per square foot?</strong> The answer depends on building type, finish level, site conditions, and dozens of other variables — but having realistic cost benchmarks is essential for budgeting and decision-making.</p>
 <p>At <a href="/services/general-contractor">We Build</a>, Charlotte's veteran-owned general contractor, we have completed projects across every major commercial category in the Charlotte metro area. This guide shares real 2026 cost data drawn from local market conditions, recent bids, and industry benchmarks so you can plan your project with confidence.</p>
-<p>For a free project estimate tailored to your specific scope, call us at <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>For a free project estimate tailored to your specific scope, call us at <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 
 <h2>2026 Charlotte Commercial Construction Cost Ranges by Building Type</h2>
 <p>The following ranges reflect total hard construction costs (materials, labor, equipment) for ground-up commercial builds in the Charlotte metro area as of early 2026. Costs exclude land acquisition, soft costs (architecture, engineering, permits), and furniture/fixtures/equipment (FF&E) unless noted.</p>
@@ -112,7 +112,6 @@ export const costGuidePosts: BlogPost[] = [
 <p>While you cannot change material prices or labor rates, several strategies can meaningfully reduce your total project cost:</p>
 <ul>
 <li><strong>Value engineering:</strong> Work with your contractor during pre-construction to identify cost savings without sacrificing function or quality. Our <a href="/services/value-engineering">value engineering</a> team regularly saves clients 10 – 20% on initial estimates.</li>
-<li><strong>Design-build delivery:</strong> Combining design and construction under one contract eliminates adversarial dynamics and reduces change orders. Learn about our <a href="/services/design-build">design-build</a> approach.</li>
 <li><strong>Phased construction:</strong> Build the shell and core first, then finish interior spaces as tenants are secured or as cash flow allows.</li>
 <li><strong>Standardized materials:</strong> Specifying readily available, standard-size materials reduces waste and lead times.</li>
 <li><strong>Early procurement:</strong> Locking in prices on long-lead items like structural steel, electrical switchgear, and HVAC units protects against price increases.</li>
@@ -130,7 +129,7 @@ export const costGuidePosts: BlogPost[] = [
 
 <h2>Get an Accurate Estimate for Your Project</h2>
 <p>Cost-per-square-foot benchmarks are useful for early budgeting, but every project is unique. Site conditions, design complexity, schedule requirements, and market timing all affect your actual cost. The best way to get an accurate number is to engage a qualified general contractor for pre-construction pricing.</p>
-<p>At We Build, we provide detailed cost estimates during pre-construction at no obligation. As Charlotte's veteran-owned <a href="/services/commercial-construction">commercial construction</a> company, we bring transparency and honesty to every estimate. Call <strong>(704) 574-8124</strong> or <a href="/contact">request a free consultation</a>.</p>
+<p>At We Build, we provide detailed cost estimates during pre-construction at no obligation. As Charlotte's veteran-owned <a href="/services/commercial-construction">commercial construction</a> company, we bring transparency and honesty to every estimate. Call <strong>(980) 471-1745</strong> or <a href="/contact">request a free consultation</a>.</p>
 
 <h3>What is the average commercial construction cost per square foot in Charlotte NC?</h3>
 <p>The average commercial construction cost per square foot in Charlotte NC ranges from $75 for basic warehouse shell construction to over $550 for full-service restaurant or ambulatory surgery center build-outs. Most standard commercial projects — offices, retail, and light industrial — fall in the $125 – $275 per square foot range for hard construction costs in 2026.</p>
@@ -147,8 +146,8 @@ export const costGuidePosts: BlogPost[] = [
 <h3>What is the cheapest type of commercial building to construct in Charlotte?</h3>
 <p>Pre-engineered metal buildings (PEMB) for warehouse and light industrial use are the most affordable commercial construction type in Charlotte, starting around $75 – $100 per square foot for a basic shell with concrete slab, minimal HVAC, and standard electrical service. These buildings use factory-fabricated steel frames that reduce on-site labor and construction time.</p>
 
-<h3>How can I get a free commercial construction estimate in Charlotte?</h3>
-<p>Contact We Build at <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> to request a free consultation and cost estimate. As Charlotte's veteran-owned commercial contractor, we provide transparent pricing during pre-construction with no obligation. We will review your plans, visit your site, and deliver a detailed cost breakdown so you can make informed decisions.</p>
+<h3>How can I get a free commercial construction consultation in Charlotte?</h3>
+<p>Contact We Build at <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> to request a free consultation. As Charlotte's veteran-owned commercial contractor, we provide transparent pricing during pre-construction with no obligation. We will review your plans, visit your site, and deliver a detailed cost breakdown so you can make informed decisions.</p>
 `,
   },
   {
@@ -166,7 +165,7 @@ export const costGuidePosts: BlogPost[] = [
 <h2>Office Renovation Costs in Charlotte NC: A Complete Breakdown</h2>
 <p>Whether you are refreshing a tired office space, reconfiguring your layout for hybrid work, or gutting a building to the studs for a complete transformation, understanding renovation costs is essential for smart budgeting. Charlotte's office renovation market in 2026 reflects a city in transition — companies are investing heavily in spaces that attract talent, support collaboration, and reflect modern work styles.</p>
 <p>At <a href="/services/general-contractor">We Build</a>, we are Charlotte's veteran-owned commercial construction company with extensive experience in office renovations across South Charlotte, Ballantyne, SouthPark, Uptown, and the I-77 corridor. This guide breaks down what you can expect to pay for office renovation work in the Charlotte metro area.</p>
-<p>Need a specific estimate? Call us at <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a> for a free consultation.</p>
+<p>Need a specific estimate? Call us at <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a> for a free consultation.</p>
 
 <h2>Office Renovation Cost Tiers</h2>
 <p>Office renovations fall into three broad categories based on scope and complexity. Each tier has a different cost range per square foot, different timelines, and different levels of disruption to your operations.</p>
@@ -286,7 +285,7 @@ export const costGuidePosts: BlogPost[] = [
 
 <h2>Get Your Office Renovation Estimate</h2>
 <p>Every office renovation is unique, and accurate pricing requires understanding your specific space, goals, and timeline. At We Build, we provide detailed, transparent renovation estimates during our free pre-construction consultation.</p>
-<p>As Charlotte's veteran-owned <a href="/services/commercial-construction">commercial construction</a> company, we bring integrity and expertise to every project. Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to get started.</p>
+<p>As Charlotte's veteran-owned <a href="/services/commercial-construction">commercial construction</a> company, we bring integrity and expertise to every project. Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to get started.</p>
 
 <h3>How much does it cost to renovate a 5,000 sq ft office in Charlotte?</h3>
 <p>A 5,000 sq ft office renovation in Charlotte costs between $75,000 and $1,250,000 depending on the scope. A cosmetic refresh (paint, carpet, lighting) runs $75,000 – $250,000. A moderate renovation with layout changes and system upgrades costs $250,000 – $625,000. A full gut renovation runs $625,000 – $1,250,000 or more.</p>
@@ -301,7 +300,7 @@ export const costGuidePosts: BlogPost[] = [
 <p>A tenant improvement (TI) allowance is a dollar-per-square-foot budget that your landlord provides to fund office build-out or renovation as part of your lease. In Charlotte, TI allowances range from $15 – $80 per sq ft depending on building class, lease term, and market conditions. The allowance is typically applied against construction costs, with the tenant responsible for any overages.</p>
 
 <h3>Do I need permits for an office renovation in Charlotte?</h3>
-<p>Most office renovations in Charlotte require building permits from Mecklenburg County Code Enforcement. Any work involving structural changes, electrical modifications, plumbing changes, or HVAC alterations requires permits and inspections. Cosmetic work (paint, carpet, wall coverings) typically does not require permits. Your general contractor handles the permitting process — call We Build at <strong>(704) 574-8124</strong> to discuss your project.</p>
+<p>Most office renovations in Charlotte require building permits from Mecklenburg County Code Enforcement. Any work involving structural changes, electrical modifications, plumbing changes, or HVAC alterations requires permits and inspections. Cosmetic work (paint, carpet, wall coverings) typically does not require permits. Your general contractor handles the permitting process — call We Build at <strong>(980) 471-1745</strong> to discuss your project.</p>
 `,
   },
   {
@@ -319,7 +318,7 @@ export const costGuidePosts: BlogPost[] = [
 <h2>Retail Store Build-Out Costs: What Every Business Owner Needs to Know</h2>
 <p>Opening a retail location is one of the most exciting — and most expensive — steps in growing a business. The build-out cost to transform a raw or existing retail space into a customer-ready store varies enormously based on store type, size, location, and finish level. Understanding these costs upfront prevents budget overruns and helps you negotiate smarter lease terms.</p>
 <p>At <a href="/services/general-contractor">We Build</a>, Charlotte's veteran-owned general contractor, we have built out retail spaces ranging from 800 sq ft boutiques to 50,000+ sq ft anchor stores across the Charlotte metro area. This guide provides real cost data to help you budget accurately for your retail build-out.</p>
-<p>Ready to discuss your project? Call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>Ready to discuss your project? Call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 
 <h2>Understanding Retail Build-Out Cost Structure</h2>
 <p>Before diving into costs by store type, it is important to understand what a "build-out" includes and how costs are structured.</p>
@@ -420,7 +419,7 @@ export const costGuidePosts: BlogPost[] = [
 <li><strong>Negotiate shell condition:</strong> Push landlords to deliver a "warm shell" with HVAC, restroom, and storefront rather than a cold shell. This shifts $30 – $60 per sq ft of cost to the landlord.</li>
 <li><strong>Phase your build-out:</strong> Open with essentials and add amenities (patio, second phase, expanded kitchen) after generating revenue.</li>
 <li><strong>Standardize finishes:</strong> Off-the-shelf materials from readily available suppliers cost 20 – 40% less than custom or imported options.</li>
-<li><strong>Engage a contractor early:</strong> A <a href="/services/design-build">design-build</a> approach prevents design overreach and keeps costs aligned with your budget from day one.</li>
+<li><strong>Engage a contractor early:</strong> Bringing a <a href="/services/general-contractor">general contractor</a> in early prevents design overreach and keeps costs aligned with your budget from day one.</li>
 </ul>
 
 <h2>Charlotte-Specific Considerations</h2>
@@ -434,7 +433,7 @@ export const costGuidePosts: BlogPost[] = [
 
 <h2>Start Your Retail Build-Out Project</h2>
 <p>Whether you are opening your first retail location or expanding an existing brand, We Build delivers professional retail build-outs on time and on budget. As Charlotte's veteran-owned <a href="/services/commercial-construction">commercial construction</a> company, we understand both the construction and business sides of retail development.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">request a free estimate</a> to start planning your retail build-out.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">request a free consultation</a> to start planning your retail build-out.</p>
 
 <h3>How much does it cost to build out a 2,000 sq ft retail space in Charlotte?</h3>
 <p>A 2,000 sq ft retail build-out in Charlotte costs between $100,000 and $700,000+ depending on the type of business. A simple boutique or small retail store costs $100,000 – $350,000. A salon or coffee shop costs $200,000 – $500,000. A quick-service restaurant costs $500,000 – $700,000+. These ranges assume a warm shell starting condition.</p>
@@ -449,7 +448,7 @@ export const costGuidePosts: BlogPost[] = [
 <p>Second-generation spaces save 30 – 50% on build-out costs when the previous tenant's use matches yours. A former restaurant is ideal for a new restaurant because the grease trap, exhaust hood, and kitchen plumbing already exist. However, converting a retail space to a restaurant in a shell condition may actually be cheaper than trying to adapt an incompatible second-gen layout. Evaluate each option with your contractor before signing a lease.</p>
 
 <h3>What should I negotiate with my landlord to reduce build-out costs?</h3>
-<p>Negotiate for the highest possible tenant improvement (TI) allowance, warm shell delivery (HVAC, restroom, storefront included), free rent during the build-out period (construction abatement), and landlord-funded base building improvements (roof, parking lot, exterior). Every concession reduces your upfront capital investment. Contact We Build at <strong>(704) 574-8124</strong> for a preliminary cost estimate to support your lease negotiations.</p>
+<p>Negotiate for the highest possible tenant improvement (TI) allowance, warm shell delivery (HVAC, restroom, storefront included), free rent during the build-out period (construction abatement), and landlord-funded base building improvements (roof, parking lot, exterior). Every concession reduces your upfront capital investment. Contact We Build at <strong>(980) 471-1745</strong> for a preliminary cost estimate to support your lease negotiations.</p>
 
 <h3>Do I need ADA upgrades for my retail build-out?</h3>
 <p>Yes. All commercial tenant improvements must comply with ADA accessibility requirements, including accessible entrances, accessible restrooms, compliant signage, and accessible routes throughout the space. If your build-out costs exceed a certain threshold relative to the building value, you may be required to bring the entire building (not just your space) into ADA compliance, which can add significant cost.</p>
@@ -470,7 +469,7 @@ export const costGuidePosts: BlogPost[] = [
 <h2>Commercial Demolition Costs in Charlotte NC: A Comprehensive Guide</h2>
 <p>Demolition is often the first phase of any commercial construction or renovation project, yet it is one of the least understood in terms of cost. Whether you are tearing out an office interior for a tenant upfit, selectively removing portions of a building for adaptive reuse, or demolishing an entire structure for new development, understanding demolition costs helps you budget accurately and avoid surprises.</p>
 <p>At <a href="/services/general-contractor">We Build</a>, Charlotte's veteran-owned commercial contractor, we manage demolition as an integral part of our construction process — not as an afterthought. This guide breaks down what commercial demolition costs in the Charlotte market in 2026 and what factors drive those costs up or down.</p>
-<p>For a demolition estimate tailored to your project, call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>For a demolition estimate tailored to your project, call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 
 <h2>Types of Commercial Demolition</h2>
 <p>Not all demolition is the same. The type of demolition your project requires dramatically affects cost, timeline, and regulatory requirements.</p>
@@ -591,7 +590,7 @@ export const costGuidePosts: BlogPost[] = [
 
 <h2>Get a Demolition Estimate for Your Charlotte Project</h2>
 <p>Every demolition project requires a site visit and scope assessment for accurate pricing. At We Build, we provide comprehensive demolition estimates as part of our pre-construction process — whether demolition is a standalone project or the first phase of a larger <a href="/services/commercial-construction">commercial construction</a> or <a href="/services/commercial-renovation">renovation</a> project.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to schedule a site visit and receive your demolition estimate.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to schedule a site visit and receive your demolition estimate.</p>
 
 <h3>How much does interior demolition cost per square foot in Charlotte?</h3>
 <p>Interior demolition (gut-out) in Charlotte costs $2 – $8 per square foot for commercial spaces. Simple demolition of drywall, ceiling tile, and carpet in an open office runs $2 – $4 per square foot. More complex spaces with multiple restrooms, kitchen areas, or specialty systems cost $5 – $8+ per square foot. Selective demolition (preserving certain elements) costs $4 – $15 per square foot.</p>
@@ -606,7 +605,7 @@ export const costGuidePosts: BlogPost[] = [
 <p>Yes, and it should be. Concrete, brick, metal, and clean wood can all be recycled or repurposed. In Charlotte, concrete recycling is often cheaper than landfill disposal ($15 – $25 per ton vs. $35 – $55 per ton), and scrap metal generates revenue. We Build practices construction waste diversion on every project, consistent with our commitment to sustainable building as a USGBC member.</p>
 
 <h3>What permits do I need for demolition in Charlotte NC?</h3>
-<p>Commercial demolition in Charlotte requires a demolition permit from Mecklenburg County Code Enforcement, a NESHAP (asbestos) notification filed with NC DHHS at least 10 working days before work begins, and an erosion control permit if the disturbance area exceeds 1 acre. Buildings in historic districts require additional review from the Historic District Commission. Your general contractor should handle all permitting — call We Build at <strong>(704) 574-8124</strong> to discuss your project.</p>
+<p>Commercial demolition in Charlotte requires a demolition permit from Mecklenburg County Code Enforcement, a NESHAP (asbestos) notification filed with NC DHHS at least 10 working days before work begins, and an erosion control permit if the disturbance area exceeds 1 acre. Buildings in historic districts require additional review from the Historic District Commission. Your general contractor should handle all permitting — call We Build at <strong>(980) 471-1745</strong> to discuss your project.</p>
 
 <h3>Should I hire a separate demolition contractor or use my general contractor?</h3>
 <p>For most commercial projects, having your general contractor manage demolition as part of the overall scope is more efficient. The GC coordinates demolition with abatement, permitting, and the construction phase, avoiding gaps and coordination issues. Standalone demolition contractors make sense for large-scale full building demolitions where specialized heavy equipment (high-reach excavators, wrecking balls) is required.</p>
@@ -627,7 +626,7 @@ export const costGuidePosts: BlogPost[] = [
 <h2>Construction Cost Escalation in 2026: What Charlotte Building Owners Need to Know</h2>
 <p>If you are planning a commercial construction project in Charlotte, NC, cost escalation is not a hypothetical risk — it is a certainty. Construction costs have increased every year for the past decade, and while the extreme volatility of 2021-2023 has moderated, costs continue climbing in 2026. Understanding the drivers of escalation and implementing strategies to mitigate its impact can save your project hundreds of thousands of dollars.</p>
 <p>At <a href="/services/general-contractor">We Build</a>, Charlotte's veteran-owned commercial contractor, we help building owners navigate cost escalation through proactive pre-construction planning, strategic procurement, and honest project management. This guide explains what is driving construction costs in 2026 and what you can do about it.</p>
-<p>For project-specific cost guidance, call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>For project-specific cost guidance, call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 
 <h2>Current Escalation Rates in the Charlotte Market</h2>
 <p>Construction cost escalation in the Charlotte metro area for 2026 is tracking at approximately <strong>3 – 5% annually</strong>, varying by trade and material category. This is a moderation from the extraordinary escalation rates of recent years:</p>
@@ -723,8 +722,8 @@ export const costGuidePosts: BlogPost[] = [
 </ul>
 <p>Early procurement can save 3 – 8% on major line items by avoiding future price increases and securing favorable lead times.</p>
 
-<h3>2. Design-Build Delivery</h3>
-<p>The <a href="/services/design-build">design-build</a> method compresses the project timeline by overlapping design and construction phases. Faster delivery means less time exposed to escalation. Design-build projects in Charlotte typically save 15 – 25% of the design-bid-build timeline, reducing escalation exposure proportionally.</p>
+<h3>2. Integrated Project Delivery</h3>
+<p>Compressing the project timeline by overlapping design and construction phases means less time exposed to escalation. Integrated delivery projects in Charlotte typically save 15 - 25% of the traditional timeline, reducing escalation exposure proportionally.</p>
 
 <h3>3. Value Engineering During Pre-Construction</h3>
 <p>Our <a href="/services/value-engineering">value engineering</a> process identifies cost-effective alternatives before construction begins — not after the budget is blown. Common VE savings opportunities include alternate structural systems, standardized vs. custom finishes, optimized MEP routing, and phased scope delivery.</p>
@@ -742,7 +741,7 @@ export const costGuidePosts: BlogPost[] = [
 <li>Phased permitting (foundation permit while finishing design)</li>
 <li>Prefabrication of MEP assemblies off-site</li>
 <li>Extended work hours during critical path activities</li>
-<li>Concurrent procurement and construction (design-build)</li>
+<li>Concurrent procurement and construction (integrated delivery)</li>
 </ul>
 
 <h2>Charlotte Market-Specific Escalation Factors</h2>
@@ -756,7 +755,7 @@ export const costGuidePosts: BlogPost[] = [
 
 <h2>Plan Your Project to Beat Escalation</h2>
 <p>The best defense against construction cost escalation is proactive planning with an experienced general contractor. At We Build, our <a href="/services/pre-construction">pre-construction services</a> include detailed cost estimating with escalation projections, procurement strategy development, and schedule optimization — all designed to protect your budget from cost creep.</p>
-<p>As Charlotte's veteran-owned <a href="/services/commercial-construction">commercial construction</a> company, we bring transparency to every cost discussion. Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to start planning your project.</p>
+<p>As Charlotte's veteran-owned <a href="/services/commercial-construction">commercial construction</a> company, we bring transparency to every cost discussion. Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to start planning your project.</p>
 
 <h3>How much are construction costs increasing in Charlotte in 2026?</h3>
 <p>Construction costs in Charlotte are increasing approximately 3 – 5% annually in 2026, down from the 8 – 15% annual increases seen in 2021-2022. Material costs are relatively stable (steel, lumber) to moderately increasing (copper, HVAC, concrete), while labor costs continue rising 4 – 7% annually due to the persistent skilled trade shortage in the Charlotte market.</p>
@@ -771,7 +770,7 @@ export const costGuidePosts: BlogPost[] = [
 <p>The most effective strategy is early procurement of long-lead and price-volatile items: structural steel, electrical switchgear, HVAC equipment, and copper-intensive materials. Lock in pricing through purchase orders as early as your design allows, even if delivery is months away. Material storage costs are a fraction of price escalation risk. Additionally, include material escalation clauses in your construction contract to share risk on items procured later.</p>
 
 <h3>What is the biggest cost escalation risk for my Charlotte project?</h3>
-<p>For most Charlotte commercial projects, the biggest escalation risks are electrical and HVAC trades. Electrical materials (copper wire, switchgear, transformers) are under sustained upward pressure from global electrification demand, and Charlotte's electrical subcontractor market is tight due to data center construction absorbing skilled labor. Budget 5 – 8% annual escalation for electrical costs and engage your electrical subcontractor early. Call We Build at <strong>(704) 574-8124</strong> for project-specific escalation analysis.</p>
+<p>For most Charlotte commercial projects, the biggest escalation risks are electrical and HVAC trades. Electrical materials (copper wire, switchgear, transformers) are under sustained upward pressure from global electrification demand, and Charlotte's electrical subcontractor market is tight due to data center construction absorbing skilled labor. Budget 5 – 8% annual escalation for electrical costs and engage your electrical subcontractor early. Call We Build at <strong>(980) 471-1745</strong> for project-specific escalation analysis.</p>
 `,
   },
   {
@@ -789,7 +788,7 @@ export const costGuidePosts: BlogPost[] = [
 <h2>12 Hidden Costs That Catch Commercial Construction Owners Off Guard</h2>
 <p>Every commercial building owner starts with a budget. And nearly every one ends up spending more than planned — not because their contractor overcharged, but because dozens of legitimate costs were never included in the original budget. These "hidden costs" are not truly hidden — they are predictable, quantifiable expenses that experienced developers budget for routinely. But first-time building owners and many repeat owners consistently underestimate or overlook them.</p>
 <p>At <a href="/services/general-contractor">We Build</a>, Charlotte's veteran-owned commercial contractor, we believe in radical transparency about project costs. We would rather have an uncomfortable budget conversation during pre-construction than a crisis during construction. This guide identifies the 12 costs most frequently missed by commercial building owners in the Charlotte, NC market — and explains how to budget for each one.</p>
-<p>For a comprehensive project cost analysis, call <strong>(704) 574-8124</strong> or visit our <a href="/contact">contact page</a>.</p>
+<p>For a comprehensive project cost analysis, call <strong>(980) 471-1745</strong> or visit our <a href="/contact">contact page</a>.</p>
 
 <h2>1. Impact Fees and Development Charges</h2>
 <p><strong>Typical cost:</strong> $5,000 – $75,000+ per project</p>
@@ -942,7 +941,7 @@ export const costGuidePosts: BlogPost[] = [
 <li><strong>Contingency recommendations</strong> based on project complexity and risk factors</li>
 <li><strong>Cash flow projections</strong> showing when costs will be incurred throughout the project</li>
 </ul>
-<p>As Charlotte's veteran-owned <a href="/services/commercial-construction">commercial construction</a> company, We Build is committed to giving you the complete financial picture before you break ground. Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> for a free project consultation.</p>
+<p>As Charlotte's veteran-owned <a href="/services/commercial-construction">commercial construction</a> company, We Build is committed to giving you the complete financial picture before you break ground. Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> for a free project consultation.</p>
 
 <h3>What is the biggest hidden cost in commercial construction?</h3>
 <p>The biggest hidden cost varies by project, but stormwater management and impact fees are the most frequently underbudgeted items in the Charlotte market. Together, they can add $20,000 – $200,000+ to a project that owners did not anticipate. Change orders (5 – 15% of contract value) are also a major hidden cost category, though they can be significantly reduced through thorough pre-construction planning.</p>
@@ -954,7 +953,7 @@ export const costGuidePosts: BlogPost[] = [
 <p>Impact fees in Charlotte and surrounding jurisdictions are generally set by ordinance and not negotiable. However, you may qualify for fee reductions or exemptions based on redevelopment (replacing an existing use that already generated trips), affordable housing components, or economic development incentives. Work with your civil engineer and attorney to identify potential fee reductions early in the planning process.</p>
 
 <h3>How can I estimate total project cost including hidden costs?</h3>
-<p>A reliable rule of thumb for total project cost (hard costs + soft costs + FF&E + contingency) is to multiply your hard construction cost by 1.3 – 1.5. If your construction contract is $2,000,000, budget $2,600,000 – $3,000,000 total. For a more precise estimate, engage a general contractor during pre-construction to develop a comprehensive project budget. Contact We Build at <strong>(704) 574-8124</strong> for this analysis.</p>
+<p>A reliable rule of thumb for total project cost (hard costs + soft costs + FF&E + contingency) is to multiply your hard construction cost by 1.3 – 1.5. If your construction contract is $2,000,000, budget $2,600,000 – $3,000,000 total. For a more precise estimate, engage a general contractor during pre-construction to develop a comprehensive project budget. Contact We Build at <strong>(980) 471-1745</strong> for this analysis.</p>
 
 <h3>What costs does a construction contract typically NOT include?</h3>
 <p>A typical construction contract (hard costs) does not include: land acquisition, architecture and engineering fees, permits and impact fees, utility connection fees, geotechnical and environmental investigations, furniture/fixtures/equipment (FF&E), technology and AV systems, signage (often a separate vendor), landscaping beyond basic site restoration, financing costs, or owner's contingency. These "soft costs" and owner-furnished items must be budgeted separately and typically add 30 – 50% on top of the construction contract value.</p>

@@ -109,7 +109,7 @@ CRITICAL WRITING REQUIREMENTS:
 
    KEY TAKEAWAY (once, near end): <div class="key-takeaway"><h3>Key Takeaways</h3><ul><li>Point</li></ul></div>
 
-   INLINE CTA: <div class="inline-cta"><p>CTA text</p><a href="/contact">Get a Free Quote</a></div>
+   INLINE CTA: <div class="inline-cta"><p>CTA text</p><a href="/contact">Get a Free Consultation</a></div>
 
    TWO-COLUMN: <div class="two-col"><div><h3>A</h3><p>Details</p></div><div><h3>B</h3><p>Details</p></div></div>
 

@@ -15,8 +15,8 @@ export function FeaturedProjects() {
               Recent Construction Projects in Charlotte
             </h2>
             <p className="text-muted-foreground mt-4 max-w-2xl">
-              Browse our portfolio of completed commercial construction,
-              design-build, and roof coating projects across the
+              Browse our portfolio of completed commercial construction
+              and roof coating projects across the
               Charlotte metro area. Each project showcases the quality
               craftsmanship and attention to detail that We Build delivers.
               Visit our full{' '}

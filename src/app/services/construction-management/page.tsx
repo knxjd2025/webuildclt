@@ -43,7 +43,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Construction Management Charlotte NC | CM Services & Project Oversight',
   description:
-    'Professional construction management services in Charlotte, NC. CM at-risk, CM agency, program management, project oversight & schedule management. 22,200+ monthly searches for construction management. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (704) 574-8124.',
+    'Professional construction management services in Charlotte, NC. CM at-risk, CM agency, program management, project oversight & schedule management. 22,200+ monthly searches for construction management. Veteran-owned, licensed in NC & SC. 60+ years combined experience. (980) 471-1745.',
   keywords: [
     'construction management Charlotte NC',
     'construction management near me',
@@ -198,11 +198,6 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, enabling us to provide construction management services throughout the greater Charlotte metro area. Whether your project is in Uptown Charlotte, the South End corridor, the University Research Park, Fort Mill, Rock Hill, or the Lake Norman communities, our dual-state licensing ensures full regulatory compliance and seamless project delivery across state lines.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build Integration',
-    desc: 'Our construction management services integrate seamlessly with our design-build capability. When a project benefits from single-source responsibility for both design and construction, we can provide that through our in-house design-build team. When the project requires independent oversight with the CM agency model, we provide that with equal effectiveness. This flexibility means you get the delivery method that best fits your project, not the one that best fits our business model.',
   },
   {
     icon: Target,
@@ -407,10 +402,9 @@ export default function ConstructionManagementPage() {
                 construction management firm with over 60 years of combined construction experience. We
                 provide a full spectrum of CM services including CM at-risk with Guaranteed Maximum Pricing,
                 CM agency advisory services, owner&apos;s representative oversight, program management for
-                multi-project portfolios, and independent project oversight and quality assurance. Our{' '}
-                <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link> capability
-                allows us to offer integrated delivery when a project benefits from single-source
-                responsibility, while our CM agency and owner&apos;s representative services provide the
+                multi-project portfolios, and independent project oversight and quality assurance. We work
+                closely with your architect and design team to ensure seamless coordination between design
+                and construction, while our CM agency and owner&apos;s representative services provide the
                 independent oversight that institutional and corporate clients require. Licensed in both
                 North Carolina and South Carolina, we serve the entire Charlotte metropolitan area including{' '}
                 <Link href="/areas/south-charlotte" className="text-primary hover:underline">South Charlotte</Link>,{' '}
@@ -760,7 +754,6 @@ export default function ConstructionManagementPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: 'Commercial Construction Services', href: '/services/commercial-construction', type: 'Service' },
-              { title: 'Design-Build Delivery', href: '/services/design-build', type: 'Service' },
               { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service' },
               { title: 'Value Engineering', href: '/services/value-engineering', type: 'Service' },
               { title: "Owner's Representative", href: '/services/owners-representative', type: 'Service' },
@@ -818,9 +811,9 @@ export default function ConstructionManagementPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

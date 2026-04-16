@@ -67,7 +67,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 <h2>How We Build Reduces Your LEED Costs</h2>
 <p>As a USGBC member and experienced green building contractor, We Build has developed strategies to minimize LEED costs for Charlotte commercial projects:</p>
 <ul>
-<li><strong>Integrated design-build delivery:</strong> Our <a href="/services/design-build">design-build approach</a> catches LEED conflicts early, before they become expensive change orders.</li>
+<li><strong>Integrated project delivery:</strong> Our <a href="/services/pre-construction">pre-construction approach</a> catches LEED conflicts early, before they become expensive change orders.</li>
 <li><strong>Value engineering for sustainability:</strong> We identify which LEED credits deliver the best cost-to-point ratio for your specific building type and location.</li>
 <li><strong>Local material sourcing:</strong> We prioritize regional materials within 500 miles of Charlotte, which earns LEED credits while reducing shipping costs.</li>
 <li><strong>Duke Energy rebate optimization:</strong> We help clients maximize Duke Energy commercial rebates for high-efficiency HVAC, lighting, and building envelope improvements.</li>
@@ -86,7 +86,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 <h2>Getting Started with LEED in Charlotte</h2>
 <p>If you are considering LEED certification for your Charlotte commercial project, the best time to start planning is before design begins. Early integration of sustainability goals reduces costs, streamlines documentation, and ensures your building earns the certification level you are targeting.</p>
 <p>We Build's team can provide a preliminary LEED cost assessment for your project at no obligation. As USGBC members with extensive <a href="/services/green-building">green building experience</a> across the Charlotte metro area, we will help you understand the true costs and benefits of LEED certification for your specific situation.</p>
-<p>Call us at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to discuss your project.</p>
+<p>Call us at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to discuss your project.</p>
 
 <h3>How much does LEED certification cost per square foot in Charlotte?</h3>
 <p>For most Charlotte commercial buildings, LEED certification adds $3 to $15 per square foot over conventional construction costs, depending on the certification level. LEED Certified (the entry tier) typically adds $3 to $6 per square foot, while LEED Gold can add $8 to $15 per square foot. These figures include construction premiums, consulting, and USGBC fees but do not account for energy savings and rebates that offset the cost.</p>
@@ -184,7 +184,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 
 <h2>Combining Strategies for Maximum Impact</h2>
 <p>The most cost-effective approach combines multiple strategies that work together synergistically. A high-performance envelope reduces HVAC sizing requirements, which lowers the cost premium for VRF systems. Daylighting reduces lighting loads, which reduces internal heat generation, which further reduces HVAC demand. This cascading effect means the total cost of a comprehensive energy-efficiency package is often less than the sum of individual strategies.</p>
-<p>At We Build, our <a href="/services/design-build">design-build approach</a> allows us to model these interactions during design, optimizing the combination of strategies for your budget and energy goals. Our USGBC membership gives us access to the latest energy modeling tools and green building research to inform these decisions.</p>
+<p>At We Build, our <a href="/services/pre-construction">pre-construction approach</a> allows us to model these interactions during design, optimizing the combination of strategies for your budget and energy goals. Our USGBC membership gives us access to the latest energy modeling tools and green building research to inform these decisions.</p>
 
 <h2>Duke Energy Rebates for Charlotte Commercial Buildings</h2>
 <p>Duke Energy Carolinas and Duke Energy Progress offer substantial commercial rebate programs that offset the cost of many energy-efficiency strategies. Current programs include custom rebates calculated based on verified energy savings, prescriptive rebates for specific equipment types (lighting, HVAC, motors, VFDs), and new construction incentives for whole-building energy performance that exceeds code by 10% or more.</p>
@@ -192,7 +192,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 
 <h2>Get a Custom Energy Efficiency Plan</h2>
 <p>Every commercial building is different, and the right combination of strategies depends on your building type, occupancy patterns, and budget. We Build provides energy-efficiency consultations for Charlotte commercial projects of all sizes.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">reach out online</a> to discuss which strategies make the most sense for your project.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">reach out online</a> to discuss which strategies make the most sense for your project.</p>
 
 <h3>What is the most cost-effective energy efficiency upgrade for existing Charlotte commercial buildings?</h3>
 <p>LED lighting with advanced controls is consistently the most cost-effective energy-efficiency upgrade for existing commercial buildings. With payback periods of 2-4 years (often less with Duke Energy rebates), LED upgrades deliver immediate savings while improving light quality and reducing maintenance costs. For buildings with aging HVAC systems, roof coatings are the second-best ROI, reducing cooling costs by 10-25% at a fraction of the cost of HVAC replacement.</p>
@@ -253,7 +253,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 <li><strong>Energy community bonus:</strong> Additional 10% for projects in designated energy communities</li>
 </ul>
 <p>For a $200,000 commercial solar installation on a Charlotte building meeting prevailing wage requirements, the base ITC would be $60,000, with potential bonuses bringing the total credit to $80,000 to $100,000.</p>
-<p>Charlotte receives approximately 5.0 peak sun hours per day, making solar an excellent investment for commercial buildings with suitable roof area. Our <a href="/services/design-build">design-build team</a> can integrate solar-ready features into new construction projects to minimize future installation costs.</p>
+<p>Charlotte receives approximately 5.0 peak sun hours per day, making solar an excellent investment for commercial buildings with suitable roof area. Our <a href="/services/commercial-construction">construction team</a> can integrate solar-ready features into new construction projects to minimize future installation costs.</p>
 
 <h2>Federal 45L Tax Credit for Energy Efficient Residential Construction</h2>
 <p>While We Build focuses primarily on commercial construction, the 45L credit is relevant for developers building multifamily residential projects (apartments, condos, townhouses) with 3 or more stories. The credit provides $500 to $5,000 per dwelling unit for meeting specific energy-efficiency standards, including Energy Star and Zero Energy Ready Home certifications.</p>
@@ -314,7 +314,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 
 <h2>Work With a USGBC Member Contractor</h2>
 <p>Navigating green building tax incentives requires a contractor who understands both the construction and the compliance requirements. As a USGBC member, We Build has the <a href="/services/green-building">green building expertise</a> to design and document projects for maximum tax benefit.</p>
-<p>Call us at <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to discuss how tax incentives can make your green building project more affordable.</p>
+<p>Call us at <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to discuss how tax incentives can make your green building project more affordable.</p>
 
 <h3>Can I claim 179D for a building renovation in Charlotte?</h3>
 <p>Yes. The 179D deduction applies to both new construction and renovations of existing commercial buildings. For renovations, the deduction is based on the energy-efficiency improvement achieved by the specific systems upgraded — the building envelope, interior lighting, or HVAC and hot water systems. Each system can qualify independently, and partial deductions are available when only one or two systems are upgraded.</p>
@@ -326,7 +326,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 <p>The prevailing wage and apprenticeship requirements apply to projects that begin construction after January 29, 2023, and want to claim the enhanced deduction (up to $5.00 per square foot instead of $1.00). Projects that do not meet these requirements can still claim the base deduction. For most Charlotte commercial projects working with established contractors like We Build, meeting prevailing wage requirements is straightforward and the 4-5x multiplier makes it well worth the effort.</p>
 
 <h3>Can a nonprofit building in Charlotte benefit from 179D?</h3>
-<p>Yes. The Inflation Reduction Act specifically extended 179D benefits to tax-exempt entities including nonprofits, religious organizations, tribal governments, and public schools. These entities can allocate the 179D deduction to the project designer — typically the architect or, in a design-build delivery, the general contractor. This allocation mechanism means that tax-exempt Charlotte organizations can effectively reduce their project costs by negotiating the deduction value into their contract.</p>
+<p>Yes. The Inflation Reduction Act specifically extended 179D benefits to tax-exempt entities including nonprofits, religious organizations, tribal governments, and public schools. These entities can allocate the 179D deduction to the project designer — typically the architect or the general contractor. This allocation mechanism means that tax-exempt Charlotte organizations can effectively reduce their project costs by negotiating the deduction value into their contract.</p>
 
 <h3>How long will these federal green building tax incentives last?</h3>
 <p>The Section 179D deduction was made permanent by the Inflation Reduction Act. The Investment Tax Credit for solar was extended at 30% through 2032, then steps down to 26% in 2033 and 22% in 2034. The 45L credit for energy-efficient homes runs through 2032. However, tax policy can change with new legislation, so building owners should consult their tax advisors and plan projects to take advantage of current incentives while they are in effect.</p>
@@ -417,7 +417,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 <p>If you are considering a net zero commercial building in Charlotte, here is the process We Build follows:</p>
 <ul>
 <li><strong>Feasibility assessment:</strong> We analyze your site's solar potential, building program, and energy requirements to determine if net zero is achievable and cost-effective</li>
-<li><strong>Integrated design:</strong> Our <a href="/services/design-build">design-build team</a> develops the building design with energy performance as a primary driver, modeling envelope options, HVAC systems, and solar configurations</li>
+<li><strong>Integrated design:</strong> Our <a href="/services/commercial-construction">construction team</a> develops the building design with energy performance as a primary driver, modeling envelope options, HVAC systems, and solar configurations</li>
 <li><strong>Energy modeling:</strong> We create detailed energy models to predict annual energy use and solar production, verifying net zero feasibility before construction begins</li>
 <li><strong>Tax incentive planning:</strong> We coordinate with your tax advisor to structure the project for maximum 179D and ITC benefits</li>
 <li><strong>Construction and commissioning:</strong> We build to the modeled specifications and commission all systems to verify performance matches design intent</li>
@@ -426,7 +426,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 
 <h2>Start Your Net Zero Journey</h2>
 <p>Net zero commercial construction in Charlotte is not just possible — it is increasingly practical and financially compelling. As USGBC members with deep experience in <a href="/services/green-building">green building</a> and energy-efficient construction, We Build is ready to help you explore what net zero means for your specific project.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to schedule a net zero feasibility consultation.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to schedule a net zero feasibility consultation.</p>
 
 <h3>How much does a net zero commercial building cost compared to conventional construction?</h3>
 <p>Net zero commercial buildings in Charlotte typically cost 10-20% more than conventional construction before tax incentives. After accounting for the federal 179D deduction, solar ITC, North Carolina tax exemptions, and Duke Energy rebates, the effective premium drops to 3-8%. Over the life of the building, eliminated utility bills make net zero construction less expensive than conventional construction on a total cost-of-ownership basis.</p>
@@ -543,8 +543,8 @@ export const greenBuildingNewPosts: BlogPost[] = [
 
 <h2>Get Expert Guidance on Sustainable Materials</h2>
 <p>Choosing the right sustainable materials for your Charlotte commercial project requires balancing environmental impact, performance, cost, and availability. As USGBC members with extensive <a href="/services/green-building">green building experience</a>, We Build can guide you through material selection and help you achieve your sustainability goals without blowing your budget.</p>
-<p>Our <a href="/services/design-build">design-build approach</a> integrates material selection into the design process from day one, ensuring sustainable choices are cost-effective and properly specified.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to discuss sustainable materials for your project.</p>
+<p>Our <a href="/services/pre-construction">pre-construction approach</a> integrates material selection into the design process from day one, ensuring sustainable choices are cost-effective and properly specified.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to discuss sustainable materials for your project.</p>
 
 <h3>Do sustainable construction materials cost more than conventional materials?</h3>
 <p>Not always. Many sustainable materials — including recycled-content steel, fly ash concrete, and zero-VOC paint — are available at the same price as conventional alternatives. Materials with modest premiums (5-15%), such as mineral wool insulation and recycled-content carpet tile, often deliver lifecycle cost savings through improved durability and reduced maintenance. The overall sustainable materials premium for a Charlotte commercial project is typically 3-7% of total construction cost.</p>
@@ -639,8 +639,8 @@ export const greenBuildingNewPosts: BlogPost[] = [
 
 <h2>Work With a USGBC Member for Your Next Project</h2>
 <p>We Build's USGBC membership is more than a logo on our website — it is a commitment to building better, more sustainably, and with greater accountability. Whether your project requires full LEED certification, targeted green building features, or simply the confidence that your contractor understands sustainable construction, our USGBC membership is your assurance of quality.</p>
-<p>Explore our <a href="/services/green-building">green building services</a> or our full range of <a href="/services/design-build">design-build capabilities</a> to see how We Build can deliver your next Charlotte commercial project with sustainability built in from the ground up.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to get started.</p>
+<p>Explore our <a href="/services/green-building">green building services</a> or our full range of <a href="/services/commercial-construction">commercial construction capabilities</a> to see how We Build can deliver your next Charlotte commercial project with sustainability built in from the ground up.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to get started.</p>
 
 <h3>Is USGBC membership the same as LEED certification?</h3>
 <p>No. USGBC membership is an organizational affiliation — it means a company or institution has joined the U.S. Green Building Council and supports its mission. LEED certification is a project-level designation — it means a specific building has met LEED performance standards and been certified by the USGBC. A company can be a USGBC member without having LEED-certified projects, and a building can achieve LEED certification without the contractor being a USGBC member. However, the best outcomes come from USGBC member contractors delivering LEED-certified projects.</p>
@@ -727,8 +727,8 @@ export const greenBuildingNewPosts: BlogPost[] = [
 
 <h2>We Build's Commitment to Charlotte's Sustainable Future</h2>
 <p>We Build's USGBC membership reflects our belief that sustainable construction is not a trend — it is the future of our industry. As Charlotte implements its 2040 Comprehensive Plan, the commercial buildings we construct today will either lead the transition or require expensive retrofits to keep up. We help our clients build for the future, not just for today.</p>
-<p>Explore our <a href="/services/green-building">green building services</a>, <a href="/services/design-build">design-build delivery</a>, and <a href="/services/roof-coating">roof coating solutions</a> to see how We Build can help your next Charlotte commercial project align with the city's sustainability vision.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to start the conversation.</p>
+<p>Explore our <a href="/services/green-building">green building services</a>, <a href="/services/commercial-construction">commercial construction</a>, and <a href="/services/roof-coating">roof coating solutions</a> to see how We Build can help your next Charlotte commercial project align with the city's sustainability vision.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to start the conversation.</p>
 
 <h3>Will Charlotte require green building for new commercial construction?</h3>
 <p>Charlotte does not currently mandate green building certification (such as LEED) for private commercial construction. However, the 2040 Plan signals that energy codes and sustainability requirements will become more stringent over time. Several other major cities — including Atlanta, Austin, and Washington DC — have already adopted mandatory green building requirements for commercial projects above certain size thresholds. Charlotte may follow a similar path, particularly for projects seeking public incentives or located in specific development zones.</p>
@@ -760,7 +760,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 <h2>Why Solar-Ready Design Makes Sense for Every Charlotte Commercial Building</h2>
 <p>Charlotte receives an average of 5.0 peak sun hours per day — one of the best solar resources in the Southeast. With commercial electricity rates from Duke Energy averaging $0.08 to $0.12 per kilowatt-hour and solar panel costs declining by 70% over the past decade, rooftop solar is an increasingly compelling investment for commercial building owners.</p>
 <p>But here is the catch: retrofitting an existing commercial building for solar can cost $10,000 to $30,000 more than installing the same system on a solar-ready building. Structural reinforcement, electrical panel upgrades, conduit installation through finished spaces, and roof penetrations through warranty-protected membranes add cost and complexity to solar retrofits.</p>
-<p>Solar-ready design eliminates these future costs with minimal upfront investment — typically $0.50 to $1.50 per square foot during initial construction. As a <strong>USGBC member</strong>, We Build incorporates solar-ready features into our <a href="/services/design-build">design-build projects</a> as a standard practice because the cost-to-benefit ratio is simply too compelling to ignore.</p>
+<p>Solar-ready design eliminates these future costs with minimal upfront investment — typically $0.50 to $1.50 per square foot during initial construction. As a <strong>USGBC member</strong>, We Build incorporates solar-ready features into our <a href="/services/commercial-construction">commercial construction projects</a> as a standard practice because the cost-to-benefit ratio is simply too compelling to ignore.</p>
 
 <h2>Structural Design for Solar</h2>
 <p>The most critical — and most expensive to retrofit — solar-ready feature is structural capacity. Rooftop solar panels and their mounting systems add 3-5 pounds per square foot of dead load to the roof structure. While this sounds modest, it must be accounted for in the structural design.</p>
@@ -846,8 +846,8 @@ export const greenBuildingNewPosts: BlogPost[] = [
 
 <h2>Get Solar-Ready Design in Your Next Project</h2>
 <p>Solar-ready design is one of the simplest and most cost-effective sustainability investments a Charlotte commercial building owner can make. For a minimal upfront cost, you preserve the full value of future solar installation while avoiding expensive retrofits.</p>
-<p>We Build incorporates solar-ready features into every new commercial construction project through our <a href="/services/design-build">design-build delivery</a> and <a href="/services/green-building">green building services</a>. Our USGBC membership and experience with Charlotte's solar market ensure your building is designed for maximum solar potential.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to discuss solar-ready design for your project.</p>
+<p>We Build incorporates solar-ready features into every new commercial construction project through our <a href="/services/commercial-construction">commercial construction</a> and <a href="/services/green-building">green building services</a>. Our USGBC membership and experience with Charlotte's solar market ensure your building is designed for maximum solar potential.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to discuss solar-ready design for your project.</p>
 
 <h3>How much does solar-ready design add to construction costs?</h3>
 <p>Solar-ready design typically adds $0.50 to $1.50 per square foot to construction costs, depending on building type and the scope of solar-ready features included. For a 20,000 square foot commercial building, that translates to $10,000 to $30,000 — the same amount you would spend on structural reinforcement alone if you retrofitted the building for solar after construction. The conduit, electrical panel capacity, and roof planning elements are where the real retrofit savings occur.</p>
@@ -989,7 +989,7 @@ export const greenBuildingNewPosts: BlogPost[] = [
 
 <h2>We Build's Green Roof and Cool Roof Expertise</h2>
 <p>As a USGBC member with experience in both <a href="/services/green-building">green building</a> and <a href="/services/roof-coating">roof coating systems</a>, We Build can help you evaluate the right roofing approach for your Charlotte commercial building. Whether you are designing a new building, re-roofing an existing structure, or looking for cost-effective ways to improve your roof's performance, our team provides objective recommendations based on your specific situation.</p>
-<p>Call <strong>(704) 574-8124</strong> or <a href="/contact">contact us online</a> to discuss green roof and cool roof options for your project.</p>
+<p>Call <strong>(980) 471-1745</strong> or <a href="/contact">contact us online</a> to discuss green roof and cool roof options for your project.</p>
 
 <h3>How much weight does a green roof add to a commercial building?</h3>
 <p>An extensive green roof (3-6 inches of growing medium with sedum plants) adds 15-30 pounds per square foot when fully saturated with water. An intensive green roof (12-24 inches of growing medium with diverse plantings) adds 60-150+ pounds per square foot when saturated. For comparison, a typical cool roof membrane adds less than 1 pound per square foot. New commercial buildings designed for green roof loads add approximately $0.50 to $1.25 per square foot in structural steel costs. Retrofitting an existing building to support a green roof can cost $3 to $8 per square foot in structural reinforcement.</p>

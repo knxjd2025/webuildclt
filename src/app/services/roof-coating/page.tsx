@@ -34,7 +34,7 @@ import {
 export const metadata: Metadata = {
   title: 'Roof Coating Charlotte NC | Commercial Roof Restoration',
   description:
-    'Commercial roofing contractor near me in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric roof coatings. Save up to 50% vs roof replacement. Commercial roofing contractors near me serving Charlotte and the Carolinas. USGBC member. Veteran-owned. Free roof assessments. (704) 574-8124.',
+    'Commercial roofing contractor near me in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric roof coatings. Save up to 50% vs roof replacement. Commercial roofing contractors near me serving Charlotte and the Carolinas. USGBC member. Veteran-owned. Free roof assessments. (980) 471-1745.',
   keywords: [
     'roof coating charlotte nc',
     'commercial roof coating charlotte',
@@ -249,7 +249,7 @@ const benefits = [
     icon: Building2,
     title: 'Zero Business Disruption',
     description:
-      'Unlike a full roof replacement that involves loud tear-off operations, debris, dust, and potential interior exposure, roof coating is applied directly over your existing roof with minimal noise and no interior disruption. Your business operates normally throughout the entire project. Our coatings are non-toxic and low-odor, so employees, customers, and tenants are unaffected. Most commercial coating projects are completed in 3 to 7 days depending on roof size and weather conditions.',
+      'Unlike a full roof replacement that involves loud tear-off operations, debris, dust, and potential interior exposure, roof coating is applied directly over your existing roof with minimal noise and no interior disruption. Your business operates normally throughout the entire project. Our coatings are non-toxic and low-odor, so employees, customers, and tenants are unaffected. Most commercial coating projects are completed in 2 to 3 weeks depending on roof size and weather conditions.',
   },
 ];
 
@@ -315,7 +315,7 @@ const faqs = [
   {
     question: 'How long does a roof coating project take?',
     answer:
-      'Most commercial roof coating projects in Charlotte take 3 to 7 business days, depending on roof size, condition, and weather. A standard 15,000-square-foot roof typically takes 4 to 5 days: one day for cleaning and prep, one day for repairs and detail work, and two to three days for coating application. Larger roofs or those requiring extensive repairs may take longer. We schedule around Charlotte weather patterns to avoid rain during application and curing.',
+      'Most commercial roof coating projects in Charlotte take 2 to 3 weeks, depending on roof size, condition, and weather. A standard 15,000-square-foot roof typically takes about 2 weeks: several days for cleaning and prep, time for repairs and detail work, and the remaining time for coating application and proper curing. Larger roofs or those requiring extensive repairs may take longer. We schedule around Charlotte weather patterns to avoid rain during application and curing.',
   },
   {
     question: 'Does roof coating stop leaks?',
@@ -345,7 +345,7 @@ const faqs = [
   {
     question: 'How does roof coating compare to a TPO or EPDM roof replacement in Charlotte?',
     answer:
-      'A full TPO or EPDM roof replacement in Charlotte costs $12 to $20 per square foot and requires 2 to 4 weeks of disruptive tear-off, disposal, and installation. Roof coating costs $8 to $12 per square foot installed and takes 3 to 7 days with zero interior disruption. Replacement generates significant landfill waste from the old membrane, while coating creates no tear-off waste at all. The trade-off is that coating requires a structurally sound existing roof and substrate in reasonable condition. If your existing membrane is severely deteriorated or insulation is saturated, replacement is the better long-term investment. Our free roof assessment determines which option is right for your specific building.',
+      'A full TPO or EPDM roof replacement in Charlotte costs $12 to $20 per square foot and requires 2 to 4 weeks of disruptive tear-off, disposal, and installation. Roof coating costs $8 to $12 per square foot installed and takes 2 to 3 weeks with zero interior disruption. Replacement generates significant landfill waste from the old membrane, while coating creates no tear-off waste at all. The trade-off is that coating requires a structurally sound existing roof and substrate in reasonable condition. If your existing membrane is severely deteriorated or insulation is saturated, replacement is the better long-term investment. Our free roof assessment determines which option is right for your specific building.',
   },
   {
     question: 'Can you coat a metal roof on a warehouse or industrial building in the Charlotte area?',
@@ -665,7 +665,7 @@ export default function RoofCoatingPage() {
                   <ul className="space-y-3">
                     {[
                       'Cost: $8-$12 per square foot installed',
-                      'Timeline: 3-7 business days',
+                      'Timeline: 2-3 weeks',
                       'Business disruption: None',
                       'Waste generated: Near zero',
                       'Tax treatment: Maintenance expense (deductible)',
@@ -914,7 +914,7 @@ export default function RoofCoatingPage() {
               substantial, and the ongoing energy savings compound year after year. When you add
               the tax advantage of deducting the full cost as a maintenance expense versus
               depreciating a replacement over 39 years, the financial case for coating is
-              compelling. We provide free, detailed estimates for every project so you can make
+              compelling. We provide free, detailed consultations for every project so you can make
               an informed decision based on your specific building and budget. Contact our team to
               schedule a{' '}
               <Link href="/contact" className="text-primary hover:underline font-medium">
@@ -940,11 +940,7 @@ export default function RoofCoatingPage() {
               <Link href="/services/commercial-upfits" className="text-primary hover:underline font-medium">
                 commercial upfit
               </Link>{' '}
-              to renovate your interior while we coat your roof, a{' '}
-              <Link href="/services/design-build" className="text-primary hover:underline font-medium">
-                design-build
-              </Link>{' '}
-              project for a new facility, or a{' '}
+              to renovate your interior while we coat your roof, or a{' '}
               <Link href="/services/general-contractor" className="text-primary hover:underline font-medium">
                 general contractor
               </Link>{' '}
@@ -1005,8 +1001,8 @@ export default function RoofCoatingPage() {
             <p className="text-muted-foreground text-center mb-8">
               Answers to the most common questions Charlotte building owners ask about commercial
               roof coating. If you have a question not covered here, call us at{' '}
-              <a href="tel:+17045748124" className="text-primary hover:underline font-medium">
-                (704) 574-8124
+              <a href="tel:+19804711745" className="text-primary hover:underline font-medium">
+                (980) 471-1745
               </a>{' '}
               or{' '}
               <Link href="/contact" className="text-primary hover:underline font-medium">
@@ -1035,7 +1031,7 @@ export default function RoofCoatingPage() {
             Schedule a free roof assessment with We Build&apos;s{' '}
             <span className="font-medium text-primary-foreground">We Coat</span> team.
             We will inspect your roof, recommend the right coating system, and provide a
-            detailed estimate — all at no cost and no obligation. Serving Charlotte, NC,{' '}
+            detailed proposal — all at no cost and no obligation. Serving Charlotte, NC,{' '}
             Fort Mill, SC, Lake Norman, and surrounding communities.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -1048,9 +1044,9 @@ export default function RoofCoatingPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

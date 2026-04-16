@@ -14,7 +14,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>Why Charlotte Remains a Top Market for Commercial Investment in 2026</h2>
 <p>Charlotte has consistently ranked among the fastest-growing metro areas in the United States, and 2026 is no exception. With a population surpassing 2.7 million in the greater metro area, the Queen City continues to attract corporate relocations, tech startups, and small businesses seeking affordable commercial space relative to cities like Atlanta, Nashville, and Raleigh. For investors and business owners considering new commercial construction or tenant improvements, understanding which neighborhoods deliver the strongest returns is essential.</p>
-<p>At We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, we have completed commercial construction projects across every major Charlotte corridor. Our firsthand experience with permitting timelines, construction costs, and tenant demand gives us unique insight into which neighborhoods are poised for growth. Call us at <strong>(704) 574-8124</strong> to discuss your next commercial project.</p>
+<p>At We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, we have completed commercial construction projects across every major Charlotte corridor. Our firsthand experience with permitting timelines, construction costs, and tenant demand gives us unique insight into which neighborhoods are poised for growth. Call us at <strong>(980) 471-1745</strong> to discuss your next commercial project.</p>
 
 <h2>South End: Charlotte's Most Dynamic Mixed-Use Corridor</h2>
 <p>South End continues to lead Charlotte in commercial investment activity. The LYNX Blue Line light rail has transformed this former industrial district into a walkable hub of office towers, boutique retail, brewery taprooms, and restaurant concepts. Class A office rents in South End now rival Uptown pricing, averaging $38-$45 per square foot, yet tenant demand remains strong thanks to the neighborhood's appeal to tech companies and creative agencies.</p>
@@ -48,14 +48,14 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 
 <h2>How We Build Helps Commercial Investors</h2>
 <p>Whether you are developing a ground-up commercial project or renovating an existing space, We Build brings Charlotte market expertise to every engagement. As a veteran and family-owned <a href="/services/general-contractor">general contractor</a>, we understand the permitting process in Mecklenburg County, the cost dynamics across Charlotte neighborhoods, and the construction quality that institutional tenants expect.</p>
-<p>Our services include <a href="/services/commercial-construction">commercial construction</a>, <a href="/services/commercial-upfits">commercial upfits</a>, <a href="/services/design-build">design-build delivery</a>, and <a href="/services/pre-construction">pre-construction planning</a>. We work with investors from initial site assessment through certificate of occupancy, providing transparent budgets and realistic timelines.</p>
-<p>Ready to explore commercial investment opportunities in Charlotte? <a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> for a free consultation.</p>
+<p>Our services include <a href="/services/commercial-construction">commercial construction</a>, <a href="/services/commercial-upfits">commercial upfits</a>, and <a href="/services/pre-construction">pre-construction planning</a>. We work with investors from initial site assessment through certificate of occupancy, providing transparent budgets and realistic timelines.</p>
+<p>Ready to explore commercial investment opportunities in Charlotte? <a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> for a free consultation.</p>
 
 <h3>What are the best Charlotte neighborhoods for commercial investment in 2026?</h3>
 <p>South End, Ballantyne, NoDa, University City, and the Airport/West Charlotte corridor each offer strong commercial investment opportunities depending on your budget and target tenant. South End delivers the highest rents but also the highest land costs, while University City and West Charlotte offer better value with strong demand fundamentals. We Build has completed projects across all of these neighborhoods and can help you evaluate specific sites.</p>
 
 <h3>How much does it cost to build commercial space in Charlotte?</h3>
-<p>Commercial construction costs in Charlotte range from $180-$300 per square foot for office build-outs, $150-$250 per square foot for restaurant spaces, and $80-$140 per square foot for industrial and warehouse construction. These figures vary by neighborhood, building condition, and scope of work. Contact We Build at (704) 574-8124 for a project-specific estimate.</p>
+<p>Commercial construction costs in Charlotte range from $180-$300 per square foot for office build-outs, $150-$250 per square foot for restaurant spaces, and $80-$140 per square foot for industrial and warehouse construction. These figures vary by neighborhood, building condition, and scope of work. Contact We Build at (980) 471-1745 for a project-specific estimate.</p>
 
 <h3>Which Charlotte neighborhoods have the fastest permitting timelines?</h3>
 <p>Industrial projects in the Airport/West Charlotte corridor typically receive permits in 8-12 weeks. South End projects in the TOD (Transit-Oriented Development) zone benefit from streamlined zoning approval. Ballantyne and University City generally fall in the 10-14 week range for commercial permits. Uptown projects can take longer due to historic district review and higher design standards.</p>
@@ -83,7 +83,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>Charlotte's Commercial Development Landscape in 2026</h2>
 <p>Charlotte's commercial real estate market continues to expand along several well-defined corridors, each with distinct demand drivers, construction dynamics, and investment profiles. Understanding these hotspots helps business owners, investors, and developers make informed decisions about where to build, lease, or buy commercial property.</p>
-<p>We Build, a veteran and family-owned commercial construction company headquartered at 14330 S Lakes Drive, Charlotte NC 28273, has worked across every major Charlotte development corridor. Our experience spans <a href="/services/commercial-construction">commercial construction</a>, <a href="/services/commercial-upfits">tenant upfits</a>, and <a href="/services/design-build">design-build</a> projects from Uptown to the outer I-485 ring. Contact us at <strong>(704) 574-8124</strong> to discuss your next project.</p>
+<p>We Build, a veteran and family-owned commercial construction company headquartered at 14330 S Lakes Drive, Charlotte NC 28273, has worked across every major Charlotte development corridor. Our experience spans <a href="/services/commercial-construction">commercial construction</a>, <a href="/services/commercial-upfits">tenant upfits</a>, and <a href="/services/general-contractor">general contracting</a> projects from Uptown to the outer I-485 ring. Contact us at <strong>(980) 471-1745</strong> to discuss your next project.</p>
 
 <h2>The I-77 Corridor: Charlotte's North-South Spine</h2>
 <p>Interstate 77 runs through the heart of the Charlotte metro from Mooresville and Lake Norman in the north to Rock Hill and Fort Mill across the South Carolina state line. This corridor handles over 200,000 vehicles per day and connects some of the region's most active commercial development zones.</p>
@@ -125,7 +125,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <h2>Working with We Build Across Charlotte's Hotspots</h2>
 <p>As a <a href="/services/general-contractor">general contractor</a> with deep Charlotte market experience, We Build understands the construction nuances of every major development corridor. Permitting requirements vary between Mecklenburg County, Cabarrus County, Union County, and York County (South Carolina). Soil conditions differ between Charlotte's piedmont clay and the sandy loam found south of the state line. Utility availability and capacity vary by site.</p>
 <p>Our team manages these variables so you can focus on your business strategy. Whether you are building a new office in Ballantyne, upfitting a restaurant in NoDa, or constructing a warehouse near the airport, We Build delivers on time and on budget.</p>
-<p><a href="/contact">Contact us today</a> or call <strong>(704) 574-8124</strong> to discuss your Charlotte commercial construction project.</p>
+<p><a href="/contact">Contact us today</a> or call <strong>(980) 471-1745</strong> to discuss your Charlotte commercial construction project.</p>
 
 <h3>What is the fastest-growing commercial real estate market in Charlotte?</h3>
 <p>The South End/LoSo corridor and the I-77 South corridor into Fort Mill/Indian Land are currently the fastest-growing commercial markets in the Charlotte metro. South End leads in urban mixed-use development, while the Fort Mill area leads in suburban commercial growth. The Airport/West Charlotte industrial corridor is the fastest-growing industrial market.</p>
@@ -159,7 +159,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>South End Charlotte: The Complete Commercial Construction Guide</h2>
 <p>South End has transformed from a forgotten industrial corridor into Charlotte's most vibrant mixed-use neighborhood. For business owners, investors, and developers considering commercial construction in South End, this guide covers everything from zoning and permitting to construction costs, tenant demand, and future development trends.</p>
-<p>We Build, a veteran and family-owned <a href="/services/general-contractor">general contractor</a> based at 14330 S Lakes Drive, Charlotte NC 28273, has completed numerous commercial projects in and around South End. Our direct experience with the neighborhood's unique construction challenges — from brownfield remediation to tight urban sites — positions us to help you execute your South End project successfully. Call <strong>(704) 574-8124</strong> to start the conversation.</p>
+<p>We Build, a veteran and family-owned <a href="/services/general-contractor">general contractor</a> based at 14330 S Lakes Drive, Charlotte NC 28273, has completed numerous commercial projects in and around South End. Our direct experience with the neighborhood's unique construction challenges — from brownfield remediation to tight urban sites — positions us to help you execute your South End project successfully. Call <strong>(980) 471-1745</strong> to start the conversation.</p>
 
 <h2>South End's Geographic Boundaries and Character</h2>
 <p>South End occupies a narrow corridor along South Boulevard between Uptown Charlotte and the I-277/Morehead Street intersection to the north and Scaleybark Road to the south. The neighborhood is roughly 1.5 miles long and half a mile wide, bounded by the Norfolk Southern railroad tracks on the west and Kenilworth Avenue on the east. The LYNX Blue Line runs through the center of the district, with three stations — Bland Street, East/West Boulevard, and New Bern — providing transit connectivity that defines the neighborhood's development pattern.</p>
@@ -200,7 +200,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <p>Office vacancy in South End has stabilized at approximately 10-12% in 2026, below the metro average of 14-16%. However, the market is becoming more competitive as new towers deliver additional inventory. Tenants increasingly expect premium amenities including rooftop decks, fitness centers, bike storage, and outdoor collaboration spaces. Landlords who invest in these amenities through <a href="/services/commercial-upfits">commercial upfits</a> achieve faster lease-up and higher rents.</p>
 
 <h2>Current and Planned Development Projects</h2>
-<p>South End's development pipeline remains robust. Major projects under construction or in planning include additional mixed-use towers along South Boulevard, the ongoing build-out of the Design Center district near Tremont Avenue, and several boutique hospitality projects. The extension of the Rail Trail — a multi-use path running along the Blue Line tracks — continues to enhance pedestrian connectivity and drive commercial value along its route.</p>
+<p>South End's development pipeline remains robust. Major projects under construction or in planning include additional mixed-use towers along South Boulevard, the ongoing build-out of the mixed-use district near Tremont Avenue, and several boutique hospitality projects. The extension of the Rail Trail — a multi-use path running along the Blue Line tracks — continues to enhance pedestrian connectivity and drive commercial value along its route.</p>
 <p>The City of Charlotte's South End Vision Plan, adopted in 2023, guides development decisions and prioritizes pedestrian infrastructure, green space, and design quality. Projects that align with the Vision Plan receive more favorable treatment in the review process.</p>
 
 <h2>Challenges and Risks of Building in South End</h2>
@@ -208,9 +208,9 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <p>Market risk has also increased as South End matures. The neighborhood's success has attracted significant investment, and some analysts question whether the market can absorb all the new inventory in the pipeline. Smaller investors should underwrite conservatively, assuming 12-18 months of lease-up time for new office space and 6-12 months for restaurant and retail.</p>
 
 <h2>Why Choose We Build for Your South End Project</h2>
-<p>We Build brings practical South End construction experience to every project. We understand which subcontractors perform well on urban sites, how to manage the permitting process with the City of Charlotte's planning department, and how to deliver the quality finishes that South End tenants expect. Our <a href="/services/design-build">design-build</a> approach streamlines the process for clients who want a single point of accountability from concept through occupancy.</p>
+<p>We Build brings practical South End construction experience to every project. We understand which subcontractors perform well on urban sites, how to manage the permitting process with the City of Charlotte's planning department, and how to deliver the quality finishes that South End tenants expect. Our <a href="/services/general-contractor">general contracting</a> approach streamlines the process for clients who want a single point of accountability from concept through occupancy.</p>
 <p>We also bring <a href="/services/value-engineering">value engineering</a> discipline to South End projects, identifying cost savings without compromising the design intent. In a market where construction costs are among the highest in the region, this value engineering capability can mean the difference between a project that pencils and one that does not.</p>
-<p><a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> to discuss your South End commercial construction project.</p>
+<p><a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> to discuss your South End commercial construction project.</p>
 
 <h3>What is the average commercial lease rate in South End Charlotte?</h3>
 <p>Class A office rents in South End average $38-$45 per square foot on a full-service basis in 2026. Creative office space with exposed finishes ranges from $30-$38 per square foot. Restaurant and retail spaces command $28-$40 per square foot NNN (triple net), depending on location and visibility. Spaces directly on South Boulevard or the Rail Trail command the highest premiums.</p>
@@ -241,7 +241,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>NoDa: Charlotte's Premier Restaurant and Retail Build-Out Market</h2>
 <p>North Davidson Street — the road that gives NoDa its name — has evolved from a quiet residential street with a handful of artist studios into one of Charlotte's most dynamic commercial districts. The neighborhood's combination of creative energy, transit access via the Blue Line Extension, and a growing residential base makes it an increasingly attractive destination for restaurant and retail entrepreneurs.</p>
-<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, has completed multiple restaurant and retail build-out projects in the NoDa area. Our team understands the unique construction challenges that come with working in an arts district where buildings range from 1920s mill structures to modern mixed-use towers. Call us at <strong>(704) 574-8124</strong> to discuss your NoDa build-out project.</p>
+<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, has completed multiple restaurant and retail build-out projects in the NoDa area. Our team understands the unique construction challenges that come with working in an arts district where buildings range from 1920s mill structures to modern mixed-use towers. Call us at <strong>(980) 471-1745</strong> to discuss your NoDa build-out project.</p>
 
 <h2>Understanding NoDa's Commercial Character</h2>
 <p>NoDa occupies a compact area in north Charlotte centered on North Davidson Street and 36th Street. The neighborhood is bounded roughly by the Blue Line tracks on the west, Matheson Avenue on the north, and The Plaza on the east. This tight geography concentrates foot traffic and creates the dense, walkable environment that restaurant and retail tenants seek.</p>
@@ -296,7 +296,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <h2>How We Build Supports NoDa Restaurant and Retail Projects</h2>
 <p>We Build provides full-service <a href="/services/restaurant-construction">restaurant construction</a> and retail build-out services in NoDa. Our approach includes pre-construction planning (space assessment, code review, cost estimating), design coordination (working with your architect and interior designer), construction management, and final inspections. We also offer <a href="/services/commercial-upfits">commercial upfit</a> services for tenants refreshing existing spaces.</p>
 <p>Our experience with NoDa's older building stock — including structural assessment, environmental remediation, and adaptive reuse construction — sets us apart from contractors who primarily work on new construction. We know which building systems to examine before signing a lease, what code upgrades to anticipate, and how to deliver character-rich spaces on realistic budgets.</p>
-<p><a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> to discuss your NoDa restaurant or retail build-out.</p>
+<p><a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> to discuss your NoDa restaurant or retail build-out.</p>
 
 <h3>How much does it cost to open a restaurant in NoDa?</h3>
 <p>Total costs to open a restaurant in NoDa, including build-out, equipment, furniture, and initial inventory, typically range from $350,000 for a simple counter-service concept to $1,000,000+ for a full-service restaurant with bar. Build-out construction alone accounts for $180-$280 per square foot. We Build provides detailed cost estimates during pre-construction planning to help you budget accurately.</p>
@@ -327,7 +327,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>Ballantyne Commercial Construction: A Complete Guide for Businesses</h2>
 <p>Ballantyne is Charlotte's premier suburban commercial center, anchoring the southern end of the I-485 beltway with over 15 million square feet of office, retail, and mixed-use space. For businesses considering new construction, tenant improvements, or expansion in Ballantyne, understanding the area's unique market dynamics, construction costs, and development landscape is essential to making informed decisions.</p>
-<p>We Build, a veteran and family-owned <a href="/services/general-contractor">general contractor</a> headquartered at 14330 S Lakes Drive, Charlotte NC 28273 — just minutes from Ballantyne Corporate Park — has extensive experience with commercial construction projects throughout the Ballantyne area. Call <strong>(704) 574-8124</strong> to discuss your Ballantyne project.</p>
+<p>We Build, a veteran and family-owned <a href="/services/general-contractor">general contractor</a> headquartered at 14330 S Lakes Drive, Charlotte NC 28273 — just minutes from Ballantyne Corporate Park — has extensive experience with commercial construction projects throughout the Ballantyne area. Call <strong>(980) 471-1745</strong> to discuss your Ballantyne project.</p>
 
 <h2>The Ballantyne Market: Past, Present, and Future</h2>
 <p>Developed by the Bissell Companies beginning in the 1990s, Ballantyne Corporate Park was one of the first large-scale mixed-use corporate campuses in the Charlotte metro. The development attracted Fortune 500 tenants including Wells Fargo, MetLife, LPL Financial, and SPX Technologies, establishing Ballantyne as Charlotte's suburban corporate alternative to Uptown.</p>
@@ -381,9 +381,9 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <p>The I-485/I-77 interchange provides regional connectivity, putting Ballantyne within 20 minutes of Uptown Charlotte and Charlotte Douglas International Airport during off-peak hours. This accessibility, combined with lower rents than Uptown and South End, makes Ballantyne compelling for companies that need to balance cost, talent access, and client accessibility.</p>
 
 <h2>Working with We Build in Ballantyne</h2>
-<p>We Build's proximity to Ballantyne — our headquarters at 14330 S Lakes Drive is less than five miles from Ballantyne Corporate Park — means faster response times, lower mobilization costs, and an intimate knowledge of local construction conditions. We provide comprehensive <a href="/services/commercial-construction">commercial construction</a> services including <a href="/services/pre-construction">pre-construction planning</a>, <a href="/services/design-build">design-build delivery</a>, and <a href="/services/construction-management">construction management</a>.</p>
+<p>We Build's proximity to Ballantyne — our headquarters at 14330 S Lakes Drive is less than five miles from Ballantyne Corporate Park — means faster response times, lower mobilization costs, and an intimate knowledge of local construction conditions. We provide comprehensive <a href="/services/commercial-construction">commercial construction</a> services including <a href="/services/pre-construction">pre-construction planning</a> and <a href="/services/construction-management">construction management</a>.</p>
 <p>Whether you are renovating an existing Ballantyne office, building out a new medical practice, or constructing a restaurant in the Ballantyne Reimagined development, We Build delivers quality construction on predictable budgets and timelines.</p>
-<p><a href="/contact">Contact us today</a> or call <strong>(704) 574-8124</strong> to schedule a project consultation.</p>
+<p><a href="/contact">Contact us today</a> or call <strong>(980) 471-1745</strong> to schedule a project consultation.</p>
 
 <h3>How much does it cost to build out office space in Ballantyne?</h3>
 <p>Standard Ballantyne office tenant improvements cost $55-$90 per square foot. Premium executive offices with high-end finishes run $90-$150 per square foot. Many Ballantyne landlords offer tenant improvement allowances of $40-$65 per square foot, which can cover a significant portion of the build-out cost. We Build provides detailed cost estimates during the pre-construction phase to help you budget accurately.</p>
@@ -414,7 +414,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>Commercial Construction in Concord NC: What Business Owners Need to Know</h2>
 <p>Concord, North Carolina has evolved from a small Cabarrus County mill town into one of the Charlotte metro's most dynamic commercial markets. With a population exceeding 110,000, proximity to Charlotte Motor Speedway, and the massive Concord Mills retail destination, the city offers growing opportunities for commercial construction, tenant improvements, and business expansion. Whether you are opening a new medical office, building out a restaurant, or constructing industrial space, understanding Concord's unique market is essential.</p>
-<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, serves Concord and Cabarrus County as part of our greater Charlotte service area. Our team handles commercial projects from pre-construction planning through final inspections, providing the same quality and accountability that our Charlotte clients expect. Call <strong>(704) 574-8124</strong> to discuss your Concord commercial project.</p>
+<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, serves Concord and Cabarrus County as part of our greater Charlotte service area. Our team handles commercial projects from pre-construction planning through final inspections, providing the same quality and accountability that our Charlotte clients expect. Call <strong>(980) 471-1745</strong> to discuss your Concord commercial project.</p>
 
 <h2>Why Concord is Attracting Commercial Investment</h2>
 <p>Concord sits at the intersection of I-85 and I-485, giving businesses direct highway access to Charlotte, the Triad region, and the greater Southeast. This location advantage, combined with lower commercial rents and property taxes compared to Charlotte, has made Concord attractive for businesses seeking Charlotte market access at a lower cost basis.</p>
@@ -488,11 +488,10 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <li><a href="/services/medical-construction">Medical office construction</a></li>
 <li><a href="/services/restaurant-construction">Restaurant construction</a></li>
 <li><a href="/services/warehouse-construction">Warehouse and industrial construction</a></li>
-<li><a href="/services/design-build">Design-build delivery</a></li>
 <li><a href="/services/pre-construction">Pre-construction planning and estimating</a></li>
 </ul>
 <p>Our Charlotte headquarters is a 25-minute drive from most Concord project sites via I-85, and our project managers are familiar with Concord's permitting process, inspection requirements, and local subcontractor network.</p>
-<p><a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> to start planning your Concord commercial construction project.</p>
+<p><a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> to start planning your Concord commercial construction project.</p>
 
 <h3>How far is We Build's office from Concord, NC?</h3>
 <p>We Build is headquartered at 14330 S Lakes Drive, Charlotte NC 28273, approximately 25-30 minutes from most Concord commercial areas via I-85. Our team regularly serves Concord and Cabarrus County clients and is familiar with local permitting, inspection, and construction requirements.</p>
@@ -507,7 +506,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <p>The City of Concord typically reviews commercial building permits in 3-6 weeks, faster than Mecklenburg County's average of 4-8 weeks. Simple tenant improvements may receive permits in as little as 2-3 weeks. Ground-up commercial projects with site plan review take 6-10 weeks. Fire marshal and health department reviews run concurrently but may add time for restaurant and healthcare projects.</p>
 
 <h3>Does We Build handle both Charlotte and Concord projects?</h3>
-<p>Yes. We Build serves the entire Charlotte metro area, including Concord, Kannapolis, Harrisburg, and the broader Cabarrus County market. Our team is experienced with the permitting requirements in both Mecklenburg County (Charlotte) and the City of Concord/Cabarrus County, and we maintain relationships with qualified subcontractors in both markets. Contact us at (704) 574-8124 to discuss your project regardless of location.</p>
+<p>Yes. We Build serves the entire Charlotte metro area, including Concord, Kannapolis, Harrisburg, and the broader Cabarrus County market. Our team is experienced with the permitting requirements in both Mecklenburg County (Charlotte) and the City of Concord/Cabarrus County, and we maintain relationships with qualified subcontractors in both markets. Contact us at (980) 471-1745 to discuss your project regardless of location.</p>
 `
   },
   {
@@ -523,7 +522,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>Commercial Construction in Indian Trail NC: Opportunities in Union County's Growth Corridor</h2>
 <p>Indian Trail, North Carolina has emerged as one of the Charlotte metro's fastest-growing communities, with its population nearly tripling over the past two decades to exceed 45,000 residents in 2026. Located in western Union County along the US-74 (Independence Boulevard) corridor, Indian Trail sits at the intersection of rapid residential development and commercial demand that has not yet caught up to the area's population base.</p>
-<p>This gap between residential growth and commercial inventory creates significant opportunities for businesses and investors considering commercial construction in Indian Trail. We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, serves Indian Trail and Union County as part of our greater Charlotte commercial construction practice. Call <strong>(704) 574-8124</strong> to discuss your Indian Trail project.</p>
+<p>This gap between residential growth and commercial inventory creates significant opportunities for businesses and investors considering commercial construction in Indian Trail. We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, serves Indian Trail and Union County as part of our greater Charlotte commercial construction practice. Call <strong>(980) 471-1745</strong> to discuss your Indian Trail project.</p>
 
 <h2>Indian Trail's Growth Story</h2>
 <p>Indian Trail's transformation from a rural crossroads to a thriving Charlotte suburb has been driven by the eastward expansion of Charlotte's residential market along US-74 and the I-485 outer beltway. The opening of I-485's southeastern arc, which connects Indian Trail to Ballantyne and South Charlotte in minutes, was the catalyst that unlocked the area's development potential.</p>
@@ -570,9 +569,9 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <p>Charlotte Area Transit System (CATS) has long-range plans for the Silver Line light rail, which would run from Charlotte through Matthews and potentially to Indian Trail. While construction is years away, the planned transit connection has already influenced land-use planning and may create future transit-oriented development opportunities in the western part of Indian Trail.</p>
 
 <h2>We Build's Indian Trail Construction Services</h2>
-<p>We Build provides complete <a href="/services/commercial-construction">commercial construction</a> services to Indian Trail and Union County, including new construction, tenant improvements, <a href="/services/design-build">design-build delivery</a>, and <a href="/services/pre-construction">pre-construction planning</a>. Our Charlotte headquarters is approximately 30 minutes from most Indian Trail project sites via I-485, and we maintain relationships with Union County permitting officials and local subcontractors.</p>
+<p>We Build provides complete <a href="/services/commercial-construction">commercial construction</a> services to Indian Trail and Union County, including new construction, tenant improvements, and <a href="/services/pre-construction">pre-construction planning</a>. Our Charlotte headquarters is approximately 30 minutes from most Indian Trail project sites via I-485, and we maintain relationships with Union County permitting officials and local subcontractors.</p>
 <p>As a <a href="/services/general-contractor">general contractor</a>, we manage the entire construction process so you can focus on your business. From site assessment and budgeting through permitting, construction, and certificate of occupancy, We Build delivers quality commercial projects on time and on budget.</p>
-<p><a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> to explore commercial construction opportunities in Indian Trail.</p>
+<p><a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> to explore commercial construction opportunities in Indian Trail.</p>
 
 <h3>What types of commercial construction are in demand in Indian Trail?</h3>
 <p>Restaurants, medical offices, and neighborhood retail are the highest-demand commercial construction types in Indian Trail. The town's rapidly growing residential population creates strong demand for dining options, healthcare providers, fitness facilities, and convenience retail that currently requires a drive to Ballantyne or Matthews. Light industrial and flex space for small businesses and contractors is also in growing demand.</p>
@@ -603,7 +602,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>Commercial Construction Permits in York County SC: The Complete Guide</h2>
 <p>York County, South Carolina has become one of the fastest-growing counties in the Charlotte metro area, attracting businesses and developers with lower taxes, competitive construction costs, and a rapidly expanding population base. For anyone planning a commercial construction project in Fort Mill, Rock Hill, Tega Cay, Lake Wylie, or unincorporated York County, understanding the permitting process is essential to keeping your project on schedule and on budget.</p>
-<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, regularly handles commercial construction projects across the state line in York County. Our team is experienced with South Carolina building codes, York County permitting requirements, and the specific processes used by each municipality. Call <strong>(704) 574-8124</strong> to discuss your York County commercial project.</p>
+<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, regularly handles commercial construction projects across the state line in York County. Our team is experienced with South Carolina building codes, York County permitting requirements, and the specific processes used by each municipality. Call <strong>(980) 471-1745</strong> to discuss your York County commercial project.</p>
 
 <h2>York County vs. Mecklenburg County: Key Permitting Differences</h2>
 <p>Businesses accustomed to the Mecklenburg County (Charlotte) permitting process will find several important differences when building in York County:</p>
@@ -662,8 +661,8 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 
 <h2>We Build's York County Construction Experience</h2>
 <p>We Build serves the entire York County market from our Charlotte headquarters, just 15-25 minutes from most Fort Mill and Indian Land project sites via I-77. Our team holds South Carolina general contractor licenses and has established relationships with York County and Fort Mill permitting officials, local utility providers, and qualified South Carolina subcontractors.</p>
-<p>We provide comprehensive <a href="/services/commercial-construction">commercial construction</a> services in York County including new construction, <a href="/services/commercial-upfits">tenant improvements</a>, <a href="/services/restaurant-construction">restaurant build-outs</a>, <a href="/services/medical-construction">medical office construction</a>, and <a href="/services/design-build">design-build delivery</a>. Our pre-construction team handles all permitting coordination, ensuring your project meets South Carolina code requirements and moves through the review process efficiently.</p>
-<p><a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> to discuss your York County commercial construction project.</p>
+<p>We provide comprehensive <a href="/services/commercial-construction">commercial construction</a> services in York County including new construction, <a href="/services/commercial-upfits">tenant improvements</a>, <a href="/services/restaurant-construction">restaurant build-outs</a>, <a href="/services/medical-construction">medical office construction</a>, and <a href="/services/pre-construction">pre-construction planning</a>. Our pre-construction team handles all permitting coordination, ensuring your project meets South Carolina code requirements and moves through the review process efficiently.</p>
+<p><a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> to discuss your York County commercial construction project.</p>
 
 <h3>Do I need a South Carolina contractor license to build in York County?</h3>
 <p>Yes. South Carolina requires general contractors to hold a state license issued by the SC Contractor's Licensing Board for projects exceeding $5,000. North Carolina contractor licenses are not valid in South Carolina. We Build holds the appropriate SC licenses to perform commercial construction throughout York County.</p>
@@ -694,7 +693,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>Commercial Construction in Tega Cay SC: A Growing Market on Lake Wylie</h2>
 <p>Tega Cay, South Carolina is a lakefront community on the shores of Lake Wylie that has experienced remarkable population growth over the past decade. Once known primarily as a quiet residential enclave, Tega Cay has grown to over 15,000 residents and is now generating meaningful demand for commercial construction — restaurants, retail, medical offices, and professional services that residents currently drive to Fort Mill, Rock Hill, or Charlotte to access.</p>
-<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, serves Tega Cay and the greater Lake Wylie area as part of our York County commercial construction practice. We hold South Carolina general contractor licenses and have completed projects throughout the I-77 corridor south of Charlotte. Call <strong>(704) 574-8124</strong> to discuss your Tega Cay commercial project.</p>
+<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, serves Tega Cay and the greater Lake Wylie area as part of our York County commercial construction practice. We hold South Carolina general contractor licenses and have completed projects throughout the I-77 corridor south of Charlotte. Call <strong>(980) 471-1745</strong> to discuss your Tega Cay commercial project.</p>
 
 <h2>Understanding Tega Cay's Commercial Landscape</h2>
 <p>Tega Cay's geography shapes its commercial development potential. The city occupies a peninsula jutting into Lake Wylie, connected to the I-77 corridor by Highway 160 (Gold Hill Road). This geographic constraint concentrates commercial activity along Highway 160 and the Highway 160/I-77 interchange area, which serves as the primary gateway to the community.</p>
@@ -759,7 +758,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <h2>We Build's Tega Cay Construction Services</h2>
 <p>We Build provides full commercial construction services to Tega Cay, including <a href="/services/commercial-construction">new construction</a>, <a href="/services/commercial-upfits">tenant improvements</a>, <a href="/services/restaurant-construction">restaurant build-outs</a>, and <a href="/services/medical-construction">medical office construction</a>. Our Charlotte headquarters is approximately 20-25 minutes from Tega Cay via I-77, and we hold the South Carolina contractor licenses required for commercial work in the state.</p>
 <p>Our <a href="/services/pre-construction">pre-construction</a> team can help you evaluate Tega Cay sites for construction feasibility, estimate costs, and develop realistic project timelines that account for the city's permitting process and infrastructure requirements.</p>
-<p><a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> to discuss your Tega Cay commercial construction project.</p>
+<p><a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> to discuss your Tega Cay commercial construction project.</p>
 
 <h3>Is Tega Cay a good market for commercial construction?</h3>
 <p>Yes. Tega Cay's growing population (15,000+ residents), high household incomes, and limited existing commercial inventory create strong opportunities for restaurants, medical offices, retail, and professional services. The gap between residential growth and commercial development is one of the widest in the Charlotte metro, indicating significant unmet demand.</p>
@@ -790,7 +789,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>Charlotte Commercial Construction Costs in 2026: A Comprehensive Guide</h2>
 <p>Understanding construction costs is the foundation of any successful commercial project. Whether you are budgeting a restaurant build-out in South End, planning a medical office in Ballantyne, or constructing a warehouse near the airport, knowing what to expect per square foot helps you make informed decisions about location, scope, and financing.</p>
-<p>We Build, a veteran and family-owned <a href="/services/general-contractor">general contractor</a> headquartered at 14330 S Lakes Drive, Charlotte NC 28273, has compiled this cost guide based on our 2025-2026 project experience across the Charlotte metro. These figures represent typical ranges for commercial construction in the Charlotte market — your specific project may fall above or below these ranges depending on site conditions, design complexity, and material selections. Call <strong>(704) 574-8124</strong> for a project-specific estimate.</p>
+<p>We Build, a veteran and family-owned <a href="/services/general-contractor">general contractor</a> headquartered at 14330 S Lakes Drive, Charlotte NC 28273, has compiled this cost guide based on our 2025-2026 project experience across the Charlotte metro. These figures represent typical ranges for commercial construction in the Charlotte market — your specific project may fall above or below these ranges depending on site conditions, design complexity, and material selections. Call <strong>(980) 471-1745</strong> for a project-specific estimate.</p>
 
 <h2>Office Construction Costs</h2>
 <h3>Tenant Improvement (Build-Out of Existing Shell)</h3>
@@ -882,10 +881,10 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <li><strong>Contingency management:</strong> We carry appropriate contingencies (typically 5-10% for renovations, 3-5% for new construction) and manage them transparently.</li>
 <li><strong>Change order discipline:</strong> Clear scope documentation and proactive communication minimize costly changes during construction.</li>
 </ul>
-<p><a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> for a project-specific cost estimate. We provide free initial consultations for commercial construction projects throughout the Charlotte metro area.</p>
+<p><a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> for a project-specific cost estimate. We provide free initial consultations for commercial construction projects throughout the Charlotte metro area.</p>
 
 <h3>What is the average commercial construction cost per square foot in Charlotte?</h3>
-<p>The average depends heavily on project type. Office tenant improvements average $60-$90 per square foot, restaurants $180-$280, medical offices $200-$300, and warehouses $70-$110. These are Charlotte metro averages for 2026; specific projects vary based on location, building condition, and design specifications. Contact We Build at (704) 574-8124 for a project-specific estimate.</p>
+<p>The average depends heavily on project type. Office tenant improvements average $60-$90 per square foot, restaurants $180-$280, medical offices $200-$300, and warehouses $70-$110. These are Charlotte metro averages for 2026; specific projects vary based on location, building condition, and design specifications. Contact We Build at (980) 471-1745 for a project-specific estimate.</p>
 
 <h3>Are construction costs in Charlotte going up or down in 2026?</h3>
 <p>Charlotte construction costs have stabilized in 2026 after several years of above-average increases driven by material price inflation and labor shortages. Most material categories (steel, concrete, drywall, lumber) have seen modest 2-4% annual increases, close to general inflation. Labor costs continue to rise 3-5% annually due to persistent skilled trade shortages in the Charlotte market. Overall, expect 3-5% year-over-year cost increases for most project types.</p>
@@ -916,7 +915,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
     content: `
 <h2>NC vs. SC Construction: What Charlotte Metro Businesses Need to Know</h2>
 <p>The Charlotte metro area uniquely straddles the North Carolina-South Carolina state line, creating a situation where businesses and developers regularly face a choice: build on the North Carolina side (Charlotte, Huntersville, Matthews, Concord) or the South Carolina side (Fort Mill, Rock Hill, Indian Land, Tega Cay). While the two states share many construction fundamentals, they differ meaningfully in contractor licensing, permitting processes, building codes, taxes, and regulatory philosophy.</p>
-<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, holds contractor licenses in both states and builds across the Charlotte metro area including York County, South Carolina. Our direct experience on both sides of the state line gives us practical insight into these differences. Call <strong>(704) 574-8124</strong> to discuss your cross-border construction needs.</p>
+<p>We Build, headquartered at 14330 S Lakes Drive, Charlotte NC 28273, holds contractor licenses in both states and builds across the Charlotte metro area including York County, South Carolina. Our direct experience on both sides of the state line gives us practical insight into these differences. Call <strong>(980) 471-1745</strong> to discuss your cross-border construction needs.</p>
 
 <h2>Contractor Licensing: NC vs. SC</h2>
 <h3>North Carolina Licensing</h3>
@@ -988,7 +987,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <h2>We Build: Licensed and Experienced in Both States</h2>
 <p>As a <a href="/services/general-contractor">general contractor</a> licensed in both North Carolina and South Carolina, We Build offers our clients the flexibility to build wherever the opportunity is strongest. We understand the permitting processes in Charlotte/Mecklenburg, <a href="/areas/fort-mill-sc">Fort Mill</a>, Rock Hill, and unincorporated York County. We maintain relationships with building officials, subcontractors, and inspectors on both sides of the state line.</p>
 <p>Our <a href="/services/pre-construction">pre-construction</a> team can provide side-by-side cost analyses comparing NC and SC sites for your project, including construction costs, permitting timelines, taxes, and ongoing operating expenses. This analysis helps you make a data-driven location decision rather than relying on assumptions.</p>
-<p><a href="/contact">Contact We Build</a> or call <strong>(704) 574-8124</strong> to discuss your commercial construction project anywhere in the Charlotte metro area, regardless of which side of the state line.</p>
+<p><a href="/contact">Contact We Build</a> or call <strong>(980) 471-1745</strong> to discuss your commercial construction project anywhere in the Charlotte metro area, regardless of which side of the state line.</p>
 
 <h3>Can the same contractor work in both North Carolina and South Carolina?</h3>
 <p>Only if the contractor holds valid licenses in both states. A North Carolina general contractor license does not authorize work in South Carolina, and vice versa. We Build holds licenses in both states, making us one of the few Charlotte-area contractors that can seamlessly serve clients on both sides of the state line. Always verify your contractor's licensing status in the state where your project is located.</p>
@@ -1003,7 +1002,7 @@ export const charlotteLocalNewPosts: BlogPost[] = [
 <p>Generally, yes. York County jurisdictions (Fort Mill, Rock Hill, unincorporated areas) typically process commercial permits 1-3 weeks faster than Charlotte/Mecklenburg for comparable project types. However, smaller SC jurisdictions may have less predictable timelines and fewer staff resources for complex projects. The overall difference in project timeline is usually modest — 2-4 weeks on an 8-12 month construction project.</p>
 
 <h3>Does We Build provide cost comparisons between NC and SC project sites?</h3>
-<p>Yes. Our pre-construction team can prepare side-by-side cost analyses comparing NC and SC sites, including hard construction costs, permitting fees and timelines, ongoing property tax differences, and other location-specific factors. This analysis provides a comprehensive picture of total cost of ownership for each location, helping you make an informed decision. Contact us at (704) 574-8124 to request a comparative analysis for your project.</p>
+<p>Yes. Our pre-construction team can prepare side-by-side cost analyses comparing NC and SC sites, including hard construction costs, permitting fees and timelines, ongoing property tax differences, and other location-specific factors. This analysis provides a comprehensive picture of total cost of ownership for each location, helping you make an informed decision. Contact us at (980) 471-1745 to request a comparative analysis for your project.</p>
 
 <h3>What about workers' compensation insurance — does it differ between NC and SC?</h3>
 <p>Yes. Workers' compensation insurance rates vary between the two states and are based on different classification systems and actuarial data. South Carolina rates for some construction classifications are slightly higher than North Carolina, though this varies by trade. The difference typically represents less than 1% of total construction cost. We Build carries appropriate workers' compensation coverage in both states, and the cost is included in our project proposals.</p>

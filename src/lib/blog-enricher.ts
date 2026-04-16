@@ -149,9 +149,9 @@ function enrichInlineCTAs(html: string): string {
   if (html.includes('class="inline-cta')) return html;
 
   const ctaTemplates = [
-    '<div class="inline-cta"><p>Ready to discuss your construction project?</p><a href="/contact">Get a Free Quote</a></div>',
+    '<div class="inline-cta"><p>Ready to discuss your construction project?</p><a href="/contact">Get a Free Consultation</a></div>',
     '<div class="inline-cta"><p>See our completed projects across Charlotte, NC.</p><a href="/portfolio">View Our Portfolio</a></div>',
-    '<div class="inline-cta"><p>Visit our design center for inspiration and material selections.</p><a href="/design-center">Explore the Design Center</a></div>',
+    '<div class="inline-cta"><p>Learn about our veteran-owned approach to commercial construction.</p><a href="/about">About We Build</a></div>',
   ];
 
   // Find all h2 positions

@@ -42,7 +42,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Restaurant Construction Charlotte NC | Restaurant Buildout & Commercial Kitchen Contractor',
   description:
-    'Expert restaurant construction contractor in Charlotte, NC. Commercial construction companies for full-service restaurant buildouts, commercial kitchen construction, bar & brewery builds, food hall construction & hospitality renovations. Health department compliant. Veteran-owned, licensed in NC & SC. Free estimates. (704) 574-8124.',
+    'Expert restaurant construction contractor in Charlotte, NC. Commercial construction companies for full-service restaurant buildouts, commercial kitchen construction, bar & brewery builds, food hall construction & hospitality renovations. Health department compliant. Veteran-owned, licensed in NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'restaurant construction Charlotte NC',
     'restaurant construction near me',
@@ -153,7 +153,7 @@ const processSteps = [
   {
     step: '04',
     title: 'Design Development & Front-of-House Planning',
-    desc: 'While the kitchen layout drives the back-of-house design, the front-of-house is where your brand comes to life. We develop dining room layouts, bar designs, host station placement, restroom locations, outdoor patio plans, lighting design, acoustic treatments, and finish material selections. You can visit our Design Center to see material samples, lighting options, and finish combinations in person. Our design-build approach ensures the front-of-house design integrates seamlessly with the kitchen and mechanical systems behind the walls.',
+    desc: 'While the kitchen layout drives the back-of-house design, the front-of-house is where your brand comes to life. We work with your architect and design team to develop dining room layouts, bar designs, host station placement, restroom locations, outdoor patio plans, lighting design, acoustic treatments, and finish material selections. Our coordinated approach ensures the front-of-house design integrates seamlessly with the kitchen and mechanical systems behind the walls.',
   },
   {
     step: '05',
@@ -202,11 +202,6 @@ const whyChooseUs = [
     icon: FileCheck,
     title: 'Licensed in NC & SC',
     desc: 'We hold general contractor licenses in both North Carolina and South Carolina, allowing us to serve restaurant owners throughout the greater Charlotte metro area including Fort Mill, Rock Hill, Indian Land, and the Lake Norman corridor. Our dual-state licensing is especially valuable for restaurant groups expanding across the state line.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Design-Build Capability',
-    desc: 'Our in-house design-build approach means kitchen layout, dining room design, mechanical engineering, and construction are all coordinated under one contract. This eliminates the delays and miscommunication that plague restaurant projects where the architect, kitchen designer, and general contractor are separate firms pointing fingers at each other when problems arise.',
   },
   {
     icon: ClipboardCheck,
@@ -419,10 +414,9 @@ export default function RestaurantConstructionPage() {
                 We Build is a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> with
                 over 60 years of combined construction experience. We specialize in restaurant buildouts, commercial
                 kitchen construction, bar and brewery builds, and hospitality renovations across the Charlotte metro
-                area. Our <Link href="/services/design-build" className="text-primary hover:underline">design-build</Link> approach
-                means we handle everything from kitchen layout planning and material selection at our{' '}
-                <Link href="/design-center" className="text-primary hover:underline">Design Center</Link> to
-                permitting, construction, health department coordination, and final handoff, all under one contract.
+                area. We handle everything from coordinating with your architect and design team on kitchen layout
+                planning and material selection to permitting, construction, health department coordination, and
+                final handoff.
                 Licensed in both North Carolina and South Carolina, we serve Charlotte and surrounding communities
                 including <Link href="/areas/fort-mill-sc" className="text-primary hover:underline">Fort Mill</Link>,{' '}
                 <Link href="/areas/lake-norman" className="text-primary hover:underline">Lake Norman</Link>, and{' '}
@@ -431,7 +425,7 @@ export default function RestaurantConstructionPage() {
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button size="lg" asChild>
                   <Link href="/contact">
-                    Get a Free Estimate
+                    Get a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
                   </Link>
                 </Button>
@@ -909,7 +903,7 @@ export default function RestaurantConstructionPage() {
               { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', type: 'Service', desc: 'Explore our full commercial upfit services including restaurant build-outs, office renovations, and retail spaces.' },
               { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service', desc: 'TI build-outs and leasehold improvements for restaurant tenants, including TI allowance maximization.' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for restaurants, retail, and mixed-use developments across the Charlotte metro.' },
-              { title: 'Design-Build Services', href: '/services/design-build', type: 'Service', desc: 'Our design-build approach delivers restaurant projects faster with fewer change orders and a single point of accountability.' },
+              { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control and budget management for complex restaurant projects.' },
               { title: 'Restaurant Opening Guide: Build-Out, Permits & Timeline in Charlotte', href: '/guides/restaurant-opening-guide-charlotte', type: 'Guide', desc: 'Everything you need to know about opening a restaurant in Charlotte, from permits and timeline to build-out costs.' },
               { title: 'Brewery Construction Charlotte NC', href: '/services/brewery-construction', type: 'Service', desc: 'Craft brewery, taproom, and brewpub construction with specialized systems for glycol, CO2, grain handling, and ABC licensing.' },
               { title: 'Commercial Flooring Guide: Best Options by Business Type', href: '/guides/commercial-flooring-guide-business-type', type: 'Guide', desc: 'Choose the best commercial flooring for your restaurant, retail space, or office with our comprehensive guide.' },
@@ -950,7 +944,7 @@ export default function RestaurantConstructionPage() {
             your project on time and ready to open.
           </p>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact us today for a free site evaluation and detailed estimate. We serve Charlotte,{' '}
+            Contact us today for a free site evaluation and consultation. We serve Charlotte,{' '}
             <Link href="/areas/south-charlotte" className="underline hover:text-primary-foreground">South Charlotte</Link>,{' '}
             <Link href="/areas/fort-mill-sc" className="underline hover:text-primary-foreground">Fort Mill</Link>,{' '}
             <Link href="/areas/lake-norman" className="underline hover:text-primary-foreground">Lake Norman</Link>,
@@ -958,7 +952,7 @@ export default function RestaurantConstructionPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>
-              <Link href="/contact">Get a Free Estimate</Link>
+              <Link href="/contact">Get a Free Consultation</Link>
             </Button>
             <Button
               size="lg"
@@ -966,9 +960,9 @@ export default function RestaurantConstructionPage() {
               className="border-primary-foreground text-primary-foreground bg-transparent hover:bg-primary-foreground hover:text-primary"
               asChild
             >
-              <a href="tel:+17045748124">
+              <a href="tel:+19804711745">
                 <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                (704) 574-8124
+                (980) 471-1745
               </a>
             </Button>
           </div>

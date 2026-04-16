@@ -79,7 +79,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Frequently Asked Questions</h2>
 <h3>How long does a typical law firm office build-out take in Charlotte?</h3>
-<p>Most law firm build-outs in Charlotte take 16 to 30 weeks from initial programming through move-in, depending on the size and complexity of the space. A 5,000-square-foot suite for a small firm might complete in 16 to 20 weeks, while a 20,000-square-foot multi-floor build-out for a larger firm could take 24 to 30 weeks. We Build's <a href="/services/design-build">design-build approach</a> can compress timelines by overlapping design and construction phases.</p>
+<p>Most law firm build-outs in Charlotte take 16 to 30 weeks from initial programming through move-in, depending on the size and complexity of the space. A 5,000-square-foot suite for a small firm might complete in 16 to 20 weeks, while a 20,000-square-foot multi-floor build-out for a larger firm could take 24 to 30 weeks. We Build's <a href="/services/pre-construction">pre-construction approach</a> can compress timelines by overlapping design and construction phases.</p>
 
 <h3>What is the average cost per square foot for a law firm build-out in Charlotte?</h3>
 <p>Law firm build-out costs in Charlotte range from $75 to $250 per square foot depending on the level of finish. Standard professional finishes average $75 to $120 per square foot, while premium partner-floor finishes with custom millwork, stone, and specialty lighting range from $150 to $250 per square foot. These figures exclude furniture, IT equipment, and audio-visual systems.</p>
@@ -91,7 +91,7 @@ export const phase4Posts: BlogPost[] = [
 <p>We use a combination of techniques to achieve high STC ratings: full-height wall assemblies that extend from the structural floor to the structural deck above (bypassing the drop ceiling), sound-attenuating insulation (mineral wool), resilient channel or sound isolation clips, acoustic caulking at all penetrations and perimeters, solid-core doors with perimeter gaskets and automatic door bottoms, and white noise masking systems. The specific approach depends on your budget and the level of privacy required.</p>
 
 <h3>Can you work around our firm's operating schedule to minimize disruption?</h3>
-<p>Absolutely. We regularly perform phased build-outs that allow firms to continue operating during construction. This might involve building out one floor at a time, constructing temporary walls to separate active work areas from construction zones, and scheduling noisy work during evenings or weekends. Our project managers coordinate closely with your office administrator to minimize disruption to daily operations. Call us at (704) 574-8124 to discuss your project timeline.</p>
+<p>Absolutely. We regularly perform phased build-outs that allow firms to continue operating during construction. This might involve building out one floor at a time, constructing temporary walls to separate active work areas from construction zones, and scheduling noisy work during evenings or weekends. Our project managers coordinate closely with your office administrator to minimize disruption to daily operations. Call us at (980) 471-1745 to discuss your project timeline.</p>
 
 <h3>What technology infrastructure should we plan for?</h3>
 <p>We recommend Category 6A structured cabling, redundant internet connections, a dedicated and climate-controlled server room or IT closet with UPS power, wireless access points for full coverage, A/V-ready conference rooms with conduit for future upgrades, and electronic access control at all entry points. We coordinate with your IT provider during design to ensure all infrastructure is properly planned. <a href="/contact">Contact We Build</a> to start planning your law firm build-out.</p>
@@ -145,7 +145,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>The Construction Timeline</h2>
 <p>Plan your accounting firm build-out carefully around your business calendar. The ideal construction window is May through November, allowing move-in and settling before the January start of tax season. A typical 8,000 to 15,000 square foot accounting office takes 14 to 24 weeks to complete from permitting through occupancy.</p>
-<p>Phase your project to prioritize technology infrastructure installation — network cabling, power distribution, and server room construction should be completed early so your IT team can begin equipment installation and testing while finish work continues in other areas. Contact We Build at (704) 574-8124 to discuss timing for your project.</p>
+<p>Phase your project to prioritize technology infrastructure installation — network cabling, power distribution, and server room construction should be completed early so your IT team can begin equipment installation and testing while finish work continues in other areas. Contact We Build at (980) 471-1745 to discuss timing for your project.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How should we plan for seasonal staffing changes in our office design?</h3>
@@ -214,7 +214,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Working with We Build on Your Financial Services Project</h2>
 <p>Our team understands the unique requirements of financial services construction. We maintain relationships with specialized subcontractors — vault installers, security system integrators, and data center infrastructure providers — and we coordinate their work as part of our comprehensive <a href="/services/general-contractor">general contractor services</a>. From initial <a href="/services/pre-construction">pre-construction planning</a> through final occupancy, we manage every aspect of your build-out with the attention to detail and security awareness that financial services demand.</p>
-<p>Call We Build at (704) 574-8124 to discuss your financial services office project, or <a href="/contact">contact us online</a> to schedule a consultation.</p>
+<p>Call We Build at (980) 471-1745 to discuss your financial services office project, or <a href="/contact">contact us online</a> to schedule a consultation.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>What security certifications or standards should a financial services office meet?</h3>
@@ -230,7 +230,7 @@ export const phase4Posts: BlogPost[] = [
 <p>We implement enhanced security protocols during construction including background checks on all workers, controlled access to the job site with sign-in logs, secure storage for construction documents that include security system details, coordination with the client's security team for sensitive areas, and phased construction that maintains security perimeters around occupied areas during renovation projects.</p>
 
 <h3>Can you construct a compliant server room or data center within our office?</h3>
-<p>Yes. We build server rooms and data closets that meet financial services requirements including fire-rated enclosures, dedicated cooling with redundancy, UPS and generator power, clean agent fire suppression, environmental monitoring (temperature, humidity, water leak detection), and controlled access with audit logging. We coordinate with your IT team and infrastructure vendors to ensure the physical space meets their equipment requirements. Call (704) 574-8124 to discuss your project.</p>
+<p>Yes. We build server rooms and data closets that meet financial services requirements including fire-rated enclosures, dedicated cooling with redundancy, UPS and generator power, clean agent fire suppression, environmental monitoring (temperature, humidity, water leak detection), and controlled access with audit logging. We coordinate with your IT team and infrastructure vendors to ensure the physical space meets their equipment requirements. Call (980) 471-1745 to discuss your project.</p>
 
 <h3>What is the timeline for a financial services office build-out?</h3>
 <p>Timelines vary by scope: a standard 10,000-square-foot advisory office takes 16 to 22 weeks, while a 30,000-square-foot operations center with a data center may take 24 to 36 weeks. Vault construction and specialized security installations can extend timelines. Begin planning 9 to 12 months before your target move-in date. <a href="/contact">Contact We Build</a> for a project-specific timeline estimate.</p>
@@ -285,11 +285,11 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Budget and Financial Planning</h2>
 <p>Corporate headquarters construction costs in the Charlotte market range widely based on building type and finish level. Shell and core construction (the base building) typically costs $150 to $300 per square foot. Interior build-out adds $80 to $200 per square foot depending on finish levels. Site development, parking structures, and amenity spaces are additional. A 75,000-square-foot headquarters with mid-to-high-level finishes might have a total construction budget of $18 to $30 million, excluding land, FF&E, and soft costs.</p>
-<p>We Build's <a href="/services/pre-construction">pre-construction services</a> provide detailed cost estimates at each project stage, helping you make informed decisions about scope, schedule, and budget trade-offs. Call (704) 574-8124 to start the conversation.</p>
+<p>We Build's <a href="/services/pre-construction">pre-construction services</a> provide detailed cost estimates at each project stage, helping you make informed decisions about scope, schedule, and budget trade-offs. Call (980) 471-1745 to start the conversation.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How long does it take to build a corporate headquarters in Charlotte?</h3>
-<p>Timelines depend on the project type: renovation of an existing building takes 8 to 16 months from design through occupancy; ground-up construction of a 50,000 to 150,000 square foot building takes 18 to 30 months. Add 3 to 6 months for site selection and entitlements if you have not yet secured a location. Our <a href="/services/design-build">design-build approach</a> can compress timelines by overlapping design and construction phases.</p>
+<p>Timelines depend on the project type: renovation of an existing building takes 8 to 16 months from design through occupancy; ground-up construction of a 50,000 to 150,000 square foot building takes 18 to 30 months. Add 3 to 6 months for site selection and entitlements if you have not yet secured a location. Our <a href="/services/pre-construction">pre-construction approach</a> can compress timelines by overlapping design and construction phases.</p>
 
 <h3>What are the most important factors in selecting a headquarters site in Charlotte?</h3>
 <p>Key factors include proximity to your workforce (commute times directly impact recruitment), access to transit (LYNX Blue Line stations add significant value), visibility and brand exposure, zoning compatibility, utility infrastructure, expansion potential, and total occupancy cost including construction, lease or purchase, and operating expenses. We can help evaluate sites from a construction feasibility perspective.</p>
@@ -349,7 +349,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Costs and ROI of Premium Executive Build-Outs</h2>
 <p>Premium executive suite build-outs in Charlotte typically cost $175 to $350 per square foot, compared to $75 to $130 for standard professional office space. For a 3,000-square-foot executive suite, total construction costs range from $525,000 to $1,050,000. While significant, this investment serves multiple business purposes: client impression and confidence, executive recruitment and retention, brand expression and differentiation, and functional support for high-level decision-making.</p>
-<p>Our <a href="/services/design-build">design-build services</a> streamline the process from concept through completion, and our <a href="/services/value-engineering">value engineering</a> identifies savings without compromising the premium quality your executive suite demands. Contact We Build at (704) 574-8124.</p>
+<p>Our <a href="/services/commercial-construction">commercial construction services</a> streamline the process from concept through completion, and our <a href="/services/value-engineering">value engineering</a> identifies savings without compromising the premium quality your executive suite demands. Contact We Build at (980) 471-1745.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How long does a premium executive suite build-out take?</h3>
@@ -414,7 +414,7 @@ export const phase4Posts: BlogPost[] = [
 <p>Support spaces should include a training room (seating for 20 to 30 with workstations replicating the agent desktop environment), break rooms sized for peak shift occupancy (plan for 60 to 70 percent of the shift taking breaks within a 2-hour window), quiet rooms for agents to decompress, and locker storage for personal belongings.</p>
 
 <h2>Operating Schedule Considerations</h2>
-<p>Many call centers operate beyond standard business hours, with some running 24/7 operations. Extended-hours operation affects construction decisions: lighting must support full functionality at all hours without relying on natural daylight, HVAC systems must maintain comfort during evening and overnight shifts when building central systems may be in setback mode, security systems must accommodate after-hours access for shift workers, and noise transmission to adjacent tenants must be controlled during evening and overnight hours. Our <a href="/services/commercial-upfits">commercial upfit services</a> address these unique requirements. Contact We Build at (704) 574-8124 to discuss your call center project.</p>
+<p>Many call centers operate beyond standard business hours, with some running 24/7 operations. Extended-hours operation affects construction decisions: lighting must support full functionality at all hours without relying on natural daylight, HVAC systems must maintain comfort during evening and overnight shifts when building central systems may be in setback mode, security systems must accommodate after-hours access for shift workers, and noise transmission to adjacent tenants must be controlled during evening and overnight hours. Our <a href="/services/commercial-upfits">commercial upfit services</a> address these unique requirements. Contact We Build at (980) 471-1745 to discuss your call center project.</p>
 
 <h2>Charlotte Call Center Construction Costs</h2>
 <p>Call center build-outs in the Charlotte market typically cost $55 to $100 per square foot for construction, lower than standard professional offices because of less emphasis on premium finishes but offset by higher infrastructure costs for HVAC, power, data, and acoustics. A 20,000-square-foot, 200-seat call center might have a construction budget of $1.1 to $2.0 million, plus $400,000 to $800,000 for furniture, technology, and equipment. Our <a href="/services/general-contractor">general contractor team</a> delivers on budget and on schedule.</p>
@@ -487,7 +487,7 @@ export const phase4Posts: BlogPost[] = [
 
 <h2>Charlotte Adaptive Reuse Success Stories</h2>
 <p>Charlotte's most celebrated adaptive reuse projects demonstrate the potential of this approach: the transformation of South End's industrial buildings into the vibrant mixed-use corridor it is today, Camp North End's ongoing conversion of a former Ford Motor assembly plant into a creative and cultural campus, and the numerous mill conversions throughout NoDa, Optimist Park, and the West Side. These projects have proven that adaptive reuse creates unique spaces that attract tenants, customers, and residents who value authenticity and character.</p>
-<p>We Build is proud to contribute to Charlotte's adaptive reuse landscape. Our <a href="/services/commercial-renovation">commercial renovation</a> and <a href="/services/adaptive-reuse">adaptive reuse</a> teams bring the specialized skills and experience these projects demand. Call (704) 574-8124 to discuss your adaptive reuse project.</p>
+<p>We Build is proud to contribute to Charlotte's adaptive reuse landscape. Our <a href="/services/commercial-renovation">commercial renovation</a> and <a href="/services/adaptive-reuse">adaptive reuse</a> teams bring the specialized skills and experience these projects demand. Call (980) 471-1745 to discuss your adaptive reuse project.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How much does adaptive reuse construction cost compared to new construction?</h3>
@@ -556,7 +556,7 @@ export const phase4Posts: BlogPost[] = [
 <p>Our <a href="/services/commercial-renovation">commercial renovation</a> and <a href="/services/adaptive-reuse">adaptive reuse</a> teams understand these requirements and integrate preservation practices into our standard construction protocols for HTC projects.</p>
 
 <h2>Charlotte Properties with Historic Tax Credit Potential</h2>
-<p>Charlotte has numerous properties that may qualify for historic tax credits, including buildings in the Fourth Ward Historic District, the Wesley Heights neighborhood, NoDa and the former North Charlotte mill village area, commercial buildings along Trade and Tryon Streets in Uptown, industrial buildings along the rail corridor through South End and Wilmore, and individual properties with architectural significance throughout Mecklenburg County. Contact We Build at (704) 574-8124 to discuss whether your property may qualify.</p>
+<p>Charlotte has numerous properties that may qualify for historic tax credits, including buildings in the Fourth Ward Historic District, the Wesley Heights neighborhood, NoDa and the former North Charlotte mill village area, commercial buildings along Trade and Tryon Streets in Uptown, industrial buildings along the rail corridor through South End and Wilmore, and individual properties with architectural significance throughout Mecklenburg County. Contact We Build at (980) 471-1745 to discuss whether your property may qualify.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>Can I combine federal and state historic tax credits?</h3>
@@ -624,7 +624,7 @@ New insertions — offices, conference rooms, and support spaces — should read
 <h2>Environmental Considerations</h2>
 <p>Most warehouses built before 1980 contain hazardous materials that must be addressed during renovation. Common concerns include asbestos in insulation, floor tiles, and roofing materials (testing and professional abatement required), lead-based paint on steel structures and walls, petroleum contamination in floors and soils from vehicle and equipment operations, and PCBs in older electrical equipment (transformers, ballasts).
 
-Phase I and Phase II Environmental Site Assessments should be completed before acquisition or lease. Remediation costs can range from minimal (a few thousand dollars for limited asbestos abatement) to substantial (hundreds of thousands for significant soil contamination). Our team coordinates environmental consultants and licensed remediation contractors as part of our <a href="/services/commercial-renovation">commercial renovation services</a>. Call We Build at (704) 574-8124 to discuss your warehouse conversion project.</p>
+Phase I and Phase II Environmental Site Assessments should be completed before acquisition or lease. Remediation costs can range from minimal (a few thousand dollars for limited asbestos abatement) to substantial (hundreds of thousands for significant soil contamination). Our team coordinates environmental consultants and licensed remediation contractors as part of our <a href="/services/commercial-renovation">commercial renovation services</a>. Call We Build at (980) 471-1745 to discuss your warehouse conversion project.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How long does a warehouse-to-office conversion take?</h3>
@@ -685,7 +685,7 @@ New insertions should be designed as clearly contemporary elements that respect 
 <h2>Neighborhood and Zoning Considerations</h2>
 <p>Church properties are typically zoned for institutional use, which may not permit the intended commercial conversion by right. Rezoning or conditional use permits may be required, depending on the new use and the jurisdiction. Charlotte's Unified Development Ordinance governs zoning in the city, while unincorporated Mecklenburg County and surrounding towns have their own regulations.
 
-Neighborhood engagement is critical for church conversion projects. Churches are often beloved community landmarks, and neighbors may have strong feelings about their transformation. Proactive community outreach — presenting the project's vision, addressing concerns about parking, traffic, noise, and hours of operation, and incorporating community input into the design — builds support and can smooth the zoning approval process. Call We Build at (704) 574-8124 to discuss your church conversion project, or <a href="/contact">contact us online</a>.</p>
+Neighborhood engagement is critical for church conversion projects. Churches are often beloved community landmarks, and neighbors may have strong feelings about their transformation. Proactive community outreach — presenting the project's vision, addressing concerns about parking, traffic, noise, and hours of operation, and incorporating community input into the design — builds support and can smooth the zoning approval process. Call We Build at (980) 471-1745 to discuss your church conversion project, or <a href="/contact">contact us online</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How much does it cost to convert a church into commercial space?</h3>
@@ -737,7 +737,7 @@ The most successful projects often combine multiple uses, creating an ecosystem 
 <h2>Historic Tax Credits for Mill Conversions</h2>
 <p>Most textile mills in the Charlotte region qualify for both federal (20 percent) and North Carolina state (25 percent) historic tax credits, providing up to 45 percent credit on qualified rehabilitation expenditures. For a $5 million mill conversion, this could mean over $2 million in tax credits — a game-changing incentive that has enabled many projects that would not otherwise be financially viable.
 
-However, tax credit projects must comply with the Secretary of the Interior's Standards for Rehabilitation, which requires preserving character-defining features (windows, structural elements, exterior masonry), using compatible materials and techniques for repairs, and making new insertions reversible and clearly distinguishable from original construction. Our team works with preservation consultants to ensure compliance while achieving modern functionality. Call We Build at (704) 574-8124 to explore your mill conversion opportunity.</p>
+However, tax credit projects must comply with the Secretary of the Interior's Standards for Rehabilitation, which requires preserving character-defining features (windows, structural elements, exterior masonry), using compatible materials and techniques for repairs, and making new insertions reversible and clearly distinguishable from original construction. Our team works with preservation consultants to ensure compliance while achieving modern functionality. Call We Build at (980) 471-1745 to explore your mill conversion opportunity.</p>
 
 <h2>Charlotte Mill Conversion Costs</h2>
 <p>Mill conversions in the Charlotte market typically cost $100 to $200 per square foot for construction, depending on the building's condition, the scope of environmental remediation, and the target use and finish level. A 30,000-square-foot mill conversion to office and retail might budget $3.5 to $5.5 million for construction. With historic tax credits offsetting up to 45 percent of qualified costs, the net investment can be surprisingly competitive with new construction — while delivering a product with character and market appeal that new buildings cannot match.
@@ -754,7 +754,7 @@ Our <a href="/services/pre-construction">pre-construction services</a> provide d
 <h3>Are there environmental risks specific to textile mill conversions?</h3>
 <p>Yes. Beyond the asbestos and lead paint common to buildings of this era, textile mills may have soil and groundwater contamination from dyeing chemicals, petroleum-saturated floors from decades of machine lubrication, coal ash deposits from on-site power generation, and residual fiber dust in building cavities. Thorough environmental assessment before acquisition is essential. Remediation costs can range from modest to substantial depending on the type and extent of contamination.</p>
 <h3>What makes We Build qualified for mill conversion projects?</h3>
-<p>We Build brings experience with complex adaptive reuse construction, understanding of heavy timber and masonry structural systems, relationships with environmental remediation specialists, knowledge of historic tax credit requirements, and a veteran-owned team that values preserving heritage. We are licensed in NC and SC, and we serve the entire Charlotte metro area. <a href="/contact">Contact us</a> or call (704) 574-8124 to discuss your mill conversion project.</p>`,
+<p>We Build brings experience with complex adaptive reuse construction, understanding of heavy timber and masonry structural systems, relationships with environmental remediation specialists, knowledge of historic tax credit requirements, and a veteran-owned team that values preserving heritage. We are licensed in NC and SC, and we serve the entire Charlotte metro area. <a href="/contact">Contact us</a> or call (980) 471-1745 to discuss your mill conversion project.</p>`,
   },
   {
     id: "wh-1",
@@ -792,11 +792,11 @@ Fire protection requirements depend on the commodities stored and the building s
 <h2>Site Development Costs</h2>
 <p>Site development costs are often underestimated in warehouse budgets. In the Charlotte area, typical site development costs include land clearing and grading ($2 to $8 per square foot of site area), concrete truck courts and drives ($8 to $12 per square foot of paved area), asphalt parking ($4 to $7 per square foot), stormwater management ($1 to $4 per square foot of impervious area), utility extensions ($50,000 to $200,000 depending on distance), landscaping and screening ($30,000 to $100,000), and permitting and impact fees ($20,000 to $80,000).
 
-For a 100,000-square-foot warehouse on a 10-acre site, total site development costs typically range from $800,000 to $2,000,000 — a significant addition to the building construction budget. Our <a href="/services/site-development">site development services</a> include detailed cost analysis for your specific site. Contact We Build at (704) 574-8124 for a project estimate.</p>
+For a 100,000-square-foot warehouse on a 10-acre site, total site development costs typically range from $800,000 to $2,000,000 — a significant addition to the building construction budget. Our <a href="/services/site-development">site development services</a> include detailed cost analysis for your specific site. Contact We Build at (980) 471-1745 for a project estimate.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>What is the average cost per square foot for warehouse construction in Charlotte in 2026?</h3>
-<p>Average costs range from $55 to $85 per square foot for basic storage warehouses, $90 to $140 for distribution centers, and $120 to $200+ for climate-controlled or cold storage facilities. These figures include the building construction but exclude land, site development, and tenant-specific improvements. Contact We Build at (704) 574-8124 for a project-specific estimate.</p>
+<p>Average costs range from $55 to $85 per square foot for basic storage warehouses, $90 to $140 for distribution centers, and $120 to $200+ for climate-controlled or cold storage facilities. These figures include the building construction but exclude land, site development, and tenant-specific improvements. Contact We Build at (980) 471-1745 for a project-specific estimate.</p>
 <h3>How long does it take to build a warehouse in Charlotte?</h3>
 <p>Construction timelines depend on building size and complexity: a 30,000-square-foot basic warehouse takes 4 to 6 months; a 100,000-square-foot distribution center takes 8 to 12 months; and a cold storage facility may take 10 to 14 months. Add 3 to 6 months for design, permitting, and site development before construction begins.</p>
 <h3>Is pre-engineered metal or conventional steel more cost-effective for warehouses?</h3>
@@ -852,7 +852,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Technology Infrastructure and Automation</h2>
 <p>Modern distribution centers are technology-intensive operations. Beyond basic power and data, plan for robust Wi-Fi coverage throughout the facility (for handheld scanners, tablets, and automated vehicles), a warehouse management system (WMS) server room or cloud connectivity, conveyor and sortation system power (often requiring 480V three-phase electrical service), charging stations for electric forklifts and automated guided vehicles (AGVs), and integration points for future automation. Pre-installing conduit, power capacity, and data infrastructure for automation during initial construction costs a fraction of retrofitting these systems later.</p>
-<p>Our <a href="/services/construction-management">construction management team</a> coordinates with your operations and IT teams to ensure the building infrastructure supports your technology roadmap. Contact We Build at (704) 574-8124 to discuss your distribution center project.</p>
+<p>Our <a href="/services/construction-management">construction management team</a> coordinates with your operations and IT teams to ensure the building infrastructure supports your technology roadmap. Contact We Build at (980) 471-1745 to discuss your distribution center project.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How much does distribution center construction cost per square foot in Charlotte?</h3>
@@ -862,7 +862,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 <p>For most modern distribution operations, 36 feet of clear height provides the best balance of storage density, construction cost, and operational efficiency. Operations using automated storage and retrieval systems (AS/RS) may benefit from 40 feet or more. Operations with lower storage densities (cross-dock, floor-stacked goods) can operate efficiently at 32 feet. Evaluate your specific storage and handling requirements before committing to a clear height.</p>
 
 <h3>How long does it take to build a distribution center?</h3>
-<p>A 100,000 to 200,000 square foot distribution center takes 8 to 12 months for construction, plus 3 to 6 months for design, permitting, and site development. Larger facilities or those with extensive automation may take 12 to 16 months for construction. Our <a href="/services/design-build">design-build approach</a> can compress timelines by overlapping design and construction phases. Begin planning 12 to 18 months before your target occupancy date.</p>
+<p>A 100,000 to 200,000 square foot distribution center takes 8 to 12 months for construction, plus 3 to 6 months for design, permitting, and site development. Larger facilities or those with extensive automation may take 12 to 16 months for construction. Our <a href="/services/pre-construction">pre-construction approach</a> can compress timelines by overlapping design and construction phases. Begin planning 12 to 18 months before your target occupancy date.</p>
 
 <h3>Should I build a speculative distribution center or wait for a tenant?</h3>
 <p>Both approaches have merit. Speculative construction gets product to market faster and captures tenants who need immediate occupancy, but carries vacancy risk. Build-to-suit eliminates vacancy risk and ensures the building precisely matches the tenant's operational requirements, but requires a committed tenant before construction begins (adding 3 to 6 months to the timeline). Many developers build speculative shells to a warm state (core and shell with basic mechanical) and customize the interior after a tenant is secured.</p>
@@ -909,7 +909,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Zoning and Entitlements</h2>
 <p>Industrial park development requires industrial zoning (typically I-1 or I-2 in most Charlotte-area jurisdictions). If the site is not already zoned for industrial use, a rezoning application is required — a process that can take 4 to 12 months and involves public hearings, staff review, and potential opposition from neighboring property owners. Key zoning considerations include permitted building heights and lot coverage ratios, setback requirements from property lines and public roads, screening and buffering requirements adjacent to residential areas, signage regulations, and parking and truck maneuvering area requirements.</p>
-<p>We Build's <a href="/services/pre-construction">pre-construction team</a> assists with zoning analysis and regulatory planning before you commit to a site. Call (704) 574-8124 to discuss your industrial development project.</p>
+<p>We Build's <a href="/services/pre-construction">pre-construction team</a> assists with zoning analysis and regulatory planning before you commit to a site. Call (980) 471-1745 to discuss your industrial development project.</p>
 
 <h2>Infrastructure Design and Construction</h2>
 <h3>Internal Road Network</h3>
@@ -981,7 +981,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Fire Protection in Cold Storage</h2>
 <p>Fire protection in cold storage facilities presents unique challenges. Wet-pipe sprinkler systems — the standard for most commercial buildings — will freeze in freezer environments. Anti-freeze systems, dry-pipe systems, or pre-action systems must be used in spaces below 40 degrees. Insulated metal panels, while excellent thermal insulators, contain combustible foam cores that can fuel fires and generate toxic smoke. Enhanced fire protection, including ESFR sprinklers, fire-rated thermal barriers on panel faces, and FM Global or equivalent fire protection engineering, is typically required by insurers.</p>
-<p>The National Fire Protection Association (NFPA) 13 standard and the insurer's requirements (FM Global, Hartford, or equivalent) govern sprinkler system design for cold storage. These requirements can be complex and should be addressed early in the design process to avoid costly redesigns. Our <a href="/services/construction-management">construction management team</a> coordinates fire protection design with your insurance carrier. Contact We Build at (704) 574-8124.</p>
+<p>The National Fire Protection Association (NFPA) 13 standard and the insurer's requirements (FM Global, Hartford, or equivalent) govern sprinkler system design for cold storage. These requirements can be complex and should be addressed early in the design process to avoid costly redesigns. Our <a href="/services/construction-management">construction management team</a> coordinates fire protection design with your insurance carrier. Contact We Build at (980) 471-1745.</p>
 
 <h2>Cost Considerations</h2>
 <p>Cold storage construction costs in the Charlotte area significantly exceed standard warehouse construction. Cooler storage (35-55F) typically costs $120 to $170 per square foot including refrigeration. Freezer storage (0 to -10F) runs $160 to $220 per square foot. Deep cold and blast freezing facilities (-20 to -40F) can exceed $250 per square foot. These figures include the building shell, insulated panels, vapor barriers, heated floors, refrigeration systems, fire protection, and dock equipment. Site development, land, and specialized racking and material handling equipment are additional.</p>
@@ -989,7 +989,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Frequently Asked Questions</h2>
 <h3>How much does cold storage warehouse construction cost in Charlotte?</h3>
-<p>Construction costs range from $120 per square foot for basic cooler storage to over $250 per square foot for deep-cold and blast freezing facilities. A 50,000-square-foot multi-temperature cold storage facility (combining cooler and freezer zones) might cost $8 to $12 million for construction. Refrigeration systems typically represent 25 to 35 percent of the total cost. Contact We Build at (704) 574-8124 for a project-specific estimate.</p>
+<p>Construction costs range from $120 per square foot for basic cooler storage to over $250 per square foot for deep-cold and blast freezing facilities. A 50,000-square-foot multi-temperature cold storage facility (combining cooler and freezer zones) might cost $8 to $12 million for construction. Refrigeration systems typically represent 25 to 35 percent of the total cost. Contact We Build at (980) 471-1745 for a project-specific estimate.</p>
 
 <h3>What is frost heave and how do you prevent it?</h3>
 <p>Frost heave occurs when soil beneath a freezer slab freezes and expands, lifting and cracking the concrete floor. Prevention requires a heated sub-slab system — glycol tubes or electric heating cables installed in a sand layer beneath the slab — that maintains soil temperature above 32 degrees Fahrenheit. The heating system must run continuously and include monitoring and redundancy to prevent failure. Frost heave damage is extremely expensive to repair, often requiring removal and replacement of the entire floor slab.</p>
@@ -1044,7 +1044,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Safety Equipment and Features</h2>
 <p>Loading dock safety equipment protects workers, equipment, and products. Essential safety features include dock bumpers (rubber or foam bumpers that absorb trailer impact against the dock face), wheel chocks or vehicle restraint systems (that prevent the trailer from pulling away while loading or unloading is in progress — restraint systems are strongly recommended over manual chocks for safety and reliability), dock lights (LED gooseneck or swing-arm lights that illuminate the trailer interior), safety barriers and bollards (protecting dock equipment and building columns from forklift impact), and visual communication systems (red/green traffic lights indicating when a dock position is safe for truck approach or departure).</p>
-<p>Our <a href="/services/general-contractor">general contractor team</a> includes dock safety equipment in the base building construction scope, ensuring all safety features are installed and tested before the facility opens. Contact We Build at (704) 574-8124 to discuss your warehouse project.</p>
+<p>Our <a href="/services/general-contractor">general contractor team</a> includes dock safety equipment in the base building construction scope, ensuring all safety features are installed and tested before the facility opens. Contact We Build at (980) 471-1745 to discuss your warehouse project.</p>
 
 <h2>ADA Accessibility</h2>
 <p>While loading docks are primarily industrial work areas, ADA accessibility requirements apply to offices, restrooms, and common areas adjacent to the dock. Additionally, if the dock serves as a means of egress, accessible routes must be provided. Ramps from the dock floor to the truck court (for walk-in deliveries and accessible egress) should meet ADA slope requirements (1:12 maximum). Our <a href="/services/ada-compliance">ADA compliance team</a> ensures your facility meets all accessibility requirements.</p>
@@ -1111,7 +1111,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Data Deliverables</h2>
 <p>A professional drone inspection produces actionable data, not just photographs. Standard deliverables include a comprehensive inspection report with findings, condition ratings, and recommendations; high-resolution annotated imagery identifying specific defects and areas of concern; orthomosaic maps (composite overhead images stitched into a single geo-referenced map) for roof inspections; thermal maps showing temperature differentials and potential moisture areas; 3D models of the building or roof surface for measurement and analysis; and an executive summary suitable for sharing with property managers, investors, or insurance carriers.</p>
-<p>Call We Build at (704) 574-8124 to schedule a drone inspection for your Charlotte commercial property, or <a href="/contact">contact us online</a>.</p>
+<p>Call We Build at (980) 471-1745 to schedule a drone inspection for your Charlotte commercial property, or <a href="/contact">contact us online</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How much does a commercial drone inspection cost in Charlotte?</h3>
@@ -1166,7 +1166,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Reporting and Documentation</h2>
 <p>Our facade inspection reports include a comprehensive condition assessment organized by building elevation (north, south, east, west), annotated high-resolution photographs identifying each defect with location reference, thermal maps overlaid on visual imagery for correlation, a severity rating for each identified issue (critical, significant, minor, monitor), recommended repair or remediation actions with estimated priority, and a comparison with previous inspection data (when available) showing condition changes over time. This documentation supports maintenance planning, capital budgeting, and communication with property owners, tenants, and insurers.</p>
-<p>Our <a href="/services/commercial-renovation">commercial renovation services</a> can address the issues identified during facade inspections, providing a seamless path from assessment to repair. Contact We Build at (704) 574-8124.</p>
+<p>Our <a href="/services/commercial-renovation">commercial renovation services</a> can address the issues identified during facade inspections, providing a seamless path from assessment to repair. Contact We Build at (980) 471-1745.</p>
 
 <h2>Cost and Time Comparison</h2>
 <p>For a typical 8 to 12 story commercial building in Charlotte, the cost comparison is dramatic. Traditional scaffolding-based inspection costs $40,000 to $100,000 and takes 2 to 4 weeks. Swing stage inspection costs $15,000 to $30,000 and takes 1 to 2 weeks. Drone inspection costs $2,500 to $8,000 and takes 1 to 2 days (flight day plus reporting). The drone approach delivers more comprehensive data coverage, more consistent documentation, and more detailed reporting — at a fraction of the cost and disruption.</p>
@@ -1228,7 +1228,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Charlotte-Area Storm Damage Patterns</h2>
 <p>Charlotte's climate produces several types of storm damage that benefit from drone documentation. Severe thunderstorms and straight-line winds (most common April through August) cause membrane uplift, flashing displacement, and debris damage. Hail events create impact damage to roofing membranes, HVAC equipment, and skylights that may not be visible from ground level. Hurricane and tropical storm remnants bring sustained winds and heavy rainfall that test building envelope integrity. And winter ice storms, though less frequent, cause ice dam damage and structural loading issues.</p>
-<p>After any significant weather event, we recommend scheduling a drone inspection within 48 to 72 hours to document fresh damage before natural weathering or emergency repairs alter the evidence. Call We Build at (704) 574-8124 for rapid post-storm inspection scheduling.</p>
+<p>After any significant weather event, we recommend scheduling a drone inspection within 48 to 72 hours to document fresh damage before natural weathering or emergency repairs alter the evidence. Call We Build at (980) 471-1745 for rapid post-storm inspection scheduling.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>Is drone inspection data accepted by insurance companies for claims?</h3>
@@ -1282,7 +1282,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Repair Planning Based on Drone Data</h2>
 <p>The quantitative data from drone inspections enables precise repair planning and budgeting. Rather than estimating repair quantities from limited sampling, the complete surface map allows exact measurement of deteriorated areas, accurate cost estimation for repair or rehabilitation, prioritized repair scheduling based on severity and safety impact, and year-over-year comparison to monitor deterioration rates and validate the effectiveness of previous repairs.</p>
-<p>Our <a href="/services/commercial-renovation">commercial renovation services</a> include parking garage repair and rehabilitation, providing a seamless path from inspection to repair. Contact We Build at (704) 574-8124.</p>
+<p>Our <a href="/services/commercial-renovation">commercial renovation services</a> include parking garage repair and rehabilitation, providing a seamless path from inspection to repair. Contact We Build at (980) 471-1745.</p>
 
 <h2>Charlotte-Specific Considerations</h2>
 <p>Charlotte's climate creates specific deterioration patterns in parking garages. Hot summers accelerate chemical reactions in concrete and expansion of corroding steel. Freeze-thaw cycling during winter (Charlotte typically experiences 30 to 40 freeze-thaw cycles per year) damages concrete that has absorbed moisture. While Charlotte does not use road salt as extensively as northern cities, de-icing chemicals tracked into garages by vehicles contribute to chloride contamination of concrete over time. These factors make regular inspection and proactive maintenance essential for parking garage longevity in the Charlotte market.</p>
@@ -1348,7 +1348,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Cost-Benefit of Thermal Roof Scanning</h2>
 <p>A thermal roof scan costs $800 to $2,500 depending on building size — a modest investment compared to the potential savings from targeted repairs. Identifying a moisture-saturated area of 500 square feet (typical for a moderate roof breach) allows targeted repair at $5,000 to $10,000 rather than waiting for the damage to spread to the point of requiring section replacement at $30,000 to $60,000 or full roof replacement at hundreds of thousands of dollars.</p>
-<p>Contact We Build at (704) 574-8124 to schedule a thermal roof scan for your Charlotte commercial property.</p>
+<p>Contact We Build at (980) 471-1745 to schedule a thermal roof scan for your Charlotte commercial property.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How accurate is thermal imaging for detecting roof moisture?</h3>
@@ -1409,7 +1409,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Factors That Affect Pricing</h2>
 <p>Several factors influence drone inspection pricing beyond basic building size. Charlotte's Class B airspace around CLT airport requires FAA authorization for most flights — experienced providers build this into their standard process without additional charge, but some providers may add airspace coordination fees. Building complexity matters: multi-level roofs with many penetrations, equipment arrays, and irregular shapes require more flight time and more complex data processing. Access to the launch area (parking availability, proximity to the building) and potential obstacles (tall adjacent structures, power lines, heavy air traffic) also affect pricing.</p>
-<p>Contact We Build at (704) 574-8124 for a specific quote for your property, or <a href="/contact">request a proposal online</a>.</p>
+<p>Contact We Build at (980) 471-1745 for a specific quote for your property, or <a href="/contact">request a proposal online</a>.</p>
 
 <h2>How to Choose a Drone Inspection Provider</h2>
 <p>Not all drone inspection providers deliver equivalent service. When evaluating providers, verify FAA Part 107 Remote Pilot Certification for all operators, confirm adequate insurance coverage (minimum $1 million general liability, $1 million aviation liability), review sample reports to assess documentation quality and completeness, ask about sensor specifications (camera resolution, thermal sensitivity), inquire about their experience with Charlotte airspace and CLT coordination, and understand their data security practices (your building imagery is sensitive information).</p>
@@ -1472,7 +1472,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 <p>Be cautious of estimates that seem too good to be true — they usually are. Warning signs include a bottom-line price significantly lower than other bids (the contractor may be buying the job and planning to recover through change orders), vague or incomplete scope descriptions (lack of detail hides what is excluded), missing scope items visible in other bids (the low bidder may be omitting required work), excessive allowances (large dollar allowances defer real cost decisions and can escalate dramatically), and no contingency discussion (every project has unknowns — a contractor who does not acknowledge this is either inexperienced or dishonest).</p>
 
 <h2>Questions to Ask Your Contractor</h2>
-<p>When reviewing an estimate, ask these questions: what is specifically excluded from your price? What assumptions have you made about site conditions? Are subcontractor bids included or are these budget numbers subject to change? What is your change order process and markup? How is the schedule reflected in your pricing? What happens if material prices change between estimate and procurement? Do you offer a guaranteed maximum price? Our <a href="/services/pre-construction">pre-construction services</a> include detailed estimating with full transparency. Call We Build at (704) 574-8124.</p>
+<p>When reviewing an estimate, ask these questions: what is specifically excluded from your price? What assumptions have you made about site conditions? Are subcontractor bids included or are these budget numbers subject to change? What is your change order process and markup? How is the schedule reflected in your pricing? What happens if material prices change between estimate and procurement? Do you offer a guaranteed maximum price? Our <a href="/services/pre-construction">pre-construction services</a> include detailed estimating with full transparency. Call We Build at (980) 471-1745.</p>
 
 <h2>Comparing Multiple Bids Fairly</h2>
 <p>To compare bids from different contractors fairly, create a comparison spreadsheet that normalizes the bids. List each CSI division and compare costs across bidders, identifying significant variances. Check that all bidders have included the same scope — exclusions and qualifications sections often reveal major differences. Verify that bid alternates (items priced separately) are consistent. Compare unit rates (cost per square foot of drywall, per linear foot of ductwork) rather than just lump sums. And always check references and qualifications alongside price — the best value is rarely the lowest price. Our <a href="/services/general-contractor">general contractor services</a> include competitive subcontractor bidding to ensure fair pricing. <a href="/contact">Contact We Build</a> for a transparent, detailed project estimate.</p>
@@ -1522,22 +1522,19 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 <h3>Close-Out Phase</h3>
 <p>Project close-out involves completing the punch list (minor deficiencies identified during the owner's walk-through), obtaining the certificate of occupancy from the building department, delivering project documentation (warranties, as-built drawings, operation manuals), conducting owner training on building systems, processing final payments to subcontractors, and releasing the performance bond or letter of credit. A professional GC manages close-out systematically — projects that linger in close-out for months indicate poor project management.</p>
 
-<h2>GC vs. Construction Manager vs. Design-Builder</h2>
+<h2>GC vs. Construction Manager</h2>
 <h3>General Contractor (GC)</h3>
 <p>In a traditional GC arrangement, the architect designs the project and the GC builds it. The GC provides a fixed price (lump sum or guaranteed maximum price) based on completed construction documents and assumes responsibility for delivering the project within that price. The owner has separate contracts with the architect and the GC. This delivery method works well when the design is substantially complete before construction pricing begins.</p>
 
 <h3>Construction Manager (CM)</h3>
 <p>A construction manager provides professional management services during both design and construction, acting as the owner's agent rather than as a contractor. The CM at Risk model combines management services with financial risk assumption — the CM provides a guaranteed maximum price and manages construction execution, similar to a GC but with earlier involvement in the design process. Our <a href="/services/construction-management">construction management services</a> provide this early engagement advantage.</p>
 
-<h3>Design-Builder</h3>
-<p>In <a href="/services/design-build">design-build</a>, a single entity provides both design and construction under one contract. This eliminates the potential for adversarial relationships between architect and contractor, compresses the schedule by overlapping design and construction, and provides a single point of accountability. Design-build is the fastest-growing delivery method in commercial construction.</p>
-
 <h2>When Do You Need a General Contractor?</h2>
 <p>You need a GC for any commercial construction project that involves multiple trades (electrical, plumbing, HVAC, framing, finishes), requires building permits and inspections, exceeds your ability to manage directly (most projects over $50,000), involves code compliance requirements, and needs schedule coordination among interdependent activities. Some building owners attempt to self-manage construction by hiring subcontractors directly, believing they will save the GC's markup. In practice, self-managed projects almost always cost more and take longer due to coordination failures, scheduling conflicts, and the owner's lack of construction management expertise.</p>
 
 <h2>How to Choose a Commercial GC in Charlotte</h2>
 <p>Key evaluation criteria include licensing (verify an active North Carolina General Contractor license), insurance (minimum $1 million general liability, workers' compensation, umbrella coverage), bonding capacity (ability to provide payment and performance bonds if required), experience (projects of similar type, size, and complexity completed within the past 5 years), references (contact owners and architects from previous projects), safety record (EMR — Experience Modification Rate — below 1.0 indicates above-average safety), financial stability (the GC must have the cash flow to fund construction activities before receiving your payments), and local knowledge (familiarity with Charlotte-area subcontractors, suppliers, building departments, and conditions).</p>
-<p>We Build meets all these criteria with a veteran-owned team committed to integrity, quality, and client service. Call (704) 574-8124 or <a href="/contact">contact us online</a> to discuss your project.</p>
+<p>We Build meets all these criteria with a veteran-owned team committed to integrity, quality, and client service. Call (980) 471-1745 or <a href="/contact">contact us online</a> to discuss your project.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How much does a general contractor charge?</h3>
@@ -1547,7 +1544,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 <p>In North Carolina, a general contractor license requires passing an examination, demonstrating financial responsibility, carrying required insurance, and meeting experience requirements. Licensed GCs are qualified to manage commercial construction projects of any size and complexity. Handyman services (typically limited to projects under $30,000 in North Carolina) do not require licensure and are not appropriate for commercial construction. Always verify your contractor's license at the NC Licensing Board for General Contractors website.</p>
 
 <h3>Can a general contractor help with design?</h3>
-<p>While GCs are not licensed architects, many offer design-build services through partnerships with licensed design professionals. We Build's <a href="/services/design-build">design-build services</a> provide integrated design and construction under a single contract, streamlining communication and compressing timelines.</p>
+<p>While GCs are not licensed architects, many work closely with licensed design professionals to provide integrated project delivery. We Build's partnerships with experienced architects allow us to streamline communication and compress timelines through early collaboration.</p>
 
 <h3>What should I do if I have a problem with my general contractor during construction?</h3>
 <p>Start with direct communication — raise concerns with your project manager or superintendent immediately. Document concerns in writing (email is sufficient). Review your contract for dispute resolution provisions. For serious issues, consult with a construction attorney. The best way to avoid problems is to select a reputable GC through a thorough evaluation process (not lowest price alone) and maintain regular communication throughout the project.</p>
@@ -1600,7 +1597,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 
 <h2>Certificate of Occupancy</h2>
 <p>The certificate of occupancy (CO) is the final milestone in the permitting process — the building department's certification that the completed project meets all code requirements and is safe for its intended occupancy. No commercial space may be occupied or used for business purposes without a valid CO. Obtaining the CO requires passing all final inspections, completing all punch list items that affect life safety, and providing required documentation (fire system commissioning, elevator certificates, backflow preventer certifications). We Build manages the entire CO process, ensuring a smooth transition from construction to occupancy.</p>
-<p>For projects that need partial occupancy before the entire building is complete, a temporary certificate of occupancy (TCO) may be available, subject to building department approval and conditions. Contact We Build at (704) 574-8124 or <a href="/contact">reach out online</a> to discuss your project's permitting needs.</p>
+<p>For projects that need partial occupancy before the entire building is complete, a temporary certificate of occupancy (TCO) may be available, subject to building department approval and conditions. Contact We Build at (980) 471-1745 or <a href="/contact">reach out online</a> to discuss your project's permitting needs.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How long does the permitting process take in Charlotte?</h3>
@@ -1659,7 +1656,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 <p>For projects involving historic buildings, federal and North Carolina state historic tax credits (up to 45 percent of qualified rehabilitation expenditures) function as a powerful financing mechanism. Tax credits can be used directly by the building owner to offset tax liability, or they can be sold to tax credit investors (typically at $0.85 to $0.92 per dollar of credit) to generate cash equity for the project. Tax credit equity can replace a significant portion of the owner's required down payment, improving project returns and enabling projects that might not be feasible without the credits. See our detailed guide on <a href="/blog/historic-tax-credits-commercial-renovation-nc">historic tax credits in North Carolina</a>.</p>
 
 <h2>Other Financing Sources</h2>
-<p>Additional financing options available in the Charlotte market include USDA Business and Industry Loans (for projects in rural areas of the Charlotte metro region), New Market Tax Credits (for projects in designated low-income census tracts), economic development incentive grants (from Charlotte, Mecklenburg County, or surrounding jurisdictions), private equity and joint venture partnerships (for larger development projects), and construction lines of credit (for developers with multiple projects). Call We Build at (704) 574-8124 to discuss how we can support your project's financial planning, or <a href="/contact">contact us online</a>.</p>
+<p>Additional financing options available in the Charlotte market include USDA Business and Industry Loans (for projects in rural areas of the Charlotte metro region), New Market Tax Credits (for projects in designated low-income census tracts), economic development incentive grants (from Charlotte, Mecklenburg County, or surrounding jurisdictions), private equity and joint venture partnerships (for larger development projects), and construction lines of credit (for developers with multiple projects). Call We Build at (980) 471-1745 to discuss how we can support your project's financial planning, or <a href="/contact">contact us online</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>How much equity do I need for a commercial construction project?</h3>
@@ -1724,7 +1721,7 @@ For a 100,000-square-foot warehouse on a 10-acre site, total site development co
 <p>Some business owners take a hands-off approach to construction, visiting the site rarely and assuming the contractor is handling everything properly. While you should not micromanage your contractor, regular engagement protects your investment. Attend weekly progress meetings, walk the site at least biweekly, ask questions about anything that does not look right, and hire an independent inspector for critical milestones if you do not have construction expertise. Quality problems caught early are inexpensive to fix; quality problems discovered after completion are extremely expensive.</p>
 
 <h2>Mistake 10: Choosing the Wrong Location or Space</h2>
-<p>The most expensive construction mistake may be building out the wrong space entirely. Before committing to a location, evaluate the space from a construction perspective: is the HVAC system adequate for your use, or will you need expensive supplemental equipment? Is the electrical service sufficient? Does the space meet code for your occupancy type, or will expensive upgrades be required? Are there environmental issues (asbestos, lead paint) that will add cost? Is the landlord's tenant improvement allowance realistic for the build-out your business requires? Our <a href="/services/pre-construction">pre-construction team</a> evaluates potential spaces before you sign a lease, identifying construction costs and challenges that could affect your decision. Call We Build at (704) 574-8124 or <a href="/contact">contact us online</a>.</p>
+<p>The most expensive construction mistake may be building out the wrong space entirely. Before committing to a location, evaluate the space from a construction perspective: is the HVAC system adequate for your use, or will you need expensive supplemental equipment? Is the electrical service sufficient? Does the space meet code for your occupancy type, or will expensive upgrades be required? Are there environmental issues (asbestos, lead paint) that will add cost? Is the landlord's tenant improvement allowance realistic for the build-out your business requires? Our <a href="/services/pre-construction">pre-construction team</a> evaluates potential spaces before you sign a lease, identifying construction costs and challenges that could affect your decision. Call We Build at (980) 471-1745 or <a href="/contact">contact us online</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>What is the single most important thing I can do to avoid construction mistakes?</h3>
