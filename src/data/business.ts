@@ -7,7 +7,7 @@ export const BUSINESS = {
   name: 'We Build',
   phone: '(980) 471-1745',
   phoneTel: '9804711745',
-  email: 'designcenter@webuildclt.com',
+  email: 'info@webuildclt.com',
   url: 'https://webuildclt.com',
   address: {
     street: '14330 S Lakes Drive',
@@ -28,5 +28,5 @@ export const BUSINESS = {
   logo: 'https://webuildclt.com/images/logo.png',
   foundingDate: '2019',
   description:
-    'Family-owned construction company in Charlotte, NC. Commercial construction, upfits, roof coating. 60+ years combined experience.',
+    'Veteran and family-owned commercial construction company in Charlotte, NC. Licensed in NC & SC. Commercial construction, upfits, roof coating. 60+ years combined experience. USGBC member.',
 } as const;

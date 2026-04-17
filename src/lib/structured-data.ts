@@ -91,7 +91,17 @@ export function organizationSchema(): Record<string, unknown> {
     name: BUSINESS.name,
     url: BUSINESS.url,
     logo: BUSINESS.logo,
+    description: BUSINESS.description,
+    foundingDate: BUSINESS.foundingDate,
     sameAs: BUSINESS.social,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: BUSINESS.address.street,
+      addressLocality: BUSINESS.address.city,
+      addressRegion: BUSINESS.address.state,
+      postalCode: BUSINESS.address.zip,
+      addressCountry: BUSINESS.address.country,
+    },
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: BUSINESS.phone,
@@ -153,6 +163,12 @@ export function webSiteSchema(): Record<string, unknown> {
     '@type': 'WebSite',
     name: BUSINESS.name,
     url: BUSINESS.url,
+    description: BUSINESS.description,
+    publisher: {
+      '@type': 'Organization',
+      name: BUSINESS.name,
+      logo: { '@type': 'ImageObject', url: BUSINESS.logo },
+    },
   };
 }
 
