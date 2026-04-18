@@ -86,8 +86,8 @@ export function Header() {
 
   return (
     <header
-      className="fixed left-0 right-0 z-50 bg-white/95 dark:bg-[var(--header-scrolled-bg)] backdrop-blur-md shadow-md py-2"
-      style={{ top: 'var(--banner-height, 0px)' }}
+      className="fixed left-0 right-0 z-50 shadow-md py-2"
+      style={{ top: 'var(--banner-height, 0px)', backgroundColor: '#ffffff' }}
     >
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
@@ -134,12 +134,12 @@ export function Header() {
                     aria-label="Services menu"
                     aria-hidden={!dropdownOpen}
                     className={cn(
-                      'absolute top-full -left-4 mt-2 bg-white dark:bg-card rounded-lg shadow-xl border py-4 px-4 z-50 transition-[opacity,transform,visibility] duration-200',
+                      'absolute top-full -left-4 mt-2 rounded-lg shadow-xl border py-4 px-4 z-50 transition-[opacity,transform,visibility] duration-200',
                       dropdownOpen
                         ? 'opacity-100 translate-y-0 pointer-events-auto visible'
                         : 'opacity-0 -translate-y-2 pointer-events-none invisible delay-0'
                     )}
-                    style={{ width: 'var(--dropdown-width)' }}
+                    style={{ width: 'var(--dropdown-width)', backgroundColor: '#ffffff' }}
                   >
                     <div className="grid grid-cols-3 gap-4">
                       {/* Commercial — first column */}
