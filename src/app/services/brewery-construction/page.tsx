@@ -136,21 +136,6 @@ const processSteps = [
   },
   {
     step: '02',
-    title: 'Concept & Licensing Review',
-    desc: 'Before design begins, we review the regulatory landscape for your specific concept. NC ABC licensing requirements differ significantly between a brewery with taproom, a brewpub with food service, a cidery, and a distillery. We coordinate with your ABC attorney to ensure the floor plan will satisfy licensing requirements. If food service is planned, we review Mecklenburg County Health Department requirements for the kitchen scope. This step prevents expensive redesigns after permitting begins.',
-  },
-  {
-    step: '03',
-    title: 'Site Evaluation & Feasibility',
-    desc: 'We conduct a detailed evaluation of your prospective or existing space to assess feasibility for brewery use. Key factors include floor load capacity for heavy brewing equipment, ceiling height for fermenters and grain silos, utility capacity for the electrical demand of glycol chillers and packaging equipment, water supply volume and pressure for brewing and cleaning, drain capacity for production washdown, roof structure for exhaust penetrations, and loading dock or drive-in door access for grain delivery and keg distribution. We identify deal-breakers early so you can negotiate your lease with full knowledge of required improvements.',
-  },
-  {
-    step: '04',
-    title: 'Brewery Layout & Equipment Coordination',
-    desc: 'Working directly with your brewing equipment supplier, we develop a production floor layout that optimizes workflow from grain handling through packaging. Every equipment pad location, floor drain position, glycol line route, CO2 and nitrogen line path, electrical connection point, and water and drain tie-in is coordinated between our construction team and your equipment vendor. This coordination is critical because brewing equipment has specific utility requirements, clearance dimensions, and connection heights that must be built into the facility before equipment delivery.',
-  },
-  {
-    step: '05',
     title: 'Permitting: Building, Health, ABC & Fire',
     desc: 'Brewery construction in Charlotte requires permits from multiple agencies. Building permits cover structural, mechanical, electrical, and plumbing plans. If food service is included, the Mecklenburg County Health Department reviews kitchen plans. The fire marshal reviews fire suppression, emergency exits, and occupancy calculations. ABC licensing requires floor plan review showing production and public area separation. We submit to all agencies in parallel and manage the review process to minimize total permitting time, which typically runs 4 to 8 weeks for brewery projects.',
   },
@@ -218,7 +203,7 @@ const whyChooseUs = [
   {
     icon: MapPin,
     title: 'Charlotte Craft Beer Market Knowledge',
-    desc: 'Charlotte is one of the fastest-growing craft beer markets in the Southeast, with thriving brewery corridors in NoDa, South End, LoSo, FreeMoreWest, and Plaza Midwood. We understand the building stock, zoning requirements, utility infrastructure, and construction conditions in each of these neighborhoods and can provide site-specific guidance during your space search.',
+    desc: 'Charlotte is one of the fastest-growing craft beer markets in the Southeast, with thriving brewery corridors in NoDa, South End, LoSo, FreeMoreWest, and Plaza Midwood.',
   },
   {
     icon: BadgeCheck,
@@ -385,7 +370,7 @@ export default function BreweryConstructionPage() {
               {[
                 { icon: Beer, title: 'Brewery Expertise', desc: 'Specialized construction for production breweries, taprooms, brewpubs, and beer gardens including glycol systems, equipment pads, floor drains, and draft infrastructure.' },
                 { icon: Clock, title: 'Equipment-Ready Builds', desc: 'We coordinate with your brewing equipment supplier to ensure every pad, drain, and utility connection is ready when your system arrives.' },
-                { icon: ClipboardCheck, title: 'ABC & Code Compliance', desc: 'Deep experience with NC ABC Commission, Mecklenburg County building code, fire marshal, and health department requirements for brewery projects.' },
+                { icon: ClipboardCheck, title: 'ABC & Code Compliance', desc: 'Experience with NC ABC Commission, Mecklenburg County building code, fire marshal, and health department requirements for brewery projects.' },
                 { icon: Shield, title: 'Veteran-Owned', desc: 'Military discipline drives our commitment to schedules, budgets, and quality. Your equipment delivery date drives our entire construction schedule.' },
               ].map((benefit) => (
                 <Card key={benefit.title}>

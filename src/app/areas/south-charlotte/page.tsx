@@ -111,12 +111,12 @@ const commercialAreas = [
   {
     name: 'Waverly & Blakeney',
     description:
-      'The Waverly mixed-use development near Providence Road and Highway 485 represents the modern face of South Charlotte commercial construction, blending retail, restaurants, office space, and residential units. Blakeney, the established lifestyle center nearby, continues to attract new tenants who need upfit and build-out services. We Build serves both developments with commercial construction and interior renovation expertise.',
+      'The Waverly mixed-use development near Providence Road and Highway 485 represents the modern face of South Charlotte commercial construction, blending retail, restaurants, and office space. Blakeney, the established lifestyle center nearby, continues to attract new tenants who need upfit and build-out services. We Build serves both developments with commercial construction and interior renovation expertise.',
   },
   {
     name: 'Ardrey Kell & Community House Road',
     description:
-      'The area around Ardrey Kell Road and Community House Road has seen rapid commercial growth with new medical offices, professional services, and neighborhood retail. As South Charlotte residential communities continue to expand southward, commercial development follows to serve the growing population. We Build provides construction services for new commercial buildings and tenant upfits in this emerging business corridor.',
+      'The area around Ardrey Kell Road and Community House Road has seen rapid commercial growth with new medical offices, professional services, and neighborhood retail. As South Charlotte continues to expand southward, commercial development follows to serve the growing population. We Build provides construction services for new commercial buildings and tenant upfits in this emerging business corridor.',
   },
 ];
 
@@ -480,7 +480,7 @@ export default function SouthCharlottePage() {
                 South Charlotte continues to be one of the most active construction markets in the Charlotte metropolitan area, driven by sustained population growth, strong employment centers, top-rated schools, and excellent transportation connectivity via I-485 and I-77. The area&apos;s commercial construction market sees significant activity across multiple sectors.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                On the commercial side, Ballantyne Corporate Park remains the anchor of South Charlotte business activity, with ongoing development of office space, hotels, restaurants, and mixed-use projects. The corporate park&apos;s success has spurred commercial development along surrounding corridors including Johnston Road, Rea Road, and Community House Road. Pineville&apos;s commercial market is experiencing a generational shift as older retail properties are being redeveloped into modern mixed-use projects that combine retail, dining, and residential uses. Medical and professional office construction along Rea Road and Providence Road continues to grow as healthcare providers follow population expansion.
+                On the commercial side, Ballantyne Corporate Park remains the anchor of South Charlotte business activity, with ongoing development of office space, hotels, restaurants, and mixed-use projects. The corporate park&apos;s success has spurred commercial development along surrounding corridors including Johnston Road, Rea Road, and Community House Road. Pineville&apos;s commercial market is experiencing a generational shift as older retail properties are being redeveloped into modern mixed-use projects that combine retail and dining. Medical and professional office construction along Rea Road and Providence Road continues to grow as healthcare providers follow population expansion.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 The growing population in Waxhaw, Weddington, and Marvin drives strong demand for commercial construction as new retail centers, medical offices, and professional service buildings follow population expansion. Within Mecklenburg County, renovation and tenant improvement projects in established Ballantyne and Providence corridors represent a significant portion of commercial construction activity as businesses update and expand their spaces.
@@ -537,7 +537,7 @@ export default function SouthCharlottePage() {
                   <CardContent className="p-6">
                     <h3 className="text-lg font-semibold mb-3">Mecklenburg County / City of Charlotte</h3>
                     <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-                      Most of South Charlotte within Mecklenburg County falls under City of Charlotte jurisdiction for building permits. This includes Ballantyne, the Rea Road corridor, Ardrey Kell, Providence, and parts of Pineville. The Charlotte-Mecklenburg permitting process includes plan review by the building department, fire marshal review for commercial projects, stormwater review for projects that disturb land, and zoning verification. Commercial projects typically require 4 to 8 weeks for plan review. Residential permits can be faster depending on project scope.
+                      Most of South Charlotte within Mecklenburg County falls under City of Charlotte jurisdiction for building permits. This includes Ballantyne, the Rea Road corridor, Ardrey Kell, Providence, and parts of Pineville. The Charlotte-Mecklenburg permitting process includes plan review by the building department, fire marshal review for commercial projects, stormwater review for projects that disturb land, and zoning verification. Commercial projects typically require 4 to 8 weeks for plan review.
                     </p>
                     <p className="text-muted-foreground text-sm leading-relaxed">
                       The Town of Pineville operates its own planning and zoning department but uses Mecklenburg County for building inspections. Projects within Pineville town limits may require additional approvals from the Pineville planning board, particularly for commercial construction and projects that require rezoning or special use permits.

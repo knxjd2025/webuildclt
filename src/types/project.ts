@@ -15,7 +15,7 @@ export interface Project {
   id: string;
   title: string;
   slug: string;
-  category: 'commercial' | 'residential' | 'roof-coating';
+  category: 'commercial' | 'roof-coating';
   service_type: string;
   short_description: string;
   ai_content: string | null;
@@ -41,7 +41,7 @@ export type ProjectInsert = Omit<Project, 'id' | 'created_at' | 'updated_at'>;
 
 export const projectFormSchema = z.object({
   title: z.string().min(1, 'Title is required'),
-  category: z.enum(['commercial', 'residential', 'roof-coating']),
+  category: z.enum(['commercial', 'roof-coating']),
   service_type: z.string().min(1, 'Service type is required'),
   short_description: z.string().min(10, 'Description must be at least 10 characters'),
   address: z.string().optional(),

@@ -535,26 +535,26 @@ export default function RoofCoatingPage() {
                   </p>
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
-                      <h4 className="font-semibold text-sm mb-2 text-green-700 dark:text-green-400">
+                      <h4 className="font-semibold text-sm mb-2 text-green-700">
                         Advantages
                       </h4>
                       <ul className="space-y-1">
                         {coating.pros.map((pro) => (
                           <li key={pro} className="flex items-start gap-2 text-sm text-muted-foreground">
-                            <CheckCircle className="h-4 w-4 text-green-600 dark:text-green-400 mt-0.5 shrink-0" aria-hidden="true" />
+                            <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                             {pro}
                           </li>
                         ))}
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-sm mb-2 text-amber-700 dark:text-amber-400">
+                      <h4 className="font-semibold text-sm mb-2 text-amber-700">
                         Considerations
                       </h4>
                       <ul className="space-y-1">
                         {coating.cons.map((con) => (
                           <li key={con} className="flex items-start gap-2 text-sm text-muted-foreground">
-                            <span className="text-amber-600 dark:text-amber-400 mt-0.5 shrink-0">•</span>
+                            <span className="text-amber-600 mt-0.5 shrink-0">•</span>
                             {con}
                           </li>
                         ))}
@@ -674,7 +674,7 @@ export default function RoofCoatingPage() {
                       'Recoatable at end of life',
                     ].map((item) => (
                       <li key={item} className="flex items-start gap-2 text-sm text-muted-foreground">
-                        <CheckCircle className="h-4 w-4 text-green-600 dark:text-green-400 mt-0.5 shrink-0" aria-hidden="true" />
+                        <CheckCircle className="h-4 w-4 text-green-600 mt-0.5 shrink-0" aria-hidden="true" />
                         {item}
                       </li>
                     ))}
@@ -890,19 +890,19 @@ export default function RoofCoatingPage() {
                     </li>
                     <li className="flex justify-between">
                       <span>Savings:</span>
-                      <span className="font-medium text-green-600 dark:text-green-400">$80,000 - $140,000</span>
+                      <span className="font-medium text-green-600">$80,000 - $140,000</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Annual energy savings:</span>
-                      <span className="font-medium text-green-600 dark:text-green-400">$3,000 - $8,000</span>
+                      <span className="font-medium text-green-600">$3,000 - $8,000</span>
                     </li>
                     <li className="flex justify-between">
                       <span>Tax deduction benefit:</span>
-                      <span className="font-medium text-green-600 dark:text-green-400">Year 1 write-off</span>
+                      <span className="font-medium text-green-600">Year 1 write-off</span>
                     </li>
                     <li className="border-t pt-2 flex justify-between font-semibold text-foreground">
                       <span>Total 10-year savings:</span>
-                      <span className="text-green-600 dark:text-green-400">$110,000 - $220,000</span>
+                      <span className="text-green-600">$110,000 - $220,000</span>
                     </li>
                   </ul>
                 </CardContent>

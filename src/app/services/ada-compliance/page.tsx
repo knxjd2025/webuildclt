@@ -140,18 +140,13 @@ const processSteps = [
   },
   {
     step: '02',
-    title: 'Priority Classification & Risk Analysis',
-    desc: 'Not all ADA deficiencies carry the same risk. We classify each finding by priority level based on the Department of Justice barrier removal priority system: Priority 1 covers accessible approach and entrance, Priority 2 covers access to goods and services, Priority 3 covers access to public restrooms, and Priority 4 covers other accessibility items. We also assess litigation risk based on the type of deficiency, public visibility, and current DOJ enforcement trends in the Charlotte market and the Fourth Circuit.',
-  },
-  {
-    step: '03',
     title: 'Scope Development & Budget Planning',
     desc: 'Based on the audit findings and priority classification, we develop a scope of work that addresses deficiencies in the most cost-effective order. If budget constraints exist, we create a phased plan that addresses the highest-risk items first while establishing a timeline for completing all remaining work. You receive a detailed line-item estimate for each phase so you can plan capital expenditures and demonstrate good-faith compliance efforts.',
   },
   {
     step: '04',
     title: 'Design & Engineering',
-    desc: 'Our design team creates construction drawings showing the exact modifications needed for each area of your building. For complex projects such as elevator installations, ramp construction, or restroom reconfigurations, we coordinate with structural engineers, mechanical engineers, and ADA consultants to ensure every detail meets code requirements. Drawings are prepared for Mecklenburg County permit submission.',
+    desc: 'For complex projects such as elevator installations, ramp construction, or restroom reconfigurations, we coordinate with the client&rsquo;s design team — structural engineers, mechanical engineers, and ADA consultants — to ensure every detail meets code requirements. Drawings are prepared for Mecklenburg County permit submission.',
   },
   {
     step: '05',

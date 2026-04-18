@@ -143,48 +143,28 @@ const processSteps = [
   },
   {
     step: '02',
-    title: 'Energy Modeling & Sustainability Analysis',
-    desc: 'Our team coordinates whole-building energy modeling using Charlotte climate data to establish a performance baseline and evaluate the cost-benefit of various green building strategies. This analysis compares energy-efficient options against conventional construction to quantify the energy savings, utility cost reduction, and payback period for each upgrade. The model becomes the decision-making tool that helps you invest green building dollars where they deliver the greatest return.',
-  },
-  {
-    step: '03',
-    title: 'LEED Credit Strategy & Target Setting',
-    desc: 'If pursuing LEED certification, we develop a credit-by-credit strategy that identifies the most achievable and cost-effective credits for your specific project. We map each credit to the responsible party, establish documentation requirements, and flag any credits that require early design decisions. This strategy ensures the team never misses a credit opportunity due to a late-stage oversight.',
-  },
-  {
-    step: '04',
-    title: 'Sustainable Design Development',
-    desc: 'Working with your architect and engineers, we develop the green building systems, material specifications, and construction details that will deliver the targeted performance. This phase includes building envelope design, HVAC system selection, lighting design with daylighting strategies, water fixture specification, and sustainable material selection with product vetting for environmental and health certifications.',
-  },
-  {
-    step: '05',
     title: 'Green Specification & Material Procurement',
     desc: 'We source and procure materials that meet the project sustainability requirements, verifying certifications such as FSC chain-of-custody for wood products, recycled content documentation for steel and concrete, EPDs for major materials, and emission test reports for interior finishes. Long-lead sustainable products are identified and ordered early to prevent schedule impacts.',
   },
   {
-    step: '06',
-    title: 'Permitting & Incentive Applications',
-    desc: 'We prepare and submit all building permits to Mecklenburg County while simultaneously filing applications for Duke Energy rebate programs, federal energy efficiency tax deductions under Section 179D, and any applicable North Carolina green building incentives. Parallel processing of permits and incentive paperwork keeps the project timeline on track.',
+    step: '03',
+    title: 'Permitting',
+    desc: 'We prepare and submit all building permits to Mecklenburg County. Where clients are pursuing Duke Energy rebate programs, federal energy efficiency tax deductions, or NC green-building incentives, we coordinate with the client&rsquo;s own team to supply construction information required for those applications.',
   },
   {
-    step: '07',
+    step: '04',
     title: 'Green Construction Execution',
     desc: 'Construction begins with an IAQ management plan, construction waste management plan, and erosion and sedimentation control measures in place from day one. Our field team is trained in green construction practices including ductwork protection, moisture management, material storage requirements, and recycling protocols. Weekly sustainability compliance checks ensure that green building requirements are maintained throughout construction, not just at punch list.',
   },
   {
-    step: '08',
+    step: '05',
     title: 'Construction Waste Diversion',
-    desc: 'We implement a comprehensive construction waste management plan targeting 75 percent or greater diversion from landfill. Materials are separated on-site into dedicated dumpsters for metals, wood, cardboard, concrete, and mixed recyclables. We track waste hauling tickets and recycling facility weight receipts to document the actual diversion rate, which contributes to LEED Materials and Resources credits.',
+    desc: 'We implement a comprehensive construction waste management plan targeting 75 percent or greater diversion from landfill. Materials are separated on-site into dedicated dumpsters for metals, wood, cardboard, concrete, and mixed recyclables.',
   },
   {
-    step: '09',
+    step: '06',
     title: 'Commissioning & Performance Testing',
     desc: 'Before occupancy, all building systems undergo functional performance testing to verify they operate as designed. HVAC systems are balanced and calibrated, lighting controls are programmed and tested, building envelope air leakage testing is performed, and the building automation system is verified point-by-point. A building flush-out removes construction-phase air contaminants before your team moves in.',
-  },
-  {
-    step: '10',
-    title: 'Certification Submission & Ongoing Support',
-    desc: 'For LEED projects, we compile and submit the complete documentation package to GBCI for review, respond to any reviewer comments, and support you through the certification process. After handoff, we provide an operations manual that documents the green building systems, maintenance requirements, and performance benchmarks so your facilities team can operate the building at the efficiency level it was designed to achieve.',
   },
 ];
 
@@ -293,7 +273,7 @@ const faqs = [
   {
     question: 'How long does the LEED certification process take?',
     answer:
-      'The LEED certification timeline runs parallel to the design and construction schedule, not after it. Registration with GBCI typically happens during the design phase. Credit documentation is compiled throughout design and construction. After construction is complete and the commissioning process is finished, the final documentation package is submitted to GBCI for review, which takes 20 to 25 business days for the preliminary review. If the review team has comments or questions, the project team has 25 business days to respond. The complete process from design start to certification award typically takes 12 to 18 months for new construction projects and 8 to 12 months for commercial interiors. We Build manages the documentation timeline to ensure certification does not lag months behind project completion.',
+      'The LEED certification timeline runs parallel to the design and construction schedule, not after it. Registration with GBCI typically happens during the design phase. Credit documentation is compiled throughout design and construction. After construction is complete and the commissioning process is finished, the final documentation package is submitted to GBCI for review, which takes 20 to 25 business days for the preliminary review. If the review team has comments or questions, the project team has 25 business days to respond. The complete process from design start to certification award typically takes 12 to 18 months for new construction projects and 8 to 12 months for commercial interiors.',
   },
   {
     question: 'What is the ROI on green building compared to conventional construction?',
@@ -303,7 +283,7 @@ const faqs = [
   {
     question: 'What Duke Energy rebates and incentives are available for green building in Charlotte?',
     answer:
-      'Duke Energy Carolinas offers several commercial rebate programs that directly benefit green building projects. The Smart Saver Prescriptive program provides fixed rebates for specific equipment upgrades including high-efficiency HVAC units, LED lighting, variable frequency drives, and energy management systems. The Smart Saver Custom program offers rebates based on calculated energy savings for projects that do not fit the prescriptive categories, which often applies to comprehensive green building projects. Rebate amounts vary by measure but can total $20,000 to $100,000 or more for commercial projects depending on scope. Duke Energy also offers free energy assessments for qualifying commercial properties. We Build coordinates with Duke Energy representatives during the design phase to identify all applicable programs and ensure the project specifications meet rebate eligibility requirements.',
+      'Duke Energy Carolinas offers several commercial rebate programs that directly benefit green building projects. The Smart Saver Prescriptive program provides fixed rebates for specific equipment upgrades including high-efficiency HVAC units, LED lighting, variable frequency drives, and energy management systems. The Smart Saver Custom program offers rebates based on calculated energy savings for projects that do not fit the prescriptive categories, which often applies to comprehensive green building projects. Rebate amounts vary by measure but can total $20,000 to $100,000 or more for commercial projects depending on scope. Duke Energy also offers free energy assessments for qualifying commercial properties.',
   },
   {
     question: 'Does Charlotte have green building code requirements?',
@@ -358,7 +338,7 @@ const faqs = [
   {
     question: 'Does Charlotte have any green building tax incentives for commercial property owners?',
     answer:
-      'Charlotte commercial property owners can access several tax incentives for green building. The federal Section 179D Energy Efficient Commercial Building Deduction allows deductions of up to $5.00 per square foot for buildings that achieve 25 to 50 percent energy savings above ASHRAE 90.1 baseline. The 30 percent federal Investment Tax Credit applies to commercial solar installations through 2032, with bonus adders for domestic content and energy communities. North Carolina offers a property tax exclusion for solar energy systems, meaning the added value of rooftop solar does not increase your property tax assessment. Duke Energy commercial rebates can offset $20,000 to $100,000 or more in equipment costs. We help Charlotte building owners identify and maximize every applicable incentive during the design phase.',
+      'Charlotte commercial property owners can access several tax incentives for green building. The federal Section 179D Energy Efficient Commercial Building Deduction allows deductions of up to $5.00 per square foot for buildings that achieve 25 to 50 percent energy savings above ASHRAE 90.1 baseline. The 30 percent federal Investment Tax Credit applies to commercial solar installations through 2032, with bonus adders for domestic content and energy communities. North Carolina offers a property tax exclusion for solar energy systems, meaning the added value of rooftop solar does not increase your property tax assessment. Duke Energy commercial rebates can offset $20,000 to $100,000 or more in equipment costs.',
   },
 ];
 
@@ -537,31 +517,6 @@ export default function GreenBuildingPage() {
                   sustainable building principles and ongoing investment in green building
                   education and best practices.
                 </p>
-                <div className="grid sm:grid-cols-3 gap-4">
-                  {[
-                    {
-                      icon: Award,
-                      heading: 'LEED System Access',
-                      body: 'Direct access to LEED rating system updates, GBCI certification resources, and the USGBC member portal for project registration and documentation.',
-                    },
-                    {
-                      icon: Lightbulb,
-                      heading: 'Ongoing Education',
-                      body: 'Continuous training through USGBC education programs, green building conferences, and the local Charlotte USGBC chapter community.',
-                    },
-                    {
-                      icon: HeartHandshake,
-                      heading: 'Sustainability Commitment',
-                      body: "Our USGBC membership is a public, third-party verified signal that We Build's commitment to sustainable construction is real — not a marketing claim.",
-                    },
-                  ].map((item) => (
-                    <div key={item.heading} className="bg-white/10 rounded-xl p-4 text-left">
-                      <item.icon className="h-6 w-6 text-white/80 mb-2" aria-hidden="true" />
-                      <h3 className="font-semibold text-sm mb-1">{item.heading}</h3>
-                      <p className="text-white/75 text-sm leading-relaxed">{item.body}</p>
-                    </div>
-                  ))}
-                </div>
               </div>
             </div>
           </div>
@@ -706,30 +661,6 @@ export default function GreenBuildingPage() {
                 </Card>
               ))}
             </div>
-            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6">
-              <h3 className="font-semibold mb-3 flex items-center gap-2">
-                <Calculator className="h-5 w-5 text-primary" aria-hidden="true" />
-                Green Building Cost Premium at a Glance
-              </h3>
-              <div className="grid sm:grid-cols-4 gap-4 text-center">
-                {[
-                  { level: 'LEED Certified', premium: '1–3%', payback: '2–3 yrs' },
-                  { level: 'LEED Silver', premium: '3–5%', payback: '3–5 yrs' },
-                  { level: 'LEED Gold', premium: '5–8%', payback: '4–7 yrs' },
-                  { level: 'LEED Platinum', premium: '8–15%', payback: '6–10 yrs' },
-                ].map((row) => (
-                  <div key={row.level} className="bg-background rounded-lg p-4">
-                    <p className="text-xs text-muted-foreground mb-1">{row.level}</p>
-                    <p className="text-2xl font-bold text-primary">{row.premium}</p>
-                    <p className="text-xs text-muted-foreground mt-1">cost premium</p>
-                    <p className="text-xs font-medium text-foreground mt-2">Payback: {row.payback}</p>
-                  </div>
-                ))}
-              </div>
-              <p className="text-xs text-muted-foreground mt-4">
-                Cost premiums are estimates for Charlotte commercial new construction. Actual costs depend on project type, size, and credit strategy. Duke Energy rebates and Section 179D deductions can reduce the effective premium by 15–25%.
-              </p>
-            </div>
           </div>
         </div>
       </section>
@@ -772,50 +703,6 @@ export default function GreenBuildingPage() {
         </div>
       </section>
 
-      {/* LEED Certification Levels */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <span className="text-primary font-semibold uppercase tracking-wider text-sm">
-                LEED Certification
-              </span>
-              <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
-                LEED Certification Levels: What Each Requires
-              </h2>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                LEED certification is awarded at four levels based on the total number of points
-                earned across all credit categories. Each level represents a progressively higher
-                standard of sustainability performance. As a USGBC member, We Build helps you
-                identify the right certification target for your project goals and budget.
-              </p>
-            </div>
-            <div className="space-y-6">
-              {certificationLevels.map((cert) => (
-                <Card key={cert.level}>
-                  <CardContent className="p-8">
-                    <div className="flex items-start gap-6">
-                      <div className={`w-14 h-14 ${cert.color} rounded-lg flex items-center justify-center flex-shrink-0`}>
-                        <Award className="h-7 w-7 text-white" aria-hidden="true" />
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-                          <h3 className="text-xl font-bold">{cert.level}</h3>
-                          <span className="text-primary font-semibold text-sm bg-primary/10 px-3 py-1 rounded-full">
-                            {cert.points}
-                          </span>
-                        </div>
-                        <p className="text-muted-foreground">{cert.desc}</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Our Green Building Process */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
@@ -824,7 +711,7 @@ export default function GreenBuildingPage() {
               Our Process
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
-              Our Green Building Process: 10 Steps from Consultation to Certification
+              Our Green Building Process
             </h2>
             <p className="text-muted-foreground">
               A structured, transparent process that integrates sustainability into every
@@ -1021,15 +908,6 @@ export default function GreenBuildingPage() {
       {/* CTA */}
       <section className="py-20 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <div className="flex justify-center mb-6">
-            <Image
-              src="/USGBC Member.png"
-              alt="USGBC Member"
-              width={100}
-              height={100}
-              className="rounded-lg"
-            />
-          </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to Build Green in Charlotte?
           </h2>

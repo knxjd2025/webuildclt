@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { X } from 'lucide-react';
 
@@ -14,35 +14,52 @@ interface BannerData {
   dismissible: boolean;
 }
 
+const HEIGHT_CACHE_KEY = 'banner_height_cache_v1';
+
+// Reserve banner height before paint to prevent CLS when banner re-renders.
+// Falls back to a no-op on the server.
+const useIsoLayoutEffect = typeof window === 'undefined' ? useEffect : useLayoutEffect;
+
 export function BannerCTA() {
   const [banner, setBanner] = useState<BannerData | null>(null);
   const [dismissed, setDismissed] = useState(false);
   const bannerRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    // Check if user already dismissed this banner
-    const stored = sessionStorage.getItem('banner_dismissed');
-    if (stored === 'true') {
+  // Optimistically reserve last-known banner height before fetch resolves.
+  useIsoLayoutEffect(() => {
+    if (sessionStorage.getItem('banner_dismissed') === 'true') {
       setDismissed(true);
+      document.documentElement.style.setProperty('--banner-height', '0px');
       return;
     }
+    const cached = localStorage.getItem(HEIGHT_CACHE_KEY);
+    if (cached) {
+      document.documentElement.style.setProperty('--banner-height', `${cached}px`);
+    }
+  }, []);
 
+  useEffect(() => {
+    if (dismissed) return;
     fetch('/api/admin/banner')
       .then((res) => res.json())
       .then((data) => {
         if (data.enabled) {
           setBanner(data);
+        } else {
+          document.documentElement.style.setProperty('--banner-height', '0px');
+          localStorage.removeItem(HEIGHT_CACHE_KEY);
         }
       })
       .catch(() => {});
-  }, []);
+  }, [dismissed]);
 
-  // Set CSS variable for banner height so header can offset itself
+  // Sync exact banner height after render and cache for next visit.
   useEffect(() => {
     if (banner && !dismissed && bannerRef.current) {
       const height = bannerRef.current.offsetHeight;
       document.documentElement.style.setProperty('--banner-height', `${height}px`);
-    } else {
+      localStorage.setItem(HEIGHT_CACHE_KEY, String(height));
+    } else if (dismissed) {
       document.documentElement.style.setProperty('--banner-height', '0px');
     }
   }, [banner, dismissed]);

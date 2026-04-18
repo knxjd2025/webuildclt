@@ -107,45 +107,17 @@ const commercialAreas = [
   {
     name: 'Matthews-Mint Hill Road',
     description:
-      'Matthews-Mint Hill Road serves as a major connector between Matthews and Mint Hill, with growing commercial development along its length. Medical offices, professional services, restaurants, and neighborhood retail centers have expanded along this corridor as the residential population in both towns has grown. We Build has experience with commercial construction and upfit projects along Matthews-Mint Hill Road, where mixed-use developments and medical office buildings are increasingly common project types.',
+      'Matthews-Mint Hill Road serves as a major connector between Matthews and Mint Hill, with growing commercial development along its length. Medical offices, professional services, restaurants, and neighborhood retail centers have expanded along this corridor as the population in both towns has grown. We Build has experience with commercial construction and upfit projects along Matthews-Mint Hill Road, where mixed-use developments and medical office buildings are increasingly common project types.',
   },
   {
     name: 'Sardis Road North Corridor',
     description:
-      'The Sardis Road North corridor connects Matthews to the broader South Charlotte market, with commercial and professional office development serving the surrounding residential communities. Medical offices, dental practices, financial services, and neighborhood retail are the primary commercial uses along this corridor. We Build provides construction services for new commercial buildings and tenant upfits in this established business area.',
+      'The Sardis Road North corridor connects Matthews to the broader South Charlotte market, with commercial and professional office development serving the surrounding communities. Medical offices, dental practices, financial services, and neighborhood retail are the primary commercial uses along this corridor. We Build provides construction services for new commercial buildings and tenant upfits in this established business area.',
   },
   {
     name: 'McKee Road & Idlewild Area',
     description:
-      'The McKee Road and Idlewild Road intersection area has seen significant commercial growth, with new retail centers, restaurants, and professional offices serving the growing residential communities of eastern Matthews, Indian Trail, and Stallings. This area straddles the Mecklenburg-Union County line, requiring a contractor experienced with both jurisdictions. We Build provides commercial construction and renovation services throughout this expanding commercial district.',
-  },
-];
-
-const residentialAreas = [
-  {
-    name: 'Matthews Proper',
-    description:
-      'Central Matthews features a mix of established neighborhoods, historic homes near downtown, and newer communities on the town\'s edges. We Build provides renovation, addition, and custom home services throughout Matthews. Many homes near downtown are 30 to 50 years old, making them excellent candidates for whole-home renovations, kitchen and bath updates, and additions that bring them up to modern standards while preserving the neighborhood character that makes Matthews special.',
-  },
-  {
-    name: 'Mint Hill',
-    description:
-      'Mint Hill retains a distinct small-town identity while benefiting from its proximity to Charlotte and Matthews. The town features larger lots, established neighborhoods, and a growing number of custom home communities. We Build serves Mint Hill homeowners with custom home construction, renovation, and addition services. Mint Hill\'s generous lot sizes and relaxed pace make it attractive for families seeking space without sacrificing convenience, and our team understands the town\'s zoning and building requirements.',
-  },
-  {
-    name: 'Indian Trail',
-    description:
-      'Indian Trail is one of the fastest-growing towns in Union County, with new residential communities, custom home neighborhoods, and master-planned developments creating strong demand for quality home builders. We Build constructs custom homes in Indian Trail and provides renovation services for homeowners in established neighborhoods. Indian Trail falls under Union County building jurisdiction, and our team is experienced with Union County permitting, inspections, and the specific building requirements that differ from Mecklenburg County.',
-  },
-  {
-    name: 'Stallings',
-    description:
-      'The Town of Stallings in Union County has experienced rapid residential growth, attracting families with its quality schools, newer communities, and proximity to Matthews and Charlotte employment centers. We Build provides custom home construction and renovation services for Stallings homeowners. Like Indian Trail, Stallings falls under Union County jurisdiction, and our experience navigating Union County building requirements ensures a smooth construction process for homeowners in this growing community.',
-  },
-  {
-    name: 'Sardis & Windsor Park',
-    description:
-      'The Sardis and Windsor Park neighborhoods west of Matthews proper feature established homes on generous lots with mature landscaping. These neighborhoods are popular with homeowners investing in renovations, additions, and custom rebuilds. We Build specializes in the sensitive renovation work that these communities require, including matching existing architectural styles and working within active neighborhoods where minimizing disruption is essential.',
+      'The McKee Road and Idlewild Road intersection area has seen significant commercial growth, with new retail centers, restaurants, and professional offices serving the growing communities of eastern Matthews, Indian Trail, and Stallings. This area straddles the Mecklenburg-Union County line, requiring a contractor experienced with both jurisdictions. We Build provides commercial construction and renovation services throughout this expanding commercial district.',
   },
 ];
 
@@ -279,7 +251,7 @@ const faqs = [
   {
     question: 'Is Matthews a good area for construction investment?',
     answer:
-      'Matthews and the surrounding area represent one of the strongest construction markets in eastern Charlotte. Downtown Matthews has experienced significant revitalization, attracting new restaurants and businesses. Independence Boulevard continues to drive commercial development and redevelopment. Indian Trail and Stallings are among the fastest-growing towns in Union County with strong residential demand. The area benefits from proximity to Charlotte employment centers, quality schools, and relatively affordable land compared to other parts of the metro. Both commercial and residential construction investments in the Matthews area benefit from these fundamental growth drivers.',
+      'Matthews and the surrounding area represent one of the strongest construction markets in eastern Charlotte. Downtown Matthews has experienced significant revitalization, attracting new restaurants and businesses. Independence Boulevard continues to drive commercial development and redevelopment. Indian Trail and Stallings are among the fastest-growing towns in Union County with strong demand for new commercial space. The area benefits from proximity to Charlotte employment centers, quality schools, and relatively affordable land compared to other parts of the metro. Commercial construction investments in the Matthews area benefit from these fundamental growth drivers.',
   },
   {
     question: 'Does We Build serve Indian Trail and Stallings?',
@@ -289,7 +261,7 @@ const faqs = [
   {
     question: 'How do I get a construction estimate for a project in Matthews?',
     answer:
-      'Getting a construction estimate from We Build is straightforward. Call us at (980) 471-1745 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. There is no obligation and no charge for initial consultations. We typically deliver estimates within one to two weeks of the initial site visit, depending on project complexity.',
+      'Getting a construction estimate from We Build is straightforward. Call us at (980) 471-1745 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. There is no obligation and no charge for initial consultations.',
   },
   {
     question: 'How do commercial construction costs in Matthews compare to South Charlotte or Indian Trail?',
@@ -346,7 +318,7 @@ export default function MatthewsPage() {
                 Matthews NC has comprehensive construction services available from We Build, a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> serving eastern Mecklenburg County and western Union County. We provide <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link> throughout Matthews, Mint Hill, Indian Trail, Stallings, and surrounding communities. Licensed in NC and SC with over 60 years of combined experience.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Matthews has established itself as one of the most charming and desirable communities in the Charlotte metro area, balancing a historic downtown core with modern commercial growth and thriving residential neighborhoods. The town&apos;s location along Independence Boulevard provides direct connectivity to Uptown Charlotte, while Matthews-Mint Hill Road links to the growing communities of Mint Hill to the north. To the south and east, Indian Trail and Stallings in Union County have experienced explosive residential growth, creating a combined market of over 150,000 residents who need quality commercial and residential construction services.
+                Matthews has established itself as one of the most charming and desirable communities in the Charlotte metro area, balancing a historic downtown core with modern commercial growth and thriving neighborhoods. The town&apos;s location along Independence Boulevard provides direct connectivity to Uptown Charlotte, while Matthews-Mint Hill Road links to the growing communities of Mint Hill to the north. To the south and east, Indian Trail and Stallings in Union County have experienced explosive growth, creating a combined market of over 150,000 residents who need quality commercial construction services.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We Build serves this entire region with the commitment to quality, transparency, and local expertise that has made us a trusted construction partner across greater Charlotte. Our team handles projects ranging from restaurant build-outs in downtown Matthews to commercial renovations along Independence Boulevard to medical office construction in Mint Hill. Whether you are planning a $75,000 office upfit or a $1.5 million ground-up commercial build, We Build brings the experience, licensing, and multi-jurisdiction permitting knowledge to deliver exceptional results in the Matthews area.

@@ -60,7 +60,7 @@ const faqs = [
     question:
       'Are construction consultations from We Build really free?',
     answer:
-      'Yes, all initial construction consultations from We Build are completely free with no obligation. We will visit your property, discuss your project goals, assess the scope of work, and provide a detailed written proposal at no charge. This applies to commercial projects across our entire service area including Charlotte, South Charlotte, Fort Mill, and Lake Norman. We believe you deserve to understand the full cost of your project before making any commitments, and we never pressure clients into signing a contract.',
+      'Yes, all initial construction consultations from We Build are completely free with no obligation. We will visit your property, discuss your project goals, and assess the scope of work. This applies to commercial projects across our entire service area including Charlotte, South Charlotte, Fort Mill, and Lake Norman. We believe you deserve to understand the full cost of your project before making any commitments, and we never pressure clients into signing a contract.',
   },
   {
     question:

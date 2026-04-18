@@ -41,7 +41,7 @@ export async function findNextLSIKeyword(
 
   const systemPrompt = `You are an SEO keyword strategist specializing in the construction industry in Charlotte, NC.
 
-Your job is to identify the single best untapped LSI (Latent Semantic Indexing) keyword opportunity for a construction company blog. The company is We Build, a veteran and family-owned commercial and residential construction company in Charlotte, NC.
+Your job is to identify the single best untapped LSI (Latent Semantic Indexing) keyword opportunity for a construction company blog. The company is We Build, a veteran and family-owned commercial construction company in Charlotte, NC.
 
 FOCUS AREAS (prioritize keywords related to these services):
 - Commercial construction in Charlotte, NC
@@ -49,8 +49,8 @@ FOCUS AREAS (prioritize keywords related to these services):
 - Commercial upfits and tenant improvements
 - Office and retail remodeling
 - Roof coating and commercial roofing
-- Custom home building in Charlotte, NC
-- Residential additions and renovations
+- Industrial and warehouse construction
+- Mixed-use and multi-family commercial construction
 
 - Charlotte area neighborhoods and surrounding cities
 

@@ -32,8 +32,26 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   CookingPot: UtensilsCrossed, // fallback
 };
 
+// Residential / deprecated-service guides — hidden from listing per client
+// review (direct URLs may still resolve for back-link preservation).
+const HIDDEN_GUIDE_SLUGS = new Set([
+  'home-maintenance-guide-charlotte',
+  'flooring-options-guide-charlotte-homes',
+  'kitchen-remodel-planning-guide-charlotte',
+  'bathroom-remodel-guide-charlotte',
+  'energy-efficiency-guide-charlotte-homes',
+  'home-addition-planning-guide-charlotte',
+  'charlotte-moisture-humidity-guide-homeowners',
+  'paint-color-guide-charlotte-homes',
+  'deck-outdoor-living-guide-charlotte',
+  'lighting-design-guide-charlotte-homes',
+  'first-time-home-buyer-construction-guide-charlotte',
+  'choosing-right-contractor-charlotte-guide',
+  'construction-management-guide-charlotte-property-owners',
+]);
+
 export default function GuidesPage() {
-  const guides = getAllGuides();
+  const guides = getAllGuides().filter((g) => !HIDDEN_GUIDE_SLUGS.has(g.slug));
 
   return (
     <>

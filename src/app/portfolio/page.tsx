@@ -84,17 +84,17 @@ const faqs = [
     question:
       'How much does commercial construction cost per square foot in Charlotte, NC?',
     answer:
-      'Commercial construction costs in Charlotte depend on the type of project, finishes, and infrastructure requirements. Office upfits range from $50-$175 per square foot. Retail build-outs run $75-$200 per square foot. Restaurant and food service construction costs $150-$350 per square foot due to kitchen, ventilation, and plumbing complexity. Medical facilities range from $150-$400 per square foot. Ground-up commercial construction starts at $200 per square foot and can exceed $400 for complex builds. We provide detailed, line-item estimates for every project. Contact us for a free consultation and quote.',
+      'Commercial construction costs in Charlotte depend on the type of project, finishes, and infrastructure requirements. Office upfits range from $50-$175 per square foot. Retail build-outs run $75-$200 per square foot. Restaurant and food service construction costs $150-$350 per square foot due to kitchen, ventilation, and plumbing complexity. Medical facilities range from $150-$400 per square foot. Ground-up commercial construction starts at $200 per square foot and can exceed $400 for complex builds. We provide detailed, line-item estimates for every project. Contact us for a free consultation.',
   },
   {
     question: 'Can you customize a project based on our specific business needs?',
     answer:
-      'Absolutely. Every project in our portfolio was customized to the specific needs of the client. Our process starts with understanding your business operations, workflow, branding, and growth plans. From there, our team develops architectural plans, selects materials, and creates a construction timeline tailored to your budget and schedule. Whether you need a healthcare facility with specialized exam rooms, a retail space with custom display fixtures, or a restaurant with a commercial kitchen, we build to your exact specifications.',
+      'Absolutely. Every project in our portfolio was customized to the specific needs of the client. Our process starts with understanding your business operations, workflow, branding, and growth plans, and we create a construction timeline tailored to your budget and schedule. Whether you need a healthcare facility with specialized exam rooms, a retail space with custom display fixtures, or a restaurant with a commercial kitchen, we build to your exact specifications.',
   },
   {
     question: 'What warranty do you offer on your construction work?',
     answer:
-      'We stand behind every project in our portfolio with comprehensive warranty coverage. Our standard construction warranty covers workmanship and materials for one year after project completion. Many of the products and systems we install carry their own manufacturer warranties ranging from 5 to 25 years, including roofing systems, HVAC equipment, windows, and flooring. Our We Coat commercial roof coating system comes with a 20-year No Dollar Limit (NDL) warranty. We also provide a post-construction walkthrough at 11 months to address any warranty items before the coverage period ends.',
+      'We stand behind every project in our portfolio with comprehensive warranty coverage. Our standard construction warranty covers workmanship and materials for one year after project completion. Many of the products and systems we install carry their own manufacturer warranties ranging from 5 to 25 years, including roofing systems, HVAC equipment, windows, and flooring. Our We Coat commercial roof coating system comes with a 20-year No Dollar Limit (NDL) warranty.',
   },
   {
     question: 'How does We Build manage projects during construction?',

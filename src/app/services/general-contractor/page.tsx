@@ -129,7 +129,7 @@ const processSteps = [
     step: '04',
     title: 'Contract & Pre-Construction Planning',
     description:
-      'Once you approve the estimate, we execute a clear, straightforward contract that defines scope, pricing, timeline, payment schedule, warranty terms, and change order procedures. Our pre-construction phase includes finalizing material selections, coordinating with engineers and architects, preparing detailed construction drawings, and establishing the project schedule.',
+      'Once you approve the estimate, we execute a clear, straightforward contract that defines scope, pricing, timeline, payment schedule, warranty terms, and change order procedures. Our pre-construction phase includes finalizing material selections and establishing the project schedule.',
   },
   {
     step: '05',
@@ -195,12 +195,12 @@ const faqs = [
   {
     question: 'How much does a general contractor charge in Charlotte?',
     answer:
-      'General contractor fees in Charlotte are typically structured as fixed-price (lump-sum) contracts, which include the contractor fee built into a single total price. This structure works best when the scope, plans, and specifications are well-defined before construction begins, providing budget certainty upfront. For reference, commercial upfits in Charlotte run $50 to $175 per square foot, custom homes $200 to $600+ per square foot, and home additions $150 to $400 per square foot. We provide detailed, transparent estimates tailored to your specific project scope and specifications.',
+      'General contractor fees in Charlotte are typically structured as fixed-price (lump-sum) contracts, which include the contractor fee built into a single total price. This structure works best when the scope, plans, and specifications are well-defined before construction begins, providing budget certainty upfront. For reference, commercial upfits in Charlotte run $50 to $175 per square foot. We provide detailed, transparent estimates tailored to your specific project scope and specifications.',
   },
   {
     question: 'How long does a typical construction project take in Charlotte?',
     answer:
-      'Project timelines vary significantly by type and scope. Commercial office upfits typically take 3 to 5 months. Restaurant build-outs require 5 to 8 months due to kitchen and ventilation complexity. Custom homes range from 10 to 18 months depending on size and finish level. Home additions average 3 to 6 months. Roof coating projects are completed in 2 to 3 weeks. The permitting process with Mecklenburg County adds approximately 4 to 8 weeks before construction can begin. We provide detailed project schedules during the planning phase and communicate proactively if any factors impact the timeline.',
+      'Project timelines vary significantly by type and scope. Commercial office upfits typically take 3 to 5 months. Restaurant build-outs require 5 to 8 months due to kitchen and ventilation complexity. Roof coating projects are completed in 2 to 3 weeks. The permitting process with Mecklenburg County adds approximately 4 to 8 weeks before construction can begin. We provide detailed project schedules during the planning phase and communicate proactively if any factors impact the timeline.',
   },
   {
     question: 'What areas does We Build serve as a general contractor?',
@@ -483,7 +483,7 @@ export default function GeneralContractorPage() {
               Our General Contracting Process
             </h2>
             <p className="text-muted-foreground">
-              From your first phone call to the final walkthrough and beyond, our proven ten-step
+              From your first phone call to the final walkthrough and beyond, our proven nine-step
               process ensures your project is delivered on time, on budget, and exactly to your
               specifications. Every step is designed to eliminate surprises and keep you informed.
             </p>
@@ -914,7 +914,7 @@ export default function GeneralContractorPage() {
               &quot;We Build transformed our vision into reality. Their attention to detail and
               commitment to quality exceeded our expectations. The team was professional,
               communicative, and delivered on time and within budget. We highly recommend We Build
-              as your general contractor.&quot;
+              for any construction project.&quot;
             </blockquote>
             <div className="flex items-center justify-center gap-4">
               <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
@@ -1108,12 +1108,11 @@ export default function GeneralContractorPage() {
             Ready to Start Your Construction Project?
           </h2>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact Charlotte&apos;s trusted general contractor today for a free consultation and
-            consultation. Whether you are planning a{' '}
-            <span className="text-primary-foreground">commercial build</span>, a{' '}
-            <span className="text-primary-foreground">custom home</span>, or a{' '}
-            <span className="text-primary-foreground">renovation</span>, We Build is ready to turn
-            your vision into reality. Let&apos;s build something great together.
+            Contact Charlotte&apos;s trusted general contractor today for a free consultation.
+            Whether you are planning a{' '}
+            <span className="text-primary-foreground">commercial build</span> or a{' '}
+            <span className="text-primary-foreground">commercial upfit</span>, We Build is ready
+            to turn your vision into reality. Let&apos;s build something great together.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>

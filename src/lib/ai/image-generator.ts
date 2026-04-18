@@ -32,8 +32,6 @@ const categoryContext: Record<string, string> = {
     'medical office construction, healthcare facility build-out, clinic interior',
   'cost-guides':
     'construction estimating, contractor reviewing plans with calculator, cost analysis',
-  'residential':
-    'custom home construction, residential building, suburban neighborhood',
 };
 
 /**

@@ -103,16 +103,16 @@ export function HeroSlideshow() {
               {i === current ? (
                 <span
                   key={`progress-${current}`}
-                  className="absolute inset-y-0 left-0 rounded-full bg-primary"
+                  className="absolute inset-y-0 left-0 w-full rounded-full bg-primary origin-left"
                   style={
                     !isPaused
                       ? { animation: 'slideProgress 5s linear forwards' }
-                      : { width: '100%' }
+                      : { transform: 'scaleX(1)' }
                   }
                 />
               ) : (
                 <span
-                  className="absolute inset-y-0 left-0 rounded-full bg-white/60 w-0 transition-all duration-300 group-hover:w-1/2"
+                  className="absolute inset-y-0 left-0 w-full rounded-full bg-white/60 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-50"
                 />
               )}
             </span>

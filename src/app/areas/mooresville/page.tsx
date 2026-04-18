@@ -107,45 +107,17 @@ const commercialAreas = [
   {
     name: 'Morrison Plantation Area',
     description:
-      'The Morrison Plantation area along NC-150 has grown into a significant commercial and residential node in Mooresville. Commercial development includes medical offices, professional services, retail centers, and restaurants serving the surrounding residential communities. We Build provides commercial construction and tenant upfit services in the Morrison Plantation corridor, where new commercial pads continue to be developed as the residential population grows.',
+      'The Morrison Plantation area along NC-150 has grown into a significant commercial node in Mooresville. Commercial development includes medical offices, professional services, retail centers, and restaurants serving the surrounding community. We Build provides commercial construction and tenant upfit services in the Morrison Plantation corridor, where new commercial pads continue to be developed as the population grows.',
   },
   {
     name: 'Langtree at the Lake',
     description:
-      'Langtree at the Lake is a premier mixed-use development on Lake Norman\'s western shore, combining retail, dining, entertainment, and residential uses in a walkable lakefront setting. We Build provides commercial construction and tenant upfit services for businesses at Langtree, where the waterfront location and upscale positioning require attention to finish quality and architectural standards. The development continues to attract new tenants who need build-out services that match the center\'s premium character.',
+      'Langtree at the Lake is a premier mixed-use development on Lake Norman\'s western shore, combining retail, dining, and entertainment in a walkable lakefront setting. We Build provides commercial construction and tenant upfit services for businesses at Langtree, where the waterfront location and upscale positioning require attention to finish quality and architectural standards. The development continues to attract new tenants who need build-out services that match the center\'s premium character.',
   },
   {
     name: 'NC-150 / West Mooresville Corridor',
     description:
       'The NC-150 corridor west of I-77 has seen substantial commercial and light industrial development, driven by the area\'s accessibility and available land. Motorsports-related businesses, technology companies, manufacturing facilities, and distribution centers occupy this corridor. We Build provides commercial construction, industrial build-outs, and flex space renovations along NC-150, where project requirements often include specialized infrastructure like high-bay spaces, overhead crane systems, and heavy electrical service.',
-  },
-];
-
-const residentialAreas = [
-  {
-    name: 'The Peninsula & Lake Norman Waterfront',
-    description:
-      'The Peninsula is one of Lake Norman\'s most prestigious residential communities, featuring a championship golf course, marina access, and custom homes on generous lakefront and golf course lots. We Build provides custom home construction and renovation services for Peninsula homeowners and waterfront property owners throughout the Mooresville section of Lake Norman. Lakefront construction requires specialized expertise in foundation design, erosion control, dock permitting, and the environmental considerations specific to Lake Norman shoreline development.',
-  },
-  {
-    name: 'Langtree Residential',
-    description:
-      'The residential portions of the Langtree development offer townhomes, single-family homes, and custom lots with convenient access to the mixed-use retail and dining center. We Build serves Langtree homeowners with renovation, addition, and custom finishing services. As the community matures, homeowners are investing in personalized upgrades, outdoor living spaces, and interior renovations that reflect their individual style beyond the original builder specifications.',
-  },
-  {
-    name: 'Morrison Plantation',
-    description:
-      'Morrison Plantation is a large master-planned community in Mooresville featuring a variety of home styles, community amenities, and convenient access to NC-150 and I-77. We Build provides home renovation, addition, and custom finishing services for Morrison Plantation residents. Many homes in the community are reaching the age where owners invest in kitchen renovations, bathroom updates, and additions that expand their living space.',
-  },
-  {
-    name: 'Curtis Pond & Brawley School Area',
-    description:
-      'The Curtis Pond and Brawley School Road area features established neighborhoods with larger lots and a mix of custom and semi-custom homes. We Build serves homeowners in these communities with renovation, addition, and custom home construction services. The area\'s proximity to downtown Mooresville and Lake Norman makes it attractive for families who want space and character without sacrificing convenience.',
-  },
-  {
-    name: 'Coddle Creek & Rural Mooresville',
-    description:
-      'The Coddle Creek area and rural portions of Mooresville offer large-lot properties and acreage suitable for custom estate homes and hobby farms. We Build provides custom home construction for property owners who want to build on their own land in these less-developed areas. Building in rural Mooresville may involve well and septic systems, longer utility runs, and site preparation for properties with significant grade changes, all of which our team handles as part of the construction process.',
   },
 ];
 
@@ -230,7 +202,7 @@ const whyChooseUs = [
     icon: Clock,
     title: 'Iredell County Permitting Knowledge',
     description:
-      'Mooresville falls under Iredell County building jurisdiction, which differs from Mecklenburg County in permitting processes, code interpretations, and inspection procedures. We Build has experience navigating Iredell County requirements and the Town of Mooresville planning department, ensuring projects move through permitting efficiently without costly delays or surprises.',
+      'Mooresville falls under Iredell County building jurisdiction, which differs from Mecklenburg County in permitting processes, code interpretations, and inspection procedures.',
   },
   {
     icon: DollarSign,
@@ -274,7 +246,7 @@ const faqs = [
   {
     question: 'Is Mooresville a good area for construction investment?',
     answer:
-      'Mooresville is one of the strongest construction markets in the Lake Norman region. The town\'s population has grown significantly, driven by corporate employers like Lowe\'s Companies, the NASCAR industry cluster, and Lake Norman\'s lifestyle appeal. The Exit 28 corridor continues to see major commercial development. Downtown Mooresville has experienced a restaurant and retail renaissance. Lakefront property values remain strong. The NC-150 corridor is attracting new industrial and technology companies. Both commercial and residential construction investments in Mooresville benefit from these diversified growth drivers and the town\'s strategic location along I-77.',
+      'Mooresville is one of the strongest construction markets in the Lake Norman region. The town\'s population has grown significantly, driven by corporate employers like Lowe\'s Companies, the NASCAR industry cluster, and Lake Norman\'s lifestyle appeal. The Exit 28 corridor continues to see major commercial development. Downtown Mooresville has experienced a restaurant and retail renaissance. Lakefront property values remain strong. The NC-150 corridor is attracting new industrial and technology companies. Commercial construction investments in Mooresville benefit from these diversified growth drivers and the town\'s strategic location along I-77.',
   },
   {
     question: 'What neighborhoods in Mooresville does We Build serve?',
@@ -289,7 +261,7 @@ const faqs = [
   {
     question: 'How do I get a construction estimate for a project in Mooresville?',
     answer:
-      'Getting a construction estimate from We Build is straightforward. Call us at (980) 471-1745 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. For lakefront properties, the site visit is especially important to assess lot conditions, access, and any waterfront-specific requirements. There is no obligation and no charge for initial consultations. We typically deliver estimates within one to two weeks of the initial site visit.',
+      'Getting a construction estimate from We Build is straightforward. Call us at (980) 471-1745 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. For lakefront properties, the site visit is especially important to assess lot conditions, access, and any waterfront-specific requirements. There is no obligation and no charge for initial consultations.',
   },
   {
     question: 'How do commercial construction costs in Mooresville compare to Cornelius or Huntersville?',
@@ -299,7 +271,7 @@ const faqs = [
   {
     question: 'Does We Build offer sustainable or green building in Mooresville?',
     answer:
-      'Yes. As a U.S. Green Building Council (USGBC) member, We Build incorporates sustainable construction practices into Mooresville commercial and residential projects. We offer energy-efficient building envelopes, high-performance HVAC systems, LED lighting, low-VOC materials, and water-efficient fixtures. Green building is particularly relevant for Mooresville lakefront properties where stormwater management and environmental impact are closely regulated. For commercial projects near the Lowe\'s corporate campus and the Exit 28 corridor, sustainability features help attract quality tenants.',
+      'Yes. As a U.S. Green Building Council (USGBC) member, We Build incorporates sustainable construction practices into Mooresville commercial projects. We offer energy-efficient building envelopes, high-performance HVAC systems, LED lighting, low-VOC materials, and water-efficient fixtures. Green building is particularly relevant for Mooresville lakefront properties where stormwater management and environmental impact are closely regulated. For commercial projects near the Lowe\'s corporate campus and the Exit 28 corridor, sustainability features help attract quality tenants.',
   },
   {
     question: 'What commercial construction opportunities exist along the Exit 28 corridor in Mooresville?',

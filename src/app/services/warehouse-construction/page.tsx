@@ -134,16 +134,6 @@ const processSteps = [
   },
   {
     step: '02',
-    title: 'Feasibility & Pre-Design',
-    desc: 'Once a site is identified, we conduct a detailed feasibility analysis covering geotechnical investigation of soil conditions, environmental assessment for brownfield or grading issues, utility capacity verification with local providers, zoning confirmation and any required variance applications, preliminary site layout showing building footprint, parking, truck courts, and stormwater facilities, and initial budget development. This feasibility work identifies cost drivers and potential issues before design investment begins.',
-  },
-  {
-    step: '03',
-    title: 'Engineering & Coordination',
-    desc: 'We work closely with your architect and design team to integrate architectural, structural, mechanical, electrical, plumbing, and fire protection design seamlessly. For warehouse construction, structural engineering drives the design: steel column spacing, clear height, roof load capacity for mechanical equipment or solar panels, and foundation design for floor loads and rack anchorage. We coordinate the building design around your operational requirements, including rack layout, dock door count and spacing, office location and size, and any specialized systems for your specific use.',
-  },
-  {
-    step: '04',
     title: 'Permitting & Approvals',
     desc: 'Warehouse and industrial construction in the Charlotte metro requires building permits from the local jurisdiction, which may be Mecklenburg County, the City of Charlotte, or surrounding municipalities depending on the site location. Permits cover structural, mechanical, electrical, plumbing, and fire protection plans. Stormwater permits are required for sites that disturb land or add impervious surface. Environmental permits may apply for operations involving hazardous materials or air emissions. We manage the full permitting process and maintain relationships with local plan reviewers to facilitate efficient reviews.',
   },
@@ -294,7 +284,7 @@ const faqs = [
   {
     question: 'What is the difference between a distribution center and a fulfillment center, and how does it affect construction?',
     answer:
-      'A distribution center receives bulk shipments and redistributes them to retail stores or regional hubs, emphasizing efficient truck dock operations, pallet storage, and high throughput. A fulfillment center processes individual customer orders, requiring extensive sorting systems, conveyor infrastructure, packing stations, and often mezzanine levels for order-picking operations. Fulfillment centers typically need more electrical capacity for conveyor motors and automation equipment, higher lighting levels in pick-and-pack areas, and office and break room space for larger workforces. Construction costs for fulfillment centers generally run 15 to 30 percent higher than distribution centers of the same size due to interior systems complexity. We design both facility types and coordinate early with your operations team to ensure the building supports your specific logistics workflow.',
+      'A distribution center receives bulk shipments and redistributes them to retail stores or regional hubs, emphasizing efficient truck dock operations, pallet storage, and high throughput. A fulfillment center processes individual customer orders, requiring extensive sorting systems, conveyor infrastructure, packing stations, and often mezzanine levels for order-picking operations. Fulfillment centers typically need more electrical capacity for conveyor motors and automation equipment, higher lighting levels in pick-and-pack areas, and office and break room space for larger workforces. Construction costs for fulfillment centers generally run 15 to 30 percent higher than distribution centers of the same size due to interior systems complexity.',
   },
 ];
 

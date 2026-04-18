@@ -146,21 +146,6 @@ const processSteps = [
   },
   {
     step: '02',
-    title: 'Site Selection & Due Diligence',
-    desc: 'For ground-up industrial projects, site selection is critical to long-term operational success. We help evaluate candidate sites based on highway access, proximity to labor pools, utility infrastructure capacity, zoning restrictions, environmental conditions, topography, and stormwater management feasibility. Our team coordinates Phase I and Phase II environmental assessments, geotechnical investigations, boundary and topographic surveys, and preliminary utility consultations to identify any site-specific challenges before you commit to a property.',
-  },
-  {
-    step: '03',
-    title: 'Conceptual Design & Budget Development',
-    desc: 'We work closely with your architect and design team to develop conceptual building plans, site layouts, and preliminary structural designs based on your operational requirements. We create initial cost models that break down every major budget category including sitework, foundations, structural steel or tilt-up panels, roofing, interior improvements, mechanical and electrical systems, fire protection, and site utilities. This phase establishes the project budget range and identifies any value engineering opportunities to optimize cost without sacrificing operational performance.',
-  },
-  {
-    step: '04',
-    title: 'Design Development & Engineering',
-    desc: 'Once the concept and budget are approved, we advance the design into detailed construction documents. Structural engineering addresses column spacing, clear heights, crane loads, mezzanine capacities, and seismic design requirements. Mechanical engineering sizes HVAC, process piping, and compressed air systems. Electrical engineering designs power distribution, lighting, fire alarm, and low-voltage systems. Civil engineering completes site grading, stormwater detention, utility routing, and paving designs. All disciplines coordinate through our integrated process to eliminate conflicts before construction begins.',
-  },
-  {
-    step: '05',
     title: 'Permitting & Regulatory Approvals',
     desc: 'Industrial construction in Mecklenburg County and surrounding jurisdictions requires building permits, grading permits, stormwater permits, driveway permits, fire marshal approvals, and potentially environmental permits depending on your operations. We prepare and submit all permit applications, respond to plan review comments, attend technical review meetings, and coordinate with utility providers for service connections. For projects in industrial parks or planned developments, we handle architectural review committee submissions and covenants compliance documentation.',
   },
@@ -210,7 +195,7 @@ const whyChooseUs = [
   {
     icon: Cog,
     title: 'Industrial Systems Expertise',
-    desc: 'Industrial facilities require specialized building systems that most commercial contractors rarely encounter. We have direct experience with overhead bridge crane installation, heavy power distribution, compressed air networks, process piping, industrial ventilation and exhaust systems, high-piled storage fire suppression, and reinforced floor slabs for heavy equipment. Our team coordinates with your equipment vendors to ensure building infrastructure is designed to support your specific production and storage requirements.',
+    desc: 'Industrial facilities require specialized building systems that most commercial contractors rarely encounter. Our team coordinates with your engineering firm and equipment vendors to ensure building infrastructure is designed to support your specific production and storage requirements.',
   },
   {
     icon: BadgeCheck,
@@ -281,7 +266,7 @@ const faqs = [
   {
     question: 'What zoning is required for industrial construction in Charlotte?',
     answer:
-      'Industrial construction in Charlotte and Mecklenburg County requires appropriate zoning classifications. The most common industrial zoning districts are I-1 (Light Industrial) and I-2 (General Industrial). I-1 zoning permits warehousing, distribution, light manufacturing, and flex industrial uses with certain restrictions on outdoor storage, noise levels, and operating hours. I-2 zoning allows heavier manufacturing, processing, and outdoor storage with fewer restrictions. Some industrial uses may be permitted in Business Park (BP) or Mixed-Use (MX) districts with conditional approvals. If your intended use does not conform to the existing zoning, a rezoning petition or conditional use permit may be required, which adds 3 to 6 months to the development timeline. We help clients navigate zoning requirements during site selection.',
+      'Industrial construction in Charlotte and Mecklenburg County requires appropriate zoning classifications. The most common industrial zoning districts are I-1 (Light Industrial) and I-2 (General Industrial). I-1 zoning permits warehousing, distribution, light manufacturing, and flex industrial uses with certain restrictions on outdoor storage, noise levels, and operating hours. I-2 zoning allows heavier manufacturing, processing, and outdoor storage with fewer restrictions. Some industrial uses may be permitted in Business Park (BP) or Mixed-Use (MX) districts with conditional approvals. If your intended use does not conform to the existing zoning, a rezoning petition or conditional use permit may be required, which adds 3 to 6 months to the development timeline.',
   },
   {
     question: 'Do I need a fire sprinkler system in my warehouse?',
@@ -619,17 +604,17 @@ export default function IndustrialConstructionPage() {
                 {
                   icon: Bolt,
                   title: 'Heavy Power & Electrical Distribution',
-                  desc: 'Industrial facilities consume significantly more electrical power than commercial buildings. Manufacturing plants, cold storage warehouses, and logistics facilities with automated material handling systems may require electrical services rated at 2,000 to 4,000 amps or higher at 480/277-volt three-phase power. The electrical infrastructure includes utility company coordination for primary service at 12.47kV or higher, pad-mounted or unit substation transformers, main distribution switchgear, motor control centers for production equipment, panelboards for lighting and receptacle circuits, and emergency generator systems for critical operations. Power distribution to individual machines, conveyors, and production stations must be coordinated with equipment vendor electrical requirements, including voltage, phase, amperage, and control signal specifications. We design electrical infrastructure with capacity for future growth so you are not forced into expensive electrical upgrades when you add equipment or expand operations.',
+                  desc: 'Industrial facilities consume significantly more electrical power than commercial buildings. Manufacturing plants, cold storage warehouses, and logistics facilities with automated material handling systems may require electrical services rated at 2,000 to 4,000 amps or higher at 480/277-volt three-phase power. The electrical infrastructure includes utility company coordination for primary service at 12.47kV or higher, pad-mounted or unit substation transformers, main distribution switchgear, motor control centers for production equipment, panelboards for lighting and receptacle circuits, and emergency generator systems for critical operations. Power distribution to individual machines, conveyors, and production stations must be coordinated with equipment vendor electrical requirements, including voltage, phase, amperage, and control signal specifications.',
                 },
                 {
                   icon: Cable,
                   title: 'Compressed Air & Process Piping',
-                  desc: 'Manufacturing and assembly operations frequently require compressed air distribution systems, process water piping, natural gas piping for production equipment, and waste piping for industrial processes. Compressed air systems include air compressors sized for your peak demand with appropriate receivers, dryers, and filtration to deliver clean, dry air at the required pressure and volume to production stations throughout the facility. Distribution piping is typically aluminum or steel with drop legs at each workstation. Process piping for water, chemicals, or waste streams must be designed for the specific fluids, pressures, temperatures, and regulatory requirements of your operation. We coordinate process piping design with your equipment vendors and environmental compliance requirements to ensure every system is properly sized, supported, and accessible for maintenance.',
+                  desc: 'Manufacturing and assembly operations frequently require compressed air distribution systems, process water piping, natural gas piping for production equipment, and waste piping for industrial processes. Compressed air systems include air compressors sized for your peak demand with appropriate receivers, dryers, and filtration to deliver clean, dry air at the required pressure and volume to production stations throughout the facility. Distribution piping is typically aluminum or steel with drop legs at each workstation. Process piping for water, chemicals, or waste streams must be designed for the specific fluids, pressures, temperatures, and regulatory requirements of your operation.',
                 },
                 {
                   icon: Gauge,
                   title: 'Overhead Crane Rails & Heavy Equipment',
-                  desc: 'Manufacturing facilities that handle heavy components, raw materials, or finished products frequently require overhead crane systems. Bridge cranes, jib cranes, and monorail systems need structural support integrated into the building frame from the initial design phase. Crane runway beams must be engineered for the crane capacity, span, and duty cycle, with proper connections to building columns that can handle the vertical loads, lateral forces, and longitudinal forces generated during crane operation. The building foundation and floor slab must also be designed to accommodate crane-loaded columns, which transfer significantly higher loads to the foundation than standard warehouse columns. Rail alignment tolerances are tight, typically within 1/4-inch over the full runway length, requiring precise structural steel erection. We coordinate crane system procurement, structural engineering, and installation to ensure your crane infrastructure is operational on day one.',
+                  desc: 'Manufacturing facilities that handle heavy components, raw materials, or finished products frequently require overhead crane systems. Bridge cranes, jib cranes, and monorail systems need structural support integrated into the building frame from the initial design phase. Crane runway beams must be engineered for the crane capacity, span, and duty cycle, with proper connections to building columns that can handle the vertical loads, lateral forces, and longitudinal forces generated during crane operation. The building foundation and floor slab must also be designed to accommodate crane-loaded columns, which transfer significantly higher loads to the foundation than standard warehouse columns. Rail alignment tolerances are tight, typically within 1/4-inch over the full runway length, requiring precise structural steel erection.',
                 },
               ].map((item) => (
                 <Card key={item.title}>

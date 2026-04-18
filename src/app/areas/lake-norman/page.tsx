@@ -183,7 +183,7 @@ const faqs = [
   {
     question: 'Do you build on lakefront properties at Lake Norman?',
     answer:
-      'Yes. We Build has experience with construction in lakefront areas around Lake Norman including The Peninsula, Jetton Park, Northington, and waterfront locations in Mooresville and Denver. We understand the unique requirements of lakefront construction including dock permits from Duke Energy, erosion control measures, FEMA flood zone compliance, and shoreline setback regulations. Our team coordinates with environmental consultants, marine contractors, and local building officials to ensure your project meets all applicable requirements.',
+      'Yes. We serve lakefront areas around Lake Norman including The Peninsula, Jetton Park, Northington, and waterfront locations in Mooresville and Denver. We understand the unique requirements of lakefront construction including dock permits from Duke Energy, erosion control measures, FEMA flood zone compliance, and shoreline setback regulations. Our team coordinates with environmental consultants, marine contractors, and local building officials to ensure your project meets all applicable requirements.',
   },
   {
     question: 'What areas around Lake Norman do you serve?',
@@ -403,7 +403,7 @@ export default function LakeNormanPage() {
             <span className="text-primary font-semibold uppercase tracking-wider text-sm">Commercial Development</span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">Lake Norman Commercial Construction</h2>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              The Lake Norman region has evolved from a primarily residential lake community into a major commercial market with diverse business activity spanning retail, healthcare, technology, manufacturing, and professional services. The I-77 corridor from Huntersville through Mooresville serves as the commercial spine of the region, with significant development activity at key interchanges and in established town centers. We Build provides <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link> and <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfit services</Link> across all Lake Norman commercial districts.
+              The Lake Norman region has evolved from a primarily lake-focused community into a major commercial market with diverse business activity spanning retail, healthcare, technology, manufacturing, and professional services. The I-77 corridor from Huntersville through Mooresville serves as the commercial spine of the region, with significant development activity at key interchanges and in established town centers. We Build provides <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link> and <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfit services</Link> across all Lake Norman commercial districts.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 mt-8">
@@ -440,7 +440,7 @@ export default function LakeNormanPage() {
                 Cornelius has seen steady commercial development anchored by its proximity to both Lake Norman and the Charlotte business core. The town&apos;s position along I-77 makes it attractive for businesses seeking Lake Norman visibility with Charlotte accessibility. Davidson has maintained slower, more managed growth consistent with its small-town identity, focusing on walkable mixed-use development and preserving its distinctive character. Davidson&apos;s construction market favors quality over volume, with an emphasis on carefully designed commercial spaces.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Mooresville represents the largest and most diverse construction market in the Lake Norman region. The town&apos;s Iredell County location offers competitive land costs compared to Mecklenburg County communities, attracting both residential developers and commercial operators. Mooresville has seen significant growth in healthcare facilities, retail centers, business parks, and residential subdivisions. The town&apos;s expanding infrastructure including road improvements and utility extensions continues to open new areas for development.
+                Mooresville represents the largest and most diverse construction market in the Lake Norman region. The town&apos;s Iredell County location offers competitive land costs compared to Mecklenburg County communities, attracting commercial operators. Mooresville has seen significant growth in healthcare facilities, retail centers, and business parks. The town&apos;s expanding infrastructure including road improvements and utility extensions continues to open new areas for development.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Huntersville has emerged as a major suburban employment center with substantial retail, office, and mixed-use development. The Northlake and Birkdale areas represent two of the most active commercial districts in the Charlotte metro. The western Lake Norman communities of Denver and Sherrills Ford continue to grow, driving demand for commercial construction and general contracting services in Lincoln and Catawba counties.
@@ -494,7 +494,7 @@ export default function LakeNormanPage() {
                       <h3 className="text-lg font-semibold">Mecklenburg County Jurisdiction</h3>
                     </div>
                     <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-                      Cornelius, Davidson, and Huntersville fall within Mecklenburg County building jurisdiction. Mecklenburg County uses the North Carolina State Building Code and enforces additional stormwater management requirements that are among the strictest in the state. Commercial projects require detailed plan review that typically takes two to four weeks. Residential permits are generally processed faster but still require compliance with zoning, setback, and environmental regulations.
+                      Cornelius, Davidson, and Huntersville fall within Mecklenburg County building jurisdiction. Mecklenburg County uses the North Carolina State Building Code and enforces additional stormwater management requirements that are among the strictest in the state. Commercial projects require detailed plan review that typically takes two to four weeks, with full compliance for zoning, setback, and environmental regulations.
                     </p>
                     <p className="text-muted-foreground text-sm leading-relaxed">
                       Each town within Mecklenburg County also maintains its own zoning ordinances and planning departments. Cornelius, Davidson, and Huntersville have specific zoning requirements that may differ from unincorporated Mecklenburg County, particularly regarding commercial development, signage, and architectural standards.
@@ -511,7 +511,7 @@ export default function LakeNormanPage() {
                       Mooresville and other Lake Norman communities in Iredell County operate under a different building department with its own permitting process and fee schedule. Iredell County also uses the North Carolina State Building Code but may have different local amendments and interpretive practices. Commercial permitting timelines and requirements can differ from Mecklenburg County.
                     </p>
                     <p className="text-muted-foreground text-sm leading-relaxed">
-                      The Town of Mooresville maintains its own zoning ordinances and planning department with specific requirements for commercial and residential development. Mooresville&apos;s rapid growth has led to ongoing updates in zoning regulations, and staying current with these changes is essential for efficient project planning and permitting.
+                      The Town of Mooresville maintains its own zoning ordinances and planning department with specific requirements for commercial development. Mooresville&apos;s rapid growth has led to ongoing updates in zoning regulations, and staying current with these changes is essential for efficient project planning and permitting.
                     </p>
                   </CardContent>
                 </Card>
@@ -537,7 +537,7 @@ export default function LakeNormanPage() {
             </div>
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed">
-                Waterfront construction on Lake Norman involves a layer of regulatory and engineering complexity that goes beyond standard residential or commercial building. Property owners considering construction on or near the Lake Norman shoreline should understand the key considerations that affect project planning, design, cost, and timeline.
+                Waterfront construction on Lake Norman involves a layer of regulatory and engineering complexity that goes beyond standard commercial building. Property owners considering construction on or near the Lake Norman shoreline should understand the key considerations that affect project planning, design, cost, and timeline.
               </p>
               <div className="grid md:grid-cols-2 gap-6 my-8">
                 <div className="bg-background rounded-lg p-6">
@@ -670,7 +670,7 @@ export default function LakeNormanPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Build in Lake Norman?</h2>
           <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Contact We Build for a free consultation on your Lake Norman construction project. Whether you are planning a commercial build, waterfront renovation, or commercial upfit, our team is ready to help you build with confidence.
+            Contact We Build for a free consultation on your Lake Norman construction project. Whether you are planning a commercial build or commercial upfit, our team is ready to help you build with confidence.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" variant="secondary" asChild>

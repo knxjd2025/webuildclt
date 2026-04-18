@@ -205,7 +205,7 @@ const faqs = [
   {
     question: 'How do Rock Hill building permits work?',
     answer:
-      'Rock Hill has two permitting jurisdictions. Projects within City of Rock Hill limits go through the City\u2019s Planning and Development Department. Projects in unincorporated York County areas go through the York County Building Codes Department. Both follow the International Building Code (IBC) for commercial and International Residential Code (IRC) for residential. Plan review takes 2-4 weeks for residential and 4-8 weeks for commercial. As your general contractor, We Build handles the entire permitting and inspection process.',
+      'Rock Hill has two permitting jurisdictions. Projects within City of Rock Hill limits go through the City\u2019s Planning and Development Department. Projects in unincorporated York County areas go through the York County Building Codes Department. Both follow the International Building Code (IBC) for commercial construction. Plan review takes 4-8 weeks for commercial. As your general contractor, We Build handles the entire permitting and inspection process.',
   },
   {
     question: 'What is the difference between SC and NC construction requirements?',
@@ -649,13 +649,12 @@ export default function RockHillPage() {
                 <h3 className="text-xl font-bold mb-3">York County Building Codes</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   York County enforces the International Building Code (IBC) for commercial
-                  construction and the International Residential Code (IRC) for residential projects,
-                  along with the National Electrical Code (NEC), International Plumbing Code (IPC),
-                  and International Mechanical Code (IMC). South Carolina also requires compliance
-                  with state energy codes and wind load requirements. The City of Rock Hill has its
-                  own planning department for projects within city limits, while unincorporated areas
-                  fall under York County jurisdiction. Our team&apos;s deep experience with both
-                  permitting offices helps prevent costly delays and rework.
+                  construction, along with the National Electrical Code (NEC), International Plumbing
+                  Code (IPC), and International Mechanical Code (IMC). South Carolina also requires
+                  compliance with state energy codes and wind load requirements. The City of Rock
+                  Hill has its own planning department for projects within city limits, while
+                  unincorporated areas fall under York County jurisdiction. Our team&apos;s deep
+                  experience with both permitting offices helps prevent costly delays and rework.
                 </p>
               </div>
 

@@ -387,7 +387,7 @@ export default function DroneInspectionsPage() {
             <div className="space-y-4">
               {[
                 { icon: Thermometer, title: 'Thermal Imaging', desc: 'Infrared cameras detect hidden moisture, insulation failures, and leak paths invisible to the naked eye. Pinpoint problems without destructive testing.' },
-                { icon: Clock, title: 'Fast Turnaround', desc: 'Most inspections complete in 1 to 3 hours on-site with reports delivered in 3 to 5 business days. Same-day emergency service available for storm damage.' },
+                { icon: Clock, title: 'Fast Turnaround', desc: 'Most inspections complete in 1 to 3 hours on-site with reports delivered in 3 to 5 business days.' },
                 { icon: Shield, title: 'FAA Certified & Insured', desc: 'Every flight is conducted by FAA Part 107 certified pilots carrying aviation liability insurance with strict safety protocols.' },
                 { icon: DollarSign, title: '70%+ Cost Savings', desc: 'Eliminate scaffolding, boom lifts, and rope access costs. A drone surveys 100,000 square feet in under 2 hours versus days with traditional methods.' },
               ].map((benefit) => (

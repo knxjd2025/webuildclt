@@ -61,10 +61,12 @@ function ToolbarButton({
       onClick={onClick}
       disabled={disabled}
       title={title}
-      className={`p-2 rounded-md transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
+      aria-label={title}
+      aria-pressed={isActive}
+      className={`min-w-11 min-h-11 inline-flex items-center justify-center rounded-md transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
         isActive
-          ? 'bg-gray-200 text-gray-900'
-          : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
+          ? 'bg-accent text-foreground'
+          : 'text-muted-foreground hover:bg-muted hover:text-foreground'
       }`}
     >
       {children}
@@ -73,7 +75,7 @@ function ToolbarButton({
 }
 
 function ToolbarDivider() {
-  return <div className="w-px h-6 bg-gray-200 mx-1 self-center" />;
+  return <div className="w-px h-6 bg-border mx-1 self-center" />;
 }
 
 function stripHtmlTags(html: string): string {
@@ -244,8 +246,8 @@ export function RichBlogEditor({
 
   if (!editor) {
     return (
-      <div className="border border-gray-200 rounded-lg bg-white">
-        <div className="h-[500px] flex items-center justify-center text-gray-400">
+      <div className="border border-border rounded-lg bg-card">
+        <div className="h-[500px] flex items-center justify-center text-muted-foreground">
           Loading editor...
         </div>
       </div>
@@ -253,7 +255,7 @@ export function RichBlogEditor({
   }
 
   return (
-    <div className="border border-gray-200 rounded-lg bg-white overflow-hidden">
+    <div className="border border-border rounded-lg bg-card overflow-hidden">
       {/* Hidden file input for image uploads */}
       <input
         ref={fileInputRef}
@@ -264,9 +266,9 @@ export function RichBlogEditor({
       />
 
       {/* Toolbar */}
-      <div className="sticky top-0 z-10 bg-gray-50 border-b border-gray-200">
+      <div className="sticky top-0 z-10 bg-muted border-b border-border">
         {/* Row 1 */}
-        <div className="flex flex-wrap items-center gap-0.5 px-2 py-1.5 border-b border-gray-100">
+        <div className="flex flex-wrap items-center gap-0.5 px-2 py-1.5 border-b border-border">
           {/* Text formatting */}
           <ToolbarButton
             onClick={() => editor.chain().focus().toggleBold().run()}
@@ -449,7 +451,7 @@ export function RichBlogEditor({
       <EditorContent editor={editor} />
 
       {/* Bottom bar */}
-      <div className="flex flex-wrap items-center gap-4 px-4 py-2.5 border-t border-gray-200 bg-gray-50 text-xs text-gray-500">
+      <div className="flex flex-wrap items-center gap-4 px-4 py-2.5 border-t border-border bg-muted text-xs text-muted-foreground">
         <span>{stats.words.toLocaleString()} words</span>
         <span>{stats.characters.toLocaleString()} characters</span>
         <span>

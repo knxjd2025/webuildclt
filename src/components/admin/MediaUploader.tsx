@@ -161,8 +161,8 @@ export function MediaUploader({
         tabIndex={0}
         className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors ${
           isDragging
-            ? 'border-blue-500 bg-blue-50'
-            : 'border-gray-300 hover:border-gray-400'
+            ? 'border-primary bg-primary/5'
+            : 'border-border hover:border-primary/60'
         } ${remainingSlots <= 0 ? 'opacity-50 pointer-events-none' : ''}`}
         onDragOver={handleDragOver}
         onDragLeave={handleDragLeave}
@@ -172,11 +172,11 @@ export function MediaUploader({
           if (e.key === 'Enter' || e.key === ' ') inputRef.current?.click();
         }}
       >
-        <Upload className="h-8 w-8 mx-auto text-gray-400 mb-2" />
-        <p className="text-sm text-gray-600">
+        <Upload className="h-8 w-8 mx-auto text-muted-foreground mb-2" />
+        <p className="text-sm text-muted-foreground">
           Drag &amp; drop files here, or click to browse
         </p>
-        <p className="text-xs text-gray-400 mt-1">
+        <p className="text-xs text-muted-foreground mt-1">
           {acceptVideo ? 'JPG, PNG, WebP, MP4, MOV, WebM' : 'JPG, PNG, WebP'}
           {' · '}
           {remainingSlots} of {maxFiles} slots remaining
@@ -193,7 +193,7 @@ export function MediaUploader({
 
       {/* Upload progress */}
       {isUploading && (
-        <div className="flex items-center gap-2 text-sm text-blue-600">
+        <div className="flex items-center gap-2 text-sm text-primary">
           <Loader2 className="h-4 w-4 animate-spin" />
           Uploading {Object.keys(uploading).length} file(s)...
         </div>
@@ -205,7 +205,7 @@ export function MediaUploader({
           {files.map((file) => (
             <div
               key={file.id}
-              className="relative group rounded-lg overflow-hidden border bg-gray-100"
+              className="relative group rounded-lg overflow-hidden border bg-muted"
             >
               {file.type === 'image' ? (
                 <img
@@ -214,9 +214,9 @@ export function MediaUploader({
                   className="w-full h-24 object-cover"
                 />
               ) : (
-                <div className="w-full h-24 flex flex-col items-center justify-center bg-gray-200">
-                  <Video className="h-8 w-8 text-gray-500" />
-                  <span className="text-xs text-gray-500 mt-1 truncate max-w-full px-2">
+                <div className="w-full h-24 flex flex-col items-center justify-center bg-accent">
+                  <Video className="h-8 w-8 text-muted-foreground" />
+                  <span className="text-xs text-muted-foreground mt-1 truncate max-w-full px-2">
                     {file.name}
                   </span>
                 </div>
@@ -231,10 +231,11 @@ export function MediaUploader({
               <Button
                 variant="ghost"
                 size="sm"
-                className="absolute top-0 right-0 h-6 w-6 p-0 bg-black/50 hover:bg-black/70 text-white rounded-none rounded-bl-lg opacity-0 group-hover:opacity-100 transition-opacity"
+                className="absolute top-0 right-0 h-6 w-6 p-0 bg-black/50 hover:bg-black/70 text-white rounded-none rounded-bl-lg opacity-0 group-hover:opacity-100 focus:opacity-100 transition-opacity"
                 onClick={() => handleRemove(file.id)}
+                aria-label={`Remove ${file.name}`}
               >
-                <X className="h-3.5 w-3.5" />
+                <X className="h-3.5 w-3.5" aria-hidden="true" />
               </Button>
             </div>
           ))}

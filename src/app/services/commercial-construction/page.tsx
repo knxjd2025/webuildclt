@@ -785,7 +785,7 @@ export default function CommercialConstructionPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <blockquote className="text-xl md:text-2xl leading-relaxed mb-8 italic">
-              &ldquo;We Build transformed our vision into reality. Their attention to detail and commitment to quality exceeded our expectations. Professional, communicative, and delivered on time and within budget. We highly recommend We Build for any commercial construction project in the Charlotte area.&rdquo;
+              &ldquo;We Build transformed our vision into reality. Their attention to detail and commitment to quality exceeded our expectations. The team was professional, communicative, and delivered on time and within budget. We highly recommend We Build for any construction project.&rdquo;
             </blockquote>
             <div className="flex items-center justify-center gap-4">
               <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">

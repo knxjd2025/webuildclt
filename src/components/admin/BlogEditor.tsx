@@ -56,7 +56,6 @@ interface BlogEditorProps {
 const CATEGORIES = [
   { value: 'commercial-construction', label: 'Commercial Construction' },
   { value: 'commercial-upfits', label: 'Commercial Upfits' },
-  { value: 'residential', label: 'Residential' },
   { value: 'roof-coating', label: 'Roof Coating' },
   { value: 'construction-tips', label: 'Construction Tips' },
   { value: 'green-building', label: 'Green Building' },
@@ -266,7 +265,7 @@ export function BlogEditor({
           {/* Featured image + title */}
           <Card className="overflow-hidden">
             {featuredImage && (
-              <div className="relative w-full h-64 bg-gray-100">
+              <div className="relative w-full h-64 bg-muted">
                 <img
                   src={featuredImage}
                   alt={title}
@@ -328,8 +327,8 @@ export function BlogEditor({
                     onClick={() => setViewMode('preview')}
                     className={`flex items-center gap-1.5 px-3 py-1.5 text-sm transition-colors ${
                       viewMode === 'preview'
-                        ? 'bg-gray-900 text-white'
-                        : 'bg-white text-gray-600 hover:bg-gray-50'
+                        ? 'bg-secondary text-secondary-foreground'
+                        : 'bg-card text-muted-foreground hover:bg-muted'
                     }`}
                   >
                     <Eye className="h-3.5 w-3.5" />
@@ -339,8 +338,8 @@ export function BlogEditor({
                     onClick={() => setViewMode('code')}
                     className={`flex items-center gap-1.5 px-3 py-1.5 text-sm transition-colors ${
                       viewMode === 'code'
-                        ? 'bg-gray-900 text-white'
-                        : 'bg-white text-gray-600 hover:bg-gray-50'
+                        ? 'bg-secondary text-secondary-foreground'
+                        : 'bg-card text-muted-foreground hover:bg-muted'
                     }`}
                   >
                     <Code className="h-3.5 w-3.5" />

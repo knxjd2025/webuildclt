@@ -219,7 +219,7 @@ export function ProjectForm({ project, mode }: ProjectFormProps) {
           <ArrowLeft className="h-4 w-4 mr-2" />
           Back
         </Button>
-        <h1 className="text-2xl font-bold text-gray-900">
+        <h1 className="text-2xl font-bold text-foreground">
           {mode === 'create' ? 'New Project' : `Edit: ${project?.title}`}
         </h1>
         {projectId && (
@@ -257,11 +257,10 @@ export function ProjectForm({ project, mode }: ProjectFormProps) {
                 <select
                   id="category"
                   value={category}
-                  onChange={(e) => setCategory(e.target.value as 'commercial' | 'residential')}
+                  onChange={(e) => setCategory(e.target.value as 'commercial' | 'roof-coating')}
                   className="w-full border rounded-md px-3 py-2 text-sm"
                 >
                   <option value="commercial">Commercial</option>
-                  <option value="residential">Residential</option>
                   <option value="roof-coating">Roof Coating</option>
                 </select>
               </div>
@@ -418,13 +417,13 @@ export function ProjectForm({ project, mode }: ProjectFormProps) {
           </CardHeader>
           <CardContent className="space-y-4">
             {/* Upload zone */}
-            <label className="flex flex-col items-center justify-center border-2 border-dashed border-gray-300 rounded-lg p-8 cursor-pointer hover:border-primary transition-colors">
+            <label className="flex flex-col items-center justify-center border-2 border-dashed border-border rounded-lg p-8 cursor-pointer hover:border-primary transition-colors">
               {uploading ? (
-                <Loader2 className="h-8 w-8 text-gray-400 animate-spin" />
+                <Loader2 className="h-8 w-8 text-muted-foreground animate-spin" />
               ) : (
-                <Upload className="h-8 w-8 text-gray-400" />
+                <Upload className="h-8 w-8 text-muted-foreground" />
               )}
-              <span className="mt-2 text-sm text-gray-500">
+              <span className="mt-2 text-sm text-muted-foreground">
                 {uploading ? 'Uploading...' : 'Click to upload images (JPEG, PNG, WebP)'}
               </span>
               <input
@@ -562,8 +561,8 @@ export function ProjectForm({ project, mode }: ProjectFormProps) {
                   className="w-full border rounded-md px-3 py-2 text-sm font-mono min-h-[300px] resize-y"
                   rows={12}
                 />
-                <div className="border rounded-lg p-6 bg-white">
-                  <p className="text-xs text-gray-400 mb-4 uppercase tracking-wide">
+                <div className="border rounded-lg p-6 bg-card">
+                  <p className="text-xs text-muted-foreground mb-4 uppercase tracking-wide">
                     Preview
                   </p>
                   <div

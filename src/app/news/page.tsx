@@ -132,7 +132,7 @@ export default function NewsPage() {
                 <Link
                   key={post.id}
                   href={`/news/${post.slug}`}
-                  className="group block rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-md transition-all"
+                  className="group block rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow"
                 >
                   <div className="relative aspect-[16/9] image-hover">
                     <Image
@@ -157,7 +157,7 @@ export default function NewsPage() {
                         <Calendar className="h-4 w-4" />
                         {formatDate(post.date)}
                       </div>
-                      <span className="text-primary font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                      <span className="text-primary font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-[gap]">
                         Read More
                         <ArrowRight className="h-4 w-4" />
                       </span>

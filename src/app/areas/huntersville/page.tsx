@@ -97,7 +97,7 @@ const commercialAreas = [
   {
     name: 'Birkdale Village',
     description:
-      'Birkdale Village is Huntersville\'s signature mixed-use lifestyle center, combining retail, restaurants, office space, and residential living around a walkable main street. We Build provides commercial construction and tenant upfit services for businesses throughout Birkdale Village and the surrounding commercial properties. The village continues to attract new tenants who need build-out and renovation services that match the center\'s architectural standards and premium positioning. Restaurant build-outs and retail renovations are among the most common project types in this district.',
+      'Birkdale Village is Huntersville\'s signature mixed-use lifestyle center, combining retail, restaurants, and office space around a walkable main street. We Build provides commercial construction and tenant upfit services for businesses throughout Birkdale Village and the surrounding commercial properties. The village continues to attract new tenants who need build-out and renovation services that match the center\'s architectural standards and premium positioning. Restaurant build-outs and retail renovations are among the most common project types in this district.',
   },
   {
     name: 'Sam Furr Road Corridor (NC-73)',
@@ -112,40 +112,12 @@ const commercialAreas = [
   {
     name: 'Gilead Road Commercial District',
     description:
-      'Gilead Road has emerged as a growing commercial corridor in Huntersville, particularly for medical offices, professional services, and neighborhood retail. New development along Gilead Road reflects Huntersville\'s eastward expansion, with medical facilities, dental offices, and professional service buildings serving the growing residential communities nearby. We Build provides construction services for new commercial buildings and tenant upfits in this expanding business corridor.',
+      'Gilead Road has emerged as a growing commercial corridor in Huntersville, particularly for medical offices, professional services, and neighborhood retail. New development along Gilead Road reflects Huntersville\'s eastward expansion, with medical facilities, dental offices, and professional service buildings serving the growing communities nearby. We Build provides construction services for new commercial buildings and tenant upfits in this expanding business corridor.',
   },
   {
     name: 'Statesville Road / I-77 Corridor',
     description:
       'The Statesville Road corridor along I-77 through Huntersville serves as a major commercial and light industrial artery. Flex space, warehouse, distribution centers, auto dealerships, and service businesses occupy this corridor. We Build provides commercial construction, warehouse build-outs, and flex space renovations along Statesville Road. The corridor\'s proximity to I-77 makes it attractive for businesses that need logistics access combined with proximity to the Charlotte metro workforce.',
-  },
-];
-
-const residentialAreas = [
-  {
-    name: 'Birkdale & Huntersville Proper',
-    description:
-      'The established Birkdale community and central Huntersville neighborhoods feature a mix of townhomes, single-family homes, and custom properties. We Build provides renovation, addition, and custom home services throughout central Huntersville. Many homes in these neighborhoods are 15 to 25 years old, making them prime candidates for kitchen renovations, bathroom remodels, and additions that modernize the living space while adding value.',
-  },
-  {
-    name: 'Skybrook',
-    description:
-      'Skybrook is one of Huntersville\'s premier residential communities, featuring custom homes, a golf course, resort-style amenities, and lots ranging from quarter-acre to full-acre estate properties. Building or renovating in Skybrook requires a contractor who understands the community\'s architectural review process and finish expectations. We Build provides custom home construction and renovation services for Skybrook homeowners who demand the highest level of craftsmanship.',
-  },
-  {
-    name: 'Vermillion',
-    description:
-      'Vermillion is a newer master-planned community in Huntersville known for its variety of home styles, walkable design, and proximity to Lake Norman. We Build serves Vermillion homeowners with renovation, addition, and custom finishing services. As Vermillion continues to mature, homeowners are investing in upgrades, outdoor living spaces, and interior renovations that personalize their properties beyond the original builder specifications.',
-  },
-  {
-    name: 'Rosedale',
-    description:
-      'Rosedale is an established Huntersville community with larger lots and mature landscaping. Homes in Rosedale are well-positioned for additions, whole-home renovations, and custom rebuilds that take advantage of the neighborhood\'s generous lot sizes. We Build specializes in the sensitive renovation work that established communities like Rosedale require, including matching existing architectural styles and navigating HOA approval processes.',
-  },
-  {
-    name: 'Cedarfield & Northlake Area',
-    description:
-      'The Cedarfield neighborhood and surrounding Northlake-area communities offer established residential options close to major retail and employment centers. We Build provides home renovation, addition, and remodeling services throughout these neighborhoods. The area\'s proximity to Northlake Mall, I-77, and I-485 makes it attractive for families and professionals who want convenience without sacrificing neighborhood character.',
   },
 ];
 
@@ -230,7 +202,7 @@ const whyChooseUs = [
     icon: Clock,
     title: 'Huntersville Permitting Expertise',
     description:
-      'Years of building in the Charlotte metro have given us strong relationships with Mecklenburg County inspectors, the Town of Huntersville planning department, and local subcontractors. We know the review process, the common plan review comments, and how to prepare submissions that move through permitting efficiently.',
+      'Years of building in the Charlotte metro have given us strong relationships with Mecklenburg County inspectors and local subcontractors. We know the review process, the common plan review comments, and how to prepare submissions that move through permitting efficiently.',
   },
   {
     icon: DollarSign,
@@ -274,7 +246,7 @@ const faqs = [
   {
     question: 'Is Huntersville a good area for construction investment?',
     answer:
-      'Huntersville is one of the strongest construction markets in the Charlotte metro area. The town has grown from approximately 30,000 residents to over 65,000 in the past two decades, driving consistent demand for both commercial and residential construction. The I-77 corridor provides excellent connectivity to Charlotte and Lake Norman. Birkdale Village and the Sam Furr Road corridor continue to attract commercial development. Residential communities like Skybrook and Vermillion maintain strong home values. Both commercial and residential construction investments in Huntersville benefit from these fundamental growth drivers.',
+      'Huntersville is one of the strongest construction markets in the Charlotte metro area. The town has grown from approximately 30,000 residents to over 65,000 in the past two decades, driving consistent demand for commercial construction. The I-77 corridor provides excellent connectivity to Charlotte and Lake Norman. Birkdale Village and the Sam Furr Road corridor continue to attract commercial development. Commercial construction investments in Huntersville benefit from these fundamental growth drivers.',
   },
   {
     question: 'What neighborhoods in Huntersville does We Build serve?',
@@ -289,7 +261,7 @@ const faqs = [
   {
     question: 'How do I get a construction estimate for a project in Huntersville?',
     answer:
-      'Getting a construction estimate from We Build is straightforward. Call us at (980) 471-1745 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. There is no obligation and no charge for initial consultations. We typically deliver estimates within one to two weeks of the initial site visit, depending on project complexity.',
+      'Getting a construction estimate from We Build is straightforward. Call us at (980) 471-1745 or visit our contact page at webuildclt.com/contact to request a free consultation. We will schedule a site visit to understand your project scope, discuss your goals and budget, and provide a detailed line-item estimate. There is no obligation and no charge for initial consultations.',
   },
   {
     question: 'How do commercial construction costs in Huntersville compare to Charlotte or Mooresville?',
@@ -299,7 +271,7 @@ const faqs = [
   {
     question: 'What green building options does We Build offer for Huntersville projects?',
     answer:
-      'As a U.S. Green Building Council (USGBC) member, We Build offers sustainable construction practices for Huntersville commercial and residential projects. This includes energy-efficient HVAC systems, high-performance insulation, LED lighting, low-VOC materials, and water conservation fixtures. Huntersville businesses along the I-77 corridor and in Birkdale Village increasingly seek green building features to attract environmentally conscious tenants and reduce operating costs. We can pursue LEED certification or implement targeted sustainability measures based on your budget and goals.',
+      'As a U.S. Green Building Council (USGBC) member, We Build offers sustainable construction practices for Huntersville commercial projects. This includes energy-efficient HVAC systems, high-performance insulation, LED lighting, low-VOC materials, and water conservation fixtures. Huntersville businesses along the I-77 corridor and in Birkdale Village increasingly seek green building features to attract environmentally conscious tenants and reduce operating costs. We can pursue LEED certification or implement targeted sustainability measures based on your budget and goals.',
   },
   {
     question: 'Does Huntersville have its own zoning rules separate from Mecklenburg County?',
@@ -345,7 +317,7 @@ export default function HuntersvillePage() {
                 Huntersville NC has comprehensive construction services available from We Build, a veteran and family-owned <Link href="/services/general-contractor" className="text-primary hover:underline">general contractor</Link> serving the entire Lake Norman corridor. We provide <Link href="/services/commercial-construction" className="text-primary hover:underline">commercial construction</Link>, <Link href="/services/commercial-upfits" className="text-primary hover:underline">commercial upfits</Link>, and <Link href="/services/roof-coating" className="text-primary hover:underline">commercial roof coatings</Link> throughout Huntersville, Birkdale Village, Northlake, and surrounding communities. Licensed in NC and SC with over 60 years of combined experience.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Huntersville has emerged as one of the fastest-growing towns in the Charlotte metropolitan area, sitting strategically along the I-77 corridor between Charlotte and Lake Norman. The town&apos;s population has more than doubled in the past two decades, driving an extraordinary level of commercial and residential construction activity. Birkdale Village anchors a thriving mixed-use retail and dining scene. The Sam Furr Road corridor has transformed into a major commercial thoroughfare lined with medical offices, professional services, and neighborhood retail. The Northlake area at I-77 and I-485 continues to evolve as one of the region&apos;s most important commercial hubs. And residential communities like Skybrook, Vermillion, and Rosedale continue to attract families seeking proximity to Lake Norman with Charlotte metro convenience.
+                Huntersville has emerged as one of the fastest-growing towns in the Charlotte metropolitan area, sitting strategically along the I-77 corridor between Charlotte and Lake Norman. The town&apos;s population has more than doubled in the past two decades, driving an extraordinary level of commercial construction activity. Birkdale Village anchors a thriving mixed-use retail and dining scene. The Sam Furr Road corridor has transformed into a major commercial thoroughfare lined with medical offices, professional services, and neighborhood retail. The Northlake area at I-77 and I-485 continues to evolve as one of the region&apos;s most important commercial hubs.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We Build serves Huntersville with the same commitment to quality, transparency, and local expertise that has made us a trusted construction partner across the greater Charlotte region. Our team handles projects ranging from corporate office build-outs near Northlake to restaurant construction at Birkdale Village to commercial renovations along the Sam Furr Road corridor. Whether you are planning a $50,000 commercial upfit or a $2 million ground-up commercial build, We Build brings the experience, licensing, and accountability to deliver exceptional results in Huntersville.

@@ -66,7 +66,7 @@ const licenses = [
     title: 'North Carolina General Contractor License',
     authority: 'NC Licensing Board for General Contractors',
     description:
-      'We Build holds an active general contractor license issued by the North Carolina Licensing Board for General Contractors. This license authorizes We Build to perform commercial and residential construction projects of any value throughout the state of North Carolina. The NC general contractor license requires demonstrated experience, financial responsibility, and successful passage of the NC contractor examination. We Build maintains this license in good standing through continuing education and compliance with all Board requirements. Our NC license covers the Charlotte metro area including Mecklenburg, Cabarrus, Union, Gaston, Iredell, and Lincoln counties as well as every other county in North Carolina.',
+      'We Build holds an active general contractor license issued by the North Carolina Licensing Board for General Contractors. This license authorizes We Build to perform commercial construction projects of any value throughout the state of North Carolina. The NC general contractor license requires demonstrated experience, financial responsibility, and successful passage of the NC contractor examination. We Build maintains this license in good standing through continuing education and compliance with all Board requirements. Our NC license covers the Charlotte metro area including Mecklenburg, Cabarrus, Union, Gaston, Iredell, and Lincoln counties as well as every other county in North Carolina.',
   },
   {
     icon: Building2,
@@ -135,7 +135,7 @@ const faqs = [
   {
     question: 'Is We Build a licensed general contractor?',
     answer:
-      'Yes. We Build is a licensed general contractor in two states: North Carolina and South Carolina. Our North Carolina license is issued by the NC Licensing Board for General Contractors and our South Carolina license is issued by the SC Contractors\' Licensing Board. These licenses authorize We Build to perform commercial and residential construction work throughout both states. We maintain all licenses in active, good standing.',
+      'Yes. We Build is a licensed general contractor in two states: North Carolina and South Carolina. Our North Carolina license is issued by the NC Licensing Board for General Contractors and our South Carolina license is issued by the SC Contractors\' Licensing Board. These licenses authorize We Build to perform commercial construction work throughout both states. We maintain all licenses in active, good standing.',
   },
   {
     question: 'Is We Build insured?',

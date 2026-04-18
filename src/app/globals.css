@@ -104,12 +104,21 @@
  *   .empty-state — zero-result fallback
  *   .prose-width — readable width (72ch)
  *   .gradient-warm / .gradient-steel — themed backgrounds
+ *
+ * LAYOUT COMPONENTS
+ *   <Container> (src/components/Container.tsx) — canonical page width wrapper.
+ *     Variants: narrow (max-w-3xl), default (max-w-6xl), wide (max-w-7xl), full.
+ *     Use this in new code instead of `container mx-auto px-4` / ad-hoc `max-w-*`.
  * ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  */
 
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Force light mode site-wide — disables OS dark-mode auto-switch.
+   `dark:` variants only apply when an explicit `.dark` class is present,
+   which the app never adds. */
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --color-background: var(--background);
@@ -166,6 +175,7 @@
 }
 
 :root {
+  color-scheme: light;
   --banner-height: 0px;
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -371,22 +381,6 @@ html {
   );
 }
 
-/* Dark mode gradient overrides */
-.dark .gradient-warm {
-  background: linear-gradient(
-    135deg,
-    oklch(0.15 0.015 240) 0%,
-    oklch(0.18 0.01 240) 100%
-  );
-}
-.dark .gradient-steel {
-  background: linear-gradient(
-    160deg,
-    oklch(0.08 0.02 240) 0%,
-    oklch(0.12 0.025 230) 100%
-  );
-}
-
 /* Bold stat highlight */
 .stat-value {
   font-family: var(--font-heading), system-ui, sans-serif;
@@ -426,9 +420,6 @@ html {
 .card-industrial:hover {
   box-shadow: var(--shadow-lg);
   transform: translateY(-2px);
-}
-.dark .card-industrial {
-  border-left-color: oklch(0.72 0.2 48);
 }
 
 /* Section accent — thick horizontal rule in primary */
@@ -571,10 +562,10 @@ html {
   box-shadow: var(--shadow-lg);
 }
 
-/* Pulse glow for CTAs */
+/* Hero slideshow progress bar — scaleX avoids per-frame layout */
 @keyframes slideProgress {
-  from { width: 0%; }
-  to { width: 100%; }
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
 }
 
 @keyframes pulse-glow {
@@ -624,16 +615,18 @@ html {
   pointer-events: none;
 }
 
-/* Delight: Progress bar on scroll (top of page) */
+/* Delight: Progress bar on scroll (top of page) — transform avoids layout thrash */
 .scroll-progress {
   position: fixed;
   top: 0;
   left: 0;
   height: 3px;
+  width: 100%;
   background: var(--primary);
+  transform-origin: left center;
   z-index: 100;
-  transition: width 100ms linear;
-  will-change: width;
+  transition: transform 100ms linear;
+  will-change: transform;
 }
 
 /* Delight: Subtle parallax depth for hero images — will-change applied only on hover/scroll via JS */
@@ -840,18 +833,6 @@ html {
 .callout-cost .callout-title {
   color: oklch(0.55 0.12 200);
 }
-.dark .callout {
-  background: oklch(0.58 0.2 48 / 0.06);
-}
-.dark .callout-tip {
-  background: oklch(0.55 0.15 145 / 0.06);
-}
-.dark .callout-warning {
-  background: oklch(0.7 0.18 60 / 0.06);
-}
-.dark .callout-cost {
-  background: oklch(0.55 0.12 200 / 0.06);
-}
 
 /* ── Key Takeaway Box ── */
 .key-takeaway {
@@ -944,9 +925,6 @@ html {
   font-weight: 700;
   color: var(--foreground);
   font-variant-numeric: tabular-nums;
-}
-.dark .cost-table th {
-  background: oklch(0.18 0.015 240);
 }
 
 /* ── Inline CTA Block ── */

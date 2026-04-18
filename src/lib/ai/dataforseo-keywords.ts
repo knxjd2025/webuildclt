@@ -52,7 +52,6 @@ function extractSeedKeywords(description: string, category: string): string[] {
   const categoryMap: Record<string, string[]> = {
     'commercial-construction': ['commercial construction', 'commercial building', 'office construction'],
     'commercial-upfits': ['commercial upfit', 'tenant improvement', 'office renovation'],
-    'residential': ['home renovation', 'residential construction', 'home remodel'],
     'roof-coating': ['roof coating', 'commercial roofing', 'roof restoration'],
     'construction-tips': ['construction tips', 'building guide', 'construction advice'],
     'green-building': ['green building', 'sustainable construction', 'LEED construction'],

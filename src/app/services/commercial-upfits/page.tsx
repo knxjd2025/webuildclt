@@ -144,17 +144,17 @@ const processSteps = [
   {
     step: '02',
     title: 'Space Planning & Conceptual Design',
-    desc: 'We work with your architect and design team to create initial floor plans and conceptual layouts based on your operational needs. We consider traffic flow, departmental adjacencies, ADA accessibility, natural light optimization, and code-required egress paths.',
+    desc: 'We work with your architect and design team on departmental adjacencies, ADA accessibility, natural light optimization, and code-required egress paths.',
   },
   {
     step: '03',
-    title: 'Detailed Estimate & Value Engineering',
-    desc: 'We deliver a detailed, line-item estimate that breaks down every cost category: demolition, framing, electrical, plumbing, HVAC, fire protection, finishes, fixtures, and permits. If the estimate exceeds your budget, our team identifies value engineering opportunities to reduce costs without sacrificing quality or function.',
+    title: 'Design Development & Finish Selection',
+    desc: 'Working from your architect&rsquo;s drawings, mechanical engineering plans, and finish schedules, you select flooring, paint colors, countertop materials, lighting fixtures, and hardware — all documented so the estimate reflects the exact scope.',
   },
   {
     step: '04',
-    title: 'Design Development & Finish Selection',
-    desc: 'Once the budget is approved, we finalize construction drawings, mechanical engineering plans, and finish schedules. You select flooring, paint colors, countertop materials, lighting fixtures, and hardware at our office, where you can review material samples and make informed selections.',
+    title: 'Detailed Estimate & Value Engineering',
+    desc: 'We deliver a detailed, line-item estimate that breaks down every cost category: demolition, framing, electrical, plumbing, HVAC, fire protection, finishes, fixtures, and permits. If the estimate exceeds your budget, our team identifies value engineering opportunities to reduce costs without sacrificing quality or function.',
   },
   {
     step: '05',
@@ -303,7 +303,7 @@ const faqs = [
   {
     question: 'What insurance and warranties do you provide?',
     answer:
-      'We Build carries comprehensive general liability insurance, workers compensation insurance, and commercial auto insurance. We are fully bonded and can provide payment and performance bonds for projects that require them. All construction work is backed by a one-year workmanship warranty covering materials and labor. Major building systems including HVAC, plumbing, and electrical have manufacturer warranties that typically extend 5 to 10 years. We provide complete close-out documentation at project handoff including all warranty certificates and maintenance manuals.',
+      'We Build carries comprehensive general liability insurance, workers compensation insurance, and commercial auto insurance. All construction work is backed by a one-year workmanship warranty covering materials and labor. Major building systems including HVAC, plumbing, and electrical have manufacturer warranties that typically extend 5 to 10 years. We provide complete close-out documentation at project handoff including all warranty certificates and maintenance manuals.',
   },
   {
     question: 'How do I finance a commercial upfit?',
@@ -838,8 +838,8 @@ export default function CommercialUpfitsPage() {
               &quot;We Build transformed our vision into reality. Their attention
               to detail and commitment to quality exceeded our expectations.
               The team was professional, communicative, and delivered on time
-              and within budget. We could not have asked for a better contractor
-              for our commercial build-out.&quot;
+              and within budget. We highly recommend We Build for any
+              construction project.&quot;
             </blockquote>
             <div className="flex items-center justify-center gap-4">
               <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">

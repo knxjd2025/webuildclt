@@ -8,7 +8,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Building2,
-  Home,
   Paintbrush,
   Shield,
   CheckCircle,
@@ -107,12 +106,7 @@ const faqs = [
   {
     question: 'Do I need a building permit for construction in Fort Mill?',
     answer:
-      'Yes. Fort Mill falls under York County building jurisdiction, and most construction projects require building permits. This includes new construction, significant renovations, additions, commercial upfits, electrical work, plumbing modifications, and structural changes. York County follows the International Building Code (IBC) for commercial projects and the International Residential Code (IRC) for homes. As your general contractor, We Build handles the entire permitting process, from application submission through all required inspections.',
-  },
-  {
-    question: 'What is the difference between commercial and residential construction in Fort Mill?',
-    answer:
-      'Commercial construction in Fort Mill follows the International Building Code (IBC) and typically involves more stringent requirements for fire safety, ADA accessibility, structural engineering, and occupancy ratings. Commercial projects also require specialized insurance, commercial-grade materials, and often involve coordination with multiple municipal departments. We Build is experienced in commercial construction codes and standards for York County projects.',
+      'Yes. Fort Mill falls under York County building jurisdiction, and most construction projects require building permits. This includes new construction, significant renovations, additions, commercial upfits, electrical work, plumbing modifications, and structural changes. York County follows the International Building Code (IBC) for commercial projects. As your general contractor, We Build handles the entire permitting process, from application submission through all required inspections.',
   },
   {
     question: 'What commercial services does We Build offer in Fort Mill and Tega Cay?',
@@ -127,7 +121,7 @@ const faqs = [
   {
     question: 'How do Fort Mill construction costs compare to building across the state line in Charlotte?',
     answer:
-      'Fort Mill and Charlotte commercial construction costs per square foot are generally similar, but total project costs can differ due to jurisdictional factors. York County permitting fees tend to be lower than Mecklenburg County, and South Carolina has no state income tax, which can affect long-term business operating costs. However, Fort Mill has its own impact fees for new construction. Office upfits in Fort Mill run $50 to $150 per square foot, comparable to South Charlotte. We Build provides side-by-side cost analyses for clients evaluating locations on both sides of the state line.',
+      'Fort Mill and Charlotte commercial construction costs per square foot are generally similar, but total project costs can differ due to jurisdictional factors. York County permitting fees tend to be lower than Mecklenburg County, and South Carolina has no state income tax, which can affect long-term business operating costs. However, Fort Mill has its own impact fees for new construction. Office upfits in Fort Mill run $50 to $150 per square foot, comparable to South Charlotte.',
   },
   {
     question: 'What sustainable building options does We Build offer in Fort Mill?',
@@ -176,11 +170,11 @@ const whyChooseUs = [
 
 const nearbyAreas = [
   { name: 'Tega Cay', desc: 'Commercial construction and development near Lake Wylie' },
-  { name: 'Indian Land', desc: 'Rapidly growing area with commercial and residential opportunities' },
+  { name: 'Indian Land', desc: 'Rapidly growing area with commercial opportunities' },
   { name: 'Rock Hill', desc: 'Commercial construction and revitalization projects in downtown Rock Hill', href: '/areas/rock-hill-sc' },
   { name: 'Pineville', desc: 'Retail upfits and commercial builds near Carolina Place' },
   { name: 'South Charlotte', desc: 'Ballantyne, Blakeney, and South Charlotte commercial projects', href: '/areas/south-charlotte' },
-  { name: 'Matthews', desc: 'Commercial and residential construction in Matthews, Mint Hill, and Indian Trail', href: '/areas/matthews' },
+  { name: 'Matthews', desc: 'Commercial construction in Matthews, Mint Hill, and Indian Trail', href: '/areas/matthews' },
   { name: 'Lake Norman', desc: 'Commercial construction north of Charlotte', href: '/areas/lake-norman' },
 ];
 
@@ -424,8 +418,8 @@ export default function FortMillPage() {
               town has grown from a small York County community into a thriving commercial hub.
               Major employers, retailers, restaurants, and service businesses continue to establish
               operations in Fort Mill, drawn by the strategic location along I-77 between Charlotte
-              and Rock Hill, favorable South Carolina business taxes, and a growing residential
-              population that provides both workforce and customer base.
+              and Rock Hill, favorable South Carolina business taxes, and a growing population
+              that provides both workforce and customer base.
             </p>
 
             <div className="grid md:grid-cols-2 gap-8 mb-8">
@@ -470,12 +464,12 @@ export default function FortMillPage() {
                 <h3 className="text-xl font-bold">Kingsley Town Center & Baxter Village</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Kingsley Town Center and Baxter Village represent Fort Mill&apos;s vision for
-                  walkable, mixed-use development. These areas combine residential housing with
-                  commercial retail, dining, and professional office space. Commercial construction
-                  in these districts requires careful attention to architectural guidelines, material
-                  standards, and community design requirements that maintain the character of these
-                  planned communities. We Build has the experience to navigate these design
-                  standards while delivering quality commercial spaces.
+                  walkable, mixed-use development. These areas combine commercial retail, dining,
+                  and professional office space. Commercial construction in these districts requires
+                  careful attention to architectural guidelines, material standards, and community
+                  design requirements that maintain the character of these planned communities. We
+                  Build has the experience to navigate these design standards while delivering
+                  quality commercial spaces.
                 </p>
               </div>
 
@@ -536,17 +530,17 @@ export default function FortMillPage() {
                   <Building2 className="h-8 w-8 text-primary mx-auto mb-3" aria-hidden="true" />
                   <p className="text-3xl font-bold text-primary mb-1">$2B+</p>
                   <p className="text-sm text-muted-foreground">
-                    Estimated commercial and residential development investment in the Fort Mill area
+                    Estimated commercial development investment in the Fort Mill area
                     over the past decade
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6 text-center">
-                  <Home className="h-8 w-8 text-primary mx-auto mb-3" aria-hidden="true" />
-                  <p className="text-3xl font-bold text-primary mb-1">1,000+</p>
+                  <Building2 className="h-8 w-8 text-primary mx-auto mb-3" aria-hidden="true" />
+                  <p className="text-3xl font-bold text-primary mb-1">20 min</p>
                   <p className="text-sm text-muted-foreground">
-                    New residential permits issued annually in the Fort Mill and Tega Cay area
+                    Drive time from our Charlotte headquarters to Fort Mill via I-77
                   </p>
                 </CardContent>
               </Card>
@@ -556,9 +550,9 @@ export default function FortMillPage() {
               <div>
                 <h3 className="text-xl font-bold mb-3">Growth & New Development</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Fort Mill continues to attract residential and commercial development at a pace
-                  that outstrips most South Carolina communities. New subdivisions, commercial
-                  centers, and mixed-use projects are announced regularly, driven by the
+                  Fort Mill continues to attract commercial development at a pace
+                  that outstrips most South Carolina communities. New commercial
+                  centers and mixed-use projects are announced regularly, driven by the
                   area&apos;s school system reputation, proximity to Charlotte, and relatively
                   affordable land compared to Mecklenburg County. The Catawba Indian Nation&apos;s
                   economic development along the I-77 corridor has added entertainment, hospitality,
@@ -575,10 +569,9 @@ export default function FortMillPage() {
                   Fort Mill Planning Department for properties within town limits, and by York
                   County for unincorporated areas. Commercial projects must comply with zoning
                   designations that dictate allowable uses, building heights, setbacks, parking
-                  requirements, and signage. Residential zoning categories determine lot sizes,
-                  density, and building envelope constraints. As your general contractor, We Build
-                  works closely with local planning departments to ensure your project meets all
-                  zoning requirements and navigates the approval process efficiently.
+                  requirements, and signage. As your general contractor, We Build works closely
+                  with local planning departments to ensure your project meets all zoning
+                  requirements and navigates the approval process efficiently.
                 </p>
               </div>
 
@@ -586,13 +579,12 @@ export default function FortMillPage() {
                 <h3 className="text-xl font-bold mb-3">York County Building Codes</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   York County enforces the International Building Code (IBC) for commercial
-                  construction and the International Residential Code (IRC) for residential
-                  projects, along with the National Electrical Code (NEC), International Plumbing
-                  Code (IPC), and International Mechanical Code (IMC). South Carolina also requires
-                  compliance with state energy codes and wind load requirements. Understanding and
-                  navigating these codes is essential for a smooth construction process, and our
-                  team&apos;s experience with York County inspectors and code requirements helps
-                  prevent costly delays and rework.
+                  construction, along with the National Electrical Code (NEC), International
+                  Plumbing Code (IPC), and International Mechanical Code (IMC). South Carolina also
+                  requires compliance with state energy codes and wind load requirements.
+                  Understanding and navigating these codes is essential for a smooth construction
+                  process, and our team&apos;s experience with York County inspectors and code
+                  requirements helps prevent costly delays and rework.
                 </p>
               </div>
             </div>
@@ -684,18 +676,15 @@ export default function FortMillPage() {
                   >
                     commercial upfit
                   </Link>{' '}
-                  construction in Fort Mill. The client needed to transform a raw commercial shell
+                  construction in Fort Mill. The client needed to transform a commercial shell
                   into a premium fitness facility that would serve the Fort Mill community. The
-                  project required careful planning to accommodate specialized equipment loads,
-                  open training spaces, private consultation areas, and modern amenities.
+                  project required careful planning to accommodate specialized equipment, open
+                  training spaces, private consultation areas, and modern amenities.
                 </p>
                 <p className="text-secondary-foreground/90 leading-relaxed">
-                  Our team delivered a complete interior buildout including structural
-                  modifications to support heavy fitness equipment, custom flooring systems designed
-                  for high-impact athletic use, upgraded HVAC capacity to handle the increased
-                  ventilation demands of a fitness facility, new electrical systems with dedicated
-                  circuits for commercial equipment, plumbing for restrooms and a hydration station,
-                  and custom interior finishes that reflect the Pure Physique brand identity.
+                  Our team delivered a complete interior buildout including custom flooring
+                  systems designed for high-impact athletic use, plumbing for restrooms, and
+                  custom interior finishes that reflect the Pure Physique brand identity.
                 </p>
                 <p className="text-secondary-foreground/90 leading-relaxed">
                   The project was completed on schedule and within budget, demonstrating our ability
@@ -710,7 +699,8 @@ export default function FortMillPage() {
                 <blockquote className="text-xl leading-relaxed italic border-l-4 border-primary pl-6">
                   &quot;We Build transformed our vision into reality. Their attention to detail and
                   commitment to quality exceeded our expectations. The team was professional,
-                  communicative, and delivered on time and within budget.&quot;
+                  communicative, and delivered on time and within budget. We highly recommend
+                  We Build for any construction project.&quot;
                 </blockquote>
                 <div className="flex items-center gap-4">
                   <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
@@ -730,15 +720,7 @@ export default function FortMillPage() {
                   <ul className="text-sm text-secondary-foreground/80 space-y-1">
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" aria-hidden="true" />
-                      Full commercial shell-to-finish upfit
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" aria-hidden="true" />
-                      Structural modifications for equipment loads
-                    </li>
-                    <li className="flex items-center gap-2">
-                      <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" aria-hidden="true" />
-                      Specialized flooring and HVAC systems
+                      Specialized flooring
                     </li>
                     <li className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" aria-hidden="true" />
@@ -793,7 +775,7 @@ export default function FortMillPage() {
                   The Fort Mill and York County building permit process typically follows these
                   steps: pre-application consultation with the planning department, submission of
                   construction plans and engineering documents, plan review by the building
-                  department (typically 2-4 weeks for residential, 4-8 weeks for commercial),
+                  department (typically 4-8 weeks for commercial),
                   permit issuance, construction with scheduled inspections at each major milestone,
                   and final inspection leading to certificate of occupancy. Commercial projects may
                   also require site plan approval, stormwater management permits, fire marshal

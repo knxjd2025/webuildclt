@@ -117,7 +117,7 @@ export default async function BlogCategoryPage({
                 <Link
                   key={post.id}
                   href={`/blog/${post.slug}`}
-                  className="group block rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-md transition-all"
+                  className="group block rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow"
                 >
                   <div className="relative aspect-[16/9] image-hover">
                     {post.featured_image ? (
@@ -148,7 +148,7 @@ export default async function BlogCategoryPage({
                         <Calendar className="h-4 w-4" />
                         {formatDate(post.published_at ?? post.created_at)}
                       </div>
-                      <span className="text-primary font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                      <span className="text-primary font-medium inline-flex items-center gap-1 group-hover:gap-2 transition-[gap]">
                         {readTime(post.word_count)} &middot; Read More
                         <ArrowRight className="h-4 w-4" />
                       </span>

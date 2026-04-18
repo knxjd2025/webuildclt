@@ -13,7 +13,6 @@ const categories = [
   { id: 'all', name: 'All', slug: 'all' },
   { id: 'commercial', name: 'Commercial Upfits', slug: 'commercial' },
   { id: 'roof-coating', name: 'Roof Coating', slug: 'roof-coating' },
-  { id: 'residential', name: 'Residential', slug: 'residential' },
 ];
 
 export function PortfolioGrid({ projects }: { projects: Project[] }) {
@@ -47,7 +46,7 @@ export function PortfolioGrid({ projects }: { projects: Project[] }) {
             key={project.id}
             href={`/portfolio/${project.slug}`}
             className={cn(
-              'group block rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-lg transition-all duration-300',
+              'group block rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-lg transition-shadow duration-300',
               'animate-in fade-in-0 slide-in-from-bottom-4'
             )}
           >

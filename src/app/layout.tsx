@@ -72,7 +72,8 @@ export const metadata: Metadata = {
     },
   },
   other: {
-    'theme-color': '#1a1a2e',
+    'theme-color': '#f7f6f2',
+    'color-scheme': 'light',
   },
 };
 
@@ -82,7 +83,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ colorScheme: 'light' }}>
       <head>
         {/* Preconnect to external origins for faster resource loading */}
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
@@ -109,7 +110,7 @@ export default function RootLayout({
         <ScrollProgress />
         <BannerCTA />
         <Header />
-        <main id="main-content" className="flex-1">{children}</main>
+        <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">{children}</main>
         <Footer />
       </body>
     </html>

@@ -282,7 +282,7 @@ const faqs = [
   {
     question: 'What health department requirements apply to restaurant construction in Charlotte?',
     answer:
-      'The Mecklenburg County Health Department enforces the North Carolina Food Code for all food service establishments. Key construction requirements include: non-porous, easily cleanable floor surfaces sloped to floor drains in the kitchen; FRP panels or commercial tile on kitchen walls to a height specified by code; handwash sinks at every food preparation area and near the restrooms; three-compartment sink for manual dishwashing; commercial dishwasher with proper temperature verification; separate storage for chemicals away from food; adequate refrigeration with temperature monitoring; proper ventilation to prevent grease accumulation; and pest prevention measures including sealed penetrations and self-closing exterior doors. The health department reviews your kitchen plans before permits are issued and conducts a pre-opening inspection before you can serve food. We design every kitchen to pass these inspections on the first attempt.',
+      'The Mecklenburg County Health Department enforces the North Carolina Food Code for all food service establishments. Key construction requirements include: non-porous, easily cleanable floor surfaces sloped to floor drains in the kitchen; FRP panels or commercial tile on kitchen walls to a height specified by code; handwash sinks at every food preparation area and near the restrooms; three-compartment sink for manual dishwashing; commercial dishwasher with proper temperature verification; separate storage for chemicals away from food; adequate refrigeration with temperature monitoring; proper ventilation to prevent grease accumulation; and pest prevention measures including sealed penetrations and self-closing exterior doors. The health department reviews your kitchen plans before permits are issued and conducts a pre-opening inspection before you can serve food.',
   },
   {
     question: 'Do I need an ABC permit for alcohol service and how does it affect construction?',
@@ -337,7 +337,7 @@ const faqs = [
   {
     question: 'How does restaurant construction in Charlotte differ from building in Fort Mill or Rock Hill, SC?',
     answer:
-      'The biggest differences are permitting jurisdiction and health department requirements. Charlotte restaurants are reviewed by Mecklenburg County Code Enforcement and the Mecklenburg County Health Department, which enforce the North Carolina Food Code. Fort Mill and Rock Hill fall under York County building permits and the South Carolina Department of Health and Environmental Control, which follows a different set of food service regulations. ABC licensing also differs because South Carolina has its own alcohol control commission with separate permit types and requirements. We Build holds general contractor licenses in both states and has completed restaurant projects on both sides of the state line, so we manage these jurisdictional differences seamlessly for our clients.',
+      'The biggest differences are permitting jurisdiction and health department requirements. Charlotte restaurants are reviewed by Mecklenburg County Code Enforcement and the Mecklenburg County Health Department, which enforce the North Carolina Food Code. Fort Mill and Rock Hill fall under York County building permits and the South Carolina Department of Health and Environmental Control, which follows a different set of food service regulations. ABC licensing also differs because South Carolina has its own alcohol control commission with separate permit types and requirements. We Build holds general contractor licenses in both states, so we manage these jurisdictional differences seamlessly for our clients.',
   },
   {
     question: 'Is it better to lease a restaurant space or build a freestanding restaurant building in Charlotte?',
@@ -731,9 +731,7 @@ export default function RestaurantConstructionPage() {
                   unit, often the most overlooked component, replaces the exhausted air to maintain proper
                   building pressure. Without adequate makeup air, the kitchen creates negative pressure that
                   pulls air through doors and windows, makes doors difficult to open, causes backdrafting of
-                  gas appliances, and creates uncomfortable temperature swings. We size and design hood systems
-                  in coordination with the mechanical engineer to ensure proper airflow balance throughout the
-                  restaurant.
+                  gas appliances, and creates uncomfortable temperature swings.
                 </p>
               </div>
               <div className="space-y-4">

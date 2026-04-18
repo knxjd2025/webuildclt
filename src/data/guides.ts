@@ -853,8 +853,8 @@ const guides: Guide[] = [
 <p>Top-performing LVP brands available through Charlotte retailers include:</p>
 
 <ul>
-<li><strong>COREtec:</strong> The original rigid-core LVP brand, known for excellent quality and realistic visuals. COREtec Plus and COREtec Pro lines are popular in Charlotte homes. Lifetime residential warranty.</li>
-<li><strong>Shaw Floorte:</strong> Wide selection of styles and price points. The Floorte Pro line with a 30-mil wear layer is excellent for high-traffic homes. Lifetime residential warranty.</li>
+<li><strong>COREtec:</strong> The original rigid-core LVP brand, known for excellent quality and realistic visuals. COREtec Plus and COREtec Pro lines are popular in Charlotte buildings. Lifetime limited warranty.</li>
+<li><strong>Shaw Floorte:</strong> Wide selection of styles and price points. The Floorte Pro line with a 30-mil wear layer is excellent for high-traffic spaces. Lifetime limited warranty.</li>
 <li><strong>Mannington Adura:</strong> Premium styling with some of the most realistic wood grain textures on the market. Available in rigid and flex versions.</li>
 <li><strong>MSI Everlife:</strong> Strong value option with good performance. Available at many Charlotte flooring retailers and home centers.</li>
 <li><strong>Mohawk RevWood Plus:</strong> Technically a wood-composite product rather than vinyl, offering a more natural feel with waterproof performance.</li>
@@ -916,7 +916,7 @@ const guides: Guide[] = [
 <h3>Carpet Fiber Types</h3>
 
 <ul>
-<li><strong>Nylon:</strong> The gold standard for residential carpet. Nylon is the most durable and resilient synthetic fiber, handling heavy foot traffic and bouncing back from furniture indentations. Brands like Mohawk SmartStrand (actually triexta; see below) and Shaw Anso nylon offer built-in stain protection. Nylon carpet in Charlotte typically costs $3 to $8 per square foot for materials.</li>
+<li><strong>Nylon:</strong> The gold standard for soft-surface carpet. Nylon is the most durable and resilient synthetic fiber, handling heavy foot traffic and bouncing back from furniture indentations. Brands like Mohawk SmartStrand (actually triexta; see below) and Shaw Anso nylon offer built-in stain protection. Nylon carpet in Charlotte typically costs $3 to $8 per square foot for materials.</li>
 <li><strong>Triexta (PTT Polyester):</strong> A newer fiber marketed heavily by Mohawk under the SmartStrand brand. Triexta offers excellent stain resistance (the protection is built into the fiber rather than applied as a topical treatment), good softness, and moderate durability. It is a strong choice for homes with pets and children. Charlotte pricing runs $3 to $7 per square foot.</li>
 <li><strong>Polyester (PET):</strong> Budget-friendly and available in vibrant colors, but less resilient than nylon and prone to matting in high-traffic areas. Best suited for low-traffic bedrooms. Charlotte pricing: $2 to $5 per square foot.</li>
 <li><strong>Wool:</strong> A premium natural fiber with excellent durability, natural stain resistance (lanolin), and a luxurious feel. Wool carpet is naturally hypoallergenic and flame-resistant. It commands premium pricing in Charlotte: $8 to $20 per square foot for materials.</li>
@@ -928,7 +928,7 @@ const guides: Guide[] = [
 
 <h3>Installation and Padding</h3>
 
-<p>Carpet installation in Charlotte typically costs $1.50 to $3.00 per square foot for labor, plus $0.50 to $1.50 per square foot for padding. The padding selection matters as much as the carpet itself: a quality 8-pound, 7/16-inch thick rebond pad provides the best balance of comfort and support for most residential applications. Thicker or softer pads can actually shorten carpet life by allowing too much flex, which breaks down the carpet backing over time.</p>
+<p>Carpet installation in Charlotte typically costs $1.50 to $3.00 per square foot for labor, plus $0.50 to $1.50 per square foot for padding. The padding selection matters as much as the carpet itself: a quality 8-pound, 7/16-inch thick rebond pad provides the best balance of comfort and support for most general applications. Thicker or softer pads can actually shorten carpet life by allowing too much flex, which breaks down the carpet backing over time.</p>
 
 <p>Total installed carpet costs in Charlotte range from $4 to $15 per square foot for synthetic fibers and $10 to $25 per square foot for wool. A 500-square-foot master bedroom and hallway carpet project typically runs $2,000 to $7,500 fully installed.</p>
 
@@ -1334,7 +1334,7 @@ const guides: Guide[] = [
 
 <h3>Ventilation</h3>
 
-<p>Proper kitchen ventilation is critical and often overlooked in Charlotte remodels. A range hood or ventilation system removes cooking odors, grease, moisture, and combustion byproducts (for gas ranges) from your kitchen. Charlotte's building code follows the International Residential Code, which requires ventilation for all cooking appliances.</p>
+<p>Proper kitchen ventilation is critical and often overlooked in Charlotte remodels. A range hood or ventilation system removes cooking odors, grease, moisture, and combustion byproducts (for gas ranges) from your kitchen. Charlotte's building code follows the International Building Code, which requires ventilation for all cooking appliances.</p>
 
 <p>Duct the hood to the exterior whenever possible. Recirculating (ductless) hoods filter air and return it to the kitchen, but they are far less effective at removing moisture and odors. For Charlotte's humid climate, exterior venting is strongly recommended to prevent cooking moisture from contributing to indoor humidity issues.</p>
 
@@ -1346,7 +1346,7 @@ const guides: Guide[] = [
 
 <h3>Ambient (General) Lighting</h3>
 
-<p>This is the overall illumination for the room. Recessed can lights are the most common ambient lighting in Charlotte kitchens, typically installed on a 4 to 6 foot grid pattern. LED recessed lights in 3000K (warm white) are the standard recommendation for residential kitchens. Plan for one recessed light per 20 to 25 square feet of kitchen space. A central chandelier or flush-mount fixture over a breakfast area adds decorative ambient light.</p>
+<p>This is the overall illumination for the room. Recessed can lights are the most common ambient lighting in Charlotte kitchens, typically installed on a 4 to 6 foot grid pattern. LED recessed lights in 3000K (warm white) are the standard recommendation for kitchen build-outs. Plan for one recessed light per 20 to 25 square feet of kitchen space. A central chandelier or flush-mount fixture over a breakfast area adds decorative ambient light.</p>
 
 <h3>Task Lighting</h3>
 
@@ -1508,7 +1508,7 @@ const guides: Guide[] = [
 <li><strong>South End:</strong> Charlotte's hottest dining corridor, anchored by the LYNX Blue Line light rail. Dense apartment and condo development has created a young, affluent customer base that supports walkable restaurants and bars. Competition is fierce; you will be competing with dozens of established concepts within a few blocks. Rent runs $30 to $55 per square foot NNN for restaurant-suitable spaces. South End rewards concepts that are Instagram-friendly, moderately priced, and open late.</li>
 <li><strong>NoDa (North Davidson):</strong> Charlotte's arts district with a creative, eclectic vibe. NoDa supports independent restaurants with character: breweries, taquerias, farm-to-table concepts, and international cuisines. Rents are lower than South End ($18 to $35 per square foot NNN), and the customer base values authenticity over polish. Parking is limited; walkability and bike access matter.</li>
 <li><strong>Uptown:</strong> Charlotte's central business district. Weekday lunch traffic is strong during business hours, but evenings and weekends can be slow depending on event schedules. Uptown works well for fast-casual lunch concepts, sports bar and grill concepts near the stadiums, and upscale restaurants that draw from the entire metro area. Rents are among the highest in Charlotte: $35 to $65 per square foot NNN.</li>
-<li><strong>Ballantyne:</strong> An affluent suburban area in south Charlotte with a mix of corporate offices and family-oriented residential developments. Ballantyne supports family-friendly restaurants, polished casual dining, and fast-casual chains. Customer spending power is high, but the market skews toward familiar concepts. Rents run $25 to $45 per square foot NNN.</li>
+<li><strong>Ballantyne:</strong> An affluent suburban area in south Charlotte with a mix of corporate offices and family-oriented neighborhoods. Ballantyne supports family-friendly restaurants, polished casual dining, and fast-casual chains. Customer spending power is high, but the market skews toward familiar concepts. Rents run $25 to $45 per square foot NNN.</li>
 <li><strong>Plaza Midwood:</strong> A transitional neighborhood east of Uptown with a mix of longtime residents and newer arrivals. Plaza Midwood has a strong independent dining scene with loyal neighborhood regulars. Concepts that feel locally rooted and slightly adventurous perform well here. Rents have increased but remain more accessible than South End: $22 to $40 per square foot NNN.</li>
 <li><strong>University City:</strong> Located near UNC Charlotte, this area serves a large student population and surrounding suburban families. University City supports affordable dining, delivery-heavy concepts, and quick-service restaurants. Rent is among the lowest in the metro: $15 to $28 per square foot NNN.</li>
 <li><strong>Lake Norman (Cornelius, Huntersville, Davidson):</strong> Affluent suburban communities north of Charlotte with growing dining demand and less competition than the city center. Lake Norman is underserved for quality dining relative to its population and spending power, creating opportunity for well-executed concepts.</li>
@@ -1784,7 +1784,7 @@ const guides: Guide[] = [
     faqs: [
       { question: 'How often should I inspect my roof in Charlotte?', answer: 'Inspect your roof twice a year — spring and fall — plus after any severe weather event (hail, high winds, heavy storms). Commercial buildings should have professional inspections; homeowners can do visual inspections from the ground with binoculars, looking for missing shingles, damaged flashing, sagging areas, and debris accumulation.' },
       { question: 'How long does a roof last in Charlotte NC?', answer: 'Roof lifespan in Charlotte depends on material: asphalt shingles last 15-25 years, architectural shingles 25-30 years, metal roofs 40-70 years, TPO/EPDM commercial membranes 15-25 years, and clay/concrete tile 50+ years. Charlotte\'s UV exposure and humidity can shorten these lifespans by 3-5 years compared to milder climates without proper maintenance.' },
-      { question: 'Can roof coating extend my roof\'s life?', answer: 'Yes. Professional roof coating adds 10-15 years to a structurally sound roof at 50-70% less cost than replacement. Silicone coatings are best for flat commercial roofs (15-20 year lifespan). Elastomeric coatings work well on metal roofs. Our We Coat division provides free roof assessments for both commercial and residential properties in Charlotte.' },
+      { question: 'Can roof coating extend my roof\'s life?', answer: 'Yes. Professional roof coating adds 10-15 years to a structurally sound roof at 50-70% less cost than replacement. Silicone coatings are best for flat commercial roofs (15-20 year lifespan). Elastomeric coatings work well on metal roofs. Our We Coat division provides free roof assessments for commercial properties in Charlotte.' },
       { question: 'What is the biggest threat to Charlotte roofs?', answer: 'Moisture is the number one threat. Charlotte\'s combination of heavy rainfall, high humidity, and warm temperatures creates ideal conditions for rot, mold, and algae growth. Proper attic ventilation, functioning gutters, and regular maintenance are the best defenses against moisture damage.' },
     ],
     content: `
@@ -1806,7 +1806,7 @@ const guides: Guide[] = [
     <tr>
       <td>3-Tab Asphalt Shingles</td>
       <td>15 to 20 years</td>
-      <td>Budget-friendly residential</td>
+      <td>Budget-friendly buildings</td>
     </tr>
     <tr>
       <td>Architectural (Dimensional) Shingles</td>
@@ -1816,7 +1816,7 @@ const guides: Guide[] = [
     <tr>
       <td>Standing Seam Metal</td>
       <td>40 to 70 years</td>
-      <td>Residential and commercial</td>
+      <td>Commercial and industrial</td>
     </tr>
     <tr>
       <td>TPO (Thermoplastic Polyolefin)</td>
@@ -1836,7 +1836,7 @@ const guides: Guide[] = [
     <tr>
       <td>Clay/Concrete Tile</td>
       <td>50 to 100 years</td>
-      <td>Upscale residential</td>
+      <td>Upscale commercial</td>
     </tr>
     <tr>
       <td>Slate</td>
@@ -1846,7 +1846,7 @@ const guides: Guide[] = [
   </tbody>
 </table>
 
-<p>In the Charlotte region, architectural asphalt shingles dominate the residential market, accounting for roughly 70% of roofs in neighborhoods from South End to Ballantyne and Huntersville. These shingles offer a good balance of cost and performance, but Charlotte's weather can shorten their lifespan by 3 to 5 years compared to manufacturers' estimates if maintenance is neglected.</p>
+<p>In the Charlotte region, architectural asphalt shingles are common on smaller commercial buildings and mixed-use structures across submarkets from South End to Ballantyne and Huntersville. These shingles offer a good balance of cost and performance, but Charlotte's weather can shorten their lifespan by 3 to 5 years compared to manufacturers' estimates if maintenance is neglected.</p>
 
 <p>For commercial buildings along corridors like South Boulevard, Independence Boulevard, and the University City area, flat roof systems such as TPO and EPDM are the standard. These single-ply membranes handle the thermal cycling that Charlotte's climate demands, expanding and contracting as temperatures swing from the low 20s in winter to over 100 degrees on the roof surface in summer.</p>
 
@@ -2222,9 +2222,9 @@ const guides: Guide[] = [
 <p>LVP durability is determined primarily by its wear layer thickness, measured in mils (thousandths of an inch):</p>
 
 <ul>
-  <li><strong>6 to 12 mil:</strong> Suitable for light residential use (bedrooms, guest rooms)</li>
-  <li><strong>12 to 20 mil:</strong> Good for moderate residential use (living rooms, hallways)</li>
-  <li><strong>20 to 28 mil:</strong> Best for heavy residential and light commercial use (kitchens, entryways, home offices)</li>
+  <li><strong>6 to 12 mil:</strong> Suitable for light-traffic interior use</li>
+  <li><strong>12 to 20 mil:</strong> Good for moderate-traffic interior use</li>
+  <li><strong>20 to 28 mil:</strong> Best for heavy-traffic and light commercial use (kitchens, entryways, offices)</li>
   <li><strong>28+ mil:</strong> Commercial-grade (retail, offices)</li>
 </ul>
 
@@ -2336,7 +2336,7 @@ const guides: Guide[] = [
   <li><strong>Engineered hardwood glue-down:</strong> Best for concrete slabs. A moisture barrier is applied, then adhesive is troweled onto the subfloor. This provides excellent stability and reduces hollow sound.</li>
   <li><strong>Engineered hardwood floating:</strong> Planks click together and float over an underlayment. Fastest installation, but can produce a hollow sound if the underlayment is thin or the subfloor is uneven.</li>
   <li><strong>LVP click-lock floating:</strong> The standard for LVP. Planks snap together over an underlayment (or with attached backing). This is the fastest and most DIY-friendly installation method.</li>
-  <li><strong>LVP glue-down:</strong> Provides the most solid feel and best sound performance. Used primarily in commercial applications or high-end residential where hollow sound is unacceptable.</li>
+  <li><strong>LVP glue-down:</strong> Provides the most solid feel and best sound performance. Used primarily in commercial applications or high-end build-outs where hollow sound is unacceptable.</li>
 </ul>
 
 <h3>Subfloor Requirements</h3>
@@ -2464,7 +2464,7 @@ const guides: Guide[] = [
     content: `
 <h2 id="commercial-needs">Commercial Flooring Needs</h2>
 
-<p>Selecting flooring for a commercial space involves a fundamentally different set of considerations than choosing flooring for a home. Commercial environments must balance aesthetics, durability, safety, maintenance costs, regulatory compliance, and total lifecycle value in ways that residential projects never encounter. In Charlotte's growing commercial landscape, from the mixed-use developments in South End to the medical offices along Randolph Road and the warehouse districts near the airport, the right flooring choice can reduce operational costs, minimize liability, and project the brand image your business demands.</p>
+<p>Selecting flooring for a commercial space involves a fundamentally different set of considerations than smaller-scale projects. Commercial environments must balance aesthetics, durability, safety, maintenance costs, regulatory compliance, and total lifecycle value at a scale that smaller projects never encounter. In Charlotte's growing commercial landscape, from the mixed-use developments in South End to the medical offices along Randolph Road and the warehouse districts near the airport, the right flooring choice can reduce operational costs, minimize liability, and project the brand image your business demands.</p>
 
 <p>Before evaluating specific materials for each business type, it is essential to understand the universal requirements that apply to virtually all commercial flooring installations in Charlotte and across Mecklenburg County.</p>
 
@@ -2543,7 +2543,7 @@ const guides: Guide[] = [
 
 <h3>Sound Transmission in Multi-Tenant Buildings</h3>
 
-<p>For offices in multi-story buildings, which are common in Charlotte's Uptown and South End districts, sound transmission through the floor assembly is a critical concern. The International Building Code requires a minimum Sound Transmission Class (STC) of 50 and Impact Insulation Class (IIC) of 50 for floor-ceiling assemblies between dwelling units. While these standards technically apply to residential occupancies, many Charlotte landlords apply similar requirements to commercial tenants to prevent noise complaints.</p>
+<p>For offices in multi-story buildings, which are common in Charlotte's Uptown and South End districts, sound transmission through the floor assembly is a critical concern. The International Building Code sets minimum Sound Transmission Class (STC) and Impact Insulation Class (IIC) thresholds of 50 for floor-ceiling assemblies between separated occupancies. Many Charlotte landlords apply similar requirements to commercial tenants to prevent noise complaints between offices, retail bays, and shared amenity spaces.</p>
 
 <p>Carpet tile provides the best impact sound reduction. Hard surfaces like LVT or polished concrete typically require an acoustic underlayment (adding $1.00 to $2.50 per square foot) to meet IIC requirements in multi-tenant buildings.</p>
 
@@ -3488,7 +3488,7 @@ const guides: Guide[] = [
 
 <p>The Charlotte office market is divided into several key submarkets, each with a unique character and cost profile. <strong>Uptown Charlotte</strong> remains the premier business address, home to Bank of America, Truist Financial, and dozens of Fortune 500 operations. Class A rents in Uptown typically range from \$32 to \$48 per square foot annually on a full-service basis, with trophy towers pushing above \$50 per square foot. The prestige of an Uptown address comes with higher costs, but also with walkable access to the Lynx Blue Line, hundreds of restaurants, and a concentration of professional services firms that makes client meetings convenient.</p>
 
-<p><strong>SouthPark</strong> offers a suburban alternative with strong amenities. Rents in SouthPark generally range from \$26 to \$38 per square foot for Class A space. The submarket appeals to wealth management firms, medical practices, and professional services companies that want proximity to affluent residential neighborhoods without the parking challenges of Uptown. SouthPark Mall and the surrounding retail corridor provide lunch and shopping options that employees value.</p>
+<p><strong>SouthPark</strong> offers a suburban alternative with strong amenities. Rents in SouthPark generally range from \$26 to \$38 per square foot for Class A space. The submarket appeals to wealth management firms, medical practices, and professional services companies that want proximity to affluent neighborhoods without the parking challenges of Uptown. SouthPark Mall and the surrounding retail corridor provide lunch and shopping options that employees value.</p>
 
 <p><strong>Ballantyne</strong> has matured into a self-contained business district along the I-485 corridor in south Charlotte. Major tenants include MetLife, LPL Financial, and numerous technology companies. Class A rents in Ballantyne range from \$24 to \$34 per square foot, and the submarket offers abundant surface parking, newer building stock, and a campus-like environment. For companies drawing talent from Fort Mill, Indian Land, and the broader Lake Norman to Waxhaw commuter belt, Ballantyne provides geographic centrality.</p>
 
@@ -4151,7 +4151,7 @@ const guides: Guide[] = [
 
 <h3>Faucet Trends</h3>
 
-<p>Widespread faucets (8-inch center-to-center) remain the most popular choice for bathroom vanities in Charlotte, providing a traditional, substantial look. Wall-mounted faucets are gaining popularity in higher-end remodels for their clean appearance and easier countertop cleaning. Finishes trend toward brushed gold, matte black, and brushed nickel, with polished chrome declining in popularity. Touchless faucets, once limited to commercial settings, are becoming more common in residential bathrooms.</p>
+<p>Widespread faucets (8-inch center-to-center) remain the most popular choice for bathroom vanities in Charlotte, providing a traditional, substantial look. Wall-mounted faucets are gaining popularity in higher-end remodels for their clean appearance and easier countertop cleaning. Finishes trend toward brushed gold, matte black, and brushed nickel, with polished chrome declining in popularity. Touchless faucets, once limited to commercial settings, are becoming more common in private bathrooms.</p>
 
 <h3>Showerhead Options</h3>
 
@@ -4226,7 +4226,7 @@ const guides: Guide[] = [
 
 <h3>Ventilation Requirements</h3>
 
-<p>Proper ventilation is critical in Charlotte's humid climate to prevent mold growth, paint peeling, and moisture damage. The International Residential Code requires a mechanical exhaust fan in bathrooms without operable windows, and most Charlotte contractors install them regardless of window presence. Fan sizing is based on bathroom volume: for bathrooms up to 100 square feet, match the CFM rating to the square footage (e.g., 80 CFM for an 80-square-foot bathroom). For larger bathrooms, calculate 1 CFM per square foot. Humidity-sensing fans that automatically activate when moisture levels rise are an excellent investment at \$150 to \$350, ensuring the fan runs long enough to remove moisture even when homeowners forget to turn it on.</p>
+<p>Proper ventilation is critical in Charlotte's humid climate to prevent mold growth, paint peeling, and moisture damage. The International Building Code requires a mechanical exhaust fan in bathrooms without operable windows, and most Charlotte contractors install them regardless of window presence. Fan sizing is based on bathroom volume: for bathrooms up to 100 square feet, match the CFM rating to the square footage (e.g., 80 CFM for an 80-square-foot bathroom). For larger bathrooms, calculate 1 CFM per square foot. Humidity-sensing fans that automatically activate when moisture levels rise are an excellent investment at \$150 to \$350, ensuring the fan runs long enough to remove moisture even when homeowners forget to turn it on.</p>
 
 <h3>Aging-in-Place Features</h3>
 
@@ -4256,7 +4256,7 @@ const guides: Guide[] = [
 
 <p>Improving your Charlotte home's energy efficiency is one of the smartest investments you can make, both for monthly utility savings and long-term property value. Charlotte sits in Climate Zone 4A (Mixed-Humid), which means our homes must perform well in both heating and cooling seasons. Hot, humid summers that stretch from May through September drive air conditioning costs, while winters bring enough cold nights (average lows in the low 30s from December through February) to make heating efficiency equally important.</p>
 
-<p>Duke Energy, the primary electricity provider for the Charlotte region, charges residential customers a tiered rate structure. As of 2026, the base residential rate is approximately \$0.11 to \$0.13 per kWh, with seasonal adjustments that increase summer rates. The average Charlotte household spends \$150 to \$250 per month on electricity, with the highest bills occurring in July and August when air conditioning loads peak. Piedmont Natural Gas serves most of the Charlotte area for heating, water heating, and cooking, with average monthly bills of \$40 to \$120 depending on the season and home size.</p>
+<p>Duke Energy, the primary electricity provider for the Charlotte region, charges customers a tiered rate structure. As of 2026, the base rate is approximately \$0.11 to \$0.13 per kWh, with seasonal adjustments that increase summer rates. The average Charlotte household spends \$150 to \$250 per month on electricity, with the highest bills occurring in July and August when air conditioning loads peak. Piedmont Natural Gas serves most of the Charlotte area for heating, water heating, and cooking, with average monthly bills of \$40 to \$120 depending on the season and home size.</p>
 
 <h3>Where Your Energy Goes</h3>
 
@@ -4438,14 +4438,14 @@ const guides: Guide[] = [
 
 <ul>
 <li><strong>Federal Energy Efficient Home Improvement Credit (25C)</strong>: 30% credit (up to \$3,200/year) for heat pumps, heat pump water heaters, insulation, air sealing, electrical panel upgrades, and energy audits. Heat pumps qualify for up to \$2,000 per year; insulation, doors, and windows qualify for up to \$1,200 per year combined.</li>
-<li><strong>Federal Residential Clean Energy Credit (25D)</strong>: 30% credit (no cap) for solar panels, battery storage, and geothermal heat pumps through 2032.</li>
+<li><strong>Federal Clean Energy Credit (25D)</strong>: 30% credit (no cap) for solar panels, battery storage, and geothermal heat pumps through 2032.</li>
 <li><strong>Duke Energy Rebates</strong>: Duke offers rebates for smart thermostats (\$50 to \$100), heat pump installations (\$200 to \$400), HVAC tune-ups (\$25), and home energy assessments. Check Duke's current offerings at duke-energy.com as programs change periodically.</li>
 <li><strong>Inflation Reduction Act (IRA) rebates</strong>: Income-qualified households may be eligible for point-of-sale rebates under the HOMES and HEEHRA programs, administered through the NC Department of Environmental Quality. These rebates cover heat pumps, insulation, electrical panels, and other electrification measures.</li>
 </ul>
 
 <h3>Solar Panel Viability in Charlotte</h3>
 
-<p>Charlotte receives an average of 4.5 to 5.0 peak sun hours per day, making solar panels a viable investment. A typical 8 kW residential system produces 10,000 to 12,000 kWh per year, offsetting 60% to 80% of an average Charlotte home's electricity consumption. Duke Energy's net metering policy credits excess solar generation at the retail rate, making the economics favorable for correctly sized systems. However, Duke Energy has proposed changes to net metering that could reduce future credits; monitor this regulatory landscape before investing. After the 30% federal tax credit, the net cost of a typical residential solar installation in Charlotte is \$12,000 to \$17,000, with a payback period of 8 to 12 years.</p>
+<p>Charlotte receives an average of 4.5 to 5.0 peak sun hours per day, making solar panels a viable investment. A typical 8 kW rooftop system produces 10,000 to 12,000 kWh per year, offsetting 60% to 80% of an average Charlotte home's electricity consumption. Duke Energy's net metering policy credits excess solar generation at the retail rate, making the economics favorable for correctly sized systems. However, Duke Energy has proposed changes to net metering that could reduce future credits; monitor this regulatory landscape before investing. After the 30% federal tax credit, the net cost of a typical small-scale solar installation in Charlotte is \$12,000 to \$17,000, with a payback period of 8 to 12 years.</p>
 
 <p>We Build helps Charlotte homeowners identify and implement the most cost-effective energy efficiency improvements for their specific home and budget. As a USGBC member, we are committed to sustainable building practices that reduce energy consumption and improve comfort. Contact us at <a href="tel:+19804711745">(980) 471-1745</a> to discuss your energy efficiency goals.</p>
 `,
@@ -4485,7 +4485,7 @@ const guides: Guide[] = [
 
 <h3>Second-Story Addition</h3>
 
-<p>Adding a second story doubles your living space without increasing your home's footprint, preserving yard space and avoiding setback issues. However, second-story additions are among the most complex and expensive residential construction projects. The existing first-floor structure must support the additional load, which often requires foundation reinforcement, structural beam installation, and wall reinforcement. The entire roof is removed and rebuilt, and the home is exposed to weather during construction, requiring careful waterproofing and scheduling.</p>
+<p>Adding a second story doubles your living space without increasing your home's footprint, preserving yard space and avoiding setback issues. However, second-story additions are among the most complex and expensive small-scale construction projects. The existing first-floor structure must support the additional load, which often requires foundation reinforcement, structural beam installation, and wall reinforcement. The entire roof is removed and rebuilt, and the home is exposed to weather during construction, requiring careful waterproofing and scheduling.</p>
 
 <p>Full second-story additions in Charlotte cost \$250 to \$400 per square foot. A partial second-story addition (adding a primary suite or two bedrooms over a portion of the first floor) is more common and costs \$200 to \$350 per square foot. Structural engineering fees for a second-story addition typically run \$3,000 to \$8,000.</p>
 
@@ -4503,11 +4503,11 @@ const guides: Guide[] = [
 
 <p>Converting an attached or detached garage to living space is one of the most cost-effective ways to add square footage because the shell (foundation, walls, roof) already exists. The conversion typically involves insulating walls and ceiling, adding flooring over the concrete slab, replacing the garage door with a framed wall with windows, and extending HVAC, electrical, and plumbing as needed. Garage conversions in Charlotte cost \$30,000 to \$80,000, or \$100 to \$200 per square foot.</p>
 
-<p>Important considerations: Converting your only garage eliminates covered parking, which can affect resale value. Mecklenburg County requires that the converted space meets residential building code standards for egress windows, ceiling height (minimum 7 feet), and energy efficiency. If the slab is lower than the house floor, you may need to raise the floor with sleepers or a new subfloor system, which affects ceiling height.</p>
+<p>Important considerations: Converting your only garage eliminates covered parking, which can affect resale value. Mecklenburg County requires that the converted space meets habitable-space building code standards for egress windows, ceiling height (minimum 7 feet), and energy efficiency. If the slab is lower than the house floor, you may need to raise the floor with sleepers or a new subfloor system, which affects ceiling height.</p>
 
 <h3>ADU / In-Law Suite</h3>
 
-<p>Accessory dwelling units (ADUs), also called in-law suites, granny flats, or backyard cottages, are self-contained living units on the same property as your primary residence. Charlotte has progressively liberalized ADU regulations, and as of the current Unified Development Ordinance (UDO), ADUs are permitted in most residential zoning districts with the following general parameters:</p>
+<p>Accessory dwelling units (ADUs), also called in-law suites, granny flats, or backyard cottages, are self-contained living units on the same property as your primary residence. Charlotte has progressively liberalized ADU regulations, and as of the current Unified Development Ordinance (UDO), ADUs are permitted in most low-density zoning districts with the following general parameters:</p>
 
 <ul>
 <li>Maximum size: 800 square feet or 50% of the primary dwelling's heated square footage, whichever is less</li>
@@ -4561,10 +4561,10 @@ const guides: Guide[] = [
 <p>Charlotte's zoning regulations set limits on how much of your lot you can build on and how close structures can be to property lines. Key parameters include:</p>
 
 <ul>
-<li><strong>Setbacks</strong>: The required distance between your structure and the property line. In most Charlotte residential zones (R-3, R-4, R-5, R-6, R-8), minimum setbacks are typically 5 to 30 feet for the front yard (varies by zone and street type), 5 to 8 feet for side yards, and 10 to 20 feet for rear yards. Corner lots have two front setbacks. Your addition must fit within these boundaries.</li>
+<li><strong>Setbacks</strong>: The required distance between your structure and the property line. In most Charlotte low-density zones (R-3, R-4, R-5, R-6, R-8), minimum setbacks are typically 5 to 30 feet for the front yard (varies by zone and street type), 5 to 8 feet for side yards, and 10 to 20 feet for rear yards. Corner lots have two front setbacks. Your addition must fit within these boundaries.</li>
 <li><strong>Floor Area Ratio (FAR)</strong>: Some Charlotte zoning districts limit the total building floor area as a percentage of the lot area. For example, a zone with 0.40 FAR on a 10,000 square foot lot allows a maximum of 4,000 square feet of total building area including the existing house and any additions.</li>
 <li><strong>Lot coverage</strong>: The maximum percentage of the lot that can be covered by impervious surfaces (buildings, driveways, patios). Typical limits range from 24% to 50% depending on the zoning district. Your addition, along with any new driveway or patio work, must keep the total below this threshold.</li>
-<li><strong>Height limits</strong>: Most Charlotte residential zones limit building height to 40 feet, measured from the average grade to the midpoint of the roof. Second-story additions must comply with this limit.</li>
+<li><strong>Height limits</strong>: Most Charlotte low-density zones limit building height to 40 feet, measured from the average grade to the midpoint of the roof. Second-story additions must comply with this limit.</li>
 </ul>
 
 <h3>Charlotte Tree Ordinance</h3>
@@ -4587,11 +4587,11 @@ const guides: Guide[] = [
 
 <h3>Permit Process and Timeline</h3>
 
-<p>Mecklenburg County residential building permits typically require 2 to 4 weeks for plan review, though complex projects may take longer. The permit application requires a site plan showing the addition's location on the lot with dimensions to property lines, architectural drawings (floor plans, elevations, sections, details), structural engineering plans, and mechanical, electrical, and plumbing plans. Permit fees are based on the construction valuation, typically running \$1,500 to \$5,000 for a major addition. Inspections are required at multiple stages: foundation, framing, rough mechanical/electrical/plumbing, insulation, and final.</p>
+<p>Mecklenburg County small-scale building permits typically require 2 to 4 weeks for plan review, though complex projects may take longer. The permit application requires a site plan showing the addition's location on the lot with dimensions to property lines, architectural drawings (floor plans, elevations, sections, details), structural engineering plans, and mechanical, electrical, and plumbing plans. Permit fees are based on the construction valuation, typically running \$1,500 to \$5,000 for a major addition. Inspections are required at multiple stages: foundation, framing, rough mechanical/electrical/plumbing, insulation, and final.</p>
 
 <h2 id="structural">Structural Considerations</h2>
 
-<p>Connecting a new addition to an existing home is one of the most technically demanding aspects of residential construction. The junction between old and new construction is where problems, including water intrusion, settling cracks, and thermal bridging, are most likely to occur if not handled properly.</p>
+<p>Connecting a new addition to an existing structure is one of the most technically demanding aspects of construction. The junction between old and new construction is where problems, including water intrusion, settling cracks, and thermal bridging, are most likely to occur if not handled properly.</p>
 
 <h3>Foundation Connection</h3>
 
@@ -5293,7 +5293,7 @@ const guides: Guide[] = [
 
 <p><strong>Floor Space:</strong> A clear floor space of at least 60 by 60 inches is required for wheelchair turning. The entire restroom does not need to be this size, but a 60-inch turning diameter must be available somewhere in the room, clear of all fixtures and obstructions.</p>
 
-<p><strong>Toilet:</strong> The toilet seat must be 17 to 19 inches above the floor (standard residential toilets are 15 inches, which does not comply). The toilet centerline must be 16 to 18 inches from the side wall. Clear floor space of at least 60 inches measured from the side wall and 56 inches from the rear wall must be provided beside the toilet.</p>
+<p><strong>Toilet:</strong> The toilet seat must be 17 to 19 inches above the floor (standard non-compliant toilets are 15 inches). The toilet centerline must be 16 to 18 inches from the side wall. Clear floor space of at least 60 inches measured from the side wall and 56 inches from the rear wall must be provided beside the toilet.</p>
 
 <p><strong>Grab Bars:</strong> Two grab bars are required: one on the side wall closest to the toilet (at least 42 inches long, positioned 12 inches from the rear wall) and one on the rear wall (at least 36 inches long, positioned with 12 inches extending beyond the toilet centerline on the open side and 24 inches on the wall side). Grab bars must be mounted 33 to 36 inches above the floor and support at least 250 pounds of force.</p>
 
@@ -5777,8 +5777,6 @@ const guides: Guide[] = [
 <h3>Other Certification Programs</h3>
 
 <p><strong>ENERGY STAR:</strong> The EPA's ENERGY STAR certification for commercial buildings recognizes buildings that perform in the top 25 percent of similar buildings nationwide for energy efficiency. The certification uses the ENERGY STAR Portfolio Manager tool and is free to pursue. Charlotte commercial buildings seeking ENERGY STAR certification typically need an energy score of 75 or higher.</p>
-
-<p><strong>National Green Building Standard (NGBS):</strong> Developed by the National Association of Home Builders (NAHB), NGBS is more commonly used for residential projects but applies to multifamily buildings up to six stories. It offers four certification levels (Bronze, Silver, Gold, Emerald) and is generally less expensive to pursue than LEED for residential projects.</p>
 
 <h3>Charlotte-Specific Green Building Incentives</h3>
 
@@ -6380,7 +6378,7 @@ const guides: Guide[] = [
 
 <h3>Railing Options</h3>
 
-<p>Railing is one of the most visible design elements of any deck and significantly affects both safety and aesthetics. Charlotte building code requires railings on any deck surface 30 inches or more above grade, with a minimum height of 36 inches for residential applications.</p>
+<p>Railing is one of the most visible design elements of any deck and significantly affects both safety and aesthetics. Charlotte building code requires railings on any deck surface 30 inches or more above grade, with a minimum height of 36 inches for low-rise applications.</p>
 
 <ul>
   <li><strong>Wood railings:</strong> \$20-\$35 per linear foot installed. Traditional look, requires maintenance</li>
@@ -6395,7 +6393,7 @@ const guides: Guide[] = [
 <p>Regardless of the decking material, the structural framing in Charlotte is almost always pressure-treated lumber. The foundation must meet Mecklenburg County code requirements:</p>
 
 <ul>
-  <li><strong>Concrete footings:</strong> The standard approach. Footings must extend below the frost line (12 inches in Charlotte) and be a minimum of 18 inches in diameter for most residential decks. Typical cost: \$100-\$200 per footing</li>
+  <li><strong>Concrete footings:</strong> The standard approach. Footings must extend below the frost line (12 inches in Charlotte) and be a minimum of 18 inches in diameter for most standard decks. Typical cost: \$100-\$200 per footing</li>
   <li><strong>Helical piles:</strong> Screw-in steel piles that are ideal for difficult soil conditions or decks on slopes. Faster installation, no concrete cure time. Cost: \$200-\$400 per pile installed</li>
   <li><strong>Ledger board attachment:</strong> When the deck attaches to the house, the ledger board must be properly flashed with self-adhering membrane and metal flashing to prevent water infiltration. Improper ledger board attachment is the single most common cause of deck failures nationwide</li>
 </ul>
@@ -6465,7 +6463,7 @@ const guides: Guide[] = [
 
 <p><strong>Refrigeration and Storage:</strong></p>
 <ul>
-  <li><strong>Outdoor refrigerators:</strong> Must be UL-rated for outdoor use. Undercounter models: \$800-\$2,500. Popular brands: True Residential, Perlick, Blaze</li>
+  <li><strong>Outdoor refrigerators:</strong> Must be UL-rated for outdoor use. Undercounter models: \$800-\$2,500. Popular brands: True, Perlick, Blaze</li>
   <li><strong>Ice makers:</strong> \$1,000-\$3,000 for built-in clear ice makers. Essential for entertaining</li>
   <li><strong>Kegerators:</strong> \$1,500-\$3,500 for outdoor-rated draft beer dispensers. Increasingly popular in Charlotte's craft beer culture</li>
   <li><strong>Dry storage:</strong> Stainless steel access doors and drawers for storing grilling tools and supplies. \$200-\$800 per unit</li>
@@ -6577,7 +6575,7 @@ const guides: Guide[] = [
 
 <h3>Permit Costs and Timeline</h3>
 
-<p>Deck permits in Mecklenburg County are based on project valuation. Typical permit fees for residential deck projects range from \$150-\$500. The review process takes 5-15 business days for standard residential projects. Plan review examines structural adequacy, setback compliance, and code conformance.</p>
+<p>Deck permits in Mecklenburg County are based on project valuation. Typical permit fees for standard deck projects range from \$150-\$500. The review process takes 5-15 business days for standard projects. Plan review examines structural adequacy, setback compliance, and code conformance.</p>
 
 <p>Required inspections for deck construction:</p>
 <ol>
@@ -6643,7 +6641,7 @@ const guides: Guide[] = [
 
 <p>Before selecting any fixture, you need to understand four critical specifications:</p>
 
-<p><strong>Lumens (Brightness):</strong> Lumens measure the total amount of visible light a source produces. The old measure of watts told you how much energy a bulb consumed, not how much light it produced. General guidelines for residential spaces:</p>
+<p><strong>Lumens (Brightness):</strong> Lumens measure the total amount of visible light a source produces. The old measure of watts told you how much energy a bulb consumed, not how much light it produced. General guidelines for interior spaces:</p>
 <ul>
   <li>Kitchen: 5,000-10,000 total lumens (30-40 lumens per square foot)</li>
   <li>Living room: 1,500-3,000 total lumens (10-20 lumens per square foot)</li>
@@ -6658,12 +6656,12 @@ const guides: Guide[] = [
   <li><strong>3000K (Soft White):</strong> Slightly cooler than 2700K, still warm. Popular choice for whole-house consistency in Charlotte homes</li>
   <li><strong>3500K (Neutral):</strong> Balanced, neither warm nor cool. Good for kitchens and bathrooms</li>
   <li><strong>4000K (Cool White):</strong> Crisp, energizing. Best for garages, laundry rooms, task areas</li>
-  <li><strong>5000K+ (Daylight):</strong> Very cool, blue-tinted. Not recommended for residential spaces except workshops or craft rooms where color accuracy is critical</li>
+  <li><strong>5000K+ (Daylight):</strong> Very cool, blue-tinted. Not recommended for general interior spaces except workshops or craft rooms where color accuracy is critical</li>
 </ul>
 
 <p><strong>CRI (Color Rendering Index):</strong> CRI measures how accurately a light source renders colors compared to natural sunlight (which has a perfect CRI of 100). This specification is critically important and often overlooked.</p>
 <ul>
-  <li><strong>CRI 80-84:</strong> Acceptable for general residential use</li>
+  <li><strong>CRI 80-84:</strong> Acceptable for general interior use</li>
   <li><strong>CRI 90-95:</strong> Good; recommended for kitchens, bathrooms, and any space where accurate color perception matters</li>
   <li><strong>CRI 95-100:</strong> Excellent; ideal for art studios, closets, bathrooms, and anywhere you want to see true colors</li>
 </ul>
@@ -6683,7 +6681,7 @@ const guides: Guide[] = [
 <p><strong>Task layer:</strong></p>
 <ul>
   <li><strong>Under-cabinet lighting:</strong> LED tape or linkable LED bars installed at the front edge of upper cabinets, hidden behind a small lip or light rail molding. This eliminates shadows cast by your body and upper cabinets when working at the counter. Color temperature should match your ambient lighting (2700K-3000K). Cost: \$200-\$600 for a typical Charlotte kitchen using quality LED tape with a driver</li>
-  <li><strong>Island pendants:</strong> Hang pendants 30-36 inches above the countertop. For a standard 8-foot island, use 2-3 pendants spaced evenly, starting 6 inches from each end. Scale matters; pendants should be 12-18 inches wide for most residential islands</li>
+  <li><strong>Island pendants:</strong> Hang pendants 30-36 inches above the countertop. For a standard 8-foot island, use 2-3 pendants spaced evenly, starting 6 inches from each end. Scale matters; pendants should be 12-18 inches wide for most standard islands</li>
   <li><strong>Sink light:</strong> A dedicated recessed can or small pendant directly above the sink</li>
 </ul>
 
@@ -6764,13 +6762,13 @@ const guides: Guide[] = [
   <li><strong>Porch and entry lighting:</strong> Wall-mounted lanterns or sconces flanking the front door, sized to one-quarter to one-third the height of the door. Post lights at the driveway entrance for visibility</li>
 </ul>
 
-<p>Professional landscape lighting installation in Charlotte costs \$2,500-\$8,000 for a typical residential property, including fixtures, transformer, wire burial, and programming.</p>
+<p>Professional landscape lighting installation in Charlotte costs \$2,500-\$8,000 for a typical property, including fixtures, transformer, wire burial, and programming.</p>
 
 <h2 id="led">LED Selection Guide</h2>
 
 <h3>Why LED Is the Only Choice in 2026</h3>
 
-<p>LED technology has completely replaced incandescent, halogen, and CFL in residential applications. The economics are overwhelming: LED bulbs last 25,000-50,000 hours (compared to 1,000 for incandescent), consume 75-85% less energy, and produce less heat, which is a meaningful benefit in Charlotte's hot summers when every watt of heat from lighting adds to your cooling load.</p>
+<p>LED technology has completely replaced incandescent, halogen, and CFL in interior applications. The economics are overwhelming: LED bulbs last 25,000-50,000 hours (compared to 1,000 for incandescent), consume 75-85% less energy, and produce less heat, which is a meaningful benefit in Charlotte's hot summers when every watt of heat from lighting adds to your cooling load.</p>
 
 <h3>LED Color Consistency</h3>
 
@@ -6804,7 +6802,7 @@ const guides: Guide[] = [
   <li><strong>Spacing formula:</strong> Divide ceiling height by 2 for the maximum spacing between lights. For a 9-foot ceiling, space lights no more than 4.5 feet apart</li>
   <li><strong>Wall clearance:</strong> Place the first row of lights 2-3 feet from the wall. This provides wall washing (illuminating vertical surfaces) without creating hot spots</li>
   <li><strong>Grid pattern:</strong> Arrange lights in a regular grid for even ambient illumination. Offset rows slightly for a more organic feel</li>
-  <li><strong>Can size:</strong> 4-inch cans are the modern standard for most residential applications. 6-inch cans are used in rooms with higher ceilings (10+ feet) or where broader light spread is desired</li>
+  <li><strong>Can size:</strong> 4-inch cans are the modern standard for most interior applications. 6-inch cans are used in rooms with higher ceilings (10+ feet) or where broader light spread is desired</li>
   <li><strong>IC-rated:</strong> All recessed lights installed in insulated ceilings must be IC (Insulation Contact) rated. This is required by Charlotte building code</li>
 </ul>
 
@@ -6940,7 +6938,7 @@ const guides: Guide[] = [
 
 <p>Charlotte offers several dedicated lighting showrooms where you can see fixtures in person and get expert advice:</p>
 <ul>
-  <li><strong>Carolina Lighting Gallery (Pineville):</strong> Wide selection of residential fixtures, knowledgeable staff</li>
+  <li><strong>Carolina Lighting Gallery (Pineville):</strong> Wide selection of interior fixtures, knowledgeable staff</li>
   <li><strong>Quorum International dealers:</strong> Multiple locations around Charlotte</li>
   <li><strong>Ferguson Bath, Kitchen &amp; Lighting (multiple locations):</strong> Professional-grade fixtures and appliances</li>
   <li><strong>Build.com / Lumens.com:</strong> Online retailers with large selections and competitive pricing; useful for comparison shopping after visiting showrooms</li>
@@ -7244,7 +7242,7 @@ const guides: Guide[] = [
     tableOfContents: [{ id: 'when-needed', title: 'When Permits Are Required' }, { id: 'process', title: 'The Application Process' }, { id: 'timelines', title: 'Review Timelines' }, { id: 'without-permit', title: 'What Happens Without a Permit' }],
     faqs: [
       { question: 'Do I need a permit for a bathroom remodel in Charlotte?', answer: 'It depends on scope. Cosmetic updates (paint, fixtures, accessories) do not require permits. However, if you are moving plumbing, modifying electrical wiring, or changing the layout, permits are required. When in doubt, check with Mecklenburg County Code Enforcement or ask your contractor.' },
-      { question: 'How long does it take to get a building permit in Charlotte?', answer: 'Simple residential permits (water heater, HVAC replacement): 1-5 business days. Residential renovations/additions: 2-4 weeks. New residential construction: 3-6 weeks. Commercial upfits: 3-6 weeks. Commercial new construction: 6-12 weeks. Incomplete applications or code issues add delays.' },
+      { question: 'How long does it take to get a building permit in Charlotte?', answer: 'Simple commercial permits (water heater, HVAC replacement): 1-5 business days. Commercial upfits: 3-6 weeks. Commercial new construction: 6-12 weeks. Tenant improvements: 2-4 weeks. Incomplete applications or code issues add delays.' },
     ],
     content: `
 <h2 id="when-needed">When Permits Are Required</h2>
@@ -7327,17 +7325,17 @@ const guides: Guide[] = [
   <li>Portable fire pits, gas grills, and freestanding outdoor furniture</li>
 </ul>
 
-<h3>Residential vs. Commercial Permit Differences</h3>
+<h3>Key Commercial Permit Requirements</h3>
 
-<p>Commercial projects in Charlotte face a more rigorous permitting process than residential projects. Key differences include:</p>
+<p>Commercial projects in Charlotte face a rigorous permitting process. Key requirements include:</p>
 
 <ul>
   <li><strong>ADA compliance:</strong> Commercial projects must comply with the Americans with Disabilities Act, which adds requirements for accessible routes, restrooms, parking, and signage</li>
   <li><strong>Fire code review:</strong> Charlotte Fire Department reviews commercial plans for fire suppression, alarm systems, emergency egress, and occupancy limits</li>
   <li><strong>Health department review:</strong> Projects involving food service require Mecklenburg County Health Department approval for kitchen layout, ventilation, and sanitation</li>
   <li><strong>Zoning compliance:</strong> Commercial zoning requires parking studies, traffic impact analyses (for larger projects), and landscape buffer plans</li>
-  <li><strong>Higher permit fees:</strong> Commercial permit fees are based on project valuation and are typically higher than residential fees</li>
-  <li><strong>Longer review times:</strong> Commercial plan review takes 2-6 weeks compared to 1-3 weeks for most residential projects</li>
+  <li><strong>Permit fees:</strong> Commercial permit fees are based on project valuation and scale with the size of the project</li>
+  <li><strong>Review times:</strong> Commercial plan review typically takes 2-6 weeks depending on complexity</li>
 </ul>
 
 <h2 id="process">The Application Process</h2>
@@ -7367,7 +7365,7 @@ const guides: Guide[] = [
 
 <h3>Permit Fees</h3>
 
-<p>Mecklenburg County permit fees are based on the type of work and project valuation. The following are approximate fees for common residential projects (fees are subject to change; verify current schedules at the Hal Marshall Center or online):</p>
+<p>Mecklenburg County permit fees are based on the type of work and project valuation. The following are approximate fees for common commercial projects (fees are subject to change; verify current schedules at the Hal Marshall Center or online):</p>
 
 <table>
   <tr>
@@ -7375,48 +7373,32 @@ const guides: Guide[] = [
     <th>Approximate Permit Fee</th>
   </tr>
   <tr>
-    <td>New single-family home (\$300,000 value)</td>
-    <td>\$3,000-\$6,000 (building + all trades)</td>
+    <td>Commercial build-out (\$100,000 value)</td>
+    <td>\$1,500-\$3,500</td>
   </tr>
   <tr>
-    <td>Room addition (200 sq ft)</td>
-    <td>\$500-\$1,200</td>
+    <td>Tenant improvement (\$250,000 value)</td>
+    <td>\$3,500-\$7,500</td>
   </tr>
   <tr>
-    <td>Deck construction</td>
-    <td>\$150-\$500</td>
+    <td>New commercial construction (\$1M value)</td>
+    <td>\$10,000-\$25,000</td>
   </tr>
   <tr>
-    <td>Bathroom remodel (with plumbing changes)</td>
+    <td>Commercial HVAC replacement</td>
+    <td>\$200-\$600</td>
+  </tr>
+  <tr>
+    <td>Commercial electrical panel upgrade</td>
     <td>\$200-\$500</td>
   </tr>
   <tr>
-    <td>Kitchen remodel (with electrical/plumbing changes)</td>
-    <td>\$300-\$800</td>
+    <td>Commercial roof replacement</td>
+    <td>\$300-\$1,500</td>
   </tr>
   <tr>
-    <td>HVAC replacement</td>
-    <td>\$100-\$200</td>
-  </tr>
-  <tr>
-    <td>Electrical panel upgrade</td>
-    <td>\$100-\$200</td>
-  </tr>
-  <tr>
-    <td>Water heater replacement</td>
-    <td>\$50-\$100</td>
-  </tr>
-  <tr>
-    <td>Roof replacement</td>
+    <td>Sign permit</td>
     <td>\$100-\$300</td>
-  </tr>
-  <tr>
-    <td>Swimming pool</td>
-    <td>\$300-\$800</td>
-  </tr>
-  <tr>
-    <td>Commercial build-out (\$100,000 value)</td>
-    <td>\$1,500-\$3,500</td>
   </tr>
 </table>
 
@@ -7429,9 +7411,8 @@ const guides: Guide[] = [
 <p>Plan review times vary by project complexity and current workload. Typical timelines for Mecklenburg County:</p>
 
 <ul>
-  <li><strong>Residential trade permits (electrical, plumbing, mechanical only):</strong> 1-5 business days</li>
-  <li><strong>Residential building permits (decks, additions, renovations):</strong> 5-15 business days</li>
-  <li><strong>New single-family home:</strong> 10-20 business days</li>
+  <li><strong>Commercial trade permits (electrical, plumbing, mechanical only):</strong> 3-10 business days</li>
+  <li><strong>Tenant improvement / commercial upfit:</strong> 10-20 business days</li>
   <li><strong>Commercial build-out:</strong> 15-30 business days</li>
   <li><strong>New commercial construction:</strong> 20-45 business days</li>
 </ul>
@@ -7440,7 +7421,7 @@ const guides: Guide[] = [
 
 <h3>Expedited Review Options</h3>
 
-<p>Mecklenburg County offers expedited review for projects that need faster turnaround. Expedited residential reviews can reduce timelines by 50% or more. This is especially valuable for Charlotte contractors managing tight construction schedules or homeowners facing time-sensitive situations (insurance claims, lease terminations, etc.).</p>
+<p>Mecklenburg County offers expedited review for projects that need faster turnaround. Expedited reviews can reduce timelines by 50% or more. This is especially valuable for Charlotte contractors managing tight construction schedules or commercial property owners facing time-sensitive situations (lease terminations, opening deadlines, insurance claims, etc.).</p>
 
 <h3>Inspection Types and What Inspectors Look For</h3>
 
@@ -7583,7 +7564,7 @@ const guides: Guide[] = [
     excerpt: 'How to find, evaluate, and hire the right contractor in Charlotte — licensing verification, insurance checks, bid comparison, contract essentials, and red flags.', category: 'Commercial', categorySlug: 'commercial', icon: 'Building2', image: '/images/guides/choosing-contractor.jpg', date: '2026-01-28', readTime: '13 min read',
     tableOfContents: [{ id: 'finding', title: 'Finding Candidates' }, { id: 'vetting', title: 'Vetting Credentials' }, { id: 'comparing', title: 'Comparing Bids' }, { id: 'contract', title: 'Contract Essentials' }, { id: 'red-flags', title: 'Red Flags' }],
     faqs: [
-      { question: 'How do I verify a Charlotte contractor\'s license?', answer: 'Visit nclbgc.org (NC Licensing Board for General Contractors) and search by company name or license number. Verify the license is active, check the classification (residential, commercial, or both), and review any disciplinary history. For SC work, check llr.sc.gov. A legitimate contractor will readily provide their license number.' },
+      { question: 'How do I verify a Charlotte contractor\'s license?', answer: 'Visit nclbgc.org (NC Licensing Board for General Contractors) and search by company name or license number. Verify the license is active, check the classification, and review any disciplinary history. For SC work, check llr.sc.gov. A legitimate contractor will readily provide their license number.' },
       { question: 'How many bids should I get for a construction project?', answer: 'Three bids is the standard recommendation. Fewer than three doesn\'t provide adequate comparison. More than five creates confusion and wastes contractors\' time. Ensure all bidders are quoting the same scope — provide identical specifications to each for fair comparison.' },
       { question: 'What should a construction contract include?', answer: 'Essential elements: detailed scope of work, total price and payment schedule (tied to milestones), start and completion dates, change order process, warranty terms, insurance requirements, and dispute resolution process. Never begin work without a signed contract that includes all of these elements.' },
     ],
@@ -7602,7 +7583,7 @@ const guides: Guide[] = [
 
 <p><strong>Full-Service General Contractors:</strong> Some general contractors coordinate both design and construction, handling everything from initial concept to finished product. Benefits include streamlined communication and typically more accurate budgeting because the builder is involved in the design from the start. We Build operates as a full-service general contractor, providing this integrated approach for our clients.</p>
 
-<p><strong>Construction Manager (CM):</strong> A CM acts as your representative, overseeing the project on your behalf without actually performing construction work. The CM helps select and manage the GC and subcontractors, reviews budgets and schedules, and ensures quality. CMs are most common on large commercial projects where the owner wants an independent advocate during construction. For residential projects under \$500,000, a CM is rarely necessary if you have a reputable GC.</p>
+<p><strong>Construction Manager (CM):</strong> A CM acts as your representative, overseeing the project on your behalf without actually performing construction work. The CM helps select and manage the GC and subcontractors, reviews budgets and schedules, and ensures quality. CMs are most common on large commercial projects where the owner wants an independent advocate during construction. For smaller commercial projects under \$500,000, a CM is rarely necessary if you have a reputable GC.</p>
 
 <h3>Where to Find Contractors in Charlotte</h3>
 
@@ -7643,8 +7624,8 @@ const guides: Guide[] = [
 
 <p>License classifications:</p>
 <ul>
-  <li><strong>Unlimited:</strong> Can perform projects of any dollar value. Required for large commercial projects and high-value residential construction</li>
-  <li><strong>Intermediate:</strong> Projects up to \$500,000. Suitable for most residential renovations and additions</li>
+  <li><strong>Unlimited:</strong> Can perform projects of any dollar value. Required for large commercial projects and high-value construction</li>
+  <li><strong>Intermediate:</strong> Projects up to \$500,000. Suitable for most mid-sized commercial renovations and tenant improvements</li>
   <li><strong>Limited:</strong> Projects up to \$90,000. Suitable for smaller renovations and repairs</li>
 </ul>
 
@@ -7663,7 +7644,7 @@ const guides: Guide[] = [
 
 <h3>Bonding for Commercial Projects</h3>
 
-<p>For commercial construction projects, the contractor may need to be bonded. A performance bond guarantees that the contractor will complete the project per the contract terms. A payment bond guarantees that the contractor will pay their subcontractors and suppliers. Bond requirements are common on government projects and institutional work. Residential projects rarely require bonding, but it is available as additional protection for high-value residential projects.</p>
+<p>For commercial construction projects, the contractor may need to be bonded. A performance bond guarantees that the contractor will complete the project per the contract terms. A payment bond guarantees that the contractor will pay their subcontractors and suppliers. Bond requirements are common on government projects, institutional work, and many private commercial projects. Bonding is available as additional protection for high-value commercial projects.</p>
 
 <h3>Reference Checking Process</h3>
 
@@ -7715,7 +7696,7 @@ const guides: Guide[] = [
 
 <h3>Understanding Estimates and Pricing Structures</h3>
 
-<p><strong>Fixed Price (Lump Sum):</strong> The contractor provides a single price for the entire project. The price does not change unless the scope changes through a formal change order. This is the most common residential contract type. Advantage: you know your total cost upfront. Risk: the contractor may have added a larger contingency to protect themselves from unknowns.</p>
+<p><strong>Fixed Price (Lump Sum):</strong> The contractor provides a single price for the entire project. The price does not change unless the scope changes through a formal change order. This is a common contract type for well-defined commercial projects. Advantage: you know your total cost upfront. Risk: the contractor may have added a larger contingency to protect themselves from unknowns.</p>
 
 <p><strong>Cost-Plus:</strong> The contractor charges you for the actual cost of materials and labor plus a markup (typically 15-25% in Charlotte). Advantage: transparent pricing, you see every invoice. Risk: the total cost is unknown until the project is complete, and costs can exceed initial estimates. Cost-plus contracts should include a "Guaranteed Maximum Price" (GMP) cap to protect you.</p>
 
@@ -7772,7 +7753,7 @@ const guides: Guide[] = [
 
 <p><strong>Contract Price:</strong> The total price and what it includes. Itemize by category if possible. Specify whether the price is fixed or cost-plus, and if cost-plus, what the markup percentage is and whether there is a guaranteed maximum price.</p>
 
-<p><strong>Payment Schedule:</strong> Payments should be tied to measurable milestones, not dates. A typical residential payment schedule in Charlotte:</p>
+<p><strong>Payment Schedule:</strong> Payments should be tied to measurable milestones, not dates. A typical commercial payment schedule in Charlotte:</p>
 <ul>
   <li>Upon signing: 5-10% deposit (never pay more than 10% upfront)</li>
   <li>Foundation complete: 15-20%</li>
@@ -8028,7 +8009,7 @@ const guides: Guide[] = [
 <h3>Essential Qualifications</h3>
 <ul>
 <li><strong>North Carolina General Contractor license:</strong> Verify active licensure with the NC Licensing Board for General Contractors.</li>
-<li><strong>Commercial renovation experience:</strong> Ask for references from similar projects in the Charlotte area, not just residential work.</li>
+<li><strong>Commercial renovation experience:</strong> Ask for references from comparable commercial projects in the Charlotte area, not just smaller-scale work.</li>
 <li><strong>Insurance coverage:</strong> Confirm adequate general liability, workers' compensation, and builder's risk insurance.</li>
 <li><strong>Bonding capacity:</strong> For larger projects, ensure the contractor can provide performance and payment bonds.</li>
 <li><strong>Financial stability:</strong> A contractor who cannot pay subcontractors on time will cause delays and quality issues on your project.</li>
@@ -8663,14 +8644,14 @@ const guides: Guide[] = [
 <ul>
 <li><strong>I-1 (Light Industrial):</strong> Permits warehousing, distribution, light manufacturing, and flex space. Prohibits heavy manufacturing, outdoor storage of raw materials, and certain high-impact uses.</li>
 <li><strong>I-2 (General Industrial):</strong> Permits all I-1 uses plus heavy manufacturing, outdoor storage, and processing operations. This is the most permissive industrial zoning district.</li>
-<li><strong>MX (Mixed-Use):</strong> Some mixed-use districts allow limited industrial uses, particularly in transit-oriented development areas. However, industrial intensity is limited, and residential adjacency can create noise and traffic conflicts.</li>
+<li><strong>MX (Mixed-Use):</strong> Some mixed-use districts allow limited industrial uses, particularly in transit-oriented development areas. However, industrial intensity is limited, and adjacency to neighboring uses can create noise and traffic conflicts.</li>
 </ul>
 <p>Important zoning considerations for Charlotte industrial construction:</p>
 <ul>
-<li><strong>Setbacks and buffers:</strong> Industrial buildings adjacent to residential zoning require substantial vegetated buffers (often 37.5 to 75 feet) that reduce buildable area.</li>
+<li><strong>Setbacks and buffers:</strong> Industrial buildings adjacent to lower-intensity zoning districts require substantial vegetated buffers (often 37.5 to 75 feet) that reduce buildable area.</li>
 <li><strong>Impervious surface limits:</strong> Mecklenburg County limits impervious surface coverage, which directly affects building footprint, parking, and truck court area. Industrial sites often require stormwater detention/retention facilities.</li>
 <li><strong>Conditional rezoning:</strong> Many industrial projects in Charlotte require conditional rezoning (CZ) approval, which involves a public hearing and may result in conditions (traffic improvements, design standards, buffer enhancements) that affect project cost and timeline.</li>
-<li><strong>Truck route restrictions:</strong> Charlotte has designated truck routes. Sites not on designated truck routes may face restrictions on truck traffic through residential areas.</li>
+<li><strong>Truck route restrictions:</strong> Charlotte has designated truck routes. Sites not on designated truck routes may face restrictions on truck traffic through neighborhood areas.</li>
 </ul>
 
 <h2 id="industrial-construction-costs-in-charlotte">Industrial Construction Costs in Charlotte</h2>
@@ -9157,7 +9138,7 @@ const guides: Guide[] = [
   // ============================================================
   {
     id: '33',
-    title: 'Charlotte Building Permit Guide: Commercial & Residential Process, Costs, and Timelines',
+    title: 'Charlotte Commercial Building Permit Guide: Process, Costs, and Timelines',
     slug: 'charlotte-building-permit-guide',
     excerpt: 'Everything you need to know about getting a building permit in Charlotte, NC — Mecklenburg County fees, application steps, timelines, common delays, and when to use a licensed contractor.',
     category: 'Commercial',
@@ -9169,7 +9150,7 @@ const guides: Guide[] = [
     tableOfContents: [
       { id: 'mecklenburg-permitting-overview', title: 'Charlotte / Mecklenburg County Permitting Overview' },
       { id: 'types-of-permits', title: 'Types of Permits Required' },
-      { id: 'commercial-vs-residential', title: 'Commercial vs. Residential Process Differences' },
+      { id: 'commercial-permit-overview', title: 'Commercial Permit Process Overview' },
       { id: 'step-by-step-application', title: 'Step-by-Step Permit Application Process' },
       { id: 'permit-costs', title: 'Permit Costs and Fee Structure' },
       { id: 'timelines', title: 'Typical Permit Timelines' },
@@ -9183,7 +9164,7 @@ const guides: Guide[] = [
       },
       {
         question: 'How long does it take to get a building permit in Charlotte NC?',
-        answer: 'Residential permit timelines in Charlotte typically run 2 to 4 weeks for straightforward projects. Simple commercial permits for interior tenant upfits with no structural changes usually take 3 to 6 weeks. Complex commercial projects requiring full plan review — new construction, change of occupancy, or projects with zoning and land development approvals — can take 3 to 6 months or longer. Projects in historic districts or those requiring Charlotte-Mecklenburg Planning Department approval add additional review cycles. Permit timelines vary with volume at the Mecklenburg County Code Enforcement office and the completeness of your submittal package.',
+        answer: 'Simple commercial permits for interior tenant upfits with no structural changes usually take 3 to 6 weeks. Mid-sized commercial projects typically run 6 to 10 weeks. Complex commercial projects requiring full plan review — new construction, change of occupancy, or projects with zoning and land development approvals — can take 3 to 6 months or longer. Projects in historic districts or those requiring Charlotte-Mecklenburg Planning Department approval add additional review cycles. Permit timelines vary with volume at the Mecklenburg County Code Enforcement office and the completeness of your submittal package.',
       },
       {
         question: 'Do I need a permit to renovate commercial space in Charlotte?',
@@ -9194,12 +9175,12 @@ const guides: Guide[] = [
         answer: 'Charlotte and Mecklenburg County use the POLARIS online permitting system (accessible at permits.mecknc.gov) for most permit applications. The process starts with creating an account, then entering project information including property address, owner details, contractor license numbers, and project description. Construction documents are uploaded directly through the portal. After submission, the application enters plan review queue and reviewers may issue comments or correction letters (called "blocker issues") through the portal. Once all review disciplines approve the plans, fees are calculated and must be paid online before the permit is issued.',
       },
       {
-        question: 'Can a homeowner pull their own building permit in Charlotte NC?',
-        answer: 'In North Carolina, homeowners are allowed to act as their own general contractor and pull permits for work on their primary residence, provided they occupy the home. However, licensed subcontractors are required for electrical, plumbing, and mechanical work — these trades cannot be self-performed by homeowners. For commercial projects, permits must be pulled by licensed general contractors or licensed specialty contractors. Most homeowners and all commercial property owners benefit from using a licensed general contractor who manages the permitting process, coordinates inspections, and holds responsibility for code compliance.',
+        question: 'Who can pull a commercial building permit in Charlotte NC?',
+        answer: 'For commercial projects in Charlotte, permits must be pulled by licensed general contractors or licensed specialty contractors. Property owners benefit from using a licensed general contractor who manages the permitting process, coordinates inspections, and holds responsibility for code compliance. Subcontractors performing electrical, plumbing, or mechanical work must hold their own valid trade licenses, and their permits are typically pulled separately and tied to the master building permit.',
       },
     ],
     content: `
-<p><strong>A building permit in Charlotte, NC is required for any new construction, renovation, addition, or demolition of a building.</strong> Permits are issued by Mecklenburg County Code Enforcement through the POLARIS online portal. Commercial building permit fees are calculated at approximately $10–$15 per $1,000 of construction value. Residential permits typically take 1–4 weeks; commercial permits take 4–12 weeks depending on project complexity. <a href="/contact">Contact We Build</a> for permit assistance on your project.</p>
+<p><strong>A commercial building permit in Charlotte, NC is required for any new construction, renovation, addition, or demolition of a commercial building.</strong> Permits are issued by Mecklenburg County Code Enforcement through the POLARIS online portal. Commercial building permit fees are calculated at approximately $10–$15 per $1,000 of construction value. Commercial permits take 4–12 weeks depending on project complexity. <a href="/contact">Contact We Build</a> for permit assistance on your project.</p>
 
 <h2 id="mecklenburg-permitting-overview">Charlotte / Mecklenburg County Permitting Overview</h2>
 
@@ -9256,19 +9237,17 @@ const guides: Guide[] = [
 
 <p>Site work including grading, land clearing, erosion and sedimentation control, stormwater infrastructure, and utility extensions requires a grading or land development permit from Charlotte-Mecklenburg Land Development. This permit is separate from the building permit and often runs on a parallel timeline. Projects disturbing more than one acre also require a NPDES Construction General Permit from the North Carolina Department of Environmental Quality. Charlotte's post-construction stormwater requirements apply to commercial projects that disturb more than half an acre, requiring stormwater management facilities (detention ponds, bioretention areas, permeable pavement, or similar BMPs) designed to meet the Charlotte Land Development Standards Manual.</p>
 
-<h2 id="commercial-vs-residential">Commercial vs. Residential Process Differences</h2>
+<h2 id="commercial-permit-overview">Commercial Permit Process Overview</h2>
 
-<p>While the basic permitting framework applies to all construction in Mecklenburg County, commercial and residential projects follow meaningfully different paths through the system.</p>
+<p>Commercial permitting in Mecklenburg County follows a more rigorous path than smaller-scale work. Understanding what the county expects from a commercial submittal helps owners and contractors avoid the most common delays.</p>
 
 <h3>Plan Review Requirements</h3>
-
-<p>Residential projects — single-family homes, townhomes, and small multi-family — can often use prescriptive code paths and simplified documentation. A set of construction drawings prepared by a residential designer or experienced builder may suffice for straightforward residential permits.</p>
 
 <p>Commercial projects almost universally require drawings prepared and stamped by licensed design professionals. The North Carolina licensing laws require that architectural drawings for commercial buildings be prepared by a licensed architect, and structural drawings be prepared by a licensed structural engineer. Electrical, plumbing, and mechanical design documents for commercial projects above certain thresholds must be prepared by licensed engineers in those respective disciplines. This design professional requirement adds both cost and time to the front end of commercial permitting but results in a more complete and code-compliant submittal that moves through plan review faster.</p>
 
 <h3>Plan Review Disciplines</h3>
 
-<p>Residential plan review in Mecklenburg County is typically handled by a small number of reviewers covering building, electrical, and site issues. Commercial plan review involves multiple disciplines reviewing the same set of documents in parallel: architectural, structural, electrical, plumbing, mechanical, fire protection, zoning, and sometimes accessibility (ADA compliance). Each discipline can independently issue correction comments, and all disciplines must approve before the permit is issued.</p>
+<p>Commercial plan review involves multiple disciplines reviewing the same set of documents in parallel: architectural, structural, electrical, plumbing, mechanical, fire protection, zoning, and sometimes accessibility (ADA compliance). Each discipline can independently issue correction comments, and all disciplines must approve before the permit is issued. This parallel review can compress the calendar when submittals are clean — and stretch it considerably when revisions are needed.</p>
 
 <h3>Occupancy Classifications and Life Safety</h3>
 
@@ -9420,15 +9399,6 @@ const guides: Guide[] = [
 
 <p>Permit timelines are one of the most variable and frustrating aspects of commercial construction planning in Charlotte. Timelines depend on project complexity, current plan review backlog at Mecklenburg County Code Enforcement, the quality and completeness of the permit submittal, and whether zoning or land development approvals are required as prerequisites.</p>
 
-<h3>Residential Permits</h3>
-
-<ul>
-  <li><strong>Simple residential permits</strong> (roof replacement, water heater, HVAC replacement): 1 to 5 business days, often over-the-counter or same-day through POLARIS for straightforward work.</li>
-  <li><strong>Interior renovation permits</strong> (kitchen remodel, bathroom addition): 2 to 4 weeks for plan review.</li>
-  <li><strong>New single-family home</strong>: 3 to 6 weeks for plan review, depending on complexity and whether the home uses pre-approved plans.</li>
-  <li><strong>Residential addition</strong>: 2 to 6 weeks depending on structural complexity and proximity to setbacks or floodplain.</li>
-</ul>
-
 <h3>Commercial Permits</h3>
 
 <ul>
@@ -9480,7 +9450,7 @@ const guides: Guide[] = [
 
 <h2 id="when-you-need-professional-help">When You Need Professional Help</h2>
 
-<p>While straightforward residential permits can sometimes be navigated without professional assistance, commercial construction permitting in Charlotte almost always benefits from experienced professional guidance.</p>
+<p>Commercial construction permitting in Charlotte almost always benefits from experienced professional guidance.</p>
 
 <h3>Licensed Architect or Engineer Stamps</h3>
 
@@ -9812,7 +9782,7 @@ const guides: Guide[] = [
     content: `
 <h2 id="financing-barrier">Financing as the Biggest Barrier to Commercial Projects</h2>
 
-<p>For business owners and real estate investors in Charlotte, the biggest obstacle to moving forward on a commercial construction project is rarely finding the right contractor or selecting finishes. It is securing financing. Commercial construction loans are structurally different from residential mortgages, involve more parties, carry higher due-diligence requirements, and move on timelines that demand early planning. Understanding your options before you engage an architect or begin design can make the difference between a project that closes and one that stalls.</p>
+<p>For business owners and real estate investors in Charlotte, the biggest obstacle to moving forward on a commercial construction project is rarely finding the right contractor or selecting finishes. It is securing financing. Commercial construction loans are structurally different from standard business loans, involve more parties, carry higher due-diligence requirements, and move on timelines that demand early planning. Understanding your options before you engage an architect or begin design can make the difference between a project that closes and one that stalls.</p>
 
 <p>Charlotte's commercial real estate market has continued to attract significant investment, from South End mixed-use developments to industrial parks along the I-85 corridor and medical office expansion near the major hospital campuses. Lenders are active, but they are selective. This guide explains the primary financing vehicles available — SBA 504, SBA 7(a), conventional construction loans, and tenant improvement allowances — along with practical guidance on how general contractor payment works and what you can do to put your loan application in the strongest possible position.</p>
 
@@ -9940,7 +9910,7 @@ const guides: Guide[] = [
 
 <h3>Using Equity in Existing Real Estate</h3>
 
-<p>Business owners and investors who hold equity in existing commercial or residential real estate can tap that equity through a commercial equity line of credit or a cash-out refinance to fund construction of a new project. This approach leverages existing assets without liquidating them, and interest on a commercial equity line used for business purposes is generally deductible. Lenders typically allow up to 75–80% combined loan-to-value on commercial properties.</p>
+<p>Business owners and investors who hold equity in existing commercial real estate can tap that equity through a commercial equity line of credit or a cash-out refinance to fund construction of a new project. This approach leverages existing assets without liquidating them, and interest on a commercial equity line used for business purposes is generally deductible. Lenders typically allow up to 75–80% combined loan-to-value on commercial properties.</p>
 
 <h3>Business Lines of Credit</h3>
 
@@ -9948,7 +9918,7 @@ const guides: Guide[] = [
 
 <h2 id="gc-payment-structure">How GC Payment Works During Construction</h2>
 
-<p>Understanding how your general contractor is paid during construction is directly relevant to how you structure your financing and cash flow. Commercial construction uses a structured payment process that differs significantly from residential remodeling.</p>
+<p>Understanding how your general contractor is paid during construction is directly relevant to how you structure your financing and cash flow. Commercial construction uses a structured progress-billing payment process designed for the scale and complexity of commercial work.</p>
 
 <h3>Progress Billing and AIA Format</h3>
 
@@ -9968,7 +9938,7 @@ const guides: Guide[] = [
 
 <h2 id="financing-success-tips">Tips for Financing Success</h2>
 
-<p>Commercial construction financing is underwritten differently from business loans and residential mortgages. Lenders evaluate the project, the borrower, and the business simultaneously. The following practices consistently improve approval odds and help borrowers secure better terms.</p>
+<p>Commercial construction financing is underwritten differently from standard business loans. Lenders evaluate the project, the borrower, and the business simultaneously. The following practices consistently improve approval odds and help borrowers secure better terms.</p>
 
 <h3>Get Pre-Construction Estimates Before Applying</h3>
 
@@ -10006,7 +9976,7 @@ const guides: Guide[] = [
 ];
 
 
-/** Slugs of homeowner/residential-focused guides excluded from public listing */
+/** Slugs of homeowner-focused guides excluded from public listing — We Build is commercial-only */
 const excludedSlugs = new Set([
   'home-maintenance-guide-charlotte',
   'flooring-options-guide-charlotte-homes',
@@ -10014,6 +9984,14 @@ const excludedSlugs = new Set([
   'hardwood-vs-lvp-flooring-charlotte',
   'countertop-buying-guide-quartz-granite-marble',
   'cabinet-selection-guide-stock-semi-custom',
+  'bathroom-remodel-guide-charlotte',
+  'energy-efficiency-guide-charlotte-homes',
+  'home-addition-planning-guide-charlotte',
+  'charlotte-moisture-humidity-guide-homeowners',
+  'paint-color-guide-charlotte-homes',
+  'deck-outdoor-living-guide-charlotte',
+  'lighting-design-guide-charlotte-homes',
+  'first-time-home-buyer-construction-guide-charlotte',
 ]);
 
 export function getAllGuides(): Guide[] {
@@ -10021,13 +9999,14 @@ export function getAllGuides(): Guide[] {
 }
 
 export function getGuideBySlug(slug: string): Guide | undefined {
+  if (excludedSlugs.has(slug)) return undefined;
   return guides.find((g) => g.slug === slug);
 }
 
 export function getGuidesByCategory(categorySlug: string): Guide[] {
-  return guides.filter((g) => g.categorySlug === categorySlug);
+  return guides.filter((g) => g.categorySlug === categorySlug && !excludedSlugs.has(g.slug));
 }
 
 export function getAllGuideSlugs(): string[] {
-  return guides.map((g) => g.slug);
+  return guides.filter((g) => !excludedSlugs.has(g.slug)).map((g) => g.slug);
 }

@@ -356,7 +356,7 @@ export default async function BlogPostPage({
                 <Link
                   key={rp.id}
                   href={`/blog/${rp.slug}`}
-                  className="group block rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-md transition-all"
+                  className="group block rounded-lg overflow-hidden bg-card shadow-sm hover:shadow-md transition-shadow"
                 >
                   <div className="relative aspect-[16/9] image-hover bg-muted">
                     {rp.featured_image ? (
