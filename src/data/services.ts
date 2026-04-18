@@ -25,16 +25,10 @@ export const allServices: ServiceLink[] = [
   { name: 'Brewery Construction', href: '/services/brewery-construction', description: 'Craft brewery, taproom, brewpub, and cidery construction.', category: 'commercial' },
   // — Specialty —
   { name: 'General Contractor', href: '/services/general-contractor', description: 'Full-service general contracting for any project type.', category: 'specialty' },
-  { name: 'Construction Management', href: '/services/construction-management', description: 'Professional project oversight and construction management.', category: 'specialty' },
-  { name: 'Pre-Construction', href: '/services/pre-construction', description: 'Budgeting, planning, and feasibility before breaking ground.', category: 'specialty' },
   { name: 'Roof Coating', href: '/services/roof-coating', description: 'Commercial roof coating, restoration, and waterproofing.', category: 'specialty' },
   { name: 'Green Building', href: '/services/green-building', description: 'Sustainable construction and USGBC-aligned building practices.', category: 'specialty' },
   { name: 'ADA Compliance', href: '/services/ada-compliance', description: 'ADA-compliant renovations and accessibility upgrades.', category: 'specialty' },
   { name: 'Drone Inspections', href: '/services/drone-inspections', description: 'FAA-certified thermal drone roof inspections and aerial surveys.', category: 'specialty' },
-  { name: 'Site Development', href: '/services/site-development', description: 'Land clearing, grading, stormwater management, and site preparation.', category: 'specialty' },
-  { name: 'Value Engineering', href: '/services/value-engineering', description: 'Construction cost optimization and budget management.', category: 'specialty' },
-  { name: "Owner's Representative", href: '/services/owners-representative', description: 'Construction project advocacy, oversight, and owner representation.', category: 'specialty' },
-  { name: 'Adaptive Reuse', href: '/services/adaptive-reuse', description: 'Historic renovation and building conversion projects.', category: 'specialty' },
 ];
 
 export const servicesByCategory = {
@@ -71,16 +65,10 @@ export const serviceToGuides: Record<string, string[]> = {
   'industrial-construction': ['commercial-building-maintenance-checklist', 'energy-efficiency-guide-charlotte-homes', 'commercial-roof-inspection-checklist-charlotte'],
   'tenant-improvements': ['tenant-improvement-allowance-guide-charlotte', 'commercial-construction-financing-guide-charlotte', 'office-build-out-guide-charlotte', 'commercial-flooring-guide-business-type'],
   'general-contractor': ['commercial-construction-costs-charlotte', 'charlotte-building-permit-guide', 'commercial-construction-timeline-guide-charlotte', 'choosing-right-contractor-charlotte-guide'],
-  'construction-management': ['commercial-construction-timeline-guide-charlotte', 'commercial-construction-costs-charlotte', 'commercial-building-maintenance-checklist'],
-  'pre-construction': ['commercial-construction-costs-charlotte', 'commercial-construction-timeline-guide-charlotte', 'commercial-construction-financing-guide-charlotte', 'charlotte-building-permit-guide'],
   'roof-coating': ['roof-maintenance-guide-extend-life', 'commercial-roof-inspection-checklist-charlotte', 'energy-efficiency-guide-charlotte-homes'],
   'green-building': ['green-building-guide-sustainable-charlotte', 'energy-efficiency-guide-charlotte-homes', 'commercial-building-maintenance-checklist'],
   'ada-compliance': ['ada-compliance-guide-charlotte-businesses', 'commercial-building-maintenance-checklist', 'office-build-out-guide-charlotte'],
   'drone-inspections': ['commercial-roof-inspection-checklist-charlotte', 'roof-maintenance-guide-extend-life', 'commercial-building-maintenance-checklist'],
   'brewery-construction': ['restaurant-opening-guide-charlotte', 'charlotte-building-permit-guide', 'commercial-flooring-guide-business-type'],
   'warehouse-construction': ['commercial-building-maintenance-checklist', 'energy-efficiency-guide-charlotte-homes', 'commercial-roof-inspection-checklist-charlotte'],
-  'site-development': ['charlotte-building-permit-guide', 'commercial-building-maintenance-checklist', 'choosing-right-contractor-charlotte-guide'],
-  'value-engineering': ['commercial-construction-costs-charlotte', 'choosing-right-contractor-charlotte-guide', 'commercial-building-maintenance-checklist'],
-  'owners-representative': ['commercial-construction-financing-guide-charlotte', 'commercial-construction-costs-charlotte', 'choosing-right-contractor-charlotte-guide'],
-  'adaptive-reuse': ['charlotte-building-permit-guide', 'green-building-guide-sustainable-charlotte', 'commercial-building-maintenance-checklist'],
 };

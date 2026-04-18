@@ -7,7 +7,7 @@ export const BUSINESS = {
   name: 'We Build',
   phone: '(980) 471-1745',
   phoneTel: '9804711745',
-  email: 'info@webuildclt.com',
+  email: 'designcenter@webuildclt.com',
   url: 'https://webuildclt.com',
   address: {
     street: '14330 S Lakes Drive',

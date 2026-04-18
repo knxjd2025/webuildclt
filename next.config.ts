@@ -30,7 +30,25 @@ const nextConfig: NextConfig = {
 
   // Experimental features for better performance
   experimental: {
-    optimizePackageImports: ['lucide-react'],
+    optimizePackageImports: [
+      'lucide-react',
+      '@radix-ui/react-slot',
+      '@radix-ui/react-dialog',
+      '@radix-ui/react-label',
+      '@radix-ui/react-navigation-menu',
+      'class-variance-authority',
+    ],
+  },
+
+  // External redirect: Roof Coating links should go to wecoatus.com
+  async redirects() {
+    return [
+      {
+        source: '/services/roof-coating',
+        destination: 'https://www.wecoatus.com',
+        permanent: false,
+      },
+    ];
   },
 
   // Headers for security and caching
@@ -66,17 +84,6 @@ const nextConfig: NextConfig = {
     ];
   },
 
-  // Redirects for SEO (add old URL redirects here)
-  async redirects() {
-    return [
-      // Example: redirect old URLs to new ones
-      // {
-      //   source: '/old-page',
-      //   destination: '/new-page',
-      //   permanent: true,
-      // },
-    ];
-  },
 };
 
 export default nextConfig;

@@ -73,7 +73,7 @@ const values = [
     icon: Heart,
     title: 'Integrity',
     description:
-      'We do what we say and say what we do. Honesty guides every decision from the initial consultation to the final walkthrough. When we encounter a problem, we tell you immediately and present solutions. Our pricing is transparent, our timelines are realistic, and our word is our bond. We believe that trust is built through consistent action, not promises. That is why we provide detailed written proposals, maintain open-book accounting on cost-plus projects, and never surprise our clients with hidden fees or unexpected change orders.',
+      'We do what we say and say what we do. Honesty guides every decision from the initial consultation to the final walkthrough. When we encounter a problem, we tell you immediately and present solutions. Our pricing is transparent, our timelines are realistic, and our word is our bond. We believe that trust is built through consistent action, not promises. That is why we provide detailed written proposals and never surprise our clients with hidden fees or unexpected change orders.',
   },
   {
     icon: Gem,
@@ -559,11 +559,9 @@ export default function AboutPage() {
               <p className="text-muted-foreground leading-relaxed">
                 We also believe in supporting our fellow veterans and military
                 families. We are proud to be working with Purple Heart Homes,
-                and we actively recruit veterans into construction roles,
-                understanding that the skills and discipline developed in
-                military service are exactly what the construction industry
-                needs. When you choose We Build, you are supporting a company
-                that supports those who served.
+                bringing the discipline and standards of military service to
+                every project we deliver. When you choose We Build, you are
+                supporting a company that supports those who served.
               </p>
               <div className="grid grid-cols-2 gap-4 pt-4">
                 {[
@@ -615,7 +613,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-semibold mb-3">Leadership Team</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Our leadership team brings decades of experience in commercial
-                  and residential construction, project management, and business
+                  construction, project management, and business
                   operations. Led by our veteran founder, the leadership team
                   sets the standard for quality, integrity, and client service
                   that defines the We Build experience. They are hands-on
@@ -774,10 +772,10 @@ export default function AboutPage() {
             </h2>
             <p className="text-muted-foreground">
               We Build delivers a full range of construction services for
-              commercial and residential clients across the Charlotte metro
+              commercial clients across the Charlotte metro
               area. Each service is backed by our veteran-owned commitment to
               quality, transparency, and on-time delivery. Whether you need a
-              ground-up commercial build or a residential kitchen renovation,
+              ground-up commercial build or a tenant upfit,
               our experienced team delivers results you can count on.
             </p>
           </div>
@@ -813,10 +811,6 @@ export default function AboutPage() {
               ,{' '}
               <Link href="/services/green-building" className="text-primary hover:underline">
                 green building
-              </Link>
-              ,{' '}
-              <Link href="/services/construction-management" className="text-primary hover:underline">
-                construction management
               </Link>
               .{' '}
               <Link href="/services" className="text-primary hover:underline font-medium">
@@ -1035,10 +1029,7 @@ export default function AboutPage() {
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 As a veteran-owned company, supporting veteran causes and
-                organizations is close to our heart. We actively hire veterans,
-                understanding that the skills, discipline, and work ethic
-                developed in military service are exactly what the construction
-                industry needs. We also support local veteran support
+                organizations is close to our heart. We support local veteran
                 organizations and participate in community events that honor
                 military service members and their families.
               </p>
@@ -1046,8 +1037,7 @@ export default function AboutPage() {
                 We Build partners with local suppliers and subcontractors
                 whenever possible, keeping construction dollars circulating
                 within the Charlotte economy. We invest in training and
-                development for our team members, creating career pathways in
-                the skilled trades. And we are proud to contribute to
+                development for our team members. And we are proud to contribute to
                 Charlotte&apos;s built environment through quality construction that
                 enhances neighborhoods, supports local businesses, and creates
                 spaces where people thrive.
@@ -1057,9 +1047,9 @@ export default function AboutPage() {
               <h3 className="text-xl font-semibold">Our Community Commitments</h3>
               {[
                 {
-                  title: 'Veteran Hiring & Support',
+                  title: 'Veteran Community Support',
                   description:
-                    'Actively recruiting veterans into construction careers and supporting veteran-focused community organizations.',
+                    'Supporting veteran-focused community organizations and honoring military service members and their families.',
                 },
                 {
                   title: 'Local Supplier Partnerships',

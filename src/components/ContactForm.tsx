@@ -60,7 +60,7 @@ export function ContactForm() {
             <h3 className="text-2xl font-bold mb-2">Thank You!</h3>
             <p className="text-muted-foreground mb-6">
               We&apos;ve received your message and will get back to you
-              shortly. Our team typically responds within one business day.
+              shortly. Our team typically responds within 2 business days.
             </p>
             <Button onClick={() => setIsSubmitted(false)}>
               Send Another Message
@@ -72,7 +72,7 @@ export function ContactForm() {
               Request a Free Consultation
             </h2>
             <p className="text-muted-foreground mb-6">
-              Fill out the form below and a member of our team will be in touch within one business day. All fields marked with * are required.
+              Fill out the form below and a member of our team will be in touch within 2 business days. All fields marked with * are required.
             </p>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid md:grid-cols-2 gap-6">

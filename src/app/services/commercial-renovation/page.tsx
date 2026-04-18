@@ -780,7 +780,6 @@ export default function CommercialRenovationPage() {
             {[
               { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', type: 'Service' },
               { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service' },
-              { title: 'Adaptive Reuse Charlotte NC', href: '/services/adaptive-reuse', type: 'Service' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service' },
               { title: 'How Much Does a Commercial Renovation Cost?', href: '/blog/commercial-renovation-cost-charlotte', type: 'Blog' },
               { title: 'Renovation vs. New Construction: A Cost Comparison', href: '/blog/renovation-vs-new-construction-cost', type: 'Blog' },

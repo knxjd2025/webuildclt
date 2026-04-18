@@ -145,11 +145,11 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:info@webuildclt.com"
+                  href="mailto:designcenter@webuildclt.com"
                   className="flex items-center gap-3 text-sm text-secondary-foreground/85 hover:text-primary transition-colors"
                 >
                   <Mail className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
-                  info@webuildclt.com
+                  designcenter@webuildclt.com
                 </a>
               </li>
             </ul>

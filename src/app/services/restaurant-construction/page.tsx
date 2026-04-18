@@ -631,7 +631,7 @@ export default function RestaurantConstructionPage() {
                   'Exposed steel, concrete floors, and designer pendant lighting',
                   'Full ABC on-premises mixed beverage permit layout coordination',
                 ],
-                desc: 'An adaptive reuse of a mid-century industrial warehouse in NoDa, transformed into an upscale cocktail lounge with a 42-foot bar, VIP lounge pods, and a full draft beer program. The project required structural reinforcement of the existing roof deck, complete mechanical and electrical upgrades, and careful acoustic design to support a live entertainment program within a mixed-use residential corridor.',
+                desc: 'An adaptive reuse of a mid-century industrial warehouse in NoDa, transformed into an upscale cocktail lounge with a 42-foot bar, VIP lounge pods, and a full draft beer program. The project required structural reinforcement of the existing roof deck, complete mechanical and electrical upgrades, and careful acoustic design to support a live entertainment program within a mixed-use corridor.',
               },
               {
                 title: 'Food Hall Vendor Stall',
@@ -903,7 +903,6 @@ export default function RestaurantConstructionPage() {
               { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', type: 'Service', desc: 'Explore our full commercial upfit services including restaurant build-outs, office renovations, and retail spaces.' },
               { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service', desc: 'TI build-outs and leasehold improvements for restaurant tenants, including TI allowance maximization.' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for restaurants, retail, and mixed-use developments across the Charlotte metro.' },
-              { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control and budget management for complex restaurant projects.' },
               { title: 'Restaurant Opening Guide: Build-Out, Permits & Timeline in Charlotte', href: '/guides/restaurant-opening-guide-charlotte', type: 'Guide', desc: 'Everything you need to know about opening a restaurant in Charlotte, from permits and timeline to build-out costs.' },
               { title: 'Brewery Construction Charlotte NC', href: '/services/brewery-construction', type: 'Service', desc: 'Craft brewery, taproom, and brewpub construction with specialized systems for glycol, CO2, grain handling, and ABC licensing.' },
               { title: 'Commercial Flooring Guide: Best Options by Business Type', href: '/guides/commercial-flooring-guide-business-type', type: 'Guide', desc: 'Choose the best commercial flooring for your restaurant, retail space, or office with our comprehensive guide.' },

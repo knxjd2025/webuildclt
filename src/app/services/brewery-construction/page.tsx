@@ -105,7 +105,7 @@ const breweryTypes = [
     slug: 'beer-garden-outdoor',
     desc: 'Outdoor drinking and entertainment areas with proper drainage, utility connections, weather protection, lighting, and code-compliant barriers for alcohol service in open-air environments.',
     details:
-      'Beer gardens have become a defining feature of Charlotte craft breweries, particularly in neighborhoods like NoDa, LoSo, and the FreeMoreWest corridor where former industrial lots provide ample outdoor space. Beer garden construction involves far more infrastructure than most people realize. The site requires grading and drainage engineering to prevent standing water and direct stormwater away from seating areas and the building. Utility connections for outdoor bars include water supply, drain waste, electrical service for refrigeration and lighting, and glycol lines if draft service is provided outdoors. Permanent shade structures or covered pavilions need building permits, structural engineering for wind and snow loads, and proper foundation systems. Lighting design must balance ambiance with safety and code-required illumination levels at exits and walkways. The NC ABC Commission requires physical barriers, typically fences or walls at a minimum height, around any outdoor area where alcohol is consumed to define the permitted premises boundary. Charlotte zoning may also impose noise restrictions, parking requirements based on outdoor seating count, and screening requirements for adjacent residential properties. We build beer gardens that function year-round with heating elements, weather-resistant materials, and drainage systems that handle Charlotte heavy rain events.',
+      'Beer gardens have become a defining feature of Charlotte craft breweries, particularly in neighborhoods like NoDa, LoSo, and the FreeMoreWest corridor where former industrial lots provide ample outdoor space. Beer garden construction involves far more infrastructure than most people realize. The site requires grading and drainage engineering to prevent standing water and direct stormwater away from seating areas and the building. Utility connections for outdoor bars include water supply, drain waste, electrical service for refrigeration and lighting, and glycol lines if draft service is provided outdoors. Permanent shade structures or covered pavilions need building permits, structural engineering for wind and snow loads, and proper foundation systems. Lighting design must balance ambiance with safety and code-required illumination levels at exits and walkways. The NC ABC Commission requires physical barriers, typically fences or walls at a minimum height, around any outdoor area where alcohol is consumed to define the permitted premises boundary. Charlotte zoning may also impose noise restrictions, parking requirements based on outdoor seating count, and screening requirements for adjacent properties. We build beer gardens that function year-round with heating elements, weather-resistant materials, and drainage systems that handle Charlotte heavy rain events.',
     cost: '$75-$200/sq ft',
   },
   {
@@ -715,10 +715,7 @@ export default function BreweryConstructionPage() {
                       Many of Charlotte&apos;s most successful breweries occupy converted industrial and
                       warehouse buildings, particularly in LoSo, FreeMoreWest, and Steele Creek. These
                       spaces often have high ceilings, heavy floor loads, and existing floor drains that
-                      reduce construction costs compared to raw shell space. Our{' '}
-                      <Link href="/services/adaptive-reuse" className="text-primary hover:underline">
-                        adaptive reuse
-                      </Link>{' '}
+                      reduce construction costs compared to raw shell space. Our adaptive reuse
                       expertise means we evaluate potential spaces with an eye toward brewery-specific
                       construction requirements before you sign a lease.
                     </p>
@@ -734,7 +731,7 @@ export default function BreweryConstructionPage() {
                       Charlotte&apos;s UDO (Unified Development Ordinance) governs outdoor seating as an
                       accessory use to the primary food or beverage establishment. Depending on the
                       zoning district, outdoor seating may require a special use permit, noise mitigation,
-                      or screening from adjacent residential uses. Parking calculations also increase
+                      or screening from adjacent uses. Parking calculations also increase
                       with outdoor seat count. We navigate these requirements during the design phase so
                       your beer garden is compliant before the first shovel hits the ground.
                     </p>
@@ -862,7 +859,6 @@ export default function BreweryConstructionPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: 'Restaurant Construction Charlotte NC', href: '/services/restaurant-construction', type: 'Service', desc: 'Full-service restaurant buildouts including commercial kitchens, bars, and hospitality renovations across the Charlotte metro area.' },
-              { title: 'Adaptive Reuse Construction', href: '/services/adaptive-reuse', type: 'Service', desc: 'Convert warehouses and industrial buildings into craft brewery facilities — the most common path for new Charlotte breweries.' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for breweries, restaurants, retail, and mixed-use developments across Charlotte.' },
               { title: 'Green Building', href: '/services/green-building', type: 'Service', desc: 'Sustainable building practices that reduce operating costs for energy-intensive brewery facilities.' },
               { title: 'Commercial Construction Cost Guide', href: '/guides/commercial-construction-costs-charlotte', type: 'Guide', desc: 'Detailed cost breakdowns for commercial construction in Charlotte — understand what drives brewery and taproom build costs.' },

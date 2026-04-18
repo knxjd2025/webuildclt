@@ -33,7 +33,7 @@ const guideCategoryServiceMap: Record<string, string[]> = {
   ],
   Commercial: [
     '/services/commercial-construction',
-    '/services/construction-management',
+    '/services/commercial-upfits',
     '/services/tenant-improvements',
   ],
   'Roof Care': [

@@ -43,8 +43,8 @@ export function AboutSection() {
               <Link href="/services/roof-coating" className="text-primary hover:underline">
                 roof coating
               </Link>{' '}
-              to every project we undertake. Our founders are veterans who
-              bring military discipline, integrity, and a mission-first mindset
+              to every project we undertake. Our founder is a veteran who
+              brings military discipline, integrity, and a mission-first mindset
               to the construction industry — values that show up in how we
               manage budgets, communicate with clients, and stand behind our
               finished work.

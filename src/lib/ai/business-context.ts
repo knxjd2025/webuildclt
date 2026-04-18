@@ -8,7 +8,7 @@ COMPANY: We Build
 TYPE: Veteran and family-owned construction company
 LOCATION: 14330 S Lakes Drive, Charlotte NC 28273
 PHONE: (980) 471-1745
-EMAIL: info@webuildclt.com
+EMAIL: designcenter@webuildclt.com
 WEBSITE: https://webuildclt.com
 FOUNDED: 2019
 EXPERIENCE: 60+ years combined experience across the team
@@ -56,10 +56,6 @@ INTERNAL LINK PATHS (use these exact paths when linking):
 - /services/brewery-construction — brewery and taproom construction
 - /services/warehouse-construction — warehouse and distribution center construction
 - /services/restaurant-construction — restaurant construction
-- /services/site-development — site development and grading
-- /services/adaptive-reuse — adaptive reuse and historic renovation
-- /services/value-engineering — value engineering and cost optimization
-- /services/owners-representative — owner's representative services
 - /areas/south-charlotte — South Charlotte area
 - /areas/huntersville — Huntersville NC
 - /areas/matthews — Matthews NC

@@ -13,7 +13,6 @@ import { hardcodedProjects } from '@/data/portfolio-projects';
 import {
   Building2,
   Store,
-  Home,
   PaintBucket,
   CheckCircle,
   ArrowRight,
@@ -148,7 +147,7 @@ async function getSupabaseProjects(): Promise<Project[]> {
       id: p.id as string,
       title: p.title as string,
       slug: p.slug as string,
-      category: p.category as 'commercial' | 'residential' | 'roof-coating',
+      category: p.category as 'commercial' | 'roof-coating',
       service_type: p.service_type as string,
       short_description: p.short_description as string,
       ai_content: (p.ai_content as string) ?? null,
@@ -189,7 +188,7 @@ export default async function PortfolioPage() {
 
       <PageHero
         title="Construction Portfolio Charlotte NC"
-        subtitle="Commercial & residential projects built with 60+ years of combined experience across Charlotte, Fort Mill, and Lake Norman"
+        subtitle="Commercial projects built with 60+ years of combined experience across Charlotte, Fort Mill, and Lake Norman"
         backgroundImage="/images/portfolio-hero.jpg"
       />
 
@@ -261,8 +260,8 @@ export default async function PortfolioPage() {
             Our Completed Projects
           </h2>
           <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            Filter by category to explore our commercial upfits, roof coating projects,
-            and residential work across Charlotte and surrounding areas.
+            Filter by category to explore our commercial upfits and roof coating projects
+            across Charlotte and surrounding areas.
           </p>
 
           <PortfolioGrid projects={allProjects} />
@@ -500,7 +499,7 @@ export default async function PortfolioPage() {
                   Healthcare
                 </span>
                 <h3 className="text-2xl font-bold mt-2 mb-4">
-                  Broken to Better Urgent Care — Charlotte, NC
+                  Broken to Better Urgent Care
                 </h3>
                 <p className="text-muted-foreground mb-4">
                   This commercial upfit transformed a raw shell space into a fully operational
@@ -719,11 +718,6 @@ export default async function PortfolioPage() {
                 title: 'Industrial & Warehouse',
                 desc: 'Distribution centers, light manufacturing facilities, flex spaces, and storage buildings. Our industrial projects include concrete slab work, steel construction, loading docks, overhead doors, and climate-controlled storage areas built for operational efficiency.',
               },
-              {
-                icon: Home,
-                title: 'Residential',
-                desc: 'Custom homes, kitchen renovations, bathroom remodels, room additions, and whole-home renovations for homeowners across the Charlotte area. Our residential portfolio demonstrates the same attention to detail and project management rigor we bring to our commercial work.',
-              },
             ].map((industry) => (
               <Card key={industry.title} className="hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
@@ -759,17 +753,17 @@ export default async function PortfolioPage() {
             {[
               {
                 area: 'Charlotte, NC',
-                desc: 'Our home base and where the majority of our portfolio is concentrated. From Uptown commercial builds to South Charlotte residential renovations, we know this city inside and out.',
+                desc: 'Our home base and where the majority of our portfolio is concentrated. From Uptown commercial builds to South Charlotte commercial renovations, we know this city inside and out.',
                 href: '/services/commercial-construction',
               },
               {
                 area: 'South Charlotte & Ballantyne',
-                desc: 'A rapidly growing area with strong demand for commercial upfits, retail build-outs, and custom home construction. Many of our healthcare and wellness projects are located here.',
+                desc: 'A rapidly growing area with strong demand for commercial upfits and retail build-outs. Many of our healthcare and wellness projects are located here.',
                 href: '/services/commercial-upfits',
               },
               {
                 area: 'Fort Mill, SC',
-                desc: 'Just across the state line, Fort Mill is booming with new commercial and residential development. Our SC license allows us to serve this market seamlessly.',
+                desc: 'Just across the state line, Fort Mill is booming with new commercial development. Our SC license allows us to serve this market seamlessly.',
                 href: '/services/general-contractor',
               },
               {

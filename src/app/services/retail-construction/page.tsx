@@ -757,7 +757,6 @@ export default function RetailConstructionPage() {
               { title: 'Commercial Upfits', desc: 'Office, restaurant, medical, and retail upfit services across Charlotte.', href: '/services/commercial-upfits', type: 'Service' },
               { title: 'Tenant Improvements', desc: 'TI build-outs and leasehold improvements for retail tenants in shopping centers and mixed-use.', href: '/services/tenant-improvements', type: 'Service' },
               { title: 'Commercial Construction', desc: 'Ground-up commercial construction for new retail buildings and shopping centers.', href: '/services/commercial-construction', type: 'Service' },
-              { title: 'Value Engineering', desc: 'Cost optimization strategies to maximize your retail construction budget.', href: '/services/value-engineering', type: 'Service' },
               { title: 'Retail Space Build-Out Guide for Charlotte Business Owners', desc: 'Plan your retail build-out with cost estimates, timelines, and design tips for Charlotte retail spaces.', href: '/guides/retail-space-build-out-guide-charlotte', type: 'Guide' },
               { title: 'Commercial Flooring Guide: Best Options by Business Type', desc: 'Find the best flooring for your retail store, from durability ratings to cost per square foot.', href: '/guides/commercial-flooring-guide-business-type', type: 'Guide' },
             ].map((resource) => (

@@ -558,7 +558,7 @@ export default function GreenBuildingPage() {
                     <div key={item.heading} className="bg-white/10 rounded-xl p-4 text-left">
                       <item.icon className="h-6 w-6 text-white/80 mb-2" aria-hidden="true" />
                       <h3 className="font-semibold text-sm mb-1">{item.heading}</h3>
-                      <p className="text-white/75 text-xs leading-relaxed">{item.body}</p>
+                      <p className="text-white/75 text-sm leading-relaxed">{item.body}</p>
                     </div>
                   ))}
                 </div>
@@ -993,8 +993,6 @@ export default function GreenBuildingPage() {
             {[
               { title: 'Commercial Construction', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction with integrated green building strategies for new facilities.' },
               { title: 'Roof Coating Charlotte NC', href: '/services/roof-coating', type: 'Service', desc: 'Reflective roof coatings that reduce cooling costs by up to 30% and contribute to LEED credits and energy efficiency.' },
-              { title: 'Adaptive Reuse Construction', href: '/services/adaptive-reuse', type: 'Service', desc: 'Sustainable building conversion that preserves embodied energy and reduces construction waste through adaptive reuse.' },
-              { title: 'Value Engineering', href: '/services/value-engineering', type: 'Service', desc: 'Cost optimization strategies that maintain sustainability goals while reducing project costs.' },
               { title: 'Commercial Upfits', href: '/services/commercial-upfits', type: 'Service', desc: 'Sustainable interior renovations and tenant build-outs with LEED Commercial Interiors support.' },
               { title: 'Green Building Guide: Sustainable Construction in Charlotte', href: '/guides/green-building-guide-sustainable-charlotte', type: 'Guide', desc: 'Learn about sustainable building practices, LEED certification, and energy-efficient construction strategies for Charlotte projects.' },
               { title: 'Energy Efficiency Guide for Charlotte Homes', href: '/guides/energy-efficiency-guide-charlotte-homes', type: 'Guide', desc: 'Practical tips for improving energy efficiency in new construction and renovations throughout Charlotte.' },

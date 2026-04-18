@@ -38,7 +38,6 @@ export const metadata: Metadata = {
     'general contractor in charlotte nc',
     'licensed general contractor charlotte',
     'commercial general contractor charlotte nc',
-    'residential general contractor charlotte nc',
     'general contractor near me charlotte',
     'best general contractor charlotte nc',
     'charlotte nc construction company',
@@ -97,7 +96,7 @@ const whyChooseUs = [
     icon: CheckCircle,
     title: '60+ Years Combined Experience',
     description:
-      'Our leadership team brings more than six decades of combined construction experience across commercial, residential, and industrial projects throughout the Carolinas.',
+      'Our leadership team brings more than six decades of combined construction experience across commercial and industrial projects throughout the Carolinas.',
   },
   {
     icon: Shield,
@@ -112,7 +111,7 @@ const processSteps = [
     step: '01',
     title: 'Initial Contact & Free Consultation',
     description:
-      'Your project starts with a free, no-obligation conversation. We discuss your goals, timeline, budget expectations, and project requirements. Whether you reach us by phone at (980) 471-1745 or through our online contact form, we respond within one business day. During this initial consultation, we assess feasibility, identify potential challenges, and provide preliminary guidance on the best approach for your specific project.',
+      'Your project starts with a free, no-obligation conversation. We discuss your goals, timeline, budget expectations, and project requirements. Whether you reach us by phone at (980) 471-1745 or through our online contact form, we respond within 2 business days. During this initial consultation, we assess feasibility, identify potential challenges, and provide preliminary guidance on the best approach for your specific project.',
   },
   {
     step: '02',
@@ -142,7 +141,7 @@ const processSteps = [
     step: '06',
     title: 'Construction Mobilization',
     description:
-      'Before the first nail is driven, we mobilize the job site — setting up safety protocols, establishing material staging areas, confirming subcontractor schedules, ordering long-lead materials, and preparing the site for construction. For commercial projects, we coordinate with building management and neighboring tenants to minimize disruption. For residential projects, we establish clear boundaries and protect existing landscaping and finishes.',
+      'Before the first nail is driven, we mobilize the job site — setting up safety protocols, establishing material staging areas, confirming subcontractor schedules, ordering long-lead materials, and preparing the site for construction. For commercial projects, we coordinate with building management and neighboring tenants to minimize disruption, establish clear boundaries, and protect existing landscaping and finishes.',
   },
   {
     step: '07',
@@ -224,9 +223,9 @@ const faqs = [
       'The most important qualifications to verify are: an active North Carolina general contractor license (verify at nclbgc.org), current general liability insurance and workers compensation coverage, relevant experience with your project type, strong local references you can actually contact, a physical office (not just a truck and a cell phone), detailed and transparent estimates with line-item breakdowns, clear communication practices including regular progress updates, and a written warranty on completed work. We Build meets every one of these criteria and welcomes your due diligence. Visit our portfolio to see completed projects and contact our references directly.',
   },
   {
-    question: 'What is the difference between commercial and residential general contracting?',
+    question: 'What makes commercial general contracting unique?',
     answer:
-      'While the fundamental project management principles are the same, commercial and residential construction differ significantly in scale, complexity, codes, and process. Commercial projects must comply with the International Building Code (IBC), ADA accessibility requirements, fire suppression mandates, commercial HVAC standards, and more stringent structural engineering requirements. Residential projects follow the International Residential Code (IRC) with different standards. Commercial projects also involve landlord coordination, tenant improvement allowances, and phased occupancy considerations. We Build is licensed and experienced in both commercial and residential general contracting, which gives us a broader perspective and deeper expertise than contractors who specialize in only one sector.',
+      'Commercial construction is large-scale, code-intensive work that requires specialized project management. Projects must comply with the International Building Code (IBC), ADA accessibility requirements, fire suppression mandates, commercial HVAC standards, and stringent structural engineering requirements. Commercial projects also involve landlord coordination, tenant improvement allowances, fire marshal and health department reviews, and phased occupancy considerations. We Build is exclusively focused on commercial general contracting throughout the Carolinas, giving us deep expertise in the trades, codes, and processes that drive successful commercial outcomes.',
   },
   {
     question: 'How much does a general contractor cost compared to managing subcontractors yourself in Charlotte?',
@@ -301,7 +300,7 @@ export default function GeneralContractorPage() {
               <p className="text-muted-foreground leading-relaxed">
                 Charlotte is one of the fastest-growing cities in the Southeast, and the construction
                 market here is dynamic and competitive. New commercial developments, office buildings,
-                retail centers, and residential communities are transforming neighborhoods from South
+                and retail centers are transforming neighborhoods from South
                 End to Ballantyne. In this environment, choosing the right general contractor is one of
                 the most important decisions you will make. The wrong contractor can cost you months of
                 delays, tens of thousands in unexpected costs, and endless frustration. The right
@@ -346,7 +345,7 @@ export default function GeneralContractorPage() {
                   'Licensed general contractor in NC & SC',
                   'Veteran & family-owned since 2019',
                   'USGBC member — committed to green building',
-                  'Commercial & residential construction',
+                  'Commercial construction across the Carolinas',
                   '60+ years combined team experience',
                   'Free consultations with transparent proposals',
                   'Serving Charlotte metro, Lake Norman, Fort Mill & beyond',
@@ -382,7 +381,7 @@ export default function GeneralContractorPage() {
                 coordination of the many specialized trades required to complete a construction project.
               </p>
               <p>
-                On a typical commercial or residential construction project, a general contractor is
+                On a typical commercial construction project, a general contractor is
                 responsible for reviewing and interpreting architectural and engineering plans, preparing
                 detailed cost estimates and project budgets, obtaining all required building permits from
                 the local jurisdiction, hiring qualified and licensed subcontractors for each trade
@@ -540,8 +539,7 @@ export default function GeneralContractorPage() {
                 and met financial requirements. Our general liability insurance protects your property
                 against construction-related damage. Our workers&apos; compensation insurance covers
                 every person working on your project. Our knowledge of current building codes (the
-                International Building Code for commercial and the International Residential Code for
-                residential) ensures your project passes inspections. And our management of
+                International Building Code) ensures your project passes inspections. And our management of
                 subcontractors means every trade on your job is vetted, insured, and held to our quality
                 standards.
               </p>
@@ -564,57 +562,53 @@ export default function GeneralContractorPage() {
         </div>
       </section>
 
-      {/* Commercial vs. Residential */}
+      {/* What Defines Commercial General Contracting */}
       <section className="py-20 bg-muted">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <span className="text-primary font-semibold uppercase tracking-wider text-sm">
-              Comparing Sectors
+              Commercial Focus
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6">
-              Commercial vs. Residential General Contracting
+              What Defines Commercial General Contracting
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                While the core principles of project management apply to both commercial and residential
-                construction, the two sectors differ in meaningful ways that affect how a general
-                contractor approaches your project.
+                Commercial construction is large-scale, code-intensive work that demands a contractor
+                with the right licenses, the right subcontractor network, and the right project
+                management discipline. Below are the elements that define how We Build approaches every
+                commercial project across the Carolinas.
               </p>
               <p>
-                <strong className="text-foreground">Building codes and regulations</strong> are the most
-                significant difference. Commercial projects in Charlotte must comply with the
-                International Building Code (IBC), which imposes stricter requirements for fire
-                protection, structural engineering, ADA accessibility, egress, and mechanical systems
-                than the International Residential Code (IRC) used for homes. Commercial projects also
+                <strong className="text-foreground">Building codes and regulations</strong> drive every
+                decision. Commercial projects in Charlotte must comply with the International Building
+                Code (IBC), which imposes strict requirements for fire protection, structural
+                engineering, ADA accessibility, egress, and mechanical systems. Commercial projects
                 require fire suppression systems (sprinklers), commercial-grade fire alarm systems, and
-                compliance with the Americans with Disabilities Act — none of which apply to most
-                residential construction.
+                full compliance with the Americans with Disabilities Act.
               </p>
               <p>
-                <strong className="text-foreground">Project complexity and scale</strong> also differ.
-                A commercial office upfit may involve coordinating with the landlord, the property
-                management company, the tenant&apos;s architect, the fire marshal, the health
+                <strong className="text-foreground">Project complexity and scale</strong> set commercial
+                work apart. A commercial office upfit may involve coordinating with the landlord, the
+                property management company, the tenant&apos;s architect, the fire marshal, the health
                 department (for food service), and multiple municipal departments — all while other
-                tenants in the building continue to operate. Residential projects typically involve
-                fewer stakeholders but require more personalized attention to finishes, aesthetics, and
-                the homeowner&apos;s daily living patterns during construction.
+                tenants in the building continue to operate. We manage these stakeholders on every job.
               </p>
               <p>
-                <strong className="text-foreground">Subcontractor requirements</strong> vary between
-                sectors as well. Commercial electrical, plumbing, and HVAC systems are larger, more
-                complex, and subject to different code requirements than residential systems. A
-                commercial general contractor needs subcontractor relationships with firms experienced
-                in commercial-scale work — not residential-only trades.
+                <strong className="text-foreground">Subcontractor requirements</strong> are equally
+                demanding. Commercial electrical, plumbing, and HVAC systems are large, complex, and
+                subject to specific code requirements. A commercial general contractor needs
+                subcontractor relationships with firms experienced in commercial-scale work, and We
+                Build maintains those long-standing partnerships across the Charlotte metro.
               </p>
               <p>
-                We Build is licensed and experienced in both{' '}
+                We Build is exclusively focused on{' '}
                 <Link href="/services/commercial-construction" className="text-primary hover:underline">
                   commercial construction
                 </Link>{' '}
-                and residential general contracting. This dual expertise gives us a broader perspective
-                and deeper problem-solving capabilities than contractors who specialize in only one
-                sector. Our commercial discipline informs our residential quality standards, and our
-                residential attention to detail enhances our commercial client experience.
+                throughout the Carolinas. That focus means deep expertise in the trades, codes, and
+                processes that drive successful commercial outcomes — and a team that brings
+                military-instilled discipline to every project we deliver.
               </p>
             </div>
           </div>
@@ -711,7 +705,7 @@ export default function GeneralContractorPage() {
                 County begins with submitting construction plans for review. Plan reviewers check for
                 compliance with the North Carolina State Building Code, zoning ordinance, fire code, and
                 energy code. The review process typically takes four to eight weeks for commercial
-                projects and two to four weeks for residential projects. Complex commercial projects may
+                projects. Complex commercial projects may
                 require multiple review cycles if revisions are needed. We Build manages this entire
                 process, including preparing code-compliant plan submissions, responding to reviewer
                 comments, and scheduling all follow-up reviews.
@@ -1023,9 +1017,8 @@ export default function GeneralContractorPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction for office, retail, restaurant, medical, warehouse, and mixed-use developments.' },
-              { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Professional CM services with schedule control, budget management, and quality oversight for complex projects.' },
               { title: 'Commercial Upfits & Renovations', href: '/services/commercial-upfits', type: 'Service', desc: 'Transform existing commercial spaces with tenant improvements, phased renovations, and fast-track buildouts.' },
-              { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service', desc: 'Feasibility studies, cost estimating, and value engineering before you break ground.' },
+              { title: 'Tenant Improvements', href: '/services/tenant-improvements', type: 'Service', desc: 'TI build-outs and leasehold improvements for office, retail, medical, and industrial tenants.' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">

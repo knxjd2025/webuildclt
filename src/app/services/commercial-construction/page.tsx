@@ -114,8 +114,8 @@ const projectTypes = [
   {
     icon: Building2,
     title: 'Mixed-Use Developments',
-    desc: 'Multi-purpose buildings combining retail, office, and residential spaces. Complex projects requiring coordination across multiple use types.',
-    details: 'Mixed-use construction demands a contractor who understands different building codes, fire separations between occupancy types, separate utility metering, and the coordination required when retail, office, and residential exist in the same structure. We have the experience to deliver these complex projects in Charlotte. Mixed-use developments require navigating overlapping code requirements, coordinating separate mechanical systems for different occupancy types, and managing the phased delivery schedules that allow retail tenants to open while upper floors are still under construction. Our project management systems are built for this level of complexity.',
+    desc: 'Multi-purpose buildings combining retail, office, and other commercial spaces. Complex projects requiring coordination across multiple use types.',
+    details: 'Mixed-use construction demands a contractor who understands different building codes, fire separations between occupancy types, separate utility metering, and the coordination required when retail, office, and other uses exist in the same structure. We have the experience to deliver these complex projects in Charlotte. Mixed-use developments require navigating overlapping code requirements, coordinating separate mechanical systems for different occupancy types, and managing the phased delivery schedules that allow retail tenants to open while upper floors are still under construction. Our project management systems are built for this level of complexity.',
     cost: '$200-$450/sq ft',
   },
 ];
@@ -355,14 +355,6 @@ export default function CommercialConstructionPage() {
                 through our <Link href="/we-coat" className="text-primary hover:underline">We Coat</Link> division for commercial buildings that need roof restoration rather than full replacement.
               </p>
 
-              {/* Mini Story */}
-              <div className="mini-story">
-                <p>
-                  When the owners of FYZICAL Therapy &amp; Balance Centers signed a lease for a 4,200-square-foot space in South Charlotte, they needed a contractor who could transform a bare shell into a fully functional therapy clinic in under 14 weeks. The space required specialized flooring for balance therapy, a reception area that felt welcoming rather than clinical, private treatment rooms with proper soundproofing, and an open exercise area with ceiling-mounted equipment. We Build delivered the completed space two days ahead of schedule and $8,000 under the original estimate. FYZICAL opened on time and has been treating patients since day one.
-                </p>
-                <div className="story-attribution">FYZICAL Therapy &amp; Balance Centers, South Charlotte</div>
-              </div>
-
               <h2 id="why-charlotte">Charlotte&rsquo;s Commercial Construction Market in 2026</h2>
 
               <p>
@@ -453,7 +445,7 @@ export default function CommercialConstructionPage() {
                       { id: 'why-charlotte', label: 'Charlotte Market' },
                       { id: 'project-types', label: 'Project Types' },
                       { id: 'cost-guide', label: 'Cost Guide' },
-                      { id: 'construction-process', label: 'Our 10-Step Process' },
+                      { id: 'construction-process', label: 'Our 9-Step Process' },
                       { id: 'why-we-build', label: 'Why Choose We Build' },
                       { id: 'industries', label: 'Industries We Serve' },
                       { id: 'permits', label: 'Permits & Regulations' },
@@ -546,7 +538,7 @@ export default function CommercialConstructionPage() {
             <div className="callout callout-cost">
               <div className="callout-title">Cost-Saving Tip</div>
               <p>
-                <Link href="/services/value-engineering" className="text-primary hover:underline">Value engineering</Link> can
+                Value engineering can
                 save 10-20% on total project costs. By identifying cost-effective alternatives for materials and methods early in the planning phase, you reduce expenses without sacrificing quality. Ask us about our value engineering process for your commercial project.
               </p>
             </div>
@@ -579,12 +571,6 @@ export default function CommercialConstructionPage() {
               <li><strong>Consider phased construction.</strong> If your budget is tight, we can help you plan a phased approach that builds the essential spaces first and adds secondary areas later. This is common with growing businesses that need to open quickly but plan to expand within their lease.</li>
             </ul>
 
-            <div className="mini-story">
-              <p>
-                A medical practice was comparing bids for a 3,800-square-foot clinic in South Charlotte. The lowest bid came in at $142 per square foot, but it excluded fire sprinkler modifications, ADA-compliant restroom upgrades, and the lead-lined wall required for their X-ray room. When those items were added, the &ldquo;low bid&rdquo; exceeded $195 per square foot. Our original estimate of $185 per square foot had included every line item from day one. The practice chose We Build because our estimate was complete, not because it was the cheapest number on paper.
-              </p>
-              <div className="story-attribution">Medical practice, South Charlotte (name withheld for privacy)</div>
-            </div>
           </div>
         </div>
       </section>
@@ -594,9 +580,9 @@ export default function CommercialConstructionPage() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="section-label">Our Process</span>
-            <h2 id="construction-process" className="mt-2 mb-4">Our 10-Step Commercial Construction Process</h2>
+            <h2 id="construction-process" className="mt-2 mb-4">Our 9-Step Commercial Construction Process</h2>
             <p className="text-muted-foreground">
-              Every commercial construction project at We Build follows a proven ten-step process. This structured approach ensures your project stays on schedule, on budget, and meets your quality expectations from initial consultation through final handover.
+              Every commercial construction project at We Build follows a proven nine-step process. This structured approach ensures your project stays on schedule, on budget, and meets your quality expectations from initial consultation through final handover.
             </p>
           </div>
 
@@ -740,13 +726,6 @@ export default function CommercialConstructionPage() {
               We manage all code compliance as part of our standard service. Our experience with Mecklenburg County code officials and inspectors helps us submit clean permit applications that are approved on the first review whenever possible, avoiding the resubmission cycle that can add weeks to your timeline.
             </p>
 
-            <div className="mini-story">
-              <p>
-                The owners of Broken to Better Urgent Care needed their Charlotte facility open within 16 weeks of lease signing. The 3,600-square-foot space required medical-grade finishes, a lab area, exam rooms with integrated technology, and a welcoming reception area. By coordinating design and permitting simultaneously and pre-ordering long-lead medical casework, we delivered the completed facility in 14 weeks. The clinic opened on schedule and has been serving the Charlotte community since its first day of operation.
-              </p>
-              <div className="story-attribution">Broken to Better Urgent Care, Charlotte NC</div>
-            </div>
-
             <h3>How to Choose a Commercial Contractor in Charlotte</h3>
 
             <p>
@@ -855,7 +834,7 @@ export default function CommercialConstructionPage() {
               { title: 'Commercial Upfits', href: '/services/commercial-upfits', desc: 'Tenant improvements and space renovations for existing commercial buildings.' },
               { title: 'Commercial Renovation', href: '/services/commercial-renovation', desc: 'Full building renovation and remodeling for offices, retail, restaurants, and warehouses.' },
               { title: 'Tenant Improvements', href: '/services/tenant-improvements', desc: 'TI build-outs and leasehold improvements for office, retail, and medical tenants.' },
-              { title: 'Construction Management', href: '/services/construction-management', desc: 'Professional CM services with schedule control, budget management, and quality oversight.' },
+              { title: 'General Contractor', href: '/services/general-contractor', desc: 'Full-service general contracting for commercial projects of any size.' },
             ].map((service) => (
               <Card key={service.href} className="card-hover">
                 <CardContent className="p-6">

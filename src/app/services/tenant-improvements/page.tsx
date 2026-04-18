@@ -827,7 +827,6 @@ export default function TenantImprovementsPage() {
               { title: 'Office Buildouts Charlotte NC', href: '/services/office-buildouts', type: 'service' },
               { title: 'Commercial Renovation Charlotte NC', href: '/services/commercial-renovation', type: 'service' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'service' },
-              { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'service' },
             ].map((resource) => (
               <Card key={resource.href} className="group hover:shadow-md transition-shadow">
                 <CardContent className="p-6">

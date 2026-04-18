@@ -729,7 +729,6 @@ export default function OfficeBuildoutsPage() {
               { title: 'Commercial Upfits Charlotte NC', href: '/services/commercial-upfits', type: 'Service' },
               { title: 'Tenant Improvements Charlotte NC', href: '/services/tenant-improvements', type: 'Service' },
               { title: 'Commercial Renovation Charlotte NC', href: '/services/commercial-renovation', type: 'Service' },
-              { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service' },
               { title: 'Office Build-Out Guide: Planning Your Charlotte Workspace', href: '/guides/office-build-out-guide-charlotte', type: 'Guide' },
               { title: 'Commercial Flooring Guide: Best Options by Business Type', href: '/guides/commercial-flooring-guide-business-type', type: 'Guide' },
             ].map((resource) => (

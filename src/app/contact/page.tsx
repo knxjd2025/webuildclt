@@ -143,7 +143,7 @@ const inquirySteps = [
     icon: Phone,
     title: 'Initial Contact',
     description:
-      'Reach out by phone, email, or through our online contact form. A member of our team will respond within one business day to discuss your project at a high level and answer any immediate questions you have.',
+      'Reach out by phone, email, or through our online contact form. A member of our team will respond within 2 business days to discuss your project at a high level and answer any immediate questions you have.',
   },
   {
     icon: MessageSquare,

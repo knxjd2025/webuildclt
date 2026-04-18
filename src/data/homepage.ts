@@ -110,7 +110,7 @@ export const stats: StatItem[] = [
   { value: '60+', label: 'Years Combined Experience' },
   { value: '2', label: 'State Licenses (NC & SC)' },
   { value: '2019', label: 'Founded in Charlotte' },
-  { value: '25', label: 'Service Specialties' },
+  { value: '15+', label: 'Commercial Services' },
 ];
 
 export const processSteps: ProcessStep[] = [
@@ -244,7 +244,7 @@ export const industriesServed: IndustryItem[] = [
     icon: Warehouse,
     title: 'Mixed-Use & Multi-Family',
     description:
-      'Mixed-use developments that combine retail, office, and residential spaces. We manage the complexity of multi-use construction — separate utility metering, fire separation requirements, parking structures, and phased occupancy schedules that allow tenants to move in while construction continues.',
+      'Mixed-use developments that combine retail, office, and shared amenity spaces. We manage the complexity of multi-use construction — separate utility metering, fire separation requirements, parking structures, and phased occupancy schedules that allow tenants to move in while construction continues.',
   },
 ];
 
@@ -323,7 +323,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'Do you offer free consultations for construction projects?',
     answer:
-      'Yes. We provide free consultations with detailed, transparent proposals for all project types — commercial construction, upfits, tenant improvements, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (980) 471-1745 or through our website to schedule your free consultation. We typically respond within one business day.',
+      'Yes. We provide free consultations with detailed, transparent proposals for all project types — commercial construction, upfits, tenant improvements, and roof coating. Our estimates include line-item breakdowns so you understand exactly what is included and what each element costs. There are no hidden fees or vague allowances. Contact us at (980) 471-1745 or through our website to schedule your free consultation. We typically respond within 2 business days.',
   },
   {
     question: 'What makes We Build different from other Charlotte contractors?',

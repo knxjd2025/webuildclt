@@ -615,8 +615,6 @@ export default function DroneInspectionsPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { title: 'Roof Coating Charlotte NC', href: '/services/roof-coating', type: 'Service', desc: 'After drone inspection identifies problem areas, our silicone and acrylic roof coatings extend roof life by 10 to 20 years at a fraction of replacement cost.' },
-              { title: 'Pre-Construction Services', href: '/services/pre-construction', type: 'Service', desc: 'Drone surveys and thermal imaging inform pre-construction site analysis, feasibility studies, and cost estimating.' },
-              { title: 'Construction Management', href: '/services/construction-management', type: 'Service', desc: 'Drone progress monitoring integrates with our CM services for real-time project oversight and owner reporting.' },
               { title: 'Commercial Construction Charlotte NC', href: '/services/commercial-construction', type: 'Service', desc: 'Ground-up commercial construction with integrated drone monitoring throughout the build process for owner reporting and quality assurance.' },
               { title: 'Industrial Construction Charlotte NC', href: '/services/industrial-construction', type: 'Service', desc: 'Warehouses, manufacturing plants, and industrial facilities benefit from regular drone inspection to maintain roof integrity and avoid costly shutdowns.' },
             ].map((resource) => (
