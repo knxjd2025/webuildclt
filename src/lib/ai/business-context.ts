@@ -61,6 +61,7 @@ INTERNAL LINK PATHS (use these exact paths when linking):
 - /areas/matthews — Matthews NC
 - /areas/mooresville — Mooresville NC
 - /areas/rock-hill-sc — Rock Hill SC
+- /areas/raleigh — Raleigh NC + Research Triangle (Cary, Morrisville, North Hills, Brier Creek, RTP)
 - /contact — contact We Build
 - /portfolio — our project portfolio
 - /we-coat — We Coat roof coating

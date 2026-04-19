@@ -43,6 +43,8 @@ export const areaLinks = [
   { name: 'Huntersville', href: '/areas/huntersville', description: 'General contractor serving Huntersville, Birkdale Village, and Northlake.' },
   { name: 'Matthews', href: '/areas/matthews', description: 'Construction in Matthews, Mint Hill, Indian Trail, and Stallings.' },
   { name: 'Mooresville', href: '/areas/mooresville', description: 'Serving Race City, Lake Norman west shore, and Iredell County.' },
+  // Research Triangle
+  { name: 'Raleigh, NC', href: '/areas/raleigh', description: 'Commercial construction across Raleigh, North Hills, Brier Creek, Research Triangle, Cary, and Wake County.' },
   // South Carolina
   { name: 'Fort Mill, SC', href: '/areas/fort-mill-sc', description: 'Licensed in South Carolina — serving Fort Mill, Tega Cay, and Indian Land.' },
   { name: 'Rock Hill, SC', href: '/areas/rock-hill-sc', description: 'Commercial construction in Rock Hill and York County.' },
