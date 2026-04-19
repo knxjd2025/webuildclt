@@ -15,11 +15,11 @@ export function AreasSection() {
           </h2>
           <p className="text-muted-foreground">
             Licensed in both North Carolina and South Carolina, We Build
-            serves the entire Charlotte metropolitan area plus Raleigh and
-            the Research Triangle. Our Charlotte headquarters at 14330 S
-            Lakes Drive puts us within easy reach of the Carolinas&rsquo;
-            fastest-growing commercial markets — and many more communities
-            listed below.
+            serves the entire Charlotte metropolitan area plus Raleigh,
+            Durham, and the Research Triangle. Our Charlotte headquarters
+            at 14330 S Lakes Drive puts us within easy reach of the
+            Carolinas&rsquo; fastest-growing commercial markets — and many
+            more communities listed below.
           </p>
         </div>
 

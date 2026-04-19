@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: '%s | We Build Charlotte NC',
   },
   description:
-    'Commercial construction company serving Charlotte NC, Raleigh NC, and the Research Triangle. Specializing in commercial upfits, tenant improvements, brewery construction, drone inspections, and roof coatings. Veteran & family-owned with 60+ years combined experience. USGBC member. Licensed in NC & SC.',
+    'Commercial construction company serving Charlotte NC, Raleigh NC, Durham NC, and the Research Triangle. Specializing in commercial upfits, tenant improvements, brewery construction, drone inspections, and roof coatings. Veteran & family-owned with 60+ years combined experience. USGBC member. Licensed in NC & SC.',
   authors: [{ name: 'We Build' }],
   creator: 'We Build',
   openGraph: {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: 'We Build',
     title: 'We Build | Commercial Construction Charlotte NC',
     description:
-      'Commercial construction company serving Charlotte NC, Raleigh NC, and the Research Triangle. Commercial upfits, roof coatings. Veteran & family-owned, USGBC member.',
+      'Commercial construction company serving Charlotte NC, Raleigh, Durham, and the Research Triangle. Commercial upfits, roof coatings. Veteran & family-owned, USGBC member.',
     images: [
       {
         url: '/images/og-image.jpg',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'We Build | Commercial Construction Charlotte NC',
     description:
-      'Commercial construction serving Charlotte NC and Raleigh NC / Research Triangle. Veteran & family-owned.',
+      'Commercial construction serving Charlotte NC, Raleigh, Durham, and the Research Triangle. Veteran & family-owned.',
     images: ['/images/og-image.jpg'],
   },
   robots: {

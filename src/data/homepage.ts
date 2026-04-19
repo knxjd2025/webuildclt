@@ -303,6 +303,12 @@ export const areasServedDetailed: AreaItem[] = [
     description:
       'We Build extends its commercial construction services into Raleigh and the Research Triangle — Cary, Morrisville, RTP, North Hills, Brier Creek, and Downtown Raleigh — with the same NC general contractor license and structured project-management system we use across the Charlotte metro. Raleigh clients benefit from tech-corridor, life-sciences, and Class A office build-out expertise aligned with Wake County permitting.',
   },
+  {
+    name: 'Durham & Bull City',
+    href: '/areas/durham',
+    description:
+      'We Build serves Durham and Durham County — including Downtown Durham, the American Tobacco District, Duke University area, Ninth Street, Brightleaf, Southpoint, and the Durham County portion of Research Triangle Park — under our NC general contractor license. Durham clients benefit from our experience with life-sciences and lab build-outs, adaptive reuse of historic tobacco and textile shells, and the institutional construction standards that Duke, medical, and biotech tenants expect.',
+  },
 ];
 
 export const homeFaqs: FAQItem[] = [
@@ -314,7 +320,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'What areas in the Charlotte region do you serve?',
     answer:
-      'We serve the entire Charlotte metropolitan area including South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, Fort Mill SC, and Rock Hill SC. We also serve Raleigh NC and the Research Triangle — Cary, Morrisville, RTP, North Hills, Brier Creek, and Downtown Raleigh — under our North Carolina general contractor license. Our headquarters is at 14330 S Lakes Drive, Charlotte NC 28273. We hold active general contractor licenses in North Carolina and South Carolina.',
+      'We serve the entire Charlotte metropolitan area including South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, Fort Mill SC, and Rock Hill SC. We also serve the Research Triangle — including Raleigh (Cary, Morrisville, RTP, North Hills, Brier Creek, Downtown Raleigh) and Durham (Downtown Durham, American Tobacco District, Duke area, Ninth Street, Brightleaf, Southpoint, and the Durham County portion of RTP) — under our North Carolina general contractor license. Our headquarters is at 14330 S Lakes Drive, Charlotte NC 28273. We hold active general contractor licenses in North Carolina and South Carolina.',
   },
   {
     question: 'Are you a licensed and insured general contractor?',

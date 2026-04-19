@@ -34,6 +34,11 @@ const AREAS_SERVED = [
     name: 'Raleigh',
     sameAs: 'https://en.wikipedia.org/wiki/Raleigh,_North_Carolina',
   },
+  {
+    '@type': 'City' as const,
+    name: 'Durham',
+    sameAs: 'https://en.wikipedia.org/wiki/Durham,_North_Carolina',
+  },
   { '@type': 'City' as const, name: 'Cary' },
   { '@type': 'City' as const, name: 'Morrisville' },
   { '@type': 'State' as const, name: 'North Carolina' },

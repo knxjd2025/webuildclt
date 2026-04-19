@@ -45,6 +45,7 @@ export const areaLinks = [
   { name: 'Mooresville', href: '/areas/mooresville', description: 'Serving Race City, Lake Norman west shore, and Iredell County.' },
   // Research Triangle
   { name: 'Raleigh, NC', href: '/areas/raleigh', description: 'Commercial construction across Raleigh, North Hills, Brier Creek, Research Triangle, Cary, and Wake County.' },
+  { name: 'Durham, NC', href: '/areas/durham', description: 'Commercial construction across Downtown Durham, American Tobacco District, RTP, Duke area, Southpoint, and Durham County.' },
   // South Carolina
   { name: 'Fort Mill, SC', href: '/areas/fort-mill-sc', description: 'Licensed in South Carolina — serving Fort Mill, Tega Cay, and Indian Land.' },
   { name: 'Rock Hill, SC', href: '/areas/rock-hill-sc', description: 'Commercial construction in Rock Hill and York County.' },
