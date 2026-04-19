@@ -90,7 +90,7 @@ const faqs = [
     question:
       'How should I prepare for a construction estimate visit?',
     answer:
-      'To get the most accurate estimate possible, we recommend having the following information ready before your site visit: a general idea of your project scope and goals, any architectural plans or sketches you may have (even rough hand drawings are helpful), your ideal timeline for starting and completing the project, your approximate budget range, any material preferences or specific brands you want to use, and photos of inspiration projects you admire. If you are planning a commercial project, having your lease terms or property ownership documentation available is also helpful. Do not worry if you do not have all of these items. Our team is experienced at helping you define your project scope during the consultation.',
+      'To get the most accurate estimate possible, we recommend having the following information ready before your site visit: architectural plans, your ideal timeline for starting and completing the project, your approximate budget range, any material preferences or specific brands you want to use, and photos of inspiration projects you admire. If you are planning a commercial project, having your lease terms or property ownership documentation available is also helpful. Do not worry if you do not have all of these items. Our team is experienced at helping you define your project scope during the consultation.',
   },
   {
     question:

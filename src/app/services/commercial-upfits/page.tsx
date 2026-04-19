@@ -278,7 +278,7 @@ const faqs = [
   {
     question: 'Do I need permits for a commercial upfit in Charlotte?',
     answer:
-      'Yes, most commercial upfits in Charlotte require building permits from Mecklenburg County Code Enforcement. Any work that involves structural changes, electrical modifications, plumbing alterations, HVAC changes, or fire alarm updates requires a permit. Even cosmetic renovations may require a permit if they affect egress paths or ADA compliance. We handle the entire permitting process, from preparing construction documents that meet code requirements to submitting applications, responding to plan review comments, and scheduling inspections.',
+      'Yes. Most commercial upfits in Charlotte require building permits from Mecklenburg County Code Enforcement. Any work that involves structural changes, electrical modifications, plumbing alterations, HVAC changes, or fire alarm updates requires a permit. Even cosmetic renovations may require a permit if they affect egress paths or ADA compliance. We handle the entire permitting process, from preparing construction documents that meet code requirements to submitting applications, responding to plan review comments, and scheduling inspections.',
   },
   {
     question: 'What is a tenant improvement (TI) allowance and how does it work?',

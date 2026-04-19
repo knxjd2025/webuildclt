@@ -137,17 +137,17 @@ const processSteps = [
   {
     step: '02',
     title: 'Space Planning & Programming',
-    desc: 'Based on the discovery session, we work with your architect and design team to develop a detailed space program that defines every room and zone in the office: private offices, open workstations, conference rooms, huddle rooms, phone booths, collaboration areas, break rooms, reception, storage, server rooms, and amenity spaces. We create preliminary floor plans that show how each element fits within the available footprint, with attention to traffic flow, departmental adjacencies, sight lines, natural light distribution, and building code egress requirements.',
+    desc: 'Based on the discovery session, we work with your architect and design team on a space program that defines every room and zone in the office: private offices, open workstations, conference rooms, huddle rooms, phone booths, collaboration areas, break rooms, reception, storage, server rooms, and amenity spaces. Preliminary floor plans show how each element fits within the available footprint, with attention to traffic flow, departmental adjacencies, sight lines, natural light distribution, and building code egress requirements.',
   },
   {
     step: '03',
     title: 'Conceptual Design & Material Exploration',
-    desc: 'We develop conceptual designs that bring the floor plan to life with material palettes, lighting concepts, ceiling treatments, and architectural features. You are invited to visit our office in Charlotte to review material samples, explore finish options, and see design boards that show how your office will look and feel. We present multiple design directions so you can choose the aesthetic that best represents your brand and culture.',
+    desc: 'Working from your designer&rsquo;s material palettes, lighting concepts, ceiling treatments, and architectural features, the estimate reflects the selected aesthetic.',
   },
   {
     step: '04',
     title: 'Detailed Estimate & Budget Alignment',
-    desc: 'We deliver a comprehensive, line-item estimate that breaks down every cost category: demolition, framing, drywall, electrical, data and low-voltage, plumbing, HVAC modifications, fire protection, flooring, painting, ceiling systems, millwork, doors and hardware, glass partitions, furniture coordination, and permits. If the estimate exceeds your budget, our team identifies value engineering opportunities that reduce costs without compromising the function or aesthetic that matters most to your business.',
+    desc: 'We deliver a comprehensive, line-item estimate that breaks down every cost category: demolition, framing, drywall, electrical, data and low-voltage, plumbing, HVAC modifications, fire protection, flooring, painting, ceiling systems, millwork, doors and hardware, glass partitions, furniture coordination, and permits. If the estimate exceeds your budget, our team identifies value engineering opportunities that reduce costs.',
   },
   {
     step: '05',
@@ -316,7 +316,7 @@ const faqs = [
   {
     question: 'What warranty do you provide on office buildout construction?',
     answer:
-      'All office buildout construction performed by We Build is backed by a one-year workmanship warranty covering materials and labor. If any defect in our work appears during the first year after project completion, we return and correct it at no additional cost. Major building systems installed during the buildout carry manufacturer warranties that typically extend well beyond our workmanship warranty: HVAC equipment carries 5 to 10 year manufacturer warranties, commercial lighting fixtures carry 5 to 7 year warranties, and plumbing fixtures carry lifetime or limited lifetime warranties. At project closeout, we provide complete warranty documentation, equipment maintenance manuals, and as-built drawings so you have everything needed to maintain your office space for years to come.',
+      'All office buildout construction performed by We Build is backed by a one-year workmanship warranty covering materials and labor. Major building systems installed during the buildout carry manufacturer warranties that typically extend well beyond our workmanship warranty: HVAC equipment carries 5 to 10 year manufacturer warranties, commercial lighting fixtures carry 5 to 7 year warranties, and plumbing fixtures carry lifetime or limited lifetime warranties. At project closeout, we provide complete warranty documentation, equipment maintenance manuals, and as-built drawings so you have everything needed to maintain your office space for years to come.',
   },
   {
     question: 'How does an office buildout cost in Charlotte compare to Raleigh or Atlanta?',

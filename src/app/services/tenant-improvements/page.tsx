@@ -140,7 +140,7 @@ const processSteps = [
   {
     step: '03',
     title: 'Space Planning & Conceptual Layout',
-    desc: 'We work with your architect and design team to create conceptual floor plans based on your operational requirements, employee count, departmental adjacencies, growth projections, and workflow patterns. We consider natural light, ADA accessibility, building code egress requirements, and the most efficient use of every square foot within your leased footprint. We present multiple layout options with preliminary cost implications so you can make informed decisions about scope and budget before detailed design begins.',
+    desc: 'We work with your architect and design team on conceptual floor plans based on your operational requirements, employee count, departmental adjacencies, growth projections, and workflow patterns. We consider natural light, ADA accessibility, building code egress requirements, and the most efficient use of every square foot within your leased footprint.',
   },
   {
     step: '04',
@@ -150,7 +150,7 @@ const processSteps = [
   {
     step: '05',
     title: 'Design Development & Finish Selections',
-    desc: 'Once the budget is approved, we develop detailed construction drawings, mechanical engineering plans, electrical layouts, and finish schedules. You select flooring materials, paint colors, countertop surfaces, lighting fixtures, hardware, and specialty items at our office, where you can review material samples and make informed selections. We coordinate with your IT team, furniture vendor, and any specialty equipment suppliers to ensure infrastructure requirements are incorporated into the construction documents.',
+    desc: 'Working from the architect&rsquo;s construction drawings, mechanical engineering plans, electrical layouts, and finish schedules, you select flooring materials, paint colors, countertop surfaces, lighting fixtures, hardware, and specialty items — documented so the estimate reflects the exact scope.',
   },
   {
     step: '06',

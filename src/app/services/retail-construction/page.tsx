@@ -146,17 +146,17 @@ const processSteps = [
   {
     step: '02',
     title: 'Retail Space Planning & Customer Flow Design',
-    desc: 'We work with your architect and design team to create floor plans optimized for retail performance. We map customer traffic flow from entrance to checkout, position high-margin merchandise in prime sight lines, plan fitting room locations for convenience without consuming premium selling floor, design stockroom and receiving areas for efficient inventory management, and ensure ADA compliance throughout.',
+    desc: 'We work with your architect and design team on floor plans optimized for retail performance, including fitting room locations, stockroom and receiving areas for efficient inventory management, and ADA compliance throughout.',
   },
   {
     step: '03',
-    title: 'Detailed Estimate & Value Engineering',
-    desc: 'We deliver a line-item estimate covering demolition, framing, electrical, plumbing, HVAC, fire protection, storefront modifications, custom fixtures, flooring, painting, signage infrastructure, security systems, and permits. If the estimate exceeds your budget or tenant improvement allowance, our team identifies value engineering opportunities that reduce costs without compromising the customer experience or brand presentation. We work with your visual merchandising team to ensure construction supports your fixture plan.',
+    title: 'Design Development & Brand Integration',
+    desc: 'Working from your architect&rsquo;s brand-integrated construction drawings — storefront design with signage locations, interior color palettes, lighting that creates the right atmosphere, and material specifications for all finish surfaces. For franchise and national brand retailers, we coordinate directly with your corporate construction department to ensure compliance with brand standards manuals and approved vendor lists.',
   },
   {
     step: '04',
-    title: 'Design Development & Brand Integration',
-    desc: 'Once the budget is approved, we finalize construction drawings that integrate your brand guidelines. This includes storefront design with signage locations, interior color palettes aligned with your brand standards, lighting design that creates the right atmosphere for your merchandise, and material specifications for all finish surfaces. For franchise and national brand retailers, we coordinate directly with your corporate construction department to ensure compliance with brand standards manuals and approved vendor lists.',
+    title: 'Detailed Estimate & Value Engineering',
+    desc: 'We deliver a line-item estimate covering demolition, framing, electrical, plumbing, HVAC, fire protection, storefront modifications, custom fixtures, flooring, painting, signage infrastructure, security systems, and permits. If the estimate exceeds your budget or tenant improvement allowance, our team identifies value engineering opportunities that reduce costs. We work with your visual merchandising team to ensure construction supports your fixture plan.',
   },
   {
     step: '05',

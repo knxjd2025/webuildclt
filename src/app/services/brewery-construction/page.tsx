@@ -231,7 +231,7 @@ const faqs = [
   {
     question: 'What ABC permits do I need to open a brewery in North Carolina?',
     answer:
-      'In North Carolina, you need a brewery permit from the NC ABC Commission to brew and sell beer. If you want a taproom where customers drink on-site, you need taproom authorization as part of your brewery permit. Brewpubs that serve food with a full bar may need additional mixed beverage permits. The ABC Commission reviews your floor plan as part of the application, requiring clear separation between production areas and public spaces, designated alcohol storage, and proper bar layout. Your floor plan must satisfy ABC requirements before you apply, which is why we coordinate construction plans with ABC licensing requirements during the design phase rather than discovering conflicts after construction starts.',
+      'In North Carolina, you need a brewery permit from the NC ABC Commission to brew and sell beer. If you want a taproom where customers drink on-site, you need taproom authorization as part of your brewery permit. Brewpubs that serve food with a full bar may need additional mixed beverage permits. The ABC Commission reviews your floor plan as part of the application, requiring clear separation between production areas and public spaces, designated alcohol storage, and proper bar layout. Your floor plan must satisfy ABC requirements before you apply.',
   },
   {
     question: 'How do you coordinate with our brewing equipment supplier?',

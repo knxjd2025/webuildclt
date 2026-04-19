@@ -151,7 +151,7 @@ const processSteps = [
   {
     step: '03',
     title: 'Conceptual Design & Space Planning',
-    desc: 'We work closely with your architect and design team to create conceptual floor plans, elevation drawings, and 3D renderings that bring your renovation vision to life. We consider traffic flow, departmental adjacencies, natural light optimization, ADA accessibility, building code egress requirements, and the practical constraints of the existing structure.',
+    desc: 'We work closely with your architect and design team on floor plans, elevations, and 3D renderings. We consider traffic flow, departmental adjacencies, natural light optimization, ADA accessibility, building code egress requirements, and the practical constraints of the existing structure.',
   },
   {
     step: '04',
@@ -161,7 +161,7 @@ const processSteps = [
   {
     step: '05',
     title: 'Construction Document Preparation',
-    desc: 'Once the design and budget are approved, we finalize detailed construction drawings, structural engineering plans, mechanical engineering documents, electrical plans, plumbing layouts, and fire protection drawings. These documents are prepared to meet Mecklenburg County submittal requirements for commercial renovation permits. Finish schedules, equipment specifications, and material cut sheets are compiled into a comprehensive project manual.',
+    desc: 'Once the design and budget are approved, the client&rsquo;s architect and engineers finalize construction drawings, structural plans, mechanical documents, electrical plans, plumbing layouts, and fire protection drawings. These documents are prepared to meet Mecklenburg County submittal requirements for commercial renovation permits. Finish schedules, equipment specifications, and material cut sheets are compiled into a comprehensive project manual.',
   },
   {
     step: '06',
