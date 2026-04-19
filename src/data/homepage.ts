@@ -297,6 +297,12 @@ export const areasServedDetailed: AreaItem[] = [
     description:
       'Licensed in South Carolina, We Build serves Rock Hill, Tega Cay, and York County with commercial construction and tenant improvements. Rock Hill\'s Knowledge Park tech hub and Dave Lyle Boulevard corridor are driving significant commercial development and construction demand.',
   },
+  {
+    name: 'Raleigh & Research Triangle',
+    href: '/areas/raleigh',
+    description:
+      'We Build extends its commercial construction services into Raleigh and the Research Triangle — Cary, Morrisville, RTP, North Hills, Brier Creek, and Downtown Raleigh — with the same NC general contractor license and structured project-management system we use across the Charlotte metro. Raleigh clients benefit from tech-corridor, life-sciences, and Class A office build-out expertise aligned with Wake County permitting.',
+  },
 ];
 
 export const homeFaqs: FAQItem[] = [
@@ -308,7 +314,7 @@ export const homeFaqs: FAQItem[] = [
   {
     question: 'What areas in the Charlotte region do you serve?',
     answer:
-      'We serve the entire Charlotte metropolitan area including South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, Fort Mill SC, and Rock Hill SC. Our headquarters is at 14330 S Lakes Drive, Charlotte NC 28273. We hold active general contractor licenses in North Carolina and South Carolina.',
+      'We serve the entire Charlotte metropolitan area including South Charlotte, Ballantyne, Pineville, Matthews, Mint Hill, Huntersville, Cornelius, Davidson, Mooresville, Lake Norman, Waxhaw, Marvin, Weddington, Indian Trail, Fort Mill SC, and Rock Hill SC. We also serve Raleigh NC and the Research Triangle — Cary, Morrisville, RTP, North Hills, Brier Creek, and Downtown Raleigh — under our North Carolina general contractor license. Our headquarters is at 14330 S Lakes Drive, Charlotte NC 28273. We hold active general contractor licenses in North Carolina and South Carolina.',
   },
   {
     question: 'Are you a licensed and insured general contractor?',

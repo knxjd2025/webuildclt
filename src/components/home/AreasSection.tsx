@@ -11,13 +11,15 @@ export function AreasSection() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="section-label">Service Areas</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
-            Areas We Serve Across the Charlotte Metro
+            Commercial Construction Across the Charlotte Metro & Research Triangle
           </h2>
           <p className="text-muted-foreground">
             Licensed in both North Carolina and South Carolina, We Build
-            serves the entire Charlotte metropolitan area. Our South Charlotte
-            headquarters at 14330 S Lakes Drive puts us within easy reach of
-            every community listed below — and many more.
+            serves the entire Charlotte metropolitan area plus Raleigh and
+            the Research Triangle. Our Charlotte headquarters at 14330 S
+            Lakes Drive puts us within easy reach of the Carolinas&rsquo;
+            fastest-growing commercial markets — and many more communities
+            listed below.
           </p>
         </div>
 

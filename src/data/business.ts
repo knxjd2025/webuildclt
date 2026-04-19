@@ -28,5 +28,5 @@ export const BUSINESS = {
   logo: 'https://webuildclt.com/images/logo.png',
   foundingDate: '2019',
   description:
-    'Veteran and family-owned commercial construction company in Charlotte, NC. Licensed in NC & SC. Commercial construction, upfits, roof coating. 60+ years combined experience. USGBC member.',
+    'Veteran and family-owned commercial construction company headquartered in Charlotte, NC and serving Raleigh NC / Research Triangle. Licensed in NC & SC. Commercial construction, upfits, tenant improvements, roof coating. 60+ years combined experience. USGBC member.',
 } as const;
