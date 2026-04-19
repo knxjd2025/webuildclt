@@ -604,30 +604,20 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold mb-2">From I-77 South (Fort Mill / Rock Hill)</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Take I-77 North to I-485 Inner Loop (Exit 1). Follow I-485 Inner Loop east
-                    and take the South Boulevard exit. Turn left onto South Boulevard heading
-                    north. Turn right onto S Lakes Drive. Our office will be on the right.
+                  <h4 className="font-semibold mb-2">Get Directions</h4>
+                  <p className="text-muted-foreground text-sm leading-relaxed mb-3">
+                    For turn-by-turn directions from your location, open our
+                    address in Google Maps.
                   </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold mb-2">From Uptown Charlotte</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Take South Boulevard south from Uptown through South End, heading toward
-                    Pineville. Continue past I-485 and turn left onto S Lakes Drive. Our office
-                    is located on the right side of the street.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold mb-2">From I-485 (Ballantyne / Rea Road)</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">
-                    Take I-485 to the South Boulevard exit. Head north on South Boulevard and
-                    turn right onto S Lakes Drive. Our office is a short drive from the
-                    Ballantyne and Rea Road corridors.
-                  </p>
+                  <a
+                    href="https://www.google.com/maps/dir/?api=1&destination=14330+S+Lakes+Drive,+Charlotte,+NC+28273"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-primary font-medium hover:underline"
+                  >
+                    Open in Google Maps
+                    <ArrowRight className="ml-1 h-4 w-4" aria-hidden="true" />
+                  </a>
                 </div>
 
                 <div>
@@ -640,10 +630,11 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Map Embed */}
+              {/* Map Embed — search-by-address so it always resolves to the
+                  correct location without relying on hand-coded coordinates. */}
               <div className="h-[400px] lg:h-full min-h-[350px] rounded-xl overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3265.3!2d-80.9!3d35.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDA2JzAwLjAiTiA4MMKwNTQnMDAuMCJX!5e0!3m2!1sen!2sus!4v1234567890"
+                  src="https://www.google.com/maps?q=14330+S+Lakes+Drive,+Charlotte,+NC+28273&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
