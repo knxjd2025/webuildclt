@@ -45,7 +45,7 @@ import {
 export const metadata: Metadata = {
   title: 'Commercial Construction Charlotte NC | Licensed General Contractor | We Build',
   description:
-    'Top-rated commercial construction company in Charlotte NC with 60+ years combined experience. Commercial general contractors for office buildings, retail spaces, restaurants, medical facilities, warehouses & mixed-use. Licensed in NC & SC. Veteran & family-owned. USGBC member. Free consultations. (980) 471-1745.',
+    'Top-rated commercial construction company serving Charlotte NC, Raleigh NC, and the Research Triangle with 60+ years combined experience. Commercial general contractors for office buildings, retail spaces, restaurants, medical facilities, warehouses & mixed-use. Licensed in NC & SC. Veteran & family-owned. USGBC member. Free consultations. (980) 471-1745.',
   keywords: [
     'commercial construction charlotte nc',
     'commercial construction companies charlotte nc',
@@ -69,6 +69,14 @@ export const metadata: Metadata = {
     'commercial contractor south charlotte',
     'commercial construction fort mill sc',
     'commercial construction lake norman nc',
+    'commercial construction raleigh nc',
+    'commercial construction research triangle',
+    'commercial construction cary nc',
+    'commercial general contractor raleigh',
+    'commercial builder raleigh nc',
+    'commercial construction north hills raleigh',
+    'commercial construction brier creek',
+    'wake county commercial construction',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/commercial-construction',

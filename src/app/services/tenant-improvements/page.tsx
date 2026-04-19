@@ -34,7 +34,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: 'Tenant Improvement Contractor Charlotte NC | TI Build-Outs & Leasehold Improvements',
   description:
-    'Expert tenant improvement contractor in Charlotte, NC. Commercial renovation contractor for Class A & B office TI, retail tenant build-outs, restaurant TI, medical TI & industrial leasehold improvements. TI allowance maximization, landlord coordination. Veteran-owned, licensed NC & SC. Free consultations. (980) 471-1745.',
+    'Expert tenant improvement contractor serving Charlotte NC, Raleigh NC, and the Research Triangle. Commercial renovation contractor for Class A & B office TI, retail tenant build-outs, restaurant TI, medical TI & industrial leasehold improvements. TI allowance maximization, landlord coordination. Veteran-owned, licensed NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'tenant improvement contractor charlotte nc',
     'tenant improvement contractor near me',
@@ -56,6 +56,18 @@ export const metadata: Metadata = {
     'tenant improvement fort mill sc',
     'tenant improvement lake norman nc',
     'commercial tenant improvement near me',
+    'tenant improvement contractor raleigh nc',
+    'tenant improvement raleigh nc',
+    'ti contractor raleigh',
+    'leasehold improvement raleigh nc',
+    'tenant buildout raleigh nc',
+    'ti allowance raleigh',
+    'office tenant improvement raleigh nc',
+    'class a office ti raleigh',
+    'tenant improvement research triangle',
+    'tenant improvement north hills raleigh',
+    'tenant improvement cary nc',
+    'wake county tenant improvement',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/tenant-improvements',
@@ -63,7 +75,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Tenant Improvement Contractor Charlotte NC | We Build',
     description:
-      'Expert tenant improvement contractor serving Charlotte, Fort Mill & Lake Norman. Class A/B office TI, retail, restaurant, medical & industrial tenant build-outs. TI allowance maximization. Veteran-owned.',
+      'Expert tenant improvement contractor serving Charlotte, Fort Mill, Lake Norman, Raleigh, and the Research Triangle. Class A/B office TI, retail, restaurant, medical & industrial tenant build-outs. TI allowance maximization. Veteran-owned.',
     url: 'https://webuildclt.com/services/tenant-improvements',
     type: 'website',
   },

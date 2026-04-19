@@ -40,7 +40,7 @@ import {
 export const metadata: Metadata = {
   title: 'Commercial Upfits Charlotte NC | Office, Retail & Restaurant Build-Outs',
   description:
-    'Expert commercial upfit and build-out contractor in Charlotte, NC. Commercial interior contractor for office upfits, restaurant build-outs, retail renovations, medical facility upgrades & tenant improvements. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free consultations. (980) 471-1745.',
+    'Expert commercial upfit and build-out contractor serving Charlotte NC, Raleigh NC, and the Research Triangle. Commercial interior contractor for office upfits, restaurant build-outs, retail renovations, medical facility upgrades & tenant improvements. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free consultations. (980) 471-1745.',
   keywords: [
     'commercial upfit charlotte nc',
     'commercial upfit near me',
@@ -65,6 +65,16 @@ export const metadata: Metadata = {
     'commercial build out contractor Charlotte',
     'commercial interior contractor Charlotte',
     'commercial buildout Charlotte NC',
+    'commercial upfit raleigh nc',
+    'commercial upfit contractor raleigh',
+    'office upfit raleigh nc',
+    'tenant upfit raleigh nc',
+    'commercial upfit research triangle',
+    'commercial upfit north hills raleigh',
+    'commercial upfit brier creek',
+    'commercial upfit cary nc',
+    'restaurant build out raleigh nc',
+    'retail upfit raleigh nc',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/commercial-upfits',
@@ -72,7 +82,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Commercial Upfits Charlotte NC | We Build',
     description:
-      'Transform your commercial space with expert upfit services. Office, retail, restaurant, medical & warehouse upfits across Charlotte, Fort Mill & Lake Norman.',
+      'Transform your commercial space with expert upfit services. Office, retail, restaurant, medical & warehouse upfits across Charlotte, Fort Mill, Lake Norman, Raleigh, and the Research Triangle.',
     url: 'https://webuildclt.com/services/commercial-upfits',
     type: 'website',
   },

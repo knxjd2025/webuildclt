@@ -31,7 +31,7 @@ import {
 export const metadata: Metadata = {
   title: 'General Contractor Charlotte NC | Licensed & Veteran-Owned | We Build',
   description:
-    'Licensed general contractor near me in Charlotte, NC. Commercial construction, upfits & roof coating. Veteran-owned, 60+ years combined experience. Licensed in NC & SC. Free consultations. (980) 471-1745.',
+    'Licensed general contractor serving Charlotte NC, Raleigh NC, and the Research Triangle. Commercial construction, upfits & roof coating. Veteran-owned, 60+ years combined experience. Licensed in NC & SC. Free consultations. (980) 471-1745.',
   keywords: [
     'general contractor charlotte nc',
     'general contractor near me',
@@ -49,6 +49,17 @@ export const metadata: Metadata = {
     'commercial GC Charlotte NC',
     'GC Charlotte',
     'GC near me Charlotte',
+    'general contractor raleigh nc',
+    'general contractor in raleigh nc',
+    'licensed general contractor raleigh',
+    'commercial general contractor raleigh nc',
+    'general contractor research triangle',
+    'general contractor cary nc',
+    'general contractor morrisville nc',
+    'commercial GC raleigh nc',
+    'GC raleigh',
+    'building contractor raleigh nc',
+    'wake county general contractor',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/general-contractor',
