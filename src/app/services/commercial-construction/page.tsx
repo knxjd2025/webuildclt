@@ -249,6 +249,14 @@ const industries = [
 
 const faqs = [
   {
+    question: 'Does We Build provide commercial construction in Raleigh NC and the Research Triangle?',
+    answer: 'Yes. We Build is a licensed North Carolina general contractor providing commercial construction services in Raleigh, Cary, Morrisville, Research Triangle Park, and greater Wake County. Our NC commercial construction license covers ground-up office buildings, retail, restaurants, medical offices, warehouses, and mixed-use developments across the Raleigh metro. While We Build is headquartered in Charlotte, Raleigh projects are handled by our structured project-management system with local trade partnerships established during pre-construction. Call (980) 471-1745 for a free Raleigh commercial construction consultation.',
+  },
+  {
+    question: 'How much does commercial construction cost per square foot in Raleigh NC?',
+    answer: 'Commercial construction costs in Raleigh generally run slightly higher than Charlotte for specialty trades due to Research Triangle tech-sector demand. Typical Raleigh commercial construction costs in 2026: office upfits $60-$185 per square foot, retail build-outs $75-$210 per square foot, restaurant construction $150-$375 per square foot, medical facilities $160-$420 per square foot, and ground-up commercial starts around $210 per square foot and can exceed $425 for complex builds. We provide detailed line-item estimates for every Raleigh commercial project.',
+  },
+  {
     question: 'What types of commercial construction does We Build handle in Charlotte?',
     answer: 'We Build handles all types of commercial construction across the Charlotte metro area including ground-up office buildings, retail spaces, restaurants, medical and dental facilities, warehouses, industrial buildings, mixed-use developments, and commercial renovations. Our NC and SC general contractor licenses allow us to work throughout the greater Charlotte region including Fort Mill, Lake Norman, and surrounding counties.',
   },

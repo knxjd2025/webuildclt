@@ -194,6 +194,16 @@ const costGuide = [
 
 const faqs = [
   {
+    question: 'Is We Build a licensed general contractor in Raleigh NC and the Research Triangle?',
+    answer:
+      'Yes. We Build holds an active North Carolina general contractor license from the NC Licensing Board for General Contractors (NCLBGC), which authorizes commercial GC work across the entire state — including Raleigh, Cary, Morrisville, Apex, North Hills, Brier Creek, Research Triangle Park, and greater Wake County. Our NCLBGC classification covers ground-up commercial construction, commercial renovations, tenant improvements, upfits, and specialty scopes throughout the Research Triangle. Raleigh projects are run out of our Charlotte office using the same project-management system, licensed supers, and documented pre-construction process that has delivered 200+ Carolina commercial projects. You can verify our NC license status at nclbgc.org. Call (980) 471-1745 for a free Raleigh general contractor consultation.',
+  },
+  {
+    question: 'How does We Build manage Raleigh construction projects from Charlotte?',
+    answer:
+      'Raleigh and Research Triangle projects are managed through the same structured pre-construction, scheduling, and on-site supervision system used on every We Build commercial project. During pre-construction we establish local trade partnerships in the Raleigh market, coordinate directly with Wake County Code Enforcement on permitting, and confirm availability with Raleigh-area subcontractors before a contract is signed. A dedicated We Build project manager runs the job end-to-end, with a licensed superintendent on-site daily throughout construction. Weekly owner meetings, real-time budget and schedule updates, and centralized RFI and submittal tracking keep Raleigh clients just as informed as our Charlotte clients — the distance does not change the process. For Raleigh tenants coordinating with landlords or building management in RTP, North Hills, or Brier Creek, we handle all work letter, building-standard, and after-hours construction coordination directly.',
+  },
+  {
     question: 'What does a general contractor do?',
     answer:
       'A general contractor serves as the single point of responsibility for an entire construction project. This includes project planning and budgeting, obtaining building permits, hiring and coordinating subcontractors (electricians, plumbers, HVAC technicians, painters, and other specialty trades), procuring materials, managing the construction schedule, conducting quality inspections, ensuring code compliance, and handling all communication between the property owner, design team, and construction crew. When you hire a general contractor, you get one phone number to call and one company accountable for the entire project — rather than managing a dozen separate trades yourself.',

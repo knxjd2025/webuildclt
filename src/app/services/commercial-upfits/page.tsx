@@ -276,6 +276,16 @@ const costFactors = [
 
 const faqs = [
   {
+    question: 'Does We Build handle commercial upfits in Raleigh NC and the Research Triangle?',
+    answer:
+      'Yes. We Build provides commercial upfit, office upfit, retail upfit, restaurant build-out, and tenant upfit services throughout Raleigh, Cary, Morrisville, Apex, North Hills, Brier Creek, Research Triangle Park, and greater Wake County under our active North Carolina general contractor license. Raleigh upfits are coordinated from our Charlotte office with local subcontractor partnerships established during pre-construction — the same process that has delivered 200+ commercial upfits across the Carolinas. Common Raleigh upfit projects include RTP tech-sector office build-outs, North Hills and Brier Creek retail and restaurant tenant improvements, medical and dental suite fit-outs in Wake County, and Class A office TI work in downtown Raleigh. Call (980) 471-1745 for a free Raleigh commercial upfit consultation.',
+  },
+  {
+    question: 'How much does a commercial upfit cost per square foot in Raleigh NC?',
+    answer:
+      'Commercial upfit costs in Raleigh run slightly higher than Charlotte for finish-intensive and MEP-heavy scopes due to Research Triangle tech-sector demand on specialty trades. Typical 2026 Raleigh upfit costs: cosmetic office refreshes $45-$70 per square foot, standard office upfits $85-$145 per square foot, Class A office TI $120-$220 per square foot, retail build-outs $80-$180 per square foot, restaurant build-outs $165-$375 per square foot, and medical or dental suite fit-outs $160-$325 per square foot. Wake County permitting currently runs 4-7 weeks on commercial upfit applications. We provide detailed, line-item estimates tailored to the specific building, landlord work letter, and Raleigh submarket before signing a contract.',
+  },
+  {
     question: 'How much does a commercial upfit cost in Charlotte, NC?',
     answer:
       'Commercial upfit costs in Charlotte vary significantly by space type and scope. Basic office upfits start around $50 per square foot for cosmetic refreshes, while mid-range office renovations with new walls and finishes run $80 to $130 per square foot. Restaurant build-outs are the most expensive at $150 to $350 per square foot due to kitchen ventilation, plumbing, and fire suppression requirements. Medical facility upfits range from $150 to $300 per square foot. We provide detailed, line-item estimates after an initial site visit so you know exactly what every dollar covers before construction begins.',

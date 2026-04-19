@@ -269,6 +269,16 @@ const costTiers = [
 
 const faqs = [
   {
+    question: 'Does We Build handle tenant improvement projects in Raleigh NC and the Research Triangle?',
+    answer:
+      'Yes. We Build is a licensed North Carolina general contractor delivering tenant improvement and leasehold improvement projects across Raleigh, Cary, Morrisville, Apex, North Hills, Brier Creek, Research Triangle Park, and greater Wake County. We handle the full TI lifecycle — work letter review during lease negotiation, TI allowance budgeting, pre-construction coordination with the landlord and building management, Wake County permitting, and turnkey construction — for Class A office TI in downtown Raleigh and RTP, medical and dental leasehold improvements in Wake County, retail and restaurant TI in North Hills and Brier Creek, and industrial and flex-space fit-outs across the Research Triangle. Call (980) 471-1745 for a free Raleigh tenant improvement consultation.',
+  },
+  {
+    question: 'What is a typical TI allowance in Raleigh NC and the Research Triangle?',
+    answer:
+      'Tenant improvement allowances in the Raleigh / Research Triangle commercial market currently run $20 to $30 per square foot for Class B suburban office, $40 to $75 per square foot for Class A downtown Raleigh and RTP office space, $25 to $50 per square foot for retail spaces in North Hills, Brier Creek, and established Wake County centers, $40 to $90 per square foot for medical and dental suites, and $5 to $25 per square foot for industrial and flex space. Raleigh TI allowances tend to run slightly higher than Charlotte for Class A and RTP office because of competition for tech and life-sciences tenants. These ranges vary based on lease term, tenant credit, market vacancy, and landlord motivation. Longer lease terms and stronger tenant credit typically command higher TI allowances. We provide preliminary construction budgets during lease negotiations so Raleigh tenants can request the right TI allowance amount before signing.',
+  },
+  {
     question: 'What is a tenant improvement (TI) and how does it differ from a commercial upfit?',
     answer:
       'A tenant improvement is a construction project that customizes a leased commercial space to meet the specific needs of the tenant occupying it. The term is closely related to commercial upfit, and in Charlotte the two terms are often used interchangeably. The primary distinction is that tenant improvements are specifically tied to a lease agreement, with the scope, budget, and timeline governed by the lease work letter and tenant improvement allowance. A commercial upfit can refer to any renovation of a commercial space, whether the occupant is a tenant or an owner. In practice, the construction process is identical. The key difference is the financial and contractual framework: TI projects involve landlord coordination, TI allowance reimbursement documentation, and compliance with building management construction rules that owner-occupied upfits do not require.',
