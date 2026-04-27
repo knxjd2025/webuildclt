@@ -28,15 +28,15 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Construction Company Rock Hill SC | General Contractor York County',
+  title: 'Rock Hill SC Construction Company | York County GC',
   description:
-    'Need a construction company near me in Rock Hill SC? Licensed general contractor serving Rock Hill & York County. Commercial construction, upfits, office buildouts, roof coating & drone inspections. SC licensed. Veteran & family-owned. Free consultations.',
+    'Rock Hill SC construction company serving York County. Commercial construction, upfits, office buildouts, roof coating & drone inspections. Veteran-owned.',
   keywords: [
     'construction company rock hill sc',
     'general contractor rock hill',
     'commercial contractor rock hill sc',
     'contractor near me rock hill',
-    'construction companies near me',
+    'construction companies near me rock hill',
     'rock hill commercial construction',
     'rock hill remodeling contractor',
     'licensed contractor SC',

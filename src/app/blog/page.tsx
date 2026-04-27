@@ -4,17 +4,47 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, ArrowRight, User } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Calendar, ArrowRight, User, Phone, ShieldCheck, Award, MapPin } from 'lucide-react';
 import { JsonLd } from '@/components/JsonLd';
-import { breadcrumbSchema } from '@/lib/structured-data';
+import { breadcrumbSchema, faqSchema } from '@/lib/structured-data';
+import { FaqAccordion } from '@/components/FaqAccordion';
 import { createAdminClient } from '@/lib/supabase';
+
+const blogFaqs = [
+  {
+    question: 'Who writes the We Build construction blog?',
+    answer:
+      'Every post is written or edited by our team of licensed commercial contractors with 60+ years of combined experience. We do not publish guest posts, sponsored content, or AI-generated filler. If a post covers a specialized topic like ADA compliance or green building, the author has direct project experience in that area.',
+  },
+  {
+    question: 'How often is the blog updated?',
+    answer:
+      'We publish new posts approximately weekly, focused on practical commercial construction topics that Charlotte business owners actually need: cost benchmarks, permitting changes, project timelines, and case studies from our completed work. We do not chase trending topics that have nothing to do with our expertise.',
+  },
+  {
+    question: 'Can I republish or quote a We Build blog post?',
+    answer:
+      'Short quotes with attribution and a link back to the original post are welcome. For longer republication, please contact us at (980) 471-1745 first. We are happy to license content for industry publications and partner sites with proper attribution.',
+  },
+  {
+    question: 'I read a tip in your blog. Can I get a quote applying it to my project?',
+    answer:
+      'Yes. Call (980) 471-1745 or use our contact form for a free consultation. We will review your project, provide a detailed line-item estimate, and apply the relevant principles from our blog content. Free consultations include a site visit and rough budget estimate.',
+  },
+  {
+    question: 'Are blog posts specific to Charlotte and the Carolinas?',
+    answer:
+      'Most posts focus on Charlotte and the surrounding Carolina region — Mecklenburg County, York County SC, Lake Norman, and the Research Triangle. Cost figures, permitting references, and code citations are Carolina-specific. Construction principles in the posts apply broadly, but pricing and regulatory details may differ in your region.',
+  },
+];
 
 export const revalidate = false; // Static at build time — redeploy or use /api/revalidate to update
 
 export const metadata: Metadata = {
   title: 'Blog | Charlotte Construction Tips & Industry Insights',
   description:
-    'Charlotte construction blog by We Build — expert tips on commercial construction, roof coating, and commercial upfits. Project spotlights, industry insights, and practical advice for commercial construction in Charlotte NC.',
+    'Charlotte construction blog by We Build. Expert tips on commercial construction, roof coating, and upfits. Project spotlights, industry insights, advice.',
   alternates: {
     canonical: 'https://webuildclt.com/blog',
   },
@@ -90,7 +120,7 @@ export default async function BlogPage() {
 
   return (
     <>
-      <JsonLd data={breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Blog' }])} />
+      <JsonLd data={[breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Blog' }]), faqSchema(blogFaqs)]} />
       <PageHero
         title="Blog"
         subtitle="Construction tips, project spotlights, and industry insights"
@@ -100,6 +130,55 @@ export default async function BlogPage() {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <Breadcrumbs items={[{ label: 'Blog' }]} />
+
+          {/* Intro */}
+          <div className="max-w-3xl mt-8 mb-12">
+            <h2 className="text-3xl font-bold mb-4">
+              Charlotte Commercial Construction Insights
+            </h2>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              The We Build blog is where Charlotte business owners go for honest,
+              practical advice on commercial construction, upfits, roof coatings,
+              and building maintenance. Every article is written by our team of
+              licensed contractors with 60+ years of combined experience in North
+              and South Carolina — no fluff, no SEO bait, just the information you
+              actually need before signing a construction contract.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Browse posts by topic:{' '}
+              <Link href="/services/commercial-construction" className="text-primary hover:underline font-medium">commercial construction</Link>,{' '}
+              <Link href="/services/commercial-upfits" className="text-primary hover:underline font-medium">commercial upfits</Link>,{' '}
+              <Link href="/services/tenant-improvements" className="text-primary hover:underline font-medium">tenant improvements</Link>,{' '}
+              <Link href="/services/roof-coating" className="text-primary hover:underline font-medium">roof coating</Link>,{' '}
+              <Link href="/services/drone-inspections" className="text-primary hover:underline font-medium">drone inspections</Link>, or{' '}
+              <Link href="/guides" className="text-primary hover:underline font-medium">read our long-form guides</Link>.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3 text-sm">
+              <span className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+                <ShieldCheck className="h-4 w-4" /> Veteran-owned
+              </span>
+              <span className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+                <Award className="h-4 w-4" /> USGBC member
+              </span>
+              <span className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+                <MapPin className="h-4 w-4" /> Licensed NC &amp; SC
+              </span>
+            </div>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Button asChild>
+                <Link href="/contact">
+                  Get a Free Consultation
+                  <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                </Link>
+              </Button>
+              <Button variant="outline" asChild>
+                <a href="tel:+19804711745">
+                  <Phone className="mr-2 h-4 w-4" aria-hidden="true" />
+                  (980) 471-1745
+                </a>
+              </Button>
+            </div>
+          </div>
 
           {/* Featured Post */}
           <div className="mb-16">
@@ -213,6 +292,18 @@ export default async function BlogPage() {
               </div>
             </div>
           )}
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2 text-center">Frequently Asked Questions</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">About the We Build Blog</h2>
+          <p className="text-center text-muted-foreground mb-10">
+            Common questions about our blog and how to use it.
+          </p>
+          <FaqAccordion faqs={blogFaqs} />
         </div>
       </section>
 

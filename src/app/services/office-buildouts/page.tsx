@@ -35,9 +35,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Office Buildouts & Renovation Charlotte NC | Corporate, Co-Working & Medical Office Construction',
+  title: 'Office Buildout Charlotte NC | Corporate & Co-Working',
   description:
-    'Expert office buildout and renovation contractor in Charlotte, NC. Commercial general contractors for corporate headquarters, co-working spaces, medical office suites, law firms, tech startups & executive suites. Veteran-owned, licensed in NC & SC. Hybrid-ready designs. Free consultations. (980) 471-1745.',
+    'Office buildout contractor in Charlotte NC, Raleigh, Durham, RTP. Corporate HQs, co-working, medical office, law firms, life sciences. Hybrid-ready designs.',
   keywords: [
     'office buildout Charlotte NC',
     'office buildout near me',
@@ -58,6 +58,28 @@ export const metadata: Metadata = {
     'office buildout fort mill sc',
     'office buildout lake norman nc',
     'commercial office construction near me',
+    'office buildout raleigh nc',
+    'office renovation raleigh nc',
+    'office construction raleigh nc',
+    'corporate office renovation raleigh',
+    'co-working space buildout raleigh',
+    'tech office buildout raleigh',
+    'class a office buildout raleigh',
+    'office buildout north hills raleigh',
+    'office buildout downtown raleigh',
+    'office buildout research triangle',
+    'wake county office buildout',
+    'office buildout durham nc',
+    'office renovation durham nc',
+    'office construction durham nc',
+    'corporate office renovation durham',
+    'tech office buildout durham',
+    'life sciences office buildout durham',
+    'office buildout american tobacco',
+    'office buildout downtown durham',
+    'office buildout duke university area',
+    'office buildout rtp durham',
+    'durham county office buildout',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/office-buildouts',
@@ -65,7 +87,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Office Buildouts & Renovation Charlotte NC | We Build',
     description:
-      'Transform your office space with expert buildout and renovation services. Corporate HQ, co-working, medical, law firm, tech & executive offices across Charlotte, Fort Mill & Lake Norman.',
+      'Transform your office space with expert buildout and renovation services. Corporate HQ, co-working, medical, law firm, tech, life-sciences & executive offices across Charlotte, Fort Mill, Lake Norman, Raleigh, Durham, and the Research Triangle.',
     url: 'https://webuildclt.com/services/office-buildouts',
     type: 'website',
   },
@@ -259,6 +281,16 @@ const costTiers = [
 
 const faqs = [
   {
+    question: 'Does We Build handle office buildouts in Raleigh NC and the Research Triangle?',
+    answer:
+      'Yes. We Build delivers office buildouts, corporate headquarters construction, co-working space build-outs, and Class A / Class B office renovations throughout Raleigh, Cary, Morrisville, North Hills, Brier Creek, Downtown Raleigh, Glenwood South, and greater Wake County. Raleigh office projects often target tech, professional services, and life-sciences office tenants, with heavy demand for Class A TI in North Hills and the Research Triangle Park corridor. We coordinate City of Raleigh and Wake County permitting, landlord work-letter review, building-standard compliance, and after-hours construction scheduling. Call (980) 471-1745 for a free Raleigh office buildout consultation.',
+  },
+  {
+    question: 'Does We Build handle office buildouts in Durham NC?',
+    answer:
+      'Yes. We Build provides office buildouts, corporate office renovations, tech and life-sciences office TI, and Class A office fit-outs throughout Durham — including Downtown Durham, the American Tobacco District, the Duke University area, Ninth Street, Brightleaf, Southpoint, and the Durham County portion of Research Triangle Park. Many Durham office projects involve adaptive reuse of historic tobacco and textile buildings, which requires coordination with the City of Durham historic-district design review and preservation-compatible construction methods. We also handle life-sciences office build-outs for biotech and pharmaceutical tenants on the Durham County side of RTP, where specialized MEP, redundant HVAC, and lab-adjacent office requirements are common. Call (980) 471-1745 for a free Durham office buildout consultation.',
+  },
+  {
     question: 'How much does an office buildout cost in Charlotte, NC?',
     answer:
       'Office buildout costs in Charlotte vary based on the type of office, scope of construction, existing conditions, and finish level. Basic office refreshes with cosmetic updates start around $45 to $75 per square foot. Standard office buildouts with new walls, electrical, data cabling, and mid-range finishes run $75 to $130 per square foot. High-end corporate offices with premium finishes, custom millwork, and integrated technology range from $130 to $250 per square foot. Medical office suites cost $150 to $300 per square foot due to specialized infrastructure. We provide a detailed, line-item estimate after an initial site visit so you understand exactly what every dollar covers before construction begins.',
@@ -392,7 +424,7 @@ export default function OfficeBuildoutsPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Office Buildouts' },
             ]}
           />

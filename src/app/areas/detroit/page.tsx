@@ -28,7 +28,7 @@ import {
 export const metadata: Metadata = {
   title: 'Commercial Roof Coating Detroit MI | We Coat by We Build',
   description:
-    'We Coat provides professional commercial roof coating in Detroit and Metro Detroit MI. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs roof replacement. Free assessments. IIBEC certified. (980) 471-1745.',
+    'Commercial roof coating in Detroit & Metro Detroit MI. Silicone, acrylic, polyurethane & elastomeric coatings. Save 50% vs replacement. IIBEC certified.',
   keywords: [
     'roof coating detroit mi',
     'commercial roof coating detroit',

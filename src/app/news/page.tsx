@@ -2,15 +2,51 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
+import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, ArrowRight, User } from 'lucide-react';
+import { Calendar, ArrowRight, User, Phone, ShieldCheck, Award, MapPin } from 'lucide-react';
+import { JsonLd } from '@/components/JsonLd';
+import { breadcrumbSchema, faqSchema } from '@/lib/structured-data';
+import { FaqAccordion } from '@/components/FaqAccordion';
+
+const newsFaqs = [
+  {
+    question: 'How can I stay updated on We Build news?',
+    answer:
+      'Follow We Build on LinkedIn (@we-build-clt) and Facebook (WeBuildCLT) for new project announcements, milestone updates, and certification news. We post project completions, before-and-after spotlights, and industry recognition regularly. You can also bookmark this News page or check our Blog for long-form posts.',
+  },
+  {
+    question: 'Does We Build issue press releases?',
+    answer:
+      'Yes, for major announcements like new service launches, certifications, large project completions, and community involvement. Press inquiries can reach us at (980) 471-1745 or through our contact form. We are happy to coordinate interviews, project tours, and photography for credible Charlotte-area outlets.',
+  },
+  {
+    question: 'Can I tour a We Build project featured in a news post?',
+    answer:
+      'Many of our completed commercial projects are open to the public — restaurants, retail, breweries, and showrooms. For private buildings (offices, warehouses, healthcare), tours can sometimes be arranged with the owner\'s permission. Contact us at (980) 471-1745 to coordinate.',
+  },
+  {
+    question: 'Where can I see We Build\'s completed projects?',
+    answer:
+      'Browse our project portfolio at /portfolio for photos, project details, and case studies of completed commercial construction, upfit, and roof coating work across Charlotte, Fort Mill SC, Lake Norman, and the Carolinas. Each portfolio entry includes scope, timeline, and any unique challenges we solved.',
+  },
+];
 
 export const metadata: Metadata = {
-  title: 'News',
+  title: 'News & Updates | We Build Charlotte NC',
   description:
-    'Latest news, updates, and insights from We Build construction company in Charlotte, NC.',
+    'Latest news, project announcements, and construction industry insights from We Build — a veteran-owned commercial construction company in Charlotte, NC.',
+  alternates: {
+    canonical: 'https://webuildclt.com/news',
+  },
+  keywords: [
+    'we build news charlotte',
+    'we build construction updates',
+    'charlotte construction news',
+    'commercial construction news charlotte nc',
+  ],
 };
 
 // This data would come from WordPress GraphQL in production
@@ -75,6 +111,7 @@ export default function NewsPage() {
 
   return (
     <>
+      <JsonLd data={[breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'News' }]), faqSchema(newsFaqs)]} />
       <PageHero
         title="News"
         subtitle="Latest updates from We Build"
@@ -83,6 +120,56 @@ export default function NewsPage() {
 
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
+          <Breadcrumbs items={[{ label: 'News' }]} />
+
+          {/* Intro */}
+          <div className="max-w-3xl mt-8 mb-12">
+            <h2 className="text-3xl font-bold mb-4">
+              We Build Company News &amp; Project Updates
+            </h2>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              Stay current on We Build — a veteran and family-owned commercial
+              construction company in Charlotte, NC. Here you&apos;ll find new
+              project announcements, milestone updates, certification news, and
+              industry recognition. We&apos;re a USGBC member, licensed in North
+              Carolina and South Carolina, with 60+ years of combined construction
+              experience serving Charlotte, the Carolinas, and the Research
+              Triangle.
+            </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Looking for something specific? Explore our{' '}
+              <Link href="/services" className="text-primary hover:underline font-medium">commercial construction services</Link>,{' '}
+              <Link href="/portfolio" className="text-primary hover:underline font-medium">project portfolio</Link>,{' '}
+              <Link href="/about/certifications" className="text-primary hover:underline font-medium">certifications and licenses</Link>, or{' '}
+              <Link href="/blog" className="text-primary hover:underline font-medium">long-form blog posts</Link>.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3 text-sm">
+              <span className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+                <ShieldCheck className="h-4 w-4" /> Veteran-owned
+              </span>
+              <span className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+                <Award className="h-4 w-4" /> USGBC member
+              </span>
+              <span className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+                <MapPin className="h-4 w-4" /> Licensed NC &amp; SC
+              </span>
+            </div>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Button asChild>
+                <Link href="/contact">
+                  Start Your Project
+                  <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                </Link>
+              </Button>
+              <Button variant="outline" asChild>
+                <a href="tel:+19804711745">
+                  <Phone className="mr-2 h-4 w-4" aria-hidden="true" />
+                  (980) 471-1745
+                </a>
+              </Button>
+            </div>
+          </div>
+
           {/* Featured Post */}
           <div className="mb-16">
             <h2 className="text-2xl font-bold mb-8">Featured</h2>
@@ -174,6 +261,18 @@ export default function NewsPage() {
               Load More Posts
             </Button>
           </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2 text-center">Frequently Asked Questions</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">News &amp; Press FAQ</h2>
+          <p className="text-center text-muted-foreground mb-10">
+            Common questions about We Build news, press, and project updates.
+          </p>
+          <FaqAccordion faqs={newsFaqs} />
         </div>
       </section>
 

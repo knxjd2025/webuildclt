@@ -28,15 +28,15 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Construction Company Matthews NC | General Contractor Matthews & Mint Hill',
+  title: 'Matthews NC Construction Company | Mint Hill GC',
   description:
-    'Searching for a construction company near me in Matthews NC? Veteran-owned general contractor serving Matthews, Mint Hill, Indian Trail & Stallings. Commercial construction, upfits & roof coatings. Licensed in NC & SC. Free consultations. (980) 471-1745.',
+    'Veteran-owned Matthews NC construction company serving Mint Hill, Indian Trail & Stallings. Commercial construction, upfits, roof coatings. Licensed NC & SC.',
   keywords: [
     'construction company matthews nc',
     'general contractor matthews',
     'commercial contractor matthews nc',
     'contractor near me matthews',
-    'construction companies near me',
+    'construction companies near me matthews',
     'matthews commercial construction',
     'matthews remodeling contractor',
     'licensed contractor NC',

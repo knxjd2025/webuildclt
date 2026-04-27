@@ -43,6 +43,9 @@ export const areaLinks = [
   { name: 'Huntersville', href: '/areas/huntersville', description: 'General contractor serving Huntersville, Birkdale Village, and Northlake.' },
   { name: 'Matthews', href: '/areas/matthews', description: 'Construction in Matthews, Mint Hill, Indian Trail, and Stallings.' },
   { name: 'Mooresville', href: '/areas/mooresville', description: 'Serving Race City, Lake Norman west shore, and Iredell County.' },
+  { name: 'Concord, NC', href: '/areas/concord', description: 'Cabarrus County GC serving Concord Mills, Charlotte Motor Speedway district, and downtown Concord.' },
+  { name: 'Gastonia, NC', href: '/areas/gastonia', description: 'Gaston County GC serving FUSE District, Loray Mill, and the Cox Road corridor.' },
+  { name: 'Indian Trail, NC', href: '/areas/indian-trail', description: 'Union County GC serving Sun Valley Commons, Wesley Chapel, Stallings, and the US-74 corridor.' },
   // Research Triangle
   { name: 'Raleigh, NC', href: '/areas/raleigh', description: 'Commercial construction across Raleigh, North Hills, Brier Creek, Research Triangle, Cary, and Wake County.' },
   { name: 'Durham, NC', href: '/areas/durham', description: 'Commercial construction across Downtown Durham, American Tobacco District, RTP, Duke area, Southpoint, and Durham County.' },

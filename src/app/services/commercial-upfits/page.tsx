@@ -38,9 +38,9 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Commercial Upfits Charlotte NC | Office, Retail & Restaurant Build-Outs',
+  title: 'Commercial Upfit Charlotte NC | Office, Retail, Restaurant',
   description:
-    'Expert commercial upfit and build-out contractor serving Charlotte NC, Raleigh NC, and the Research Triangle. Commercial interior contractor for office upfits, restaurant build-outs, retail renovations, medical facility upgrades & tenant improvements. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free consultations. (980) 471-1745.',
+    'Commercial upfit contractor in Charlotte NC, Raleigh, Durham, RTP. Office upfits, restaurant build-outs, retail renovations, medical & tenant improvements.',
   keywords: [
     'commercial upfit charlotte nc',
     'commercial upfit near me',
@@ -75,6 +75,17 @@ export const metadata: Metadata = {
     'commercial upfit cary nc',
     'restaurant build out raleigh nc',
     'retail upfit raleigh nc',
+    'commercial upfit durham nc',
+    'office upfit durham nc',
+    'tenant upfit durham',
+    'commercial upfit downtown durham',
+    'commercial upfit american tobacco',
+    'commercial upfit duke university area',
+    'commercial upfit southpoint durham',
+    'retail upfit durham nc',
+    'restaurant build out durham nc',
+    'life sciences lab build out durham',
+    'durham county commercial upfit',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/commercial-upfits',
@@ -82,7 +93,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Commercial Upfits Charlotte NC | We Build',
     description:
-      'Transform your commercial space with expert upfit services. Office, retail, restaurant, medical & warehouse upfits across Charlotte, Fort Mill, Lake Norman, Raleigh, and the Research Triangle.',
+      'Transform your commercial space with expert upfit services. Office, retail, restaurant, medical & warehouse upfits across Charlotte, Fort Mill, Lake Norman, Raleigh, Durham, and the Research Triangle.',
     url: 'https://webuildclt.com/services/commercial-upfits',
     type: 'website',
   },
@@ -286,6 +297,11 @@ const faqs = [
       'Commercial upfit costs in Raleigh run slightly higher than Charlotte for finish-intensive and MEP-heavy scopes due to Research Triangle tech-sector demand on specialty trades. Typical 2026 Raleigh upfit costs: cosmetic office refreshes $45-$70 per square foot, standard office upfits $85-$145 per square foot, Class A office TI $120-$220 per square foot, retail build-outs $80-$180 per square foot, restaurant build-outs $165-$375 per square foot, and medical or dental suite fit-outs $160-$325 per square foot. Wake County permitting currently runs 4-7 weeks on commercial upfit applications. We provide detailed, line-item estimates tailored to the specific building, landlord work letter, and Raleigh submarket before signing a contract.',
   },
   {
+    question: 'Does We Build handle commercial upfits in Durham NC and the Research Triangle?',
+    answer:
+      'Yes. We Build provides commercial upfit, office upfit, retail upfit, restaurant build-out, tenant upfit, and life-sciences / lab build-out services throughout Durham NC — including Downtown Durham, the American Tobacco District, the Duke University area, Ninth Street, Brightleaf, Southpoint, and the Durham County portion of Research Triangle Park. Common Durham upfit projects include life-sciences lab and clean-room fit-outs for RTP and Duke-spinout tenants, Class A office TI in the American Tobacco Campus and Downtown Durham, medical and dental suite fit-outs near Duke Medical Center and the Ninth Street corridor, adaptive-reuse retail and restaurant TI in Brightleaf and Five Points, and retail pad TI at Southpoint. Call (980) 471-1745 for a free Durham commercial upfit consultation.',
+  },
+  {
     question: 'How much does a commercial upfit cost in Charlotte, NC?',
     answer:
       'Commercial upfit costs in Charlotte vary significantly by space type and scope. Basic office upfits start around $50 per square foot for cosmetic refreshes, while mid-range office renovations with new walls and finishes run $80 to $130 per square foot. Restaurant build-outs are the most expensive at $150 to $350 per square foot due to kitchen ventilation, plumbing, and fire suppression requirements. Medical facility upfits range from $150 to $300 per square foot. We provide detailed, line-item estimates after an initial site visit so you know exactly what every dollar covers before construction begins.',
@@ -382,7 +398,7 @@ export default function CommercialUpfitsPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Commercial Upfits' },
             ]}
           />

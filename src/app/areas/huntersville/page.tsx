@@ -28,15 +28,15 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Construction Company Huntersville NC | General Contractor Near Lake Norman',
+  title: 'Huntersville NC Construction Company | Lake Norman GC',
   description:
-    'Top-rated construction company near me in Huntersville NC. Veteran-owned general contractor for commercial construction, upfits & roof coatings near Birkdale Village, Northlake, Rosedale. Licensed in NC & SC. Free consultations. (980) 471-1745.',
+    'Huntersville NC construction company serving Birkdale Village, Northlake, Rosedale. Commercial construction, upfits, roof coating. Veteran-owned.',
   keywords: [
     'construction company huntersville nc',
     'general contractor huntersville',
     'commercial contractor huntersville nc',
     'contractor near me huntersville',
-    'construction companies near me',
+    'construction companies near me huntersville',
     'huntersville commercial construction',
     'huntersville remodeling contractor',
     'licensed contractor NC',

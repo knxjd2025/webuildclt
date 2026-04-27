@@ -28,15 +28,15 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Construction Company Mooresville NC | General Contractor Race City & Lake Norman West',
+  title: 'Mooresville NC Construction Company | Race City GC',
   description:
-    'Looking for a contractor near me in Mooresville NC? Veteran-owned construction company serving Race City USA, Lake Norman west shore & Langtree. Commercial construction, upfits & roof coatings. Licensed in NC & SC. Free consultations. (980) 471-1745.',
+    'Mooresville NC construction company serving Race City USA, Lake Norman west shore & Langtree. Commercial construction, upfits, roof coating. Veteran-owned.',
   keywords: [
     'construction company mooresville nc',
     'general contractor mooresville',
     'commercial contractor mooresville nc',
     'contractor near me mooresville',
-    'construction companies near me',
+    'construction companies near me mooresville',
     'mooresville commercial construction',
     'mooresville remodeling contractor',
     'licensed contractor NC',

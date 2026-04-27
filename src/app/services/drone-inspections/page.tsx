@@ -34,9 +34,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Drone Roof Inspection Charlotte NC | Thermal Imaging & Commercial Drone Inspection Services',
+  title: 'Drone Roof Inspection Charlotte NC | Thermal Imaging',
   description:
-    'FAA-certified commercial drone roof inspection in Charlotte NC and the Carolinas. Thermal imaging detects hidden leaks, moisture, and insulation failures without roof access. Veteran-owned, USGBC member. Same-day emergency inspections available. (980) 471-1745.',
+    'FAA-certified commercial drone roof inspection in Charlotte NC. Thermal imaging detects hidden leaks, moisture & insulation failures. Same-day emergency.',
   keywords: [
     'drone roof inspection Charlotte NC',
     'drone roof inspection near me',
@@ -332,7 +332,7 @@ export default function DroneInspectionsPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Drone Inspections' },
             ]}
           />

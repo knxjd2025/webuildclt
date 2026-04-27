@@ -27,9 +27,9 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Commercial Construction Raleigh NC | Veteran-Owned General Contractor',
+  title: 'Commercial Construction Raleigh NC | We Build',
   description:
-    'Commercial construction company serving Raleigh NC. Veteran-owned general contractor for commercial upfits, tenant improvements, roof coatings, and ground-up commercial builds in Raleigh, Cary, Research Triangle, North Hills, Brier Creek, and Downtown Raleigh. Licensed in NC. 60+ years combined experience. USGBC member. Free consultations. (980) 471-1745.',
+    'Veteran-owned commercial construction in Raleigh NC. Upfits, tenant improvements, roof coating, ground-up builds across Cary, RTP, North Hills, Brier Creek.',
   keywords: [
     'commercial construction raleigh nc',
     'general contractor raleigh nc',

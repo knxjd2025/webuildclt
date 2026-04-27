@@ -43,16 +43,14 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Commercial Construction Charlotte NC | Licensed General Contractor | We Build',
+  title: 'Commercial Construction Company Charlotte NC | We Build',
   description:
-    'Top-rated commercial construction company serving Charlotte NC, Raleigh NC, and the Research Triangle with 60+ years combined experience. Commercial general contractors for office buildings, retail spaces, restaurants, medical facilities, warehouses & mixed-use. Licensed in NC & SC. Veteran & family-owned. USGBC member. Free consultations. (980) 471-1745.',
+    'Commercial construction in Charlotte NC: offices, retail, restaurants, medical, mixed-use. Licensed NC & SC. Veteran-owned, USGBC member. (980) 471-1745.',
   keywords: [
     'commercial construction charlotte nc',
     'commercial construction companies charlotte nc',
     'commercial construction companies near me',
     'commercial construction near me',
-    'commercial general contractor charlotte nc',
-    'commercial general contractors near me',
     'commercial building contractor charlotte',
     'office construction charlotte nc',
     'commercial builder charlotte',
@@ -61,10 +59,8 @@ export const metadata: Metadata = {
     'commercial construction cost charlotte',
     'commercial building permits mecklenburg county',
     'commercial contractor charlotte',
-    'commercial upfit charlotte nc',
     'restaurant construction charlotte nc',
     'medical office construction charlotte nc',
-    'warehouse construction charlotte nc',
     'commercial construction Charlotte North Carolina',
     'commercial contractor south charlotte',
     'commercial construction fort mill sc',
@@ -72,11 +68,19 @@ export const metadata: Metadata = {
     'commercial construction raleigh nc',
     'commercial construction research triangle',
     'commercial construction cary nc',
-    'commercial general contractor raleigh',
     'commercial builder raleigh nc',
     'commercial construction north hills raleigh',
     'commercial construction brier creek',
     'wake county commercial construction',
+    'commercial construction durham nc',
+    'commercial builder durham nc',
+    'commercial construction downtown durham',
+    'commercial construction american tobacco',
+    'commercial construction duke university area',
+    'commercial construction southpoint durham',
+    'commercial construction rtp durham',
+    'life sciences construction durham',
+    'durham county commercial construction',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/commercial-construction',
@@ -257,6 +261,10 @@ const faqs = [
     answer: 'Commercial construction costs in Raleigh generally run slightly higher than Charlotte for specialty trades due to Research Triangle tech-sector demand. Typical Raleigh commercial construction costs in 2026: office upfits $60-$185 per square foot, retail build-outs $75-$210 per square foot, restaurant construction $150-$375 per square foot, medical facilities $160-$420 per square foot, and ground-up commercial starts around $210 per square foot and can exceed $425 for complex builds. We provide detailed line-item estimates for every Raleigh commercial project.',
   },
   {
+    question: 'Does We Build handle commercial construction in Durham NC and the Research Triangle?',
+    answer: 'Yes. We Build is a licensed North Carolina general contractor providing commercial construction services throughout Durham NC — including Downtown Durham, the American Tobacco District, the Duke University area, Ninth Street, Brightleaf, Southpoint, and the Durham County portion of Research Triangle Park. Our NC license covers ground-up commercial buildings, office, retail, restaurants, medical and life-sciences facilities, adaptive reuse of historic tobacco and textile shells, and mixed-use developments across Durham County. Durham projects are coordinated from our Charlotte office with local Triangle-area trade partnerships established during pre-construction, and we have specific experience with Duke / institutional construction standards and life-sciences / lab build-out requirements. Call (980) 471-1745 for a free Durham commercial construction consultation.',
+  },
+  {
     question: 'What types of commercial construction does We Build handle in Charlotte?',
     answer: 'We Build handles all types of commercial construction across the Charlotte metro area including ground-up office buildings, retail spaces, restaurants, medical and dental facilities, warehouses, industrial buildings, mixed-use developments, and commercial renovations. Our NC and SC general contractor licenses allow us to work throughout the greater Charlotte region including Fort Mill, Lake Norman, and surrounding counties.',
   },
@@ -336,7 +344,7 @@ export default function CommercialConstructionPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Commercial Construction' },
             ]}
           />

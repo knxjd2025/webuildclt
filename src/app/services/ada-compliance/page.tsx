@@ -43,9 +43,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'ADA Compliance & Code Updates Charlotte NC | Commercial ADA Contractor',
+  title: 'ADA Compliance Contractor Charlotte NC | We Build',
   description:
-    'Expert ADA compliance contractor in Charlotte, NC. ADA restroom renovation, accessible entrance construction, ramp building, parking lot compliance, elevator installation & building code updates. Veteran-owned, licensed in NC & SC. Avoid lawsuits & fines. Free ADA assessments. (980) 471-1745.',
+    'ADA compliance contractor in Charlotte NC. Restroom renovation, accessible entrances, ramps, parking lot compliance, elevator install, building code updates.',
   keywords: [
     'ADA compliance contractor Charlotte NC',
     'ADA compliance contractor near me',
@@ -144,37 +144,37 @@ const processSteps = [
     desc: 'Based on the audit findings and priority classification, we develop a scope of work that addresses deficiencies in the most cost-effective order. If budget constraints exist, we create a phased plan that addresses the highest-risk items first while establishing a timeline for completing all remaining work. You receive a detailed line-item estimate for each phase so you can plan capital expenditures and demonstrate good-faith compliance efforts.',
   },
   {
-    step: '04',
+    step: '03',
     title: 'Design & Engineering',
     desc: 'For complex projects such as elevator installations, ramp construction, or restroom reconfigurations, we coordinate with the client&rsquo;s design team — structural engineers, mechanical engineers, and ADA consultants — to ensure every detail meets code requirements. Drawings are prepared for Mecklenburg County permit submission.',
   },
   {
-    step: '05',
+    step: '04',
     title: 'Permitting & Code Review',
     desc: 'We prepare and submit all permit applications to Mecklenburg County Code Enforcement or the relevant jurisdiction in York County, Iredell County, or Cabarrus County. Our team responds to plan review comments quickly and coordinates with building officials to ensure the proposed modifications meet both ADA Standards for Accessible Design and North Carolina State Building Code accessibility provisions. We manage the full permitting timeline so you can plan your construction schedule with confidence.',
   },
   {
-    step: '06',
+    step: '05',
     title: 'Pre-Construction Coordination',
     desc: 'Before construction begins, we finalize the schedule, order materials and equipment, coordinate subcontractor availability, and develop a phasing plan that keeps your business operational throughout the project. For occupied buildings, we establish dust containment, noise management, and alternative accessible route plans so that your customers and employees can continue to access the building safely during construction.',
   },
   {
-    step: '07',
+    step: '06',
     title: 'Construction & Installation',
     desc: 'Construction proceeds according to the approved plans and schedule. Our team performs demolition, structural modifications, concrete work, plumbing relocation, electrical upgrades, finish installation, and equipment mounting. For projects involving multiple areas of the building, we phase the work so that accessible routes and restrooms remain available at all times. Weekly progress reports keep you informed of schedule, budget, and any field conditions that require attention.',
   },
   {
-    step: '08',
+    step: '07',
     title: 'Quality Verification & Compliance Testing',
     desc: 'Before calling for official inspections, our project manager conducts a detailed compliance verification of every modification using the same measurement standards from the initial audit. We verify ramp slopes with a digital level, door clearances with precision measurements, grab bar locations against ADA mounting specifications, and signage placement against required heights. This internal quality check ensures we pass official inspections on the first attempt.',
   },
   {
-    step: '09',
+    step: '08',
     title: 'Official Inspections & Approvals',
     desc: 'We schedule and coordinate all required inspections with Mecklenburg County or the applicable jurisdiction. This includes building inspections, plumbing inspections, electrical inspections, and any specialized inspections required for elevator or lift installations. Our project manager is present at every inspection to answer questions and address any items immediately.',
   },
   {
-    step: '10',
+    step: '09',
     title: 'Documentation & Compliance Certification',
     desc: 'Upon completion, we provide comprehensive close-out documentation including as-built drawings showing all modifications, before-and-after photographs, equipment warranties, maintenance manuals for automatic doors and elevators, and a detailed compliance summary that you can retain as evidence of your good-faith efforts to comply with the ADA. This documentation is valuable if you ever face a complaint or inquiry from the Department of Justice or a private plaintiff.',
   },
@@ -407,7 +407,7 @@ export default function ADACompliancePage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'ADA Compliance & Code Updates' },
             ]}
           />

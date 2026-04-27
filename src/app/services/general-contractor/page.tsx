@@ -29,9 +29,9 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'General Contractor Charlotte NC | Licensed & Veteran-Owned | We Build',
+  title: 'General Contractor Charlotte NC | Licensed | We Build',
   description:
-    'Licensed general contractor serving Charlotte NC, Raleigh NC, and the Research Triangle. Commercial construction, upfits & roof coating. Veteran-owned, 60+ years combined experience. Licensed in NC & SC. Free consultations. (980) 471-1745.',
+    'Licensed general contractor in Charlotte NC, Raleigh, Durham, RTP. Commercial construction, upfits, roof coating. Veteran-owned. 60+ years experience.',
   keywords: [
     'general contractor charlotte nc',
     'general contractor near me',
@@ -60,6 +60,19 @@ export const metadata: Metadata = {
     'GC raleigh',
     'building contractor raleigh nc',
     'wake county general contractor',
+    'general contractor durham nc',
+    'general contractor in durham nc',
+    'licensed general contractor durham',
+    'commercial general contractor durham nc',
+    'commercial GC durham nc',
+    'GC durham',
+    'building contractor durham nc',
+    'durham county general contractor',
+    'general contractor american tobacco district',
+    'general contractor duke university area',
+    'general contractor southpoint durham',
+    'life sciences general contractor durham',
+    'bull city general contractor',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/general-contractor',
@@ -194,6 +207,26 @@ const costGuide = [
 
 const faqs = [
   {
+    question: 'What should you not say to a general contractor?',
+    answer:
+      'Avoid statements that signal you are an inexperienced buyer and weaken your negotiating position: do not reveal your maximum budget upfront (it almost always becomes the floor for bids), do not say "money is no object" or "I trust you completely," do not commit to verbal change orders without written documentation, and do not promise to pay cash for a discount (cash deals usually mean no warranty, no permits, and no recourse). Also avoid pressuring a contractor to skip permits or inspections — a reputable Charlotte GC will refuse, and one who agrees is exposing you to code violations, voided insurance claims, and stop-work orders. Instead, request a detailed line-item estimate, get every change order in writing, verify the active NCLBGC license at nclbgc.org, and confirm general liability and workers compensation coverage before signing anything.',
+  },
+  {
+    question: 'What do most general contractors charge per hour in Charlotte NC?',
+    answer:
+      'Most established commercial general contractors in Charlotte do not charge by the hour for full projects — commercial GC work is almost always priced as a fixed lump-sum contract or a cost-plus contract with a defined fee percentage (typically 10 to 20 percent of project cost). Hourly billing is common only for small handyman-style repair work, where Charlotte rates run $75 to $150 per hour for a licensed contractor and $40 to $80 per hour for unlicensed handyman labor. For any commercial project over $30,000, North Carolina law requires a licensed GC, and reputable Charlotte GCs price the entire scope as a single number with all labor, materials, permits, supervision, and overhead included. We Build provides detailed line-item estimates so you see exactly where every dollar goes — no hidden hourly meters running.',
+  },
+  {
+    question: 'How much do general contractors make in Charlotte NC?',
+    answer:
+      'According to public salary data, employed general contractor superintendents and project managers in Charlotte earn $65,000 to $120,000 per year depending on experience and project size. Owners of small Charlotte general contracting firms typically take home $80,000 to $250,000 per year after expenses, with revenue ranging widely based on project mix and volume. The general contractor fee on a project is usually 10 to 20 percent of project cost — for example, a $500,000 commercial upfit carries roughly $50,000 to $100,000 in GC fees, which covers project management, supervision, insurance, overhead, profit, and risk. This is not pure profit — most of it goes to running a licensed, insured, code-compliant operation that protects you from the much larger losses that come with hiring an unlicensed contractor.',
+  },
+  {
+    question: 'Does NC require a general contractor license?',
+    answer:
+      'Yes. North Carolina law requires general contractors to hold an active license from the North Carolina Licensing Board for General Contractors (NCLBGC) for any project valued at $30,000 or more (verify at nclbgc.org). For projects under $30,000, an unlicensed contractor can legally perform the work, but most reputable Charlotte commercial work is well above that threshold. South Carolina has a much lower threshold of $5,000 for residential and similar limits for commercial work. Hiring an unlicensed contractor exposes you to defective work with no recourse, denied insurance claims, building department stop-work orders, and personal liability for code violations. We Build holds active general contractor licenses in both NC (NCLBGC) and SC, and welcomes you to verify our status before signing any contract.',
+  },
+  {
     question: 'Is We Build a licensed general contractor in Raleigh NC and the Research Triangle?',
     answer:
       'Yes. We Build holds an active North Carolina general contractor license from the NC Licensing Board for General Contractors (NCLBGC), which authorizes commercial GC work across the entire state — including Raleigh, Cary, Morrisville, Apex, North Hills, Brier Creek, Research Triangle Park, and greater Wake County. Our NCLBGC classification covers ground-up commercial construction, commercial renovations, tenant improvements, upfits, and specialty scopes throughout the Research Triangle. Raleigh projects are run out of our Charlotte office using the same project-management system, licensed supers, and documented pre-construction process that has delivered 200+ Carolina commercial projects. You can verify our NC license status at nclbgc.org. Call (980) 471-1745 for a free Raleigh general contractor consultation.',
@@ -202,6 +235,11 @@ const faqs = [
     question: 'How does We Build manage Raleigh construction projects from Charlotte?',
     answer:
       'Raleigh and Research Triangle projects are managed through the same structured pre-construction, scheduling, and on-site supervision system used on every We Build commercial project. During pre-construction we establish local trade partnerships in the Raleigh market, coordinate directly with Wake County Code Enforcement on permitting, and confirm availability with Raleigh-area subcontractors before a contract is signed. A dedicated We Build project manager runs the job end-to-end, with a licensed superintendent on-site daily throughout construction. Weekly owner meetings, real-time budget and schedule updates, and centralized RFI and submittal tracking keep Raleigh clients just as informed as our Charlotte clients — the distance does not change the process. For Raleigh tenants coordinating with landlords or building management in RTP, North Hills, or Brier Creek, we handle all work letter, building-standard, and after-hours construction coordination directly.',
+  },
+  {
+    question: 'Is We Build a licensed general contractor in Durham NC and the Research Triangle?',
+    answer:
+      'Yes. We Build holds an active North Carolina general contractor license from the NC Licensing Board for General Contractors (NCLBGC), which authorizes commercial GC work across the entire state including Durham, the American Tobacco District, the Duke University area, Ninth Street, Brightleaf, Southpoint, and the Durham County portion of Research Triangle Park. Durham projects are run out of our Charlotte office using the same structured pre-construction, project-management, and on-site supervision system used on every We Build commercial project — with local Triangle-area trade partnerships established during pre-construction and experience with life-sciences / lab build-outs, historic adaptive-reuse construction, and Duke / institutional construction standards. You can verify our NC license status at nclbgc.org. Call (980) 471-1745 for a free Durham general contractor consultation.',
   },
   {
     question: 'What does a general contractor do?',
@@ -290,7 +328,7 @@ export default function GeneralContractorPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'General Contractor' },
             ]}
           />
@@ -504,7 +542,7 @@ export default function GeneralContractorPage() {
               Our General Contracting Process
             </h2>
             <p className="text-muted-foreground">
-              From your first phone call to the final walkthrough and beyond, our proven nine-step
+              From your first phone call to the final walkthrough and beyond, our proven 10-step
               process ensures your project is delivered on time, on budget, and exactly to your
               specifications. Every step is designed to eliminate surprises and keep you informed.
             </p>

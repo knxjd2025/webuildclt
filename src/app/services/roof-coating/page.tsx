@@ -34,7 +34,7 @@ import {
 export const metadata: Metadata = {
   title: 'Roof Coating Charlotte NC | Commercial Roof Restoration',
   description:
-    'Commercial roofing contractor near me in Charlotte, NC. Silicone, acrylic, polyurethane & elastomeric roof coatings. Save up to 50% vs roof replacement. Commercial roofing contractors near me serving Charlotte and the Carolinas. USGBC member. Veteran-owned. Free roof assessments. (980) 471-1745.',
+    'Commercial roof coating in Charlotte NC. Silicone, acrylic, polyurethane & elastomeric coatings. Save up to 50% vs replacement. USGBC member. Veteran-owned.',
   keywords: [
     'roof coating charlotte nc',
     'commercial roof coating charlotte',
@@ -384,7 +384,7 @@ export default function RoofCoatingPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Roof Coating' },
             ]}
           />

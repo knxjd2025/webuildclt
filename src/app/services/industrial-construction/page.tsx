@@ -45,37 +45,32 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Industrial & Warehouse Construction Charlotte NC | Distribution Centers & Manufacturing',
+  title: 'Industrial Construction Charlotte NC | Manufacturing',
   description:
-    'Expert industrial construction and warehouse construction in Charlotte, NC. Distribution centers, manufacturing facilities, cold storage, logistics hubs, light industrial build-outs & warehouse renovations. Commercial general contractors, veteran-owned, licensed in NC & SC. 60+ years experience. Free consultations. (980) 471-1745.',
+    'Industrial construction in Charlotte NC: manufacturing plants, factories, light industrial build-outs, processing facilities. Veteran-owned. Licensed NC & SC.',
   keywords: [
     'industrial construction Charlotte NC',
     'industrial construction near me',
     'industrial construction contractor Charlotte NC',
-    'warehouse construction Charlotte NC',
-    'warehouse construction near me',
     'industrial buildout Charlotte NC',
-    'distribution center construction Charlotte',
-    'warehouse renovation Charlotte NC',
     'manufacturing facility construction Charlotte',
-    'cold storage construction Charlotte NC',
+    'manufacturing plant construction Charlotte NC',
+    'factory construction Charlotte NC',
     'light industrial construction Charlotte',
-    'logistics hub construction Charlotte NC',
-    'warehouse build out Charlotte',
     'industrial contractor Charlotte NC',
-    'flex industrial space Charlotte',
     'industrial construction Charlotte North Carolina',
     'industrial construction fort mill sc',
     'industrial construction lake norman nc',
-    'warehouse contractor near me',
+    'processing facility construction Charlotte',
+    'production facility contractor Charlotte',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/industrial-construction',
   },
   openGraph: {
-    title: 'Industrial & Warehouse Construction Charlotte NC | We Build',
+    title: 'Industrial Construction Charlotte NC | We Build',
     description:
-      'Build or renovate your industrial facility with Charlotte\'s veteran-owned construction experts. Warehouses, distribution centers, manufacturing facilities, cold storage & logistics hubs across Charlotte, Fort Mill & Lake Norman.',
+      'Build or renovate your industrial facility with Charlotte\'s veteran-owned construction experts. Manufacturing plants, factories, and light industrial across Charlotte, Fort Mill & Lake Norman.',
     url: 'https://webuildclt.com/services/industrial-construction',
     type: 'website',
   },
@@ -150,27 +145,27 @@ const processSteps = [
     desc: 'Industrial construction in Mecklenburg County and surrounding jurisdictions requires building permits, grading permits, stormwater permits, driveway permits, fire marshal approvals, and potentially environmental permits depending on your operations. We prepare and submit all permit applications, respond to plan review comments, attend technical review meetings, and coordinate with utility providers for service connections. For projects in industrial parks or planned developments, we handle architectural review committee submissions and covenants compliance documentation.',
   },
   {
-    step: '06',
+    step: '03',
     title: 'Pre-Construction & Procurement',
     desc: 'Before mobilizing to the site, we finalize the construction schedule, issue purchase orders for long-lead materials including structural steel, pre-engineered metal building packages, dock equipment, overhead doors, and specialized mechanical equipment. We pre-qualify and contract all subcontractors, establish quality control procedures, develop a site-specific safety plan, and coordinate material staging logistics. For phased projects or renovations of occupied facilities, we develop a detailed phasing plan that maintains your operations during construction.',
   },
   {
-    step: '07',
+    step: '04',
     title: 'Site Development & Foundations',
     desc: 'Construction begins with site clearing, mass grading, erosion control installation, and underground utility work including storm drainage, sanitary sewer, water service, gas service, and electrical duct banks. Foundation work follows with spread footings, continuous wall footings, grade beams, and reinforced slab-on-grade with fiber or welded wire mesh reinforcement. For facilities requiring super-flat floors for automated guided vehicles or very narrow aisle racking, we use laser-guided screeding equipment to achieve F-number specifications.',
   },
   {
-    step: '08',
+    step: '05',
     title: 'Structural Erection & Building Envelope',
     desc: 'The structural phase is the most visible and dramatic portion of industrial construction. Whether your building uses pre-engineered metal framing, structural steel with bar joists, or concrete tilt-up wall panels, our team manages the erection sequence to maintain schedule and safety. Roofing systems, wall cladding, insulation, vapor barriers, dock equipment, overhead doors, and storefront entries are installed to create a weather-tight building envelope. This phase typically represents 30 to 40 percent of the total construction timeline for ground-up industrial facilities.',
   },
   {
-    step: '09',
+    step: '06',
     title: 'Interior Build-Out & Systems Installation',
     desc: 'With the building envelope complete, interior work begins on office build-outs, restrooms, break rooms, mechanical rooms, and production support spaces. Electrical distribution, lighting, fire alarm, and fire sprinkler systems are installed throughout the facility. Specialized systems including compressed air piping, overhead crane installation, process ventilation, and production equipment utility connections are coordinated with your equipment vendors to ensure everything is ready for commissioning when your machinery arrives on site.',
   },
   {
-    step: '10',
+    step: '07',
     title: 'Commissioning, Inspections & Turnover',
     desc: 'The final phase includes comprehensive systems commissioning, where every mechanical, electrical, plumbing, and fire protection system is tested and balanced to ensure proper operation. We coordinate all final inspections with local building officials and the fire marshal. Certificate of occupancy is obtained, and we deliver complete close-out documentation including as-built drawings, equipment manuals, warranty certificates, maintenance schedules, and final lien waivers. Our one-year workmanship warranty covers all construction performed by our team, and we remain available for any post-occupancy adjustments.',
   },
@@ -355,7 +350,7 @@ export default function IndustrialConstructionPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Industrial & Warehouse Construction' },
             ]}
           />

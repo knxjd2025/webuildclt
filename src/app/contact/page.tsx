@@ -29,10 +29,9 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title:
-    'Contact We Build | Free Construction Consultation Charlotte NC | (980) 471-1745',
+  title: 'Contact We Build | Free Consultation Charlotte NC',
   description:
-    'Contact We Build for free construction consultations in Charlotte NC. Commercial construction, commercial upfits, roof coating. Veteran-owned, licensed NC & SC. Call (980) 471-1745 or visit our South Charlotte office.',
+    'Contact We Build for free construction consultations in Charlotte NC. Commercial construction, upfits, roof coating. Call (980) 471-1745.',
   keywords: [
     'contact we build charlotte nc',
     'free construction consultation charlotte',
@@ -300,8 +299,8 @@ export default function ContactPage() {
       <JsonLd data={breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Contact Us' }])} />
 
       <PageHero
-        title="Contact We Build | Free Construction Consultation Charlotte NC"
-        subtitle="Veteran and family-owned construction company serving Charlotte, South Charlotte, Fort Mill, and Lake Norman. Call (980) 471-1745 or fill out our contact form for a free, no-obligation consultation on your commercial construction project."
+        title="Get a Free Commercial Construction Consultation"
+        subtitle="Call (980) 471-1745 or send a message. Veteran and family-owned. Licensed in NC & SC. Serving Charlotte, South Charlotte, Fort Mill, and Lake Norman."
         backgroundImage="/images/contact-hero.jpg"
       />
 
@@ -665,24 +664,20 @@ export default function ContactPage() {
             <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <h3 className="font-bold text-xl mb-4">Office Hours</h3>
-                <div className="space-y-3">
-                  {[
-                    { day: 'Monday', hours: 'By Appointment' },
-                    { day: 'Tuesday', hours: 'By Appointment' },
-                    { day: 'Wednesday', hours: 'By Appointment' },
-                    { day: 'Thursday', hours: 'By Appointment' },
-                    { day: 'Friday', hours: 'By Appointment' },
-                    { day: 'Saturday', hours: 'By Appointment' },
-                    { day: 'Sunday', hours: 'By Appointment' },
-                  ].map((schedule) => (
-                    <div
-                      key={schedule.day}
-                      className="flex justify-between items-center py-2 border-b border-border last:border-0"
-                    >
-                      <span className="font-medium">{schedule.day}</span>
-                      <span className="text-muted-foreground">{schedule.hours}</span>
-                    </div>
-                  ))}
+                <div className="rounded-lg border border-border p-6 bg-muted/40">
+                  <div className="flex items-center gap-3 mb-3">
+                    <Calendar className="h-5 w-5 text-primary" aria-hidden="true" />
+                    <span className="font-semibold">Open by appointment, 7 days a week</span>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                    We meet at your project site, our South Charlotte office, or virtually — whichever works best for you. Evening and weekend slots available for working business owners.
+                  </p>
+                  <Button asChild size="sm">
+                    <a href="tel:+19804711745">
+                      <Phone className="mr-2 h-4 w-4" aria-hidden="true" />
+                      Call to schedule
+                    </a>
+                  </Button>
                 </div>
               </div>
 

@@ -59,7 +59,7 @@ export default function AutomationPage() {
   }
 
   const handleGenerateNow = useCallback(async () => {
-    if (!confirm('Generate a new blog post now?')) return;
+    if (!confirm('Generate a new blog post now? This usually takes 1–2 minutes.')) return;
 
     setGenerating(true);
     try {
@@ -70,7 +70,7 @@ export default function AutomationPage() {
 
       if (!res.ok) {
         const err = await res.json().catch(() => ({ message: 'Generation failed' }));
-        alert(err.message ?? 'Failed to generate blog post');
+        alert(err.message ?? "We couldn't start the blog post. Try again, or check the activity log.");
         return;
       }
 
@@ -99,7 +99,7 @@ export default function AutomationPage() {
   if (loading) {
     return (
       <AdminShell>
-        <div className="text-center py-12 text-muted-foreground">Loading...</div>
+        <div className="text-center py-12 text-muted-foreground">Loading automation status…</div>
       </AdminShell>
     );
   }
@@ -109,7 +109,7 @@ export default function AutomationPage() {
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-foreground">Blog Automation</h1>
         <p className="text-muted-foreground mt-1">
-          Manage automated blog post generation
+          Auto-publishes a new blog post every Monday at 9:00 AM UTC.
         </p>
       </div>
 
@@ -142,7 +142,7 @@ export default function AutomationPage() {
                     : getNextMonday9AM()}
                 </span>
               </div>
-              <p className="text-xs text-muted-foreground/70 mt-1">Every Monday at 9:00 AM</p>
+              <p className="text-xs text-muted-foreground/70 mt-1">Every Monday at 9:00 AM UTC</p>
             </div>
             <div className="flex items-end">
               <Button onClick={handleGenerateNow} disabled={generating}>
@@ -166,7 +166,7 @@ export default function AutomationPage() {
         <CardContent>
           {logs.length === 0 ? (
             <p className="text-center text-muted-foreground py-8">
-              No automation activity yet
+              No activity yet. Generated posts will show up here after the first run.
             </p>
           ) : (
             <div className="overflow-hidden rounded-lg border">

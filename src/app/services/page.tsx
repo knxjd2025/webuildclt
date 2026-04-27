@@ -14,20 +14,15 @@ import { BUSINESS } from '@/data/business';
 export const metadata: Metadata = {
   title: 'Construction Services Charlotte NC | We Build',
   description:
-    'Full-service commercial construction in Charlotte NC and the Carolinas. 25 specialized services including commercial upfits, drone inspections, brewery construction, adaptive reuse, and roof coating. Veteran & family-owned. USGBC member. Free consultations: (980) 471-1745.',
+    '25 specialized commercial construction services in Charlotte NC: upfits, drone inspections, breweries, adaptive reuse, roof coating. Veteran-owned.',
   keywords: [
     'construction services charlotte nc',
-    'commercial construction charlotte',
-    'general contractor charlotte nc',
+    'commercial construction services charlotte',
     'construction company charlotte',
     'commercial upfits charlotte nc',
-    'roof coating charlotte nc',
-    'drone roof inspection charlotte nc',
-    'brewery construction charlotte nc',
     'commercial contractor charlotte',
     'construction company charlotte nc',
     'adaptive reuse charlotte nc',
-    'warehouse construction charlotte nc',
   ],
   openGraph: {
     title: 'Construction Services | We Build Charlotte',

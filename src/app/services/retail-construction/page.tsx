@@ -44,9 +44,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Retail Construction & Buildouts Charlotte NC | Store Build-Out Contractor',
+  title: 'Retail Construction Charlotte NC | Store Buildout GC',
   description:
-    'Expert retail construction and buildout contractor in Charlotte, NC. Commercial construction companies for boutique shops, big box stores, shopping center renovations, showrooms, quick-service restaurants & pop-up retail. Veteran-owned, licensed in NC & SC. We build fast. Free consultations. (980) 471-1745.',
+    'Retail construction in Charlotte NC, Raleigh, Durham, RTP. Boutique shops, big box stores, shopping center renovations, showrooms, QSR & pop-up retail.',
   keywords: [
     'retail construction Charlotte NC',
     'retail construction near me',
@@ -67,6 +67,26 @@ export const metadata: Metadata = {
     'retail construction fort mill sc',
     'retail construction lake norman nc',
     'commercial retail contractor near me',
+    'retail construction raleigh nc',
+    'retail buildout raleigh nc',
+    'retail contractor raleigh',
+    'storefront construction raleigh',
+    'shopping center construction raleigh',
+    'retail construction north hills raleigh',
+    'retail construction brier creek',
+    'retail construction cameron village raleigh',
+    'retail construction downtown raleigh',
+    'wake county retail construction',
+    'retail construction durham nc',
+    'retail buildout durham nc',
+    'retail contractor durham',
+    'storefront construction durham',
+    'retail construction southpoint durham',
+    'retail construction ninth street durham',
+    'retail construction brightleaf',
+    'retail construction american tobacco',
+    'retail construction downtown durham',
+    'durham county retail construction',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/retail-construction',
@@ -74,7 +94,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Retail Construction & Buildouts Charlotte NC | We Build',
     description:
-      'Build or renovate your retail space with Charlotte\'s veteran-owned construction team. Boutique shops, anchor tenants, shopping centers, showrooms, and pop-up retail across Charlotte, Fort Mill & Lake Norman.',
+      'Build or renovate your retail space with our veteran-owned construction team. Boutique shops, anchor tenants, shopping centers, showrooms, and pop-up retail across Charlotte, Fort Mill, Lake Norman, Raleigh, Durham, and the Research Triangle.',
     url: 'https://webuildclt.com/services/retail-construction',
     type: 'website',
   },
@@ -268,6 +288,16 @@ const costTiers = [
 
 const faqs = [
   {
+    question: 'Does We Build handle retail construction in Raleigh NC and the Research Triangle?',
+    answer:
+      'Yes. We Build delivers retail construction, storefront build-outs, shopping center renovations, and retail tenant improvements throughout Raleigh — including North Hills, Brier Creek, Cameron Village / The Village District, Downtown Raleigh and Glenwood South, Five Points, and the broader Wake County retail market. We coordinate City of Raleigh and Wake County permitting, landlord work-letter review in Class A mixed-use districts like North Hills, and the brand-standard build-out requirements that national and regional retail tenants require. Fast-track retail schedules are standard for Raleigh pad-site and in-line retail builds. Call (980) 471-1745 for a free Raleigh retail construction consultation.',
+  },
+  {
+    question: 'Does We Build handle retail construction in Durham NC?',
+    answer:
+      'Yes. We Build provides retail construction, storefront build-outs, and retail tenant improvements throughout Durham — including Southpoint, the American Tobacco District, Brightleaf Square, Ninth Street, Five Points, Downtown Durham, and Northgate. Many Durham retail projects involve adaptive reuse of historic tobacco warehouses and textile mill buildings, which require preservation-compatible construction methods and coordination with the City of Durham historic-district design review. We also handle suburban retail pad-site construction along NC-751, Southpoint, and the Renaissance Parkway corridor where storefront visibility, signage compliance, and exterior finish quality are critical to retail performance. Call (980) 471-1745 for a free Durham retail construction consultation.',
+  },
+  {
     question: 'How much does retail construction cost in Charlotte, NC?',
     answer:
       'Retail construction costs in Charlotte vary significantly by space type, size, finish level, and whether food-service infrastructure is involved. Basic shell build-outs for simple retail concepts start around $40 to $75 per square foot. Standard retail build-outs with custom layouts, quality finishes, fitting rooms, and branded environments run $75 to $140 per square foot. Premium boutique spaces with custom millwork and high-end finishes range from $140 to $225 per square foot. Quick-service and food retail build-outs are the most expensive at $125 to $300 per square foot due to kitchen ventilation, plumbing, and health department compliance. We provide detailed, line-item estimates after an initial site visit so you know exactly what every dollar covers before construction begins.',
@@ -374,7 +404,7 @@ export default function RetailConstructionPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Retail Construction' },
             ]}
           />

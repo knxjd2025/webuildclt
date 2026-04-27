@@ -26,7 +26,7 @@ import {
 export const metadata: Metadata = {
   title: 'Commercial Roof Coating Dearborn MI | We Coat by We Build',
   description:
-    'We Coat provides commercial roof coating in Dearborn MI and surrounding areas. Silicone, acrylic, polyurethane & elastomeric coatings for manufacturing, industrial, and commercial buildings. Save up to 50% vs replacement. Free assessments. (980) 471-1745.',
+    'Commercial roof coating in Dearborn MI. Silicone, acrylic, polyurethane & elastomeric coatings for manufacturing & industrial buildings. Save 50%.',
   keywords: [
     'roof coating dearborn mi',
     'commercial roof coating dearborn',

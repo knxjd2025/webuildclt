@@ -3,9 +3,43 @@ import Link from 'next/link';
 import { PageHero } from '@/components/PageHero';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import { JsonLd } from '@/components/JsonLd';
-import { breadcrumbSchema } from '@/lib/structured-data';
+import { breadcrumbSchema, faqSchema } from '@/lib/structured-data';
+import { FaqAccordion } from '@/components/FaqAccordion';
+
+const guidesFaqs = [
+  {
+    question: 'Are these construction guides free?',
+    answer:
+      'Yes. Every guide on this page is free, full-length, and written by our team of licensed commercial contractors. There is no email gate, no paywall, and no sales pitch — just practical, actionable information for Charlotte-area business owners and property managers.',
+  },
+  {
+    question: 'Which guide should I read first?',
+    answer:
+      'It depends on your project. If you are planning a brand-new commercial space, start with the Commercial Construction Guide. If you are renovating an existing building, the Commercial Upfit and Tenant Improvement guides are most relevant. If you are a property owner concerned about your roof, our Roof Maintenance and Roof Coating guides walk you through cost-effective alternatives to replacement.',
+  },
+  {
+    question: 'Are these guides specific to Charlotte and the Carolinas?',
+    answer:
+      'Yes. Every guide is written for North Carolina and South Carolina building codes, climate, soil conditions, and permitting jurisdictions. We address Mecklenburg County, City of Charlotte, York County SC, and surrounding municipalities specifically. Out-of-region readers will still find the construction principles useful, but cost figures and code references are Charlotte-specific.',
+  },
+  {
+    question: 'How often are the guides updated?',
+    answer:
+      'We review every guide at least annually and update sooner whenever building codes, permitting requirements, or material costs change significantly. Each guide includes a last-reviewed date so you know the information is current.',
+  },
+  {
+    question: 'Can I get help applying what I learn in these guides?',
+    answer:
+      'Absolutely. Call (980) 471-1745 or use our contact form for a free consultation. We will review your project, provide a detailed line-item estimate, and walk you through the construction process. We are licensed in NC and SC, USGBC members, and veteran and family-owned with 60+ years combined experience.',
+  },
+  {
+    question: 'Do you have guides for residential projects?',
+    answer:
+      'We Build focuses on commercial construction, so our active guides target commercial buildings, upfits, and roof care. Some of our older residential guides are still accessible by direct URL for reference, but we no longer prominently feature residential content on the site.',
+  },
+];
 import { Card, CardContent } from '@/components/ui/card';
-import { ArrowRight, Clock, Wrench, Building2, Layers, UtensilsCrossed, Shield } from 'lucide-react';
+import { ArrowRight, Clock, Wrench, Building2, Layers, UtensilsCrossed, Shield, Phone, ShieldCheck, Award, MapPin } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { getAllGuides } from '@/data/guides';
@@ -55,7 +89,7 @@ export default function GuidesPage() {
 
   return (
     <>
-      <JsonLd data={breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Guides' }])} />
+      <JsonLd data={[breadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Guides' }]), faqSchema(guidesFaqs)]} />
       <PageHero
         title="Guides"
         subtitle="Free, expert commercial construction guides for Charlotte"
@@ -70,14 +104,49 @@ export default function GuidesPage() {
             <h2 className="text-3xl font-bold mb-4">
               Expert Guides for Business Owners
             </h2>
-            <p className="text-muted-foreground leading-relaxed">
+            <p className="text-muted-foreground leading-relaxed mb-4">
               We created these guides to help Charlotte business
               owners make informed decisions about construction, maintenance, and
               improvements. Each guide is written by our experienced team and
               tailored to Charlotte&apos;s specific climate, codes, and market
               conditions. No sales pitch — just practical, actionable
-              information.
+              information from a licensed, veteran-owned commercial general
+              contractor with 60+ years of combined experience in North and South
+              Carolina.
             </p>
+            <p className="text-muted-foreground leading-relaxed">
+              Need help applying any of this to your project? Browse our{' '}
+              <Link href="/services" className="text-primary hover:underline font-medium">full service list</Link>,{' '}
+              <Link href="/services/commercial-construction" className="text-primary hover:underline font-medium">commercial construction</Link>,{' '}
+              <Link href="/services/commercial-upfits" className="text-primary hover:underline font-medium">commercial upfits</Link>,{' '}
+              <Link href="/services/roof-coating" className="text-primary hover:underline font-medium">roof coating</Link>, or{' '}
+              <Link href="/portfolio" className="text-primary hover:underline font-medium">see our completed projects</Link>.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3 text-sm">
+              <span className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+                <ShieldCheck className="h-4 w-4" /> Veteran-owned
+              </span>
+              <span className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+                <Award className="h-4 w-4" /> USGBC member
+              </span>
+              <span className="inline-flex items-center gap-2 bg-primary/10 text-primary px-3 py-1.5 rounded-full font-medium">
+                <MapPin className="h-4 w-4" /> Licensed NC &amp; SC
+              </span>
+            </div>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Button asChild>
+                <Link href="/contact">
+                  Get a Free Consultation
+                  <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
+                </Link>
+              </Button>
+              <Button variant="outline" asChild>
+                <a href="tel:+19804711745">
+                  <Phone className="mr-2 h-4 w-4" aria-hidden="true" />
+                  (980) 471-1745
+                </a>
+              </Button>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -130,6 +199,20 @@ export default function GuidesPage() {
               );
             })}
           </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <p className="text-sm font-semibold text-primary uppercase tracking-wider mb-2 text-center">Frequently Asked Questions</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+            About the We Build Construction Guides
+          </h2>
+          <p className="text-center text-muted-foreground mb-10">
+            Common questions about how to use these construction guides.
+          </p>
+          <FaqAccordion faqs={guidesFaqs} />
         </div>
       </section>
 

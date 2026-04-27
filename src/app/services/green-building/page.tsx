@@ -40,9 +40,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Green Building & Sustainable Construction Charlotte NC | USGBC Contractor',
+  title: 'Green Building Contractor Charlotte NC | LEED & USGBC',
   description:
-    'USGBC member green building contractor in Charlotte, NC. LEED construction, energy-efficient building, sustainable materials, water conservation, indoor air quality, and solar-ready construction. Veteran-owned, licensed in NC & SC. Free consultations. (980) 471-1745.',
+    'USGBC member green building contractor in Charlotte NC. LEED, energy-efficient, sustainable materials, water conservation, indoor air quality, solar-ready.',
   keywords: [
     'green building contractor Charlotte NC',
     'green building contractor near me',
@@ -372,7 +372,7 @@ export default function GreenBuildingPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Green Building & Sustainable Construction' },
             ]}
           />

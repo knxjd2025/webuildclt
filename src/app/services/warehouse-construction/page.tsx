@@ -35,35 +35,47 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Warehouse Construction Charlotte NC | Distribution Center & Industrial Building Contractor',
+  title: 'Warehouse Construction Charlotte NC | Distribution',
   description:
-    'Expert warehouse construction contractor in Charlotte, NC and the Carolinas. Industrial construction for distribution centers, cold storage, flex space, manufacturing facilities, and warehouse renovations. Veteran-owned, licensed in NC & SC. Free consultations. (980) 471-1745.',
+    'Warehouse construction in Charlotte NC: distribution centers, cold storage, flex space, logistics, renovations. Veteran-owned. Licensed NC & SC.',
   keywords: [
     'warehouse construction Charlotte NC',
     'warehouse construction near me',
     'warehouse construction contractor',
     'warehouse construction cost',
     'distribution center construction Charlotte',
-    'industrial construction Charlotte NC',
-    'industrial construction near me',
-    'industrial building contractor Charlotte NC',
     'warehouse buildout near me',
     'cold storage construction Charlotte',
     'flex space construction',
     'logistics facility Charlotte NC',
     'warehouse renovation Charlotte',
-    'industrial warehouse contractor',
     'warehouse builder Charlotte NC',
     'warehouse contractor near me',
     'commercial warehouse construction',
+    'warehouse construction raleigh nc',
+    'distribution center construction raleigh',
+    'flex space construction raleigh',
+    'cold storage construction raleigh',
+    'warehouse builder raleigh nc',
+    'warehouse construction research triangle',
+    'warehouse construction wake county',
+    'logistics facility raleigh nc',
+    'warehouse construction durham nc',
+    'distribution center construction durham',
+    'flex space construction durham',
+    'life sciences warehouse durham',
+    'lab support warehouse rtp',
+    'warehouse construction rtp',
+    'warehouse construction durham county',
+    'i-40 corridor warehouse construction',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/warehouse-construction',
   },
   openGraph: {
-    title: 'Warehouse & Industrial Construction Charlotte NC | We Build',
+    title: 'Warehouse Construction Charlotte NC | We Build',
     description:
-      'Build your warehouse, distribution center, or industrial facility with Charlotte\'s veteran-owned construction team. Licensed in NC & SC. Serving Charlotte and the Carolinas.',
+      'Build your warehouse, distribution center, or cold storage facility with our veteran-owned construction team. Licensed in NC & SC. Serving Charlotte, Raleigh, Durham, and the Carolinas.',
     url: 'https://webuildclt.com/services/warehouse-construction',
     type: 'website',
   },
@@ -138,22 +150,22 @@ const processSteps = [
     desc: 'Warehouse and industrial construction in the Charlotte metro requires building permits from the local jurisdiction, which may be Mecklenburg County, the City of Charlotte, or surrounding municipalities depending on the site location. Permits cover structural, mechanical, electrical, plumbing, and fire protection plans. Stormwater permits are required for sites that disturb land or add impervious surface. Environmental permits may apply for operations involving hazardous materials or air emissions. We manage the full permitting process and maintain relationships with local plan reviewers to facilitate efficient reviews.',
   },
   {
-    step: '05',
+    step: '03',
     title: 'Site Work & Foundations',
     desc: 'Site work begins with clearing, grading, and erosion control installation. Foundation work for warehouse construction typically involves continuous spread footings under building columns, thickened slab edges at dock doors and drive-in doors, and a reinforced concrete floor slab designed for the specific floor load requirements, flatness tolerances, and joint spacing your operation demands. Site utilities including water, sewer, storm drainage, electrical service, and natural gas are installed during this phase. Truck courts and parking areas are graded and paved with concrete or heavy-duty asphalt rated for truck traffic loads.',
   },
   {
-    step: '06',
+    step: '04',
     title: 'Steel Erection & Enclosure',
     desc: 'Structural steel erection is the most visible phase of warehouse construction. Pre-engineered metal building systems or conventional structural steel frames are erected on the prepared foundations, followed by roof deck installation, exterior wall panel or tilt-up concrete wall construction, and roofing system installation. The building is dried in as quickly as possible to allow interior work to proceed regardless of weather. Dock doors, drive-in doors, personnel doors, and windows are installed during the enclosure phase.',
   },
   {
-    step: '07',
+    step: '05',
     title: 'Interior Buildout & Systems',
     desc: 'Interior construction includes fire suppression system installation and testing, electrical distribution and lighting, HVAC systems for office areas and any climate-controlled warehouse zones, plumbing for restrooms and break rooms, office buildout with finishes, and any specialized systems for your operation such as compressed air, process piping, or overhead crane installation. Warehouse lighting, typically high-bay LED fixtures, is installed and aimed for optimal illumination in aisle ways and dock areas.',
   },
   {
-    step: '08',
+    step: '06',
     title: 'Inspections, Commissioning & Handoff',
     desc: 'Final inspections cover structural, mechanical, electrical, plumbing, fire protection, and accessibility compliance. Fire suppression systems are flow-tested and certified. HVAC systems are balanced and commissioned. Floor flatness is verified against specification tolerances. We conduct a detailed punch list walk-through and address every item before certificate of occupancy is issued. At handoff, you receive complete close-out documentation including as-built drawings, equipment warranties, maintenance schedules, and all permit certificates. Our one-year workmanship warranty covers all construction.',
   },
@@ -221,6 +233,16 @@ const whyChooseUs = [
 ];
 
 const faqs = [
+  {
+    question: 'Does We Build handle warehouse and industrial construction in Raleigh NC and the Research Triangle?',
+    answer:
+      'Yes. We Build delivers warehouse construction, distribution center construction, cold storage, flex space, and industrial buildings throughout Raleigh, Cary, Morrisville, and greater Wake County — with specific experience along the I-40, I-540, and US-70 logistics corridors that serve the Research Triangle tech and biotech economy. Typical Raleigh warehouse projects include regional distribution centers serving the Triangle-and-I-40-east market, flex and lab-support warehouse for RTP tenants, and cold storage for Raleigh food-service and pharmaceutical distributors. Call (980) 471-1745 for a free Raleigh warehouse construction consultation.',
+  },
+  {
+    question: 'Does We Build handle warehouse and industrial construction in Durham NC?',
+    answer:
+      'Yes. We Build provides warehouse, distribution center, cold storage, and industrial construction services throughout Durham and Durham County — including the Durham County portion of Research Triangle Park, the I-40 west corridor, and the NC-147 / Durham Freeway industrial submarkets. Durham warehouse and lab-support industrial projects frequently involve specialized requirements for the life-sciences and biotech economy, including clean-room-adjacent warehouse, temperature- and humidity-controlled storage for pharmaceutical and research materials, and specialty MEP capacity for high-tech tenants. Call (980) 471-1745 for a free Durham warehouse construction consultation.',
+  },
   {
     question: 'How much does it cost to build a warehouse in Charlotte, NC?',
     answer:
@@ -318,7 +340,7 @@ export default function WarehouseConstructionPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Warehouse Construction' },
             ]}
           />

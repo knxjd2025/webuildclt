@@ -32,9 +32,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Tenant Improvement Contractor Charlotte NC | TI Build-Outs & Leasehold Improvements',
+  title: 'Tenant Improvement Contractor Charlotte NC | TI GC',
   description:
-    'Expert tenant improvement contractor serving Charlotte NC, Raleigh NC, and the Research Triangle. Commercial renovation contractor for Class A & B office TI, retail tenant build-outs, restaurant TI, medical TI & industrial leasehold improvements. TI allowance maximization, landlord coordination. Veteran-owned, licensed NC & SC. Free consultations. (980) 471-1745.',
+    'Tenant improvement contractor in Charlotte NC, Raleigh, Durham, RTP. Class A & B office TI, retail, restaurant, medical, industrial. TI allowance maximization.',
   keywords: [
     'tenant improvement contractor charlotte nc',
     'tenant improvement contractor near me',
@@ -68,6 +68,19 @@ export const metadata: Metadata = {
     'tenant improvement north hills raleigh',
     'tenant improvement cary nc',
     'wake county tenant improvement',
+    'tenant improvement contractor durham nc',
+    'tenant improvement durham nc',
+    'ti contractor durham',
+    'leasehold improvement durham nc',
+    'tenant buildout durham nc',
+    'ti allowance durham',
+    'class a office ti durham',
+    'life sciences ti durham',
+    'lab build out durham',
+    'tenant improvement american tobacco',
+    'tenant improvement duke university area',
+    'tenant improvement southpoint durham',
+    'durham county tenant improvement',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/tenant-improvements',
@@ -75,7 +88,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Tenant Improvement Contractor Charlotte NC | We Build',
     description:
-      'Expert tenant improvement contractor serving Charlotte, Fort Mill, Lake Norman, Raleigh, and the Research Triangle. Class A/B office TI, retail, restaurant, medical & industrial tenant build-outs. TI allowance maximization. Veteran-owned.',
+      'Expert tenant improvement contractor serving Charlotte, Fort Mill, Lake Norman, Raleigh, Durham, and the Research Triangle. Class A/B office TI, retail, restaurant, medical, life-sciences & industrial tenant build-outs. TI allowance maximization. Veteran-owned.',
     url: 'https://webuildclt.com/services/tenant-improvements',
     type: 'website',
   },
@@ -279,6 +292,11 @@ const faqs = [
       'Tenant improvement allowances in the Raleigh / Research Triangle commercial market currently run $20 to $30 per square foot for Class B suburban office, $40 to $75 per square foot for Class A downtown Raleigh and RTP office space, $25 to $50 per square foot for retail spaces in North Hills, Brier Creek, and established Wake County centers, $40 to $90 per square foot for medical and dental suites, and $5 to $25 per square foot for industrial and flex space. Raleigh TI allowances tend to run slightly higher than Charlotte for Class A and RTP office because of competition for tech and life-sciences tenants. These ranges vary based on lease term, tenant credit, market vacancy, and landlord motivation. Longer lease terms and stronger tenant credit typically command higher TI allowances. We provide preliminary construction budgets during lease negotiations so Raleigh tenants can request the right TI allowance amount before signing.',
   },
   {
+    question: 'Does We Build handle tenant improvement projects in Durham NC and the Research Triangle?',
+    answer:
+      'Yes. We Build is a licensed North Carolina general contractor delivering tenant improvement and leasehold improvement projects across Durham — Downtown Durham, the American Tobacco District, the Duke University area, Ninth Street, Brightleaf, Southpoint, and the Durham County portion of Research Triangle Park. Our Durham TI experience spans the full commercial spectrum: Class A office TI in the American Tobacco Campus and Downtown Durham, medical and dental leasehold improvements near Duke Medical Center, life-sciences and lab build-outs for RTP biotech and pharmaceutical tenants, historic adaptive-reuse TI in tobacco and textile shells, retail and restaurant TI at Southpoint and Brightleaf, and industrial / flex-space fit-outs across Durham County. We handle work-letter review, TI allowance budgeting, City of Durham permitting, and landlord coordination end-to-end. Call (980) 471-1745 for a free Durham tenant improvement consultation.',
+  },
+  {
     question: 'What is a tenant improvement (TI) and how does it differ from a commercial upfit?',
     answer:
       'A tenant improvement is a construction project that customizes a leased commercial space to meet the specific needs of the tenant occupying it. The term is closely related to commercial upfit, and in Charlotte the two terms are often used interchangeably. The primary distinction is that tenant improvements are specifically tied to a lease agreement, with the scope, budget, and timeline governed by the lease work letter and tenant improvement allowance. A commercial upfit can refer to any renovation of a commercial space, whether the occupant is a tenant or an owner. In practice, the construction process is identical. The key difference is the financial and contractual framework: TI projects involve landlord coordination, TI allowance reimbursement documentation, and compliance with building management construction rules that owner-occupied upfits do not require.',
@@ -380,7 +398,7 @@ export default function TenantImprovementsPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Tenant Improvements' },
             ]}
           />

@@ -27,9 +27,9 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Construction Company South Charlotte NC | General Contractor Ballantyne, Pineville, Waxhaw',
+  title: 'South Charlotte Construction Company | Ballantyne GC',
   description:
-    'Looking for a construction company near me in South Charlotte NC? Locally headquartered general contractor serving Ballantyne, Pineville, Waxhaw, Marvin & Weddington. Commercial construction, upfits & roof coatings. Veteran-owned. Free consultations. (980) 471-1745.',
+    'South Charlotte NC construction company serving Ballantyne, Pineville, Waxhaw & Weddington. Commercial construction, upfits, roof coating. Veteran-owned.',
   keywords: [
     'construction company south charlotte nc',
     'general contractor south charlotte',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     'commercial construction south charlotte',
     'commercial contractor south charlotte nc',
     'contractor near me south charlotte',
-    'construction companies near me',
+    'construction companies near me south charlotte',
     'south charlotte commercial construction',
     'south charlotte remodeling contractor',
     'licensed contractor NC',

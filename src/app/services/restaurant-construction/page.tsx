@@ -40,9 +40,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Restaurant Construction Charlotte NC | Restaurant Buildout & Commercial Kitchen Contractor',
+  title: 'Restaurant Construction Charlotte NC | Buildout & Kitchen',
   description:
-    'Expert restaurant construction contractor in Charlotte, NC. Commercial construction companies for full-service restaurant buildouts, commercial kitchen construction, bar & brewery builds, food hall construction & hospitality renovations. Health department compliant. Veteran-owned, licensed in NC & SC. Free consultations. (980) 471-1745.',
+    'Restaurant construction in Charlotte NC, Raleigh, Durham, RTP. Full-service buildouts, commercial kitchens, bars, food halls. Health dept compliant.',
   keywords: [
     'restaurant construction Charlotte NC',
     'restaurant construction near me',
@@ -64,6 +64,28 @@ export const metadata: Metadata = {
     'restaurant construction fort mill sc',
     'restaurant construction lake norman nc',
     'restaurant buildout contractor near me',
+    'restaurant construction raleigh nc',
+    'restaurant buildout raleigh nc',
+    'restaurant contractor raleigh',
+    'commercial kitchen construction raleigh',
+    'bar construction raleigh nc',
+    'restaurant renovation raleigh',
+    'restaurant construction downtown raleigh',
+    'restaurant construction north hills raleigh',
+    'restaurant construction brier creek',
+    'restaurant construction glenwood south',
+    'wake county restaurant construction',
+    'restaurant construction durham nc',
+    'restaurant buildout durham nc',
+    'restaurant contractor durham',
+    'commercial kitchen construction durham',
+    'bar construction durham nc',
+    'restaurant construction downtown durham',
+    'restaurant construction american tobacco',
+    'restaurant construction brightleaf',
+    'restaurant construction ninth street durham',
+    'restaurant construction southpoint',
+    'durham county restaurant construction',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/restaurant-construction',
@@ -71,7 +93,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Restaurant & Hospitality Construction Charlotte NC | We Build',
     description:
-      'Build your restaurant, bar, brewery, or commercial kitchen with Charlotte\'s veteran-owned construction team. Health department compliant. Licensed in NC & SC.',
+      'Build your restaurant, bar, brewery, or commercial kitchen with our veteran-owned construction team — serving Charlotte, Raleigh, Durham, and the Research Triangle. Health department compliant. Licensed in NC & SC.',
     url: 'https://webuildclt.com/services/restaurant-construction',
     type: 'website',
   },
@@ -270,6 +292,16 @@ const costTiers = [
 
 const faqs = [
   {
+    question: 'Does We Build handle restaurant construction in Raleigh NC and the Research Triangle?',
+    answer:
+      'Yes. We Build provides full-service restaurant construction, commercial kitchen build-outs, bar construction, brewery construction, and hospitality renovations throughout Raleigh — including Downtown Raleigh, Glenwood South, North Hills, Brier Creek, Cameron Village / Village District, Cary, and Morrisville. We coordinate Wake County Environmental Health Department plan reviews, City of Raleigh permitting, ABC Commission requirements for alcohol service, and fire marshal inspections. Raleigh restaurant build-outs typically complete in 14 to 22 weeks depending on kitchen complexity and finish level. Call (980) 471-1745 for a free Raleigh restaurant construction consultation.',
+  },
+  {
+    question: 'Does We Build handle restaurant construction in Durham NC?',
+    answer:
+      'Yes. We Build delivers restaurant construction, commercial kitchen build-outs, and bar construction throughout Durham — including Downtown Durham, the American Tobacco District, Brightleaf Square, Five Points, the Ninth Street district, and Southpoint. Many Durham restaurant projects involve adaptive reuse of historic tobacco warehouses and textile mill buildings, which require coordination with the City of Durham historic-district design review and preservation-compatible construction methods for exposed structural, mechanical, and finish elements. We also handle full Durham County permitting and Durham County Environmental Health Department plan review for kitchens and food-service equipment. Call (980) 471-1745 for a free Durham restaurant construction consultation.',
+  },
+  {
     question: 'How much does restaurant construction cost in Charlotte, NC?',
     answer:
       'Restaurant construction costs in Charlotte range from approximately $150 per square foot for simple fast-casual counter-service concepts to $400 per square foot or more for upscale fine dining establishments with premium finishes and complex kitchen systems. The kitchen is the most expensive area, typically accounting for 40 to 60 percent of the total construction budget due to ventilation, fire suppression, plumbing, electrical, and refrigeration requirements. A 2,500 square foot casual dining restaurant in Charlotte typically costs between $500,000 and $750,000 for the complete buildout, not including kitchen equipment, furniture, or soft costs like design fees and permits. We provide detailed, line-item estimates after a site visit so you know exactly what every dollar covers before construction begins.',
@@ -376,7 +408,7 @@ export default function RestaurantConstructionPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Restaurant Construction' },
             ]}
           />

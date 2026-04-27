@@ -34,24 +34,23 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About We Build | Veteran-Owned Construction Company Charlotte NC',
+  title: 'About We Build | Veteran-Owned Charlotte NC Contractor',
   description:
-    'We Build is a veteran and family-owned construction company in Charlotte NC with 60+ years combined experience. Licensed in NC & SC. USGBC member. FAA-certified drone inspections. Commercial construction and roof coating services.',
+    'We Build is a veteran and family-owned construction company in Charlotte NC. 60+ years combined experience. Our story, values, and team.',
   keywords: [
     'about we build charlotte',
     'veteran owned construction company charlotte nc',
     'family owned contractor charlotte',
-    'construction company charlotte nc',
-    'commercial construction charlotte',
-    'general contractor charlotte nc',
-    'licensed contractor north carolina south carolina',
-    'USGBC member contractor charlotte',
+    'we build charlotte story',
+    'we build construction company history',
+    'who is we build charlotte',
     'veteran contractor charlotte nc',
-    'drone inspection charlotte nc',
-    'general contractor charlotte nc',
+    'family owned construction charlotte',
+    'we build team charlotte',
+    'we build values charlotte',
   ],
   openGraph: {
-    title: 'About We Build | Veteran-Owned Construction Company Charlotte NC',
+    title: 'About We Build | Veteran-Owned Charlotte NC Contractor',
     description:
       'Veteran and family-owned construction company in Charlotte, NC. 60+ years combined experience. Licensed in NC & SC. USGBC member.',
     type: 'website',

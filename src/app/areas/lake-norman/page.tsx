@@ -26,16 +26,16 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Construction Company Lake Norman NC | General Contractor Cornelius, Davidson, Mooresville',
+  title: 'Lake Norman Construction Company | Cornelius, Davidson',
   description:
-    'Trusted construction company near me in Lake Norman NC. Licensed general contractor serving Cornelius, Davidson, Mooresville & Huntersville. Commercial construction, upfits & roof coating. 60+ years combined experience. Free consultation.',
+    'Lake Norman NC construction company serving Cornelius, Davidson, Mooresville & Huntersville. Commercial construction, upfits, roof coating. Veteran-owned.',
   keywords: [
     'construction company lake norman nc',
     'general contractor lake norman',
     'general contractor cornelius nc',
     'commercial contractor lake norman',
     'contractor near me lake norman',
-    'construction companies near me',
+    'construction companies near me lake norman',
     'lake norman commercial construction',
     'lake norman remodeling contractor',
     'licensed contractor NC',

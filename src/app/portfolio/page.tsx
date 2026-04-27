@@ -34,10 +34,9 @@ import {
 export const revalidate = false; // Static at build time — redeploy or use /api/revalidate to update
 
 export const metadata: Metadata = {
-  title:
-    'Construction Portfolio Charlotte NC | Commercial Construction Projects',
+  title: 'Construction Portfolio Charlotte NC | We Build Projects',
   description:
-    'Explore our construction portfolio featuring commercial upfits, roof coatings, and commercial construction projects across Charlotte NC, Fort Mill SC, and Lake Norman. Veteran-owned. (980) 471-1745.',
+    'Construction portfolio: commercial upfits, roof coatings, commercial construction projects across Charlotte NC, Fort Mill SC, and Lake Norman.',
   keywords: [
     'construction portfolio charlotte nc',
     'commercial construction projects charlotte',

@@ -38,9 +38,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Medical & Healthcare Construction Charlotte NC | Clinic, Dental & Surgical Build-Outs',
+  title: 'Medical Construction Charlotte NC | Clinic & Dental',
   description:
-    'Expert medical and healthcare construction in Charlotte, NC. Commercial general contractors for medical office buildings, dental practices, urgent care clinics, surgical centers, veterinary clinics & physical therapy facilities. HIPAA-compliant layouts, infection control, medical gas systems. Veteran-owned, licensed in NC & SC. (980) 471-1745.',
+    'Medical and healthcare construction in Charlotte NC, Raleigh, Durham, RTP. Medical offices, dental, urgent care, surgical, veterinary, PT. HIPAA-compliant.',
   keywords: [
     'medical office construction Charlotte NC',
     'medical construction near me',
@@ -62,6 +62,26 @@ export const metadata: Metadata = {
     'medical construction fort mill sc',
     'medical construction lake norman nc',
     'medical office contractor near me',
+    'medical office construction raleigh nc',
+    'healthcare construction raleigh',
+    'dental office construction raleigh nc',
+    'urgent care construction raleigh',
+    'medical office build out raleigh nc',
+    'medical facility renovation raleigh',
+    'medical construction research triangle',
+    'medical construction north hills raleigh',
+    'medical construction cary nc',
+    'wake county medical construction',
+    'medical office construction durham nc',
+    'healthcare construction durham',
+    'dental office construction durham nc',
+    'medical office build out durham nc',
+    'duke university area medical construction',
+    'medical construction duke medical center',
+    'life sciences construction durham',
+    'lab construction durham nc',
+    'rtp life sciences construction',
+    'durham county medical construction',
   ],
   alternates: {
     canonical: 'https://webuildclt.com/services/medical-construction',
@@ -69,7 +89,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Medical & Healthcare Construction Charlotte NC | We Build',
     description:
-      'Build or renovate your medical facility with Charlotte\'s veteran-owned healthcare construction experts. Medical offices, dental practices, urgent care clinics, surgical centers & more across Charlotte, Fort Mill & Lake Norman.',
+      'Build or renovate your medical facility with our veteran-owned healthcare construction team. Medical offices, dental practices, urgent care clinics, surgical centers, life-sciences labs & more across Charlotte, Fort Mill, Lake Norman, Raleigh, Durham, and the Research Triangle.',
     url: 'https://webuildclt.com/services/medical-construction',
     type: 'website',
   },
@@ -263,6 +283,16 @@ const costTiers = [
 
 const faqs = [
   {
+    question: 'Does We Build provide medical construction in Raleigh NC and the Research Triangle?',
+    answer:
+      'Yes. We Build delivers medical office construction, dental practice build-outs, urgent care construction, and healthcare facility renovations throughout Raleigh, Cary, Morrisville, North Hills, Brier Creek, Research Triangle Park, and greater Wake County. Raleigh medical projects leverage our experience with HIPAA-compliant design, infection control, medical gas systems, and Wake County permitting — including medical and dental suite fit-outs in the Rex Healthcare corridor, Cameron Village / Village District, North Hills, and the Raleigh medical-campus-adjacent markets. Call (980) 471-1745 for a free Raleigh medical construction consultation.',
+  },
+  {
+    question: 'Does We Build handle medical and life-sciences construction in Durham NC?',
+    answer:
+      'Yes. Durham is one of the most active medical and life-sciences construction markets in the Southeast, anchored by Duke University Medical Center and the life-sciences economy in Research Triangle Park. We Build provides medical office build-outs and renovations near Duke Medical Center and along the Ninth Street / Erwin Road corridor, dental practice construction throughout Durham, urgent care and specialty clinic construction, and life-sciences / lab build-outs for biotech and pharmaceutical tenants on the Durham County side of RTP. Life-sciences work involves specialized electrical capacity, redundant HVAC for lab and clean-room environments, chemical-resistant finishes, biosafety coordination, and tight commissioning timelines — and we coordinate directly with corporate facilities teams and third-party commissioning agents to pass qualification the first time.',
+  },
+  {
     question: 'What healthcare construction regulations apply in Charlotte, NC?',
     answer:
       'Healthcare construction in Charlotte is governed by multiple overlapping regulatory frameworks. The North Carolina State Building Code adopts the International Building Code with state amendments that include specific requirements for healthcare occupancies including Group I-2 (hospitals, surgical centers with overnight stays) and Group B (medical offices, outpatient clinics). Mecklenburg County Code Enforcement administers local permitting and inspections. Facilities that require state licensing, such as ambulatory surgical centers, must also comply with construction standards set by the North Carolina Division of Health Service Regulation, which conducts plan reviews and pre-occupancy inspections. Medicare-certified facilities must meet CMS Conditions for Coverage. Additionally, the ADA establishes accessibility requirements, and OSHA regulates workplace safety including radiation protection and chemical exposure limits. Our team navigates all of these regulatory layers as part of every healthcare project, ensuring your facility meets every applicable requirement before opening for patient care.',
@@ -364,7 +394,7 @@ export default function MedicalConstructionPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Medical & Healthcare Construction' },
             ]}
           />

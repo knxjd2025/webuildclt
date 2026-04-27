@@ -24,15 +24,15 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Construction Company Fort Mill SC | Licensed General Contractor',
+  title: 'Fort Mill SC Construction Company | Licensed GC',
   description:
-    'Need a contractor near me in Fort Mill SC? Licensed general contractor for commercial construction, commercial upfits & roof coating. SC licensed. Veteran-owned. 60+ years combined experience. Free consultations.',
+    'Licensed Fort Mill SC construction company. Commercial construction, commercial upfits, roof coating. SC licensed. Veteran-owned. 60+ years combined experience.',
   keywords: [
     'construction company fort mill sc',
     'general contractor fort mill sc',
     'commercial contractor fort mill sc',
     'contractor near me fort mill',
-    'construction companies near me',
+    'construction companies near me fort mill',
     'fort mill commercial construction',
     'fort mill remodeling contractor',
     'licensed contractor SC',

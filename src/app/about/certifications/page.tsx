@@ -33,23 +33,22 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title:
-    'Certifications & Licenses | We Build — Veteran-Owned, USGBC Member, Licensed in NC & SC',
+  title: 'Certifications & Licenses | We Build Charlotte NC',
   description:
-    'We Build is a veteran-owned, fully licensed, and insured general contractor in Charlotte, NC. USGBC member, FAA Part 107 certified drone pilot, licensed in North Carolina and South Carolina. General liability, workers comp, and commercial auto insurance. Free consultations — (980) 471-1745.',
+    'Licensed, bonded & insured GC in Charlotte NC. NC & SC GC licenses, USGBC member, FAA Part 107 drone pilot, OSHA certified, full insurance coverage.',
   keywords: [
-    'veteran owned construction company Charlotte NC',
-    'USGBC member contractor Charlotte',
-    'licensed general contractor North Carolina',
-    'licensed contractor South Carolina',
-    'FAA certified drone pilot Charlotte',
-    'insured construction company Charlotte NC',
+    'licensed general contractor charlotte nc',
+    'licensed contractor north carolina',
+    'licensed contractor south carolina',
+    'bonded and insured contractor charlotte nc',
+    'insured construction company charlotte nc',
+    'usgbc member contractor charlotte',
+    'faa certified drone pilot charlotte',
+    'osha certified contractor charlotte',
     'certified green building contractor',
-    'licensed contractor near me Charlotte',
-    'bonded and insured contractor Charlotte NC',
-    'veteran owned contractor near me',
-    'OSHA certified contractor Charlotte',
-    'commercial drone inspection Charlotte NC',
+    'commercial drone inspection charlotte nc',
+    'general contractor license north carolina',
+    'gc license number charlotte',
   ],
   openGraph: {
     title: 'Certifications & Licenses | We Build — Veteran-Owned, USGBC Member',

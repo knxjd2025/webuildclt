@@ -43,9 +43,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Commercial Renovation Charlotte NC | Building Remodeling & Renovation Contractor',
+  title: 'Commercial Renovation Charlotte NC | Building Remodel',
   description:
-    'Leading commercial renovation contractor in Charlotte, NC with 60+ years experience. Office renovation, retail remodeling, restaurant renovation, warehouse upgrades, healthcare facility renovation & building exterior restoration. Veteran-owned, licensed in NC & SC. Minimize business disruption. Free consultations. (980) 471-1745.',
+    'Commercial renovation contractor in Charlotte NC. Office, retail, restaurant, warehouse, healthcare renovation & exterior restoration. 60+ years experience.',
   keywords: [
     'commercial renovation Charlotte NC',
     'commercial renovation contractor Charlotte NC',
@@ -379,7 +379,7 @@ export default function CommercialRenovationPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Commercial Renovation' },
             ]}
           />

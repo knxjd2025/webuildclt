@@ -39,9 +39,9 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: 'Brewery Construction Charlotte NC | Taproom Buildout & Craft Brewery Contractor',
+  title: 'Brewery Construction Charlotte NC | Taproom Buildout',
   description:
-    'Expert brewery construction contractor in Charlotte, NC. Craft brewery buildouts, taproom construction, brewpub builds, beer garden construction, and cidery/distillery facilities. ABC permit compliant. Veteran-owned, licensed in NC & SC. Free consultations. (980) 471-1745.',
+    'Brewery construction in Charlotte NC. Craft brewery buildouts, taproom construction, brewpub builds, beer gardens, cidery/distillery. ABC permit compliant.',
   keywords: [
     'brewery construction Charlotte NC',
     'brewery construction near me',
@@ -140,17 +140,17 @@ const processSteps = [
     desc: 'Brewery construction in Charlotte requires permits from multiple agencies. Building permits cover structural, mechanical, electrical, and plumbing plans. If food service is included, the Mecklenburg County Health Department reviews kitchen plans. The fire marshal reviews fire suppression, emergency exits, and occupancy calculations. ABC licensing requires floor plan review showing production and public area separation. We submit to all agencies in parallel and manage the review process to minimize total permitting time, which typically runs 4 to 8 weeks for brewery projects.',
   },
   {
-    step: '06',
+    step: '03',
     title: 'Pre-Construction & Procurement',
     desc: 'Before construction begins, we finalize the build schedule, order long-lead materials like glycol chillers, custom bar components, and specialty flooring systems, coordinate subcontractor schedules, and develop a construction phasing plan. Brewery equipment often has 12 to 20 week lead times, so we align our construction schedule with your equipment delivery dates to ensure the facility is ready for installation when your brewing system arrives. We establish material staging areas and coordinate with your equipment supplier on delivery logistics.',
   },
   {
-    step: '07',
+    step: '04',
     title: 'Construction Phase',
     desc: 'Construction begins with demolition and rough-in for plumbing, electrical, mechanical, and structural systems. The production area receives priority: equipment pad foundations are poured, floor drains are installed with proper slope, glycol line chases are roughed in, electrical panels are sized and installed for chiller and packaging loads, and water and drain connections are positioned per the equipment layout. The taproom build proceeds in parallel with bar construction, draft system installation, restroom buildout, HVAC installation, and finish work. Weekly progress updates and site walks keep you informed throughout the build.',
   },
   {
-    step: '08',
+    step: '05',
     title: 'Inspections, Equipment Install & Handoff',
     desc: 'After construction passes building, fire, and health inspections, your brewing equipment is delivered and installed onto the prepared pads and utility connections. We coordinate with your equipment installer to verify that all utility connections, floor drains, and structural supports perform as designed. Final punch list items are addressed, and we deliver complete close-out documentation including as-built drawings, equipment pad specifications, glycol system schematics, and all permit certificates. Our one-year workmanship warranty covers all construction performed by our team.',
   },
@@ -315,7 +315,7 @@ export default function BreweryConstructionPage() {
         <div className="container mx-auto px-4">
           <Breadcrumbs
             items={[
-              { label: 'Services', href: '/services/general-contractor' },
+              { label: 'Services', href: '/services' },
               { label: 'Brewery Construction' },
             ]}
           />

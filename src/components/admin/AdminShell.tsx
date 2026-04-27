@@ -58,7 +58,7 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
             className="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-white/10 transition-colors"
           >
             <Megaphone className="h-5 w-5" />
-            Banner CTA
+            Site Banner
           </Link>
         </nav>
         <div className="p-4 border-t border-white/10">

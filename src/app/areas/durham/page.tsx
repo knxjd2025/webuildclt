@@ -27,9 +27,9 @@ import {
 } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Commercial Construction Durham NC | Veteran-Owned General Contractor',
+  title: 'Commercial Construction Durham NC | We Build',
   description:
-    'Commercial construction company serving Durham NC. Veteran-owned general contractor for commercial upfits, tenant improvements, roof coatings, and ground-up commercial builds across Downtown Durham, American Tobacco District, Research Triangle Park, Duke / Ninth Street, Brightleaf, Southpoint, and Durham County. Licensed in NC. 60+ years combined experience. USGBC member. Free consultations. (980) 471-1745.',
+    'Veteran-owned commercial construction in Durham NC. Upfits, tenant improvements, roof coating, ground-up builds across American Tobacco, RTP, Southpoint.',
   keywords: [
     'commercial construction durham nc',
     'general contractor durham nc',

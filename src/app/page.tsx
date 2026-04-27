@@ -31,10 +31,16 @@ const CTASection = dynamic(() => import('@/components/home/CTASection').then(m =
 /* ------------------------------------------------------------------ */
 
 export const metadata: Metadata = {
-  title:
-    'We Build | Commercial Construction Company Charlotte NC | General Contractor',
+  title: 'We Build | Commercial Construction Company Charlotte NC',
   description:
-    'We Build is Charlotte NC\'s veteran-owned commercial construction company. General contractor licensed in NC & SC. Commercial upfits, commercial construction, roof coating. 60+ years combined experience. USGBC member. Free consultations: (980) 471-1745.',
+    'Veteran-owned commercial construction company in Charlotte NC. Licensed NC & SC. Commercial upfits, construction, roof coating. USGBC member. (980) 471-1745.',
+  keywords: [
+    'we build charlotte',
+    'we build construction',
+    'we build commercial construction charlotte',
+    'webuildclt',
+    'we build clt',
+  ],
   alternates: {
     canonical: 'https://webuildclt.com',
   },
@@ -118,10 +124,11 @@ export default function HomePage() {
               <Button size="lg" variant="onImage" asChild>
                 <Link href="/portfolio">View Our Work</Link>
               </Button>
-              <Button size="lg" variant="onImage" className="md:hidden" asChild>
+              <Button size="lg" variant="onImage" asChild>
                 <a href="tel:+19804711745">
                   <Phone className="mr-2 h-5 w-5" aria-hidden="true" />
-                  Call Now
+                  <span className="md:hidden">Call Now</span>
+                  <span className="hidden md:inline">(980) 471-1745</span>
                 </a>
               </Button>
             </div>

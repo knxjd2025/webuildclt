@@ -55,7 +55,7 @@ export default function BannerCTAPage() {
 
       if (!res.ok) {
         const err = await res.json().catch(() => ({}));
-        alert(err.error ?? 'Failed to save banner settings');
+        alert(err.error ?? "We couldn't save your changes. Check your connection and try again.");
         return;
       }
 
@@ -76,7 +76,7 @@ export default function BannerCTAPage() {
   if (loading) {
     return (
       <AdminShell>
-        <div className="text-center py-12 text-muted-foreground">Loading...</div>
+        <div className="text-center py-12 text-muted-foreground">Loading banner settings…</div>
       </AdminShell>
     );
   }
@@ -84,9 +84,9 @@ export default function BannerCTAPage() {
   return (
     <AdminShell>
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-foreground">Banner CTA</h1>
+        <h1 className="text-2xl font-bold text-foreground">Site Banner</h1>
         <p className="text-muted-foreground mt-1">
-          Show a promotional banner at the top of every page.
+          Display a promotional message at the top of every page on your site.
         </p>
       </div>
 
@@ -131,8 +131,8 @@ export default function BannerCTAPage() {
             ) : (
               <div className="text-sm text-muted-foreground text-center py-4 border border-dashed rounded-lg">
                 {settings.enabled
-                  ? 'Enter banner text to see preview'
-                  : 'Banner is disabled — toggle it on below'}
+                  ? 'Add banner text to see the preview'
+                  : 'Banner is off. Turn it on below to preview it.'}
               </div>
             )}
           </CardContent>
@@ -141,7 +141,7 @@ export default function BannerCTAPage() {
         {/* Settings */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Settings</CardTitle>
+            <CardTitle className="text-base">Configuration</CardTitle>
           </CardHeader>
           <CardContent className="space-y-5">
             {/* Enabled toggle */}
@@ -149,7 +149,7 @@ export default function BannerCTAPage() {
               <div>
                 <Label className="text-sm font-medium">Show Banner</Label>
                 <p className="text-xs text-muted-foreground">
-                  Display the banner on all public pages
+                  When on, the banner shows at the top of every public page
                 </p>
               </div>
               <button
@@ -178,6 +178,9 @@ export default function BannerCTAPage() {
                 placeholder="Free consultation for commercial projects — limited time!"
                 className="min-h-[60px]"
               />
+              <p className="text-xs text-muted-foreground">
+                Keep it short — under 80 characters works best.
+              </p>
             </div>
 
             {/* Link */}
@@ -190,6 +193,9 @@ export default function BannerCTAPage() {
                   onChange={(e) => update('link_url', e.target.value)}
                   placeholder="/contact"
                 />
+                <p className="text-xs text-muted-foreground">
+                  Where the button links to. Use a path like <code>/contact</code> or a full URL.
+                </p>
               </div>
               <div className="space-y-2">
                 <Label htmlFor="link-label">Button Label</Label>
@@ -199,6 +205,9 @@ export default function BannerCTAPage() {
                   onChange={(e) => update('link_label', e.target.value)}
                   placeholder="Get Started"
                 />
+                <p className="text-xs text-muted-foreground">
+                  1–3 words works best.
+                </p>
               </div>
             </div>
 
@@ -238,6 +247,9 @@ export default function BannerCTAPage() {
                   />
                 </div>
               </div>
+              <p className="col-span-2 text-xs text-muted-foreground">
+                Make sure your text is readable against the background.
+              </p>
             </div>
 
             {/* Dismissible */}
@@ -245,7 +257,7 @@ export default function BannerCTAPage() {
               <div>
                 <Label className="text-sm font-medium">Dismissible</Label>
                 <p className="text-xs text-muted-foreground">
-                  Allow visitors to close the banner
+                  Show a close (×) button so visitors can hide the banner
                 </p>
               </div>
               <button
@@ -274,11 +286,11 @@ export default function BannerCTAPage() {
             ) : (
               <Save className="h-4 w-4 mr-2" />
             )}
-            Save Banner
+            Save Changes
           </Button>
           {saved && (
             <span className="text-sm text-green-600 font-medium">
-              Saved successfully!
+              Saved — your banner is now live
             </span>
           )}
         </div>
